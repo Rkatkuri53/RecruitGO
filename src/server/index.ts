@@ -1096,47 +1096,92 @@ app.post('/api/parse-cv-base64', async (req, res) => {
         const { filename, base64 } = req.body;
         if (!filename || !base64) return res.status(400).json({ error: 'Missing filename or base64' });
 
-        const ext = filename.split('.').pop().toLowerCase();
+        const safeFilename = path.basename(filename);
         const buffer = Buffer.from(base64, 'base64');
-        
-        let extractedText = '';
-        
-        if (ext === 'pdf') {
-            const pdfParse = require('pdf-parse');
-            const pdfData = await pdfParse(buffer);
-            extractedText = pdfData.text;
-        } else if (ext === 'docx' || ext === 'doc') {
-            const mammoth = require('mammoth');
-            const data = await mammoth.extractRawText({ buffer: buffer });
-            extractedText = data.value;
-        } else {
-            return res.status(400).json({ error: 'Unsupported file type. Use PDF or DOCX.' });
+
+        // 1. Save uploaded resume file to data/resumes so it can be previewed/downloaded
+        const resumesDir = path.join(process.cwd(), 'data', 'resumes');
+        if (!fs.existsSync(resumesDir)) {
+            try { fs.mkdirSync(resumesDir, { recursive: true }); } catch (e) {}
         }
-        
-        if (!extractedText || extractedText.trim() === '') {
-            return res.status(400).json({ error: 'Could not extract text from file.' });
-        }
-        
-        // Use AI to extract structured info
-        const { AIService } = require('../../dist/services/ai.js');
-        const ai = new AIService();
-        const prompt = `Extract the following information from the provided resume text. Return ONLY a valid JSON object (no markdown formatting, no code blocks) with these exact keys: "name", "email", "phone", "headline". The headline should be a short 5-10 word summary of their primary skills or current job title. If a field is not found, leave it as an empty string. 
-Resume Text: 
-${extractedText.substring(0, 5000)}`;
-        
-        const aiResponse = await ai.generateText(prompt);
-        let parsed = { name: '', email: '', phone: '', headline: '' };
+        const savePath = path.join(resumesDir, safeFilename);
         try {
-            let clean = aiResponse.replace(/\`\`\`json/gi, '').replace(/\`\`\`/g, '').trim();
-            parsed = JSON.parse(clean);
-        } catch(e: any) {
-            console.error('Failed to parse AI response', aiResponse);
-            return res.status(500).json({ error: 'AI returned malformed data', raw: aiResponse });
+            fs.writeFileSync(savePath, buffer);
+        } catch (saveErr) {
+            console.error('Could not save uploaded resume file to disk:', saveErr);
         }
-        
-        res.json({ success: true, data: parsed });
-    } catch (e) {
-        console.error(e);
+
+        // 2. Extract text using ResumeParser (handles PDF, DOCX, DOC, TXT, RTF safely without require crashes)
+        const extractedText = await ResumeParser.parseBuffer(buffer, safeFilename);
+        if (!extractedText || extractedText.trim() === '') {
+            return res.status(400).json({ error: 'Could not extract readable text from the uploaded CV.' });
+        }
+
+        // 3. Deterministic Heuristic Extraction (immediate, 100% reliable fallback)
+        const heuristic = ResumeParser.extractCandidateProfile(extractedText, safeFilename);
+
+        let finalName = heuristic.name || '';
+        let finalEmail = heuristic.email || '';
+        let finalPhone = heuristic.phone || '';
+        let finalHeadline = heuristic.headline || '';
+        let finalSkills = heuristic.skills || [];
+        let finalExp = heuristic.experience_years || '';
+        let finalCompany = '';
+        let finalLocation = '';
+
+        // 4. AI Structured Extraction Enhancement (using module-level ai instance)
+        try {
+            const prompt = `Extract the candidate's professional profile from this resume text.
+Return ONLY a valid JSON object (no markdown, no backticks, no codeblocks) with these exact keys:
+"name": string (full name of the candidate),
+"email": string,
+"phone": string,
+"headline": string (current professional job title or 3-6 word summary),
+"current_company": string (most recent or current employer),
+"location": string (city, state, or country),
+"experience_years": string (e.g. "5 Years"),
+"skills": array of strings (top 8-15 technical/functional skills)
+
+Resume Text:
+${extractedText.substring(0, 4500)}`;
+
+            const aiResponse = await ai.generateText(prompt);
+            if (aiResponse) {
+                const clean = aiResponse.replace(/```json/gi, '').replace(/```/g, '').trim();
+                const parsed = JSON.parse(clean);
+                if (parsed.name && parsed.name.trim().length > 1) finalName = parsed.name.trim();
+                if (parsed.email && parsed.email.includes('@')) finalEmail = parsed.email.trim();
+                if (parsed.phone && parsed.phone.trim().length >= 7) finalPhone = parsed.phone.trim();
+                if (parsed.headline && parsed.headline.trim().length > 2) finalHeadline = parsed.headline.trim();
+                if (parsed.current_company && parsed.current_company.trim().length > 1) finalCompany = parsed.current_company.trim();
+                if (parsed.location && parsed.location.trim().length > 1) finalLocation = parsed.location.trim();
+                if (parsed.experience_years && parsed.experience_years.trim().length > 0) finalExp = parsed.experience_years.trim();
+                if (Array.isArray(parsed.skills) && parsed.skills.length > 0) {
+                    const combinedSkills = Array.from(new Set([...finalSkills, ...parsed.skills]));
+                    finalSkills = combinedSkills;
+                }
+            }
+        } catch (aiErr: any) {
+            console.log('[CV Parse] AI enhancement note:', aiErr.message || aiErr);
+            // Non-fatal: heuristic values are already extracted
+        }
+
+        res.json({
+            success: true,
+            data: {
+                name: finalName,
+                email: finalEmail,
+                phone: finalPhone,
+                headline: finalHeadline,
+                current_company: finalCompany,
+                location: finalLocation,
+                experience_years: finalExp,
+                skills: finalSkills,
+                cv_path: 'resumes/' + safeFilename
+            }
+        });
+    } catch (e: any) {
+        console.error('[CV Parse Error]', e);
         res.status(500).json({ error: (e as Error).message });
     }
 });

@@ -711,6 +711,9 @@ function openAddCandidateModal() {
 }
 
 function showAddCandStep2() {
+    if (typeof switchIngestionTab === 'function') {
+        switchIngestionTab('manual');
+    }
     const s1 = document.getElementById('add-cand-step1');
     const s2 = document.getElementById('add-cand-step2');
     if (s1) s1.style.display = 'none';
@@ -727,10 +730,16 @@ function closeAddCandidateModal() {
 }
 
 async function handleCvUpload(event) {
+    if (window.handleCvUpload && window.handleCvUpload !== handleCvUpload) {
+        return window.handleCvUpload(event);
+    }
     const file = event.target.files[0];
     if (!file) return;
     
-    document.getElementById('cv-upload-loading').style.display = 'block';
+    const loading = document.getElementById('cv-upload-loading');
+    const dropZone = document.getElementById('cv-drop-zone');
+    if (loading) loading.style.display = 'block';
+    if (dropZone) dropZone.style.display = 'none';
     
     const reader = new FileReader();
     reader.onload = async function(e) {
@@ -748,21 +757,36 @@ async function handleCvUpload(event) {
             const result = await res.json();
             
             if (result.success && result.data) {
-                document.getElementById('add-cand-name').value = result.data.name || '';
-                document.getElementById('add-cand-email').value = result.data.email || '';
-                document.getElementById('add-cand-phone').value = result.data.phone || '';
-                document.getElementById('add-cand-headline').value = result.data.headline || '';
-                showToast('success', 'CV Parsed Successfully!');
+                const d = result.data;
+                const setVal = (id, val) => { const el = document.getElementById(id); if (el && val) el.value = val; };
+                setVal('add-cand-name', d.name);
+                setVal('add-cand-email', d.email);
+                setVal('add-cand-phone', d.phone);
+                setVal('add-cand-headline', d.headline || d.title);
+                setVal('add-cand-company', d.current_company || d.company);
+                setVal('add-cand-location', d.location);
+                setVal('add-cand-exp', d.experience_years || d.experience);
+                setVal('add-cand-skills', Array.isArray(d.skills) ? d.skills.join(', ') : d.skills);
+                setVal('add-cand-cv-path', d.cv_path || ('resumes/' + file.name));
+                
+                if (typeof switchIngestionTab === 'function') {
+                    switchIngestionTab('manual');
+                }
+                if (d.email && typeof checkCandidateDuplicate === 'function') checkCandidateDuplicate('email', d.email);
+                else if (d.phone && typeof checkCandidateDuplicate === 'function') checkCandidateDuplicate('phone', d.phone);
+
+                showToast('success', 'CV Parsed & Auto-Filled Successfully!');
             } else {
                 showToast('error', result.error || 'Failed to parse CV');
+                if (typeof switchIngestionTab === 'function') switchIngestionTab('manual');
             }
         } catch (err) {
-            console.error(err);
+            console.error('CV upload error:', err);
             showToast('error', 'Network error during CV parsing');
+            if (typeof switchIngestionTab === 'function') switchIngestionTab('manual');
         } finally {
-            document.getElementById('cv-upload-loading').style.display = 'none';
-            // Always show the manual form next so they can verify/edit
-            showAddCandStep2();
+            if (loading) loading.style.display = 'none';
+            if (dropZone) dropZone.style.display = 'block';
         }
     };
     reader.readAsDataURL(file);
