@@ -1,0 +1,734 @@
+FILE_NAME:
+076_DYNAMICS_365_POWER_PLATFORM.txt
+
+ID:
+076
+
+DOMAIN:
+Microsoft
+
+CATEGORY:
+Low-Code / Enterprise Application Platform
+
+SUBCATEGORY:
+Microsoft Power Platform
+
+PRIMARY_ROLE:
+Power Platform Consultant
+
+RELATED_FILES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+070_DYNAMICS_365_FINANCE_OPERATIONS.txt
+
+071_DYNAMICS_365_BUSINESS_CENTRAL.txt
+
+072_DYNAMICS_365_CRM_SALES.txt
+
+073_DYNAMICS_365_CUSTOMER_SERVICE.txt
+
+074_DYNAMICS_365_FIELD_SERVICE.txt
+
+075_DYNAMICS_365_MARKETING.txt
+
+077_DYNAMICS_365_DEVELOPMENT.txt
+
+078_DYNAMICS_365_INTEGRATION.txt
+
+079_DYNAMICS_365_DATA_AI.txt
+
+011_APIS.txt
+
+013_CLOUD.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Microsoft Power Platform
+
+PURPOSE:
+Enable AI agents to understand Microsoft Power Platform, including Power Apps, Power Automate, Power BI, Power Pages, Microsoft Copilot Studio, Dataverse, AI Builder, enterprise automation, low-code development, consultant responsibilities, implementation methodologies, and digital transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Power Platform
+Power Apps
+Power Automate
+Power BI
+Power Pages
+Copilot Studio
+AI Builder
+Dataverse
+Microsoft Power Platform
+Canvas App
+Model-Driven App
+Desktop Flows
+RPA
+
+ROLE_FAMILIES:
+Power Platform Consultant
+
+Power Apps Developer
+
+Power Automate Developer
+
+Power Platform Architect
+
+Power Platform Administrator
+
+Business Applications Consultant
+
+Automation Consultant
+
+COMMON_JOB_TITLES:
+Microsoft Power Platform Consultant
+
+Power Apps Developer
+
+Power Automate Consultant
+
+Power Platform Architect
+
+Power BI Consultant
+
+Power Platform Developer
+
+ALTERNATIVE_TITLES:
+Microsoft Business Applications Consultant
+
+Low-Code Developer
+
+Citizen Development Consultant
+
+Digital Automation Consultant
+
+CORE_SKILLS:
+Power Apps
+
+Power Automate
+
+Power BI
+
+Dataverse
+
+Power Pages
+
+Copilot Studio
+
+AI Builder
+
+Low-Code Development
+
+SUPPORTING_SKILLS:
+Azure
+
+REST APIs
+
+JavaScript
+
+C#
+
+SQL
+
+SharePoint
+
+Microsoft 365
+
+Security
+
+RELATED_TECHNOLOGIES:
+Power Apps
+
+Power Automate
+
+Power BI
+
+Power Pages
+
+Dataverse
+
+Copilot Studio
+
+AI Builder
+
+Azure
+
+Microsoft 365
+
+SharePoint
+
+Dynamics 365
+
+TECHNOLOGY_CATEGORY:
+Enterprise Low-Code Platform
+
+DEPENDENCIES:
+
+011_APIS.txt
+
+013_CLOUD.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Microsoft Power Platform is Microsoft's enterprise low-code platform for building business applications, workflow automation, analytics, AI-powered solutions and customer-facing portals.
+
+It integrates natively with Dynamics 365, Microsoft 365, Azure and hundreds of enterprise applications through connectors.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Power Apps
+
+Power Automate
+
+Power BI
+
+Power Pages
+
+Dataverse
+
+Copilot Studio
+
+AI Builder
+
+Desktop Flows (RPA)
+
+==================================================
+POWER APPS
+==========
+
+COMMON RESPONSIBILITIES
+
+Canvas Apps
+
+Model-Driven Apps
+
+Custom Business Applications
+
+Responsive UI
+
+Offline Applications
+
+Dataverse Integration
+
+==================================================
+POWER AUTOMATE
+==============
+
+COMMON RESPONSIBILITIES
+
+Workflow Automation
+
+Cloud Flows
+
+Desktop Flows
+
+Business Process Automation
+
+Approvals
+
+Notifications
+
+RPA
+
+==================================================
+POWER BI
+========
+
+COMMON RESPONSIBILITIES
+
+Dashboards
+
+Reports
+
+Data Modeling
+
+DAX
+
+Power Query
+
+Executive Analytics
+
+==================================================
+POWER PAGES
+===========
+
+COMMON RESPONSIBILITIES
+
+External Portals
+
+Partner Portals
+
+Customer Portals
+
+Authentication
+
+Portal Management
+
+==================================================
+DATAVERSE
+=========
+
+COMMON RESPONSIBILITIES
+
+Tables
+
+Relationships
+
+Business Rules
+
+Security
+
+Data Management
+
+Solution Management
+
+==================================================
+COPILOT STUDIO
+==============
+
+COMMON RESPONSIBILITIES
+
+Conversational AI
+
+Virtual Agents
+
+Generative AI
+
+Knowledge Integration
+
+Bot Workflows
+
+==================================================
+AI BUILDER
+==========
+
+COMMON RESPONSIBILITIES
+
+Document Processing
+
+Prediction Models
+
+Object Detection
+
+Form Processing
+
+AI Automation
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Workflow Automation
+
+Digital Forms
+
+Case Management
+
+Business Process Automation
+
+Reporting
+
+Customer Self-Service
+
+Citizen Development
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Environments
+
+Solutions
+
+Security Roles
+
+Connections
+
+Connectors
+
+Flows
+
+Applications
+
+ALM
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Requirements
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Training
+
+↓
+
+Support
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Power Platform Implementation
+
+Workflow Automation
+
+Digital Transformation
+
+Citizen Development
+
+Business Process Automation
+
+RPA Implementation
+
+Analytics Modernization
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Dynamics 365
+
+Microsoft 365
+
+Azure
+
+SharePoint
+
+SQL Server
+
+SAP
+
+Oracle
+
+Salesforce
+
+REST APIs
+
+Microsoft Graph
+
+==================================================
+COMMON REPORTS
+==============
+
+Executive Dashboards
+
+Operational KPIs
+
+Workflow Analytics
+
+Business Intelligence
+
+Automation Metrics
+
+Adoption Reports
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Business Users
+
+Citizen Developers
+
+IT Teams
+
+Business Analysts
+
+Operations Teams
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Component
+
+*
+
+Automation
+
+*
+
+Development
+
+Example
+
+("Power Platform")
+
+AND
+
+("Power Apps" OR "Power Automate")
+
+AND
+
+(Dataverse OR "Power BI")
+
+AND
+
+(Developer OR Consultant OR Architect)
+
+Expand Power Platform technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Power Platform
+
+Critical
+
+Power Apps
+
+Critical
+
+Power Automate
+
+Critical
+
+Dataverse
+
+High
+
+Power BI
+
+High
+
+Power Pages
+
+Medium
+
+Copilot Studio
+
+Medium
+
+AI Builder
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Power Apps
+
+↓
+
+Dynamics Development
+
+High
+
+---
+
+UiPath
+
+↓
+
+Power Automate Desktop
+
+Medium
+
+---
+
+Tableau
+
+↓
+
+Power BI
+
+Medium
+
+---
+
+Appian
+
+↓
+
+Power Platform
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Platform Component
+
+Development Type
+
+Automation Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Power Apps
+
+Power Automate
+
+Power BI
+
+Power Pages
+
+Dataverse
+
+Copilot Studio
+
+AI Builder
+
+Identify whether the consultant performed
+
+Application Development
+
+Workflow Automation
+
+Analytics
+
+Portal Development
+
+AI Implementation
+
+Testing
+
+Deployment
+
+Support
+
+Recognize candidates with enterprise Power Platform implementation, low-code application development, workflow automation, Dataverse architecture, Copilot Studio and AI Builder implementation experience as senior Power Platform consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Power BI experience as complete Power Platform expertise.
+
+Confusing Canvas Apps with Model-Driven Apps.
+
+Matching candidates solely because they mention Microsoft Power Platform.
+
+Ignoring Dataverse architecture.
+
+Treating Excel automation as enterprise Power Automate implementation.
+
+Ignoring ALM, environment strategy and governance.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Power Apps
+
+↓
+
+Canvas Apps
+
+Model-Driven Apps
+
+Custom Apps
+
+---
+
+Power Automate
+
+↓
+
+Cloud Flows
+
+Desktop Flows
+
+RPA
+
+Workflow Automation
+
+---
+
+Power BI
+
+↓
+
+Dashboards
+
+DAX
+
+Power Query
+
+Reports
+
+---
+
+Dataverse
+
+↓
+
+Tables
+
+Entities
+
+Business Rules
+
+Security Roles
+
+---
+
+AI
+
+↓
+
+Copilot Studio
+
+AI Builder
+
+Virtual Agents
+
+Generative AI
+
+END_OF_FILE

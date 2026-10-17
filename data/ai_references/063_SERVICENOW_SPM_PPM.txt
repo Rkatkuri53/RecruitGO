@@ -1,0 +1,681 @@
+FILE_NAME:
+063_SERVICENOW_SPM_PPM.txt
+
+ID:
+063
+
+DOMAIN:
+ServiceNow
+
+CATEGORY:
+Enterprise Platform
+
+SUBCATEGORY:
+ServiceNow Strategic Portfolio Management (SPM) / Project Portfolio Management (PPM)
+
+PRIMARY_ROLE:
+ServiceNow SPM Consultant
+
+RELATED_FILES:
+
+057_SERVICENOW_PLATFORM.txt
+
+058_SERVICENOW_ITSM.txt
+
+059_SERVICENOW_ITOM.txt
+
+062_SERVICENOW_CSM.txt
+
+064_SERVICENOW_GRC_IRM.txt
+
+066_SERVICENOW_PLATFORM_DEVELOPMENT.txt
+
+067_SERVICENOW_INTEGRATION.txt
+
+018_ENTERPRISE_PLATFORMS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+ServiceNow Strategic Portfolio Management (SPM)
+
+PURPOSE:
+Enable AI agents to understand ServiceNow Strategic Portfolio Management (SPM), formerly Project Portfolio Management (PPM), including demand management, project management, agile portfolio management, resource management, investment planning, enterprise architecture, consultant responsibilities, implementation methodologies, and SPM transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+ServiceNow SPM
+ServiceNow PPM
+Strategic Portfolio Management
+Project Portfolio Management
+Demand Management
+Project Management
+Agile Development
+Resource Management
+Investment Planning
+Strategic Planning
+OKRs
+
+ROLE_FAMILIES:
+ServiceNow SPM Consultant
+PPM Consultant
+Project Portfolio Consultant
+PMO Consultant
+ServiceNow Solution Architect
+Business Transformation Consultant
+
+COMMON_JOB_TITLES:
+ServiceNow SPM Consultant
+ServiceNow PPM Consultant
+Portfolio Management Consultant
+PMO Consultant
+ServiceNow Functional Consultant
+
+ALTERNATIVE_TITLES:
+Strategic Portfolio Consultant
+Enterprise Portfolio Consultant
+Project Governance Consultant
+
+CORE_SKILLS:
+Demand Management
+
+Project Portfolio Management
+
+Resource Management
+
+Financial Planning
+
+Agile Portfolio Management
+
+Roadmapping
+
+Workflow Automation
+
+Configuration
+
+SUPPORTING_SKILLS:
+Reporting
+
+Flow Designer
+
+REST APIs
+
+Integration
+
+Agile
+
+Scrum
+
+Project Management
+
+RELATED_TECHNOLOGIES:
+ServiceNow SPM
+
+Demand Management
+
+Project Management
+
+Agile Development
+
+Resource Management
+
+Roadmaps
+
+Investment Funding
+
+Performance Analytics
+
+TECHNOLOGY_CATEGORY:
+Enterprise Portfolio Management Platform
+
+DEPENDENCIES:
+
+057_SERVICENOW_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+ServiceNow Strategic Portfolio Management (SPM), formerly Project Portfolio Management (PPM), enables organizations to manage enterprise demand, projects, portfolios, investments, agile delivery and strategic initiatives from a single platform.
+
+It helps executives align business strategy with technology investments and delivery execution.
+
+==================================================
+CORE MODULES
+============
+
+Demand Management
+
+Project Management
+
+Portfolio Management
+
+Resource Management
+
+Investment Funding
+
+Agile Development
+
+Roadmaps
+
+Objectives & Key Results (OKRs)
+
+==================================================
+DEMAND MANAGEMENT
+=================
+
+COMMON RESPONSIBILITIES
+
+Demand Intake
+
+Business Cases
+
+Demand Scoring
+
+Prioritization
+
+Approvals
+
+Demand Lifecycle
+
+==================================================
+PROJECT MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Project Planning
+
+Tasks
+
+Milestones
+
+Schedules
+
+Risks
+
+Issues
+
+Dependencies
+
+==================================================
+PORTFOLIO MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+Portfolio Planning
+
+Strategic Alignment
+
+Portfolio Reviews
+
+Investment Prioritization
+
+Executive Dashboards
+
+==================================================
+RESOURCE MANAGEMENT
+===================
+
+COMMON RESPONSIBILITIES
+
+Capacity Planning
+
+Resource Allocation
+
+Skill Matching
+
+Resource Forecasting
+
+Utilization
+
+==================================================
+AGILE DEVELOPMENT
+=================
+
+COMMON RESPONSIBILITIES
+
+Epics
+
+Features
+
+Stories
+
+Sprints
+
+Backlogs
+
+Release Planning
+
+Scrum Boards
+
+==================================================
+INVESTMENT FUNDING
+==================
+
+COMMON RESPONSIBILITIES
+
+Budget Planning
+
+Cost Tracking
+
+Funding Requests
+
+Financial Governance
+
+ROI Analysis
+
+==================================================
+ROADMAPS & OKRS
+===============
+
+COMMON RESPONSIBILITIES
+
+Strategic Roadmaps
+
+Business Objectives
+
+Key Results
+
+Program Alignment
+
+Initiative Tracking
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Idea-to-Demand
+
+Demand-to-Project
+
+Project-to-Delivery
+
+Portfolio Governance
+
+Resource Planning
+
+Strategic Planning
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Portfolios
+
+Programs
+
+Projects
+
+Resources
+
+Roadmaps
+
+Financial Plans
+
+Approval Workflows
+
+Dashboards
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Portfolio Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+Training
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+SPM Implementation
+
+PPM Modernization
+
+PMO Transformation
+
+Portfolio Governance
+
+Agile Transformation
+
+Enterprise Planning
+
+Digital Transformation
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Jira
+
+Azure DevOps
+
+Microsoft Project
+
+SAP
+
+Oracle ERP
+
+REST APIs
+
+Power BI
+
+Tableau
+
+==================================================
+COMMON REPORTS
+==============
+
+Portfolio Dashboards
+
+Project Health
+
+Demand Pipeline
+
+Resource Utilization
+
+Financial Reports
+
+Executive KPIs
+
+Roadmap Progress
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+PMO
+
+Project Managers
+
+Program Managers
+
+Portfolio Managers
+
+Executives
+
+Resource Managers
+
+Business Leaders
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Portfolio
+
+*
+
+Projects
+
+*
+
+Demand
+
+Example
+
+(ServiceNow)
+
+AND
+
+(SPM OR PPM)
+
+AND
+
+(Project OR Portfolio)
+
+AND
+
+(Demand OR Resource)
+
+Expand SPM terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+ServiceNow SPM
+
+Critical
+
+Portfolio Management
+
+Critical
+
+Project Management
+
+High
+
+Demand Management
+
+High
+
+Resource Management
+
+High
+
+Agile
+
+Medium
+
+Financial Planning
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Microsoft Project Online
+
+↓
+
+ServiceNow SPM
+
+Medium
+
+---
+
+Planview
+
+↓
+
+ServiceNow SPM
+
+High
+
+---
+
+Clarity PPM
+
+↓
+
+ServiceNow SPM
+
+High
+
+---
+
+Jira Align
+
+↓
+
+ServiceNow Agile
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+SPM Module
+
+Planning Scope
+
+Portfolio Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Demand Management
+
+Project Management
+
+Portfolio Management
+
+Agile
+
+Resource Management
+
+Roadmaps
+
+Identify whether the consultant performed
+
+Portfolio Design
+
+Demand Configuration
+
+Project Configuration
+
+Resource Planning
+
+Reporting
+
+Integration
+
+Testing
+
+Deployment
+
+Recognize candidates with enterprise SPM implementation, PMO transformation, demand management, agile portfolio management, strategic roadmaps and executive portfolio governance experience as senior ServiceNow SPM consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SPM as ITSM.
+
+Confusing project management with portfolio management.
+
+Matching candidates solely because they mention ServiceNow.
+
+Ignoring PMO governance experience.
+
+Treating Microsoft Project experience as ServiceNow SPM implementation.
+
+Ignoring demand and resource management expertise.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+SPM
+
+↓
+
+Strategic Portfolio Management
+
+PPM
+
+Portfolio Management
+
+---
+
+Demand
+
+↓
+
+Business Case
+
+Demand Intake
+
+Scoring
+
+Prioritization
+
+---
+
+Projects
+
+↓
+
+Programs
+
+Milestones
+
+Schedules
+
+Risks
+
+Dependencies
+
+---
+
+Agile
+
+↓
+
+Scrum
+
+Epics
+
+Features
+
+Stories
+
+Sprints
+
+Backlogs
+
+END_OF_FILE

@@ -1,0 +1,698 @@
+FILE_NAME:
+111_INFOR_LN.txt
+
+ID:
+111
+
+DOMAIN:
+Infor
+
+CATEGORY:
+Enterprise Resource Planning (ERP)
+
+SUBCATEGORY:
+Infor LN
+
+PRIMARY_ROLE:
+Infor LN Consultant
+
+RELATED_FILES:
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+112_INFOR_M3.txt
+
+113_INFOR_CLOUDSUITE.txt
+
+117_INFOR_SCM.txt
+
+118_INFOR_OS_ION.txt
+
+119_INFOR_BI_ANALYTICS.txt
+
+013_CLOUD.txt
+
+VERSION:
+2.0
+
+CATEGORY:
+Infor LN
+
+PURPOSE:
+Enable AI agents to understand Infor LN ERP, manufacturing ERP, project-based manufacturing, aerospace & defense, automotive, engineer-to-order (ETO), configure-to-order (CTO), supply chain, finance, consultant responsibilities, implementation methodologies, and enterprise manufacturing transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Infor LN
+BAAN
+Baan ERP
+Infor ERP LN
+Manufacturing ERP
+Engineer-to-Order
+ETO
+Make-to-Order
+MTO
+Configure-to-Order
+CTO
+Project Manufacturing
+APS
+
+ROLE_FAMILIES:
+Infor LN Functional Consultant
+
+Infor LN Technical Consultant
+
+Infor LN Developer
+
+Infor LN Solution Architect
+
+Manufacturing ERP Consultant
+
+COMMON_JOB_TITLES:
+Infor LN Consultant
+
+Infor LN Functional Consultant
+
+Infor LN Technical Consultant
+
+Infor LN Developer
+
+Infor LN Solution Architect
+
+ALTERNATIVE_TITLES:
+Manufacturing ERP Consultant
+
+Industrial ERP Consultant
+
+Engineer-to-Order ERP Consultant
+
+CORE_SKILLS:
+Manufacturing
+
+Production Planning
+
+Supply Chain
+
+Procurement
+
+Projects
+
+Finance
+
+Warehouse
+
+Implementation
+
+SUPPORTING_SKILLS:
+Customization
+
+4GL
+
+SQL
+
+Integration
+
+Reporting
+
+Migration
+
+Testing
+
+RELATED_TECHNOLOGIES:
+Infor LN
+
+Infor CloudSuite Industrial Enterprise
+
+Infor OS
+
+Infor ION
+
+Enterprise Planning
+
+Factory Track
+
+Infor BI
+
+TECHNOLOGY_CATEGORY:
+Manufacturing ERP Platform
+
+DEPENDENCIES:
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Infor LN is Infor's enterprise ERP solution for discrete manufacturing organizations, particularly companies operating engineer-to-order (ETO), make-to-order (MTO), configure-to-order (CTO) and project-based manufacturing models.
+
+Originally known as BAAN ERP, Infor LN is widely implemented across aerospace & defense, automotive, industrial manufacturing, electronics and high-tech industries.
+
+==================================================
+PRODUCT EVOLUTION
+=================
+
+BAAN ERP
+
+↓
+
+Baan IV
+
+↓
+
+Infor ERP LN
+
+↓
+
+Infor LN
+
+↓
+
+Infor CloudSuite Industrial Enterprise
+
+==================================================
+CORE MODULES
+============
+
+Manufacturing
+
+Planning
+
+Procurement
+
+Warehouse
+
+Projects
+
+Service
+
+Finance
+
+Quality
+
+==================================================
+MANUFACTURING
+=============
+
+COMMON RESPONSIBILITIES
+
+Bills of Material (BOM)
+
+Routing
+
+Production Orders
+
+Work Centers
+
+Shop Floor Control
+
+Capacity Planning
+
+==================================================
+PLANNING
+========
+
+COMMON RESPONSIBILITIES
+
+Master Planning
+
+Material Requirements Planning (MRP)
+
+Advanced Planning
+
+Demand Planning
+
+Capacity Planning
+
+==================================================
+PROCUREMENT
+===========
+
+COMMON RESPONSIBILITIES
+
+Purchase Requisitions
+
+Purchase Orders
+
+Suppliers
+
+Vendor Management
+
+Sourcing
+
+==================================================
+WAREHOUSE
+=========
+
+COMMON RESPONSIBILITIES
+
+Inventory
+
+Receiving
+
+Shipping
+
+Stock Transfers
+
+Warehouse Operations
+
+==================================================
+PROJECTS
+========
+
+COMMON RESPONSIBILITIES
+
+Engineer-to-Order
+
+Project Costing
+
+Project Planning
+
+Milestones
+
+Contract Management
+
+==================================================
+SERVICE MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Service Orders
+
+Field Service
+
+Warranty
+
+Maintenance
+
+Installed Base
+
+==================================================
+FINANCE
+=======
+
+COMMON RESPONSIBILITIES
+
+General Ledger
+
+Accounts Payable
+
+Accounts Receivable
+
+Cost Accounting
+
+Financial Reporting
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Quote-to-Cash
+
+Plan-to-Produce
+
+Procure-to-Pay
+
+Order-to-Cash
+
+Project Lifecycle
+
+Service Management
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Companies
+
+Sites
+
+Warehouses
+
+Planning Parameters
+
+Financial Setup
+
+Security
+
+Users
+
+Workflows
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+ERP Implementation
+
+Manufacturing Modernization
+
+Cloud Migration
+
+ETO Transformation
+
+Supply Chain Modernization
+
+ERP Upgrade
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Infor OS
+
+Infor ION
+
+PLM
+
+MES
+
+CRM
+
+REST APIs
+
+EDI
+
+BI Platforms
+
+==================================================
+COMMON REPORTS
+==============
+
+Production Reports
+
+Inventory Reports
+
+MRP Reports
+
+Project Reports
+
+Financial Reports
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Manufacturing
+
+Supply Chain
+
+Procurement
+
+Finance
+
+Engineering
+
+Operations
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Manufacturing
+
+*
+
+ERP
+
+*
+
+Industry
+
+Example
+
+("Infor LN" OR BAAN)
+
+AND
+
+(Manufacturing OR ETO)
+
+AND
+
+(MRP OR Projects)
+
+AND
+
+(Consultant OR Architect)
+
+Expand Infor LN terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Infor LN
+
+Critical
+
+Manufacturing
+
+Critical
+
+ETO / CTO / MTO
+
+High
+
+MRP
+
+High
+
+Projects
+
+High
+
+Finance
+
+Medium
+
+Warehouse
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP PP
+
+↓
+
+Infor LN Manufacturing
+
+Medium
+
+---
+
+Oracle Manufacturing Cloud
+
+↓
+
+Infor LN
+
+Medium
+
+---
+
+IFS Applications
+
+↓
+
+Infor LN
+
+Medium
+
+---
+
+Epicor ERP
+
+↓
+
+Manufacturing ERP
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+LN Version
+
+Industry
+
+Manufacturing Type
+
+Functional vs Technical
+
+Implementation Phase
+
+Differentiate
+
+Manufacturing
+
+Projects
+
+Planning
+
+Finance
+
+Warehouse
+
+Service
+
+Identify whether the consultant performed
+
+Requirements
+
+Configuration
+
+Customization
+
+Integration
+
+Migration
+
+Testing
+
+Go-Live
+
+Support
+
+Recognize candidates with enterprise Infor LN implementation, BAAN migration, discrete manufacturing transformation, ETO project delivery, planning optimization and enterprise manufacturing ERP experience as senior Infor LN consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating ERP operations as Infor LN implementation.
+
+Confusing BAAN user experience with Infor LN consulting.
+
+Matching candidates solely because they mention manufacturing.
+
+Ignoring ETO, CTO and project manufacturing expertise.
+
+Treating production planning as ERP implementation.
+
+Ignoring industry specialization.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Infor LN
+
+↓
+
+Infor ERP LN
+
+BAAN
+
+Baan ERP
+
+---
+
+Manufacturing
+
+↓
+
+Discrete Manufacturing
+
+Shop Floor
+
+Production
+
+Routing
+
+BOM
+
+---
+
+Planning
+
+↓
+
+MRP
+
+APS
+
+Capacity Planning
+
+Scheduling
+
+Demand Planning
+
+---
+
+Projects
+
+↓
+
+Engineer-to-Order
+
+ETO
+
+Configure-to-Order
+
+CTO
+
+Project Manufacturing
+
+END_OF_FILE

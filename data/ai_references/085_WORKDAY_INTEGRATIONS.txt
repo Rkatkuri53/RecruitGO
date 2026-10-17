@@ -1,0 +1,590 @@
+FILE_NAME:
+085_WORKDAY_INTEGRATIONS.txt
+
+ID:
+085
+
+DOMAIN:
+Workday
+
+CATEGORY:
+Enterprise Integration
+
+SUBCATEGORY:
+Workday Integrations
+
+PRIMARY_ROLE:
+Workday Integration Consultant
+
+RELATED_FILES:
+
+080_WORKDAY_PLATFORM.txt
+
+081_WORKDAY_HCM.txt
+
+082_WORKDAY_FINANCIALS.txt
+
+083_WORKDAY_PAYROLL.txt
+
+084_WORKDAY_RECRUITING_TALENT.txt
+
+086_WORKDAY_SECURITY.txt
+
+087_WORKDAY_REPORTING_PRISM.txt
+
+088_WORKDAY_EXTEND.txt
+
+089_WORKDAY_TESTING_DEPLOYMENT.txt
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Workday Integrations
+
+PURPOSE:
+Enable AI agents to understand Workday enterprise integrations, Workday Studio, Enterprise Interface Builder (EIB), Core Connectors, Cloud Connect, Workday Web Services, REST/SOAP APIs, Workday Extend integration patterns, middleware, and enterprise integration architecture for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Workday Studio
+Enterprise Interface Builder
+EIB
+Core Connectors
+Cloud Connect
+Workday Web Services
+WWS
+REST API
+SOAP API
+Workday Integration
+Workday Studio
+XSLT
+XML
+
+ROLE_FAMILIES:
+Workday Integration Consultant
+
+Workday Technical Consultant
+
+Integration Architect
+
+Solution Architect
+
+Middleware Consultant
+
+COMMON_JOB_TITLES:
+Workday Integration Consultant
+
+Workday Technical Consultant
+
+Workday Studio Developer
+
+Workday Integration Lead
+
+Workday Solution Architect
+
+ALTERNATIVE_TITLES:
+Cloud Integration Consultant
+
+Enterprise Integration Consultant
+
+Workday Middleware Consultant
+
+CORE_SKILLS:
+Workday Studio
+
+Enterprise Interface Builder (EIB)
+
+Core Connectors
+
+REST APIs
+
+SOAP APIs
+
+Workday Web Services
+
+XML
+
+XSLT
+
+SUPPORTING_SKILLS:
+Cloud Connect
+
+Middleware
+
+Java
+
+Security
+
+Testing
+
+DevOps
+
+Monitoring
+
+RELATED_TECHNOLOGIES:
+Workday Studio
+
+EIB
+
+Core Connectors
+
+Cloud Connect
+
+REST
+
+SOAP
+
+XML
+
+XSLT
+
+MuleSoft
+
+Boomi
+
+TECHNOLOGY_CATEGORY:
+Enterprise Integration Platform
+
+DEPENDENCIES:
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Workday provides multiple integration technologies for securely exchanging data with internal and external enterprise systems.
+
+Integration solutions range from configuration-based EIB interfaces to advanced Workday Studio integrations, Web Services APIs, middleware platforms and Cloud Connect solutions.
+
+==================================================
+CORE INTEGRATION COMPONENTS
+===========================
+
+Enterprise Interface Builder (EIB)
+
+Core Connectors
+
+Workday Studio
+
+Cloud Connect
+
+REST APIs
+
+SOAP APIs
+
+Workday Web Services
+
+Document Transformation
+
+==================================================
+ENTERPRISE INTERFACE BUILDER (EIB)
+==================================
+
+COMMON RESPONSIBILITIES
+
+Inbound Interfaces
+
+Outbound Interfaces
+
+File Transfers
+
+Scheduled Integrations
+
+Data Loads
+
+Monitoring
+
+==================================================
+CORE CONNECTORS
+===============
+
+COMMON RESPONSIBILITIES
+
+Payroll Connectors
+
+Benefits Connectors
+
+Recruiting Connectors
+
+Third-Party Connectors
+
+Connector Configuration
+
+==================================================
+WORKDAY STUDIO
+==============
+
+COMMON RESPONSIBILITIES
+
+Complex Integrations
+
+XML Processing
+
+Java Components
+
+XSLT
+
+Transformation Logic
+
+Error Handling
+
+==================================================
+WORKDAY WEB SERVICES
+====================
+
+COMMON RESPONSIBILITIES
+
+SOAP Services
+
+REST Services
+
+Authentication
+
+Business Object APIs
+
+CRUD Operations
+
+==================================================
+CLOUD CONNECT
+=============
+
+COMMON RESPONSIBILITIES
+
+Vendor Integrations
+
+Payroll Providers
+
+Benefits Providers
+
+Financial Integrations
+
+Cloud Connectivity
+
+==================================================
+DATA TRANSFORMATION
+===================
+
+COMMON RESPONSIBILITIES
+
+XML
+
+XSLT
+
+Document Transformation
+
+Validation
+
+Mappings
+
+Error Processing
+
+==================================================
+COMMON INTEGRATION TARGETS
+==========================
+
+SAP
+
+Oracle
+
+Active Directory
+
+Microsoft Entra ID
+
+Payroll Vendors
+
+Benefits Providers
+
+Banks
+
+Identity Platforms
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Requirements
+
+↓
+
+Integration Design
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Monitoring
+
+↓
+
+Support
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+HCM Integration
+
+Payroll Integration
+
+ERP Integration
+
+Identity Integration
+
+Cloud Migration
+
+Third-Party Integration
+
+Global Integration Programs
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Integration
+
+*
+
+Technology
+
+*
+
+Developer
+
+Example
+
+(Workday)
+
+AND
+
+(Studio OR EIB)
+
+AND
+
+("Core Connectors" OR REST)
+
+AND
+
+(Integration)
+
+Expand integration technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Workday Integration
+
+Critical
+
+Workday Studio
+
+Critical
+
+EIB
+
+High
+
+Core Connectors
+
+High
+
+REST/SOAP
+
+High
+
+Cloud Connect
+
+Medium
+
+XML/XSLT
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+MuleSoft
+
+↓
+
+Workday Integration
+
+Medium
+
+---
+
+Dell Boomi
+
+↓
+
+Workday Integration
+
+Medium
+
+---
+
+SAP PI/PO
+
+↓
+
+Workday Integration
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Integration Technology
+
+Integration Complexity
+
+Architecture Pattern
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+EIB
+
+Studio
+
+Core Connectors
+
+REST
+
+SOAP
+
+Cloud Connect
+
+Identify whether the consultant performed
+
+Integration Design
+
+Development
+
+Testing
+
+Deployment
+
+Monitoring
+
+Production Support
+
+Recognize candidates with enterprise Workday Studio development, EIB interfaces, Core Connector configuration, API integrations, XML/XSLT transformation and enterprise integration architecture experience as senior Workday Integration consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating EIB as Workday Studio.
+
+Confusing API integrations with Studio development.
+
+Matching candidates solely because they mention Workday integrations.
+
+Ignoring Core Connector expertise.
+
+Treating middleware experience as Workday implementation.
+
+Ignoring XML/XSLT transformation.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Workday Studio
+
+↓
+
+Studio
+
+Java
+
+Integration Development
+
+XML
+
+XSLT
+
+---
+
+EIB
+
+↓
+
+Enterprise Interface Builder
+
+Inbound
+
+Outbound
+
+File Integration
+
+---
+
+Core Connectors
+
+↓
+
+Payroll Connector
+
+Benefits Connector
+
+Recruiting Connector
+
+Cloud Connect
+
+---
+
+APIs
+
+↓
+
+REST
+
+SOAP
+
+Workday Web Services
+
+Authentication
+
+END_OF_FILE

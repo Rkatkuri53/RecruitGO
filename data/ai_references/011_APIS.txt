@@ -1,0 +1,702 @@
+FILE_NAME:
+011_APIS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Application Programming Interfaces (APIs)
+
+PURPOSE:
+Enable AI agents to understand API concepts, architectures, communication protocols, integration patterns, authentication mechanisms, and API-related responsibilities. This knowledge is essential for accurate JD parsing, Boolean generation, resume matching, and identifying backend, integration, cloud, mobile, and enterprise application roles.
+
+KEYWORDS:
+API
+REST
+RESTful API
+SOAP
+GraphQL
+gRPC
+Web Services
+Integration
+API Gateway
+Microservices
+
+ROLE_FAMILIES:
+Backend Developer
+Full Stack Developer
+Integration Developer
+API Developer
+Cloud Engineer
+Solution Architect
+Enterprise Architect
+Mobile Developer
+DevOps Engineer
+Data Engineer
+SAP Integration Consultant
+MuleSoft Developer
+
+COMMON_JOB_TITLES:
+Backend Developer
+API Developer
+Integration Engineer
+Software Engineer
+Application Developer
+Solution Architect
+
+ALTERNATIVE_TITLES:
+Web Services
+Enterprise Integration
+Service Integration
+API Integration
+
+CORE_SKILLS:
+API Design
+API Development
+Integration
+Authentication
+Documentation
+Versioning
+
+SUPPORTING_SKILLS:
+Networking
+Security
+Cloud
+Microservices
+DevOps
+
+RELATED_TECHNOLOGIES:
+Java
+Spring Boot
+.NET
+Node.js
+Python
+Kafka
+RabbitMQ
+Docker
+Kubernetes
+AWS API Gateway
+Azure API Management
+
+TECHNOLOGY_CATEGORY:
+Integration
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+003_IT_ECOSYSTEM.txt
+
+005_SOFTWARE_ARCHITECTURE.txt
+
+009_NETWORKING.txt
+
+==================================================
+API DEFINITION
+==============
+
+An API (Application Programming Interface) enables two or more software systems to communicate and exchange data.
+
+APIs are the foundation of modern web applications, mobile applications, cloud-native applications, enterprise integrations, SaaS platforms, and microservices.
+
+==================================================
+API TYPES
+=========
+
+REST API
+
+SOAP Web Service
+
+GraphQL
+
+gRPC
+
+WebSocket
+
+RPC
+
+==================================================
+REST API
+========
+
+CATEGORY
+
+HTTP-based API
+
+CHARACTERISTICS
+
+Stateless
+
+Resource-Oriented
+
+JSON
+
+HTTP Methods
+
+COMMON METHODS
+
+GET
+
+POST
+
+PUT
+
+PATCH
+
+DELETE
+
+COMMON RESPONSE CODES
+
+200
+
+201
+
+204
+
+400
+
+401
+
+403
+
+404
+
+409
+
+500
+
+COMMON RESPONSIBILITIES
+
+API Development
+
+CRUD Operations
+
+Backend Services
+
+Integration
+
+BOOLEAN
+
+(REST OR RESTful OR API)
+
+==================================================
+SOAP
+====
+
+CATEGORY
+
+XML Web Service
+
+CHARACTERISTICS
+
+XML
+
+WSDL
+
+Enterprise Integration
+
+COMMON INDUSTRIES
+
+Banking
+
+Insurance
+
+Government
+
+ERP
+
+BOOLEAN
+
+(SOAP OR WSDL)
+
+==================================================
+GRAPHQL
+=======
+
+CATEGORY
+
+Query Language
+
+CHARACTERISTICS
+
+Single Endpoint
+
+Flexible Queries
+
+Client Driven
+
+BOOLEAN
+
+(GraphQL)
+
+==================================================
+gRPC
+====
+
+CATEGORY
+
+High Performance RPC
+
+CHARACTERISTICS
+
+Protocol Buffers
+
+HTTP/2
+
+Binary Communication
+
+Microservices
+
+BOOLEAN
+
+(gRPC)
+
+==================================================
+WEBSOCKET
+=========
+
+CATEGORY
+
+Real-Time Communication
+
+COMMON USE CASES
+
+Chat
+
+Trading
+
+Gaming
+
+Notifications
+
+BOOLEAN
+
+(WebSocket)
+
+==================================================
+API COMPONENTS
+==============
+
+Endpoint
+
+Request
+
+Response
+
+Headers
+
+Body
+
+Status Code
+
+Authentication
+
+Authorization
+
+Versioning
+
+Documentation
+
+==================================================
+DATA FORMATS
+============
+
+JSON
+
+XML
+
+YAML
+
+Protocol Buffers
+
+Multipart Form Data
+
+==================================================
+HTTP METHODS
+============
+
+GET
+
+Retrieve Data
+
+---
+
+POST
+
+Create Resource
+
+---
+
+PUT
+
+Replace Resource
+
+---
+
+PATCH
+
+Update Resource
+
+---
+
+DELETE
+
+Remove Resource
+
+==================================================
+AUTHENTICATION
+==============
+
+COMMON METHODS
+
+OAuth 2.0
+
+JWT
+
+Basic Authentication
+
+API Key
+
+Bearer Token
+
+SAML
+
+OpenID Connect
+
+==================================================
+AUTHORIZATION
+=============
+
+COMMON METHODS
+
+RBAC
+
+ABAC
+
+Scopes
+
+Permissions
+
+Roles
+
+==================================================
+API SECURITY
+============
+
+HTTPS
+
+TLS
+
+Rate Limiting
+
+Input Validation
+
+CORS
+
+CSRF Protection
+
+Encryption
+
+Secrets Management
+
+==================================================
+API DOCUMENTATION
+=================
+
+COMMON TOOLS
+
+Swagger
+
+OpenAPI
+
+Postman
+
+Insomnia
+
+Redoc
+
+==================================================
+API GATEWAYS
+============
+
+COMMON PRODUCTS
+
+AWS API Gateway
+
+Azure API Management
+
+Kong
+
+Apigee
+
+NGINX
+
+Traefik
+
+==================================================
+API TESTING
+===========
+
+COMMON TOOLS
+
+Postman
+
+SoapUI
+
+Insomnia
+
+Rest Assured
+
+JUnit
+
+PyTest
+
+==================================================
+API VERSIONING
+==============
+
+URI Versioning
+
+Header Versioning
+
+Query Parameter Versioning
+
+==================================================
+INTEGRATION PATTERNS
+====================
+
+Point-to-Point
+
+API Gateway
+
+Message Queue
+
+Event Driven
+
+ESB
+
+Service Mesh
+
+==================================================
+API RESPONSIBILITY MAPPING
+==========================
+
+Backend Developer
+
+↓
+
+API Development
+
+Business Logic
+
+Authentication
+
+Database Integration
+
+---
+
+Full Stack Developer
+
+↓
+
+Frontend APIs
+
+Backend APIs
+
+Integration
+
+---
+
+Integration Developer
+
+↓
+
+Enterprise Integration
+
+SOAP
+
+REST
+
+Middleware
+
+---
+
+Solution Architect
+
+↓
+
+API Strategy
+
+API Standards
+
+Security
+
+Versioning
+
+---
+
+Cloud Engineer
+
+↓
+
+API Gateway
+
+Authentication
+
+Monitoring
+
+==================================================
+API ECOSYSTEM
+=============
+
+Frontend
+
+↓
+
+REST API
+
+↓
+
+Backend
+
+↓
+
+Database
+
+---
+
+Mobile App
+
+↓
+
+REST API
+
+↓
+
+Microservice
+
+↓
+
+Database
+
+---
+
+Microservice
+
+↓
+
+Kafka
+
+↓
+
+Another Microservice
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+API Technology
+
+*
+
+Communication Type
+
+*
+
+Authentication
+
+*
+
+Role
+
+Example
+
+(REST OR GraphQL OR SOAP OR gRPC)
+
+AND
+
+("Backend Developer" OR "API Developer")
+
+Expand API-related technologies when API development is mandatory.
+
+==================================================
+MATCHING_RULES
+==============
+
+API Design
+
+Critical
+
+API Development
+
+Critical
+
+Authentication
+
+High
+
+Integration Experience
+
+High
+
+Documentation
+
+Medium
+
+Testing
+
+Medium
+
+Versioning
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Differentiate between
+
+API Consumer
+
+and
+
+API Developer.
+
+Do not assume using an API equals developing an API.
+
+Validate API expertise through
+
+Responsibilities
+
+Projects
+
+Authentication
+
+Security
+
+Integration
+
+Recognize that REST API development is a core requirement for many backend roles.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating REST as a programming language.
+
+Confusing REST with HTTP.
+
+Treating GraphQL as a database.
+
+Assuming every backend developer has designed APIs.
+
+Ignoring authentication and security responsibilities.
+
+Matching candidates solely because they mention Postman.
+
+Confusing API Gateway with Load Balancer.
+
+END_OF_FILE

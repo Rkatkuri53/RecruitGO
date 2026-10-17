@@ -1,0 +1,690 @@
+FILE_NAME:
+091_ADOBE_EXPERIENCE_MANAGER_AEM.txt
+
+ID:
+091
+
+DOMAIN:
+Adobe
+
+CATEGORY:
+Enterprise Digital Experience Platform
+
+SUBCATEGORY:
+Adobe Experience Manager (AEM)
+
+PRIMARY_ROLE:
+Adobe Experience Manager Consultant
+
+RELATED_FILES:
+
+090_ADOBE_EXPERIENCE_CLOUD_PLATFORM.txt
+
+092_ADOBE_ANALYTICS.txt
+
+093_ADOBE_CAMPAIGN.txt
+
+094_ADOBE_TARGET.txt
+
+095_ADOBE_COMMERCE_MAGENTO.txt
+
+096_ADOBE_EXPERIENCE_PLATFORM_AEP.txt
+
+097_ADOBE_MARKETO.txt
+
+098_ADOBE_DEVELOPMENT.txt
+
+099_ADOBE_INTEGRATION.txt
+
+010_PROGRAMMING_LANGUAGES.txt
+
+011_APIS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Adobe Experience Manager (AEM)
+
+PURPOSE:
+Enable AI agents to understand Adobe Experience Manager (AEM), including Sites, Assets, Forms, Headless CMS, Content Fragments, Experience Fragments, DAM, workflow automation, cloud service architecture, consultant responsibilities, implementation methodologies, and enterprise content management projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Adobe Experience Manager
+AEM
+AEM Sites
+AEM Assets
+AEM Forms
+DAM
+Digital Asset Management
+Content Fragments
+Experience Fragments
+Headless CMS
+Sling
+OSGi
+JCR
+
+ROLE_FAMILIES:
+AEM Consultant
+
+AEM Developer
+
+AEM Architect
+
+Adobe Technical Consultant
+
+Adobe Solution Architect
+
+Digital Experience Consultant
+
+COMMON_JOB_TITLES:
+Adobe Experience Manager Consultant
+
+AEM Developer
+
+Senior AEM Developer
+
+AEM Solution Architect
+
+Adobe Technical Architect
+
+ALTERNATIVE_TITLES:
+Content Management Consultant
+
+Enterprise CMS Consultant
+
+Digital Experience Architect
+
+CORE_SKILLS:
+AEM Sites
+
+AEM Assets
+
+AEM Forms
+
+Content Management
+
+Digital Asset Management
+
+Workflow Automation
+
+Headless CMS
+
+Authoring
+
+SUPPORTING_SKILLS:
+Java
+
+OSGi
+
+Apache Sling
+
+JCR
+
+HTL
+
+JavaScript
+
+GraphQL
+
+RELATED_TECHNOLOGIES:
+AEM Cloud Service
+
+AEM Sites
+
+AEM Assets
+
+AEM Forms
+
+Content Fragments
+
+Experience Fragments
+
+GraphQL
+
+Dispatcher
+
+Apache Sling
+
+TECHNOLOGY_CATEGORY:
+Enterprise Content Management Platform
+
+DEPENDENCIES:
+
+010_PROGRAMMING_LANGUAGES.txt
+
+011_APIS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Adobe Experience Manager (AEM) is Adobe's enterprise content management platform for websites, digital assets, forms and omnichannel content delivery.
+
+Modern AEM implementations leverage AEM as a Cloud Service, headless content management, reusable content fragments and API-first architecture.
+
+==================================================
+CORE MODULES
+============
+
+AEM Sites
+
+AEM Assets
+
+AEM Forms
+
+Headless CMS
+
+Content Fragments
+
+Experience Fragments
+
+Workflows
+
+Cloud Service
+
+==================================================
+AEM SITES
+=========
+
+COMMON RESPONSIBILITIES
+
+Website Authoring
+
+Templates
+
+Components
+
+Editable Templates
+
+Page Management
+
+Content Publishing
+
+==================================================
+AEM ASSETS
+==========
+
+COMMON RESPONSIBILITIES
+
+Digital Asset Management
+
+Metadata
+
+Asset Workflows
+
+Versioning
+
+Dynamic Media
+
+Brand Assets
+
+==================================================
+AEM FORMS
+=========
+
+COMMON RESPONSIBILITIES
+
+Adaptive Forms
+
+Document Generation
+
+Digital Signatures
+
+Workflow Automation
+
+Correspondence Management
+
+==================================================
+HEADLESS CMS
+============
+
+COMMON RESPONSIBILITIES
+
+Content Fragments
+
+GraphQL APIs
+
+JSON Delivery
+
+API-first Architecture
+
+Omnichannel Content
+
+==================================================
+CONTENT FRAGMENTS
+=================
+
+COMMON RESPONSIBILITIES
+
+Structured Content
+
+Reusable Content
+
+Content Models
+
+API Delivery
+
+==================================================
+EXPERIENCE FRAGMENTS
+====================
+
+COMMON RESPONSIBILITIES
+
+Reusable Experiences
+
+Cross-Channel Publishing
+
+Content Reuse
+
+Marketing Assets
+
+==================================================
+AEM WORKFLOWS
+=============
+
+COMMON RESPONSIBILITIES
+
+Approval Workflows
+
+Publishing
+
+Translation
+
+Asset Processing
+
+Automation
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Content Creation
+
+Digital Asset Management
+
+Publishing
+
+Translation
+
+Approval
+
+Omnichannel Delivery
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Templates
+
+Components
+
+Content Policies
+
+Dispatcher
+
+Permissions
+
+Workflow Models
+
+Assets
+
+GraphQL
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Content Strategy
+
+↓
+
+Architecture
+
+↓
+
+Development
+
+↓
+
+Content Migration
+
+↓
+
+Testing
+
+↓
+
+Performance Validation
+
+↓
+
+Go-Live
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Website Modernization
+
+CMS Migration
+
+Headless CMS
+
+Digital Asset Management
+
+Content Transformation
+
+Cloud Migration
+
+Global Website Rollout
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Adobe Analytics
+
+Adobe Target
+
+Adobe Campaign
+
+Adobe Commerce
+
+REST APIs
+
+GraphQL
+
+Microsoft Azure
+
+CDNs
+
+==================================================
+COMMON REPORTS
+==============
+
+Content Reports
+
+Asset Usage
+
+Publishing Status
+
+Workflow Reports
+
+Author Activity
+
+Site Performance
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Content Authors
+
+Marketing Teams
+
+Digital Teams
+
+Developers
+
+Brand Teams
+
+Content Administrators
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Development
+
+*
+
+Architecture
+
+Example
+
+(AEM OR "Adobe Experience Manager")
+
+AND
+
+(Sites OR Assets)
+
+AND
+
+(OSGi OR Sling OR HTL)
+
+AND
+
+(Developer OR Architect)
+
+Expand AEM technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Adobe Experience Manager
+
+Critical
+
+AEM Sites
+
+Critical
+
+AEM Assets
+
+High
+
+AEM Forms
+
+High
+
+Headless CMS
+
+High
+
+Content Fragments
+
+Medium
+
+GraphQL
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Sitecore
+
+↓
+
+AEM Sites
+
+Medium
+
+---
+
+Drupal
+
+↓
+
+Enterprise CMS
+
+Medium
+
+---
+
+Contentful
+
+↓
+
+Headless CMS
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+AEM Module
+
+Development Scope
+
+Author vs Publish Architecture
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Sites
+
+Assets
+
+Forms
+
+Headless
+
+Cloud Service
+
+Developer
+
+Architect
+
+Identify whether the consultant performed
+
+Architecture
+
+Development
+
+Component Development
+
+Content Migration
+
+Testing
+
+Deployment
+
+Optimization
+
+Recognize candidates with enterprise AEM implementations, AEM Cloud Service, Sites, Assets, Forms, headless CMS, GraphQL and large-scale content migration experience as senior AEM consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating AEM authoring as AEM development.
+
+Confusing AEM Sites with AEM Assets.
+
+Matching candidates solely because they mention Adobe.
+
+Ignoring OSGi, Sling and Dispatcher expertise.
+
+Treating CMS content management as enterprise AEM implementation.
+
+Ignoring Cloud Service architecture.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+AEM
+
+↓
+
+Adobe Experience Manager
+
+AEM Cloud Service
+
+Enterprise CMS
+
+---
+
+Sites
+
+↓
+
+Templates
+
+Components
+
+HTL
+
+Editable Templates
+
+---
+
+Assets
+
+↓
+
+DAM
+
+Metadata
+
+Dynamic Media
+
+Asset Workflows
+
+---
+
+Headless
+
+↓
+
+Content Fragments
+
+Experience Fragments
+
+GraphQL
+
+JSON APIs
+
+---
+
+Development
+
+↓
+
+Java
+
+OSGi
+
+Apache Sling
+
+JCR
+
+Dispatcher
+
+END_OF_FILE

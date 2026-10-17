@@ -1,0 +1,815 @@
+FILE_NAME:
+013_CLOUD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Cloud Computing
+
+PURPOSE:
+Enable AI agents to understand cloud computing concepts, service models, deployment models, cloud providers, cloud-native technologies, responsibilities, architecture, and operational practices. This knowledge is required for JD parsing, Boolean generation, resume analysis, candidate matching, and cloud role identification.
+
+KEYWORDS:
+Cloud Computing
+AWS
+Azure
+Google Cloud
+Cloud Native
+Infrastructure
+Virtualization
+Scalability
+High Availability
+Serverless
+
+ROLE_FAMILIES:
+Cloud Engineer
+Cloud Architect
+Cloud Administrator
+DevOps Engineer
+Platform Engineer
+Site Reliability Engineer
+Infrastructure Engineer
+Solution Architect
+Enterprise Architect
+Security Engineer
+Data Engineer
+
+COMMON_JOB_TITLES:
+Cloud Engineer
+AWS Engineer
+Azure Engineer
+Google Cloud Engineer
+Cloud Consultant
+Cloud Architect
+Cloud Administrator
+
+ALTERNATIVE_TITLES:
+Cloud Infrastructure
+Cloud Platform
+Cloud Services
+Cloud Operations
+
+CORE_SKILLS:
+Cloud Architecture
+Infrastructure
+Networking
+Storage
+Security
+Automation
+Monitoring
+
+SUPPORTING_SKILLS:
+Containers
+DevOps
+CI/CD
+Terraform
+Kubernetes
+Linux
+
+RELATED_TECHNOLOGIES:
+AWS
+Azure
+Google Cloud
+Docker
+Kubernetes
+Terraform
+Ansible
+Linux
+Networking
+IAM
+
+TECHNOLOGY_CATEGORY:
+Cloud Computing
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+003_IT_ECOSYSTEM.txt
+
+005_SOFTWARE_ARCHITECTURE.txt
+
+009_NETWORKING.txt
+
+010_OPERATING_SYSTEMS.txt
+
+012_MICROSERVICES.txt
+
+==================================================
+CLOUD COMPUTING DEFINITION
+==========================
+
+Cloud Computing provides on-demand computing resources over the internet.
+
+Resources include
+
+Compute
+
+Storage
+
+Networking
+
+Databases
+
+Security
+
+AI Services
+
+Containers
+
+Serverless
+
+Monitoring
+
+Cloud platforms eliminate the need to own and maintain physical infrastructure.
+
+==================================================
+CLOUD SERVICE MODELS
+====================
+
+Infrastructure as a Service (IaaS)
+
+Provides
+
+Virtual Machines
+
+Networking
+
+Storage
+
+Examples
+
+AWS EC2
+
+Azure Virtual Machines
+
+Google Compute Engine
+
+---
+
+Platform as a Service (PaaS)
+
+Provides
+
+Managed Runtime
+
+Application Hosting
+
+Developer Platform
+
+Examples
+
+Azure App Service
+
+Google App Engine
+
+AWS Elastic Beanstalk
+
+---
+
+Software as a Service (SaaS)
+
+Provides
+
+Complete Software
+
+Examples
+
+Microsoft 365
+
+Salesforce
+
+ServiceNow
+
+Google Workspace
+
+==================================================
+DEPLOYMENT MODELS
+=================
+
+Public Cloud
+
+Private Cloud
+
+Hybrid Cloud
+
+Multi Cloud
+
+Community Cloud
+
+==================================================
+MAJOR CLOUD PROVIDERS
+=====================
+
+Amazon Web Services (AWS)
+
+Microsoft Azure
+
+Google Cloud Platform (GCP)
+
+Oracle Cloud Infrastructure (OCI)
+
+IBM Cloud
+
+Alibaba Cloud
+
+==================================================
+COMMON CLOUD SERVICES
+=====================
+
+Compute
+
+Storage
+
+Networking
+
+Databases
+
+Identity
+
+Containers
+
+Monitoring
+
+Security
+
+AI/ML
+
+Analytics
+
+Messaging
+
+Serverless
+
+==================================================
+AWS
+===
+
+COMMON SERVICES
+
+EC2
+
+S3
+
+RDS
+
+Lambda
+
+IAM
+
+VPC
+
+CloudFormation
+
+CloudWatch
+
+EKS
+
+ECS
+
+DynamoDB
+
+SQS
+
+SNS
+
+Route 53
+
+Elastic Load Balancer
+
+COMMON ROLES
+
+AWS Engineer
+
+Cloud Engineer
+
+Cloud Architect
+
+DevOps Engineer
+
+BOOLEAN
+
+(AWS OR "Amazon Web Services")
+
+==================================================
+MICROSOFT AZURE
+===============
+
+COMMON SERVICES
+
+Virtual Machines
+
+Azure Storage
+
+Azure SQL
+
+Azure Functions
+
+Virtual Network
+
+AKS
+
+Azure DevOps
+
+Application Gateway
+
+Azure Monitor
+
+Key Vault
+
+Entra ID (Azure AD)
+
+BOOLEAN
+
+(Azure OR Microsoft Azure)
+
+==================================================
+GOOGLE CLOUD PLATFORM
+=====================
+
+COMMON SERVICES
+
+Compute Engine
+
+Cloud Storage
+
+Cloud SQL
+
+Cloud Run
+
+Cloud Functions
+
+GKE
+
+BigQuery
+
+Pub/Sub
+
+Cloud Monitoring
+
+BOOLEAN
+
+(GCP OR Google Cloud OR "Google Cloud Platform")
+
+==================================================
+ORACLE CLOUD INFRASTRUCTURE
+===========================
+
+COMMON SERVICES
+
+OCI Compute
+
+Object Storage
+
+Virtual Cloud Network
+
+Autonomous Database
+
+Load Balancer
+
+BOOLEAN
+
+(OCI OR "Oracle Cloud")
+
+==================================================
+SERVERLESS
+==========
+
+PURPOSE
+
+Run applications without managing servers.
+
+COMMON SERVICES
+
+AWS Lambda
+
+Azure Functions
+
+Google Cloud Functions
+
+Cloud Run
+
+COMMON RESPONSIBILITIES
+
+Event Processing
+
+API Development
+
+Automation
+
+==================================================
+CONTAINERS
+==========
+
+COMMON TECHNOLOGIES
+
+Docker
+
+Kubernetes
+
+Amazon EKS
+
+Azure AKS
+
+Google GKE
+
+OpenShift
+
+==================================================
+CLOUD NETWORKING
+================
+
+COMMON COMPONENTS
+
+VPC
+
+Virtual Network
+
+Subnet
+
+Security Groups
+
+Network Security Groups
+
+Firewall
+
+Load Balancer
+
+Route Tables
+
+VPN
+
+DNS
+
+==================================================
+IDENTITY AND ACCESS MANAGEMENT
+==============================
+
+COMMON CONCEPTS
+
+IAM
+
+RBAC
+
+Least Privilege
+
+Identity Federation
+
+MFA
+
+SSO
+
+Secrets Management
+
+==================================================
+CLOUD STORAGE
+=============
+
+Object Storage
+
+Block Storage
+
+File Storage
+
+Archive Storage
+
+Backup
+
+==================================================
+CLOUD DATABASES
+===============
+
+Managed Relational
+
+Managed NoSQL
+
+Data Warehouse
+
+In-Memory
+
+Examples
+
+Amazon RDS
+
+Azure SQL
+
+Cloud SQL
+
+DynamoDB
+
+Cosmos DB
+
+BigQuery
+
+Snowflake
+
+==================================================
+INFRASTRUCTURE AS CODE
+======================
+
+COMMON TOOLS
+
+Terraform
+
+CloudFormation
+
+Bicep
+
+Pulumi
+
+ARM Templates
+
+==================================================
+MONITORING
+==========
+
+COMMON TOOLS
+
+CloudWatch
+
+Azure Monitor
+
+Google Cloud Monitoring
+
+Grafana
+
+Prometheus
+
+Datadog
+
+Splunk
+
+==================================================
+SECURITY
+========
+
+Encryption
+
+IAM
+
+Network Security
+
+Security Groups
+
+Key Management
+
+Secrets Management
+
+Compliance
+
+==================================================
+HIGH AVAILABILITY
+=================
+
+Availability Zones
+
+Regions
+
+Load Balancing
+
+Auto Scaling
+
+Disaster Recovery
+
+Multi Region
+
+==================================================
+CLOUD RESPONSIBILITY MAPPING
+============================
+
+Cloud Engineer
+
+↓
+
+Provision Infrastructure
+
+Networking
+
+Security
+
+Automation
+
+---
+
+Cloud Architect
+
+↓
+
+Architecture
+
+Cloud Strategy
+
+Technology Selection
+
+Governance
+
+---
+
+DevOps Engineer
+
+↓
+
+CI/CD
+
+Containers
+
+Automation
+
+Monitoring
+
+---
+
+Platform Engineer
+
+↓
+
+Cloud Platform
+
+Automation
+
+Developer Platform
+
+---
+
+Security Engineer
+
+↓
+
+Cloud Security
+
+IAM
+
+Compliance
+
+==================================================
+CLOUD ECOSYSTEM
+===============
+
+Cloud
+
+↓
+
+Networking
+
+↓
+
+Compute
+
+↓
+
+Storage
+
+↓
+
+Database
+
+↓
+
+Application
+
+↓
+
+Monitoring
+
+↓
+
+Security
+
+↓
+
+Automation
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Cloud Provider
+
+*
+
+Core Services
+
+*
+
+Role
+
+*
+
+Infrastructure
+
+Example
+
+(AWS OR "Amazon Web Services")
+
+AND
+
+(EC2 OR Lambda OR S3 OR RDS)
+
+AND
+
+("Cloud Engineer" OR "Cloud Architect")
+
+Expand provider-specific services only when the JD explicitly references that provider.
+
+==================================================
+MATCHING_RULES
+==============
+
+Cloud Platform
+
+Critical
+
+Core Cloud Services
+
+Critical
+
+Architecture
+
+High
+
+Networking
+
+High
+
+Security
+
+High
+
+Automation
+
+High
+
+Monitoring
+
+Medium
+
+Serverless
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Do not assume all cloud providers are interchangeable.
+
+Recognize transferable cloud knowledge with reduced confidence.
+
+Examples
+
+AWS → Azure
+
+Medium Transferability
+
+Azure → GCP
+
+Medium Transferability
+
+AWS → OCI
+
+Medium Transferability
+
+Cloud expertise should be validated using
+
+Projects
+
+Responsibilities
+
+Architecture
+
+Automation
+
+Production Operations
+
+Differentiate between
+
+Cloud User
+
+Cloud Administrator
+
+Cloud Engineer
+
+Cloud Architect
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating AWS, Azure and GCP as identical.
+
+Matching candidates only because they list AWS.
+
+Ignoring networking and IAM responsibilities.
+
+Assuming cloud certification equals production experience.
+
+Treating Docker and Kubernetes as cloud platforms.
+
+Ignoring Infrastructure as Code requirements.
+
+Assuming serverless experience equals cloud architecture expertise.
+
+END_OF_FILE

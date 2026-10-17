@@ -1,0 +1,769 @@
+FILE_NAME:
+006_TITLE_NORMALIZATION.txt
+
+ID:
+006
+
+DOMAIN:
+Recruitment Intelligence
+
+CATEGORY:
+AI Boolean Search Engine
+
+SUBCATEGORY:
+Job Title Normalization Engine
+
+PRIMARY_ROLE:
+AI Job Title Classification & Normalization Engine
+
+VERSION:
+3.0
+
+PURPOSE:
+Define how AI recognizes, normalizes, expands, and maps job titles before Boolean generation. Job titles vary significantly across companies, industries, and countries. This engine ensures equivalent titles are searched together while preventing unrelated roles from being merged.
+
+==================================================
+TITLE NORMALIZATION PHILOSOPHY
+==============================
+
+Job Titles are NOT standardized.
+
+The same role can have dozens of different titles.
+
+Never search a single title.
+
+Always search
+
+Role Concepts
+
+NOT
+
+Role Words.
+
+==================================================
+TITLE ANALYSIS PIPELINE
+=======================
+
+Extract Title
+
+↓
+
+Normalize
+
+↓
+
+Remove Noise
+
+↓
+
+Identify Seniority
+
+↓
+
+Identify Function
+
+↓
+
+Identify Technology
+
+↓
+
+Generate Synonyms
+
+↓
+
+Generate Boolean Title Group
+
+==================================================
+TITLE COMPONENTS
+================
+
+Every title consists of
+
+Seniority
+
+*
+
+Function
+
+*
+
+Technology
+
+*
+
+Domain
+
+*
+
+Specialization
+
+Example
+
+Senior SAP SuccessFactors Employee Central Consultant
+
+↓
+
+Seniority
+
+Senior
+
+↓
+
+Technology
+
+SAP SuccessFactors
+
+↓
+
+Module
+
+Employee Central
+
+↓
+
+Function
+
+Consultant
+
+==================================================
+REMOVE TITLE NOISE
+==================
+
+Ignore words such as
+
+Urgent
+
+Hiring
+
+Immediate
+
+Contract
+
+Permanent
+
+Remote
+
+Hybrid
+
+Onsite
+
+Freelance
+
+Full-Time
+
+Part-Time
+
+Shift
+
+Night Shift
+
+Weekend
+
+Contract-to-Hire
+
+C2H
+
+W2
+
+1099
+
+==================================================
+TITLE STANDARDIZATION
+=====================
+
+Convert all titles to a canonical form.
+
+Examples
+
+Sr.
+
+↓
+
+Senior
+
+---
+
+Mgr
+
+↓
+
+Manager
+
+---
+
+Engg
+
+↓
+
+Engineer
+
+---
+
+Dev
+
+↓
+
+Developer
+
+---
+
+Admin
+
+↓
+
+Administrator
+
+==================================================
+ROLE FAMILY CLASSIFICATION
+==========================
+
+Technical
+
+Functional
+
+Techno-Functional
+
+Architecture
+
+Management
+
+Executive
+
+Support
+
+Operations
+
+Infrastructure
+
+Security
+
+Sales
+
+Consulting
+
+Data
+
+AI
+
+Cloud
+
+==================================================
+TITLE EXPANSION PRINCIPLE
+=========================
+
+Every title should expand into equivalent market titles.
+
+Example
+
+Software Engineer
+
+↓
+
+Software Developer
+
+Developer
+
+Application Developer
+
+Software Programmer
+
+Programmer
+
+Software Consultant
+
+==================================================
+JAVA TITLE EXAMPLE
+==================
+
+Java Developer
+
+↓
+
+Java Engineer
+
+Backend Java Developer
+
+Java Software Engineer
+
+Senior Java Engineer
+
+Application Developer
+
+J2EE Developer
+
+Jakarta EE Developer
+
+==================================================
+SAP TITLE EXAMPLE
+=================
+
+SAP SuccessFactors Consultant
+
+↓
+
+SAP HCM Consultant
+
+SuccessFactors Consultant
+
+SAP HR Consultant
+
+SAP EC Consultant
+
+Employee Central Consultant
+
+==================================================
+SALESFORCE TITLE EXAMPLE
+========================
+
+Salesforce Developer
+
+↓
+
+SFDC Developer
+
+CRM Developer
+
+Salesforce Engineer
+
+Salesforce Consultant
+
+Platform Developer
+
+==================================================
+DEVOPS TITLE EXAMPLE
+====================
+
+DevOps Engineer
+
+↓
+
+Platform Engineer
+
+Cloud Engineer
+
+Infrastructure Engineer
+
+Site Reliability Engineer
+
+SRE
+
+Automation Engineer
+
+==================================================
+DATA TITLE EXAMPLE
+==================
+
+Data Engineer
+
+↓
+
+Big Data Engineer
+
+ETL Developer
+
+Analytics Engineer
+
+Data Platform Engineer
+
+Spark Engineer
+
+==================================================
+TITLE SYNONYM ENGINE
+====================
+
+Developer
+
+↓
+
+Engineer
+
+Programmer
+
+Software Developer
+
+Application Developer
+
+---
+
+Consultant
+
+↓
+
+Functional Consultant
+
+Technical Consultant
+
+Implementation Consultant
+
+Business Consultant
+
+---
+
+Architect
+
+↓
+
+Solution Architect
+
+Enterprise Architect
+
+Technical Architect
+
+Platform Architect
+
+==================================================
+TITLE VARIATIONS
+================
+
+Lead Developer
+
+↓
+
+Technical Lead
+
+Development Lead
+
+Engineering Lead
+
+Lead Engineer
+
+==================================================
+
+Project Manager
+
+↓
+
+Program Manager
+
+Delivery Manager
+
+Implementation Manager
+
+==================================================
+
+Business Analyst
+
+↓
+
+Functional Analyst
+
+Systems Analyst
+
+Business Systems Analyst
+
+==================================================
+TITLE AMBIGUITY RULES
+=====================
+
+Some titles require technology context.
+
+Example
+
+Consultant
+
+↓
+
+Unknown
+
+Need Technology
+
+---
+
+Developer
+
+↓
+
+Unknown
+
+Need Programming Language
+
+---
+
+Engineer
+
+↓
+
+Unknown
+
+Need Domain
+
+Never generate Boolean until ambiguity is resolved from the JD.
+
+==================================================
+TITLE TO ROLE MAPPING
+=====================
+
+Role
+
+↓
+
+Typical Function
+
+Developer
+
+↓
+
+Build Software
+
+Consultant
+
+↓
+
+Configure / Implement
+
+Architect
+
+↓
+
+Design Solutions
+
+Administrator
+
+↓
+
+Operate Platforms
+
+Analyst
+
+↓
+
+Analyze Business
+
+Manager
+
+↓
+
+Lead Teams
+
+Director
+
+↓
+
+Business Leadership
+
+==================================================
+TITLE EXCLUSION RULES
+=====================
+
+Do NOT merge unrelated titles.
+
+Examples
+
+Software Engineer
+
+≠
+
+Network Engineer
+
+---
+
+Business Analyst
+
+≠
+
+Data Analyst
+
+---
+
+Cloud Engineer
+
+≠
+
+Civil Engineer
+
+---
+
+Security Analyst
+
+≠
+
+Financial Analyst
+
+==================================================
+TITLE HIERARCHY
+===============
+
+Executive
+
+↓
+
+Director
+
+↓
+
+Senior Manager
+
+↓
+
+Manager
+
+↓
+
+Lead
+
+↓
+
+Senior
+
+↓
+
+Mid-Level
+
+↓
+
+Junior
+
+↓
+
+Associate
+
+↓
+
+Intern
+
+==================================================
+TITLE NORMALIZATION RULES
+=========================
+
+Always
+
+Remove formatting noise.
+
+Expand abbreviations.
+
+Expand synonyms.
+
+Normalize capitalization.
+
+Preserve technology names.
+
+Preserve module names.
+
+Preserve domain specialization.
+
+==================================================
+BOOLEAN TITLE GROUP
+===================
+
+Example
+
+(Java Developer
+
+OR
+
+Java Engineer
+
+OR
+
+Software Engineer
+
+OR
+
+Application Developer
+
+OR
+
+J2EE Developer)
+
+Another Example
+
+(SAP SuccessFactors Consultant
+
+OR
+
+SAP EC Consultant
+
+OR
+
+Employee Central Consultant
+
+OR
+
+SAP HCM Consultant)
+
+==================================================
+COMMON TITLE MISTAKES
+=====================
+
+Searching only one title.
+
+Ignoring regional title variations.
+
+Ignoring abbreviations.
+
+Mixing unrelated job families.
+
+Ignoring seniority.
+
+Ignoring technology specialization.
+
+Treating company-specific titles as industry standards.
+
+==================================================
+AI DECISION RULES
+=================
+
+Normalize every extracted title.
+
+Expand titles into equivalent market terminology.
+
+Preserve technology specialization.
+
+Preserve business function.
+
+Separate title from seniority.
+
+Separate title from industry.
+
+Do not infer technology from generic titles alone.
+
+==================================================
+TITLE OUTPUT
+============
+
+Every parsed JD should produce
+
+Original Title
+
+Canonical Title
+
+Normalized Title
+
+Alternative Titles
+
+Equivalent Market Titles
+
+Technology
+
+Business Function
+
+Seniority
+
+Boolean Title Group
+
+==================================================
+VALIDATION CHECKLIST
+====================
+
+✓ Title normalized
+
+✓ Noise removed
+
+✓ Seniority extracted
+
+✓ Technology extracted
+
+✓ Function identified
+
+✓ Synonyms generated
+
+✓ Market equivalents added
+
+✓ Boolean title group created
+
+✓ No unrelated titles included
+
+✓ Ready for Boolean generation
+
+END_OF_FILE

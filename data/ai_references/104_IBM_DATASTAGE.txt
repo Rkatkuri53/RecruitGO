@@ -1,0 +1,663 @@
+FILE_NAME:
+104_IBM_DATASTAGE.txt
+
+ID:
+104
+
+DOMAIN:
+IBM
+
+CATEGORY:
+Enterprise Data Integration
+
+SUBCATEGORY:
+IBM DataStage
+
+PRIMARY_ROLE:
+IBM DataStage Consultant
+
+RELATED_FILES:
+
+100_IBM_ENTERPRISE_PLATFORM.txt
+
+103_IBM_APP_CONNECT_IIB_ACE.txt
+
+106_IBM_COGNOS_ANALYTICS.txt
+
+109_IBM_CLOUD_PAK_OPENSHIFT.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+IBM DataStage
+
+PURPOSE:
+Enable AI agents to understand IBM DataStage, ETL/ELT architecture, parallel processing, data integration, metadata management, data quality, cloud modernization, consultant responsibilities, implementation methodologies, and enterprise data warehouse projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+IBM DataStage
+DataStage
+InfoSphere DataStage
+IBM Information Server
+ETL
+ELT
+Parallel Jobs
+Server Jobs
+Sequence Jobs
+PX Engine
+Repository
+Data Warehouse
+
+ROLE_FAMILIES:
+IBM DataStage Developer
+
+ETL Consultant
+
+Data Integration Consultant
+
+Data Engineer
+
+Data Architect
+
+BI Consultant
+
+COMMON_JOB_TITLES:
+IBM DataStage Developer
+
+IBM DataStage Consultant
+
+ETL Developer
+
+Data Integration Engineer
+
+Senior DataStage Consultant
+
+ALTERNATIVE_TITLES:
+Enterprise ETL Developer
+
+Data Warehouse Consultant
+
+Data Platform Engineer
+
+CORE_SKILLS:
+ETL Development
+
+Parallel Jobs
+
+Server Jobs
+
+Sequence Jobs
+
+Data Integration
+
+Data Quality
+
+Metadata Management
+
+Performance Tuning
+
+SUPPORTING_SKILLS:
+SQL
+
+Oracle
+
+DB2
+
+Shell Scripting
+
+Linux
+
+Python
+
+Scheduling
+
+DevOps
+
+RELATED_TECHNOLOGIES:
+IBM DataStage
+
+IBM Information Server
+
+IBM QualityStage
+
+IBM Metadata Workbench
+
+DB2
+
+Oracle
+
+Snowflake
+
+Cloud Pak for Data
+
+TECHNOLOGY_CATEGORY:
+Enterprise ETL & Data Integration Platform
+
+DEPENDENCIES:
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+IBM DataStage is IBM's enterprise ETL and data integration platform used to extract, transform and load large volumes of structured and semi-structured data into enterprise data warehouses, lakes and analytics platforms.
+
+It supports high-performance parallel processing, metadata-driven development and enterprise-scale batch data integration.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Parallel Jobs
+
+Server Jobs
+
+Sequence Jobs
+
+Shared Containers
+
+Metadata Repository
+
+Job Scheduler
+
+QualityStage
+
+Metadata Workbench
+
+==================================================
+PARALLEL JOBS
+=============
+
+COMMON RESPONSIBILITIES
+
+High-Volume ETL
+
+Partitioning
+
+Parallel Execution
+
+Data Transformation
+
+Performance Optimization
+
+==================================================
+SERVER JOBS
+===========
+
+COMMON RESPONSIBILITIES
+
+Legacy ETL
+
+Sequential Processing
+
+Database Connectivity
+
+Transformation Logic
+
+==================================================
+SEQUENCE JOBS
+=============
+
+COMMON RESPONSIBILITIES
+
+Workflow Orchestration
+
+Job Dependencies
+
+Scheduling
+
+Restart Logic
+
+Error Recovery
+
+==================================================
+DATA TRANSFORMATION
+===================
+
+COMMON RESPONSIBILITIES
+
+Data Cleansing
+
+Lookup
+
+Join
+
+Aggregation
+
+Filtering
+
+Sorting
+
+Data Standardization
+
+==================================================
+DATA QUALITY
+============
+
+COMMON RESPONSIBILITIES
+
+Profiling
+
+Validation
+
+Deduplication
+
+Standardization
+
+Quality Rules
+
+Exception Handling
+
+==================================================
+PERFORMANCE OPTIMIZATION
+========================
+
+COMMON RESPONSIBILITIES
+
+PX Engine
+
+Partitioning
+
+Node Configuration
+
+Memory Optimization
+
+Pipeline Tuning
+
+Resource Management
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Data Warehousing
+
+Master Data Integration
+
+Data Migration
+
+Data Consolidation
+
+Reporting Data Preparation
+
+Analytics Enablement
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Projects
+
+Repositories
+
+Parallel Configuration
+
+Parameters
+
+Connections
+
+Schedules
+
+Security
+
+Metadata
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Source Analysis
+
+↓
+
+Data Mapping
+
+↓
+
+ETL Development
+
+↓
+
+Testing
+
+↓
+
+Performance Tuning
+
+↓
+
+Deployment
+
+↓
+
+Production Support
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Enterprise Data Warehouse
+
+Cloud Data Migration
+
+Data Modernization
+
+Legacy ETL Migration
+
+Master Data Management
+
+Analytics Platform
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Oracle
+
+DB2
+
+SQL Server
+
+Snowflake
+
+Teradata
+
+SAP
+
+REST APIs
+
+Kafka
+
+==================================================
+COMMON REPORTS
+==============
+
+ETL Execution Reports
+
+Job Performance
+
+Data Quality Reports
+
+Load Statistics
+
+Error Reports
+
+Operational Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Data Engineers
+
+ETL Developers
+
+BI Teams
+
+Data Architects
+
+Database Administrators
+
+Analytics Teams
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+ETL
+
+*
+
+Data Integration
+
+*
+
+Development
+
+Example
+
+("IBM DataStage" OR InfoSphere)
+
+AND
+
+("Parallel Jobs" OR ETL)
+
+AND
+
+(Data Warehouse OR SQL)
+
+AND
+
+(Developer OR Consultant)
+
+Expand DataStage terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+IBM DataStage
+
+Critical
+
+Parallel Jobs
+
+Critical
+
+ETL Development
+
+High
+
+Data Warehousing
+
+High
+
+SQL
+
+High
+
+Performance Tuning
+
+Medium
+
+Data Quality
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Informatica PowerCenter
+
+↓
+
+IBM DataStage
+
+Medium
+
+---
+
+Talend
+
+↓
+
+IBM DataStage
+
+Medium
+
+---
+
+SSIS
+
+↓
+
+Enterprise ETL
+
+Medium
+
+---
+
+Azure Data Factory
+
+↓
+
+Cloud Data Integration
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+ETL Scope
+
+Data Platform
+
+Development Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Parallel Jobs
+
+Server Jobs
+
+Sequence Jobs
+
+Data Quality
+
+Performance
+
+Cloud Migration
+
+Identify whether the consultant performed
+
+Data Mapping
+
+ETL Development
+
+Testing
+
+Performance Tuning
+
+Migration
+
+Production Support
+
+Optimization
+
+Recognize candidates with enterprise IBM DataStage implementation, large-scale ETL development, parallel job optimization, data warehouse modernization, metadata management and enterprise data integration experience as senior DataStage consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SQL developers as DataStage developers.
+
+Confusing ETL support with ETL implementation.
+
+Matching candidates solely because they mention DataStage.
+
+Ignoring Parallel Job expertise.
+
+Treating reporting development as ETL architecture.
+
+Ignoring performance optimization.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+IBM DataStage
+
+↓
+
+InfoSphere DataStage
+
+DataStage
+
+---
+
+ETL
+
+↓
+
+Extract
+
+Transform
+
+Load
+
+ELT
+
+Data Integration
+
+---
+
+Development
+
+↓
+
+Parallel Jobs
+
+Server Jobs
+
+Sequence Jobs
+
+Shared Containers
+
+---
+
+Data Warehouse
+
+↓
+
+Oracle
+
+DB2
+
+Snowflake
+
+Teradata
+
+Metadata
+
+QualityStage
+
+END_OF_FILE

@@ -1,0 +1,546 @@
+FILE_NAME:
+043_ORACLE_APEX.txt
+
+ID:
+043
+
+DOMAIN:
+Oracle
+
+CATEGORY:
+Application Development
+
+SUBCATEGORY:
+Oracle APEX (Oracle Application Express)
+
+PRIMARY_ROLE:
+Oracle APEX Developer
+
+RELATED_FILES:
+
+035_ORACLE_PLATFORM.txt
+
+042_ORACLE_DATABASE.txt
+
+044_ORACLE_FUSION_MIDDLEWARE.txt
+
+045_ORACLE_OCI.txt
+
+009_DATABASES.txt
+
+010_PROGRAMMING_LANGUAGES.txt
+
+011_APIS.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Oracle APEX
+
+PURPOSE:
+Enable AI agents to understand Oracle Application Express (APEX), low-code development, Oracle database-centric application development, PL/SQL integration, REST APIs, Oracle Cloud deployment, and Oracle APEX developer responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Oracle APEX
+Oracle Application Express
+Low-Code
+PL/SQL
+Oracle Forms
+Oracle Reports
+Interactive Reports
+REST Data Source
+ORDS
+Oracle Database
+
+ROLE_FAMILIES:
+Oracle APEX Developer
+Oracle PL/SQL Developer
+Oracle Low-Code Developer
+Oracle Full Stack Developer
+Oracle Technical Consultant
+Oracle Solution Architect
+
+COMMON_JOB_TITLES:
+Oracle APEX Developer
+Senior Oracle APEX Developer
+Oracle PL/SQL Developer
+Oracle Low-Code Developer
+Oracle Technical Consultant
+
+ALTERNATIVE_TITLES:
+Oracle Application Developer
+Oracle Database Application Developer
+Oracle Rapid Application Developer
+
+CORE_SKILLS:
+Oracle APEX Development
+
+PL/SQL
+
+SQL
+
+Application Design
+
+REST APIs
+
+Database Development
+
+UI Development
+
+SUPPORTING_SKILLS:
+JavaScript
+
+HTML
+
+CSS
+
+ORDS
+
+Oracle Cloud
+
+Git
+
+RELATED_TECHNOLOGIES:
+Oracle Database
+
+Oracle APEX
+
+ORDS
+
+PL/SQL
+
+SQL Developer
+
+Oracle REST Data Services
+
+OCI
+
+Oracle Autonomous Database
+
+TECHNOLOGY_CATEGORY:
+Low-Code Development Platform
+
+DEPENDENCIES:
+
+042_ORACLE_DATABASE.txt
+
+011_APIS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Oracle Application Express (APEX) is Oracle's low-code development platform for rapidly building secure, scalable, database-driven web applications.
+
+Oracle APEX is tightly integrated with Oracle Database and is widely used for internal enterprise applications, dashboards, workflow solutions and business portals.
+
+==================================================
+ARCHITECTURE
+============
+
+Browser
+
+↓
+
+Oracle APEX
+
+↓
+
+ORDS
+
+↓
+
+Oracle Database
+
+↓
+
+PL/SQL
+
+↓
+
+Tables / Views / Packages
+
+==================================================
+CORE COMPONENTS
+===============
+
+Application Builder
+
+Page Designer
+
+Shared Components
+
+Interactive Reports
+
+Interactive Grids
+
+REST Data Sources
+
+Authentication
+
+Authorization
+
+==================================================
+APPLICATION DEVELOPMENT
+=======================
+
+COMMON RESPONSIBILITIES
+
+Application Design
+
+Forms
+
+Reports
+
+Dashboards
+
+Workflow Applications
+
+Business Applications
+
+Portal Development
+
+==================================================
+USER INTERFACE
+==============
+
+COMMON COMPONENTS
+
+Interactive Reports
+
+Interactive Grids
+
+Cards
+
+Charts
+
+Calendars
+
+Maps
+
+Navigation Menus
+
+Responsive Layouts
+
+==================================================
+DATABASE DEVELOPMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+PL/SQL
+
+SQL
+
+Packages
+
+Functions
+
+Procedures
+
+Triggers
+
+Views
+
+Materialized Views
+
+==================================================
+REST APIs
+=========
+
+COMMON RESPONSIBILITIES
+
+REST Data Sources
+
+REST Enabled SQL
+
+Web Service Consumption
+
+JSON Processing
+
+API Integration
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+Authentication
+
+Authorization
+
+Authorization Schemes
+
+Session Management
+
+Role-Based Security
+
+Single Sign-On
+
+==================================================
+DEPLOYMENT
+==========
+
+COMMON OPTIONS
+
+Oracle Database
+
+Autonomous Database
+
+Oracle Cloud Infrastructure
+
+On-Premises
+
+APEX Export/Import
+
+==================================================
+COMMON DEVELOPMENT TOOLS
+========================
+
+Oracle SQL Developer
+
+Oracle APEX Builder
+
+SQLcl
+
+Git
+
+VS Code
+
+Jira
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Internal Business Applications
+
+Workflow Systems
+
+Reporting Portals
+
+Legacy Modernization
+
+Oracle Forms Migration
+
+Dashboard Development
+
+Citizen Development
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Requirements
+
+↓
+
+Application Design
+
+↓
+
+Database Design
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Support
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Development
+
+*
+
+Database
+
+*
+
+REST
+
+Example
+
+("Oracle APEX" OR APEX)
+
+AND
+
+(PL/SQL OR SQL)
+
+AND
+
+(ORDS OR REST)
+
+AND
+
+("Oracle Database")
+
+Expand APEX-specific technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Oracle APEX
+
+Critical
+
+PL/SQL
+
+Critical
+
+SQL
+
+High
+
+Oracle Database
+
+High
+
+REST APIs
+
+Medium
+
+JavaScript
+
+Medium
+
+UI Development
+
+Medium
+
+Oracle Cloud
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle Forms
+
+↓
+
+Oracle APEX
+
+High
+
+---
+
+Oracle Reports
+
+↓
+
+Interactive Reports
+
+High
+
+---
+
+PL/SQL
+
+↓
+
+Oracle APEX
+
+High
+
+---
+
+Microsoft Power Apps
+
+↓
+
+Oracle APEX
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Development Platform
+
+Database Version
+
+Deployment Model
+
+Application Type
+
+Project Type
+
+Differentiate
+
+Oracle APEX
+
+Oracle Forms
+
+Oracle PL/SQL
+
+Oracle Java
+
+Low-Code
+
+Full-Code
+
+Identify whether the developer performed
+
+Application Design
+
+Database Design
+
+PL/SQL Development
+
+REST Integration
+
+Testing
+
+Deployment
+
+Support
+
+Recognize candidates with Oracle Forms modernization, ORDS integration, Autonomous Database deployment and enterprise Oracle APEX implementation experience as senior Oracle APEX developers.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Oracle APEX as Oracle ERP.
+
+Confusing Oracle APEX with Oracle Database Administration.
+
+Matching candidates solely because they mention Oracle.
+
+Treating PL/SQL experience alone as Oracle APEX expertise.
+
+Ignoring ORDS and REST integration experience.
+
+Ignoring enterprise application development.
+
+Assuming certification equals enterprise development experience.
+
+END_OF_FILE

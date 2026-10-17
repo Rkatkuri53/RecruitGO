@@ -1,0 +1,563 @@
+FILE_NAME:
+000_BOOLEAN_MASTER_RULEBOOK.txt
+
+ID:
+000
+
+DOMAIN:
+Recruitment Intelligence
+
+CATEGORY:
+AI Boolean Search Engine
+
+SUBCATEGORY:
+Master Rulebook
+
+PRIMARY_ROLE:
+Global Boolean Search Engine
+
+VERSION:
+3.0
+
+PURPOSE:
+Provide the master decision framework for all AI-powered Boolean generation, sourcing, candidate search, resume database search, X-Ray search, ATS search, and candidate matching.
+
+This document is the highest-priority Boolean specification. Every recruitment AI agent must follow these rules before generating any Boolean search.
+
+==================================================
+BOOLEAN PHILOSOPHY
+==================================================
+
+Boolean generation is NOT keyword matching.
+
+Boolean generation is the process of translating business requirements into searchable candidate intent.
+
+The AI must understand the role before generating any search.
+
+Never search words.
+
+Search concepts.
+
+==================================================
+MASTER GENERATION ORDER
+==================================================
+
+Always follow this order.
+
+STEP 1
+
+Read the entire JD.
+
+↓
+
+STEP 2
+
+Identify
+
+Role
+
+↓
+
+STEP 3
+
+Identify
+
+Primary Function
+
+↓
+
+STEP 4
+
+Identify
+
+Industry
+
+↓
+
+STEP 5
+
+Identify
+
+Experience Level
+
+↓
+
+STEP 6
+
+Identify
+
+Core Skills
+
+↓
+
+STEP 7
+
+Identify
+
+Supporting Skills
+
+↓
+
+STEP 8
+
+Identify
+
+Mandatory Skills
+
+↓
+
+STEP 9
+
+Identify
+
+Preferred Skills
+
+↓
+
+STEP 10
+
+Expand
+
+Titles
+
+↓
+
+STEP 11
+
+Expand
+
+Synonyms
+
+↓
+
+STEP 12
+
+Expand
+
+Technologies
+
+↓
+
+STEP 13
+
+Expand
+
+Frameworks
+
+↓
+
+STEP 14
+
+Expand
+
+Cloud Platforms
+
+↓
+
+STEP 15
+
+Expand
+
+Programming Languages
+
+↓
+
+STEP 16
+
+Remove
+
+Noise
+
+↓
+
+STEP 17
+
+Generate
+
+Boolean
+
+↓
+
+STEP 18
+
+Validate
+
+Boolean
+
+↓
+
+STEP 19
+
+Optimize
+
+For Search Platform
+
+==================================================
+BOOLEAN OBJECTIVES
+==================================================
+
+Every Boolean must maximize
+
+Recall
+
+while maintaining
+
+Precision
+
+Balance both.
+
+Too broad
+
+↓
+
+Poor candidates
+
+Too narrow
+
+↓
+
+Miss qualified candidates
+
+==================================================
+BOOLEAN DESIGN PRINCIPLES
+==================================================
+
+Always search
+
+Role
+
++
+
+Technology
+
++
+
+Experience
+
++
+
+Domain
+
++
+
+Business Function
+
+Never search only
+
+Skills
+
+Never search only
+
+Job Title
+
+Never search only
+
+Certifications
+
+Never search only
+
+Company Names
+
+==================================================
+BOOLEAN HIERARCHY
+==================================================
+
+Priority 1
+
+Role
+
+Priority 2
+
+Core Skills
+
+Priority 3
+
+Technology
+
+Priority 4
+
+Framework
+
+Priority 5
+
+Domain
+
+Priority 6
+
+Industry
+
+Priority 7
+
+Leadership
+
+Priority 8
+
+Location
+
+Priority 9
+
+Certification
+
+Priority 10
+
+Education
+
+==================================================
+MANDATORY RULE
+==================================================
+
+The Boolean Generator MUST understand
+
+What problem is the company hiring to solve?
+
+NOT
+
+What technologies are mentioned?
+
+==================================================
+BOOLEAN TYPES
+==================================================
+
+Generate multiple versions.
+
+1
+
+Easy
+
+2
+
+Balanced
+
+3
+
+Quality
+
+4
+
+Precise
+
+5
+
+High Volume
+
+6
+
+Phone Search
+
+7
+
+Email Search
+
+8
+
+LinkedIn X-Ray
+
+9
+
+Google X-Ray
+
+10
+
+GitHub
+
+11
+
+Stack Overflow
+
+12
+
+Resume Database
+
+==================================================
+BOOLEAN QUALITY STANDARD
+==================================================
+
+Every generated Boolean must satisfy
+
+✓ Correct role
+
+✓ Correct seniority
+
+✓ Correct domain
+
+✓ Correct technologies
+
+✓ Correct synonyms
+
+✓ Correct exclusions
+
+✓ Correct grouping
+
+✓ Minimal redundancy
+
+✓ Search engine compatible
+
+==================================================
+SEARCH ENGINE PRIORITY
+==================================================
+
+1
+
+ATS Database
+
+↓
+
+2
+
+Internal Resume Database
+
+↓
+
+3
+
+LinkedIn
+
+↓
+
+4
+
+Google X-Ray
+
+↓
+
+5
+
+GitHub
+
+↓
+
+6
+
+Stack Overflow
+
+↓
+
+7
+
+Professional Communities
+
+↓
+
+8
+
+Job Boards
+
+==================================================
+BOOLEAN AI GOLDEN RULES
+==================================================
+
+Rule 1
+
+Understand before searching.
+
+Rule 2
+
+Search intent.
+
+Not words.
+
+Rule 3
+
+Expand concepts.
+
+Not spelling.
+
+Rule 4
+
+Always generate synonyms.
+
+Rule 5
+
+Never trust job titles.
+
+Rule 6
+
+Core skills dominate supporting skills.
+
+Rule 7
+
+Mandatory skills cannot be removed.
+
+Rule 8
+
+Preferred skills should never become mandatory.
+
+Rule 9
+
+Domain matters.
+
+Rule 10
+
+Industry matters.
+
+Rule 11
+
+Experience matters.
+
+Rule 12
+
+Leadership changes Boolean.
+
+Rule 13
+
+Cloud specialization changes Boolean.
+
+Rule 14
+
+Architecture roles differ from development roles.
+
+Rule 15
+
+Support roles differ from implementation roles.
+
+Rule 16
+
+Never overconstrain the search.
+
+Rule 17
+
+Never underconstrain the search.
+
+Rule 18
+
+Validate every Boolean before use.
+
+==================================================
+MASTER DECISION TREE
+==================================================
+
+JD
+
+↓
+
+Parse
+
+↓
+
+Understand
+
+↓
+
+Classify
+
+↓
+
+Expand
+
+↓
+
+Generate
+
+↓
+
+Optimize
+
+↓
+
+Validate
+
+↓
+
+Return
+
+END_OF_FILE

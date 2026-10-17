@@ -1,0 +1,804 @@
+FILE_NAME:
+018_ENTERPRISE_PLATFORMS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Enterprise Business Platforms
+
+PURPOSE:
+Enable AI agents to understand Enterprise Business Platforms, their business purpose, implementation methodologies, architecture, modules, consulting roles, technical roles, support models, and business processes. This file serves as the master index for all enterprise platforms and directs AI agents to platform-specific knowledge files.
+
+KEYWORDS:
+ERP
+CRM
+HCM
+SCM
+ITSM
+Enterprise Applications
+Digital Transformation
+Business Applications
+
+ROLE_FAMILIES:
+ERP Consultant
+CRM Consultant
+Enterprise Architect
+Solution Architect
+Business Analyst
+Program Manager
+Transformation Manager
+Integration Consultant
+Platform Administrator
+Platform Developer
+
+COMMON_JOB_TITLES:
+SAP Consultant
+Oracle Consultant
+Salesforce Consultant
+ServiceNow Consultant
+Dynamics Consultant
+Workday Consultant
+ERP Consultant
+CRM Consultant
+
+ALTERNATIVE_TITLES:
+Enterprise Applications
+Business Systems
+Business Platforms
+
+CORE_SKILLS:
+Business Processes
+Configuration
+Customization
+Integration
+Implementation
+Support
+Migration
+Transformation
+
+SUPPORTING_SKILLS:
+Cloud
+Databases
+Security
+Reporting
+Analytics
+Testing
+Project Management
+
+RELATED_TECHNOLOGIES:
+SAP
+Oracle
+Salesforce
+ServiceNow
+Microsoft Dynamics
+Workday
+SuccessFactors
+Boomi
+MuleSoft
+Informatica
+
+TECHNOLOGY_CATEGORY:
+Enterprise Platforms
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+001_ROLE_CLASSIFICATION.txt
+
+003_IT_ECOSYSTEM.txt
+
+004_SDLC.txt
+
+005_SOFTWARE_ARCHITECTURE.txt
+
+011_APIS.txt
+
+013_CLOUD.txt
+
+==================================================
+ENTERPRISE PLATFORM DEFINITION
+==============================
+
+Enterprise Platforms are large-scale business software systems that automate and integrate organizational processes.
+
+Unlike traditional software development, enterprise platforms are primarily configured, customized, integrated, and extended to support business operations.
+
+==================================================
+ENTERPRISE PLATFORM CATEGORIES
+==============================
+
+ERP
+
+CRM
+
+HCM
+
+SCM
+
+ITSM
+
+EPM
+
+ECM
+
+Low-Code Platforms
+
+Business Intelligence
+
+==================================================
+ERP
+===
+
+Enterprise Resource Planning
+
+PURPOSE
+
+Manage core business operations.
+
+COMMON BUSINESS FUNCTIONS
+
+Finance
+
+Procurement
+
+Manufacturing
+
+Inventory
+
+Sales
+
+Supply Chain
+
+Logistics
+
+Plant Maintenance
+
+Quality
+
+COMMON PLATFORMS
+
+SAP
+
+Oracle ERP
+
+Microsoft Dynamics 365 Finance
+
+Infor
+
+IFS
+
+Epicor
+
+COMMON ROLES
+
+Functional Consultant
+
+Technical Consultant
+
+Solution Architect
+
+Program Manager
+
+==================================================
+CRM
+===
+
+Customer Relationship Management
+
+PURPOSE
+
+Manage customer interactions.
+
+COMMON FUNCTIONS
+
+Sales
+
+Marketing
+
+Customer Service
+
+Lead Management
+
+Case Management
+
+Field Service
+
+COMMON PLATFORMS
+
+Salesforce
+
+Dynamics 365 CRM
+
+Oracle CX
+
+HubSpot
+
+Zoho CRM
+
+==================================================
+HCM
+===
+
+Human Capital Management
+
+PURPOSE
+
+Manage employees and HR processes.
+
+COMMON FUNCTIONS
+
+Recruitment
+
+Payroll
+
+Benefits
+
+Talent Management
+
+Learning
+
+Performance
+
+COMMON PLATFORMS
+
+Workday
+
+SAP SuccessFactors
+
+Oracle HCM Cloud
+
+UKG
+
+==================================================
+SCM
+===
+
+Supply Chain Management
+
+PURPOSE
+
+Manage end-to-end supply chain operations.
+
+COMMON FUNCTIONS
+
+Procurement
+
+Inventory
+
+Planning
+
+Warehousing
+
+Transportation
+
+Manufacturing
+
+COMMON PLATFORMS
+
+SAP SCM
+
+Oracle SCM
+
+Blue Yonder
+
+Kinaxis
+
+==================================================
+ITSM
+====
+
+IT Service Management
+
+PURPOSE
+
+Manage IT services.
+
+COMMON FUNCTIONS
+
+Incident
+
+Problem
+
+Change
+
+Asset
+
+Configuration
+
+Service Catalog
+
+COMMON PLATFORMS
+
+ServiceNow
+
+BMC Helix
+
+Jira Service Management
+
+Ivanti
+
+==================================================
+EPM
+===
+
+Enterprise Performance Management
+
+PURPOSE
+
+Financial Planning
+
+Budgeting
+
+Forecasting
+
+Consolidation
+
+COMMON PLATFORMS
+
+Oracle EPM
+
+SAP BPC
+
+OneStream
+
+Anaplan
+
+==================================================
+ECM
+===
+
+Enterprise Content Management
+
+PURPOSE
+
+Document Management
+
+Workflow
+
+Records
+
+Digital Content
+
+COMMON PLATFORMS
+
+OpenText
+
+Alfresco
+
+SharePoint
+
+==================================================
+LOW-CODE PLATFORMS
+==================
+
+COMMON PLATFORMS
+
+Microsoft Power Platform
+
+OutSystems
+
+Mendix
+
+Appian
+
+Pega
+
+==================================================
+COMMON IMPLEMENTATION LIFECYCLE
+===============================
+
+Business Discovery
+
+↓
+
+Requirements Gathering
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Integration
+
+↓
+
+Data Migration
+
+↓
+
+Testing
+
+↓
+
+Training
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+↓
+
+Support
+
+==================================================
+CONSULTANT TYPES
+================
+
+Functional Consultant
+
+Business Process Expert
+
+---
+
+Technical Consultant
+
+Development
+
+Customization
+
+Integration
+
+---
+
+Solution Architect
+
+End-to-End Solution
+
+---
+
+Basis / Platform Administrator
+
+Platform Management
+
+---
+
+Program Manager
+
+Program Delivery
+
+==================================================
+IMPLEMENTATION TYPES
+====================
+
+Greenfield
+
+Brownfield
+
+Rollout
+
+Upgrade
+
+Migration
+
+Transformation
+
+Cloud Migration
+
+==================================================
+COMMON RESPONSIBILITIES
+=======================
+
+Configuration
+
+Customization
+
+Business Analysis
+
+Integration
+
+Testing
+
+Data Migration
+
+Training
+
+Production Support
+
+Documentation
+
+Stakeholder Management
+
+==================================================
+COMMON INTEGRATION METHODS
+==========================
+
+REST APIs
+
+SOAP
+
+IDoc
+
+BAPI
+
+OData
+
+Middleware
+
+Message Queues
+
+ETL
+
+==================================================
+COMMON MIDDLEWARE
+=================
+
+SAP Integration Suite
+
+Boomi
+
+MuleSoft
+
+Informatica
+
+Dell Boomi
+
+IBM Integration Bus
+
+==================================================
+BUSINESS DOMAINS
+================
+
+Finance
+
+Human Resources
+
+Sales
+
+Procurement
+
+Manufacturing
+
+Supply Chain
+
+Warehouse
+
+Customer Service
+
+Projects
+
+Asset Management
+
+==================================================
+ROLE RESPONSIBILITY MAPPING
+===========================
+
+Functional Consultant
+
+↓
+
+Business Processes
+
+Configuration
+
+Testing
+
+---
+
+Technical Consultant
+
+↓
+
+Customization
+
+Development
+
+Integration
+
+---
+
+Solution Architect
+
+↓
+
+Architecture
+
+Design
+
+Governance
+
+---
+
+Program Manager
+
+↓
+
+Planning
+
+Delivery
+
+Budget
+
+Risk
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Role
+
+*
+
+Business Function
+
+Example
+
+(SAP OR Oracle OR Salesforce)
+
+AND
+
+(Consultant OR Architect)
+
+AND
+
+(Configuration OR Implementation OR Integration)
+
+Expand modules only when explicitly mentioned in the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Platform Experience
+
+Critical
+
+Module Experience
+
+Critical
+
+Implementation Experience
+
+Critical
+
+Business Process Knowledge
+
+High
+
+Integration
+
+High
+
+Migration Experience
+
+High
+
+Leadership
+
+Medium
+
+Certifications
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always distinguish between
+
+Functional
+
+Technical
+
+Basis / Platform Administration
+
+Architecture
+
+Program Management
+
+Never classify a Functional Consultant as a Developer without development evidence.
+
+Differentiate
+
+Implementation
+
+Support
+
+Upgrade
+
+Migration
+
+Transformation
+
+Recognize business process knowledge as equally important as technical knowledge.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating ERP experience as software development.
+
+Confusing Functional and Technical Consultants.
+
+Treating SAP and Oracle ERP as interchangeable.
+
+Ignoring module specialization.
+
+Assuming certification equals implementation experience.
+
+Ignoring business process responsibilities.
+
+==================================================
+PLATFORM KNOWLEDGE FILES
+========================
+
+The following platforms require dedicated knowledge files:
+
+SAP
+
+Oracle ERP
+
+Oracle HCM
+
+Oracle SCM
+
+Salesforce
+
+ServiceNow
+
+Microsoft Dynamics 365
+
+Workday
+
+SAP SuccessFactors
+
+Pega
+
+Appian
+
+Boomi
+
+MuleSoft
+
+These files should contain:
+
+Platform Architecture
+
+Modules
+
+Role Definitions
+
+Responsibilities
+
+Implementation Methodology
+
+Boolean Expansion
+
+Transferable Skills
+
+Matching Rules
+
+Interview Topics
+
+Platform-Specific AI Decision Rules
+
+END_OF_FILE

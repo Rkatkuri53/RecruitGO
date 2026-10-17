@@ -1,0 +1,656 @@
+FILE_NAME:
+065_SERVICENOW_SECOPS.txt
+
+ID:
+065
+
+DOMAIN:
+ServiceNow
+
+CATEGORY:
+Enterprise Platform
+
+SUBCATEGORY:
+ServiceNow Security Operations (SecOps)
+
+PRIMARY_ROLE:
+ServiceNow SecOps Consultant
+
+RELATED_FILES:
+
+015_CYBERSECURITY.txt
+
+057_SERVICENOW_PLATFORM.txt
+
+058_SERVICENOW_ITSM.txt
+
+059_SERVICENOW_ITOM.txt
+
+064_SERVICENOW_GRC_IRM.txt
+
+066_SERVICENOW_PLATFORM_DEVELOPMENT.txt
+
+067_SERVICENOW_INTEGRATION.txt
+
+068_SERVICENOW_CMDB_DISCOVERY.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+ServiceNow Security Operations (SecOps)
+
+PURPOSE:
+Enable AI agents to understand ServiceNow Security Operations (SecOps), Security Incident Response (SIR), Vulnerability Response (VR), Threat Intelligence, Configuration Compliance, security orchestration, consultant responsibilities, implementation methodologies, and enterprise SecOps transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+ServiceNow SecOps
+Security Operations
+Security Incident Response
+SIR
+Vulnerability Response
+VR
+Threat Intelligence
+Security Orchestration
+Configuration Compliance
+Security Case Management
+CVE
+CVE Management
+
+ROLE_FAMILIES:
+ServiceNow SecOps Consultant
+Security Consultant
+Cybersecurity Consultant
+ServiceNow Solution Architect
+SOC Consultant
+Security Automation Consultant
+
+COMMON_JOB_TITLES:
+ServiceNow SecOps Consultant
+Security Incident Response Consultant
+Vulnerability Response Consultant
+SOC Consultant
+Security Automation Engineer
+
+ALTERNATIVE_TITLES:
+Cyber Operations Consultant
+Security Workflow Consultant
+Threat Response Consultant
+
+CORE_SKILLS:
+Security Incident Response
+
+Vulnerability Response
+
+Threat Intelligence
+
+Security Workflow Automation
+
+Configuration Compliance
+
+Security Integration
+
+Risk Prioritization
+
+Case Management
+
+SUPPORTING_SKILLS:
+SIEM
+
+EDR
+
+SOAR
+
+REST APIs
+
+CMDB
+
+IntegrationHub
+
+MITRE ATT&CK
+
+RELATED_TECHNOLOGIES:
+ServiceNow SecOps
+
+Security Incident Response
+
+Vulnerability Response
+
+Threat Intelligence
+
+Configuration Compliance
+
+CMDB
+
+Splunk
+
+Microsoft Sentinel
+
+QRadar
+
+CrowdStrike
+
+Microsoft Defender
+
+TECHNOLOGY_CATEGORY:
+Security Operations Platform
+
+DEPENDENCIES:
+
+015_CYBERSECURITY.txt
+
+064_SERVICENOW_GRC_IRM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+ServiceNow Security Operations (SecOps) automates cybersecurity operations by integrating security tools, IT operations and response workflows.
+
+It enables organizations to prioritize vulnerabilities, respond to security incidents, orchestrate remediation activities and improve collaboration between security and IT teams.
+
+==================================================
+CORE MODULES
+============
+
+Security Incident Response (SIR)
+
+Vulnerability Response (VR)
+
+Threat Intelligence
+
+Configuration Compliance
+
+Security Posture Workflows
+
+==================================================
+SECURITY INCIDENT RESPONSE
+==========================
+
+COMMON RESPONSIBILITIES
+
+Security Case Management
+
+Incident Triage
+
+Incident Assignment
+
+Containment
+
+Investigation
+
+Eradication
+
+Recovery
+
+Post-Incident Review
+
+==================================================
+VULNERABILITY RESPONSE
+======================
+
+COMMON RESPONSIBILITIES
+
+Vulnerability Import
+
+CVE Management
+
+Risk Scoring
+
+Asset Prioritization
+
+Exception Management
+
+Patch Coordination
+
+==================================================
+THREAT INTELLIGENCE
+===================
+
+COMMON RESPONSIBILITIES
+
+Threat Feeds
+
+Indicators of Compromise (IOCs)
+
+Threat Hunting
+
+Threat Correlation
+
+Campaign Tracking
+
+==================================================
+CONFIGURATION COMPLIANCE
+========================
+
+COMMON RESPONSIBILITIES
+
+Compliance Scans
+
+Baseline Validation
+
+Policy Violations
+
+Remediation Tasks
+
+Continuous Compliance
+
+==================================================
+SECURITY ORCHESTRATION
+======================
+
+COMMON RESPONSIBILITIES
+
+Workflow Automation
+
+Task Assignment
+
+Integration with SIEM
+
+Integration with EDR
+
+Automated Remediation
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Alert-to-Incident
+
+Incident Response Lifecycle
+
+Vulnerability Management
+
+Threat Intelligence
+
+Compliance Monitoring
+
+Security Remediation
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Security Groups
+
+Playbooks
+
+Response Workflows
+
+Risk Scores
+
+Integration Rules
+
+Notifications
+
+Dashboards
+
+Reporting
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Security Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Pilot
+
+↓
+
+Go-Live
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+SecOps Implementation
+
+SOC Modernization
+
+Vulnerability Management
+
+Threat Intelligence
+
+Security Automation
+
+SOAR Integration
+
+Cybersecurity Transformation
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Splunk
+
+Microsoft Sentinel
+
+IBM QRadar
+
+CrowdStrike
+
+Microsoft Defender
+
+Tenable
+
+Qualys
+
+Rapid7
+
+REST APIs
+
+==================================================
+COMMON REPORTS
+==============
+
+Security Incidents
+
+Vulnerability Trends
+
+Patch Compliance
+
+Threat Intelligence
+
+Risk Scores
+
+Executive Security Dashboards
+
+SOC Metrics
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+SOC Analysts
+
+Security Engineers
+
+Incident Responders
+
+Cybersecurity Teams
+
+Risk Teams
+
+Infrastructure Teams
+
+CISO Organization
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Security
+
+*
+
+Incident
+
+*
+
+Vulnerability
+
+Example
+
+(ServiceNow)
+
+AND
+
+(SecOps)
+
+AND
+
+("Security Incident Response" OR SIR)
+
+AND
+
+("Vulnerability Response" OR Threat)
+
+Expand SecOps terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+ServiceNow SecOps
+
+Critical
+
+Security Incident Response
+
+Critical
+
+Vulnerability Response
+
+High
+
+Threat Intelligence
+
+High
+
+SIEM Integration
+
+High
+
+CMDB
+
+Medium
+
+Security Automation
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Palo Alto Cortex XSOAR
+
+↓
+
+ServiceNow SecOps
+
+Medium
+
+---
+
+Splunk SOAR
+
+↓
+
+ServiceNow SecOps
+
+Medium
+
+---
+
+IBM Resilient
+
+↓
+
+ServiceNow SecOps
+
+High
+
+---
+
+Microsoft Sentinel
+
+↓
+
+Security Integrations
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+SecOps Module
+
+Security Domain
+
+Integration Platform
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+SIR
+
+Vulnerability Response
+
+Threat Intelligence
+
+Configuration Compliance
+
+SOAR
+
+SOC
+
+Identify whether the consultant performed
+
+Security Workflow Design
+
+Tool Integration
+
+Automation
+
+Case Management
+
+Testing
+
+Deployment
+
+Optimization
+
+Recognize candidates with enterprise SecOps implementation, SIR, Vulnerability Response, SIEM integration, automated remediation, threat intelligence integration and SOC transformation experience as senior ServiceNow SecOps consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SecOps as IRM/GRC.
+
+Confusing SOC analyst responsibilities with ServiceNow implementation.
+
+Matching candidates solely because they mention cybersecurity.
+
+Ignoring SIEM and vulnerability management integrations.
+
+Treating security operations experience as ServiceNow SecOps implementation experience.
+
+Ignoring workflow automation and orchestration.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Security Incident Response
+
+↓
+
+SIR
+
+Security Cases
+
+Incident Triage
+
+Investigation
+
+Containment
+
+---
+
+Vulnerability Response
+
+↓
+
+VR
+
+CVE
+
+CVSS
+
+Patch Management
+
+Risk Prioritization
+
+---
+
+Threat Intelligence
+
+↓
+
+IOC
+
+Threat Feeds
+
+MITRE ATT&CK
+
+Threat Hunting
+
+---
+
+Security Integrations
+
+↓
+
+Splunk
+
+Microsoft Sentinel
+
+QRadar
+
+CrowdStrike
+
+Qualys
+
+Rapid7
+
+Tenable
+
+END_OF_FILE

@@ -1,0 +1,946 @@
+FILE_NAME:
+002_JOB_TITLE_NORMALIZATION.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Job Title Normalization
+
+PURPOSE:
+Normalize different job titles into a standardized Canonical Role. Organizations use different titles for the same role. AI Agents must normalize titles before JD Parsing, Boolean Generation, Resume Matching, Candidate Ranking, Interview Question Generation and Analytics.
+
+KEYWORDS:
+Job Title
+Role Normalization
+Canonical Role
+Alternative Titles
+Synonyms
+Role Mapping
+
+ROLE_FAMILIES:
+All IT Role Families
+
+COMMON_JOB_TITLES:
+All IT Titles
+
+ALTERNATIVE_TITLES:
+Multiple
+
+CORE_SKILLS:
+Role Identification
+Title Mapping
+
+SUPPORTING_SKILLS:
+Responsibility Analysis
+Technology Analysis
+
+RELATED_TECHNOLOGIES:
+All
+
+TECHNOLOGY_CATEGORY:
+Recruitment Intelligence
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+001_ROLE_CLASSIFICATION.txt
+
+==================================================
+NORMALIZATION RULES
+===================
+
+RULE_001
+
+Never trust the advertised job title.
+
+Always normalize using
+
+Responsibilities
+
+Technologies
+
+Business Domain
+
+Project Type
+
+Seniority
+
+---
+
+RULE_002
+
+If responsibilities conflict with title
+
+Responsibilities win.
+
+---
+
+RULE_003
+
+If technologies conflict with title
+
+Technologies win.
+
+---
+
+RULE_004
+
+Always assign
+
+Canonical Role
+
+Primary Role Family
+
+Secondary Role Family
+
+Specialization
+
+---
+
+RULE_005
+
+One JD may belong to multiple role families.
+
+Example
+
+Java
+
+AWS
+
+Terraform
+
+Kubernetes
+
+↓
+
+Primary
+
+DevOps Engineer
+
+Secondary
+
+Cloud Engineer
+
+==================================================
+BACKEND DEVELOPMENT
+===================
+
+CANONICAL ROLE
+
+Backend Developer
+
+COMMON TITLES
+
+Backend Developer
+
+Backend Engineer
+
+Software Engineer
+
+Software Developer
+
+Application Developer
+
+Java Developer
+
+Java Engineer
+
+Python Developer
+
+Python Engineer
+
+.NET Developer
+
+Golang Developer
+
+API Developer
+
+Microservices Developer
+
+Server-side Developer
+
+Enterprise Developer
+
+Middleware Developer
+
+COMMON RESPONSIBILITIES
+
+Develop APIs
+
+Develop Microservices
+
+Business Logic
+
+Database Integration
+
+Performance Optimization
+
+BOOLEAN PRIMARY TITLE
+
+Backend Developer
+
+==================================================
+FRONTEND DEVELOPMENT
+====================
+
+CANONICAL ROLE
+
+Frontend Developer
+
+COMMON TITLES
+
+Frontend Engineer
+
+UI Developer
+
+Web Developer
+
+JavaScript Developer
+
+React Developer
+
+Angular Developer
+
+Vue Developer
+
+UI Engineer
+
+Client-side Developer
+
+COMMON RESPONSIBILITIES
+
+User Interface
+
+Responsive Design
+
+Frontend Development
+
+Browser Compatibility
+
+BOOLEAN PRIMARY TITLE
+
+Frontend Developer
+
+==================================================
+FULL STACK DEVELOPMENT
+======================
+
+CANONICAL ROLE
+
+Full Stack Developer
+
+COMMON TITLES
+
+Full Stack Engineer
+
+Software Engineer
+
+Application Developer
+
+Java Full Stack Developer
+
+MERN Developer
+
+MEAN Developer
+
+Full Stack Consultant
+
+COMMON RESPONSIBILITIES
+
+Backend
+
+Frontend
+
+Database
+
+API
+
+Deployment
+
+BOOLEAN PRIMARY TITLE
+
+Full Stack Developer
+
+==================================================
+MOBILE DEVELOPMENT
+==================
+
+CANONICAL ROLE
+
+Mobile Developer
+
+COMMON TITLES
+
+Android Developer
+
+iOS Developer
+
+React Native Developer
+
+Flutter Developer
+
+Xamarin Developer
+
+Mobile Engineer
+
+COMMON RESPONSIBILITIES
+
+Mobile Apps
+
+API Integration
+
+Mobile UI
+
+App Deployment
+
+==================================================
+DEVOPS
+======
+
+CANONICAL ROLE
+
+DevOps Engineer
+
+COMMON TITLES
+
+CI/CD Engineer
+
+Release Engineer
+
+Automation Engineer
+
+Infrastructure Automation Engineer
+
+Build Engineer
+
+Platform Automation Engineer
+
+COMMON RESPONSIBILITIES
+
+CI/CD
+
+Automation
+
+Infrastructure
+
+Deployment
+
+Monitoring
+
+BOOLEAN PRIMARY TITLE
+
+DevOps Engineer
+
+==================================================
+CLOUD
+=====
+
+CANONICAL ROLE
+
+Cloud Engineer
+
+COMMON TITLES
+
+Cloud Consultant
+
+Cloud Specialist
+
+Cloud Administrator
+
+AWS Engineer
+
+Azure Engineer
+
+GCP Engineer
+
+Cloud Operations Engineer
+
+Cloud Platform Engineer
+
+COMMON RESPONSIBILITIES
+
+Cloud Infrastructure
+
+Cloud Security
+
+Automation
+
+Provisioning
+
+==================================================
+SITE RELIABILITY
+================
+
+CANONICAL ROLE
+
+Site Reliability Engineer
+
+COMMON TITLES
+
+SRE
+
+Reliability Engineer
+
+Platform Reliability Engineer
+
+Production Reliability Engineer
+
+COMMON RESPONSIBILITIES
+
+Reliability
+
+Availability
+
+Incident Response
+
+Monitoring
+
+==================================================
+DATABASE
+========
+
+CANONICAL ROLE
+
+Database Administrator
+
+COMMON TITLES
+
+DBA
+
+Oracle DBA
+
+SQL DBA
+
+Database Engineer
+
+Database Consultant
+
+Database Specialist
+
+COMMON RESPONSIBILITIES
+
+Backup
+
+Recovery
+
+Performance
+
+Database Administration
+
+==================================================
+DATA ENGINEERING
+================
+
+CANONICAL ROLE
+
+Data Engineer
+
+COMMON TITLES
+
+Big Data Engineer
+
+ETL Developer
+
+Data Platform Engineer
+
+Analytics Engineer
+
+Data Pipeline Engineer
+
+COMMON RESPONSIBILITIES
+
+ETL
+
+Spark
+
+SQL
+
+Data Pipelines
+
+Streaming
+
+==================================================
+AI
+==
+
+CANONICAL ROLE
+
+AI Engineer
+
+COMMON TITLES
+
+ML Engineer
+
+Machine Learning Engineer
+
+GenAI Engineer
+
+LLM Engineer
+
+Prompt Engineer
+
+AI Consultant
+
+AI Developer
+
+COMMON RESPONSIBILITIES
+
+Model Development
+
+LLM Integration
+
+Prompt Engineering
+
+Inference
+
+Semantic Search
+
+==================================================
+CYBERSECURITY
+=============
+
+CANONICAL ROLE
+
+Security Engineer
+
+COMMON TITLES
+
+Cyber Security Engineer
+
+Information Security Engineer
+
+Application Security Engineer
+
+Cloud Security Engineer
+
+SOC Engineer
+
+Security Consultant
+
+IAM Engineer
+
+COMMON RESPONSIBILITIES
+
+Threat Detection
+
+Security
+
+Identity
+
+Compliance
+
+Incident Response
+
+==================================================
+NETWORKING
+==========
+
+CANONICAL ROLE
+
+Network Engineer
+
+COMMON TITLES
+
+Network Administrator
+
+LAN Engineer
+
+WAN Engineer
+
+Infrastructure Network Engineer
+
+Network Consultant
+
+COMMON RESPONSIBILITIES
+
+Routing
+
+Switching
+
+VPN
+
+Firewall
+
+Network Design
+
+==================================================
+INFRASTRUCTURE
+==============
+
+CANONICAL ROLE
+
+Infrastructure Engineer
+
+COMMON TITLES
+
+Systems Engineer
+
+Windows Engineer
+
+Linux Engineer
+
+Infrastructure Consultant
+
+Platform Engineer
+
+COMMON RESPONSIBILITIES
+
+Servers
+
+Virtualization
+
+Storage
+
+Operating Systems
+
+==================================================
+SAP
+===
+
+CANONICAL ROLE
+
+SAP Consultant
+
+COMMON TITLES
+
+SAP Functional Consultant
+
+SAP Technical Consultant
+
+SAP ABAP Developer
+
+SAP FICO Consultant
+
+SAP MM Consultant
+
+SAP SD Consultant
+
+SAP PP Consultant
+
+SAP Basis Consultant
+
+SAP Solution Architect
+
+COMMON RESPONSIBILITIES
+
+Configuration
+
+Implementation
+
+Customization
+
+Support
+
+Integration
+
+==================================================
+ORACLE
+======
+
+CANONICAL ROLE
+
+Oracle Consultant
+
+COMMON TITLES
+
+Oracle Functional Consultant
+
+Oracle Technical Consultant
+
+Oracle Fusion Consultant
+
+Oracle ERP Consultant
+
+Oracle HCM Consultant
+
+Oracle SCM Consultant
+
+Oracle Financial Consultant
+
+Oracle Architect
+
+COMMON RESPONSIBILITIES
+
+Implementation
+
+Configuration
+
+Support
+
+Integration
+
+==================================================
+SALESFORCE
+==========
+
+CANONICAL ROLE
+
+Salesforce Consultant
+
+COMMON TITLES
+
+Salesforce Developer
+
+Salesforce Administrator
+
+Salesforce Architect
+
+Salesforce Functional Consultant
+
+Salesforce Technical Consultant
+
+COMMON RESPONSIBILITIES
+
+Customization
+
+Configuration
+
+Flows
+
+Apex Development
+
+Administration
+
+==================================================
+SERVICENOW
+==========
+
+CANONICAL ROLE
+
+ServiceNow Consultant
+
+COMMON TITLES
+
+ServiceNow Developer
+
+ServiceNow Administrator
+
+ServiceNow Architect
+
+ServiceNow Technical Consultant
+
+ServiceNow Platform Engineer
+
+COMMON RESPONSIBILITIES
+
+ITSM
+
+Workflow
+
+Customization
+
+Platform Administration
+
+==================================================
+MICROSOFT DYNAMICS
+==================
+
+CANONICAL ROLE
+
+Dynamics 365 Consultant
+
+COMMON TITLES
+
+Dynamics Developer
+
+Dynamics Functional Consultant
+
+Dynamics Technical Consultant
+
+Dynamics Architect
+
+Power Platform Consultant
+
+COMMON RESPONSIBILITIES
+
+ERP
+
+CRM
+
+Configuration
+
+Customization
+
+Integration
+
+==================================================
+ARCHITECTURE
+============
+
+CANONICAL ROLE
+
+Solution Architect
+
+COMMON TITLES
+
+Technical Architect
+
+Application Architect
+
+Cloud Architect
+
+Integration Architect
+
+Software Architect
+
+COMMON RESPONSIBILITIES
+
+Solution Design
+
+Architecture
+
+Technology Selection
+
+Integration
+
+Governance
+
+==================================================
+PROJECT MANAGEMENT
+==================
+
+CANONICAL ROLE
+
+Project Manager
+
+COMMON TITLES
+
+Delivery Manager
+
+Program Manager
+
+Implementation Manager
+
+Project Lead
+
+Scrum Master
+
+Transformation Manager
+
+Transformation Director
+
+COMMON RESPONSIBILITIES
+
+Planning
+
+Delivery
+
+Risk
+
+Stakeholders
+
+Budget
+
+==================================================
+TITLE NORMALIZATION PROCESS
+===========================
+
+INPUT
+
+Raw Job Title
+
+↓
+
+Normalize
+
+↓
+
+Canonical Role
+
+↓
+
+Role Family
+
+↓
+
+Specialization
+
+↓
+
+Seniority
+
+↓
+
+Technology Stack
+
+↓
+
+Responsibilities
+
+==================================================
+MATCHING_RULES
+==============
+
+Canonical Role Match
+
+Critical
+
+Alternative Title Match
+
+High
+
+Technology Match
+
+Critical
+
+Responsibility Match
+
+Critical
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search using
+
+Canonical Role
+
+*
+
+Alternative Titles
+
+*
+
+Specializations
+
+*
+
+Core Technologies
+
+Never search using only the advertised title.
+
+==================================================
+AI_DECISION_RULES
+=================
+
+If responsibilities indicate a different role than the title
+
+Normalize to the responsibility-based role.
+
+If technologies indicate a different specialization
+
+Normalize to the technology specialization.
+
+If multiple technologies represent multiple role families
+
+Classify as Hybrid Role.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Assuming "Software Engineer" always means Backend Developer.
+
+Treating "Consultant" as a Functional Consultant without evidence.
+
+Treating "Architect" as Enterprise Architect without architecture responsibilities.
+
+Treating "Cloud Engineer" and "DevOps Engineer" as identical.
+
+Treating "Platform Engineer" as DevOps without infrastructure responsibilities.
+
+Treating "Support Engineer" as Software Developer.
+
+END_OF_FILE

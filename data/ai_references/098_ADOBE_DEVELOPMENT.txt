@@ -1,0 +1,594 @@
+FILE_NAME:
+098_ADOBE_DEVELOPMENT.txt
+
+ID:
+098
+
+DOMAIN:
+Adobe
+
+CATEGORY:
+Enterprise Application Development
+
+SUBCATEGORY:
+Adobe Experience Cloud Development
+
+PRIMARY_ROLE:
+Adobe Experience Cloud Developer
+
+RELATED_FILES:
+
+090_ADOBE_EXPERIENCE_CLOUD_PLATFORM.txt
+
+091_ADOBE_EXPERIENCE_MANAGER_AEM.txt
+
+092_ADOBE_ANALYTICS.txt
+
+093_ADOBE_CAMPAIGN.txt
+
+094_ADOBE_TARGET.txt
+
+095_ADOBE_COMMERCE_MAGENTO.txt
+
+096_ADOBE_EXPERIENCE_PLATFORM_AEP.txt
+
+097_ADOBE_MARKETO.txt
+
+099_ADOBE_INTEGRATION.txt
+
+010_PROGRAMMING_LANGUAGES.txt
+
+011_APIS.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Adobe Experience Cloud Development
+
+PURPOSE:
+Enable AI agents to understand Adobe Experience Cloud development, including AEM development, Adobe I/O, APIs, SDKs, event-driven architecture, Java, JavaScript, GraphQL, cloud-native development, DevOps, CI/CD, consultant responsibilities, and enterprise Adobe application development for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Adobe Development
+Adobe I/O
+Adobe Developer
+AEM Developer
+Adobe SDK
+Adobe APIs
+GraphQL
+Java
+JavaScript
+OSGi
+Apache Sling
+Adobe App Builder
+Adobe Runtime
+
+ROLE_FAMILIES:
+Adobe Developer
+
+AEM Developer
+
+Adobe Technical Consultant
+
+Adobe Technical Architect
+
+Adobe Application Developer
+
+Cloud Developer
+
+COMMON_JOB_TITLES:
+Adobe Developer
+
+Adobe Technical Consultant
+
+Adobe Experience Cloud Developer
+
+AEM Developer
+
+Adobe Technical Architect
+
+ALTERNATIVE_TITLES:
+Digital Experience Developer
+
+Enterprise CMS Developer
+
+Adobe Cloud Developer
+
+CORE_SKILLS:
+Java
+
+JavaScript
+
+AEM Development
+
+Adobe APIs
+
+GraphQL
+
+Adobe I/O
+
+Cloud Development
+
+CI/CD
+
+SUPPORTING_SKILLS:
+Apache Sling
+
+OSGi
+
+React
+
+Node.js
+
+REST APIs
+
+Git
+
+Docker
+
+Security
+
+RELATED_TECHNOLOGIES:
+Adobe App Builder
+
+Adobe Runtime
+
+Adobe I/O
+
+GraphQL
+
+AEM Cloud Service
+
+OSGi
+
+Apache Sling
+
+React
+
+Node.js
+
+TECHNOLOGY_CATEGORY:
+Enterprise Digital Experience Development Platform
+
+DEPENDENCIES:
+
+010_PROGRAMMING_LANGUAGES.txt
+
+011_APIS.txt
+
+014_DEVOPS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Adobe Experience Cloud development extends Adobe products through APIs, custom applications, event-driven services and cloud-native development.
+
+Modern Adobe development emphasizes Adobe App Builder, Adobe I/O Runtime, API-first architecture and extensibility while maintaining compatibility with managed cloud services.
+
+==================================================
+CORE DEVELOPMENT COMPONENTS
+===========================
+
+Adobe App Builder
+
+Adobe I/O
+
+Adobe Runtime
+
+APIs
+
+SDKs
+
+GraphQL
+
+Event-Driven Architecture
+
+CI/CD
+
+==================================================
+AEM DEVELOPMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+Custom Components
+
+Templates
+
+Services
+
+OSGi Bundles
+
+Apache Sling
+
+HTL Development
+
+==================================================
+ADOBE APP BUILDER
+=================
+
+COMMON RESPONSIBILITIES
+
+Custom Applications
+
+App Extensions
+
+Cloud-Native Apps
+
+Serverless Functions
+
+Microservices
+
+==================================================
+ADOBE I/O
+=========
+
+COMMON RESPONSIBILITIES
+
+API Management
+
+Authentication
+
+Events
+
+Developer Console
+
+Project Configuration
+
+==================================================
+ADOBE RUNTIME
+=============
+
+COMMON RESPONSIBILITIES
+
+Serverless Computing
+
+Functions
+
+Event Processing
+
+Automation
+
+Scaling
+
+==================================================
+GRAPHQL
+=======
+
+COMMON RESPONSIBILITIES
+
+Schema Design
+
+Queries
+
+Mutations
+
+Headless Delivery
+
+API Performance
+
+==================================================
+EVENT-DRIVEN ARCHITECTURE
+=========================
+
+COMMON RESPONSIBILITIES
+
+Event Consumers
+
+Event Producers
+
+Webhooks
+
+Asynchronous Processing
+
+Integration Events
+
+==================================================
+DEVOPS
+======
+
+COMMON RESPONSIBILITIES
+
+Git
+
+CI/CD Pipelines
+
+Cloud Manager
+
+Automated Testing
+
+Release Management
+
+Deployment Automation
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+AEM Development
+
+Headless CMS
+
+Cloud Modernization
+
+API Development
+
+Adobe Extensions
+
+Digital Experience Transformation
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Requirements
+
+↓
+
+Architecture
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+CI/CD
+
+↓
+
+Deployment
+
+↓
+
+Optimization
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Development
+
+*
+
+Cloud
+
+*
+
+APIs
+
+Example
+
+(Adobe)
+
+AND
+
+(Java OR JavaScript)
+
+AND
+
+("Adobe I/O" OR App Builder)
+
+AND
+
+(Developer)
+
+Expand Adobe development technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Adobe Development
+
+Critical
+
+AEM Development
+
+Critical
+
+Java
+
+High
+
+Adobe I/O
+
+High
+
+GraphQL
+
+High
+
+Adobe App Builder
+
+Medium
+
+Cloud Development
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Java Enterprise Development
+
+↓
+
+Adobe Development
+
+High
+
+---
+
+React Development
+
+↓
+
+Headless Adobe
+
+Medium
+
+---
+
+Node.js
+
+↓
+
+Adobe Runtime
+
+Medium
+
+---
+
+Salesforce Development
+
+↓
+
+Enterprise Platform Development
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Development Scope
+
+Adobe Product
+
+Cloud Services
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+AEM
+
+Adobe I/O
+
+App Builder
+
+Runtime
+
+GraphQL
+
+Identify whether the developer performed
+
+Architecture
+
+Development
+
+Testing
+
+CI/CD
+
+Deployment
+
+Optimization
+
+Support
+
+Recognize candidates with enterprise Adobe development, AEM development, Adobe App Builder, Adobe I/O, GraphQL, cloud-native development and CI/CD implementation experience as senior Adobe developers.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Java developers as Adobe developers.
+
+Confusing AEM authoring with AEM development.
+
+Matching candidates solely because they mention Java.
+
+Ignoring Adobe I/O and App Builder.
+
+Treating React experience as Adobe expertise.
+
+Ignoring cloud-native architecture.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Adobe Development
+
+↓
+
+Adobe Experience Cloud
+
+Adobe Platform
+
+Adobe Engineering
+
+---
+
+Development
+
+↓
+
+Java
+
+JavaScript
+
+React
+
+Node.js
+
+GraphQL
+
+---
+
+AEM
+
+↓
+
+Apache Sling
+
+OSGi
+
+HTL
+
+Dispatcher
+
+---
+
+Cloud
+
+↓
+
+Adobe App Builder
+
+Adobe Runtime
+
+Adobe I/O
+
+Serverless
+
+CI/CD
+
+END_OF_FILE

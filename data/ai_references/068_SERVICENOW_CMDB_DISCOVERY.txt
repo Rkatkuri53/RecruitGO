@@ -1,0 +1,690 @@
+FILE_NAME:
+068_SERVICENOW_CMDB_DISCOVERY.txt
+
+ID:
+068
+
+DOMAIN:
+ServiceNow
+
+CATEGORY:
+Enterprise Platform
+
+SUBCATEGORY:
+ServiceNow CMDB & Discovery
+
+PRIMARY_ROLE:
+ServiceNow CMDB Consultant
+
+RELATED_FILES:
+
+057_SERVICENOW_PLATFORM.txt
+
+058_SERVICENOW_ITSM.txt
+
+059_SERVICENOW_ITOM.txt
+
+060_SERVICENOW_ITAM_SAM.txt
+
+065_SERVICENOW_SECOPS.txt
+
+066_SERVICENOW_PLATFORM_DEVELOPMENT.txt
+
+067_SERVICENOW_INTEGRATION.txt
+
+013_CLOUD.txt
+
+015_CYBERSECURITY.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+ServiceNow CMDB & Discovery
+
+PURPOSE:
+Enable AI agents to understand ServiceNow Configuration Management Database (CMDB), Discovery, Service Mapping, Configuration Items (CIs), Common Service Data Model (CSDM), Identification and Reconciliation Engine (IRE), Service Graph Connector, Discovery Patterns, and enterprise CMDB governance for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+ServiceNow CMDB
+CMDB
+Discovery
+Service Mapping
+CSDM
+IRE
+Identification Reconciliation Engine
+Service Graph Connector
+Configuration Items
+CI Relationships
+Discovery Patterns
+MID Server
+
+ROLE_FAMILIES:
+ServiceNow CMDB Consultant
+ServiceNow Discovery Consultant
+CMDB Architect
+Configuration Manager
+ServiceNow Technical Consultant
+ServiceNow Solution Architect
+
+COMMON_JOB_TITLES:
+ServiceNow CMDB Consultant
+ServiceNow Discovery Consultant
+CMDB Architect
+Configuration Manager
+ServiceNow Technical Architect
+
+ALTERNATIVE_TITLES:
+Configuration Management Consultant
+Discovery Architect
+CMDB Governance Consultant
+
+CORE_SKILLS:
+CMDB Design
+
+Discovery
+
+CSDM
+
+CI Lifecycle
+
+Service Mapping
+
+IRE
+
+CMDB Governance
+
+Configuration Management
+
+SUPPORTING_SKILLS:
+MID Server
+
+REST APIs
+
+Cloud Discovery
+
+Windows
+
+Linux
+
+Networking
+
+Reporting
+
+RELATED_TECHNOLOGIES:
+CMDB
+
+Discovery
+
+Service Mapping
+
+MID Server
+
+CSDM
+
+IRE
+
+Service Graph Connector
+
+Cloud Discovery
+
+Performance Analytics
+
+TECHNOLOGY_CATEGORY:
+Configuration Management Platform
+
+DEPENDENCIES:
+
+059_SERVICENOW_ITOM.txt
+
+067_SERVICENOW_INTEGRATION.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+ServiceNow CMDB provides a centralized repository of Configuration Items (CIs) and their relationships across infrastructure, applications, cloud services and business services.
+
+Discovery and Service Mapping automatically populate and maintain CMDB accuracy while CSDM provides standardized data modeling for enterprise service management.
+
+==================================================
+CORE COMPONENTS
+===============
+
+CMDB
+
+Discovery
+
+Service Mapping
+
+CSDM
+
+IRE
+
+Service Graph Connector
+
+Discovery Patterns
+
+Relationship Mapping
+
+==================================================
+CMDB
+====
+
+COMMON RESPONSIBILITIES
+
+CI Modeling
+
+Relationship Management
+
+Lifecycle Management
+
+Governance
+
+Health Dashboards
+
+Data Quality
+
+==================================================
+DISCOVERY
+=========
+
+COMMON RESPONSIBILITIES
+
+Server Discovery
+
+Network Discovery
+
+Cloud Discovery
+
+Database Discovery
+
+Application Discovery
+
+Automatic CI Creation
+
+==================================================
+SERVICE MAPPING
+===============
+
+COMMON RESPONSIBILITIES
+
+Application Topology
+
+Business Services
+
+Dependency Mapping
+
+Dynamic Service Maps
+
+Impact Analysis
+
+==================================================
+COMMON SERVICE DATA MODEL (CSDM)
+================================
+
+COMMON RESPONSIBILITIES
+
+Business Applications
+
+Business Services
+
+Technical Services
+
+Application Services
+
+Standardized Data Models
+
+==================================================
+IDENTIFICATION & RECONCILIATION ENGINE (IRE)
+============================================
+
+COMMON RESPONSIBILITIES
+
+CI Identification
+
+Duplicate Prevention
+
+Data Source Prioritization
+
+Reconciliation Rules
+
+Data Integrity
+
+==================================================
+SERVICE GRAPH CONNECTOR
+=======================
+
+COMMON RESPONSIBILITIES
+
+Third-Party Data Import
+
+Cloud Connectors
+
+Infrastructure Synchronization
+
+Certified Integrations
+
+==================================================
+DISCOVERY PATTERNS
+==================
+
+COMMON RESPONSIBILITIES
+
+Pattern-Based Discovery
+
+Custom Patterns
+
+Credential Management
+
+Horizontal Discovery
+
+Application Discovery
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Configuration Management
+
+Infrastructure Discovery
+
+CMDB Governance
+
+Application Mapping
+
+Asset Synchronization
+
+Service Visibility
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+CI Classes
+
+Relationships
+
+Identification Rules
+
+Reconciliation Rules
+
+Discovery Schedules
+
+Patterns
+
+Credentials
+
+Health Dashboards
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Infrastructure Assessment
+
+↓
+
+CMDB Design
+
+↓
+
+CSDM Mapping
+
+↓
+
+Discovery Configuration
+
+↓
+
+Validation
+
+↓
+
+Testing
+
+↓
+
+Go-Live
+
+↓
+
+Governance
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+CMDB Implementation
+
+Discovery Deployment
+
+CSDM Adoption
+
+Service Mapping
+
+CMDB Health Improvement
+
+Cloud Discovery
+
+Enterprise Visibility
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+AWS
+
+Azure
+
+Google Cloud
+
+VMware
+
+Cisco
+
+SolarWinds
+
+Dynatrace
+
+Service Graph Connectors
+
+==================================================
+COMMON REPORTS
+==============
+
+CMDB Health
+
+CI Coverage
+
+Discovery Success
+
+Relationship Completeness
+
+Data Quality
+
+CSDM Compliance
+
+Service Visibility
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Configuration Managers
+
+Infrastructure Teams
+
+Cloud Engineers
+
+Enterprise Architects
+
+Operations Teams
+
+Platform Owners
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+CMDB
+
+*
+
+Discovery
+
+*
+
+CSDM
+
+Example
+
+(ServiceNow)
+
+AND
+
+(CMDB)
+
+AND
+
+(Discovery OR "Service Mapping")
+
+AND
+
+(CSDM OR IRE)
+
+Expand CMDB technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+CMDB
+
+Critical
+
+Discovery
+
+Critical
+
+CSDM
+
+High
+
+IRE
+
+High
+
+Service Mapping
+
+High
+
+Discovery Patterns
+
+Medium
+
+MID Server
+
+Medium
+
+Governance
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+BMC Atrium CMDB
+
+↓
+
+ServiceNow CMDB
+
+High
+
+---
+
+Device42
+
+↓
+
+CMDB
+
+Medium
+
+---
+
+Dynatrace Smartscape
+
+↓
+
+Service Mapping
+
+Medium
+
+---
+
+Azure Resource Graph
+
+↓
+
+Cloud Discovery
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+CMDB Scope
+
+Discovery Scope
+
+Infrastructure Type
+
+Governance Model
+
+Implementation Type
+
+Differentiate
+
+CMDB
+
+Discovery
+
+Service Mapping
+
+CSDM
+
+IRE
+
+Service Graph
+
+Identify whether the consultant performed
+
+CMDB Design
+
+Discovery Configuration
+
+Pattern Development
+
+CSDM Modeling
+
+Governance
+
+Testing
+
+Optimization
+
+Health Improvements
+
+Recognize candidates with enterprise CMDB implementation, CSDM adoption, IRE configuration, Discovery pattern development, Service Mapping and CMDB governance experience as senior ServiceNow CMDB consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating CMDB as an asset inventory.
+
+Confusing Discovery with CMDB.
+
+Matching candidates solely because they mention Configuration Items.
+
+Ignoring CSDM and IRE expertise.
+
+Treating infrastructure administration as CMDB implementation.
+
+Ignoring Discovery patterns and governance.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+CMDB
+
+↓
+
+Configuration Management Database
+
+Configuration Items
+
+CI Relationships
+
+CI Lifecycle
+
+---
+
+Discovery
+
+↓
+
+Server Discovery
+
+Cloud Discovery
+
+Application Discovery
+
+Network Discovery
+
+Discovery Patterns
+
+---
+
+CSDM
+
+↓
+
+Common Service Data Model
+
+Business Services
+
+Application Services
+
+Technical Services
+
+---
+
+IRE
+
+↓
+
+Identification Rules
+
+Reconciliation Rules
+
+Duplicate Prevention
+
+Data Integrity
+
+---
+
+Service Mapping
+
+↓
+
+Application Topology
+
+Business Services
+
+Dependency Mapping
+
+Impact Analysis
+
+END_OF_FILE

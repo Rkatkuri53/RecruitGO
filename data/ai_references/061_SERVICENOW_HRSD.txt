@@ -1,0 +1,661 @@
+FILE_NAME:
+061_SERVICENOW_HRSD.txt
+
+ID:
+061
+
+DOMAIN:
+ServiceNow
+
+CATEGORY:
+Enterprise Platform
+
+SUBCATEGORY:
+ServiceNow HR Service Delivery (HRSD)
+
+PRIMARY_ROLE:
+ServiceNow HRSD Consultant
+
+RELATED_FILES:
+
+057_SERVICENOW_PLATFORM.txt
+
+058_SERVICENOW_ITSM.txt
+
+060_SERVICENOW_ITAM_SAM.txt
+
+062_SERVICENOW_CSM.txt
+
+066_SERVICENOW_PLATFORM_DEVELOPMENT.txt
+
+067_SERVICENOW_INTEGRATION.txt
+
+068_SERVICENOW_CMDB_DISCOVERY.txt
+
+037_ORACLE_HCM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+ServiceNow HR Service Delivery
+
+PURPOSE:
+Enable AI agents to understand ServiceNow HR Service Delivery (HRSD), employee lifecycle management, HR case management, employee service center, onboarding, offboarding, document management, HR workflows, consultant responsibilities, implementation methodologies, and HR transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+ServiceNow HRSD
+HR Service Delivery
+Employee Center
+HR Case Management
+Employee Lifecycle
+Onboarding
+Offboarding
+HR Knowledge
+HR Catalog
+Employee Journey
+Document Management
+
+ROLE_FAMILIES:
+ServiceNow HRSD Consultant
+HR Transformation Consultant
+ServiceNow Functional Consultant
+ServiceNow Solution Architect
+HR Technology Consultant
+HR Process Consultant
+
+COMMON_JOB_TITLES:
+ServiceNow HRSD Consultant
+ServiceNow HR Consultant
+HR Service Delivery Consultant
+Employee Experience Consultant
+ServiceNow HR Architect
+
+ALTERNATIVE_TITLES:
+HR Digital Transformation Consultant
+Employee Service Consultant
+HR Workflow Consultant
+
+CORE_SKILLS:
+HR Case Management
+
+Employee Lifecycle
+
+Employee Center
+
+HR Knowledge
+
+HR Catalog
+
+Workflow Automation
+
+Configuration
+
+Integration
+
+SUPPORTING_SKILLS:
+Flow Designer
+
+REST APIs
+
+Reporting
+
+Security
+
+Document Management
+
+HR Systems
+
+RELATED_TECHNOLOGIES:
+Employee Center
+
+HR Case Management
+
+Journey Accelerator
+
+Document Management
+
+Knowledge Base
+
+Flow Designer
+
+Virtual Agent
+
+Workday Integration
+
+TECHNOLOGY_CATEGORY:
+HR Workflow Platform
+
+DEPENDENCIES:
+
+057_SERVICENOW_PLATFORM.txt
+
+037_ORACLE_HCM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+ServiceNow HR Service Delivery (HRSD) digitizes HR operations by automating employee services across the complete employee lifecycle.
+
+It enables HR organizations to deliver standardized services, improve employee experience and automate HR case management, onboarding, document management and employee journeys.
+
+==================================================
+CORE MODULES
+============
+
+HR Case Management
+
+Employee Center
+
+HR Knowledge
+
+HR Catalog
+
+Lifecycle Events
+
+Journey Accelerator
+
+Document Management
+
+Employee Document Management
+
+==================================================
+HR CASE MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+HR Case Creation
+
+Assignment
+
+Escalation
+
+Case Resolution
+
+Employee Communication
+
+Sensitive Case Handling
+
+==================================================
+EMPLOYEE CENTER
+===============
+
+COMMON RESPONSIBILITIES
+
+Employee Self-Service
+
+HR Portal
+
+Knowledge Search
+
+Service Catalog
+
+Requests
+
+Announcements
+
+==================================================
+LIFECYCLE EVENTS
+================
+
+COMMON RESPONSIBILITIES
+
+Hiring
+
+Onboarding
+
+Internal Transfer
+
+Promotion
+
+Leave of Absence
+
+Offboarding
+
+Retirement
+
+==================================================
+JOURNEY ACCELERATOR
+===================
+
+COMMON RESPONSIBILITIES
+
+Employee Journeys
+
+Task Coordination
+
+Cross-Department Workflows
+
+Notifications
+
+Automation
+
+==================================================
+DOCUMENT MANAGEMENT
+===================
+
+COMMON RESPONSIBILITIES
+
+Employee Documents
+
+Policies
+
+Contracts
+
+Digital Signatures
+
+Secure Storage
+
+==================================================
+HR KNOWLEDGE
+============
+
+COMMON RESPONSIBILITIES
+
+Knowledge Articles
+
+HR Policies
+
+FAQs
+
+Knowledge Publishing
+
+Search Optimization
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Hire-to-Retire
+
+Employee Onboarding
+
+Employee Offboarding
+
+HR Case Resolution
+
+Employee Self-Service
+
+HR Service Requests
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+HR Services
+
+Case Categories
+
+Employee Center
+
+Knowledge
+
+Flows
+
+Approvals
+
+Notifications
+
+Security
+
+Reports
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+HR Process Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+Training
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+HRSD Implementation
+
+Employee Experience Transformation
+
+HR Portal Modernization
+
+Employee Self-Service
+
+Digital HR Transformation
+
+Global HR Rollout
+
+Support
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Workday
+
+SAP SuccessFactors
+
+Oracle HCM
+
+Azure AD
+
+LDAP
+
+REST APIs
+
+Microsoft Teams
+
+DocuSign
+
+==================================================
+COMMON REPORTS
+==============
+
+HR Case Metrics
+
+Employee Satisfaction
+
+Onboarding Progress
+
+Case Resolution Time
+
+Knowledge Usage
+
+Service Requests
+
+Employee Portal Usage
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+HR Teams
+
+HR Business Partners
+
+Employees
+
+HR Shared Services
+
+Managers
+
+People Operations
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+HR
+
+*
+
+Employee
+
+*
+
+Workflow
+
+Example
+
+(ServiceNow)
+
+AND
+
+(HRSD)
+
+AND
+
+(Onboarding OR "HR Case Management")
+
+AND
+
+("Employee Center" OR Knowledge)
+
+Expand HRSD terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+ServiceNow HRSD
+
+Critical
+
+HR Case Management
+
+Critical
+
+Employee Center
+
+High
+
+Lifecycle Events
+
+High
+
+Workflow Automation
+
+High
+
+Knowledge Management
+
+Medium
+
+Integration
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle HCM
+
+↓
+
+HRSD
+
+Medium
+
+---
+
+SAP SuccessFactors
+
+↓
+
+HRSD
+
+Medium
+
+---
+
+Workday HCM
+
+↓
+
+HRSD
+
+Medium
+
+---
+
+PeopleSoft HCM
+
+↓
+
+HRSD
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+HR Module
+
+Employee Lifecycle
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+HRSD
+
+Employee Center
+
+HR Case Management
+
+Journey Accelerator
+
+HR Portal
+
+Identify whether the consultant performed
+
+HR Process Design
+
+Configuration
+
+Workflow Automation
+
+Integration
+
+Testing
+
+Training
+
+Deployment
+
+Production Support
+
+Recognize candidates with enterprise HRSD implementation, employee lifecycle automation, Employee Center deployment, HR Case Management and HR digital transformation experience as senior ServiceNow HRSD consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating HRSD as an HRIS like Workday.
+
+Confusing HR Case Management with ITSM Incident Management.
+
+Matching candidates solely because they mention HR.
+
+Ignoring employee lifecycle automation.
+
+Treating HR operations experience as HRSD implementation experience.
+
+Ignoring Employee Center and Journey Accelerator expertise.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+HRSD
+
+↓
+
+HR Service Delivery
+
+Employee Services
+
+HR Operations
+
+Employee Experience
+
+---
+
+Employee Center
+
+↓
+
+HR Portal
+
+Self-Service
+
+Knowledge
+
+HR Catalog
+
+---
+
+Lifecycle
+
+↓
+
+Onboarding
+
+Transfers
+
+Promotion
+
+Leave
+
+Offboarding
+
+Retirement
+
+---
+
+HR Cases
+
+↓
+
+Employee Requests
+
+Case Management
+
+Sensitive Cases
+
+HR Workflow
+
+END_OF_FILE

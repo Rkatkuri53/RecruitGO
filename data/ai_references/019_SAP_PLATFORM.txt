@@ -1,0 +1,674 @@
+FILE_NAME:
+019_SAP_PLATFORM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP Enterprise Platform
+
+PURPOSE:
+Enable AI agents to understand the SAP ecosystem, SAP product portfolio, implementation methodologies, functional and technical roles, deployment models, integration methods, project lifecycle, and SAP-specific terminology. This file serves as the master reference for all SAP-related knowledge cards.
+
+KEYWORDS:
+SAP
+SAP ERP
+SAP S/4HANA
+ECC
+Business Suite
+RISE with SAP
+SAP BTP
+SAP Fiori
+ABAP
+SAP Basis
+SAP Integration
+
+ROLE_FAMILIES:
+SAP Functional Consultant
+SAP Technical Consultant
+SAP ABAP Developer
+SAP Basis Consultant
+SAP Solution Architect
+SAP Enterprise Architect
+SAP Program Manager
+SAP Project Manager
+SAP Integration Consultant
+SAP Security Consultant
+SAP Analytics Consultant
+
+COMMON_JOB_TITLES:
+SAP Consultant
+SAP S/4HANA Consultant
+SAP Solution Architect
+SAP Technical Lead
+SAP Functional Lead
+SAP Program Manager
+
+ALTERNATIVE_TITLES:
+SAP ERP Consultant
+SAP Transformation Consultant
+SAP Implementation Consultant
+
+CORE_SKILLS:
+Business Process Analysis
+SAP Configuration
+SAP Customization
+Integration
+Data Migration
+Testing
+Cutover
+Hypercare
+
+SUPPORTING_SKILLS:
+Project Management
+Cloud
+Security
+APIs
+Analytics
+Change Management
+
+RELATED_TECHNOLOGIES:
+SAP S/4HANA
+SAP ECC
+SAP BTP
+SAP Fiori
+ABAP
+HANA
+SAP Integration Suite
+SAP Analytics Cloud
+SAP SuccessFactors
+SAP Ariba
+SAP Concur
+
+TECHNOLOGY_CATEGORY:
+Enterprise Platform
+
+DEPENDENCIES:
+
+018_ENTERPRISE_PLATFORMS.txt
+
+==================================================
+SAP PLATFORM OVERVIEW
+=====================
+
+SAP is an enterprise software platform that enables organizations to manage core business operations.
+
+SAP integrates business processes across
+
+Finance
+
+Procurement
+
+Manufacturing
+
+Sales
+
+Supply Chain
+
+Warehouse
+
+Human Resources
+
+Asset Management
+
+Projects
+
+Analytics
+
+==================================================
+MAJOR SAP PRODUCTS
+==================
+
+SAP ECC
+
+SAP S/4HANA
+
+SAP Business Suite
+
+SAP Business One
+
+SAP Business ByDesign
+
+SAP SuccessFactors
+
+SAP Ariba
+
+SAP Concur
+
+SAP Fieldglass
+
+SAP Customer Experience
+
+SAP BTP
+
+SAP Analytics Cloud
+
+==================================================
+SAP S/4HANA
+===========
+
+DESCRIPTION
+
+SAP's next-generation ERP platform built on SAP HANA.
+
+CHARACTERISTICS
+
+Real-Time Processing
+
+Simplified Data Model
+
+Embedded Analytics
+
+Fiori User Experience
+
+Cloud Ready
+
+Deployment Options
+
+On-Premise
+
+Private Cloud
+
+Public Cloud
+
+==================================================
+SAP ECC
+=======
+
+DESCRIPTION
+
+Legacy ERP platform.
+
+COMMON PROJECTS
+
+Support
+
+Enhancement
+
+Upgrade
+
+Migration to S/4HANA
+
+==================================================
+SAP HANA
+========
+
+CATEGORY
+
+In-Memory Database
+
+COMMON RESPONSIBILITIES
+
+Performance
+
+Modeling
+
+Administration
+
+Database Optimization
+
+==================================================
+SAP BTP
+=======
+
+SAP Business Technology Platform
+
+COMMON SERVICES
+
+Application Development
+
+Integration
+
+Automation
+
+AI
+
+Data Management
+
+Extensions
+
+==================================================
+SAP FIORI
+=========
+
+PURPOSE
+
+Modern SAP User Experience.
+
+COMMON TECHNOLOGIES
+
+SAPUI5
+
+OData
+
+Fiori Launchpad
+
+==================================================
+SAP IMPLEMENTATION TYPES
+========================
+
+Greenfield
+
+New Implementation
+
+---
+
+Brownfield
+
+System Conversion
+
+ECC
+
+↓
+
+S/4HANA
+
+---
+
+Selective Data Transition
+
+Hybrid Migration
+
+---
+
+Rollout
+
+Global Deployment
+
+---
+
+Upgrade
+
+Enhancement Package
+
+Feature Upgrade
+
+==================================================
+COMMON PROJECT PHASES
+=====================
+
+Discovery
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+↓
+
+Support
+
+==================================================
+SAP CONSULTANT TYPES
+====================
+
+Functional Consultant
+
+Business Processes
+
+Configuration
+
+---
+
+Technical Consultant
+
+Development
+
+Enhancements
+
+---
+
+ABAP Developer
+
+Custom Development
+
+Reports
+
+Interfaces
+
+Forms
+
+Enhancements
+
+---
+
+Basis Consultant
+
+Installation
+
+Administration
+
+Transport
+
+Performance
+
+---
+
+Solution Architect
+
+End-to-End Design
+
+---
+
+Program Manager
+
+Governance
+
+Delivery
+
+Budget
+
+==================================================
+COMMON SAP RESPONSIBILITIES
+===========================
+
+Business Workshops
+
+Requirement Gathering
+
+Configuration
+
+Customization
+
+Integration
+
+Testing
+
+Data Migration
+
+Training
+
+Go-Live Support
+
+Production Support
+
+==================================================
+SAP INTEGRATION
+===============
+
+COMMON METHODS
+
+IDoc
+
+BAPI
+
+RFC
+
+OData
+
+REST
+
+SOAP
+
+SAP Integration Suite
+
+Middleware
+
+==================================================
+SAP SECURITY
+============
+
+Authorization Objects
+
+Roles
+
+Profiles
+
+Segregation of Duties
+
+GRC
+
+Identity Management
+
+==================================================
+SAP PROJECT TERMINOLOGY
+=======================
+
+Fit-Gap
+
+Blueprint
+
+Configuration
+
+Customization
+
+Enhancement
+
+Transport
+
+Client Copy
+
+Cutover
+
+Hypercare
+
+Change Request
+
+Support Ticket
+
+==================================================
+COMMON SAP MODULES
+==================
+
+Finance
+
+Controlling
+
+Materials Management
+
+Sales & Distribution
+
+Production Planning
+
+Warehouse Management
+
+Extended Warehouse Management
+
+Quality Management
+
+Plant Maintenance
+
+Human Capital Management
+
+SuccessFactors
+
+Ariba
+
+Customer Experience
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+SAP Platform
+
+*
+
+Module
+
+*
+
+Role
+
+*
+
+Project Type
+
+*
+
+Implementation Type
+
+Example
+
+("SAP S/4HANA" OR SAP)
+
+AND
+
+(Consultant OR Architect)
+
+AND
+
+(Implementation OR Migration OR Support)
+
+AND
+
+(Brownfield OR Greenfield)
+
+Expand module names only when explicitly required.
+
+==================================================
+MATCHING_RULES
+==============
+
+Platform Experience
+
+Critical
+
+Module Experience
+
+Critical
+
+Implementation Experience
+
+Critical
+
+Migration Experience
+
+High
+
+Integration
+
+High
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+SAP Product
+
+Primary Module
+
+Implementation Type
+
+Project Phase
+
+Role Type
+
+Deployment Model
+
+Never assume SAP experience is transferable across all modules.
+
+Distinguish between
+
+ECC
+
+S/4HANA
+
+Support
+
+Implementation
+
+Migration
+
+Transformation
+
+Brownfield
+
+Greenfield
+
+Recognize Brownfield migration experience as highly valuable for S/4HANA transformation programs.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SAP ECC and SAP S/4HANA as identical.
+
+Confusing Functional Consultants with ABAP Developers.
+
+Ignoring implementation methodology.
+
+Ignoring project lifecycle experience.
+
+Matching candidates based only on SAP certification.
+
+Ignoring business process ownership.
+
+==================================================
+NEXT KNOWLEDGE FILES
+====================
+
+020_SAP_FICO.txt
+
+021_SAP_MM.txt
+
+022_SAP_SD.txt
+
+023_SAP_PP.txt
+
+024_SAP_QM.txt
+
+025_SAP_PM.txt
+
+026_SAP_EWM.txt
+
+027_SAP_BASIS.txt
+
+028_SAP_ABAP.txt
+
+029_SAP_BTP.txt
+
+030_SAP_FIORI_UI5.txt
+
+031_SAP_INTEGRATION_SUITE.txt
+
+032_SAP_SECURITY_GRC.txt
+
+033_SAP_S4HANA_BROWNFIELD.txt
+
+034_SAP_S4HANA_GREENFIELD.txt
+
+END_OF_FILE

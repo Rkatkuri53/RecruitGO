@@ -1,0 +1,613 @@
+FILE_NAME:
+039_ORACLE_EPM.txt
+
+ID:
+039
+
+DOMAIN:
+Oracle
+
+CATEGORY:
+Enterprise Applications
+
+SUBCATEGORY:
+Oracle Enterprise Performance Management (Oracle EPM Cloud)
+
+PRIMARY_ROLE:
+Oracle EPM Consultant
+
+RELATED_FILES:
+
+035_ORACLE_PLATFORM.txt
+
+036_ORACLE_ERP.txt
+
+037_ORACLE_HCM.txt
+
+038_ORACLE_SCM.txt
+
+040_ORACLE_CX.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+042_ORACLE_DATABASE.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Oracle Enterprise Performance Management (Oracle EPM Cloud)
+
+PURPOSE:
+Enable AI agents to understand Oracle Enterprise Performance Management (EPM) Cloud, including planning, budgeting, forecasting, financial consolidation, account reconciliation, tax reporting, profitability analysis, enterprise data management, implementation methodologies, consultant responsibilities, and Oracle EPM transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Oracle EPM
+Oracle EPM Cloud
+Oracle Hyperion
+Planning
+Budgeting
+Forecasting
+Financial Consolidation
+FCCS
+EPBCS
+PBCS
+ARCS
+EDMCS
+PCMCS
+Tax Reporting
+
+ROLE_FAMILIES:
+Oracle EPM Consultant
+Oracle Hyperion Consultant
+Oracle Planning Consultant
+Oracle Financial Consolidation Consultant
+Oracle EPM Architect
+Oracle EPM Program Manager
+
+COMMON_JOB_TITLES:
+Oracle EPM Consultant
+Oracle Hyperion Consultant
+Oracle Planning Consultant
+Oracle FCCS Consultant
+Oracle EPBCS Consultant
+Oracle EPM Architect
+
+ALTERNATIVE_TITLES:
+Oracle Enterprise Performance Management Consultant
+Oracle Financial Planning Consultant
+Oracle Performance Management Consultant
+
+CORE_SKILLS:
+Planning
+
+Budgeting
+
+Forecasting
+
+Financial Consolidation
+
+Account Reconciliation
+
+Profitability Analysis
+
+Configuration
+
+Implementation
+
+SUPPORTING_SKILLS:
+Finance
+
+Cloud
+
+Reporting
+
+Integration
+
+Analytics
+
+Project Management
+
+RELATED_TECHNOLOGIES:
+Oracle EPM Cloud
+
+Oracle Hyperion
+
+FCCS
+
+EPBCS
+
+PBCS
+
+ARCS
+
+EDMCS
+
+PCMCS
+
+Oracle ERP Cloud
+
+TECHNOLOGY_CATEGORY:
+Oracle EPM
+
+DEPENDENCIES:
+
+035_ORACLE_PLATFORM.txt
+
+036_ORACLE_ERP.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Oracle Enterprise Performance Management (EPM) Cloud helps organizations manage budgeting, forecasting, financial close, consolidation, profitability, tax reporting and strategic planning.
+
+Oracle EPM Cloud is the successor to many traditional Oracle Hyperion solutions and supports enterprise financial transformation.
+
+==================================================
+CORE MODULES
+============
+
+Planning
+
+Enterprise Planning
+
+Financial Consolidation
+
+Account Reconciliation
+
+Tax Reporting
+
+Profitability & Cost Management
+
+Enterprise Data Management
+
+Narrative Reporting
+
+FreeForm
+
+==================================================
+PLANNING
+========
+
+COMMON BUSINESS FUNCTIONS
+
+Annual Budgeting
+
+Rolling Forecasts
+
+Capital Planning
+
+Workforce Planning
+
+Project Planning
+
+Scenario Modeling
+
+==================================================
+FINANCIAL CONSOLIDATION (FCCS)
+==============================
+
+COMMON BUSINESS FUNCTIONS
+
+Financial Close
+
+Consolidation
+
+Currency Translation
+
+Intercompany Eliminations
+
+Minority Interest
+
+Financial Statements
+
+==================================================
+ACCOUNT RECONCILIATION (ARCS)
+=============================
+
+COMMON BUSINESS FUNCTIONS
+
+Balance Sheet Reconciliation
+
+Transaction Matching
+
+Compliance
+
+Certification
+
+Reconciliation Workflow
+
+==================================================
+PROFITABILITY & COST MANAGEMENT (PCMCS)
+=======================================
+
+COMMON BUSINESS FUNCTIONS
+
+Cost Allocation
+
+Profitability Analysis
+
+Driver-Based Costing
+
+Management Reporting
+
+==================================================
+ENTERPRISE DATA MANAGEMENT (EDMCS)
+==================================
+
+COMMON BUSINESS FUNCTIONS
+
+Master Data Governance
+
+Hierarchy Management
+
+Metadata Synchronization
+
+Change Requests
+
+==================================================
+NARRATIVE REPORTING
+===================
+
+COMMON BUSINESS FUNCTIONS
+
+Board Reports
+
+Financial Reports
+
+Disclosure Management
+
+Management Reporting
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Budget-to-Actual
+
+Forecast-to-Plan
+
+Financial Close
+
+Corporate Consolidation
+
+Profitability Analysis
+
+Management Reporting
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Dimensions
+
+Hierarchies
+
+Business Rules
+
+Forms
+
+Approval Workflow
+
+Security
+
+Metadata
+
+Data Maps
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Requirements Gathering
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+User Acceptance Testing
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Oracle EPM Cloud Implementation
+
+Hyperion Migration
+
+Planning Transformation
+
+Financial Close Modernization
+
+Budgeting Transformation
+
+Global Rollout
+
+Support
+
+Enhancement
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Oracle ERP Cloud
+
+Oracle Integration Cloud (OIC)
+
+Data Management
+
+REST APIs
+
+EPM Automate
+
+Data Exchange
+
+==================================================
+COMMON REPORTS
+==============
+
+Budget Reports
+
+Forecast Reports
+
+Financial Statements
+
+Consolidation Reports
+
+Profitability Reports
+
+Variance Analysis
+
+Management Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Finance Teams
+
+Controllers
+
+FP&A Teams
+
+CFO
+
+Accounting Teams
+
+Business Analysts
+
+Executive Leadership
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Business Process
+
+*
+
+Implementation
+
+Example
+
+("Oracle EPM" OR Hyperion)
+
+AND
+
+(FCCS OR EPBCS OR Planning)
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+(Migration OR Transformation)
+
+Expand Oracle EPM modules only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Oracle EPM Experience
+
+Critical
+
+Planning
+
+Critical
+
+Financial Consolidation
+
+High
+
+Budgeting
+
+High
+
+Forecasting
+
+High
+
+Configuration
+
+High
+
+Cloud Experience
+
+High
+
+Integration
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle Hyperion
+
+↓
+
+Oracle EPM Cloud
+
+High
+
+---
+
+SAP BPC
+
+↓
+
+Oracle EPM
+
+Medium
+
+---
+
+OneStream
+
+↓
+
+Oracle EPM
+
+Medium
+
+---
+
+Anaplan
+
+↓
+
+Oracle Planning
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Oracle EPM Version
+
+Business Module
+
+Cloud vs On-Premises
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Planning
+
+FCCS
+
+ARCS
+
+PCMCS
+
+EDMCS
+
+Support
+
+Implementation
+
+Migration
+
+Transformation
+
+Identify whether the consultant performed
+
+Business Analysis
+
+Configuration
+
+Testing
+
+Data Migration
+
+Integration
+
+Go-Live
+
+Hypercare
+
+Production Support
+
+Recognize candidates with Oracle EPM Cloud implementation, Hyperion-to-EPM Cloud migration, planning, consolidation and financial transformation experience as higher-value for modern Oracle EPM programs.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Oracle EPM as Oracle ERP.
+
+Confusing Oracle Hyperion with Oracle Database.
+
+Matching candidates solely because they mention budgeting.
+
+Ignoring module specialization.
+
+Treating FP&A business experience as Oracle EPM implementation experience.
+
+Ignoring financial consolidation expertise.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

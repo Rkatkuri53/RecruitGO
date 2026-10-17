@@ -1,0 +1,788 @@
+FILE_NAME:
+004_SDLC.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Software Development Life Cycle (SDLC)
+
+PURPOSE:
+Enable AI agents to understand the complete Software Development Life Cycle (SDLC), identify where a role participates, determine project responsibilities from JDs and resumes, improve Boolean generation, and accurately match candidates based on SDLC experience rather than isolated technical skills.
+
+KEYWORDS:
+SDLC
+Software Development Life Cycle
+Software Delivery
+Agile
+Waterfall
+Development Lifecycle
+Project Lifecycle
+
+ROLE_FAMILIES:
+Software Engineering
+Quality Engineering
+Business Analysis
+DevOps
+Cloud
+Infrastructure
+Data Engineering
+AI Engineering
+Architecture
+Project Management
+Enterprise Applications
+Support
+
+COMMON_JOB_TITLES:
+Developer
+QA Engineer
+Business Analyst
+DevOps Engineer
+Cloud Engineer
+Solution Architect
+Project Manager
+Scrum Master
+SAP Consultant
+Oracle Consultant
+Salesforce Consultant
+
+ALTERNATIVE_TITLES:
+Application Lifecycle
+Software Lifecycle
+Delivery Lifecycle
+
+CORE_SKILLS:
+Requirement Analysis
+Design
+Development
+Testing
+Deployment
+Support
+
+SUPPORTING_SKILLS:
+Agile
+Scrum
+DevOps
+CI/CD
+Documentation
+Release Management
+
+RELATED_TECHNOLOGIES:
+Jira
+Azure DevOps
+GitHub
+Git
+Jenkins
+Docker
+Kubernetes
+ServiceNow
+Confluence
+
+TECHNOLOGY_CATEGORY:
+Software Engineering
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+001_ROLE_CLASSIFICATION.txt
+
+002_JOB_TITLE_NORMALIZATION.txt
+
+003_IT_ECOSYSTEM.txt
+
+==================================================
+SDLC OVERVIEW
+=============
+
+Software Development Life Cycle (SDLC) is the structured process used to plan, build, test, deploy, operate and continuously improve software systems.
+
+Every IT role participates in one or more SDLC phases.
+
+Understanding SDLC participation is essential for accurate JD parsing, Boolean generation and candidate matching.
+
+==================================================
+SDLC PHASES
+===========
+
+1.
+
+Business Planning
+
+↓
+
+2.
+
+Requirements Gathering
+
+↓
+
+3.
+
+Analysis
+
+↓
+
+4.
+
+Solution Design
+
+↓
+
+5.
+
+Development
+
+↓
+
+6.
+
+Testing
+
+↓
+
+7.
+
+Deployment
+
+↓
+
+8.
+
+Production Support
+
+↓
+
+9.
+
+Maintenance
+
+↓
+
+10.
+
+Continuous Improvement
+
+==================================================
+PHASE 1
+=======
+
+BUSINESS PLANNING
+
+PURPOSE
+
+Identify business objectives.
+
+COMMON ACTIVITIES
+
+Business Goals
+
+Budget Planning
+
+Project Approval
+
+Scope Definition
+
+Business Case
+
+COMMON ROLES
+
+Business Sponsor
+
+Project Manager
+
+Program Manager
+
+Enterprise Architect
+
+Business Analyst
+
+==================================================
+PHASE 2
+=======
+
+REQUIREMENTS GATHERING
+
+PURPOSE
+
+Understand business requirements.
+
+COMMON ACTIVITIES
+
+Stakeholder Meetings
+
+Requirement Gathering
+
+Process Analysis
+
+Workshops
+
+Documentation
+
+User Stories
+
+COMMON ROLES
+
+Business Analyst
+
+Functional Consultant
+
+Product Owner
+
+Solution Architect
+
+==================================================
+PHASE 3
+=======
+
+ANALYSIS
+
+PURPOSE
+
+Convert business requirements into technical requirements.
+
+COMMON ACTIVITIES
+
+Gap Analysis
+
+Impact Analysis
+
+Functional Specification
+
+Technical Specification
+
+Feasibility Analysis
+
+COMMON ROLES
+
+Business Analyst
+
+Solution Architect
+
+Technical Lead
+
+Enterprise Architect
+
+==================================================
+PHASE 4
+=======
+
+SOLUTION DESIGN
+
+PURPOSE
+
+Design the solution architecture.
+
+COMMON ACTIVITIES
+
+Architecture Design
+
+Database Design
+
+API Design
+
+Security Design
+
+Integration Design
+
+Cloud Design
+
+COMMON ROLES
+
+Solution Architect
+
+Enterprise Architect
+
+Technical Architect
+
+Lead Developer
+
+==================================================
+PHASE 5
+=======
+
+DEVELOPMENT
+
+PURPOSE
+
+Build the software solution.
+
+COMMON ACTIVITIES
+
+Coding
+
+API Development
+
+Frontend Development
+
+Backend Development
+
+Database Development
+
+Unit Testing
+
+Code Reviews
+
+COMMON ROLES
+
+Software Engineer
+
+Backend Developer
+
+Frontend Developer
+
+Full Stack Developer
+
+Mobile Developer
+
+Data Engineer
+
+AI Engineer
+
+==================================================
+PHASE 6
+=======
+
+TESTING
+
+PURPOSE
+
+Validate software quality.
+
+COMMON ACTIVITIES
+
+Manual Testing
+
+Automation Testing
+
+API Testing
+
+Regression Testing
+
+Performance Testing
+
+Security Testing
+
+Bug Reporting
+
+COMMON ROLES
+
+QA Engineer
+
+Automation Engineer
+
+Performance Tester
+
+Security Tester
+
+Developers
+
+==================================================
+PHASE 7
+=======
+
+DEPLOYMENT
+
+PURPOSE
+
+Release software to target environments.
+
+COMMON ACTIVITIES
+
+Build
+
+Release
+
+Deployment
+
+Infrastructure Provisioning
+
+Rollback
+
+Smoke Testing
+
+COMMON ROLES
+
+DevOps Engineer
+
+Release Engineer
+
+Cloud Engineer
+
+Platform Engineer
+
+==================================================
+PHASE 8
+=======
+
+PRODUCTION SUPPORT
+
+PURPOSE
+
+Maintain stable production systems.
+
+COMMON ACTIVITIES
+
+Incident Resolution
+
+Monitoring
+
+Problem Management
+
+Root Cause Analysis
+
+Performance Tuning
+
+Hot Fixes
+
+COMMON ROLES
+
+Production Support
+
+L2 Support
+
+L3 Support
+
+DevOps Engineer
+
+SRE
+
+==================================================
+PHASE 9
+=======
+
+MAINTENANCE
+
+PURPOSE
+
+Improve existing software.
+
+COMMON ACTIVITIES
+
+Enhancements
+
+Bug Fixes
+
+Upgrades
+
+Refactoring
+
+Optimization
+
+COMMON ROLES
+
+Software Engineer
+
+Support Engineer
+
+Consultant
+
+Architect
+
+==================================================
+PHASE 10
+========
+
+CONTINUOUS IMPROVEMENT
+
+PURPOSE
+
+Improve quality, automation and delivery.
+
+COMMON ACTIVITIES
+
+Process Improvement
+
+Automation
+
+Performance Optimization
+
+Technical Debt Reduction
+
+Monitoring Improvements
+
+COMMON ROLES
+
+Architect
+
+Engineering Manager
+
+DevOps Engineer
+
+SRE
+
+Technical Lead
+
+==================================================
+SDLC MODELS
+===========
+
+Waterfall
+
+Sequential execution
+
+Best suited for stable requirements.
+
+---
+
+Agile
+
+Iterative development.
+
+Short delivery cycles.
+
+Frequent customer feedback.
+
+---
+
+Scrum
+
+Sprint-based Agile framework.
+
+Roles
+
+Scrum Master
+
+Product Owner
+
+Development Team
+
+---
+
+Kanban
+
+Continuous workflow.
+
+Focus on work-in-progress limits.
+
+---
+
+DevOps
+
+Continuous development, testing, deployment and operations.
+
+Strong automation.
+
+==================================================
+COMMON SDLC DELIVERABLES
+========================
+
+Business Requirements
+
+Functional Specification
+
+Technical Specification
+
+Architecture Document
+
+Database Design
+
+Source Code
+
+Unit Tests
+
+Test Cases
+
+Deployment Scripts
+
+Release Notes
+
+Run Books
+
+Support Documentation
+
+==================================================
+ROLE PARTICIPATION MATRIX
+=========================
+
+Business Analyst
+
+Requirements
+
+Analysis
+
+UAT
+
+---
+
+Developer
+
+Design
+
+Development
+
+Testing
+
+Support
+
+---
+
+QA Engineer
+
+Testing
+
+Automation
+
+Regression
+
+---
+
+DevOps Engineer
+
+Build
+
+Deployment
+
+Infrastructure
+
+CI/CD
+
+Monitoring
+
+---
+
+Cloud Engineer
+
+Infrastructure
+
+Deployment
+
+Cloud Operations
+
+---
+
+Solution Architect
+
+Analysis
+
+Design
+
+Governance
+
+---
+
+Project Manager
+
+Planning
+
+Risk
+
+Delivery
+
+Governance
+
+==================================================
+BOOLEAN_RULES
+=============
+
+When a JD mentions SDLC responsibilities, expand Boolean with relevant lifecycle terms.
+
+Examples
+
+Requirement Gathering
+
+Functional Specification
+
+Technical Design
+
+Development
+
+Unit Testing
+
+Code Review
+
+Deployment
+
+Production Support
+
+CI/CD
+
+Release Management
+
+==================================================
+MATCHING_RULES
+==============
+
+Candidates demonstrating participation across multiple SDLC phases receive higher scores than candidates with experience limited to a single phase.
+
+Priority
+
+Responsibilities
+
+↓
+
+Lifecycle Coverage
+
+↓
+
+Technology Stack
+
+↓
+
+Project Complexity
+
+↓
+
+Architecture
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Identify every SDLC phase mentioned in the JD.
+
+Identify every SDLC phase demonstrated in the resume.
+
+Compare responsibilities phase by phase.
+
+Do not assume development experience automatically includes design or deployment.
+
+Use SDLC participation to infer seniority.
+
+Senior engineers usually participate in:
+
+Design
+
+Code Reviews
+
+Mentoring
+
+Production Support
+
+Architects usually participate in:
+
+Requirements
+
+Architecture
+
+Technology Selection
+
+Governance
+
+Project Managers usually participate in:
+
+Planning
+
+Risk
+
+Stakeholder Management
+
+Delivery
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Assuming every developer performs architecture.
+
+Assuming every QA engineer performs automation.
+
+Treating production support as development.
+
+Ignoring deployment responsibilities.
+
+Ignoring maintenance and enhancement work.
+
+Matching only programming languages while ignoring SDLC responsibilities.
+
+END_OF_FILE

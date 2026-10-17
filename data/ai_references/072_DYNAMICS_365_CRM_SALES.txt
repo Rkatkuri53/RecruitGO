@@ -1,0 +1,670 @@
+FILE_NAME:
+072_DYNAMICS_365_CRM_SALES.txt
+
+ID:
+072
+
+DOMAIN:
+Microsoft Dynamics 365
+
+CATEGORY:
+Enterprise CRM
+
+SUBCATEGORY:
+Dynamics 365 Sales (CRM)
+
+PRIMARY_ROLE:
+Dynamics 365 Sales Consultant
+
+RELATED_FILES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+073_DYNAMICS_365_CUSTOMER_SERVICE.txt
+
+074_DYNAMICS_365_FIELD_SERVICE.txt
+
+075_DYNAMICS_365_MARKETING.txt
+
+076_DYNAMICS_365_POWER_PLATFORM.txt
+
+077_DYNAMICS_365_DEVELOPMENT.txt
+
+078_DYNAMICS_365_INTEGRATION.txt
+
+079_DYNAMICS_365_DATA_AI.txt
+
+047_SALESFORCE_SALES_CLOUD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Dynamics 365 Sales
+
+PURPOSE:
+Enable AI agents to understand Microsoft Dynamics 365 Sales (formerly Dynamics CRM), including lead management, opportunity management, sales automation, forecasting, customer relationship management, business process flows, Copilot, consultant responsibilities, implementation methodologies, and CRM transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Dynamics 365 Sales
+Dynamics CRM
+Microsoft CRM
+Lead Management
+Opportunity Management
+Sales Pipeline
+Forecasting
+Accounts
+Contacts
+Business Process Flows
+Copilot for Sales
+
+ROLE_FAMILIES:
+Dynamics 365 Sales Consultant
+
+Dynamics CRM Functional Consultant
+
+CRM Consultant
+
+Dynamics Solution Architect
+
+Dynamics Business Analyst
+
+Dynamics Administrator
+
+COMMON_JOB_TITLES:
+Dynamics 365 Sales Consultant
+
+Dynamics CRM Consultant
+
+CRM Functional Consultant
+
+Dynamics Solution Architect
+
+Dynamics Sales Functional Consultant
+
+ALTERNATIVE_TITLES:
+Microsoft CRM Consultant
+
+Dynamics Sales Consultant
+
+CRM Business Consultant
+
+CORE_SKILLS:
+Lead Management
+
+Opportunity Management
+
+Sales Automation
+
+Pipeline Management
+
+Forecasting
+
+CRM Configuration
+
+Business Process Design
+
+Reporting
+
+SUPPORTING_SKILLS:
+Power Platform
+
+Power BI
+
+Dataverse
+
+Azure
+
+Integration
+
+Security
+
+Copilot
+
+RELATED_TECHNOLOGIES:
+Dynamics 365 Sales
+
+Power Apps
+
+Power Automate
+
+Dataverse
+
+Power BI
+
+Copilot
+
+Microsoft Teams
+
+Microsoft 365
+
+TECHNOLOGY_CATEGORY:
+Enterprise CRM Platform
+
+DEPENDENCIES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Dynamics 365 Sales is Microsoft's enterprise CRM platform for sales organizations.
+
+It enables organizations to manage customer relationships, automate sales processes, improve forecasting, manage opportunities and leverage AI-powered selling through Microsoft Copilot.
+
+==================================================
+CORE MODULES
+============
+
+Lead Management
+
+Account Management
+
+Contact Management
+
+Opportunity Management
+
+Quotes
+
+Orders
+
+Forecasting
+
+Business Process Flows
+
+Sales Accelerator
+
+Copilot
+
+==================================================
+LEAD MANAGEMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+Lead Capture
+
+Qualification
+
+Assignment
+
+Scoring
+
+Conversion
+
+Lead Nurturing
+
+==================================================
+ACCOUNT & CONTACT MANAGEMENT
+============================
+
+COMMON RESPONSIBILITIES
+
+Customer Profiles
+
+Relationship Management
+
+Account Hierarchies
+
+Communication History
+
+Activity Tracking
+
+==================================================
+OPPORTUNITY MANAGEMENT
+======================
+
+COMMON RESPONSIBILITIES
+
+Pipeline Management
+
+Sales Stages
+
+Revenue Forecasting
+
+Competitor Tracking
+
+Probability
+
+Product Management
+
+==================================================
+FORECASTING
+===========
+
+COMMON RESPONSIBILITIES
+
+Sales Forecasts
+
+Quota Management
+
+Revenue Projections
+
+Territory Forecasting
+
+Pipeline Analytics
+
+==================================================
+BUSINESS PROCESS FLOWS
+======================
+
+COMMON RESPONSIBILITIES
+
+Guided Selling
+
+Sales Processes
+
+Approvals
+
+Automation
+
+Stage Management
+
+==================================================
+COPILOT FOR SALES
+=================
+
+COMMON RESPONSIBILITIES
+
+AI Assistance
+
+Email Summaries
+
+Meeting Summaries
+
+Opportunity Insights
+
+Sales Recommendations
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Lead-to-Opportunity
+
+Opportunity-to-Quote
+
+Quote-to-Order
+
+Sales Forecasting
+
+Account Management
+
+Customer Relationship Management
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Tables (Entities)
+
+Forms
+
+Views
+
+Business Rules
+
+Business Process Flows
+
+Security Roles
+
+Dashboards
+
+Workflows
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Requirements Workshops
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Data Migration
+
+↓
+
+Testing
+
+↓
+
+Training
+
+↓
+
+Go-Live
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+CRM Implementation
+
+Sales Transformation
+
+CRM Migration
+
+Digital Sales Modernization
+
+Global CRM Rollout
+
+Sales Automation
+
+Customer Relationship Management
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Power Platform
+
+Microsoft 365
+
+Outlook
+
+Teams
+
+Azure
+
+Power BI
+
+ERP
+
+REST APIs
+
+==================================================
+COMMON REPORTS
+==============
+
+Sales Pipeline
+
+Lead Conversion
+
+Forecast Reports
+
+Revenue Reports
+
+Activity Reports
+
+Sales KPIs
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Sales Representatives
+
+Account Executives
+
+Sales Managers
+
+Business Development
+
+Sales Operations
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+CRM
+
+*
+
+Sales
+
+*
+
+Business Process
+
+Example
+
+("Dynamics 365 Sales" OR "Dynamics CRM")
+
+AND
+
+(Lead OR Opportunity)
+
+AND
+
+(Forecasting OR Pipeline)
+
+AND
+
+(Consultant)
+
+Expand Sales terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Dynamics 365 Sales
+
+Critical
+
+Lead Management
+
+Critical
+
+Opportunity Management
+
+High
+
+Sales Automation
+
+High
+
+CRM Configuration
+
+High
+
+Power Platform
+
+Medium
+
+Copilot
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Microsoft Dynamics CRM
+
+↓
+
+Dynamics 365 Sales
+
+Very High
+
+---
+
+Salesforce Sales Cloud
+
+↓
+
+Dynamics 365 Sales
+
+Medium
+
+---
+
+Oracle CX Sales
+
+↓
+
+Dynamics 365 Sales
+
+Medium
+
+---
+
+HubSpot CRM
+
+↓
+
+Dynamics 365 Sales
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+CRM Module
+
+Business Process
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Dynamics Sales
+
+Customer Service
+
+Marketing
+
+Power Platform
+
+CRM Development
+
+Identify whether the consultant performed
+
+Business Analysis
+
+Configuration
+
+Sales Process Design
+
+Workflow Automation
+
+Testing
+
+Data Migration
+
+Training
+
+Deployment
+
+Recognize candidates with enterprise CRM implementation, Dynamics Sales configuration, pipeline automation, forecasting, business process flow implementation and CRM transformation experience as senior Dynamics 365 Sales consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Dynamics Sales as Customer Service.
+
+Confusing CRM configuration with Power Platform development.
+
+Matching candidates solely because they mention Dynamics CRM.
+
+Ignoring business process flow expertise.
+
+Treating sales experience as CRM implementation experience.
+
+Ignoring Copilot and AI-powered sales capabilities.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Dynamics Sales
+
+↓
+
+Dynamics CRM
+
+Microsoft CRM
+
+Sales Hub
+
+---
+
+Lead Management
+
+↓
+
+Lead Qualification
+
+Lead Scoring
+
+Lead Conversion
+
+Pipeline
+
+---
+
+Sales
+
+↓
+
+Opportunity
+
+Forecasting
+
+Quotes
+
+Orders
+
+Accounts
+
+Contacts
+
+---
+
+Automation
+
+↓
+
+Business Process Flows
+
+Workflows
+
+Power Automate
+
+Copilot
+
+END_OF_FILE

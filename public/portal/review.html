@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Candidate Review Portal | Client Spoke Gateway</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-base: #090d16;
+            --bg-card: #0f172a;
+            --bg-card-subtle: #1e293b;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --border-accent: rgba(52, 211, 153, 0.4);
+            --primary: #10b981;
+            --primary-hover: #059669;
+            --danger: #ef4444;
+            --danger-hover: #dc2626;
+            --amber: #f59e0b;
+            --amber-hover: #d97706;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent-blue: #38bdf8;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-base);
+            color: var(--text-main);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 24px 16px;
+        }
+
+        .portal-header {
+            width: 100%;
+            max-width: 820px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 16px 0 24px 0;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 24px;
+        }
+
+        .brand-badge {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .brand-icon {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(135deg, #10b981, #0284c7);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.3rem;
+        }
+
+        .brand-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: #fff;
+            letter-spacing: -0.02em;
+        }
+
+        .brand-subtitle {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .portal-container {
+            width: 100%;
+            max-width: 820px;
+        }
+
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 14px;
+            padding: 24px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+        }
+
+        .badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 6px;
+            text-transform: uppercase;
+        }
+
+        .badge-code {
+            background: rgba(56, 189, 248, 0.15);
+            color: var(--accent-blue);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .badge-status {
+            background: rgba(16, 185, 129, 0.15);
+            color: #6ee7b7;
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .candidate-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 12px;
+            margin-bottom: 16px;
+        }
+
+        .cand-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-top: 4px;
+        }
+
+        .cand-headline {
+            font-size: 0.95rem;
+            color: var(--accent-blue);
+            font-weight: 500;
+        }
+
+        .meta-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 12px;
+            background: rgba(0, 0, 0, 0.3);
+            padding: 16px;
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            margin-bottom: 20px;
+        }
+
+        .meta-item {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+        .meta-item strong {
+            display: block;
+            color: #fff;
+            font-size: 0.92rem;
+            margin-top: 2px;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 8px;
+            margin-bottom: 20px;
+        }
+
+        .skill-tag {
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #e2e8f0;
+            padding: 4px 10px;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .dossier-box {
+            background: rgba(0, 0, 0, 0.25);
+            border: 1px solid rgba(255, 255, 255, 0.06);
+            border-radius: 10px;
+            padding: 16px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.85rem;
+            line-height: 1.6;
+            color: #cbd5e1;
+            white-space: pre-wrap;
+            max-height: 250px;
+            overflow-y: auto;
+            margin-bottom: 24px;
+        }
+
+        .actions-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 14px;
+            margin-bottom: 20px;
+        }
+
+        .btn-action {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 10px;
+            border-radius: 10px;
+            border: 1px solid transparent;
+            cursor: pointer;
+            font-weight: 600;
+            font-size: 0.9rem;
+            transition: all 0.2s ease;
+        }
+
+        .btn-action span {
+            font-size: 1.4rem;
+            margin-bottom: 4px;
+        }
+
+        .btn-shortlist {
+            background: rgba(16, 185, 129, 0.15);
+            border-color: rgba(16, 185, 129, 0.4);
+            color: #6ee7b7;
+        }
+        .btn-shortlist:hover {
+            background: #10b981;
+            color: #fff;
+        }
+
+        .btn-reject {
+            background: rgba(239, 68, 68, 0.15);
+            border-color: rgba(239, 68, 68, 0.4);
+            color: #fca5a5;
+        }
+        .btn-reject:hover {
+            background: #ef4444;
+            color: #fff;
+        }
+
+        .btn-negotiate {
+            background: rgba(245, 158, 11, 0.15);
+            border-color: rgba(245, 158, 11, 0.4);
+            color: #fcd34d;
+        }
+        .btn-negotiate:hover {
+            background: #f59e0b;
+            color: #fff;
+        }
+
+        .feedback-panel {
+            display: none;
+            background: var(--bg-card-subtle);
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            animation: fadeIn 0.2s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(6px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .form-label {
+            display: block;
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-bottom: 6px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .form-input, .form-select, .form-textarea {
+            width: 100%;
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+            border-radius: 8px;
+            padding: 10px 14px;
+            color: #fff;
+            font-size: 0.9rem;
+            margin-bottom: 14px;
+            outline: none;
+        }
+
+        .form-input:focus, .form-select:focus, .form-textarea:focus {
+            border-color: #38bdf8;
+            box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            border: none;
+            font-weight: 700;
+            font-size: 0.95rem;
+            cursor: pointer;
+            color: white;
+            transition: opacity 0.2s;
+        }
+
+        .status-completed {
+            background: rgba(16, 185, 129, 0.1);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+        }
+
+        @media (max-width: 640px) {
+            .actions-grid {
+                grid-template-columns: 1fr;
+            }
+            .candidate-header {
+                flex-direction: column;
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="portal-header">
+        <div class="brand-badge">
+            <div class="brand-icon">⚡</div>
+            <div>
+                <div class="brand-title">Client Candidate Review Portal</div>
+                <div class="brand-subtitle">Automated Zero-Login Evaluation Gateway</div>
+            </div>
+        </div>
+        <div id="header-client-tag" style="text-align: right; font-size: 0.85rem; color: var(--text-muted);">
+            Secure Spoke Link
+        </div>
+    </header>
+
+    <main class="portal-container">
+        <div id="loading-state" class="card" style="text-align: center; padding: 40px;">
+            <div style="font-size: 2rem; margin-bottom: 12px;">⏳</div>
+            <div style="color: var(--text-muted); font-size: 0.95rem;">Retrieving candidate dossier from secure ATS vault...</div>
+        </div>
+
+        <div id="error-state" class="card" style="display: none; border-color: rgba(239, 68, 68, 0.4); text-align: center; padding: 40px;">
+            <div style="font-size: 2.2rem; margin-bottom: 12px;">⚠️</div>
+            <h3 style="color: #f87171; margin-bottom: 8px;">Access Expired or Invalid Link</h3>
+            <p id="error-message" style="color: var(--text-muted); font-size: 0.9rem; max-width: 480px; margin: 0 auto;">
+                This candidate submission link could not be found or has already expired. Please contact your dedicated Account Manager.
+            </p>
+        </div>
+
+        <div id="candidate-view" style="display: none;">
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <span id="cand-code" class="badge badge-code">CAND-000</span>
+                    <span id="pipeline-status" class="badge badge-status">Submitted for Review</span>
+                </div>
+
+                <div class="candidate-header">
+                    <div>
+                        <h1 id="cand-name" class="cand-name">Candidate Name</h1>
+                        <div id="cand-headline" class="cand-headline">Professional Headline</div>
+                    </div>
+                    <div style="text-align: right;">
+                        <div style="font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase;">Job Requisition</div>
+                        <div id="job-title" style="font-weight: 700; color: #34d399; font-size: 1.05rem;">Job Title</div>
+                        <div id="job-code" style="font-size: 0.78rem; font-family: 'JetBrains Mono', monospace; opacity: 0.8;">JOB-000</div>
+                    </div>
+                </div>
+
+                <div class="meta-grid">
+                    <div class="meta-item">
+                        Expected Compensation
+                        <strong id="cand-salary" style="color: #6ee7b7;">--</strong>
+                    </div>
+                    <div class="meta-item">
+                        Notice Period
+                        <strong id="cand-notice">--</strong>
+                    </div>
+                    <div class="meta-item">
+                        Work Authorization
+                        <strong id="cand-visa">--</strong>
+                    </div>
+                    <div class="meta-item">
+                        Current Location
+                        <strong id="cand-location">--</strong>
+                    </div>
+                </div>
+
+                <div class="form-label">Core Competencies & Verified Skills</div>
+                <div id="cand-skills" class="skills-container"></div>
+
+                <div class="form-label">Submission Dossier & Presentation Notes</div>
+                <div id="dossier-body" class="dossier-box">Loading submission overview...</div>
+
+                <!-- Action Triggers -->
+                <div id="action-buttons-section">
+                    <div class="form-label" style="margin-bottom: 10px;">Select Decision & Auto-Sync Pipeline:</div>
+                    <div class="actions-grid">
+                        <button class="btn-action btn-shortlist" onclick="selectAction('shortlist')">
+                            <span>📅</span>
+                            <div>Shortlist for Interview</div>
+                        </button>
+                        <button class="btn-action btn-reject" onclick="selectAction('reject')">
+                            <span>❌</span>
+                            <div>Screening Reject</div>
+                        </button>
+                        <button class="btn-action btn-negotiate" onclick="selectAction('negotiate')">
+                            <span>💬</span>
+                            <div>Salary / Terms Counter</div>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Shortlist Sub-form -->
+                <div id="panel-shortlist" class="feedback-panel" style="border: 1px solid rgba(16, 185, 129, 0.4);">
+                    <h3 style="color: #6ee7b7; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+                        <span>📅</span> Confirm Interview Schedule
+                    </h3>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 14px;">
+                        Submitting this automatically slots the interview into the calendar and notifies the Account Manager & Candidate.
+                    </p>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px;">
+                        <div>
+                            <label class="form-label">Proposed Date & Time *</label>
+                            <input type="datetime-local" id="int-time" class="form-input">
+                        </div>
+                        <div>
+                            <label class="form-label">Duration</label>
+                            <select id="int-duration" class="form-select">
+                                <option value="30">30 Minutes</option>
+                                <option value="45" selected>45 Minutes</option>
+                                <option value="60">60 Minutes</option>
+                            </select>
+                        </div>
+                    </div>
+                    <label class="form-label">Round Title / Notes for Recruiter</label>
+                    <input type="text" id="int-title" class="form-input" value="Client Technical Round 1" placeholder="e.g. Technical System Design Interview">
+                    <button class="btn-submit" style="background: var(--primary);" onclick="submitDecision('shortlist')">
+                        Confirm Shortlist & Auto-Schedule
+                    </button>
+                </div>
+
+                <!-- Reject Sub-form -->
+                <div id="panel-reject" class="feedback-panel" style="border: 1px solid rgba(239, 68, 68, 0.4);">
+                    <h3 style="color: #fca5a5; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+                        <span>❌</span> Screening Rejection Reason
+                    </h3>
+                    <label class="form-label">Primary Reason *</label>
+                    <select id="reject-reason" class="form-select">
+                        <option value="Lacks required depth in core skills">Lacks required depth in core skills</option>
+                        <option value="Compensation expectation exceeds job budget">Compensation expectation exceeds job budget</option>
+                        <option value="Notice period too long for project timeline">Notice period too long for project timeline</option>
+                        <option value="Location / Relocation mismatch">Location / Relocation mismatch</option>
+                        <option value="Requirement filled or placed on hold">Requirement filled or placed on hold</option>
+                        <option value="Other">Other (Specify below)</option>
+                    </select>
+                    <label class="form-label">Feedback Notes for Recruitment Team</label>
+                    <textarea id="reject-notes" rows="3" class="form-textarea" placeholder="Help the recruiter refine future submissions..."></textarea>
+                    <button class="btn-submit" style="background: var(--danger);" onclick="submitDecision('reject')">
+                        Submit Rejection & Close Candidate Review
+                    </button>
+                </div>
+
+                <!-- Negotiate Sub-form -->
+                <div id="panel-negotiate" class="feedback-panel" style="border: 1px solid rgba(245, 158, 11, 0.4);">
+                    <h3 style="color: #fcd34d; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+                        <span>💬</span> Counter Offer / Budget Clarification
+                    </h3>
+                    <label class="form-label">Client Budget / Counter Compensation *</label>
+                    <input type="text" id="counter-salary" class="form-input" placeholder="e.g. $120,000 / annum or $65/hr">
+                    <label class="form-label">Negotiation Terms / Specific Requirements</label>
+                    <textarea id="counter-notes" rows="3" class="form-textarea" placeholder="Mention work arrangements, bonus flexibility, or title adjustments..."></textarea>
+                    <button class="btn-submit" style="background: var(--amber);" onclick="submitDecision('negotiate')">
+                        Send Counter Offer to Account Manager
+                    </button>
+                </div>
+
+                <!-- Response Confirmation -->
+                <div id="response-confirmation" class="status-completed" style="display: none;">
+                    <div style="font-size: 2.5rem; margin-bottom: 10px;">✅</div>
+                    <h2 id="confirmation-title" style="color: #6ee7b7; margin-bottom: 6px;">Feedback Submitted Successfully</h2>
+                    <p id="confirmation-msg" style="color: var(--text-muted); font-size: 0.9rem;">
+                        Your decision has been logged and the recruitment account management team has been alerted.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const token = urlParams.get('token');
+
+        function selectAction(type) {
+            ['shortlist', 'reject', 'negotiate'].forEach(t => {
+                const panel = document.getElementById('panel-' + t);
+                if (panel) panel.style.display = (t === type ? 'block' : 'none');
+            });
+
+            if (type === 'shortlist') {
+                const tomorrow = new Date(Date.now() + 86400000);
+                tomorrow.setHours(10, 0, 0, 0);
+                const iso = new Date(tomorrow.getTime() - tomorrow.getTimezoneOffset() * 60000).toISOString().slice(0, 16);
+                const timeInput = document.getElementById('int-time');
+                if (timeInput && !timeInput.value) timeInput.value = iso;
+            }
+        }
+
+        async function initPortal() {
+            if (!token) {
+                document.getElementById('loading-state').style.display = 'none';
+                document.getElementById('error-state').style.display = 'block';
+                document.getElementById('error-message').textContent = 'Missing security review token. Please use the direct link provided in your submission dispatch.';
+                return;
+            }
+
+            try {
+                const res = await fetch(`/api/portal/submission/${token}`);
+                const data = await res.json();
+
+                if (data.error || !res.ok) {
+                    document.getElementById('loading-state').style.display = 'none';
+                    document.getElementById('error-state').style.display = 'block';
+                    document.getElementById('error-message').textContent = data.error || 'Invalid or expired review link.';
+                    return;
+                }
+
+                document.getElementById('loading-state').style.display = 'none';
+                document.getElementById('candidate-view').style.display = 'block';
+
+                document.getElementById('cand-code').textContent = data.candidate_code || 'CAND';
+                document.getElementById('pipeline-status').textContent = data.status || 'Client Submitted';
+                document.getElementById('cand-name').textContent = data.candidate_name || 'Anonymous Candidate';
+                document.getElementById('cand-headline').textContent = data.candidate_headline || 'Professional Profile';
+                document.getElementById('job-title').textContent = data.job_title || 'Position';
+                document.getElementById('job-code').textContent = data.job_code || '';
+                document.getElementById('header-client-tag').textContent = `${data.client_name || 'Client'} • Spoke: ${data.spoke_name || 'Hiring Manager'}`;
+
+                document.getElementById('cand-salary').textContent = data.expected_salary || 'Open to Discussion';
+                document.getElementById('cand-notice').textContent = data.notice_period || 'Immediate / 2 Weeks';
+                document.getElementById('cand-visa').textContent = data.visa_status || 'Citizen / Authorized';
+                document.getElementById('cand-location').textContent = data.candidate_location || 'Not Specified';
+
+                const skills = (data.candidate_skills || '').split(',').map(s => s.trim()).filter(Boolean);
+                const skillsEl = document.getElementById('cand-skills');
+                if (skills.length > 0) {
+                    skillsEl.innerHTML = skills.map(s => `<span class="skill-tag">${escapeHtml(s)}</span>`).join('');
+                } else {
+                    skillsEl.innerHTML = '<span style="color:var(--text-muted); font-size:0.85rem;">Skills highlighted in dossier text.</span>';
+                }
+
+                document.getElementById('dossier-body').textContent = data.email_body || data.am_notes || 'Candidate presentation dossier.';
+
+                // If already responded
+                if (data.client_feedback_type) {
+                    document.getElementById('action-buttons-section').style.display = 'none';
+                    document.getElementById('response-confirmation').style.display = 'block';
+                    document.getElementById('confirmation-title').textContent = `Decision Recorded: ${data.client_feedback_type.toUpperCase()}`;
+                    document.getElementById('confirmation-msg').textContent = `Feedback was previously recorded. Current Status: ${data.status}`;
+                }
+            } catch (e) {
+                console.error(e);
+                document.getElementById('loading-state').style.display = 'none';
+                document.getElementById('error-state').style.display = 'block';
+                document.getElementById('error-message').textContent = 'Unable to connect to the recruitment portal API.';
+            }
+        }
+
+        async function submitDecision(decision) {
+            let payload = { decision };
+
+            if (decision === 'shortlist') {
+                const scheduled_time = document.getElementById('int-time').value;
+                if (!scheduled_time) {
+                    alert('Please select proposed interview date and time.');
+                    return;
+                }
+                payload.scheduled_time = scheduled_time;
+                payload.duration = document.getElementById('int-duration').value;
+                payload.notes = document.getElementById('int-title').value;
+            } else if (decision === 'reject') {
+                payload.rejection_reason = document.getElementById('reject-reason').value;
+                payload.notes = document.getElementById('reject-notes').value;
+            } else if (decision === 'negotiate') {
+                const counter = document.getElementById('counter-salary').value.trim();
+                if (!counter) {
+                    alert('Please enter counter salary amount.');
+                    return;
+                }
+                payload.counter_salary = counter;
+                payload.notes = document.getElementById('counter-notes').value;
+            }
+
+            try {
+                const res = await fetch(`/api/portal/feedback/${token}`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                const result = await res.json();
+
+                if (result.success) {
+                    ['shortlist', 'reject', 'negotiate'].forEach(t => {
+                        const p = document.getElementById('panel-' + t);
+                        if (p) p.style.display = 'none';
+                    });
+                    document.getElementById('action-buttons-section').style.display = 'none';
+                    const confirmEl = document.getElementById('response-confirmation');
+                    confirmEl.style.display = 'block';
+
+                    if (decision === 'shortlist') {
+                        document.getElementById('confirmation-title').textContent = '🎉 Interview Confirmed & Scheduled';
+                        document.getElementById('confirmation-msg').textContent = 'The interview has been added to the calendar and the candidate & recruitment team have been notified.';
+                    } else if (decision === 'reject') {
+                        document.getElementById('confirmation-title').textContent = 'Decision Recorded: Candidate Rejected';
+                        document.getElementById('confirmation-msg').textContent = 'Thank you for your feedback. We will calibrate our search accordingly.';
+                    } else {
+                        document.getElementById('confirmation-title').textContent = 'Counter Offer Dispatched';
+                        document.getElementById('confirmation-msg').textContent = 'The Account Manager has been notified with your counter terms.';
+                    }
+                } else {
+                    alert('Error: ' + (result.error || 'Could not submit decision.'));
+                }
+            } catch (err) {
+                console.error(err);
+                alert('Network error submitting feedback.');
+            }
+        }
+
+        function escapeHtml(str) {
+            return (str || '').replace(/[&<>"']/g, function(m) {
+                return ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[m];
+            });
+        }
+
+        initPortal();
+    </script>
+</body>
+</html>

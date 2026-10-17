@@ -1,0 +1,715 @@
+FILE_NAME:
+005_SKILL_CLASSIFICATION.txt
+
+ID:
+005
+
+DOMAIN:
+Recruitment Intelligence
+
+CATEGORY:
+AI Boolean Search Engine
+
+SUBCATEGORY:
+Skill Classification Engine
+
+PRIMARY_ROLE:
+AI Skill Classification & Prioritization Engine
+
+VERSION:
+3.0
+
+PURPOSE:
+Define how AI identifies, classifies, prioritizes, weights, and expands skills extracted from Job Descriptions (JDs) before Boolean generation and candidate matching.
+
+This engine determines which skills are mandatory, optional, supporting, transferable, or irrelevant, ensuring Boolean searches target the correct candidate population.
+
+==================================================
+SKILL CLASSIFICATION PHILOSOPHY
+===============================
+
+Not all skills have equal importance.
+
+The AI must never assume every mentioned technology or tool is mandatory.
+
+Every extracted skill must be classified before being used in Boolean generation.
+
+==================================================
+SKILL HIERARCHY
+===============
+
+Priority 1
+
+Core Skills
+
+↓
+
+Priority 2
+
+Mandatory Skills
+
+↓
+
+Priority 3
+
+Role-Defining Skills
+
+↓
+
+Priority 4
+
+Supporting Skills
+
+↓
+
+Priority 5
+
+Preferred Skills
+
+↓
+
+Priority 6
+
+Nice-to-Have Skills
+
+↓
+
+Priority 7
+
+Transferable Skills
+
+↓
+
+Priority 8
+
+General Knowledge
+
+==================================================
+SKILL TYPES
+===========
+
+Core Skills
+
+Mandatory Skills
+
+Supporting Skills
+
+Preferred Skills
+
+Nice-to-Have Skills
+
+Transferable Skills
+
+Soft Skills
+
+Domain Skills
+
+Leadership Skills
+
+Business Skills
+
+Technical Skills
+
+Platform Skills
+
+==================================================
+CORE SKILLS
+===========
+
+Definition
+
+Skills that define the role.
+
+Without them, the candidate cannot perform the job.
+
+Examples
+
+Java Developer
+
+↓
+
+Java
+
+Spring
+
+Spring Boot
+
+---
+
+SAP SuccessFactors Consultant
+
+↓
+
+Employee Central
+
+SuccessFactors
+
+==================================================
+MANDATORY SKILLS
+================
+
+Definition
+
+Skills explicitly required by the employer.
+
+Usually indicated by
+
+Must Have
+
+Required
+
+Essential
+
+Mandatory
+
+Need
+
+Examples
+
+Must have SAP CPI.
+
+Required AWS experience.
+
+Mandatory Java.
+
+Boolean Rule
+
+Always connect mandatory skills using
+
+AND
+
+==================================================
+SUPPORTING SKILLS
+=================
+
+Definition
+
+Skills that improve productivity but do not define the role.
+
+Examples
+
+Git
+
+Jira
+
+Confluence
+
+Maven
+
+Gradle
+
+Jenkins
+
+Boolean Rule
+
+Usually grouped with
+
+OR
+
+==================================================
+PREFERRED SKILLS
+================
+
+Definition
+
+Skills that increase candidate desirability but are not required.
+
+Indicators
+
+Preferred
+
+Desired
+
+Advantage
+
+Bonus
+
+Would be great
+
+Nice addition
+
+Boolean Rule
+
+Never exclude candidates who lack preferred skills.
+
+==================================================
+NICE-TO-HAVE SKILLS
+===================
+
+Definition
+
+Skills with minimal impact on hiring decisions.
+
+Examples
+
+Docker
+
+Terraform
+
+Power BI
+
+Azure DevOps
+
+Only use when increasing search precision.
+
+==================================================
+TRANSFERABLE SKILLS
+===================
+
+Definition
+
+Skills from equivalent technologies or related platforms that may satisfy business requirements.
+
+Examples
+
+Spring Boot
+
+↓
+
+Micronaut
+
+(Partial)
+
+---
+
+AWS
+
+↓
+
+Azure
+
+(Cloud Experience)
+
+---
+
+IBM MQ
+
+↓
+
+RabbitMQ
+
+(Enterprise Messaging)
+
+Transferable skills should expand search, not replace mandatory skills.
+
+==================================================
+SOFT SKILLS
+===========
+
+Examples
+
+Communication
+
+Leadership
+
+Problem Solving
+
+Critical Thinking
+
+Presentation
+
+Negotiation
+
+Teamwork
+
+Ownership
+
+Generally exclude from Boolean unless explicitly required.
+
+==================================================
+BUSINESS SKILLS
+===============
+
+Examples
+
+Stakeholder Management
+
+Business Analysis
+
+Requirements Gathering
+
+Process Improvement
+
+Risk Management
+
+Vendor Management
+
+Used mainly for Functional and Management roles.
+
+==================================================
+TECHNICAL SKILLS
+================
+
+Examples
+
+Programming Languages
+
+Frameworks
+
+Cloud Platforms
+
+Databases
+
+Operating Systems
+
+Middleware
+
+Networking
+
+Security
+
+Always classify separately.
+
+==================================================
+ROLE-DEFINING SKILLS
+====================
+
+Definition
+
+The smallest set of skills that uniquely identifies the role.
+
+Examples
+
+Data Engineer
+
+↓
+
+Python
+
+Spark
+
+SQL
+
+ETL
+
+---
+
+DevOps Engineer
+
+↓
+
+CI/CD
+
+Docker
+
+Kubernetes
+
+Terraform
+
+==================================================
+SKILL IMPORTANCE MATRIX
+=======================
+
+Critical
+
+↓
+
+Must exist
+
+High
+
+↓
+
+Strongly recommended
+
+Medium
+
+↓
+
+Useful
+
+Low
+
+↓
+
+Optional
+
+Very Low
+
+↓
+
+Ignore unless explicitly required
+
+==================================================
+SKILL WEIGHTING
+===============
+
+Role
+
+30%
+
+Core Skills
+
+25%
+
+Mandatory Skills
+
+20%
+
+Domain Skills
+
+10%
+
+Industry Knowledge
+
+5%
+
+Leadership
+
+5%
+
+Preferred Skills
+
+3%
+
+Soft Skills
+
+2%
+
+==================================================
+MANDATORY DETECTION RULES
+=========================
+
+Keywords indicating mandatory
+
+Must Have
+
+Mandatory
+
+Required
+
+Essential
+
+Need
+
+Minimum
+
+Compulsory
+
+Mandatory skills must appear in the Boolean using
+
+AND
+
+==================================================
+OPTIONAL DETECTION RULES
+========================
+
+Keywords indicating optional
+
+Preferred
+
+Desired
+
+Bonus
+
+Nice to Have
+
+Would be Good
+
+Advantage
+
+Plus
+
+Optional skills should usually appear inside
+
+OR
+
+groups or be omitted from broad searches.
+
+==================================================
+SKILL EXPANSION RULES
+=====================
+
+Every core technology should expand.
+
+Example
+
+Java
+
+↓
+
+Java SE
+
+Java EE
+
+J2EE
+
+Jakarta EE
+
+---
+
+AWS
+
+↓
+
+Amazon Web Services
+
+EC2
+
+IAM
+
+Lambda
+
+CloudFormation
+
+Never search only the root keyword when meaningful synonyms exist.
+
+==================================================
+SKILL NORMALIZATION
+===================
+
+Convert different expressions into one canonical concept.
+
+Examples
+
+JS
+
+↓
+
+JavaScript
+
+---
+
+Postgres
+
+↓
+
+PostgreSQL
+
+---
+
+MS SQL
+
+↓
+
+Microsoft SQL Server
+
+---
+
+SFDC
+
+↓
+
+Salesforce
+
+==================================================
+SKILL CONFLICTS
+===============
+
+Detect mutually exclusive technologies when appropriate.
+
+Examples
+
+SAP SuccessFactors
+
+≠
+
+Workday
+
+---
+
+Oracle EBS
+
+≠
+
+SAP ECC
+
+---
+
+AngularJS
+
+≠
+
+Angular (Modern)
+
+Do not automatically exclude competing technologies unless required by the JD.
+
+==================================================
+COMMON PARSING ERRORS
+=====================
+
+Treating every listed tool as mandatory.
+
+Confusing supporting tools with core technologies.
+
+Treating certifications as skills.
+
+Ignoring business domain expertise.
+
+Ignoring transferable skills.
+
+Failing to distinguish platform from module.
+
+==================================================
+AI DECISION RULES
+=================
+
+Always identify the minimum skill set required to perform the role.
+
+Separate mandatory from optional skills.
+
+Expand every critical technology with known synonyms.
+
+Normalize abbreviations before Boolean generation.
+
+Use transferable skills only to broaden searches, never to replace explicit requirements.
+
+Avoid overloading the Boolean with low-value tools.
+
+==================================================
+SKILL CLASSIFICATION OUTPUT
+===========================
+
+Every parsed JD should produce
+
+Primary Role
+
+Core Skills
+
+Mandatory Skills
+
+Supporting Skills
+
+Preferred Skills
+
+Nice-to-Have Skills
+
+Transferable Skills
+
+Business Skills
+
+Technical Skills
+
+Leadership Skills
+
+Soft Skills
+
+Canonical Skill Names
+
+Expanded Skill Synonyms
+
+==================================================
+VALIDATION CHECKLIST
+====================
+
+✓ Core skills identified
+
+✓ Mandatory skills confirmed
+
+✓ Supporting skills separated
+
+✓ Preferred skills isolated
+
+✓ Nice-to-have skills isolated
+
+✓ Transferable skills identified
+
+✓ Skills normalized
+
+✓ Synonyms expanded
+
+✓ No low-value skills promoted to mandatory
+
+✓ Ready for Boolean generation
+
+END_OF_FILE

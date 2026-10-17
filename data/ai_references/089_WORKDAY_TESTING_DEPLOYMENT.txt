@@ -1,0 +1,651 @@
+FILE_NAME:
+089_WORKDAY_TESTING_DEPLOYMENT.txt
+
+ID:
+089
+
+DOMAIN:
+Workday
+
+CATEGORY:
+Enterprise Delivery
+
+SUBCATEGORY:
+Workday Testing, Deployment & Release Management
+
+PRIMARY_ROLE:
+Workday Test Lead / Deployment Consultant
+
+RELATED_FILES:
+
+080_WORKDAY_PLATFORM.txt
+
+081_WORKDAY_HCM.txt
+
+082_WORKDAY_FINANCIALS.txt
+
+083_WORKDAY_PAYROLL.txt
+
+084_WORKDAY_RECRUITING_TALENT.txt
+
+085_WORKDAY_INTEGRATIONS.txt
+
+086_WORKDAY_SECURITY.txt
+
+087_WORKDAY_REPORTING_PRISM.txt
+
+088_WORKDAY_EXTEND.txt
+
+014_DEVOPS.txt
+
+017_TESTING_QA.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Workday Testing & Deployment
+
+PURPOSE:
+Enable AI agents to understand Workday testing strategy, deployment methodology, tenant management, release management, migration, cutover, hypercare, production support, and enterprise Workday delivery programs for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Workday Testing
+Workday Deployment
+Tenant Management
+Migration
+Release Management
+Cutover
+Hypercare
+UAT
+Regression Testing
+Sandbox
+Preview Tenant
+Production Tenant
+
+ROLE_FAMILIES:
+Workday Test Consultant
+
+Workday Deployment Consultant
+
+Release Manager
+
+Test Lead
+
+Program Consultant
+
+Solution Architect
+
+COMMON_JOB_TITLES:
+Workday Test Lead
+
+Workday Deployment Consultant
+
+Workday Release Manager
+
+Senior Workday Consultant
+
+Workday Delivery Lead
+
+ALTERNATIVE_TITLES:
+Cloud Deployment Consultant
+
+Enterprise Test Manager
+
+ERP Release Consultant
+
+CORE_SKILLS:
+Testing
+
+UAT
+
+Regression Testing
+
+Deployment
+
+Tenant Management
+
+Release Management
+
+Cutover
+
+Hypercare
+
+SUPPORTING_SKILLS:
+Defect Management
+
+Security Validation
+
+Performance Testing
+
+Automation
+
+Project Management
+
+Documentation
+
+RELATED_TECHNOLOGIES:
+Sandbox Tenant
+
+Implementation Tenant
+
+Preview Tenant
+
+Production Tenant
+
+Azure DevOps
+
+Jira
+
+ALM
+
+TECHNOLOGY_CATEGORY:
+Enterprise Delivery & Release Management
+
+DEPENDENCIES:
+
+014_DEVOPS.txt
+
+017_TESTING_QA.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Workday delivery emphasizes configuration validation, tenant lifecycle management, structured testing and controlled deployment rather than traditional software installation.
+
+Organizations typically manage multiple tenants for implementation, testing, preview and production while adopting Workday's twice-yearly release cycle.
+
+==================================================
+TENANT TYPES
+============
+
+Implementation Tenant
+
+Sandbox Tenant
+
+Preview Tenant
+
+Production Tenant
+
+Training Tenant
+
+==================================================
+TESTING TYPES
+=============
+
+Unit Testing
+
+System Integration Testing (SIT)
+
+User Acceptance Testing (UAT)
+
+Regression Testing
+
+Parallel Payroll Testing
+
+Security Testing
+
+Performance Validation
+
+==================================================
+DEPLOYMENT ACTIVITIES
+=====================
+
+Configuration Migration
+
+Data Conversion
+
+Validation
+
+Release Planning
+
+Deployment Execution
+
+Rollback Planning
+
+Go-Live Support
+
+==================================================
+CUTOVER
+=======
+
+COMMON RESPONSIBILITIES
+
+Cutover Planning
+
+Data Freeze
+
+Final Validation
+
+Business Readiness
+
+Go-Live Coordination
+
+Risk Management
+
+==================================================
+HYPERCARE
+=========
+
+COMMON RESPONSIBILITIES
+
+Production Support
+
+Issue Resolution
+
+Defect Triage
+
+Knowledge Transfer
+
+Business Support
+
+Optimization
+
+==================================================
+RELEASE MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Feature Evaluation
+
+Regression Planning
+
+Release Readiness
+
+Tenant Refresh
+
+Impact Assessment
+
+==================================================
+DEFECT MANAGEMENT
+=================
+
+COMMON RESPONSIBILITIES
+
+Defect Logging
+
+Prioritization
+
+Root Cause Analysis
+
+Resolution Tracking
+
+Retesting
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Configuration Promotion
+
+Testing
+
+Release Validation
+
+Go-Live
+
+Production Support
+
+Continuous Improvement
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Tenants
+
+Migration Packages
+
+Security Validation
+
+Reports
+
+Business Processes
+
+Integrations
+
+Testing Scripts
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Configuration
+
+↓
+
+Unit Testing
+
+↓
+
+SIT
+
+↓
+
+UAT
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+↓
+
+Production Support
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Global Workday Rollout
+
+Tenant Migration
+
+Cloud ERP Deployment
+
+Release Management
+
+Production Support
+
+Transformation Programs
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Azure DevOps
+
+Jira
+
+ALM
+
+Workday
+
+EIB
+
+Studio
+
+REST APIs
+
+==================================================
+COMMON REPORTS
+==============
+
+Test Execution
+
+Defect Reports
+
+Release Readiness
+
+Deployment Status
+
+Hypercare Metrics
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Project Managers
+
+Business Analysts
+
+Testing Teams
+
+HR
+
+Finance
+
+IT Operations
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Testing
+
+*
+
+Deployment
+
+*
+
+Release
+
+Example
+
+(Workday)
+
+AND
+
+(UAT OR Testing)
+
+AND
+
+(Cutover OR Hypercare)
+
+AND
+
+(Deployment)
+
+Expand testing terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Workday Testing
+
+Critical
+
+UAT
+
+Critical
+
+Deployment
+
+High
+
+Cutover
+
+High
+
+Hypercare
+
+High
+
+Tenant Management
+
+Medium
+
+Release Management
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP Testing
+
+↓
+
+Workday Testing
+
+Medium
+
+---
+
+Oracle Cloud Testing
+
+↓
+
+Workday Deployment
+
+Medium
+
+---
+
+ERP Release Management
+
+↓
+
+Workday Delivery
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Testing Scope
+
+Deployment Scope
+
+Tenant Strategy
+
+Implementation Phase
+
+Delivery Responsibility
+
+Differentiate
+
+Testing
+
+Deployment
+
+Release
+
+Cutover
+
+Hypercare
+
+Production Support
+
+Identify whether the consultant performed
+
+Test Planning
+
+Test Execution
+
+Cutover Planning
+
+Deployment
+
+Go-Live
+
+Hypercare
+
+Release Management
+
+Recognize candidates with enterprise Workday delivery experience covering UAT, SIT, cutover planning, tenant management, release governance, production deployment and hypercare as senior Workday delivery consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating UAT participation as Workday deployment expertise.
+
+Confusing production support with implementation.
+
+Matching candidates solely because they mention testing.
+
+Ignoring tenant lifecycle management.
+
+Treating QA automation as Workday delivery.
+
+Ignoring release governance.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Testing
+
+↓
+
+Unit Testing
+
+SIT
+
+UAT
+
+Regression
+
+Validation
+
+---
+
+Deployment
+
+↓
+
+Migration
+
+Cutover
+
+Go-Live
+
+Promotion
+
+Release
+
+---
+
+Support
+
+↓
+
+Hypercare
+
+Production Support
+
+Defect Resolution
+
+Optimization
+
+---
+
+Tenants
+
+↓
+
+Sandbox
+
+Implementation
+
+Preview
+
+Production
+
+Training
+
+END_OF_FILE

@@ -1,0 +1,656 @@
+FILE_NAME:
+116_INFOR_WMS.txt
+
+ID:
+116
+
+DOMAIN:
+Infor
+
+CATEGORY:
+Warehouse Management System (WMS)
+
+SUBCATEGORY:
+Infor WMS
+
+PRIMARY_ROLE:
+Infor WMS Consultant
+
+RELATED_FILES:
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+112_INFOR_M3.txt
+
+113_INFOR_CLOUDSUITE.txt
+
+115_INFOR_EAM.txt
+
+117_INFOR_SCM.txt
+
+118_INFOR_OS_ION.txt
+
+119_INFOR_BI_ANALYTICS.txt
+
+013_CLOUD.txt
+
+VERSION:
+2.0
+
+CATEGORY:
+Infor Warehouse Management System
+
+PURPOSE:
+Enable AI agents to understand Infor WMS, warehouse operations, inventory management, inbound/outbound logistics, labor management, automation, RF mobility, consultant responsibilities, implementation methodologies, and warehouse transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Infor WMS
+Warehouse Management System
+Warehouse Management
+Inventory Management
+Distribution Center
+RF Scanner
+Receiving
+Picking
+Packing
+Shipping
+Cross Dock
+Slotting
+Labor Management
+
+ROLE_FAMILIES:
+Infor WMS Functional Consultant
+
+Infor WMS Technical Consultant
+
+Infor WMS Developer
+
+Warehouse Management Consultant
+
+Supply Chain Consultant
+
+Solution Architect
+
+COMMON_JOB_TITLES:
+Infor WMS Consultant
+
+Infor WMS Functional Consultant
+
+Infor WMS Technical Consultant
+
+Warehouse Management Consultant
+
+Infor WMS Solution Architect
+
+ALTERNATIVE_TITLES:
+Warehouse Consultant
+
+Distribution Consultant
+
+Logistics Systems Consultant
+
+CORE_SKILLS:
+Warehouse Operations
+
+Inventory Management
+
+Receiving
+
+Picking
+
+Packing
+
+Shipping
+
+Labor Management
+
+Automation
+
+SUPPORTING_SKILLS:
+RF Devices
+
+Barcode
+
+EDI
+
+APIs
+
+Reporting
+
+SQL
+
+Integration
+
+Security
+
+RELATED_TECHNOLOGIES:
+Infor WMS
+
+Infor OS
+
+Infor ION
+
+RF Mobility
+
+Voice Picking
+
+Warehouse Automation
+
+Conveyor Systems
+
+ERP Integration
+
+TECHNOLOGY_CATEGORY:
+Enterprise Warehouse Management Platform
+
+DEPENDENCIES:
+
+013_CLOUD.txt
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Infor WMS is Infor's enterprise warehouse management platform designed to optimize warehouse operations, inventory visibility, labor productivity and distribution processes.
+
+The platform supports advanced receiving, put-away, replenishment, picking, packing, shipping, cross-docking, wave management, automation integration and real-time warehouse execution.
+
+==================================================
+CORE MODULES
+============
+
+Receiving
+
+Put-away
+
+Inventory
+
+Picking
+
+Packing
+
+Shipping
+
+Labor Management
+
+Warehouse Automation
+
+==================================================
+INBOUND OPERATIONS
+==================
+
+COMMON RESPONSIBILITIES
+
+Receiving
+
+Quality Inspection
+
+ASN Processing
+
+Put-away
+
+Cross Dock
+
+Returns Receiving
+
+==================================================
+INVENTORY MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+Inventory Control
+
+Cycle Counting
+
+Lot Tracking
+
+Serial Tracking
+
+Stock Transfers
+
+Replenishment
+
+==================================================
+OUTBOUND OPERATIONS
+===================
+
+COMMON RESPONSIBILITIES
+
+Wave Planning
+
+Picking
+
+Packing
+
+Shipping
+
+Load Planning
+
+Carrier Integration
+
+==================================================
+LABOR MANAGEMENT
+================
+
+COMMON RESPONSIBILITIES
+
+Task Assignment
+
+Productivity Monitoring
+
+Performance KPIs
+
+Labor Planning
+
+Workload Balancing
+
+==================================================
+WAREHOUSE AUTOMATION
+====================
+
+COMMON RESPONSIBILITIES
+
+RF Scanning
+
+Barcode Processing
+
+Voice Picking
+
+Conveyor Integration
+
+AS/RS Integration
+
+Robotics
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Inbound Logistics
+
+Warehouse Operations
+
+Inventory Control
+
+Order Fulfillment
+
+Distribution
+
+Returns Processing
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Warehouses
+
+Zones
+
+Locations
+
+Workflows
+
+Picking Rules
+
+Allocation Rules
+
+Security
+
+Users
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Warehouse Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Warehouse Modernization
+
+Distribution Center Implementation
+
+Inventory Optimization
+
+Warehouse Automation
+
+Cloud Migration
+
+Logistics Transformation
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Infor ERP
+
+Infor OS
+
+Infor ION
+
+Transportation Management
+
+ERP
+
+EDI
+
+REST APIs
+
+Automation Systems
+
+==================================================
+COMMON REPORTS
+==============
+
+Inventory Reports
+
+Warehouse KPIs
+
+Labor Productivity
+
+Order Fulfillment
+
+Receiving Reports
+
+Shipping Reports
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Warehouse Teams
+
+Logistics
+
+Supply Chain
+
+Distribution Centers
+
+Operations
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Warehouse
+
+*
+
+Inventory
+
+*
+
+Implementation
+
+Example
+
+("Infor WMS")
+
+AND
+
+(Warehouse OR Inventory)
+
+AND
+
+(Picking OR Shipping)
+
+AND
+
+(Consultant OR Architect)
+
+Expand WMS terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Infor WMS
+
+Critical
+
+Warehouse Operations
+
+Critical
+
+Inventory Management
+
+High
+
+Picking
+
+High
+
+Shipping
+
+High
+
+Labor Management
+
+Medium
+
+Automation
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Blue Yonder WMS
+
+↓
+
+Infor WMS
+
+Medium
+
+---
+
+Manhattan WMS
+
+↓
+
+Infor WMS
+
+Medium
+
+---
+
+SAP EWM
+
+↓
+
+Enterprise WMS
+
+Medium
+
+---
+
+Oracle WMS
+
+↓
+
+Infor WMS
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Warehouse Scope
+
+Industry
+
+Functional vs Technical
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Receiving
+
+Inventory
+
+Picking
+
+Shipping
+
+Automation
+
+Labor Management
+
+Identify whether the consultant performed
+
+Requirements
+
+Configuration
+
+Warehouse Design
+
+Integration
+
+Testing
+
+Migration
+
+Deployment
+
+Support
+
+Recognize candidates with enterprise Infor WMS implementation, warehouse modernization, inventory optimization, automation integration, RF mobility and distribution transformation experience as senior Infor WMS consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating warehouse operations as Infor WMS implementation.
+
+Confusing inventory management with warehouse system consulting.
+
+Matching candidates solely because they mention logistics.
+
+Ignoring warehouse automation expertise.
+
+Treating RF device usage as implementation experience.
+
+Ignoring labor management capabilities.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Infor WMS
+
+↓
+
+Warehouse Management System
+
+Warehouse Management
+
+---
+
+Warehouse
+
+↓
+
+Receiving
+
+Put-away
+
+Picking
+
+Packing
+
+Shipping
+
+---
+
+Inventory
+
+↓
+
+Cycle Counting
+
+Replenishment
+
+Lot Control
+
+Serial Control
+
+---
+
+Automation
+
+↓
+
+RF
+
+Barcode
+
+Voice Picking
+
+Conveyor
+
+AS/RS
+
+Robotics
+
+END_OF_FILE

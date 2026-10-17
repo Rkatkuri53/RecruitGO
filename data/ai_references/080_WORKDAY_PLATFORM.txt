@@ -1,0 +1,580 @@
+FILE_NAME:
+080_WORKDAY_PLATFORM.txt
+
+ID:
+080
+
+DOMAIN:
+Workday
+
+CATEGORY:
+Enterprise Cloud ERP
+
+SUBCATEGORY:
+Workday Platform
+
+PRIMARY_ROLE:
+Workday Consultant
+
+RELATED_FILES:
+
+081_WORKDAY_HCM.txt
+
+082_WORKDAY_FINANCIALS.txt
+
+083_WORKDAY_PAYROLL.txt
+
+084_WORKDAY_RECRUITING_TALENT.txt
+
+085_WORKDAY_INTEGRATIONS.txt
+
+086_WORKDAY_SECURITY.txt
+
+087_WORKDAY_REPORTING_PRISM.txt
+
+088_WORKDAY_EXTEND.txt
+
+089_WORKDAY_TESTING_DEPLOYMENT.txt
+
+037_ORACLE_HCM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Workday Platform
+
+PURPOSE:
+Enable AI agents to understand the complete Workday ecosystem, platform architecture, HCM, Financials, Payroll, Recruiting, Integrations, Security, Reporting, Extend, implementation methodology, consultant roles, and enterprise Workday transformation programs for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Workday
+Workday HCM
+Workday Financials
+Workday Payroll
+Workday Recruiting
+Workday Extend
+Workday Studio
+Workday Prism
+Enterprise Interface Builder
+EIB
+Core Connectors
+
+ROLE_FAMILIES:
+Workday Functional Consultant
+
+Workday Technical Consultant
+
+Workday Integration Consultant
+
+Workday Security Consultant
+
+Workday Reporting Consultant
+
+Workday Solution Architect
+
+Workday Program Manager
+
+Workday Business Analyst
+
+COMMON_JOB_TITLES:
+Workday Consultant
+
+Senior Workday Consultant
+
+Workday Functional Consultant
+
+Workday Solution Architect
+
+Workday Technical Consultant
+
+Workday Administrator
+
+ALTERNATIVE_TITLES:
+Cloud ERP Consultant
+
+Cloud HCM Consultant
+
+Enterprise Applications Consultant
+
+CORE_SKILLS:
+Business Process Configuration
+
+Workday Configuration
+
+Security
+
+Reporting
+
+Integrations
+
+Testing
+
+Business Process Design
+
+Cloud ERP
+
+SUPPORTING_SKILLS:
+XML
+
+XSLT
+
+REST APIs
+
+SOAP APIs
+
+Workday Studio
+
+EIB
+
+Project Management
+
+RELATED_TECHNOLOGIES:
+Workday HCM
+
+Workday Financials
+
+Workday Payroll
+
+Workday Recruiting
+
+Workday Studio
+
+Workday Extend
+
+Prism Analytics
+
+Adaptive Planning
+
+Workday Peakon
+
+TECHNOLOGY_CATEGORY:
+Enterprise Cloud ERP Platform
+
+DEPENDENCIES:
+
+018_ENTERPRISE_PLATFORMS.txt
+
+011_APIS.txt
+
+013_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Workday is a cloud-native enterprise platform providing Human Capital Management (HCM), Financial Management, Payroll, Planning and Analytics.
+
+Unlike traditional ERP systems, Workday is delivered as Software-as-a-Service (SaaS) with biannual feature releases, centralized tenant management and configuration-driven implementation rather than heavy customization.
+
+==================================================
+CORE PRODUCT FAMILIES
+=====================
+
+Human Capital Management (HCM)
+
+Financial Management
+
+Payroll
+
+Recruiting
+
+Talent & Performance
+
+Learning
+
+Compensation
+
+Benefits
+
+Time Tracking
+
+Absence
+
+Adaptive Planning
+
+Prism Analytics
+
+Workday Extend
+
+==================================================
+PLATFORM ARCHITECTURE
+=====================
+
+Users
+
+↓
+
+Workday Tenant
+
+↓
+
+Business Processes
+
+↓
+
+Security
+
+↓
+
+Reports
+
+↓
+
+Integrations
+
+↓
+
+External Systems
+
+==================================================
+IMPLEMENTATION TYPES
+====================
+
+Greenfield Implementation
+
+Global Rollout
+
+Tenant Optimization
+
+Business Transformation
+
+Cloud Migration
+
+Acquisition Integration
+
+Support & Enhancement
+
+Phase 2 Implementation
+
+==================================================
+CONSULTANT TYPES
+================
+
+Functional Consultant
+
+↓
+
+Configuration
+
+Business Processes
+
+---
+
+Technical Consultant
+
+↓
+
+Integrations
+
+Studio
+
+EIB
+
+---
+
+Security Consultant
+
+↓
+
+Roles
+
+Domains
+
+Policies
+
+---
+
+Reporting Consultant
+
+↓
+
+Reports
+
+Dashboards
+
+Analytics
+
+---
+
+Solution Architect
+
+↓
+
+Enterprise Design
+
+Governance
+
+==================================================
+COMMON RESPONSIBILITIES
+=======================
+
+Requirements Workshops
+
+Fit-Gap Analysis
+
+Configuration
+
+Business Process Design
+
+Security Configuration
+
+Report Development
+
+Integration Development
+
+Testing
+
+Data Conversion
+
+Go-Live
+
+Hypercare
+
+Production Support
+
+==================================================
+PLATFORM CAPABILITIES
+=====================
+
+Business Process Framework
+
+Role-Based Security
+
+Reporting
+
+Dashboards
+
+Calculated Fields
+
+Mobile Access
+
+Workflow Automation
+
+Cloud Updates
+
+==================================================
+SECURITY
+========
+
+Role-Based Security
+
+Domain Security
+
+Business Process Security
+
+Segregation of Duties
+
+User Provisioning
+
+Authentication
+
+==================================================
+COMMON PROJECTS
+===============
+
+HCM Transformation
+
+Finance Transformation
+
+Payroll Modernization
+
+Recruiting Transformation
+
+Cloud ERP Migration
+
+Global Workday Rollout
+
+Shared Services Transformation
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Role
+
+*
+
+Implementation
+
+Example
+
+(Workday)
+
+AND
+
+(HCM OR Financials)
+
+AND
+
+(Consultant OR Architect)
+
+AND
+
+(Configuration OR Integration)
+
+Expand Workday modules only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Workday Platform
+
+Critical
+
+Relevant Module
+
+Critical
+
+Configuration
+
+High
+
+Business Processes
+
+High
+
+Integrations
+
+High
+
+Security
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle HCM Cloud
+
+↓
+
+Workday HCM
+
+Medium
+
+---
+
+SAP SuccessFactors
+
+↓
+
+Workday HCM
+
+Medium
+
+---
+
+Oracle ERP Cloud
+
+↓
+
+Workday Financials
+
+Medium
+
+---
+
+PeopleSoft
+
+↓
+
+Workday
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Workday Module
+
+Functional vs Technical
+
+Implementation Type
+
+Project Phase
+
+Tenant Scope
+
+Differentiate
+
+Functional
+
+Technical
+
+Integration
+
+Security
+
+Reporting
+
+Architecture
+
+Recognize enterprise implementation projects as more valuable than production support.
+
+Do not assume Workday experience is interchangeable across HCM, Financials, Payroll, Recruiting or Integrations.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating all Workday consultants as HCM consultants.
+
+Confusing configuration with customization.
+
+Matching candidates solely because they mention Workday.
+
+Ignoring module specialization.
+
+Treating HR operations as Workday implementation.
+
+Ignoring tenant lifecycle experience.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+NEXT KNOWLEDGE FILES
+====================
+
+081_WORKDAY_HCM.txt
+
+082_WORKDAY_FINANCIALS.txt
+
+083_WORKDAY_PAYROLL.txt
+
+084_WORKDAY_RECRUITING_TALENT.txt
+
+085_WORKDAY_INTEGRATIONS.txt
+
+086_WORKDAY_SECURITY.txt
+
+087_WORKDAY_REPORTING_PRISM.txt
+
+088_WORKDAY_EXTEND.txt
+
+089_WORKDAY_TESTING_DEPLOYMENT.txt
+
+END_OF_FILE

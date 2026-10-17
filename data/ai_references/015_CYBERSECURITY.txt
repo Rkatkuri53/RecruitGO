@@ -1,0 +1,856 @@
+FILE_NAME:
+015_CYBERSECURITY.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Cybersecurity
+
+PURPOSE:
+Enable AI agents to understand cybersecurity concepts, security domains, enterprise security architecture, security technologies, compliance frameworks, Identity & Access Management (IAM), cloud security, DevSecOps, Security Operations (SOC), Governance, Risk & Compliance (GRC), and vulnerability management. This knowledge enables accurate JD parsing, Boolean generation, resume parsing, candidate matching, interview generation, and security role classification.
+
+KEYWORDS:
+Cybersecurity
+Information Security
+Network Security
+Application Security
+Cloud Security
+IAM
+PAM
+SOC
+SIEM
+Zero Trust
+DevSecOps
+
+ROLE_FAMILIES:
+Cybersecurity Engineer
+Security Architect
+Cloud Security Engineer
+Application Security Engineer
+IAM Engineer
+PAM Engineer
+SOC Analyst
+Incident Response Engineer
+Security Consultant
+GRC Consultant
+DevSecOps Engineer
+Security Operations Engineer
+
+COMMON_JOB_TITLES:
+Security Engineer
+Cybersecurity Engineer
+Information Security Engineer
+Security Architect
+Security Consultant
+SOC Analyst
+Cloud Security Engineer
+IAM Engineer
+Application Security Engineer
+
+ALTERNATIVE_TITLES:
+Information Security
+Cyber Defense
+Enterprise Security
+Digital Security
+
+CORE_SKILLS:
+Security Architecture
+Identity Management
+Risk Assessment
+Incident Response
+Threat Detection
+Security Operations
+
+SUPPORTING_SKILLS:
+Networking
+Cloud
+Operating Systems
+DevOps
+Programming
+Compliance
+Automation
+
+RELATED_TECHNOLOGIES:
+AWS
+Azure
+GCP
+Linux
+Windows
+Docker
+Kubernetes
+Splunk
+Microsoft Sentinel
+QRadar
+CyberArk
+SailPoint
+Okta
+Ping Identity
+Fortinet
+Palo Alto
+Cisco
+
+TECHNOLOGY_CATEGORY:
+Cybersecurity
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+005_SOFTWARE_ARCHITECTURE.txt
+
+009_NETWORKING.txt
+
+010_OPERATING_SYSTEMS.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+==================================================
+CYBERSECURITY DEFINITION
+========================
+
+Cybersecurity protects systems, networks, applications, data and identities from unauthorized access, attacks, misuse, disruption and data loss.
+
+Security is a shared responsibility across business, technology, operations and governance.
+
+==================================================
+SECURITY DOMAINS
+================
+
+Network Security
+
+Application Security
+
+Cloud Security
+
+Endpoint Security
+
+Identity & Access Management
+
+Privileged Access Management
+
+Security Operations
+
+Incident Response
+
+Governance Risk & Compliance
+
+DevSecOps
+
+Data Security
+
+Security Architecture
+
+==================================================
+NETWORK SECURITY
+================
+
+PURPOSE
+
+Protect enterprise networks.
+
+COMMON RESPONSIBILITIES
+
+Firewall Management
+
+VPN
+
+IDS
+
+IPS
+
+Network Segmentation
+
+Zero Trust
+
+COMMON PRODUCTS
+
+Cisco
+
+Fortinet
+
+Palo Alto
+
+Check Point
+
+pfSense
+
+==================================================
+APPLICATION SECURITY
+====================
+
+PURPOSE
+
+Secure software applications.
+
+COMMON RESPONSIBILITIES
+
+Secure SDLC
+
+Threat Modeling
+
+Code Review
+
+SAST
+
+DAST
+
+Dependency Scanning
+
+API Security
+
+OWASP Top 10
+
+COMMON TOOLS
+
+Veracode
+
+Checkmarx
+
+Fortify
+
+SonarQube
+
+Snyk
+
+==================================================
+CLOUD SECURITY
+==============
+
+PURPOSE
+
+Protect cloud infrastructure and services.
+
+COMMON RESPONSIBILITIES
+
+IAM
+
+Cloud Security Posture
+
+Network Security
+
+Encryption
+
+Secrets Management
+
+Compliance
+
+COMMON SERVICES
+
+AWS IAM
+
+Azure Entra ID
+
+Google Cloud IAM
+
+AWS KMS
+
+Azure Key Vault
+
+HashiCorp Vault
+
+==================================================
+IDENTITY & ACCESS MANAGEMENT (IAM)
+==================================
+
+PURPOSE
+
+Manage digital identities and access.
+
+COMMON RESPONSIBILITIES
+
+Authentication
+
+Authorization
+
+SSO
+
+MFA
+
+RBAC
+
+Identity Federation
+
+Lifecycle Management
+
+COMMON PRODUCTS
+
+Okta
+
+Microsoft Entra ID
+
+Ping Identity
+
+ForgeRock
+
+SailPoint
+
+Keycloak
+
+==================================================
+PRIVILEGED ACCESS MANAGEMENT (PAM)
+==================================
+
+PURPOSE
+
+Protect privileged accounts.
+
+COMMON RESPONSIBILITIES
+
+Password Vaulting
+
+Session Recording
+
+Privilege Elevation
+
+Credential Rotation
+
+COMMON PRODUCTS
+
+CyberArk
+
+BeyondTrust
+
+Delinea
+
+One Identity
+
+==================================================
+SECURITY OPERATIONS CENTER (SOC)
+================================
+
+PURPOSE
+
+Monitor and respond to security incidents.
+
+COMMON RESPONSIBILITIES
+
+Threat Monitoring
+
+Alert Investigation
+
+Incident Triage
+
+Threat Hunting
+
+Log Analysis
+
+COMMON ROLES
+
+SOC Analyst
+
+SOC Engineer
+
+Security Operations Engineer
+
+==================================================
+SIEM
+====
+
+PURPOSE
+
+Collect, correlate and analyze security events.
+
+COMMON PRODUCTS
+
+Splunk
+
+Microsoft Sentinel
+
+IBM QRadar
+
+ArcSight
+
+LogRhythm
+
+Elastic Security
+
+COMMON RESPONSIBILITIES
+
+Log Collection
+
+Correlation Rules
+
+Alerting
+
+Threat Detection
+
+==================================================
+INCIDENT RESPONSE
+=================
+
+COMMON ACTIVITIES
+
+Detection
+
+Containment
+
+Eradication
+
+Recovery
+
+Post Incident Review
+
+Root Cause Analysis
+
+==================================================
+GOVERNANCE RISK & COMPLIANCE (GRC)
+==================================
+
+PURPOSE
+
+Ensure compliance with organizational and regulatory requirements.
+
+COMMON RESPONSIBILITIES
+
+Risk Assessment
+
+Audit Support
+
+Policy Development
+
+Compliance Monitoring
+
+COMMON FRAMEWORKS
+
+ISO 27001
+
+NIST
+
+CIS Controls
+
+SOC 2
+
+PCI DSS
+
+HIPAA
+
+GDPR
+
+==================================================
+DEVSECOPS
+=========
+
+PURPOSE
+
+Integrate security into the software delivery pipeline.
+
+COMMON RESPONSIBILITIES
+
+Pipeline Security
+
+Secrets Management
+
+Container Security
+
+Infrastructure Security
+
+Security Automation
+
+==================================================
+SECURITY ARCHITECTURE
+=====================
+
+COMMON RESPONSIBILITIES
+
+Security Design
+
+Risk Analysis
+
+Identity Architecture
+
+Network Architecture
+
+Cloud Security Architecture
+
+Security Governance
+
+==================================================
+ZERO TRUST
+==========
+
+CORE PRINCIPLES
+
+Never Trust
+
+Always Verify
+
+Least Privilege
+
+Continuous Validation
+
+Identity-Based Access
+
+==================================================
+COMMON SECURITY CONCEPTS
+========================
+
+Authentication
+
+Authorization
+
+Encryption
+
+Hashing
+
+Digital Certificates
+
+TLS
+
+PKI
+
+RBAC
+
+ABAC
+
+MFA
+
+SSO
+
+Least Privilege
+
+Defense in Depth
+
+==================================================
+VULNERABILITY MANAGEMENT
+========================
+
+COMMON RESPONSIBILITIES
+
+Scanning
+
+Patch Management
+
+Risk Prioritization
+
+Remediation
+
+Verification
+
+COMMON TOOLS
+
+Qualys
+
+Rapid7
+
+Tenable Nessus
+
+OpenVAS
+
+==================================================
+ENDPOINT SECURITY
+=================
+
+COMMON PRODUCTS
+
+Microsoft Defender
+
+CrowdStrike
+
+SentinelOne
+
+Carbon Black
+
+Sophos
+
+==================================================
+DATA SECURITY
+=============
+
+Encryption
+
+Data Loss Prevention
+
+Tokenization
+
+Masking
+
+Backup
+
+Key Management
+
+==================================================
+SECURITY RESPONSIBILITY MAPPING
+===============================
+
+Security Engineer
+
+↓
+
+Security Controls
+
+Implementation
+
+Hardening
+
+---
+
+Security Architect
+
+↓
+
+Enterprise Security Design
+
+Governance
+
+Technology Selection
+
+---
+
+Cloud Security Engineer
+
+↓
+
+Cloud IAM
+
+Cloud Security
+
+Compliance
+
+---
+
+SOC Analyst
+
+↓
+
+Monitoring
+
+Threat Detection
+
+Incident Investigation
+
+---
+
+IAM Engineer
+
+↓
+
+Identity
+
+Authentication
+
+Authorization
+
+Lifecycle Management
+
+---
+
+PAM Engineer
+
+↓
+
+Privileged Accounts
+
+Credential Vault
+
+Session Monitoring
+
+==================================================
+CYBERSECURITY ECOSYSTEM
+=======================
+
+Identity
+
+↓
+
+Authentication
+
+↓
+
+Authorization
+
+↓
+
+Application
+
+↓
+
+Network
+
+↓
+
+Monitoring
+
+↓
+
+SIEM
+
+↓
+
+Incident Response
+
+↓
+
+Compliance
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Security Domain
+
+*
+
+Role
+
+*
+
+Security Products
+
+*
+
+Responsibilities
+
+Example
+
+("Security Engineer" OR "Cyber Security Engineer")
+
+AND
+
+(IAM OR SIEM OR SOC OR "Cloud Security")
+
+AND
+
+(Splunk OR Sentinel OR CyberArk)
+
+Expand products only when relevant to the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Security Domain
+
+Critical
+
+Responsibilities
+
+Critical
+
+Architecture
+
+High
+
+Incident Response
+
+High
+
+Compliance
+
+Medium
+
+Cloud Security
+
+High
+
+Automation
+
+Medium
+
+Certifications
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Splunk
+
+↔
+
+Microsoft Sentinel
+
+Medium
+
+---
+
+CyberArk
+
+↔
+
+BeyondTrust
+
+Medium
+
+---
+
+Okta
+
+↔
+
+Entra ID
+
+Medium
+
+---
+
+AWS IAM
+
+↔
+
+Azure IAM
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Do not treat all security roles as equivalent.
+
+Differentiate between
+
+IAM
+
+PAM
+
+SOC
+
+SIEM
+
+GRC
+
+Cloud Security
+
+Application Security
+
+Network Security
+
+Validate expertise using
+
+Projects
+
+Responsibilities
+
+Production Support
+
+Security Incidents
+
+Architecture
+
+Do not infer security expertise from basic networking knowledge alone.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating IAM as CyberArk.
+
+Treating SOC as SIEM.
+
+Assuming firewall administration equals cybersecurity engineering.
+
+Matching candidates only because they have a Security+ certification.
+
+Confusing compliance roles with technical security roles.
+
+Treating DevOps engineers as DevSecOps engineers without security automation experience.
+
+Ignoring security responsibilities while evaluating senior security roles.
+
+END_OF_FILE

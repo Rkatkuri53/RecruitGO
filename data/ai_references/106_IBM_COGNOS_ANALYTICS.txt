@@ -1,0 +1,647 @@
+FILE_NAME:
+106_IBM_COGNOS_ANALYTICS.txt
+
+ID:
+106
+
+DOMAIN:
+IBM
+
+CATEGORY:
+Business Intelligence & Analytics
+
+SUBCATEGORY:
+IBM Cognos Analytics
+
+PRIMARY_ROLE:
+IBM Cognos Consultant
+
+RELATED_FILES:
+
+100_IBM_ENTERPRISE_PLATFORM.txt
+
+104_IBM_DATASTAGE.txt
+
+105_IBM_FILENET.txt
+
+109_IBM_CLOUD_PAK_OPENSHIFT.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+IBM Cognos Analytics
+
+PURPOSE:
+Enable AI agents to understand IBM Cognos Analytics, enterprise business intelligence, reporting, dashboards, data modeling, Framework Manager, Report Studio, data visualization, consultant responsibilities, implementation methodologies, and enterprise analytics transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+IBM Cognos
+Cognos Analytics
+Framework Manager
+Report Studio
+Dashboard
+Business Intelligence
+BI
+Data Modules
+Query Studio
+Analysis Studio
+Event Studio
+Dynamic Cubes
+
+ROLE_FAMILIES:
+IBM Cognos Consultant
+
+BI Consultant
+
+Reporting Consultant
+
+Analytics Consultant
+
+BI Developer
+
+Data Analyst
+
+COMMON_JOB_TITLES:
+IBM Cognos Consultant
+
+IBM Cognos Developer
+
+IBM Cognos Architect
+
+Business Intelligence Consultant
+
+Reporting Developer
+
+ALTERNATIVE_TITLES:
+Enterprise BI Consultant
+
+Analytics Consultant
+
+Reporting Architect
+
+CORE_SKILLS:
+IBM Cognos
+
+Framework Manager
+
+Report Development
+
+Dashboard Development
+
+Data Modeling
+
+Business Intelligence
+
+Analytics
+
+Performance Tuning
+
+SUPPORTING_SKILLS:
+SQL
+
+Oracle
+
+DB2
+
+Data Warehousing
+
+ETL
+
+Visualization
+
+Security
+
+RELATED_TECHNOLOGIES:
+IBM Cognos Analytics
+
+Framework Manager
+
+Report Studio
+
+Dashboard
+
+Dynamic Cubes
+
+IBM DataStage
+
+IBM Planning Analytics
+
+TECHNOLOGY_CATEGORY:
+Enterprise Business Intelligence Platform
+
+DEPENDENCIES:
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+104_IBM_DATASTAGE.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+IBM Cognos Analytics is IBM's enterprise business intelligence platform used for operational reporting, dashboards, self-service analytics, scorecards and executive decision support.
+
+It enables organizations to build governed semantic models, enterprise reports, interactive dashboards and AI-assisted business insights from multiple enterprise data sources.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Framework Manager
+
+Report Studio
+
+Dashboards
+
+Data Modules
+
+Dynamic Cubes
+
+Analysis
+
+Scheduling
+
+Security
+
+==================================================
+FRAMEWORK MANAGER
+=================
+
+COMMON RESPONSIBILITIES
+
+Metadata Modeling
+
+Business Layer
+
+Relationships
+
+Query Subjects
+
+Packages
+
+Data Governance
+
+==================================================
+REPORT DEVELOPMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Operational Reports
+
+Financial Reports
+
+Executive Reports
+
+Bursting
+
+Scheduling
+
+Distribution
+
+==================================================
+DASHBOARDS
+==========
+
+COMMON RESPONSIBILITIES
+
+KPIs
+
+Visualization
+
+Executive Dashboards
+
+Interactive Analytics
+
+Business Metrics
+
+==================================================
+DATA MODULES
+============
+
+COMMON RESPONSIBILITIES
+
+Self-Service Modeling
+
+Data Preparation
+
+Business Views
+
+Calculated Fields
+
+Reusable Models
+
+==================================================
+DYNAMIC CUBES
+=============
+
+COMMON RESPONSIBILITIES
+
+OLAP
+
+High Performance Analytics
+
+Aggregation
+
+Caching
+
+Large Data Sets
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+Role-Based Security
+
+Data Security
+
+Object Security
+
+Authentication
+
+Authorization
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Operational Reporting
+
+Executive Reporting
+
+Business Intelligence
+
+Performance Monitoring
+
+Financial Reporting
+
+Decision Support
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Packages
+
+Metadata
+
+Dashboards
+
+Reports
+
+Schedules
+
+Users
+
+Security
+
+Connections
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Data Assessment
+
+↓
+
+Model Design
+
+↓
+
+Report Development
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Performance Optimization
+
+↓
+
+Support
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Enterprise BI
+
+Reporting Modernization
+
+Executive Dashboards
+
+Analytics Modernization
+
+Data Warehouse Reporting
+
+Self-Service BI
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+IBM DataStage
+
+Oracle
+
+DB2
+
+SQL Server
+
+Snowflake
+
+Power BI
+
+REST APIs
+
+Data Warehouses
+
+==================================================
+COMMON REPORTS
+==============
+
+Executive Dashboards
+
+Financial Reports
+
+Operational Reports
+
+Sales Reports
+
+KPI Reports
+
+Performance Reports
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Executives
+
+Business Analysts
+
+Finance
+
+Operations
+
+Sales
+
+BI Teams
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Reporting
+
+*
+
+Analytics
+
+*
+
+BI
+
+Example
+
+("IBM Cognos" OR Cognos)
+
+AND
+
+("Framework Manager" OR Reports)
+
+AND
+
+(Dashboard OR Analytics)
+
+AND
+
+(Consultant OR Developer)
+
+Expand Cognos terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+IBM Cognos
+
+Critical
+
+Framework Manager
+
+Critical
+
+Reporting
+
+High
+
+Dashboards
+
+High
+
+Data Modeling
+
+High
+
+Dynamic Cubes
+
+Medium
+
+Security
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Power BI
+
+↓
+
+Enterprise BI
+
+Medium
+
+---
+
+SAP BusinessObjects
+
+↓
+
+IBM Cognos
+
+Medium
+
+---
+
+Tableau
+
+↓
+
+Analytics
+
+Medium
+
+---
+
+MicroStrategy
+
+↓
+
+Enterprise Reporting
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+BI Scope
+
+Reporting Scope
+
+Modeling Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Framework Manager
+
+Report Studio
+
+Dashboards
+
+Dynamic Cubes
+
+Data Modules
+
+Identify whether the consultant performed
+
+Metadata Modeling
+
+Report Development
+
+Dashboard Development
+
+Testing
+
+Deployment
+
+Performance Tuning
+
+Support
+
+Recognize candidates with enterprise IBM Cognos implementation, Framework Manager modeling, executive reporting, dashboard development, governed semantic models and enterprise BI modernization experience as senior IBM Cognos consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating report writing as IBM Cognos implementation.
+
+Confusing Power BI development with Cognos expertise.
+
+Matching candidates solely because they mention BI.
+
+Ignoring Framework Manager expertise.
+
+Treating SQL reporting as Cognos architecture.
+
+Ignoring metadata modeling.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+IBM Cognos
+
+↓
+
+Cognos Analytics
+
+Business Intelligence
+
+IBM BI
+
+---
+
+Reporting
+
+↓
+
+Report Studio
+
+Operational Reports
+
+Financial Reports
+
+Bursting
+
+---
+
+Modeling
+
+↓
+
+Framework Manager
+
+Metadata
+
+Packages
+
+Query Subjects
+
+---
+
+Analytics
+
+↓
+
+Dashboards
+
+Dynamic Cubes
+
+Data Modules
+
+KPIs
+
+Visualization
+
+END_OF_FILE

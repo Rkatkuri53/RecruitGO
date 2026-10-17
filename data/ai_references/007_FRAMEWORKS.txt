@@ -1,0 +1,899 @@
+FILE_NAME:
+007_FRAMEWORKS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Software Frameworks
+
+PURPOSE:
+Enable AI agents to identify, classify, relate, and evaluate software frameworks used in Job Descriptions and resumes. Frameworks should always be interpreted within the context of their programming language ecosystem and intended purpose. This file supports JD parsing, Boolean generation, resume parsing, role identification, and candidate matching.
+
+KEYWORDS:
+Framework
+Application Framework
+Backend Framework
+Frontend Framework
+ORM
+Web Framework
+Enterprise Framework
+UI Framework
+
+ROLE_FAMILIES:
+Backend Developer
+Frontend Developer
+Full Stack Developer
+Mobile Developer
+Data Engineer
+AI Engineer
+QA Automation Engineer
+Cloud Engineer
+DevOps Engineer
+SAP Developer
+
+COMMON_JOB_TITLES:
+Software Engineer
+Application Developer
+Backend Engineer
+Frontend Engineer
+Full Stack Developer
+
+ALTERNATIVE_TITLES:
+Application Framework
+Software Framework
+Development Framework
+
+CORE_SKILLS:
+Application Development
+Framework Usage
+Architecture
+API Development
+
+SUPPORTING_SKILLS:
+Programming Languages
+Testing
+Databases
+Cloud
+DevOps
+
+RELATED_TECHNOLOGIES:
+Programming Languages
+Libraries
+Databases
+Cloud
+Containers
+APIs
+
+TECHNOLOGY_CATEGORY:
+Frameworks
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+003_IT_ECOSYSTEM.txt
+
+005_SOFTWARE_ARCHITECTURE.txt
+
+006_PROGRAMMING_LANGUAGES.txt
+
+==================================================
+FRAMEWORK DEFINITION
+====================
+
+A framework provides a structured foundation for building software.
+
+A framework depends on one or more programming languages.
+
+Framework knowledge without the underlying programming language should be treated as incomplete unless strong evidence exists.
+
+==================================================
+FRAMEWORK CLASSIFICATION
+========================
+
+Backend Frameworks
+
+Frontend Frameworks
+
+Mobile Frameworks
+
+AI Frameworks
+
+Data Frameworks
+
+Testing Frameworks
+
+ORM Frameworks
+
+Enterprise Frameworks
+
+Integration Frameworks
+
+==================================================
+BACKEND FRAMEWORKS
+==================
+
+SPRING
+
+LANGUAGE
+
+Java
+
+CATEGORY
+
+Backend Framework
+
+COMMON ROLES
+
+Java Developer
+
+Backend Developer
+
+Full Stack Developer
+
+COMMON RESPONSIBILITIES
+
+Dependency Injection
+
+Enterprise Applications
+
+REST APIs
+
+BOOLEAN
+
+(Spring)
+
+---
+
+SPRING BOOT
+
+LANGUAGE
+
+Java
+
+CATEGORY
+
+Backend Framework
+
+COMMON ROLES
+
+Java Developer
+
+Microservices Developer
+
+Backend Developer
+
+REQUIRES
+
+Java
+
+COMMON RESPONSIBILITIES
+
+REST APIs
+
+Microservices
+
+Cloud Applications
+
+COMMON TECHNOLOGIES
+
+Maven
+
+Hibernate
+
+Docker
+
+Kubernetes
+
+BOOLEAN
+
+(Spring OR "Spring Boot")
+
+---
+
+HIBERNATE
+
+LANGUAGE
+
+Java
+
+CATEGORY
+
+ORM Framework
+
+COMMON RESPONSIBILITIES
+
+Database Persistence
+
+ORM
+
+JPA
+
+BOOLEAN
+
+(Hibernate)
+
+---
+
+JAKARTA EE
+
+LANGUAGE
+
+Java
+
+CATEGORY
+
+Enterprise Framework
+
+BOOLEAN
+
+("Jakarta EE" OR J2EE OR "Java EE")
+
+---
+
+MICRONAUT
+
+LANGUAGE
+
+Java
+
+CATEGORY
+
+Microservices Framework
+
+BOOLEAN
+
+(Micronaut)
+
+---
+
+QUARKUS
+
+LANGUAGE
+
+Java
+
+CATEGORY
+
+Cloud Native Framework
+
+BOOLEAN
+
+(Quarkus)
+
+---
+
+FASTAPI
+
+LANGUAGE
+
+Python
+
+CATEGORY
+
+Backend Framework
+
+COMMON RESPONSIBILITIES
+
+REST APIs
+
+High Performance APIs
+
+Microservices
+
+BOOLEAN
+
+(FastAPI)
+
+---
+
+DJANGO
+
+LANGUAGE
+
+Python
+
+CATEGORY
+
+Backend Framework
+
+BOOLEAN
+
+(Django)
+
+---
+
+FLASK
+
+LANGUAGE
+
+Python
+
+CATEGORY
+
+Backend Framework
+
+BOOLEAN
+
+(Flask)
+
+---
+
+EXPRESS.JS
+
+LANGUAGE
+
+JavaScript
+
+CATEGORY
+
+Backend Framework
+
+BOOLEAN
+
+(Express OR ExpressJS OR Express.js)
+
+---
+
+NESTJS
+
+LANGUAGE
+
+TypeScript
+
+CATEGORY
+
+Backend Framework
+
+BOOLEAN
+
+(NestJS)
+
+---
+
+ASP.NET CORE
+
+LANGUAGE
+
+C#
+
+CATEGORY
+
+Backend Framework
+
+BOOLEAN
+
+("ASP.NET Core" OR ASP.NET)
+
+==================================================
+FRONTEND FRAMEWORKS
+===================
+
+REACT
+
+LANGUAGE
+
+JavaScript
+
+CATEGORY
+
+Frontend Framework
+
+COMMON RESPONSIBILITIES
+
+Single Page Applications
+
+UI Components
+
+BOOLEAN
+
+(React OR ReactJS)
+
+---
+
+ANGULAR
+
+LANGUAGE
+
+TypeScript
+
+CATEGORY
+
+Frontend Framework
+
+BOOLEAN
+
+(Angular)
+
+---
+
+VUE
+
+LANGUAGE
+
+JavaScript
+
+CATEGORY
+
+Frontend Framework
+
+BOOLEAN
+
+(Vue OR Vue.js)
+
+---
+
+NEXT.JS
+
+LANGUAGE
+
+JavaScript
+
+CATEGORY
+
+Frontend Framework
+
+BOOLEAN
+
+(NextJS OR "Next.js")
+
+---
+
+NUXT
+
+LANGUAGE
+
+Vue
+
+CATEGORY
+
+Frontend Framework
+
+BOOLEAN
+
+(Nuxt)
+
+==================================================
+MOBILE FRAMEWORKS
+=================
+
+FLUTTER
+
+LANGUAGE
+
+Dart
+
+CATEGORY
+
+Mobile Framework
+
+BOOLEAN
+
+(Flutter)
+
+---
+
+REACT NATIVE
+
+LANGUAGE
+
+JavaScript
+
+CATEGORY
+
+Mobile Framework
+
+BOOLEAN
+
+("React Native")
+
+---
+
+XAMARIN
+
+LANGUAGE
+
+C#
+
+CATEGORY
+
+Mobile Framework
+
+BOOLEAN
+
+(Xamarin)
+
+==================================================
+DATA FRAMEWORKS
+===============
+
+APACHE SPARK
+
+LANGUAGE
+
+Scala
+
+Python
+
+Java
+
+CATEGORY
+
+Data Processing Framework
+
+BOOLEAN
+
+(Spark OR "Apache Spark")
+
+---
+
+HADOOP
+
+CATEGORY
+
+Big Data Framework
+
+BOOLEAN
+
+(Hadoop)
+
+==================================================
+AI FRAMEWORKS
+=============
+
+TENSORFLOW
+
+LANGUAGE
+
+Python
+
+CATEGORY
+
+Machine Learning Framework
+
+BOOLEAN
+
+(TensorFlow)
+
+---
+
+PYTORCH
+
+CATEGORY
+
+Machine Learning Framework
+
+BOOLEAN
+
+(PyTorch)
+
+---
+
+SCIKIT-LEARN
+
+CATEGORY
+
+Machine Learning Framework
+
+BOOLEAN
+
+("Scikit-learn" OR sklearn)
+
+==================================================
+TESTING FRAMEWORKS
+==================
+
+JUNIT
+
+LANGUAGE
+
+Java
+
+BOOLEAN
+
+(JUnit)
+
+---
+
+TESTNG
+
+LANGUAGE
+
+Java
+
+BOOLEAN
+
+(TestNG)
+
+---
+
+PYTEST
+
+LANGUAGE
+
+Python
+
+BOOLEAN
+
+(PyTest OR pytest)
+
+---
+
+SELENIUM
+
+CATEGORY
+
+Automation Framework
+
+BOOLEAN
+
+(Selenium)
+
+---
+
+PLAYWRIGHT
+
+CATEGORY
+
+Automation Framework
+
+BOOLEAN
+
+(Playwright)
+
+---
+
+CYPRESS
+
+CATEGORY
+
+Automation Framework
+
+BOOLEAN
+
+(Cypress)
+
+==================================================
+FRAMEWORK RELATIONSHIPS
+=======================
+
+Spring Boot
+
+↓
+
+Java
+
+↓
+
+REST
+
+↓
+
+Hibernate
+
+↓
+
+Maven
+
+↓
+
+Docker
+
+↓
+
+Kubernetes
+
+---
+
+React
+
+↓
+
+JavaScript
+
+↓
+
+TypeScript
+
+↓
+
+HTML
+
+↓
+
+CSS
+
+---
+
+Angular
+
+↓
+
+TypeScript
+
+↓
+
+RxJS
+
+---
+
+FastAPI
+
+↓
+
+Python
+
+↓
+
+Pydantic
+
+---
+
+ASP.NET Core
+
+↓
+
+C#
+
+↓
+
+Entity Framework
+
+==================================================
+ROLE TO FRAMEWORK MAPPING
+=========================
+
+Java Developer
+
+↓
+
+Spring
+
+Spring Boot
+
+Hibernate
+
+---
+
+Python Developer
+
+↓
+
+FastAPI
+
+Django
+
+Flask
+
+---
+
+Frontend Developer
+
+↓
+
+React
+
+Angular
+
+Vue
+
+Next.js
+
+---
+
+Data Engineer
+
+↓
+
+Spark
+
+Hadoop
+
+---
+
+AI Engineer
+
+↓
+
+TensorFlow
+
+PyTorch
+
+Scikit-learn
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Framework
+
+*
+
+Programming Language
+
+*
+
+Role
+
+Example
+
+Spring Boot
+
+↓
+
+Java
+
+↓
+
+Backend Developer
+
+Do not search frameworks without their language unless the framework uniquely identifies the ecosystem.
+
+==================================================
+MATCHING_RULES
+==============
+
+Framework Experience
+
+Critical
+
+Underlying Language
+
+Critical
+
+Responsibilities
+
+Critical
+
+Production Experience
+
+High
+
+Recent Experience
+
+High
+
+Architecture Experience
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Framework knowledge implies familiarity with its ecosystem but does not replace validation of the underlying programming language.
+
+If a JD requires a framework, verify:
+
+Programming Language
+
+Framework
+
+Responsibilities
+
+Projects
+
+Recent Usage
+
+Do not infer expert-level framework knowledge from a single keyword mention.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Spring Boot as a programming language.
+
+Treating React as JavaScript.
+
+Treating Hibernate as a database.
+
+Treating TensorFlow as an AI language.
+
+Matching candidates on framework keywords without validating the underlying language.
+
+Confusing libraries with frameworks.
+
+END_OF_FILE

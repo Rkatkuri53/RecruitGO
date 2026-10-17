@@ -1,0 +1,804 @@
+FILE_NAME:
+000_MASTER_RULES.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Global AI Recruitment Rules
+
+PURPOSE:
+Defines the global reasoning rules that every AI agent in the Recruitment Intelligence Platform must follow. These rules have the highest priority and override any conflicting role-, technology-, or domain-specific rules.
+
+KEYWORDS:
+Recruitment Intelligence
+JD Parsing
+Resume Parsing
+Boolean Generation
+Candidate Matching
+Knowledge Base
+Role Classification
+Evidence Based Matching
+AI Rules
+
+ROLE_FAMILIES:
+All
+
+COMMON_JOB_TITLES:
+All
+
+ALTERNATIVE_TITLES:
+N/A
+
+CORE_SKILLS:
+Role Understanding
+Responsibility Analysis
+Technology Classification
+Evidence Evaluation
+Boolean Generation
+Candidate Matching
+
+SUPPORTING_SKILLS:
+Business Domain Analysis
+Seniority Analysis
+Transferable Skill Analysis
+Project Analysis
+
+RELATED_TECHNOLOGIES:
+ATS
+CRM
+ERP
+Cloud
+Programming Languages
+Databases
+DevOps
+Security
+AI
+
+TECHNOLOGY_CATEGORY:
+Global Rules
+
+DEPENDENCIES:
+None
+
+==================================================
+GLOBAL RULES
+============
+
+RULE_001
+
+Always identify the role before identifying technologies.
+
+Priority
+
+Business Need
+→ Role
+→ Responsibilities
+→ Technologies
+→ Candidate
+
+---
+
+RULE_002
+
+Never generate Boolean directly from keywords.
+
+Always understand:
+
+Role
+
+Responsibilities
+
+Mandatory Skills
+
+Supporting Skills
+
+Business Domain
+
+Project Type
+
+---
+
+RULE_003
+
+Always normalize job titles.
+
+Example
+
+Software Engineer
+
+↓
+
+Backend Developer
+
+↓
+
+Java Backend Developer
+
+---
+
+RULE_004
+
+Always classify extracted technologies.
+
+Technology Categories
+
+Programming Language
+
+Framework
+
+Database
+
+Cloud
+
+DevOps
+
+Operating System
+
+Networking
+
+Security
+
+AI/ML
+
+ERP
+
+CRM
+
+Testing
+
+Messaging
+
+Monitoring
+
+Tool
+
+Methodology
+
+Certification
+
+---
+
+RULE_005
+
+Never assume technologies are equivalent.
+
+Spring Boot
+
+Requires Java
+
+Spring Boot ≠ Java
+
+Kubernetes
+
+Commonly Uses Docker
+
+Kubernetes ≠ Docker
+
+---
+
+RULE_006
+
+Responsibilities are more important than keywords.
+
+Example
+
+JD
+
+Develop REST APIs
+
+Resume
+
+Developed backend web services
+
+Treat as a strong semantic match if supported by additional evidence.
+
+---
+
+RULE_007
+
+Evidence is stronger than keyword presence.
+
+Evidence Sources
+
+Projects
+
+Responsibilities
+
+Achievements
+
+Deliverables
+
+Architecture
+
+Leadership
+
+Production Support
+
+---
+
+RULE_008
+
+Recent experience has higher value than historical experience.
+
+Priority
+
+Current Project
+
+↓
+
+Last Project
+
+↓
+
+Older Projects
+
+---
+
+RULE_009
+
+Mandatory Skills
+
+Highest Weight
+
+Preferred Skills
+
+Medium Weight
+
+Nice To Have
+
+Low Weight
+
+---
+
+RULE_010
+
+Always separate:
+
+Technical Match
+
+Hiring Constraints
+
+Overall Hiring Fit
+
+Never mix them.
+
+---
+
+RULE_011
+
+Hiring Constraints include
+
+Notice Period
+
+Salary
+
+Visa
+
+Location
+
+Work Authorization
+
+Relocation
+
+Availability
+
+These affect hiring feasibility—not technical competence.
+
+---
+
+RULE_012
+
+Always identify
+
+Business Domain
+
+Examples
+
+Banking
+
+Healthcare
+
+Insurance
+
+Retail
+
+Manufacturing
+
+Telecom
+
+Government
+
+Energy
+
+Automotive
+
+Logistics
+
+---
+
+RULE_013
+
+Always identify
+
+Project Type
+
+Implementation
+
+Migration
+
+Transformation
+
+Support
+
+Maintenance
+
+Greenfield
+
+Brownfield
+
+Upgrade
+
+Cloud Migration
+
+Modernization
+
+---
+
+RULE_014
+
+Always determine seniority from responsibilities.
+
+Never use years alone.
+
+Indicators
+
+Junior
+
+Bug Fixes
+
+Support
+
+Learning
+
+Mid
+
+Independent Delivery
+
+Senior
+
+Design
+
+Mentoring
+
+Lead
+
+Technical Leadership
+
+Architect
+
+Solution Design
+
+Enterprise Architect
+
+Technology Governance
+
+Transformation Director
+
+Business Transformation
+
+---
+
+RULE_015
+
+Always identify architecture.
+
+Examples
+
+Monolith
+
+Microservices
+
+Event Driven
+
+Serverless
+
+SOA
+
+Cloud Native
+
+---
+
+RULE_016
+
+Always identify cloud.
+
+AWS
+
+Azure
+
+Google Cloud
+
+OCI
+
+Hybrid Cloud
+
+Multi Cloud
+
+---
+
+RULE_017
+
+Always identify DevOps maturity.
+
+Git
+
+CI/CD
+
+Docker
+
+Kubernetes
+
+Terraform
+
+Monitoring
+
+Observability
+
+---
+
+RULE_018
+
+Always identify databases.
+
+Relational
+
+NoSQL
+
+Graph
+
+Time Series
+
+Vector
+
+---
+
+RULE_019
+
+Always identify integrations.
+
+REST
+
+SOAP
+
+GraphQL
+
+Kafka
+
+RabbitMQ
+
+MQ
+
+ETL
+
+Batch
+
+Streaming
+
+---
+
+RULE_020
+
+Generate multiple Boolean strategies.
+
+Broad
+
+Balanced
+
+Precision
+
+LinkedIn
+
+Google X-Ray
+
+GitHub
+
+ATS
+
+Resume Database
+
+---
+
+RULE_021
+
+Boolean should prioritize
+
+Role
+
+↓
+
+Alternative Titles
+
+↓
+
+Responsibilities
+
+↓
+
+Core Skills
+
+↓
+
+Frameworks
+
+↓
+
+Cloud
+
+↓
+
+Supporting Skills
+
+↓
+
+Domain
+
+---
+
+RULE_022
+
+Use NOT operators only to remove obvious false positives.
+
+Avoid excessive exclusions.
+
+---
+
+RULE_023
+
+Always recognize transferable skills.
+
+Transferable does NOT mean equivalent.
+
+Assign
+
+High
+
+Medium
+
+Low
+
+confidence.
+
+---
+
+RULE_024
+
+Never reject candidates because of one missing supporting skill.
+
+Evaluate total capability.
+
+---
+
+RULE_025
+
+Every candidate score must include explanation.
+
+Explain
+
+Strengths
+
+Weaknesses
+
+Missing Skills
+
+Transferable Skills
+
+Confidence
+
+---
+
+RULE_026
+
+Always classify responsibilities.
+
+Planning
+
+Development
+
+Testing
+
+Deployment
+
+Support
+
+Architecture
+
+Leadership
+
+Operations
+
+---
+
+RULE_027
+
+Always classify project complexity.
+
+Simple
+
+Medium
+
+Complex
+
+Enterprise
+
+Mission Critical
+
+---
+
+RULE_028
+
+Detect leadership evidence.
+
+Team Leadership
+
+Mentoring
+
+Architecture
+
+Stakeholder Management
+
+Budget Ownership
+
+Program Ownership
+
+---
+
+RULE_029
+
+Normalize technology names.
+
+Examples
+
+AWS
+
+Amazon Web Services
+
+Postgres
+
+PostgreSQL
+
+JS
+
+JavaScript
+
+TS
+
+TypeScript
+
+K8s
+
+Kubernetes
+
+---
+
+RULE_030
+
+Never hallucinate.
+
+If evidence is missing
+
+Return
+
+Unknown
+
+Not Found
+
+Needs Verification
+
+Never invent experience.
+
+TOOLS:
+Applicable to all agents.
+
+FRAMEWORKS:
+Applicable to all technologies.
+
+DATABASES:
+Applicable to all databases.
+
+CLOUD:
+Applicable to all cloud providers.
+
+DEVOPS:
+Applicable to all DevOps technologies.
+
+SECURITY:
+Applicable to all security domains.
+
+INDUSTRIES:
+Applicable to all industries.
+
+CERTIFICATIONS:
+Applicable to all certification types.
+
+BOOLEAN_EXPANSION:
+Not Applicable.
+Defined in technology-specific files.
+
+TRANSFERABLE_SKILLS:
+Use relationship files.
+Never assume equivalence.
+
+MATCHING_RULES:
+
+Priority Order
+
+1. Responsibilities
+
+2. Core Skills
+
+3. Frameworks
+
+4. Architecture
+
+5. Project Complexity
+
+6. Cloud
+
+7. Database
+
+8. DevOps
+
+9. Domain
+
+10. Leadership
+
+11. Certifications
+
+12. Education
+
+BOOLEAN_RULES:
+
+Generate:
+
+Broad
+
+Balanced
+
+Precision
+
+Platform Specific
+
+Use Role before Technology.
+
+AI_DECISION_RULES:
+
+Think like an experienced technical recruiter.
+
+Understand the business problem first.
+
+Understand the role second.
+
+Understand the responsibilities third.
+
+Understand technologies fourth.
+
+Generate Boolean last.
+
+COMMON_MISTAKES:
+
+Matching keywords instead of responsibilities.
+
+Trusting job titles.
+
+Ignoring business domain.
+
+Ignoring project context.
+
+Confusing transferable skills with equivalent skills.
+
+Rejecting candidates for one missing supporting skill.
+
+Reducing technical score because of hiring constraints.
+
+END_OF_FILE

@@ -1,0 +1,633 @@
+FILE_NAME:
+031_SAP_INTEGRATION_SUITE.txt
+
+ID:
+031
+
+DOMAIN:
+SAP
+
+CATEGORY:
+ERP
+
+SUBCATEGORY:
+SAP Integration Suite
+
+PRIMARY_ROLE:
+SAP Integration Consultant
+
+RELATED_FILES:
+
+019_SAP_PLATFORM.txt
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+028_SAP_ABAP.txt
+
+029_SAP_BTP.txt
+
+030_SAP_FIORI_UI5.txt
+
+032_SAP_SECURITY_GRC.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP Integration Suite
+
+PURPOSE:
+Enable AI agents to understand SAP Integration Suite, Cloud Integration (CPI), API Management, Event Mesh, Open Connectors, Integration Advisor, B2B Integration, EDI, enterprise integration architecture, and SAP integration consultant responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+SAP Integration Suite
+SAP CPI
+SAP Cloud Integration
+SAP PI
+SAP PO
+SAP Process Integration
+SAP Process Orchestration
+API Management
+Event Mesh
+Open Connectors
+EDI
+B2B Integration
+
+ROLE_FAMILIES:
+SAP Integration Consultant
+SAP CPI Consultant
+SAP PI/PO Consultant
+SAP Technical Consultant
+SAP Integration Architect
+SAP Solution Architect
+
+COMMON_JOB_TITLES:
+SAP CPI Consultant
+SAP Integration Consultant
+SAP PI Consultant
+SAP PO Consultant
+SAP Integration Architect
+SAP Middleware Consultant
+
+ALTERNATIVE_TITLES:
+SAP Middleware Consultant
+SAP Cloud Integration Consultant
+Enterprise Integration Consultant
+
+CORE_SKILLS:
+Enterprise Integration
+
+API Development
+
+Cloud Integration
+
+Middleware
+
+Message Transformation
+
+Integration Design
+
+SUPPORTING_SKILLS:
+SAP BTP
+
+REST APIs
+
+SOAP
+
+XML
+
+JSON
+
+Security
+
+Cloud
+
+RELATED_TECHNOLOGIES:
+SAP Integration Suite
+
+SAP CPI
+
+SAP PI
+
+SAP PO
+
+API Management
+
+Open Connectors
+
+Event Mesh
+
+SAP BTP
+
+SAP Gateway
+
+TECHNOLOGY_CATEGORY:
+SAP Integration Platform
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+011_APIS.txt
+
+029_SAP_BTP.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+SAP Integration Suite is SAP's strategic cloud integration platform.
+
+It enables secure integration between SAP and non-SAP systems using APIs, events, messages, and cloud-native integration services.
+
+It replaces many traditional SAP PI/PO integration scenarios for cloud-first architectures.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Cloud Integration (CPI)
+
+API Management
+
+Open Connectors
+
+Event Mesh
+
+Integration Advisor
+
+Trading Partner Management
+
+Migration Assessment
+
+==================================================
+ARCHITECTURE
+============
+
+SAP System
+
+↓
+
+Integration Suite
+
+↓
+
+Transformation
+
+↓
+
+Security
+
+↓
+
+Routing
+
+↓
+
+Target System
+
+==================================================
+SAP CLOUD INTEGRATION (CPI)
+===========================
+
+COMMON RESPONSIBILITIES
+
+Integration Flows (iFlows)
+
+Message Routing
+
+Message Mapping
+
+Exception Handling
+
+Process Integration
+
+Cloud Integration
+
+==================================================
+API MANAGEMENT
+==============
+
+COMMON RESPONSIBILITIES
+
+API Publishing
+
+API Security
+
+OAuth
+
+Rate Limiting
+
+Developer Portal
+
+API Lifecycle
+
+Analytics
+
+==================================================
+EVENT MESH
+==========
+
+COMMON RESPONSIBILITIES
+
+Event-Driven Architecture
+
+Publish/Subscribe
+
+Asynchronous Messaging
+
+Business Events
+
+Queue Management
+
+==================================================
+OPEN CONNECTORS
+===============
+
+PURPOSE
+
+Standardized connectivity to third-party SaaS applications.
+
+COMMON CONNECTORS
+
+Salesforce
+
+ServiceNow
+
+Microsoft 365
+
+SuccessFactors
+
+Workday
+
+Slack
+
+Google Workspace
+
+==================================================
+INTEGRATION ADVISOR
+===================
+
+COMMON RESPONSIBILITIES
+
+EDI Mapping
+
+Message Guidelines
+
+Partner Profiles
+
+B2B Integration
+
+Standards Compliance
+
+==================================================
+B2B INTEGRATION
+===============
+
+COMMON STANDARDS
+
+EDI
+
+EDIFACT
+
+ANSI X12
+
+XML
+
+JSON
+
+AS2
+
+SFTP
+
+COMMON RESPONSIBILITIES
+
+Partner Onboarding
+
+Message Validation
+
+Trading Partner Configuration
+
+==================================================
+MESSAGE TRANSFORMATION
+======================
+
+COMMON FORMATS
+
+XML
+
+JSON
+
+CSV
+
+IDoc
+
+SOAP
+
+REST
+
+RFC
+
+BAPI
+
+==================================================
+INTEGRATION PATTERNS
+====================
+
+Point-to-Point
+
+Hub-and-Spoke
+
+Publish/Subscribe
+
+Event-Driven
+
+API-Led
+
+Hybrid Integration
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+OAuth
+
+JWT
+
+SAML
+
+Certificates
+
+TLS
+
+API Authentication
+
+Authorization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Cloud Migration
+
+PI/PO Migration
+
+Hybrid Integration
+
+SAP Modernization
+
+API Enablement
+
+Digital Transformation
+
+B2B Integration
+
+==================================================
+COMMON TOOLS
+============
+
+SAP Integration Suite
+
+SAP BTP Cockpit
+
+Integration Flow Designer
+
+API Portal
+
+Postman
+
+Business Application Studio
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Integration Design
+
+↓
+
+Development
+
+↓
+
+Message Mapping
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Monitoring
+
+↓
+
+Support
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Integration Technology
+
+*
+
+Protocols
+
+*
+
+Architecture
+
+Example
+
+("SAP Integration Suite" OR CPI)
+
+AND
+
+(API OR REST OR SOAP)
+
+AND
+
+("Event Mesh" OR "Open Connectors")
+
+AND
+
+("SAP BTP" OR PI OR PO)
+
+Expand middleware technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+SAP Integration Suite
+
+Critical
+
+CPI Development
+
+Critical
+
+API Management
+
+High
+
+Cloud Integration
+
+High
+
+REST/SOAP
+
+High
+
+Message Mapping
+
+High
+
+Security
+
+Medium
+
+BTP Experience
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP PI/PO
+
+↓
+
+SAP Integration Suite
+
+High
+
+---
+
+MuleSoft
+
+↓
+
+SAP CPI
+
+Medium
+
+---
+
+Dell Boomi
+
+↓
+
+SAP Integration Suite
+
+Medium
+
+---
+
+IBM Integration Bus
+
+↓
+
+SAP CPI
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Integration Platform
+
+Architecture Pattern
+
+Protocols
+
+Deployment Model
+
+Project Type
+
+Differentiate
+
+PI
+
+PO
+
+CPI
+
+Integration Suite
+
+API Management
+
+Event Mesh
+
+Identify whether the consultant performed
+
+Architecture
+
+Integration Design
+
+Development
+
+Message Mapping
+
+API Management
+
+Security
+
+Monitoring
+
+Recognize candidates with
+
+Cloud Integration
+
+Event Mesh
+
+Open Connectors
+
+API Management
+
+Migration from PI/PO
+
+BTP Integration
+
+experience as modern SAP Integration consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SAP CPI and SAP PI as identical.
+
+Confusing Integration Suite with SAP BTP.
+
+Ignoring API Management responsibilities.
+
+Matching candidates solely because they mention REST APIs.
+
+Treating IDoc experience alone as Integration Suite expertise.
+
+Ignoring cloud integration experience.
+
+Assuming certification equals enterprise integration experience.
+
+END_OF_FILE

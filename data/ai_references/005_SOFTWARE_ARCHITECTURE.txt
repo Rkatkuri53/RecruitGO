@@ -1,0 +1,787 @@
+FILE_NAME:
+005_SOFTWARE_ARCHITECTURE.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Software Architecture
+
+PURPOSE:
+Enable AI agents to understand software architecture concepts, architectural patterns, system design responsibilities, scalability considerations, integration strategies, and architecture-related terminology. This knowledge is used for JD parsing, Boolean generation, resume analysis, seniority detection, and candidate matching.
+
+KEYWORDS:
+Software Architecture
+System Design
+Enterprise Architecture
+Solution Architecture
+Microservices
+Monolith
+Distributed Systems
+Cloud Native
+Event Driven
+Scalability
+
+ROLE_FAMILIES:
+Software Engineering
+Solution Architecture
+Enterprise Architecture
+Cloud Engineering
+DevOps
+Platform Engineering
+Site Reliability Engineering
+Data Engineering
+AI Engineering
+
+COMMON_JOB_TITLES:
+Software Architect
+Solution Architect
+Enterprise Architect
+Technical Architect
+Application Architect
+Backend Developer
+Lead Developer
+Cloud Architect
+
+ALTERNATIVE_TITLES:
+Application Architecture
+System Architecture
+Technical Architecture
+Enterprise Solution Design
+
+CORE_SKILLS:
+Architecture Design
+System Design
+Integration
+Scalability
+Performance
+Availability
+
+SUPPORTING_SKILLS:
+Cloud
+Networking
+Security
+DevOps
+Databases
+Messaging
+
+RELATED_TECHNOLOGIES:
+Java
+.NET
+Python
+Node.js
+Spring Boot
+Docker
+Kubernetes
+Kafka
+RabbitMQ
+AWS
+Azure
+Google Cloud
+
+TECHNOLOGY_CATEGORY:
+Architecture
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+001_ROLE_CLASSIFICATION.txt
+
+002_JOB_TITLE_NORMALIZATION.txt
+
+003_IT_ECOSYSTEM.txt
+
+004_SDLC.txt
+
+==================================================
+SOFTWARE ARCHITECTURE
+=====================
+
+Software Architecture defines the high-level structure of a software system.
+
+It determines
+
+System Components
+
+Communication
+
+Scalability
+
+Availability
+
+Security
+
+Performance
+
+Maintainability
+
+Integration
+
+Architecture is independent of programming language.
+
+==================================================
+ARCHITECTURE LEVELS
+===================
+
+Enterprise Architecture
+
+↓
+
+Business Architecture
+
+↓
+
+Solution Architecture
+
+↓
+
+Application Architecture
+
+↓
+
+System Design
+
+↓
+
+Component Design
+
+==================================================
+ENTERPRISE ARCHITECTURE
+=======================
+
+PURPOSE
+
+Align IT strategy with business strategy.
+
+COMMON RESPONSIBILITIES
+
+Technology Governance
+
+Enterprise Standards
+
+Application Portfolio
+
+Business Capability Mapping
+
+Transformation Roadmaps
+
+COMMON ROLES
+
+Enterprise Architect
+
+Transformation Director
+
+Chief Architect
+
+==================================================
+SOLUTION ARCHITECTURE
+=====================
+
+PURPOSE
+
+Design end-to-end business solutions.
+
+COMMON RESPONSIBILITIES
+
+Solution Design
+
+Technology Selection
+
+Integration Design
+
+Security Design
+
+Cloud Strategy
+
+COMMON ROLES
+
+Solution Architect
+
+Technical Architect
+
+==================================================
+APPLICATION ARCHITECTURE
+========================
+
+PURPOSE
+
+Design application structure.
+
+COMMON RESPONSIBILITIES
+
+Application Layers
+
+Module Design
+
+API Design
+
+Performance
+
+Maintainability
+
+COMMON ROLES
+
+Application Architect
+
+Lead Developer
+
+Senior Developer
+
+==================================================
+MONOLITHIC ARCHITECTURE
+=======================
+
+DESCRIPTION
+
+Entire application deployed as one unit.
+
+ADVANTAGES
+
+Simple
+
+Easy Deployment
+
+Easy Debugging
+
+DISADVANTAGES
+
+Limited Scalability
+
+Tightly Coupled
+
+Large Deployments
+
+COMMON TECHNOLOGIES
+
+Java EE
+
+.NET Framework
+
+PHP
+
+Ruby on Rails
+
+==================================================
+MICROSERVICES ARCHITECTURE
+==========================
+
+DESCRIPTION
+
+Application divided into independently deployable services.
+
+CHARACTERISTICS
+
+Independent Services
+
+API Communication
+
+Independent Deployment
+
+Independent Scaling
+
+COMMON TECHNOLOGIES
+
+Spring Boot
+
+Docker
+
+Kubernetes
+
+Kafka
+
+REST
+
+gRPC
+
+COMMON RESPONSIBILITIES
+
+Service Design
+
+API Design
+
+Distributed Systems
+
+==================================================
+SERVICE-ORIENTED ARCHITECTURE (SOA)
+===================================
+
+DESCRIPTION
+
+Applications communicate through reusable enterprise services.
+
+COMMON TECHNOLOGIES
+
+SOAP
+
+ESB
+
+Oracle SOA
+
+IBM Integration Bus
+
+==================================================
+EVENT-DRIVEN ARCHITECTURE
+=========================
+
+DESCRIPTION
+
+Applications communicate through events.
+
+COMMON TECHNOLOGIES
+
+Kafka
+
+RabbitMQ
+
+ActiveMQ
+
+Amazon EventBridge
+
+Azure Event Grid
+
+RESPONSIBILITIES
+
+Event Processing
+
+Streaming
+
+Asynchronous Communication
+
+==================================================
+SERVERLESS ARCHITECTURE
+=======================
+
+DESCRIPTION
+
+Applications execute without managing servers.
+
+COMMON SERVICES
+
+AWS Lambda
+
+Azure Functions
+
+Google Cloud Functions
+
+CHARACTERISTICS
+
+Event Driven
+
+Auto Scaling
+
+Pay Per Use
+
+==================================================
+LAYERED ARCHITECTURE
+====================
+
+COMMON LAYERS
+
+Presentation
+
+↓
+
+Business Logic
+
+↓
+
+Service
+
+↓
+
+Persistence
+
+↓
+
+Database
+
+COMMON TECHNOLOGIES
+
+Spring
+
+.NET
+
+Java EE
+
+==================================================
+CLOUD NATIVE ARCHITECTURE
+=========================
+
+CHARACTERISTICS
+
+Containers
+
+Microservices
+
+DevOps
+
+CI/CD
+
+Infrastructure as Code
+
+Observability
+
+COMMON TOOLS
+
+Docker
+
+Kubernetes
+
+Terraform
+
+Helm
+
+==================================================
+DISTRIBUTED SYSTEMS
+===================
+
+CHARACTERISTICS
+
+Multiple Services
+
+Network Communication
+
+Fault Tolerance
+
+Horizontal Scaling
+
+COMMON TECHNOLOGIES
+
+Kafka
+
+Redis
+
+Kubernetes
+
+gRPC
+
+REST
+
+==================================================
+API ARCHITECTURE
+================
+
+COMMON TYPES
+
+REST
+
+SOAP
+
+GraphQL
+
+gRPC
+
+WebSocket
+
+COMMON RESPONSIBILITIES
+
+API Design
+
+Versioning
+
+Authentication
+
+Rate Limiting
+
+Documentation
+
+==================================================
+INTEGRATION ARCHITECTURE
+========================
+
+COMMON PATTERNS
+
+Point-to-Point
+
+Hub and Spoke
+
+ESB
+
+API Gateway
+
+Event Driven
+
+Message Queue
+
+==================================================
+SCALABILITY
+===========
+
+TYPES
+
+Vertical Scaling
+
+Horizontal Scaling
+
+Elastic Scaling
+
+COMMON RESPONSIBILITIES
+
+Load Balancing
+
+Caching
+
+Database Scaling
+
+Auto Scaling
+
+==================================================
+HIGH AVAILABILITY
+=================
+
+COMMON CONCEPTS
+
+Redundancy
+
+Replication
+
+Failover
+
+Disaster Recovery
+
+Backup
+
+Multi Region
+
+==================================================
+PERFORMANCE
+===========
+
+COMMON TECHNIQUES
+
+Caching
+
+Indexing
+
+Load Balancing
+
+Connection Pooling
+
+Asynchronous Processing
+
+Performance Tuning
+
+==================================================
+SECURITY ARCHITECTURE
+=====================
+
+COMMON COMPONENTS
+
+Authentication
+
+Authorization
+
+Encryption
+
+Secrets Management
+
+Identity Management
+
+Network Security
+
+==================================================
+OBSERVABILITY
+=============
+
+COMPONENTS
+
+Logging
+
+Monitoring
+
+Tracing
+
+Alerting
+
+Metrics
+
+COMMON TOOLS
+
+Grafana
+
+Prometheus
+
+ELK
+
+Splunk
+
+Datadog
+
+==================================================
+ARCHITECTURE RESPONSIBILITY MAPPING
+===================================
+
+Developer
+
+Component Design
+
+Code
+
+Implementation
+
+---
+
+Senior Developer
+
+Design
+
+Performance
+
+Code Review
+
+Mentoring
+
+---
+
+Lead Developer
+
+Architecture Discussions
+
+System Design
+
+Integration
+
+---
+
+Solution Architect
+
+Technology Selection
+
+Architecture
+
+Integration
+
+Governance
+
+---
+
+Enterprise Architect
+
+Business Alignment
+
+Technology Strategy
+
+Enterprise Governance
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Detect architecture keywords.
+
+Expand Boolean using
+
+Architecture Pattern
+
+↓
+
+Technology
+
+↓
+
+Responsibilities
+
+Example
+
+Microservices
+
+↓
+
+Spring Boot
+
+Docker
+
+Kubernetes
+
+REST
+
+Kafka
+
+Example
+
+Serverless
+
+↓
+
+AWS Lambda
+
+Azure Functions
+
+Google Cloud Functions
+
+==================================================
+MATCHING_RULES
+==============
+
+Architecture Experience
+
+Very High Weight
+
+Design Responsibilities
+
+High Weight
+
+Technology Selection
+
+High Weight
+
+Integration Experience
+
+High Weight
+
+Scalability
+
+Medium Weight
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Do not assume architecture knowledge from programming language alone.
+
+Architecture responsibilities indicate higher seniority.
+
+Candidates demonstrating architecture ownership receive higher scores than candidates who only implemented assigned components.
+
+Differentiate
+
+Implementation
+
+vs
+
+Design
+
+vs
+
+Ownership
+
+Architecture experience should be validated using
+
+Responsibilities
+
+Projects
+
+Deliverables
+
+Technical Decisions
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Confusing Microservices with Docker.
+
+Confusing Kubernetes with Microservices.
+
+Treating REST as an architecture.
+
+Treating Cloud as an architecture pattern.
+
+Assuming all Senior Developers are Architects.
+
+Treating SOA and Microservices as identical.
+
+Ignoring architecture responsibilities while matching senior roles.
+
+END_OF_FILE

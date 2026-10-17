@@ -1,0 +1,580 @@
+FILE_NAME:
+020_SAP_FICO.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP Finance & Controlling (SAP FICO)
+
+PURPOSE:
+Enable AI agents to understand SAP FICO, including Finance (FI) and Controlling (CO), business processes, implementation lifecycle, module integrations, consultant responsibilities, project types, Boolean generation, and candidate matching.
+
+KEYWORDS:
+SAP FICO
+SAP FI
+SAP CO
+Finance
+Controlling
+General Ledger
+Accounts Payable
+Accounts Receivable
+Asset Accounting
+Cost Center
+Profit Center
+
+ROLE_FAMILIES:
+SAP FI Consultant
+SAP CO Consultant
+SAP FICO Consultant
+SAP Solution Architect
+SAP Program Manager
+SAP Finance Lead
+
+COMMON_JOB_TITLES:
+SAP FICO Consultant
+SAP FI Consultant
+SAP CO Consultant
+SAP Finance Solution Architect
+SAP Finance Functional Lead
+
+ALTERNATIVE_TITLES:
+SAP Financials
+SAP Finance
+SAP Controlling
+
+CORE_SKILLS:
+Business Process Analysis
+Configuration
+Financial Accounting
+Management Accounting
+Integration
+Testing
+Data Migration
+
+SUPPORTING_SKILLS:
+SAP S/4HANA
+SAP Central Finance
+SAP BTP
+Analytics
+Reporting
+
+RELATED_TECHNOLOGIES:
+SAP ECC
+SAP S/4HANA
+SAP HANA
+SAP Fiori
+SAP Analytics Cloud
+
+TECHNOLOGY_CATEGORY:
+SAP Functional Module
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+==================================================
+MODULE OVERVIEW
+===============
+
+SAP FICO is SAP's core Finance and Controlling solution.
+
+It manages
+
+Financial Accounting
+
+Management Accounting
+
+Cost Control
+
+Profitability Analysis
+
+Asset Accounting
+
+Internal Reporting
+
+External Reporting
+
+==================================================
+MODULE STRUCTURE
+================
+
+FI
+
+Financial Accounting
+
+↓
+
+General Ledger
+
+Accounts Payable
+
+Accounts Receivable
+
+Asset Accounting
+
+Bank Accounting
+
+Tax
+
+Financial Closing
+
+---
+
+CO
+
+Controlling
+
+↓
+
+Cost Centers
+
+Internal Orders
+
+Profit Centers
+
+Product Costing
+
+Profitability Analysis
+
+Overhead Cost Management
+
+==================================================
+SAP FI SUBMODULES
+=================
+
+General Ledger (GL)
+
+Accounts Payable (AP)
+
+Accounts Receivable (AR)
+
+Asset Accounting (AA)
+
+Bank Accounting
+
+Tax Accounting
+
+Travel Management
+
+Special Purpose Ledger
+
+==================================================
+SAP CO SUBMODULES
+=================
+
+Cost Center Accounting
+
+Profit Center Accounting
+
+Internal Orders
+
+Product Costing
+
+Profitability Analysis (CO-PA)
+
+Cost Object Controlling
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Record to Report (R2R)
+
+Procure to Pay (P2P)
+
+Order to Cash (O2C)
+
+Asset Lifecycle
+
+Financial Closing
+
+Budgeting
+
+Cost Allocation
+
+Financial Consolidation
+
+==================================================
+COMMON RESPONSIBILITIES
+=======================
+
+Business Requirement Workshops
+
+Fit-Gap Analysis
+
+Blueprint Preparation
+
+Configuration
+
+Functional Specification
+
+Integration Testing
+
+User Acceptance Testing
+
+Cutover
+
+Hypercare
+
+Production Support
+
+==================================================
+COMMON CONFIGURATION AREAS
+==========================
+
+Company Code
+
+Business Area
+
+Fiscal Year Variant
+
+Posting Period Variant
+
+Document Types
+
+Chart of Accounts
+
+Cost Centers
+
+Profit Centers
+
+Controlling Area
+
+Number Ranges
+
+==================================================
+INTEGRATION WITH OTHER MODULES
+==============================
+
+FI
+
+↓
+
+MM
+
+Procurement Accounting
+
+---
+
+FI
+
+↓
+
+SD
+
+Customer Billing
+
+Revenue Recognition
+
+---
+
+FI
+
+↓
+
+PP
+
+Manufacturing Costs
+
+---
+
+FI
+
+↓
+
+PM
+
+Maintenance Costs
+
+---
+
+FI
+
+↓
+
+HCM
+
+Payroll Accounting
+
+==================================================
+SAP S/4HANA CHANGES
+===================
+
+Universal Journal (ACDOCA)
+
+Embedded Analytics
+
+Fiori Applications
+
+Simplified Data Model
+
+Real-Time Reporting
+
+Central Finance
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Business Workshops
+
+↓
+
+Requirements Gathering
+
+↓
+
+Configuration
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+PROJECT TYPES
+=============
+
+Greenfield Implementation
+
+Brownfield Conversion
+
+Global Rollout
+
+Support Project
+
+Enhancement Project
+
+S/4HANA Transformation
+
+Central Finance Implementation
+
+==================================================
+COMMON REPORTS
+==============
+
+Financial Statements
+
+Trial Balance
+
+Balance Sheet
+
+Profit & Loss
+
+Accounts Receivable Aging
+
+Accounts Payable Aging
+
+Cost Center Reports
+
+Profitability Reports
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Finance Department
+
+Accounts Payable Team
+
+Accounts Receivable Team
+
+Controllers
+
+Auditors
+
+Chief Financial Officer
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Business Process
+
+*
+
+Responsibilities
+
+*
+
+Implementation Type
+
+Example
+
+("SAP FICO" OR "SAP FI" OR "SAP CO")
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+("General Ledger" OR AP OR AR OR "Cost Center")
+
+AND
+
+("SAP S/4HANA" OR ECC)
+
+Expand submodules only when explicitly mentioned in the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+SAP FICO Experience
+
+Critical
+
+FI Knowledge
+
+Critical
+
+CO Knowledge
+
+Critical
+
+Business Process Experience
+
+Critical
+
+Configuration
+
+High
+
+Integration
+
+High
+
+S/4HANA Experience
+
+High
+
+Migration Experience
+
+High
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP ECC FICO
+
+↓
+
+SAP S/4HANA FICO
+
+High
+
+---
+
+FI
+
+↓
+
+Central Finance
+
+Medium
+
+---
+
+SAP GUI
+
+↓
+
+SAP Fiori
+
+High
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+FI
+
+CO
+
+or
+
+FICO
+
+Differentiate
+
+Implementation
+
+Support
+
+Rollout
+
+Migration
+
+Transformation
+
+Identify whether the consultant performed
+
+Configuration
+
+Business Analysis
+
+Testing
+
+Cutover
+
+Hypercare
+
+Production Support
+
+Recognize candidates with Universal Journal, Central Finance, and S/4HANA transformation experience as higher-value for modern SAP Finance programs.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating FI and CO as identical.
+
+Assuming all FICO consultants have S/4HANA experience.
+
+Matching on "SAP FICO" without validating actual configuration responsibilities.
+
+Ignoring business process ownership.
+
+Ignoring integration experience with MM, SD, PP, and HCM.
+
+Treating certification as equivalent to implementation experience.
+
+END_OF_FILE

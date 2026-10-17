@@ -1,0 +1,664 @@
+FILE_NAME:
+119_INFOR_BI_ANALYTICS.txt
+
+ID:
+119
+
+DOMAIN:
+Infor
+
+CATEGORY:
+Business Intelligence & Analytics
+
+SUBCATEGORY:
+Infor BI, Birst & Analytics
+
+PRIMARY_ROLE:
+Infor Analytics Consultant
+
+RELATED_FILES:
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+111_INFOR_LN.txt
+
+112_INFOR_M3.txt
+
+113_INFOR_CLOUDSUITE.txt
+
+114_INFOR_LAWSON.txt
+
+115_INFOR_EAM.txt
+
+116_INFOR_WMS.txt
+
+117_INFOR_SCM.txt
+
+118_INFOR_OS_ION.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+VERSION:
+2.0
+
+CATEGORY:
+Infor BI & Analytics
+
+PURPOSE:
+Enable AI agents to understand Infor BI, Infor Birst, Infor Analytics, enterprise reporting, dashboards, business intelligence, data warehousing, performance management, analytics modernization, consultant responsibilities, implementation methodologies, and enterprise decision support projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Infor BI
+Infor Birst
+Birst
+Infor Analytics
+Business Intelligence
+Reporting
+Dashboards
+Data Warehouse
+KPIs
+Executive Reporting
+Self-Service Analytics
+OLAP
+Performance Management
+
+ROLE_FAMILIES:
+Infor BI Consultant
+
+Infor Analytics Consultant
+
+Birst Consultant
+
+BI Developer
+
+Reporting Consultant
+
+Analytics Architect
+
+COMMON_JOB_TITLES:
+Infor BI Consultant
+
+Infor Birst Consultant
+
+Infor Analytics Consultant
+
+Business Intelligence Consultant
+
+Reporting Developer
+
+ALTERNATIVE_TITLES:
+Enterprise BI Consultant
+
+Analytics Consultant
+
+Performance Management Consultant
+
+CORE_SKILLS:
+Business Intelligence
+
+Dashboard Development
+
+Reporting
+
+Data Modeling
+
+KPIs
+
+Executive Reporting
+
+Self-Service Analytics
+
+Performance Management
+
+SUPPORTING_SKILLS:
+SQL
+
+ETL
+
+Data Warehousing
+
+Visualization
+
+OLAP
+
+Integration
+
+Security
+
+RELATED_TECHNOLOGIES:
+Infor Birst
+
+Infor BI
+
+Infor Analytics
+
+Infor OS
+
+Infor Data Lake
+
+SQL Server
+
+Oracle
+
+Snowflake
+
+TECHNOLOGY_CATEGORY:
+Enterprise Business Intelligence Platform
+
+DEPENDENCIES:
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+118_INFOR_OS_ION.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Infor BI and Infor Birst provide enterprise business intelligence, analytics, reporting and performance management capabilities across the Infor ecosystem.
+
+The platform enables organizations to build governed semantic models, executive dashboards, operational reports and self-service analytics using enterprise data sourced from ERP, SCM, EAM and third-party systems.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Infor Birst
+
+Dashboards
+
+Reporting
+
+Data Models
+
+KPIs
+
+Data Lake
+
+Self-Service Analytics
+
+Security
+
+==================================================
+DASHBOARD DEVELOPMENT
+=====================
+
+COMMON RESPONSIBILITIES
+
+Executive Dashboards
+
+Operational Dashboards
+
+Interactive Visualizations
+
+Business KPIs
+
+Drill-Down Analysis
+
+==================================================
+REPORT DEVELOPMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Operational Reports
+
+Financial Reports
+
+Supply Chain Reports
+
+Manufacturing Reports
+
+Scheduled Reports
+
+==================================================
+DATA MODELING
+=============
+
+COMMON RESPONSIBILITIES
+
+Semantic Models
+
+Business Views
+
+Dimensions
+
+Facts
+
+Calculated Measures
+
+Data Relationships
+
+==================================================
+SELF-SERVICE ANALYTICS
+======================
+
+COMMON RESPONSIBILITIES
+
+Ad Hoc Reporting
+
+Business Analysis
+
+Visualization
+
+Interactive Exploration
+
+Business Users
+
+==================================================
+PERFORMANCE MANAGEMENT
+======================
+
+COMMON RESPONSIBILITIES
+
+KPI Monitoring
+
+Scorecards
+
+Performance Analysis
+
+Forecast Analysis
+
+Trend Analysis
+
+==================================================
+DATA MANAGEMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+Data Extraction
+
+Data Transformation
+
+Data Quality
+
+Data Warehouse
+
+Data Lake
+
+Metadata
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Executive Reporting
+
+Business Intelligence
+
+Performance Monitoring
+
+Decision Support
+
+Operational Analytics
+
+Financial Analytics
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Data Sources
+
+Semantic Models
+
+Dashboards
+
+Reports
+
+Users
+
+Security
+
+Schedules
+
+KPIs
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Data Assessment
+
+↓
+
+Model Design
+
+↓
+
+Dashboard Development
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Optimization
+
+↓
+
+Support
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Enterprise BI
+
+Analytics Modernization
+
+Executive Reporting
+
+Performance Management
+
+Data Warehouse Reporting
+
+Self-Service BI
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Infor LN
+
+Infor M3
+
+Infor Lawson
+
+Infor EAM
+
+Infor OS
+
+SQL Databases
+
+REST APIs
+
+Cloud Data Platforms
+
+==================================================
+COMMON REPORTS
+==============
+
+Executive Dashboards
+
+Financial Reports
+
+Manufacturing KPIs
+
+Supply Chain Reports
+
+Asset Reports
+
+Performance Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Executives
+
+Business Analysts
+
+Finance
+
+Supply Chain
+
+Manufacturing
+
+Operations
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Analytics
+
+*
+
+Reporting
+
+*
+
+BI
+
+Example
+
+("Infor Birst" OR "Infor BI")
+
+AND
+
+(Dashboards OR Reporting)
+
+AND
+
+(KPIs OR Analytics)
+
+AND
+
+(Consultant OR Developer)
+
+Expand BI terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Infor Birst
+
+Critical
+
+Infor BI
+
+Critical
+
+Reporting
+
+High
+
+Dashboards
+
+High
+
+Data Modeling
+
+High
+
+Performance Management
+
+Medium
+
+Self-Service Analytics
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Power BI
+
+↓
+
+Enterprise BI
+
+Medium
+
+---
+
+Tableau
+
+↓
+
+Analytics
+
+Medium
+
+---
+
+SAP BusinessObjects
+
+↓
+
+Infor BI
+
+Medium
+
+---
+
+IBM Cognos
+
+↓
+
+Enterprise Reporting
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Analytics Scope
+
+Reporting Scope
+
+Data Modeling
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Birst
+
+Dashboards
+
+Reporting
+
+Data Models
+
+KPIs
+
+Performance Management
+
+Identify whether the consultant performed
+
+Requirements
+
+Model Design
+
+Dashboard Development
+
+Report Development
+
+Testing
+
+Deployment
+
+Optimization
+
+Support
+
+Recognize candidates with enterprise Infor BI implementation, Birst analytics, executive reporting, semantic data modeling, KPI frameworks and enterprise analytics modernization experience as senior Infor Analytics consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating report writing as Infor BI implementation.
+
+Confusing Power BI experience with Birst expertise.
+
+Matching candidates solely because they mention dashboards.
+
+Ignoring semantic data modeling.
+
+Treating SQL reporting as enterprise BI architecture.
+
+Ignoring self-service analytics capabilities.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Infor BI
+
+↓
+
+Infor Birst
+
+Infor Analytics
+
+Business Intelligence
+
+---
+
+Reporting
+
+↓
+
+Operational Reports
+
+Executive Reports
+
+Financial Reports
+
+Scheduled Reports
+
+---
+
+Analytics
+
+↓
+
+Dashboards
+
+KPIs
+
+Visualization
+
+Performance Management
+
+---
+
+Data
+
+↓
+
+Semantic Models
+
+Data Warehouse
+
+Data Lake
+
+Dimensions
+
+Facts
+
+END_OF_FILE

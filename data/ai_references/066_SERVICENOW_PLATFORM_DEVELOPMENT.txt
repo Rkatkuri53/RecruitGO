@@ -1,0 +1,648 @@
+FILE_NAME:
+066_SERVICENOW_PLATFORM_DEVELOPMENT.txt
+
+ID:
+066
+
+DOMAIN:
+ServiceNow
+
+CATEGORY:
+Enterprise Platform
+
+SUBCATEGORY:
+ServiceNow Platform Development
+
+PRIMARY_ROLE:
+ServiceNow Developer
+
+RELATED_FILES:
+
+057_SERVICENOW_PLATFORM.txt
+
+058_SERVICENOW_ITSM.txt
+
+059_SERVICENOW_ITOM.txt
+
+060_SERVICENOW_ITAM_SAM.txt
+
+061_SERVICENOW_HRSD.txt
+
+062_SERVICENOW_CSM.txt
+
+063_SERVICENOW_SPM_PPM.txt
+
+064_SERVICENOW_GRC_IRM.txt
+
+065_SERVICENOW_SECOPS.txt
+
+067_SERVICENOW_INTEGRATION.txt
+
+068_SERVICENOW_CMDB_DISCOVERY.txt
+
+010_PROGRAMMING_LANGUAGES.txt
+
+011_APIS.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+ServiceNow Platform Development
+
+PURPOSE:
+Enable AI agents to understand ServiceNow platform development, JavaScript scripting, Glide APIs, Flow Designer, App Engine Studio, Service Portal, UI Builder, scripting engine, platform architecture, development lifecycle, and ServiceNow Developer responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+ServiceNow Developer
+JavaScript
+Glide API
+Script Includes
+Business Rules
+Flow Designer
+App Engine Studio
+Service Portal
+UI Builder
+Client Scripts
+Server Scripts
+GlideRecord
+
+ROLE_FAMILIES:
+ServiceNow Developer
+Technical Consultant
+Application Developer
+Platform Engineer
+Technical Lead
+Solution Architect
+
+COMMON_JOB_TITLES:
+ServiceNow Developer
+Senior ServiceNow Developer
+ServiceNow Technical Consultant
+Platform Developer
+Application Developer
+
+ALTERNATIVE_TITLES:
+Now Platform Developer
+Workflow Developer
+Enterprise Platform Developer
+
+CORE_SKILLS:
+JavaScript
+
+Server-side Development
+
+Client-side Development
+
+Workflow Automation
+
+Application Development
+
+Configuration
+
+Platform Customization
+
+Integration
+
+SUPPORTING_SKILLS:
+REST APIs
+
+Git
+
+CI/CD
+
+Testing
+
+Security
+
+HTML
+
+CSS
+
+RELATED_TECHNOLOGIES:
+Glide API
+
+Flow Designer
+
+App Engine Studio
+
+Service Portal
+
+UI Builder
+
+IntegrationHub
+
+Script Includes
+
+Business Rules
+
+TECHNOLOGY_CATEGORY:
+Low-Code Enterprise Development Platform
+
+DEPENDENCIES:
+
+010_PROGRAMMING_LANGUAGES.txt
+
+011_APIS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+ServiceNow Platform Development extends the Now Platform using JavaScript-based server-side and client-side scripting, low-code development, workflow automation and custom application development.
+
+Developers build scalable enterprise workflows while leveraging platform-native capabilities instead of excessive custom code.
+
+==================================================
+DEVELOPMENT ARCHITECTURE
+========================
+
+User
+
+↓
+
+Forms / Workspace / Portal
+
+↓
+
+Client Scripts
+
+↓
+
+Business Rules
+
+↓
+
+Script Includes
+
+↓
+
+Glide APIs
+
+↓
+
+Database
+
+↓
+
+Integrations
+
+==================================================
+CORE DEVELOPMENT COMPONENTS
+===========================
+
+Business Rules
+
+Script Includes
+
+Client Scripts
+
+UI Policies
+
+UI Actions
+
+Flow Designer
+
+App Engine Studio
+
+UI Builder
+
+==================================================
+BUSINESS RULES
+==============
+
+COMMON RESPONSIBILITIES
+
+Server-side Automation
+
+Validation
+
+Record Processing
+
+Workflow Triggers
+
+Data Integrity
+
+==================================================
+SCRIPT INCLUDES
+===============
+
+COMMON RESPONSIBILITIES
+
+Reusable Code
+
+Business Logic
+
+Utility Functions
+
+API Services
+
+Shared Components
+
+==================================================
+CLIENT SCRIPTS
+==============
+
+COMMON RESPONSIBILITIES
+
+Form Validation
+
+Field Manipulation
+
+Client-side Logic
+
+User Experience
+
+Dynamic Forms
+
+==================================================
+FLOW DESIGNER
+=============
+
+COMMON RESPONSIBILITIES
+
+Low-Code Automation
+
+Approvals
+
+Notifications
+
+Task Automation
+
+Integration Actions
+
+==================================================
+APP ENGINE STUDIO
+=================
+
+COMMON RESPONSIBILITIES
+
+Application Development
+
+Low-Code Applications
+
+Custom Tables
+
+Custom Workflows
+
+Rapid Development
+
+==================================================
+SERVICE PORTAL & UI BUILDER
+===========================
+
+COMMON RESPONSIBILITIES
+
+Portal Development
+
+Workspace Development
+
+Widgets
+
+Employee Experiences
+
+Customer Experiences
+
+==================================================
+GLIDE API
+=========
+
+COMMON RESPONSIBILITIES
+
+GlideRecord
+
+GlideAjax
+
+GlideSystem
+
+GlideDateTime
+
+Database Operations
+
+==================================================
+TESTING
+=======
+
+COMMON RESPONSIBILITIES
+
+ATF (Automated Test Framework)
+
+Unit Testing
+
+Regression Testing
+
+Deployment Validation
+
+Quality Assurance
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+ACLs
+
+Roles
+
+Script Security
+
+Data Security
+
+Cross-Scope Access
+
+Application Security
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Platform Development
+
+Workflow Automation
+
+Custom Applications
+
+Service Portal
+
+Workspace Development
+
+Platform Modernization
+
+Enterprise Automation
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Technical Design
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+Code Review
+
+↓
+
+Deployment
+
+↓
+
+Monitoring
+
+↓
+
+Support
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Development
+
+*
+
+JavaScript
+
+*
+
+Workflow
+
+Example
+
+(ServiceNow)
+
+AND
+
+(JavaScript)
+
+AND
+
+("Business Rules" OR "Script Includes")
+
+AND
+
+("Flow Designer" OR Glide)
+
+Expand development technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+ServiceNow Development
+
+Critical
+
+JavaScript
+
+Critical
+
+Business Rules
+
+High
+
+Script Includes
+
+High
+
+Flow Designer
+
+High
+
+Glide APIs
+
+High
+
+REST APIs
+
+Medium
+
+ATF
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+JavaScript
+
+↓
+
+ServiceNow Development
+
+High
+
+---
+
+Low-Code Development
+
+↓
+
+App Engine Studio
+
+Medium
+
+---
+
+Power Platform
+
+↓
+
+App Engine Studio
+
+Low
+
+---
+
+React
+
+↓
+
+UI Builder
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Development Scope
+
+Scripting Technologies
+
+Platform Components
+
+Implementation Type
+
+Project Type
+
+Differentiate
+
+Administrator
+
+Developer
+
+Architect
+
+Technical Consultant
+
+Platform Engineer
+
+Identify whether the developer performed
+
+Server-side Development
+
+Client-side Development
+
+Workflow Development
+
+Portal Development
+
+Integration
+
+Testing
+
+Deployment
+
+Support
+
+Recognize candidates with enterprise ServiceNow development, Glide API expertise, Business Rules, Script Includes, Flow Designer, App Engine Studio, ATF and Service Portal implementation experience as senior ServiceNow developers.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating ServiceNow Administrators as Developers.
+
+Confusing Flow Designer with Business Rules.
+
+Matching candidates solely because they mention JavaScript.
+
+Ignoring Glide API expertise.
+
+Treating configuration-only experience as platform development.
+
+Ignoring App Engine Studio and ATF.
+
+Assuming certification equals enterprise development experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Business Rules
+
+↓
+
+Server Scripts
+
+Automation
+
+Validation
+
+Triggers
+
+---
+
+Glide API
+
+↓
+
+GlideRecord
+
+GlideSystem
+
+GlideAjax
+
+GlideDateTime
+
+---
+
+Development
+
+↓
+
+Script Includes
+
+Client Scripts
+
+UI Policies
+
+UI Actions
+
+---
+
+Platform
+
+↓
+
+Flow Designer
+
+App Engine Studio
+
+Service Portal
+
+UI Builder
+
+Workspace
+
+END_OF_FILE

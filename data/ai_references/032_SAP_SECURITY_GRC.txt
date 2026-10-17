@@ -1,0 +1,683 @@
+
+FILE_NAME:
+032_SAP_SECURITY_GRC.txt
+
+ID:
+032
+
+DOMAIN:
+SAP
+
+CATEGORY:
+ERP
+
+SUBCATEGORY:
+SAP Security & Governance, Risk and Compliance (GRC)
+
+PRIMARY_ROLE:
+SAP Security Consultant
+
+RELATED_FILES:
+
+019_SAP_PLATFORM.txt
+
+015_CYBERSECURITY.txt
+
+027_SAP_BASIS.txt
+
+028_SAP_ABAP.txt
+
+029_SAP_BTP.txt
+
+031_SAP_INTEGRATION_SUITE.txt
+
+033_SAP_S4HANA_BROWNFIELD.txt
+
+034_SAP_S4HANA_GREENFIELD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP Security & GRC
+
+PURPOSE:
+Enable AI agents to understand SAP Security, SAP Authorization, SAP GRC, Identity & Access Management (IAM), Segregation of Duties (SoD), User Administration, Compliance, Audit, Identity Provisioning, Emergency Access Management, and S/4HANA security architecture. This knowledge supports accurate JD parsing, Boolean generation, resume parsing, and candidate matching.
+
+KEYWORDS:
+SAP Security
+SAP GRC
+SAP Authorization
+SAP Authorizations
+SAP Roles
+PFCG
+SoD
+Segregation of Duties
+SAP Access Control
+Emergency Access
+Firefighter
+Identity Provisioning
+
+ROLE_FAMILIES:
+SAP Security Consultant
+SAP GRC Consultant
+SAP Authorization Consultant
+SAP IAM Consultant
+SAP Security Architect
+SAP Basis Security Consultant
+
+COMMON_JOB_TITLES:
+SAP Security Consultant
+SAP GRC Consultant
+SAP Authorization Consultant
+SAP Access Control Consultant
+SAP Security Architect
+
+ALTERNATIVE_TITLES:
+SAP Identity Management
+SAP Compliance Consultant
+SAP Access Management Consultant
+
+CORE_SKILLS:
+Authorization Design
+
+Role Design
+
+Risk Analysis
+
+Compliance
+
+Identity Management
+
+Audit Support
+
+Access Governance
+
+SUPPORTING_SKILLS:
+SAP Basis
+
+Cybersecurity
+
+Cloud
+
+Identity Federation
+
+BTP
+
+Security Architecture
+
+RELATED_TECHNOLOGIES:
+SAP GRC
+
+SAP Access Control
+
+SAP Identity Management (IDM)
+
+SAP Cloud Identity Services
+
+SAP BTP
+
+SAP S/4HANA
+
+SAP NetWeaver
+
+Microsoft Entra ID
+
+CyberArk
+
+TECHNOLOGY_CATEGORY:
+SAP Security
+
+DEPENDENCIES:
+
+015_CYBERSECURITY.txt
+
+019_SAP_PLATFORM.txt
+
+027_SAP_BASIS.txt
+
+==================================================
+MODULE OVERVIEW
+===============
+
+SAP Security manages authentication, authorization, user access, governance, compliance, risk management and regulatory controls across SAP landscapes.
+
+SAP GRC provides governance, access control, segregation of duties analysis, emergency access management and compliance monitoring.
+
+==================================================
+SECURITY ARCHITECTURE
+=====================
+
+Identity
+
+↓
+
+Authentication
+
+↓
+
+Authorization
+
+↓
+
+Business Roles
+
+↓
+
+Transactions
+
+↓
+
+Business Objects
+
+↓
+
+Audit
+
+↓
+
+Compliance
+
+==================================================
+CORE COMPONENTS
+===============
+
+User Administration
+
+Role Administration
+
+Authorization Objects
+
+Profiles
+
+PFCG
+
+SAP GRC
+
+Identity Provisioning
+
+Access Reviews
+
+Audit
+
+==================================================
+USER ADMINISTRATION
+===================
+
+COMMON RESPONSIBILITIES
+
+User Creation
+
+User Modification
+
+User Locking
+
+Password Reset
+
+License Assignment
+
+Reference Users
+
+Service Users
+
+Communication Users
+
+==================================================
+ROLE ADMINISTRATION
+===================
+
+COMMON RESPONSIBILITIES
+
+Single Roles
+
+Composite Roles
+
+Derived Roles
+
+Role Maintenance
+
+Role Transport
+
+Role Testing
+
+==================================================
+AUTHORIZATIONS
+==============
+
+COMMON RESPONSIBILITIES
+
+Authorization Objects
+
+Authorization Fields
+
+Profiles
+
+Transaction Access
+
+Object-Level Security
+
+Least Privilege
+
+==================================================
+SAP GRC ACCESS CONTROL
+======================
+
+COMMON COMPONENTS
+
+Access Risk Analysis (ARA)
+
+Access Request Management (ARM)
+
+Emergency Access Management (EAM)
+
+Business Role Management (BRM)
+
+Periodic Review
+
+==================================================
+SEGREGATION OF DUTIES (SoD)
+===========================
+
+PURPOSE
+
+Prevent conflicting business responsibilities.
+
+COMMON EXAMPLES
+
+Create Vendor
+
+*
+
+Approve Payment
+
+---
+
+Create User
+
+*
+
+Assign Security Roles
+
+---
+
+Create Purchase Order
+
+*
+
+Approve Purchase Order
+
+==================================================
+EMERGENCY ACCESS MANAGEMENT
+===========================
+
+COMMON RESPONSIBILITIES
+
+Firefighter IDs
+
+Emergency Access
+
+Session Logging
+
+Approvals
+
+Audit Reporting
+
+==================================================
+IDENTITY MANAGEMENT
+===================
+
+COMMON RESPONSIBILITIES
+
+Provisioning
+
+Identity Lifecycle
+
+Single Sign-On
+
+Identity Federation
+
+SCIM
+
+Directory Integration
+
+==================================================
+AUTHENTICATION
+==============
+
+COMMON METHODS
+
+SSO
+
+SAML
+
+OAuth
+
+OpenID Connect
+
+Multi-Factor Authentication
+
+Certificates
+
+==================================================
+AUDIT & COMPLIANCE
+==================
+
+COMMON RESPONSIBILITIES
+
+Audit Support
+
+Compliance Monitoring
+
+SOX
+
+GDPR
+
+ISO 27001
+
+Internal Controls
+
+Access Reviews
+
+==================================================
+SECURITY MONITORING
+===================
+
+COMMON RESPONSIBILITIES
+
+Access Monitoring
+
+Privilege Analysis
+
+Security Logs
+
+Compliance Reports
+
+Risk Reporting
+
+==================================================
+S/4HANA SECURITY
+================
+
+COMMON RESPONSIBILITIES
+
+Business Roles
+
+Fiori Catalogs
+
+Fiori Groups
+
+Fiori Spaces
+
+Launchpad Authorization
+
+Embedded Analytics Security
+
+BTP Trust Configuration
+
+==================================================
+COMMON TRANSACTIONS
+===================
+
+PFCG
+
+SU01
+
+SU10
+
+SU53
+
+SU24
+
+SUIM
+
+ST01
+
+SM20
+
+SE93
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+New Implementation
+
+Role Redesign
+
+S/4HANA Migration
+
+Security Remediation
+
+Audit Remediation
+
+Compliance Program
+
+Identity Modernization
+
+GRC Implementation
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Security Assessment
+
+↓
+
+Role Design
+
+↓
+
+Authorization Build
+
+↓
+
+Testing
+
+↓
+
+Migration
+
+↓
+
+Go-Live
+
+↓
+
+Compliance Monitoring
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Security Domain
+
+*
+
+Responsibilities
+
+*
+
+Security Products
+
+Example
+
+("SAP Security" OR "SAP GRC")
+
+AND
+
+(PFCG OR SU01 OR SoD)
+
+AND
+
+("Access Control" OR Authorization)
+
+AND
+
+("SAP S/4HANA" OR ECC)
+
+Expand GRC modules only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+SAP Security Experience
+
+Critical
+
+Role Administration
+
+Critical
+
+Authorization Design
+
+Critical
+
+SAP GRC
+
+High
+
+Compliance
+
+High
+
+Identity Management
+
+Medium
+
+Audit Experience
+
+Medium
+
+S/4HANA Security
+
+High
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+ECC Security
+
+↓
+
+S/4HANA Security
+
+High
+
+---
+
+SAP IDM
+
+↓
+
+SAP Cloud Identity Services
+
+Medium
+
+---
+
+CyberArk
+
+↓
+
+SAP Emergency Access
+
+Medium
+
+---
+
+Microsoft Entra ID
+
+↓
+
+SAP Identity Federation
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Security Domain
+
+Implementation Type
+
+Authorization Scope
+
+Compliance Scope
+
+Project Type
+
+Differentiate
+
+SAP Security
+
+SAP Basis
+
+Cybersecurity
+
+Identity Management
+
+GRC
+
+Identify whether the consultant performed
+
+Role Design
+
+Authorization Design
+
+Risk Analysis
+
+Audit Support
+
+Compliance
+
+Identity Provisioning
+
+Access Reviews
+
+Recognize candidates with
+
+SAP GRC
+
+Business Role Management
+
+Emergency Access
+
+Fiori Security
+
+BTP Security
+
+Identity Federation
+
+experience as senior SAP Security consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SAP Security as SAP Basis Administration.
+
+Confusing SAP GRC with general cybersecurity.
+
+Ignoring SoD and compliance responsibilities.
+
+Matching candidates solely because they know SU01.
+
+Treating Active Directory administration as SAP Security experience.
+
+Ignoring audit and governance experience.
+
+Assuming certification equals enterprise security implementation experience.
+
+END_OF_FILE

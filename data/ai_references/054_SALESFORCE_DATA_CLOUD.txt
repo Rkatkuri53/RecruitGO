@@ -1,0 +1,622 @@
+FILE_NAME:
+054_SALESFORCE_DATA_CLOUD.txt
+
+ID:
+054
+
+DOMAIN:
+Salesforce
+
+CATEGORY:
+Enterprise CRM
+
+SUBCATEGORY:
+Salesforce Data Cloud
+
+PRIMARY_ROLE:
+Salesforce Data Cloud Consultant
+
+RELATED_FILES:
+
+046_SALESFORCE_PLATFORM.txt
+
+047_SALESFORCE_SALES_CLOUD.txt
+
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+049_SALESFORCE_MARKETING_CLOUD.txt
+
+050_SALESFORCE_EXPERIENCE_CLOUD.txt
+
+051_SALESFORCE_PLATFORM_DEVELOPMENT.txt
+
+052_SALESFORCE_INTEGRATION.txt
+
+053_SALESFORCE_DEVOPS.txt
+
+056_SALESFORCE_TABLEAU_CRM.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Salesforce Data Cloud
+
+PURPOSE:
+Enable AI agents to understand Salesforce Data Cloud (formerly Salesforce CDP), customer data unification, identity resolution, customer 360, real-time data activation, segmentation, AI-driven personalization, analytics, data ingestion, and Salesforce Data Cloud consultant responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Salesforce Data Cloud
+Customer Data Platform
+CDP
+Customer 360
+Identity Resolution
+Data Streams
+Data Lake
+Data Model Objects
+Calculated Insights
+Segmentation
+Data Activation
+Einstein AI
+
+ROLE_FAMILIES:
+Salesforce Data Cloud Consultant
+Salesforce Data Architect
+Salesforce Data Engineer
+Customer Data Platform Consultant
+Salesforce Solution Architect
+Data Integration Consultant
+
+COMMON_JOB_TITLES:
+Salesforce Data Cloud Consultant
+Salesforce CDP Consultant
+Salesforce Data Architect
+Customer 360 Consultant
+Salesforce Data Engineer
+
+ALTERNATIVE_TITLES:
+Salesforce Customer Data Platform Consultant
+Salesforce Data Specialist
+Customer Intelligence Consultant
+
+CORE_SKILLS:
+Customer Data Management
+
+Identity Resolution
+
+Data Modeling
+
+Segmentation
+
+Data Integration
+
+Customer 360
+
+Analytics
+
+Real-Time Activation
+
+SUPPORTING_SKILLS:
+SQL
+
+Python
+
+REST APIs
+
+MuleSoft
+
+Snowflake
+
+AWS
+
+Azure
+
+RELATED_TECHNOLOGIES:
+Salesforce Data Cloud
+
+Customer 360
+
+Marketing Cloud
+
+Sales Cloud
+
+Service Cloud
+
+MuleSoft
+
+Snowflake
+
+Tableau
+
+Einstein AI
+
+TECHNOLOGY_CATEGORY:
+Customer Data Platform
+
+DEPENDENCIES:
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+052_SALESFORCE_INTEGRATION.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Salesforce Data Cloud is Salesforce's enterprise Customer Data Platform (CDP).
+
+It unifies customer data from Salesforce and external systems to create a real-time Customer 360 profile that powers analytics, personalization, AI and marketing automation.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Data Streams
+
+Identity Resolution
+
+Data Model Objects (DMOs)
+
+Calculated Insights
+
+Segments
+
+Activation
+
+Customer 360
+
+Data Spaces
+
+==================================================
+DATA INGESTION
+==============
+
+COMMON RESPONSIBILITIES
+
+CRM Data
+
+ERP Data
+
+Marketing Data
+
+Commerce Data
+
+Mobile Applications
+
+Streaming Data
+
+Batch Data
+
+==================================================
+IDENTITY RESOLUTION
+===================
+
+COMMON RESPONSIBILITIES
+
+Profile Matching
+
+Duplicate Resolution
+
+Golden Customer Record
+
+Customer Identity Graph
+
+Unified Profiles
+
+==================================================
+DATA MODEL OBJECTS
+==================
+
+COMMON RESPONSIBILITIES
+
+Customer Model
+
+Relationship Modeling
+
+Business Objects
+
+Custom Data Models
+
+==================================================
+CALCULATED INSIGHTS
+===================
+
+COMMON RESPONSIBILITIES
+
+Customer Metrics
+
+Lifetime Value
+
+Behavior Analysis
+
+Engagement Scores
+
+Predictive Metrics
+
+==================================================
+SEGMENTATION
+============
+
+COMMON RESPONSIBILITIES
+
+Audience Segmentation
+
+Customer Groups
+
+Real-Time Segments
+
+Marketing Segments
+
+Behavior Segments
+
+==================================================
+DATA ACTIVATION
+===============
+
+COMMON RESPONSIBILITIES
+
+Marketing Cloud
+
+Sales Cloud
+
+Service Cloud
+
+Advertising
+
+Customer Journeys
+
+Real-Time Personalization
+
+==================================================
+AI & ANALYTICS
+==============
+
+COMMON RESPONSIBILITIES
+
+Einstein AI
+
+Customer Predictions
+
+Recommendations
+
+Next Best Action
+
+Analytics
+
+Machine Learning
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Customer 360
+
+Customer Intelligence
+
+Marketing Personalization
+
+Cross-Sell
+
+Upsell
+
+Customer Analytics
+
+Real-Time Engagement
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Data Spaces
+
+Identity Rules
+
+Data Streams
+
+Calculated Insights
+
+Segments
+
+Activation Targets
+
+Security
+
+Governance
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Data Assessment
+
+↓
+
+Data Modeling
+
+↓
+
+Integration
+
+↓
+
+Identity Resolution
+
+↓
+
+Testing
+
+↓
+
+Activation
+
+↓
+
+Go-Live
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Customer 360 Implementation
+
+Customer Data Platform
+
+Marketing Modernization
+
+Data Unification
+
+Real-Time Personalization
+
+AI Enablement
+
+Customer Intelligence
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Sales Cloud
+
+Service Cloud
+
+Marketing Cloud
+
+Snowflake
+
+MuleSoft
+
+REST APIs
+
+Streaming APIs
+
+Data Warehouses
+
+==================================================
+COMMON REPORTS
+==============
+
+Customer Profiles
+
+Segment Analytics
+
+Identity Resolution Reports
+
+Engagement Reports
+
+Activation Reports
+
+Customer Lifetime Value
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Marketing Teams
+
+Sales Teams
+
+Customer Success
+
+Data Analysts
+
+Data Scientists
+
+Digital Teams
+
+Executive Leadership
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Data
+
+*
+
+Identity
+
+*
+
+Customer 360
+
+Example
+
+("Salesforce Data Cloud" OR CDP)
+
+AND
+
+("Customer 360" OR "Identity Resolution")
+
+AND
+
+(Segmentation OR "Calculated Insights")
+
+AND
+
+(Salesforce)
+
+Expand Data Cloud terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Salesforce Data Cloud
+
+Critical
+
+Customer 360
+
+Critical
+
+Identity Resolution
+
+High
+
+Data Modeling
+
+High
+
+Segmentation
+
+High
+
+Integration
+
+High
+
+SQL
+
+Medium
+
+Analytics
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Adobe Experience Platform
+
+↓
+
+Salesforce Data Cloud
+
+Medium
+
+---
+
+Treasure Data CDP
+
+↓
+
+Salesforce Data Cloud
+
+Medium
+
+---
+
+Snowflake
+
+↓
+
+Data Cloud
+
+Medium
+
+---
+
+Customer Data Platforms
+
+↓
+
+Salesforce Data Cloud
+
+High
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Platform
+
+Data Sources
+
+Identity Strategy
+
+Activation Targets
+
+Project Type
+
+Differentiate
+
+Data Cloud
+
+Marketing Cloud
+
+CRM
+
+Data Warehouse
+
+CDP
+
+Identify whether the consultant performed
+
+Data Modeling
+
+Identity Resolution
+
+Customer 360
+
+Segmentation
+
+Integration
+
+Testing
+
+Activation
+
+Optimization
+
+Recognize candidates with enterprise Customer 360 implementation, identity resolution, real-time segmentation, AI-driven personalization and multi-source data integration experience as senior Salesforce Data Cloud consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Data Cloud as a traditional CRM.
+
+Confusing Data Cloud with Marketing Cloud.
+
+Matching candidates solely because they mention Customer 360.
+
+Ignoring identity resolution experience.
+
+Treating BI reporting experience as Customer Data Platform expertise.
+
+Ignoring real-time activation capabilities.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

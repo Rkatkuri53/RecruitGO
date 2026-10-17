@@ -1,0 +1,676 @@
+FILE_NAME:
+108_IBM_STERLING.txt
+
+ID:
+108
+
+DOMAIN:
+IBM
+
+CATEGORY:
+Supply Chain & B2B Integration
+
+SUBCATEGORY:
+IBM Sterling
+
+PRIMARY_ROLE:
+IBM Sterling Consultant
+
+RELATED_FILES:
+
+100_IBM_ENTERPRISE_PLATFORM.txt
+
+102_IBM_MQ.txt
+
+103_IBM_APP_CONNECT_IIB_ACE.txt
+
+109_IBM_CLOUD_PAK_OPENSHIFT.txt
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+VERSION:
+2.0
+
+CATEGORY:
+IBM Sterling
+
+PURPOSE:
+Enable AI agents to understand IBM Sterling solutions, including Sterling Order Management System (OMS), B2B Integrator, Managed File Transfer (MFT), Supply Chain Intelligence Suite, inventory visibility, omnichannel fulfillment, EDI integration, consultant responsibilities, implementation methodologies, and enterprise supply chain transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+IBM Sterling
+Sterling OMS
+Sterling Order Management
+Sterling B2B Integrator
+Sterling File Gateway
+Sterling Secure Proxy
+Sterling Connect Direct
+Sterling MFT
+Supply Chain
+Inventory Visibility
+EDI
+Order Fulfillment
+Omnichannel
+
+ROLE_FAMILIES:
+IBM Sterling Consultant
+
+IBM Sterling OMS Consultant
+
+IBM Sterling Developer
+
+IBM Sterling Integration Consultant
+
+Supply Chain Consultant
+
+Solution Architect
+
+COMMON_JOB_TITLES:
+IBM Sterling OMS Consultant
+
+IBM Sterling Developer
+
+IBM Sterling Integration Consultant
+
+IBM Sterling Solution Architect
+
+IBM Sterling B2B Consultant
+
+ALTERNATIVE_TITLES:
+Order Management Consultant
+
+Supply Chain Integration Consultant
+
+EDI Consultant
+
+B2B Integration Consultant
+
+CORE_SKILLS:
+Order Management
+
+Inventory Visibility
+
+Supply Chain
+
+B2B Integration
+
+EDI
+
+Managed File Transfer
+
+API Integration
+
+Omnichannel Fulfillment
+
+SUPPORTING_SKILLS:
+Java
+
+REST APIs
+
+XML
+
+XSLT
+
+SQL
+
+Microservices
+
+Cloud
+
+Security
+
+RELATED_TECHNOLOGIES:
+IBM Sterling OMS
+
+Sterling B2B Integrator
+
+Sterling File Gateway
+
+Sterling Secure Proxy
+
+Sterling Connect:Direct
+
+IBM MQ
+
+IBM App Connect
+
+SAP
+
+Oracle ERP
+
+TECHNOLOGY_CATEGORY:
+Enterprise Supply Chain & B2B Integration Platform
+
+DEPENDENCIES:
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+IBM Sterling is IBM's enterprise supply chain and B2B integration platform providing order management, inventory visibility, supplier collaboration, managed file transfer, EDI integration and omnichannel fulfillment capabilities.
+
+The platform enables organizations to optimize end-to-end supply chain operations, integrate trading partners and improve order lifecycle management across retail, manufacturing, logistics and distribution industries.
+
+==================================================
+PRODUCT PORTFOLIO
+=================
+
+Sterling Order Management (OMS)
+
+Sterling B2B Integrator
+
+Sterling File Gateway
+
+Sterling Secure Proxy
+
+Sterling Connect:Direct
+
+Sterling Supply Chain Intelligence Suite
+
+Sterling Inventory Visibility
+
+Sterling Fulfillment Optimizer
+
+==================================================
+ORDER MANAGEMENT
+================
+
+COMMON RESPONSIBILITIES
+
+Order Capture
+
+Order Orchestration
+
+Order Promising
+
+Order Fulfillment
+
+Returns Management
+
+Customer Orders
+
+==================================================
+INVENTORY VISIBILITY
+====================
+
+COMMON RESPONSIBILITIES
+
+Available-to-Promise (ATP)
+
+Global Inventory
+
+Store Inventory
+
+Warehouse Inventory
+
+Inventory Reservations
+
+==================================================
+OMNICHANNEL FULFILLMENT
+=======================
+
+COMMON RESPONSIBILITIES
+
+Buy Online Pickup In Store (BOPIS)
+
+Ship from Store
+
+Drop Shipping
+
+Distributed Order Management
+
+Store Fulfillment
+
+==================================================
+B2B INTEGRATION
+===============
+
+COMMON RESPONSIBILITIES
+
+Trading Partners
+
+EDI
+
+Partner Onboarding
+
+Business Processes
+
+Document Exchange
+
+Integration Monitoring
+
+==================================================
+MANAGED FILE TRANSFER
+=====================
+
+COMMON RESPONSIBILITIES
+
+Secure File Transfers
+
+Automation
+
+Scheduling
+
+Encryption
+
+Compliance
+
+Audit Logging
+
+==================================================
+SUPPLY CHAIN VISIBILITY
+=======================
+
+COMMON RESPONSIBILITIES
+
+Shipment Tracking
+
+Order Visibility
+
+Supplier Collaboration
+
+Exception Management
+
+Supply Chain Analytics
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Order-to-Cash
+
+Procure-to-Pay
+
+Inventory Management
+
+Supply Chain Collaboration
+
+Trading Partner Integration
+
+Returns Processing
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Organizations
+
+Trading Partners
+
+Business Processes
+
+Inventory Rules
+
+Fulfillment Rules
+
+Security
+
+APIs
+
+Monitoring
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Business Process Analysis
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+OMS Implementation
+
+Supply Chain Modernization
+
+EDI Modernization
+
+B2B Integration
+
+Inventory Visibility
+
+Omnichannel Commerce
+
+Managed File Transfer
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+SAP
+
+Oracle ERP
+
+Salesforce
+
+IBM MQ
+
+IBM App Connect
+
+REST APIs
+
+Kafka
+
+EDI Standards
+
+==================================================
+COMMON REPORTS
+==============
+
+Order Status
+
+Inventory Reports
+
+Fulfillment Metrics
+
+EDI Transactions
+
+Partner Activity
+
+Supply Chain Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Supply Chain Teams
+
+Warehouse Operations
+
+Retail Operations
+
+Logistics
+
+Customer Service
+
+Trading Partner Teams
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Order Management
+
+*
+
+Supply Chain
+
+*
+
+EDI
+
+Example
+
+("IBM Sterling" OR Sterling)
+
+AND
+
+(OMS OR EDI)
+
+AND
+
+(Inventory OR Fulfillment)
+
+AND
+
+(Consultant OR Architect)
+
+Expand Sterling terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+IBM Sterling
+
+Critical
+
+Sterling OMS
+
+Critical
+
+Supply Chain
+
+High
+
+EDI
+
+High
+
+Inventory Visibility
+
+High
+
+Managed File Transfer
+
+Medium
+
+API Integration
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Manhattan OMS
+
+↓
+
+IBM Sterling OMS
+
+Medium
+
+---
+
+Blue Yonder
+
+↓
+
+Supply Chain
+
+Medium
+
+---
+
+SAP TM / EWM
+
+↓
+
+Supply Chain Integration
+
+Medium
+
+---
+
+OpenText MFT
+
+↓
+
+Sterling MFT
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Sterling Product
+
+Supply Chain Scope
+
+B2B vs OMS
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+OMS
+
+B2B Integrator
+
+MFT
+
+Inventory Visibility
+
+Supply Chain Intelligence
+
+Identify whether the consultant performed
+
+Business Analysis
+
+Configuration
+
+Customization
+
+Integration
+
+EDI Mapping
+
+Testing
+
+Deployment
+
+Support
+
+Recognize candidates with enterprise IBM Sterling implementation, OMS deployment, supply chain modernization, EDI integration, inventory visibility, omnichannel fulfillment and B2B integration experience as senior IBM Sterling consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating order processing as IBM Sterling implementation.
+
+Confusing ERP experience with OMS expertise.
+
+Matching candidates solely because they mention supply chain.
+
+Ignoring EDI and B2B integration expertise.
+
+Treating warehouse operations as Sterling implementation.
+
+Ignoring product specialization (OMS vs B2B vs MFT).
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+IBM Sterling
+
+↓
+
+Sterling
+
+Sterling OMS
+
+Sterling Order Management
+
+---
+
+Supply Chain
+
+↓
+
+Inventory
+
+Fulfillment
+
+Returns
+
+Order Orchestration
+
+---
+
+B2B
+
+↓
+
+EDI
+
+Trading Partners
+
+File Gateway
+
+Connect:Direct
+
+Managed File Transfer
+
+---
+
+Commerce
+
+↓
+
+Omnichannel
+
+BOPIS
+
+Ship from Store
+
+ATP
+
+Inventory Visibility
+
+END_OF_FILE

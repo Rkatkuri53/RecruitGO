@@ -1,0 +1,679 @@
+FILE_NAME:
+095_ADOBE_COMMERCE_MAGENTO.txt
+
+ID:
+095
+
+DOMAIN:
+Adobe
+
+CATEGORY:
+Enterprise Digital Commerce
+
+SUBCATEGORY:
+Adobe Commerce (Magento)
+
+PRIMARY_ROLE:
+Adobe Commerce Consultant
+
+RELATED_FILES:
+
+090_ADOBE_EXPERIENCE_CLOUD_PLATFORM.txt
+
+091_ADOBE_EXPERIENCE_MANAGER_AEM.txt
+
+092_ADOBE_ANALYTICS.txt
+
+093_ADOBE_CAMPAIGN.txt
+
+094_ADOBE_TARGET.txt
+
+096_ADOBE_EXPERIENCE_PLATFORM_AEP.txt
+
+097_ADOBE_MARKETO.txt
+
+098_ADOBE_DEVELOPMENT.txt
+
+099_ADOBE_INTEGRATION.txt
+
+010_PROGRAMMING_LANGUAGES.txt
+
+011_APIS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Adobe Commerce (Magento)
+
+PURPOSE:
+Enable AI agents to understand Adobe Commerce (formerly Magento Commerce), B2B/B2C e-commerce architecture, catalog management, checkout, order management, promotions, headless commerce, GraphQL, PWA Studio, consultant responsibilities, implementation methodologies, and enterprise commerce transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Adobe Commerce
+Magento
+Magento Commerce
+Adobe Commerce Cloud
+Magento 2
+PWA Studio
+GraphQL
+Catalog Management
+Checkout
+Order Management
+B2B Commerce
+Headless Commerce
+
+ROLE_FAMILIES:
+Adobe Commerce Consultant
+
+Magento Developer
+
+Adobe Commerce Architect
+
+Commerce Solution Architect
+
+E-Commerce Consultant
+
+Technical Consultant
+
+COMMON_JOB_TITLES:
+Adobe Commerce Consultant
+
+Magento Developer
+
+Adobe Commerce Architect
+
+Magento Technical Lead
+
+Adobe Commerce Solution Architect
+
+ALTERNATIVE_TITLES:
+E-Commerce Consultant
+
+Digital Commerce Architect
+
+Headless Commerce Consultant
+
+CORE_SKILLS:
+Adobe Commerce
+
+Magento 2
+
+Catalog Management
+
+Checkout
+
+Order Management
+
+Promotions
+
+Headless Commerce
+
+GraphQL
+
+SUPPORTING_SKILLS:
+PHP
+
+JavaScript
+
+MySQL
+
+Redis
+
+Elasticsearch
+
+RabbitMQ
+
+REST APIs
+
+Docker
+
+RELATED_TECHNOLOGIES:
+Adobe Commerce Cloud
+
+Magento Open Source
+
+PWA Studio
+
+GraphQL
+
+REST APIs
+
+Fastly CDN
+
+Redis
+
+Varnish
+
+Elasticsearch
+
+RabbitMQ
+
+TECHNOLOGY_CATEGORY:
+Enterprise Digital Commerce Platform
+
+DEPENDENCIES:
+
+010_PROGRAMMING_LANGUAGES.txt
+
+011_APIS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Adobe Commerce, formerly Magento Commerce, is Adobe's enterprise digital commerce platform supporting B2B and B2C commerce, omnichannel experiences, headless architecture and cloud-native deployments.
+
+The platform provides catalog management, customer management, order processing, promotions, APIs and extensibility for enterprise commerce solutions.
+
+==================================================
+CORE MODULES
+============
+
+Catalog Management
+
+Customer Management
+
+Checkout
+
+Order Management
+
+Inventory
+
+Pricing & Promotions
+
+B2B Commerce
+
+Headless Commerce
+
+==================================================
+CATALOG MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Product Catalog
+
+Categories
+
+Attributes
+
+Inventory
+
+Pricing
+
+Search
+
+==================================================
+CHECKOUT
+========
+
+COMMON RESPONSIBILITIES
+
+Shopping Cart
+
+Checkout Flow
+
+Payment Integration
+
+Shipping
+
+Tax
+
+Order Placement
+
+==================================================
+ORDER MANAGEMENT
+================
+
+COMMON RESPONSIBILITIES
+
+Order Processing
+
+Returns
+
+Refunds
+
+Invoices
+
+Shipments
+
+Order Lifecycle
+
+==================================================
+PROMOTIONS
+==========
+
+COMMON RESPONSIBILITIES
+
+Cart Rules
+
+Catalog Rules
+
+Coupons
+
+Discounts
+
+Customer Segments
+
+Campaigns
+
+==================================================
+B2B COMMERCE
+============
+
+COMMON RESPONSIBILITIES
+
+Company Accounts
+
+Purchase Orders
+
+Shared Catalogs
+
+Quotes
+
+Approval Workflows
+
+Corporate Pricing
+
+==================================================
+HEADLESS COMMERCE
+=================
+
+COMMON RESPONSIBILITIES
+
+GraphQL APIs
+
+PWA Studio
+
+API-first Design
+
+Frontend Decoupling
+
+Omnichannel Commerce
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Browse-to-Buy
+
+Order-to-Cash
+
+Returns Management
+
+Inventory Management
+
+Promotion Management
+
+Customer Self-Service
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Stores
+
+Catalog
+
+Products
+
+Pricing
+
+Customers
+
+Taxes
+
+Shipping
+
+Security
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Commerce Strategy
+
+↓
+
+Architecture
+
+↓
+
+Configuration
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+Performance Validation
+
+↓
+
+Go-Live
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Commerce Modernization
+
+Magento Migration
+
+B2B Commerce
+
+Headless Commerce
+
+Cloud Migration
+
+Digital Storefront
+
+Global Commerce Rollout
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+ERP
+
+CRM
+
+Payment Gateways
+
+Adobe Analytics
+
+Adobe Target
+
+Adobe Experience Manager
+
+REST APIs
+
+GraphQL
+
+==================================================
+COMMON REPORTS
+==============
+
+Sales Reports
+
+Order Reports
+
+Inventory Reports
+
+Promotion Performance
+
+Customer Reports
+
+Executive Commerce Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+E-Commerce Teams
+
+Marketing
+
+Sales
+
+Customer Service
+
+Operations
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Commerce
+
+*
+
+Architecture
+
+*
+
+Development
+
+Example
+
+("Adobe Commerce" OR Magento)
+
+AND
+
+(GraphQL OR "Magento 2")
+
+AND
+
+(PWA OR Checkout)
+
+AND
+
+(Developer OR Architect)
+
+Expand Adobe Commerce technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Adobe Commerce
+
+Critical
+
+Magento 2
+
+Critical
+
+GraphQL
+
+High
+
+Headless Commerce
+
+High
+
+B2B Commerce
+
+High
+
+PWA Studio
+
+Medium
+
+Checkout
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP Commerce Cloud
+
+↓
+
+Adobe Commerce
+
+Medium
+
+---
+
+Salesforce Commerce Cloud
+
+↓
+
+Adobe Commerce
+
+Medium
+
+---
+
+Shopify Plus
+
+↓
+
+Enterprise Commerce
+
+Medium
+
+---
+
+BigCommerce
+
+↓
+
+Adobe Commerce
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Commerce Scope
+
+Architecture
+
+B2B vs B2C
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Adobe Commerce
+
+Magento Open Source
+
+Headless
+
+PWA Studio
+
+GraphQL
+
+Identify whether the consultant performed
+
+Architecture
+
+Development
+
+Integration
+
+Performance Tuning
+
+Testing
+
+Deployment
+
+Optimization
+
+Recognize candidates with enterprise Adobe Commerce implementations, Magento 2 development, headless commerce architecture, GraphQL APIs, PWA Studio and large-scale commerce modernization experience as senior Adobe Commerce consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Magento administration as Adobe Commerce implementation.
+
+Confusing Magento Open Source with Adobe Commerce Cloud.
+
+Matching candidates solely because they mention PHP.
+
+Ignoring GraphQL and headless architecture.
+
+Treating storefront customization as enterprise commerce implementation.
+
+Ignoring B2B Commerce capabilities.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Adobe Commerce
+
+↓
+
+Magento
+
+Magento Commerce
+
+Adobe Commerce Cloud
+
+---
+
+Commerce
+
+↓
+
+Catalog
+
+Checkout
+
+Orders
+
+Inventory
+
+Promotions
+
+---
+
+Development
+
+↓
+
+Magento 2
+
+PHP
+
+GraphQL
+
+REST APIs
+
+---
+
+Headless
+
+↓
+
+PWA Studio
+
+GraphQL
+
+API-first
+
+Composable Commerce
+
+END_OF_FILE

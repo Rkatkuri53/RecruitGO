@@ -1,0 +1,817 @@
+FILE_NAME:
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+DevOps Engineering
+
+PURPOSE:
+Enable AI agents to understand DevOps principles, CI/CD, Infrastructure as Code (IaC), automation, containers, orchestration, monitoring, release management, platform engineering, and Site Reliability Engineering (SRE). This knowledge is essential for JD parsing, Boolean generation, resume parsing, candidate matching, and identifying DevOps maturity.
+
+KEYWORDS:
+DevOps
+CI/CD
+Continuous Integration
+Continuous Delivery
+Continuous Deployment
+Infrastructure as Code
+Platform Engineering
+SRE
+Automation
+Release Engineering
+
+ROLE_FAMILIES:
+DevOps Engineer
+Platform Engineer
+Site Reliability Engineer
+Cloud Engineer
+Infrastructure Engineer
+Build Engineer
+Release Engineer
+Cloud Architect
+Platform Architect
+
+COMMON_JOB_TITLES:
+DevOps Engineer
+Platform Engineer
+SRE
+Release Engineer
+Build Engineer
+Automation Engineer
+Cloud DevOps Engineer
+
+ALTERNATIVE_TITLES:
+Platform Operations
+Release Engineering
+Infrastructure Automation
+Cloud Automation
+
+CORE_SKILLS:
+CI/CD
+Automation
+Infrastructure as Code
+Containers
+Cloud
+Monitoring
+Linux
+
+SUPPORTING_SKILLS:
+Networking
+Security
+Scripting
+Programming
+Cloud Architecture
+
+RELATED_TECHNOLOGIES:
+Git
+GitHub
+GitLab
+Bitbucket
+Docker
+Kubernetes
+Terraform
+Ansible
+Helm
+Jenkins
+GitHub Actions
+GitLab CI
+Azure DevOps
+AWS
+Azure
+Google Cloud
+Linux
+
+TECHNOLOGY_CATEGORY:
+DevOps
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+004_SDLC.txt
+
+009_NETWORKING.txt
+
+010_OPERATING_SYSTEMS.txt
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+==================================================
+DEVOPS DEFINITION
+=================
+
+DevOps is a culture, engineering practice, and automation approach that integrates Software Development and IT Operations.
+
+The objective is to deliver software faster, more reliably, and with higher quality through automation, collaboration, continuous integration, continuous delivery, monitoring, and feedback.
+
+==================================================
+DEVOPS OBJECTIVES
+=================
+
+Continuous Integration
+
+Continuous Delivery
+
+Continuous Deployment
+
+Automation
+
+Infrastructure as Code
+
+Monitoring
+
+Reliability
+
+Security
+
+Scalability
+
+Fast Recovery
+
+==================================================
+DEVOPS LIFECYCLE
+================
+
+Plan
+
+↓
+
+Code
+
+↓
+
+Build
+
+↓
+
+Test
+
+↓
+
+Release
+
+↓
+
+Deploy
+
+↓
+
+Operate
+
+↓
+
+Monitor
+
+↓
+
+Improve
+
+==================================================
+VERSION CONTROL
+===============
+
+PURPOSE
+
+Manage source code.
+
+COMMON TOOLS
+
+Git
+
+GitHub
+
+GitLab
+
+Bitbucket
+
+Azure DevOps Repos
+
+COMMON RESPONSIBILITIES
+
+Branching
+
+Pull Requests
+
+Merge
+
+Code Review
+
+Version Control
+
+==================================================
+CONTINUOUS INTEGRATION (CI)
+===========================
+
+PURPOSE
+
+Automatically build and test code after changes.
+
+COMMON ACTIVITIES
+
+Compile
+
+Unit Tests
+
+Static Code Analysis
+
+Artifact Creation
+
+==================================================
+CONTINUOUS DELIVERY (CD)
+========================
+
+PURPOSE
+
+Automatically prepare applications for deployment.
+
+COMMON ACTIVITIES
+
+Packaging
+
+Release Validation
+
+Environment Promotion
+
+Approval Gates
+
+==================================================
+CONTINUOUS DEPLOYMENT
+=====================
+
+PURPOSE
+
+Automatically deploy validated software to production.
+
+COMMON ACTIVITIES
+
+Deployment Automation
+
+Rollback
+
+Blue-Green Deployment
+
+Canary Deployment
+
+==================================================
+CI/CD TOOLS
+===========
+
+Jenkins
+
+GitHub Actions
+
+GitLab CI/CD
+
+Azure DevOps Pipelines
+
+CircleCI
+
+TeamCity
+
+Bamboo
+
+ArgoCD
+
+==================================================
+CONTAINERS
+==========
+
+PURPOSE
+
+Package applications consistently.
+
+COMMON TOOLS
+
+Docker
+
+Podman
+
+containerd
+
+NOTE
+
+Container concepts are defined in
+
+012_MICROSERVICES.txt
+
+==================================================
+CONTAINER ORCHESTRATION
+=======================
+
+COMMON PLATFORMS
+
+Kubernetes
+
+OpenShift
+
+Amazon EKS
+
+Azure AKS
+
+Google GKE
+
+NOTE
+
+Architecture concepts are defined in
+
+012_MICROSERVICES.txt
+
+==================================================
+INFRASTRUCTURE AS CODE (IaC)
+============================
+
+PURPOSE
+
+Provision infrastructure through code.
+
+COMMON TOOLS
+
+Terraform
+
+CloudFormation
+
+ARM Templates
+
+Bicep
+
+Pulumi
+
+COMMON RESPONSIBILITIES
+
+Provision Infrastructure
+
+Version Infrastructure
+
+Automate Infrastructure
+
+==================================================
+CONFIGURATION MANAGEMENT
+========================
+
+COMMON TOOLS
+
+Ansible
+
+Chef
+
+Puppet
+
+SaltStack
+
+COMMON RESPONSIBILITIES
+
+Configuration Automation
+
+Patch Management
+
+Compliance
+
+==================================================
+ARTIFACT MANAGEMENT
+===================
+
+COMMON TOOLS
+
+Nexus
+
+JFrog Artifactory
+
+GitHub Packages
+
+Azure Artifacts
+
+==================================================
+MONITORING & OBSERVABILITY
+==========================
+
+COMMON TOOLS
+
+Prometheus
+
+Grafana
+
+ELK
+
+Splunk
+
+Datadog
+
+Dynatrace
+
+New Relic
+
+Jaeger
+
+Zipkin
+
+COMMON RESPONSIBILITIES
+
+Metrics
+
+Logs
+
+Tracing
+
+Alerting
+
+Incident Detection
+
+==================================================
+RELEASE STRATEGIES
+==================
+
+Rolling Deployment
+
+Blue-Green Deployment
+
+Canary Deployment
+
+Recreate Deployment
+
+Feature Flags
+
+==================================================
+SECURITY (DevSecOps)
+====================
+
+COMMON ACTIVITIES
+
+Static Application Security Testing (SAST)
+
+Dynamic Application Security Testing (DAST)
+
+Dependency Scanning
+
+Container Image Scanning
+
+Secrets Management
+
+Compliance
+
+==================================================
+PLATFORM ENGINEERING
+====================
+
+PURPOSE
+
+Build and maintain internal developer platforms.
+
+COMMON RESPONSIBILITIES
+
+Self-Service Infrastructure
+
+Developer Experience
+
+Golden Paths
+
+Automation
+
+Platform Reliability
+
+==================================================
+SITE RELIABILITY ENGINEERING (SRE)
+==================================
+
+PURPOSE
+
+Improve reliability, scalability, and availability of systems.
+
+COMMON RESPONSIBILITIES
+
+SLI
+
+SLO
+
+SLA
+
+Incident Response
+
+Capacity Planning
+
+Error Budget
+
+Automation
+
+==================================================
+DEVOPS RESPONSIBILITY MAPPING
+=============================
+
+DevOps Engineer
+
+↓
+
+CI/CD
+
+Infrastructure Automation
+
+Containers
+
+Cloud
+
+Monitoring
+
+---
+
+Platform Engineer
+
+↓
+
+Developer Platform
+
+Infrastructure
+
+Automation
+
+Self-Service
+
+---
+
+SRE
+
+↓
+
+Reliability
+
+Monitoring
+
+Incident Management
+
+Performance
+
+---
+
+Cloud Engineer
+
+↓
+
+Cloud Infrastructure
+
+Automation
+
+Networking
+
+==================================================
+DEVOPS ECOSYSTEM
+================
+
+Developer
+
+↓
+
+Git
+
+↓
+
+CI Pipeline
+
+↓
+
+Artifact Repository
+
+↓
+
+Container
+
+↓
+
+Kubernetes
+
+↓
+
+Cloud
+
+↓
+
+Monitoring
+
+↓
+
+Incident Response
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Role
+
+*
+
+CI/CD Tool
+
+*
+
+Infrastructure as Code
+
+*
+
+Containers
+
+*
+
+Cloud Platform
+
+*
+
+Monitoring
+
+Example
+
+("DevOps Engineer" OR "Platform Engineer")
+
+AND
+
+(Jenkins OR "GitHub Actions" OR "GitLab CI")
+
+AND
+
+(Docker OR Kubernetes)
+
+AND
+
+(Terraform OR Ansible)
+
+AND
+
+(AWS OR Azure OR GCP)
+
+Expand tools only when supported by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+CI/CD
+
+Critical
+
+Infrastructure as Code
+
+Critical
+
+Containers
+
+Critical
+
+Cloud
+
+Critical
+
+Linux
+
+High
+
+Automation
+
+High
+
+Monitoring
+
+High
+
+Networking
+
+Medium
+
+Security
+
+Medium
+
+Programming/Scripting
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Differentiate between
+
+Developer using CI/CD
+
+and
+
+DevOps Engineer building CI/CD platforms.
+
+Do not assume Docker experience equals DevOps experience.
+
+Validate DevOps expertise using
+
+Automation
+
+Infrastructure
+
+Deployment
+
+Monitoring
+
+Production Operations
+
+Cloud
+
+Recognize role differences
+
+Release Engineer
+
+↓
+
+Focus on Releases
+
+Platform Engineer
+
+↓
+
+Focus on Developer Platform
+
+SRE
+
+↓
+
+Focus on Reliability
+
+DevOps Engineer
+
+↓
+
+End-to-End Delivery Automation
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Jenkins
+
+↔
+
+GitHub Actions
+
+Medium
+
+---
+
+Terraform
+
+↔
+
+CloudFormation
+
+Medium
+
+---
+
+AWS
+
+↔
+
+Azure
+
+Medium
+
+---
+
+Docker
+
+↔
+
+Podman
+
+High
+
+---
+
+Prometheus
+
+↔
+
+Datadog
+
+Medium
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating DevOps as a tool.
+
+Treating Kubernetes as DevOps.
+
+Assuming cloud engineers are DevOps engineers.
+
+Ignoring Infrastructure as Code requirements.
+
+Matching candidates solely because they know Git.
+
+Treating CI/CD pipeline users as CI/CD pipeline designers.
+
+Ignoring production operations responsibilities.
+
+Confusing Platform Engineering with Infrastructure Support.
+
+END_OF_FILE

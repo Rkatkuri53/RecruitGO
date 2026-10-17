@@ -1,0 +1,666 @@
+FILE_NAME:
+060_SERVICENOW_ITAM_SAM.txt
+
+ID:
+060
+
+DOMAIN:
+ServiceNow
+
+CATEGORY:
+Enterprise Platform
+
+SUBCATEGORY:
+ServiceNow IT Asset Management (ITAM) & Software Asset Management (SAM)
+
+PRIMARY_ROLE:
+ServiceNow ITAM Consultant
+
+RELATED_FILES:
+
+057_SERVICENOW_PLATFORM.txt
+
+058_SERVICENOW_ITSM.txt
+
+059_SERVICENOW_ITOM.txt
+
+061_SERVICENOW_HRSD.txt
+
+066_SERVICENOW_PLATFORM_DEVELOPMENT.txt
+
+067_SERVICENOW_INTEGRATION.txt
+
+068_SERVICENOW_CMDB_DISCOVERY.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+ServiceNow ITAM / SAM
+
+PURPOSE:
+Enable AI agents to understand ServiceNow IT Asset Management (ITAM), Software Asset Management (SAM), Hardware Asset Management (HAM), software licensing, asset lifecycle management, procurement, compliance, inventory management, consultant responsibilities, implementation methodologies, and ITAM transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+ServiceNow ITAM
+ServiceNow SAM
+ServiceNow HAM
+Software Asset Management
+Hardware Asset Management
+License Compliance
+Software Licensing
+Asset Lifecycle
+Procurement
+Entitlements
+Software Normalization
+Discovery
+
+ROLE_FAMILIES:
+ServiceNow ITAM Consultant
+ServiceNow SAM Consultant
+ServiceNow HAM Consultant
+Asset Management Consultant
+ServiceNow Solution Architect
+IT Asset Manager
+
+COMMON_JOB_TITLES:
+ServiceNow ITAM Consultant
+ServiceNow SAM Consultant
+ServiceNow HAM Consultant
+Asset Management Consultant
+Software Asset Consultant
+
+ALTERNATIVE_TITLES:
+IT Asset Consultant
+Software Licensing Consultant
+Enterprise Asset Management Consultant
+
+CORE_SKILLS:
+Software Asset Management
+
+Hardware Asset Management
+
+License Compliance
+
+Asset Lifecycle
+
+Procurement
+
+CMDB
+
+Discovery
+
+Configuration
+
+SUPPORTING_SKILLS:
+ITSM
+
+Vendor Management
+
+Reporting
+
+Integration
+
+REST APIs
+
+ITIL
+
+Analytics
+
+RELATED_TECHNOLOGIES:
+ServiceNow ITAM
+
+Software Asset Management
+
+Hardware Asset Management
+
+Discovery
+
+CMDB
+
+Procurement
+
+Contract Management
+
+Performance Analytics
+
+TECHNOLOGY_CATEGORY:
+IT Asset Management Platform
+
+DEPENDENCIES:
+
+057_SERVICENOW_PLATFORM.txt
+
+059_SERVICENOW_ITOM.txt
+
+068_SERVICENOW_CMDB_DISCOVERY.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+ServiceNow IT Asset Management (ITAM) enables organizations to manage the complete lifecycle of hardware and software assets.
+
+It provides software license compliance, hardware lifecycle management, vendor management, procurement, contract management and financial optimization.
+
+==================================================
+CORE MODULES
+============
+
+Software Asset Management (SAM)
+
+Hardware Asset Management (HAM)
+
+Enterprise Asset Management (EAM)
+
+Contract Management
+
+Procurement
+
+Software Discovery
+
+License Workbench
+
+==================================================
+SOFTWARE ASSET MANAGEMENT
+=========================
+
+COMMON RESPONSIBILITIES
+
+Software Discovery
+
+License Entitlements
+
+License Reconciliation
+
+Software Normalization
+
+Compliance Reporting
+
+Publisher Packs
+
+Optimization
+
+==================================================
+HARDWARE ASSET MANAGEMENT
+=========================
+
+COMMON RESPONSIBILITIES
+
+Asset Procurement
+
+Receiving
+
+Deployment
+
+Asset Tracking
+
+Maintenance
+
+Retirement
+
+Disposal
+
+==================================================
+LICENSE MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+License Compliance
+
+True-Up
+
+Audit Readiness
+
+Subscription Management
+
+Consumption Tracking
+
+Optimization
+
+==================================================
+PROCUREMENT
+===========
+
+COMMON RESPONSIBILITIES
+
+Purchase Requests
+
+Purchase Orders
+
+Receiving
+
+Vendor Management
+
+Asset Acquisition
+
+==================================================
+CONTRACT MANAGEMENT
+===================
+
+COMMON RESPONSIBILITIES
+
+Software Contracts
+
+Maintenance Contracts
+
+Renewals
+
+Vendor Agreements
+
+Warranty Management
+
+==================================================
+DISCOVERY & CMDB
+================
+
+COMMON RESPONSIBILITIES
+
+Asset Discovery
+
+CMDB Synchronization
+
+Configuration Items
+
+Hardware Inventory
+
+Software Inventory
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Procure-to-Retire
+
+Asset Lifecycle
+
+License Compliance
+
+Software Audit
+
+Vendor Management
+
+Hardware Refresh
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Asset Models
+
+Models
+
+Vendors
+
+Stockrooms
+
+Contracts
+
+Entitlements
+
+License Metrics
+
+Discovery Rules
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Asset Assessment
+
+↓
+
+Data Cleansing
+
+↓
+
+Configuration
+
+↓
+
+Discovery Integration
+
+↓
+
+Testing
+
+↓
+
+Migration
+
+↓
+
+Go-Live
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+ITAM Implementation
+
+SAM Implementation
+
+HAM Implementation
+
+License Compliance
+
+Asset Lifecycle Modernization
+
+Discovery Integration
+
+Enterprise Asset Transformation
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Discovery
+
+CMDB
+
+Procurement Systems
+
+ERP
+
+Microsoft SCCM
+
+Intune
+
+Jamf
+
+REST APIs
+
+==================================================
+COMMON REPORTS
+==============
+
+Asset Inventory
+
+License Compliance
+
+Software Usage
+
+Hardware Lifecycle
+
+Vendor Reports
+
+Audit Reports
+
+Renewal Forecasts
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+IT Asset Managers
+
+Procurement Teams
+
+Infrastructure Teams
+
+Software Licensing Teams
+
+Finance Teams
+
+IT Operations
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Asset Type
+
+*
+
+Compliance
+
+*
+
+Lifecycle
+
+Example
+
+(ServiceNow)
+
+AND
+
+(ITAM OR SAM OR HAM)
+
+AND
+
+(License OR Asset)
+
+AND
+
+(Discovery OR CMDB)
+
+Expand ITAM terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+ServiceNow ITAM
+
+Critical
+
+SAM
+
+Critical
+
+HAM
+
+High
+
+License Compliance
+
+High
+
+Discovery
+
+High
+
+CMDB
+
+Medium
+
+Vendor Management
+
+Medium
+
+Integration
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Flexera
+
+↓
+
+ServiceNow SAM
+
+High
+
+---
+
+Snow Software
+
+↓
+
+ServiceNow SAM
+
+High
+
+---
+
+Microsoft SCCM
+
+↓
+
+ServiceNow Discovery
+
+Medium
+
+---
+
+ManageEngine AssetExplorer
+
+↓
+
+ServiceNow ITAM
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Asset Type
+
+Lifecycle Scope
+
+License Management
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+SAM
+
+HAM
+
+Discovery
+
+CMDB
+
+Procurement
+
+Contract Management
+
+Identify whether the consultant performed
+
+Asset Modeling
+
+License Reconciliation
+
+Discovery Integration
+
+Configuration
+
+Testing
+
+Migration
+
+Optimization
+
+Recognize candidates with enterprise SAM implementation, software license optimization, publisher packs, HAM lifecycle automation, Discovery integration and CMDB synchronization experience as senior ServiceNow ITAM consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating ITAM as CMDB.
+
+Confusing Discovery with Asset Management.
+
+Matching candidates solely because they mention ServiceNow.
+
+Ignoring software licensing expertise.
+
+Treating procurement experience as ServiceNow ITAM implementation.
+
+Ignoring software normalization and license reconciliation.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+SAM
+
+↓
+
+Software Asset Management
+
+Software Licensing
+
+Publisher Packs
+
+Entitlements
+
+License Compliance
+
+---
+
+HAM
+
+↓
+
+Hardware Asset Management
+
+Asset Lifecycle
+
+Stockrooms
+
+Procurement
+
+Receiving
+
+---
+
+Compliance
+
+↓
+
+True-Up
+
+Audit
+
+Optimization
+
+Renewals
+
+License Reconciliation
+
+---
+
+Discovery
+
+↓
+
+Software Discovery
+
+Hardware Discovery
+
+CMDB
+
+Inventory
+
+Configuration Items
+
+END_OF_FILE

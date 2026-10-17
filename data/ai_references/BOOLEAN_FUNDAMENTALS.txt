@@ -1,0 +1,687 @@
+FILE_NAME:
+001_BOOLEAN_FUNDAMENTALS.txt
+
+ID:
+001
+
+DOMAIN:
+Recruitment Intelligence
+
+CATEGORY:
+AI Boolean Search Engine
+
+SUBCATEGORY:
+Boolean Fundamentals
+
+PRIMARY_ROLE:
+Boolean Search Foundation
+
+VERSION:
+3.0
+
+PURPOSE:
+Provide the foundational principles of Boolean search for AI agents generating recruiter-grade search strings across ATS databases, resume databases, LinkedIn, Google X-Ray, GitHub, Stack Overflow, job boards, and enterprise sourcing platforms.
+
+This document defines Boolean logic, search behavior, grouping principles, operator usage, recruiter best practices, and universal search standards.
+
+==================================================
+BOOLEAN DEFINITION
+==================
+
+Boolean Search is the process of combining logical operators and search expressions to retrieve the most relevant records while minimizing irrelevant results.
+
+Recruitment Boolean is NOT keyword search.
+
+Recruitment Boolean is Intent Search.
+
+The objective is to discover qualified candidates, not documents.
+
+==================================================
+BOOLEAN OBJECTIVES
+==================
+
+Maximize
+
+Recall
+
+AND
+
+Precision
+
+Recall
+
+↓
+
+Find as many qualified candidates as possible.
+
+Precision
+
+↓
+
+Remove irrelevant candidates.
+
+Excellent Boolean achieves both.
+
+==================================================
+CORE PRINCIPLES
+===============
+
+Think like a Recruiter.
+
+Think like a Hiring Manager.
+
+Never think like a Search Engine.
+
+Understand
+
+↓
+
+Business Need
+
+↓
+
+Role
+
+↓
+
+Skills
+
+↓
+
+Experience
+
+↓
+
+Industry
+
+↓
+
+Candidate Intent
+
+Then build the search.
+
+==================================================
+BOOLEAN BUILDING BLOCKS
+=======================
+
+Boolean consists of
+
+Keywords
+
+Operators
+
+Groups
+
+Modifiers
+
+Filters
+
+Exclusions
+
+Expansions
+
+Validation
+
+==================================================
+KEYWORD TYPES
+=============
+
+Role Titles
+
+Skills
+
+Technologies
+
+Frameworks
+
+Programming Languages
+
+Databases
+
+Cloud Platforms
+
+Industries
+
+Business Domains
+
+Methodologies
+
+Tools
+
+Certifications
+
+Locations
+
+Leadership Indicators
+
+==================================================
+SEARCH PHILOSOPHY
+=================
+
+Never search
+
+Java
+
+Instead search
+
+(Java OR "Core Java" OR J2EE OR "Java EE" OR Jakarta)
+
+---
+
+Never search
+
+AWS
+
+Instead search
+
+(AWS OR "Amazon Web Services")
+
+---
+
+Never search
+
+Developer
+
+Instead search
+
+(Developer OR Engineer OR Programmer)
+
+==================================================
+SEARCH CONCEPTS
+===============
+
+Search Concepts
+
+NOT
+
+Search Words
+
+Example
+
+Wrong
+
+Java
+
+Correct
+
+(Java OR J2EE OR Jakarta OR "Core Java")
+
+---
+
+Wrong
+
+Cloud
+
+Correct
+
+(AWS OR Azure OR GCP)
+
+==================================================
+BOOLEAN COMPONENTS
+==================
+
+Role
+
+*
+
+Technology
+
+*
+
+Experience
+
+*
+
+Domain
+
+*
+
+Business Function
+
+*
+
+Optional Skills
+
+==================================================
+BOOLEAN SUCCESS FORMULA
+=======================
+
+Correct Role
+
+*
+
+Correct Technologies
+
+*
+
+Correct Domain
+
+*
+
+Correct Seniority
+
+*
+
+Correct Industry
+
+=
+
+High Quality Search
+
+==================================================
+SEARCH EXPANSION
+================
+
+Every important keyword should be expanded.
+
+Role
+
+↓
+
+Synonyms
+
+Technology
+
+↓
+
+Aliases
+
+Framework
+
+↓
+
+Alternative Names
+
+Cloud
+
+↓
+
+Provider Names
+
+Database
+
+↓
+
+Equivalent Technologies
+
+==================================================
+SEARCH REFINEMENT
+=================
+
+Start
+
+Broad
+
+↓
+
+Evaluate Results
+
+↓
+
+Add Constraints
+
+↓
+
+Improve Precision
+
+Never start with the most restrictive Boolean.
+
+==================================================
+BOOLEAN BALANCE
+===============
+
+Too Broad
+
+↓
+
+Thousands of irrelevant candidates
+
+---
+
+Too Narrow
+
+↓
+
+No candidates
+
+---
+
+Balanced
+
+↓
+
+High-quality relevant candidates
+
+==================================================
+BOOLEAN PRIORITY
+================
+
+Priority 1
+
+Role
+
+Priority 2
+
+Mandatory Skills
+
+Priority 3
+
+Core Technology
+
+Priority 4
+
+Framework
+
+Priority 5
+
+Domain
+
+Priority 6
+
+Industry
+
+Priority 7
+
+Leadership
+
+Priority 8
+
+Location
+
+Priority 9
+
+Certification
+
+Priority 10
+
+Education
+
+==================================================
+SEARCH DIMENSIONS
+=================
+
+Technical Skills
+
+Business Skills
+
+Industry
+
+Domain
+
+Role
+
+Experience
+
+Leadership
+
+Architecture
+
+Implementation
+
+Support
+
+==================================================
+BOOLEAN DESIGN RULES
+====================
+
+Group similar concepts.
+
+Separate unrelated concepts.
+
+Keep logic readable.
+
+Expand critical skills.
+
+Avoid unnecessary repetition.
+
+Use exclusions carefully.
+
+Validate every search.
+
+==================================================
+BOOLEAN READABILITY
+===================
+
+Good
+
+(Role)
+
+AND
+
+(Skill Group)
+
+AND
+
+(Technology Group)
+
+AND
+
+(Domain)
+
+---
+
+Poor
+
+Random mixed keywords without logical grouping.
+
+==================================================
+SEARCH GRANULARITY
+==================
+
+Role Level
+
+↓
+
+Technology Level
+
+↓
+
+Module Level
+
+↓
+
+Feature Level
+
+↓
+
+Implementation Level
+
+Example
+
+SAP
+
+↓
+
+SAP SuccessFactors
+
+↓
+
+Employee Central
+
+↓
+
+Time Management
+
+↓
+
+Global Implementation
+
+==================================================
+SEARCH STRATEGY
+===============
+
+Always identify
+
+WHO
+
+↓
+
+What role?
+
+WHAT
+
+↓
+
+What technologies?
+
+WHY
+
+↓
+
+Business purpose?
+
+HOW
+
+↓
+
+Implementation or Support?
+
+WHERE
+
+↓
+
+Industry?
+
+WHEN
+
+↓
+
+Experience level?
+
+==================================================
+BOOLEAN LAYERS
+==============
+
+Layer 1
+
+Role
+
+Layer 2
+
+Technology
+
+Layer 3
+
+Supporting Skills
+
+Layer 4
+
+Industry
+
+Layer 5
+
+Leadership
+
+Layer 6
+
+Location
+
+Layer 7
+
+Exclusions
+
+==================================================
+UNIVERSAL BOOLEAN RULES
+=======================
+
+Never rely only on titles.
+
+Never rely only on skills.
+
+Never rely only on certifications.
+
+Always combine multiple search dimensions.
+
+Always expand important concepts.
+
+Always consider synonyms.
+
+Always understand recruiter intent.
+
+Always optimize for the target search platform.
+
+==================================================
+BOOLEAN LIFE CYCLE
+==================
+
+Job Description
+
+↓
+
+Requirement Analysis
+
+↓
+
+Skill Extraction
+
+↓
+
+Role Classification
+
+↓
+
+Synonym Expansion
+
+↓
+
+Boolean Construction
+
+↓
+
+Validation
+
+↓
+
+Optimization
+
+↓
+
+Search Execution
+
+↓
+
+Review Results
+
+↓
+
+Refinement
+
+==================================================
+AI BOOLEAN MINDSET
+==================
+
+The AI should think exactly like an expert recruiter.
+
+Understand first.
+
+Search second.
+
+Optimize third.
+
+Validate fourth.
+
+Never generate Boolean without understanding the business requirement.
+
+==================================================
+BOOLEAN GOLDEN PRINCIPLES
+=========================
+
+Understand before searching.
+
+Search concepts.
+
+Expand intelligently.
+
+Keep logic simple.
+
+Balance recall and precision.
+
+Validate every Boolean.
+
+Optimize for platform limitations.
+
+Never assume.
+
+Always infer from evidence.
+
+END_OF_FILE

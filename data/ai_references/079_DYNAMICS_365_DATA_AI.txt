@@ -1,0 +1,702 @@
+FILE_NAME:
+079_DYNAMICS_365_DATA_AI.txt
+
+ID:
+079
+
+DOMAIN:
+Microsoft Dynamics 365
+
+CATEGORY:
+Enterprise Data & AI
+
+SUBCATEGORY:
+Dynamics 365 Data, Analytics & AI
+
+PRIMARY_ROLE:
+Dynamics 365 Data & AI Consultant
+
+RELATED_FILES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+070_DYNAMICS_365_FINANCE_OPERATIONS.txt
+
+071_DYNAMICS_365_BUSINESS_CENTRAL.txt
+
+072_DYNAMICS_365_CRM_SALES.txt
+
+073_DYNAMICS_365_CUSTOMER_SERVICE.txt
+
+074_DYNAMICS_365_FIELD_SERVICE.txt
+
+075_DYNAMICS_365_MARKETING.txt
+
+076_DYNAMICS_365_POWER_PLATFORM.txt
+
+077_DYNAMICS_365_DEVELOPMENT.txt
+
+078_DYNAMICS_365_INTEGRATION.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+013_CLOUD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Dynamics 365 Data & AI
+
+PURPOSE:
+Enable AI agents to understand Microsoft Dynamics 365 data architecture, Dataverse, Customer Insights, Fabric, Power BI, AI, Copilot, predictive analytics, master data management, reporting, and enterprise AI implementations for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Dataverse
+Microsoft Fabric
+Power BI
+Dynamics 365 AI
+Copilot
+Customer Insights
+AI Builder
+Predictive Analytics
+Business Intelligence
+Data Lake
+Synapse Link
+Data Integration
+Microsoft AI
+
+ROLE_FAMILIES:
+Dynamics 365 Data Consultant
+
+Dynamics 365 AI Consultant
+
+Business Intelligence Consultant
+
+Data Architect
+
+Analytics Consultant
+
+Solution Architect
+
+COMMON_JOB_TITLES:
+Dynamics 365 Data Consultant
+
+Dynamics 365 Analytics Consultant
+
+Dynamics 365 AI Consultant
+
+Power BI Consultant
+
+Data Architect
+
+ALTERNATIVE_TITLES:
+Business Intelligence Consultant
+
+Customer Insights Consultant
+
+Microsoft Data Platform Consultant
+
+CORE_SKILLS:
+Dataverse
+
+Power BI
+
+Microsoft Fabric
+
+Customer Insights
+
+Copilot
+
+AI Builder
+
+Data Modeling
+
+Analytics
+
+SUPPORTING_SKILLS:
+Azure
+
+Synapse
+
+SQL
+
+Python
+
+Machine Learning
+
+Power Platform
+
+Security
+
+RELATED_TECHNOLOGIES:
+Dataverse
+
+Microsoft Fabric
+
+Power BI
+
+Customer Insights
+
+Copilot
+
+AI Builder
+
+Azure AI
+
+Azure Synapse
+
+Data Lake
+
+TECHNOLOGY_CATEGORY:
+Enterprise Data & AI Platform
+
+DEPENDENCIES:
+
+013_CLOUD.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Dynamics 365 Data & AI combines enterprise data management, analytics and artificial intelligence across Microsoft's business applications ecosystem.
+
+Organizations use Dataverse, Microsoft Fabric, Power BI, Customer Insights and Copilot to unify business data, generate predictive insights and automate business decisions.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Dataverse
+
+Power BI
+
+Microsoft Fabric
+
+Customer Insights
+
+Copilot
+
+AI Builder
+
+Azure AI
+
+Synapse Link
+
+==================================================
+DATAVERSE
+=========
+
+COMMON RESPONSIBILITIES
+
+Enterprise Data Model
+
+Relationships
+
+Business Rules
+
+Security
+
+Master Data
+
+Data Governance
+
+==================================================
+POWER BI
+========
+
+COMMON RESPONSIBILITIES
+
+Executive Dashboards
+
+Data Modeling
+
+Power Query
+
+DAX
+
+KPIs
+
+Operational Reporting
+
+==================================================
+MICROSOFT FABRIC
+================
+
+COMMON RESPONSIBILITIES
+
+OneLake
+
+Data Engineering
+
+Data Warehouse
+
+Lakehouse
+
+Real-Time Analytics
+
+Semantic Models
+
+==================================================
+CUSTOMER INSIGHTS
+=================
+
+COMMON RESPONSIBILITIES
+
+Unified Customer Profiles
+
+Segmentation
+
+Behavior Analytics
+
+Customer Intelligence
+
+Personalization
+
+==================================================
+COPILOT
+=======
+
+COMMON RESPONSIBILITIES
+
+Generative AI
+
+Natural Language Queries
+
+Business Assistance
+
+AI Recommendations
+
+Productivity Automation
+
+==================================================
+AI BUILDER
+==========
+
+COMMON RESPONSIBILITIES
+
+Document Intelligence
+
+Prediction Models
+
+Invoice Processing
+
+Object Detection
+
+Business AI
+
+==================================================
+AZURE AI
+========
+
+COMMON RESPONSIBILITIES
+
+Azure OpenAI
+
+Azure AI Services
+
+Machine Learning
+
+Vision
+
+Speech
+
+Language Models
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Data Integration
+
+Business Intelligence
+
+Executive Reporting
+
+Customer Analytics
+
+Predictive Analytics
+
+AI Automation
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Dataverse Tables
+
+Security Roles
+
+Semantic Models
+
+Power BI Workspaces
+
+Fabric Workspaces
+
+Customer Profiles
+
+AI Models
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Data Assessment
+
+↓
+
+Architecture Design
+
+↓
+
+Data Modeling
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Enterprise Analytics
+
+Customer 360
+
+AI Transformation
+
+Power BI Modernization
+
+Fabric Migration
+
+Executive Dashboards
+
+Business Intelligence
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Azure
+
+Microsoft Fabric
+
+Power BI
+
+Dynamics 365
+
+Power Platform
+
+Microsoft 365
+
+REST APIs
+
+Data Lake
+
+==================================================
+COMMON REPORTS
+==============
+
+Executive KPIs
+
+Financial Dashboards
+
+Sales Analytics
+
+Customer Analytics
+
+Operational Metrics
+
+AI Insights
+
+Forecast Reports
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Executives
+
+Business Analysts
+
+Data Engineers
+
+Data Scientists
+
+Operations Teams
+
+Sales Leaders
+
+Finance Teams
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Data
+
+*
+
+Analytics
+
+*
+
+AI
+
+Example
+
+("Dynamics 365")
+
+AND
+
+(Dataverse OR Fabric)
+
+AND
+
+("Power BI" OR Copilot)
+
+AND
+
+(Analytics OR AI)
+
+Expand AI and analytics technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Dataverse
+
+Critical
+
+Power BI
+
+Critical
+
+Microsoft Fabric
+
+High
+
+Customer Insights
+
+High
+
+Copilot
+
+High
+
+AI Builder
+
+Medium
+
+Azure AI
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Microsoft Fabric
+
+↓
+
+Dynamics Analytics
+
+High
+
+---
+
+Snowflake
+
+↓
+
+Enterprise Analytics
+
+Medium
+
+---
+
+Tableau
+
+↓
+
+Power BI
+
+Medium
+
+---
+
+Salesforce Data Cloud
+
+↓
+
+Customer Insights
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Data Platform
+
+Analytics Platform
+
+AI Technologies
+
+Implementation Scope
+
+Project Phase
+
+Differentiate
+
+Dataverse
+
+Fabric
+
+Power BI
+
+Customer Insights
+
+Copilot
+
+AI Builder
+
+Identify whether the consultant performed
+
+Data Architecture
+
+Analytics Design
+
+Dashboard Development
+
+AI Implementation
+
+Testing
+
+Deployment
+
+Optimization
+
+Support
+
+Recognize candidates with enterprise Dataverse architecture, Microsoft Fabric implementation, Power BI development, Customer Insights deployment, Copilot implementation and AI-powered business transformation experience as senior Dynamics Data & AI consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Power BI as the entire Microsoft data platform.
+
+Confusing Customer Insights with Dynamics Marketing.
+
+Matching candidates solely because they mention AI.
+
+Ignoring Dataverse architecture.
+
+Treating dashboard development as enterprise AI implementation.
+
+Ignoring Microsoft Fabric and OneLake.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Dataverse
+
+↓
+
+Tables
+
+Entities
+
+Relationships
+
+Business Rules
+
+Master Data
+
+---
+
+Analytics
+
+↓
+
+Power BI
+
+Microsoft Fabric
+
+Semantic Models
+
+DAX
+
+Power Query
+
+---
+
+AI
+
+↓
+
+Copilot
+
+AI Builder
+
+Azure AI
+
+Generative AI
+
+Machine Learning
+
+---
+
+Customer Data
+
+↓
+
+Customer Insights
+
+Customer 360
+
+Segmentation
+
+Behavior Analytics
+
+OneLake
+
+END_OF_FILE

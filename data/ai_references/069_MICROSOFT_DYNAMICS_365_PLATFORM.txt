@@ -1,0 +1,646 @@
+FILE_NAME:
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+ID:
+069
+
+DOMAIN:
+Microsoft Dynamics 365
+
+CATEGORY:
+Enterprise Business Applications
+
+SUBCATEGORY:
+Microsoft Dynamics 365 Platform
+
+PRIMARY_ROLE:
+Microsoft Dynamics 365 Consultant
+
+RELATED_FILES:
+
+018_ENTERPRISE_PLATFORMS.txt
+
+070_DYNAMICS_365_FINANCE_OPERATIONS.txt
+
+071_DYNAMICS_365_BUSINESS_CENTRAL.txt
+
+072_DYNAMICS_365_CRM_SALES.txt
+
+073_DYNAMICS_365_CUSTOMER_SERVICE.txt
+
+074_DYNAMICS_365_FIELD_SERVICE.txt
+
+075_DYNAMICS_365_MARKETING.txt
+
+076_DYNAMICS_365_POWER_PLATFORM.txt
+
+077_DYNAMICS_365_DEVELOPMENT.txt
+
+078_DYNAMICS_365_INTEGRATION.txt
+
+079_DYNAMICS_365_DATA_AI.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Microsoft Dynamics 365 Platform
+
+PURPOSE:
+Enable AI agents to understand the complete Microsoft Dynamics 365 ecosystem, ERP modules, CRM modules, Power Platform, Azure integration, implementation methodologies, consultant roles, Microsoft business applications ecosystem, licensing model, and enterprise digital transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Microsoft Dynamics 365
+Dynamics 365
+D365
+Dynamics CRM
+Dynamics ERP
+Business Applications
+Power Platform
+Power Apps
+Dataverse
+Finance and Operations
+Business Central
+
+ROLE_FAMILIES:
+Dynamics 365 Functional Consultant
+
+Dynamics 365 Technical Consultant
+
+Dynamics 365 Developer
+
+Dynamics 365 Solution Architect
+
+Dynamics 365 Technical Architect
+
+Dynamics 365 Administrator
+
+Dynamics 365 Business Analyst
+
+Dynamics 365 Program Manager
+
+COMMON_JOB_TITLES:
+Microsoft Dynamics 365 Consultant
+
+Dynamics 365 Functional Consultant
+
+Dynamics 365 Solution Architect
+
+Dynamics 365 Technical Consultant
+
+Dynamics 365 Developer
+
+Dynamics 365 Administrator
+
+ALTERNATIVE_TITLES:
+Microsoft Business Applications Consultant
+
+Dynamics Consultant
+
+CRM/ERP Consultant
+
+Enterprise Applications Consultant
+
+CORE_SKILLS:
+ERP
+
+CRM
+
+Business Process Analysis
+
+Configuration
+
+Customization
+
+Power Platform
+
+Integration
+
+Reporting
+
+Cloud Solutions
+
+SUPPORTING_SKILLS:
+Azure
+
+Power BI
+
+Dataverse
+
+REST APIs
+
+DevOps
+
+Security
+
+Project Management
+
+RELATED_TECHNOLOGIES:
+Dynamics 365 Finance
+
+Dynamics 365 Supply Chain
+
+Dynamics 365 Business Central
+
+Dynamics 365 Sales
+
+Dynamics 365 Customer Service
+
+Dynamics 365 Field Service
+
+Dynamics 365 Marketing
+
+Power Platform
+
+Power Apps
+
+Power Automate
+
+Power BI
+
+Dataverse
+
+Azure
+
+Microsoft 365
+
+TECHNOLOGY_CATEGORY:
+Enterprise Business Applications Platform
+
+DEPENDENCIES:
+
+018_ENTERPRISE_PLATFORMS.txt
+
+013_CLOUD.txt
+
+011_APIS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Microsoft Dynamics 365 is Microsoft's cloud-based suite of enterprise business applications that combines ERP, CRM, AI, analytics and low-code application development into a unified platform.
+
+Dynamics 365 integrates natively with Microsoft Azure, Microsoft 365, Teams, Power Platform and Dataverse, enabling end-to-end digital transformation across finance, operations, sales, customer service, field service and marketing.
+
+==================================================
+CORE PRODUCT FAMILIES
+=====================
+
+ERP
+
+Dynamics 365 Finance
+
+Dynamics 365 Supply Chain Management
+
+Dynamics 365 Commerce
+
+Dynamics 365 Human Resources
+
+Dynamics 365 Project Operations
+
+Dynamics 365 Business Central
+
+---
+
+CRM
+
+Dynamics 365 Sales
+
+Dynamics 365 Customer Service
+
+Dynamics 365 Field Service
+
+Dynamics 365 Customer Insights
+
+Dynamics 365 Marketing
+
+---
+
+PLATFORM
+
+Power Platform
+
+Power Apps
+
+Power Automate
+
+Power BI
+
+Power Pages
+
+Dataverse
+
+Copilot
+
+==================================================
+PLATFORM ARCHITECTURE
+=====================
+
+Users
+
+↓
+
+Dynamics 365 Applications
+
+↓
+
+Business Logic
+
+↓
+
+Dataverse
+
+↓
+
+Power Platform
+
+↓
+
+Azure Services
+
+↓
+
+Enterprise Integrations
+
+==================================================
+IMPLEMENTATION TYPES
+====================
+
+Greenfield ERP Implementation
+
+CRM Implementation
+
+ERP Migration
+
+CRM Migration
+
+Digital Transformation
+
+Cloud Modernization
+
+Global Rollout
+
+Support & Enhancement
+
+Business Process Transformation
+
+==================================================
+CONSULTANT TYPES
+================
+
+Functional Consultant
+
+↓
+
+Business Processes
+
+Configuration
+
+---
+
+Technical Consultant
+
+↓
+
+Customization
+
+Development
+
+Integration
+
+---
+
+Developer
+
+↓
+
+Plugins
+
+Power Platform
+
+Extensions
+
+---
+
+Solution Architect
+
+↓
+
+Enterprise Design
+
+Governance
+
+Integration
+
+---
+
+Technical Architect
+
+↓
+
+Platform Architecture
+
+Security
+
+Scalability
+
+==================================================
+COMMON RESPONSIBILITIES
+=======================
+
+Business Process Analysis
+
+Requirements Workshops
+
+Configuration
+
+Customization
+
+Security Configuration
+
+Data Migration
+
+Reporting
+
+Integration
+
+Testing
+
+User Training
+
+Deployment
+
+Hypercare
+
+Production Support
+
+==================================================
+PLATFORM CAPABILITIES
+=====================
+
+Role-Based Security
+
+Workflow Automation
+
+Business Rules
+
+Reporting
+
+Dashboards
+
+AI Assistance
+
+Low-Code Development
+
+Mobile Applications
+
+Business Process Flows
+
+==================================================
+SECURITY
+========
+
+Azure Active Directory
+
+Role-Based Security
+
+Business Units
+
+Teams
+
+Field-Level Security
+
+Column Security
+
+Conditional Access
+
+Microsoft Entra ID
+
+==================================================
+COMMON PROJECTS
+===============
+
+ERP Transformation
+
+CRM Transformation
+
+Finance Modernization
+
+Sales Automation
+
+Customer Experience Transformation
+
+Power Platform Automation
+
+Business Intelligence
+
+Enterprise Integration
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Role
+
+*
+
+Technology
+
+Example
+
+("Microsoft Dynamics 365" OR D365)
+
+AND
+
+(Finance OR Sales OR CRM)
+
+AND
+
+(Consultant OR Developer OR Architect)
+
+AND
+
+(Power Platform OR Dataverse)
+
+Expand Dynamics modules only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Dynamics 365 Platform
+
+Critical
+
+Relevant Module
+
+Critical
+
+Configuration
+
+High
+
+Customization
+
+High
+
+Power Platform
+
+High
+
+Integration
+
+High
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Microsoft Dynamics AX
+
+↓
+
+Dynamics 365 Finance
+
+High
+
+---
+
+Microsoft Dynamics NAV
+
+↓
+
+Business Central
+
+High
+
+---
+
+Microsoft Dynamics CRM
+
+↓
+
+Dynamics 365 CRM
+
+High
+
+---
+
+Salesforce
+
+↓
+
+Dynamics CRM
+
+Medium
+
+---
+
+SAP ERP
+
+↓
+
+Dynamics ERP
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Dynamics Product
+
+ERP vs CRM
+
+Role Type
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Functional Consultant
+
+Technical Consultant
+
+Developer
+
+Architect
+
+Business Analyst
+
+Program Manager
+
+Never assume all Dynamics experience is interchangeable.
+
+Business Central is different from Finance & Operations.
+
+CRM modules differ significantly from ERP modules.
+
+Recognize enterprise implementation experience as more valuable than support-only experience.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Dynamics CRM and Dynamics ERP as the same product.
+
+Confusing Business Central with Finance & Operations.
+
+Matching candidates solely because they mention Dynamics.
+
+Ignoring module specialization.
+
+Treating Power Platform experience as complete Dynamics expertise.
+
+Ignoring implementation lifecycle experience.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+NEXT KNOWLEDGE FILES
+====================
+
+070_DYNAMICS_365_FINANCE_OPERATIONS.txt
+
+071_DYNAMICS_365_BUSINESS_CENTRAL.txt
+
+072_DYNAMICS_365_CRM_SALES.txt
+
+073_DYNAMICS_365_CUSTOMER_SERVICE.txt
+
+074_DYNAMICS_365_FIELD_SERVICE.txt
+
+075_DYNAMICS_365_MARKETING.txt
+
+076_DYNAMICS_365_POWER_PLATFORM.txt
+
+077_DYNAMICS_365_DEVELOPMENT.txt
+
+078_DYNAMICS_365_INTEGRATION.txt
+
+079_DYNAMICS_365_DATA_AI.txt
+
+END_OF_FILE

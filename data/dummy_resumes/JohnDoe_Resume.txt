@@ -1,0 +1,15 @@
+John Doe
+Location: Mumbai, Maharashtra, India
+Email: john.doe@example.com
+
+Summary:
+Experienced Node.js Developer with 5 years of expertise in building scalable backend systems using Express, TypeScript, and Playwright.
+
+Experience:
+Senior Developer at TechCorp (2020 - Present)
+- Developed RESTful APIs using Node.js and Express.
+- Automated testing using Playwright.
+- Implemented robust background workers using TypeScript.
+
+Skills:
+Node.js, Express, TypeScript, Playwright, JavaScript, SQL, SQLite

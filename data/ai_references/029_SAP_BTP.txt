@@ -1,0 +1,641 @@
+FILE_NAME:
+029_SAP_BTP.txt
+
+ID:
+029
+
+DOMAIN:
+SAP
+
+CATEGORY:
+ERP
+
+SUBCATEGORY:
+SAP Business Technology Platform (SAP BTP)
+
+PRIMARY_ROLE:
+SAP BTP Consultant
+
+RELATED_FILES:
+
+019_SAP_PLATFORM.txt
+
+027_SAP_BASIS.txt
+
+028_SAP_ABAP.txt
+
+030_SAP_FIORI_UI5.txt
+
+031_SAP_INTEGRATION_SUITE.txt
+
+032_SAP_SECURITY_GRC.txt
+
+033_SAP_S4HANA_BROWNFIELD.txt
+
+034_SAP_S4HANA_GREENFIELD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP Business Technology Platform (SAP BTP)
+
+PURPOSE:
+Enable AI agents to understand SAP Business Technology Platform (SAP BTP), cloud-native development, extension architecture, integration, application development, automation, analytics, AI services, database services, and SAP BTP consultant responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+SAP BTP
+Business Technology Platform
+SAP Cloud Platform
+SAP Extension Suite
+SAP Integration Suite
+SAP Build
+SAP HANA Cloud
+Cloud Foundry
+Kyma
+CAP
+BAS
+
+ROLE_FAMILIES:
+SAP BTP Consultant
+SAP Cloud Consultant
+SAP Extension Developer
+SAP Technical Architect
+SAP Integration Consultant
+SAP Solution Architect
+SAP Full Stack Developer
+
+COMMON_JOB_TITLES:
+SAP BTP Consultant
+SAP Cloud Developer
+SAP BTP Architect
+SAP CAP Developer
+SAP Extension Suite Consultant
+SAP Cloud Architect
+
+ALTERNATIVE_TITLES:
+SAP Cloud Platform
+SAP Extension Developer
+SAP Cloud Native Developer
+
+CORE_SKILLS:
+Cloud Development
+
+Application Extensions
+
+Integration
+
+CAP
+
+Automation
+
+Security
+
+Cloud Architecture
+
+SUPPORTING_SKILLS:
+Java
+
+Node.js
+
+JavaScript
+
+TypeScript
+
+SQL
+
+DevOps
+
+Containers
+
+RELATED_TECHNOLOGIES:
+SAP BTP
+
+SAP HANA Cloud
+
+Cloud Foundry
+
+Kyma
+
+CAP
+
+SAP Build
+
+SAP Integration Suite
+
+Business Application Studio
+
+SAP Fiori
+
+SAP AI Core
+
+TECHNOLOGY_CATEGORY:
+SAP Cloud Platform
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+028_SAP_ABAP.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+SAP Business Technology Platform (SAP BTP) is SAP's cloud platform for building, extending, integrating and automating enterprise applications.
+
+BTP enables organizations to extend SAP solutions while keeping the ERP core clean.
+
+==================================================
+CORE PILLARS
+============
+
+Application Development
+
+Automation
+
+Integration
+
+Data & Analytics
+
+Artificial Intelligence
+
+Database Services
+
+Security
+
+==================================================
+APPLICATION DEVELOPMENT
+=======================
+
+COMMON RESPONSIBILITIES
+
+Cloud Applications
+
+Side-by-Side Extensions
+
+REST APIs
+
+Business Services
+
+Cloud Applications
+
+Microservices
+
+==================================================
+EXTENSION STRATEGY
+==================
+
+Clean Core
+
+↓
+
+Side-by-Side Extensions
+
+↓
+
+Cloud Native Applications
+
+↓
+
+Upgrade Safe Solutions
+
+==================================================
+SAP CAP
+=======
+
+Cloud Application Programming Model
+
+COMMON RESPONSIBILITIES
+
+Domain Modeling
+
+Business Services
+
+OData
+
+REST APIs
+
+Event Processing
+
+Authentication
+
+COMMON LANGUAGES
+
+Java
+
+Node.js
+
+==================================================
+SAP BUILD
+=========
+
+COMMON PRODUCTS
+
+SAP Build Apps
+
+SAP Build Process Automation
+
+SAP Build Work Zone
+
+COMMON RESPONSIBILITIES
+
+Low-Code Development
+
+Workflow Automation
+
+Citizen Development
+
+Business Applications
+
+==================================================
+BUSINESS APPLICATION STUDIO
+===========================
+
+COMMON RESPONSIBILITIES
+
+Cloud Development
+
+Fiori Development
+
+CAP Development
+
+Extension Development
+
+Git Integration
+
+==================================================
+RUNTIME ENVIRONMENTS
+====================
+
+Cloud Foundry
+
+Kyma
+
+ABAP Environment
+
+Serverless Runtime
+
+==================================================
+SAP HANA CLOUD
+==============
+
+COMMON RESPONSIBILITIES
+
+Cloud Database
+
+Data Modeling
+
+Database Administration
+
+Replication
+
+Performance
+
+==================================================
+INTEGRATION SERVICES
+====================
+
+COMMON SERVICES
+
+Integration Suite
+
+API Management
+
+Open Connectors
+
+Event Mesh
+
+Cloud Integration
+
+==================================================
+ANALYTICS SERVICES
+==================
+
+COMMON SERVICES
+
+SAP Analytics Cloud
+
+Datasphere
+
+Embedded Analytics
+
+Business Intelligence
+
+==================================================
+AI SERVICES
+===========
+
+COMMON SERVICES
+
+SAP AI Core
+
+SAP AI Launchpad
+
+Generative AI Hub
+
+Document Information Extraction
+
+Business AI
+
+==================================================
+AUTOMATION
+==========
+
+COMMON SERVICES
+
+SAP Build Process Automation
+
+Workflow
+
+RPA
+
+Decision Automation
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+Identity Authentication
+
+Identity Provisioning
+
+OAuth
+
+XSUAA
+
+Role Collections
+
+Trust Configuration
+
+==================================================
+DEVOPS
+======
+
+COMMON RESPONSIBILITIES
+
+CI/CD
+
+Transport Management
+
+Git
+
+Deployment Pipelines
+
+Cloud Monitoring
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Cloud Migration
+
+ERP Extension
+
+Clean Core Transformation
+
+Side-by-Side Development
+
+Cloud Native Development
+
+Application Modernization
+
+Integration Programs
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Architecture
+
+↓
+
+Extension Design
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Monitoring
+
+↓
+
+Operations
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Runtime
+
+*
+
+Development Model
+
+*
+
+Cloud Technologies
+
+Example
+
+("SAP BTP" OR "Business Technology Platform")
+
+AND
+
+(CAP OR "Cloud Foundry" OR Kyma)
+
+AND
+
+("SAP HANA Cloud" OR BAS)
+
+AND
+
+("Integration Suite" OR "SAP Build")
+
+Expand services only when explicitly mentioned in the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+SAP BTP Experience
+
+Critical
+
+CAP Development
+
+High
+
+Cloud Native Development
+
+High
+
+Integration
+
+High
+
+Extension Development
+
+High
+
+SAP HANA Cloud
+
+Medium
+
+Security
+
+Medium
+
+Automation
+
+Medium
+
+DevOps
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP Cloud Platform
+
+↓
+
+SAP BTP
+
+High
+
+---
+
+Cloud Foundry
+
+↓
+
+Kyma
+
+Medium
+
+---
+
+Node.js CAP
+
+↓
+
+Java CAP
+
+High
+
+---
+
+SAP Build
+
+↓
+
+Power Platform
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Cloud Runtime
+
+Development Model
+
+Extension Strategy
+
+Integration Scope
+
+Project Type
+
+Differentiate
+
+Clean Core
+
+Side-by-Side Extension
+
+Custom Modification
+
+Cloud Migration
+
+Platform Modernization
+
+Identify whether the consultant performed
+
+Architecture
+
+Development
+
+Deployment
+
+Integration
+
+Automation
+
+Security
+
+Cloud Operations
+
+Recognize candidates with
+
+CAP
+
+Kyma
+
+Cloud Foundry
+
+SAP Build
+
+Event Mesh
+
+Generative AI Hub
+
+SAP AI Core
+
+experience as modern SAP BTP specialists.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SAP BTP as SAP Basis.
+
+Confusing BTP with SAP S/4HANA.
+
+Ignoring Clean Core principles.
+
+Matching candidates solely because they mention SAP Cloud Platform.
+
+Treating Fiori development as complete BTP expertise.
+
+Ignoring cloud-native architecture experience.
+
+Assuming certification equals production implementation experience.
+
+END_OF_FILE

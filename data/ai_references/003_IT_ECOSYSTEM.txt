@@ -1,0 +1,970 @@
+FILE_NAME:
+003_IT_ECOSYSTEM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+IT Ecosystem Foundation
+
+PURPOSE:
+Provide a complete high-level map of the Information Technology ecosystem. This file enables AI agents to understand how technologies, roles, platforms, infrastructure, and business systems relate to one another before performing JD parsing, Boolean generation, resume parsing, and candidate matching.
+
+KEYWORDS:
+IT Ecosystem
+Technology Stack
+Software Development
+Infrastructure
+Enterprise IT
+Architecture
+Technology Categories
+
+ROLE_FAMILIES:
+All IT Roles
+
+COMMON_JOB_TITLES:
+All IT Job Titles
+
+ALTERNATIVE_TITLES:
+N/A
+
+CORE_SKILLS:
+Technology Classification
+Technology Relationships
+IT Landscape Understanding
+
+SUPPORTING_SKILLS:
+Architecture Awareness
+Technology Mapping
+
+RELATED_TECHNOLOGIES:
+All
+
+TECHNOLOGY_CATEGORY:
+IT Foundation
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+001_ROLE_CLASSIFICATION.txt
+
+002_JOB_TITLE_NORMALIZATION.txt
+
+==================================================
+IT ECOSYSTEM OVERVIEW
+=====================
+
+Information Technology consists of interconnected technology domains.
+
+No technology exists in isolation.
+
+Every technology belongs to one or more categories.
+
+Every role operates within one or more categories.
+
+==================================================
+PRIMARY TECHNOLOGY DOMAINS
+==========================
+
+1.
+
+Programming Languages
+
+2.
+
+Frameworks
+
+3.
+
+Libraries
+
+4.
+
+Frontend Technologies
+
+5.
+
+Backend Technologies
+
+6.
+
+Mobile Technologies
+
+7.
+
+Databases
+
+8.
+
+Operating Systems
+
+9.
+
+Networking
+
+10.
+
+Cloud Computing
+
+11.
+
+DevOps
+
+12.
+
+Containers
+
+13.
+
+Orchestration
+
+14.
+
+Infrastructure
+
+15.
+
+Cybersecurity
+
+16.
+
+Data Engineering
+
+17.
+
+Artificial Intelligence
+
+18.
+
+Machine Learning
+
+19.
+
+Enterprise Applications
+
+20.
+
+Business Intelligence
+
+21.
+
+Messaging Systems
+
+22.
+
+Monitoring & Observability
+
+23.
+
+Testing & QA
+
+24.
+
+Integration Technologies
+
+25.
+
+Architecture Patterns
+
+26.
+
+Version Control
+
+27.
+
+Project Management
+
+==================================================
+PROGRAMMING LANGUAGES
+=====================
+
+Purpose
+
+Develop software.
+
+Examples
+
+Java
+
+Python
+
+JavaScript
+
+TypeScript
+
+C#
+
+C++
+
+Go
+
+Rust
+
+Kotlin
+
+Swift
+
+PHP
+
+Ruby
+
+Scala
+
+R
+
+Common Roles
+
+Backend Developer
+
+Frontend Developer
+
+Data Engineer
+
+AI Engineer
+
+==================================================
+FRAMEWORKS
+==========
+
+Purpose
+
+Accelerate application development.
+
+Examples
+
+Spring
+
+Spring Boot
+
+Hibernate
+
+.NET
+
+ASP.NET
+
+React
+
+Angular
+
+Vue
+
+Express
+
+FastAPI
+
+Django
+
+Flask
+
+Laravel
+
+Next.js
+
+Common Dependency
+
+Programming Language
+
+==================================================
+LIBRARIES
+=========
+
+Purpose
+
+Provide reusable functionality.
+
+Examples
+
+NumPy
+
+Pandas
+
+TensorFlow
+
+PyTorch
+
+Scikit-learn
+
+Lodash
+
+jQuery
+
+OpenCV
+
+Requests
+
+==================================================
+DATABASES
+=========
+
+Purpose
+
+Store and retrieve data.
+
+Categories
+
+Relational
+
+NoSQL
+
+Graph
+
+Time-Series
+
+Vector
+
+Examples
+
+Oracle
+
+PostgreSQL
+
+MySQL
+
+SQL Server
+
+MongoDB
+
+Redis
+
+Cassandra
+
+Neo4j
+
+InfluxDB
+
+Pinecone
+
+==================================================
+OPERATING SYSTEMS
+=================
+
+Purpose
+
+Run applications and manage hardware.
+
+Examples
+
+Windows
+
+Linux
+
+Unix
+
+macOS
+
+Red Hat
+
+Ubuntu
+
+CentOS
+
+Debian
+
+==================================================
+NETWORKING
+==========
+
+Purpose
+
+Connect systems.
+
+Components
+
+LAN
+
+WAN
+
+VPN
+
+DNS
+
+DHCP
+
+Firewall
+
+Load Balancer
+
+Proxy
+
+Router
+
+Switch
+
+Protocols
+
+TCP
+
+UDP
+
+HTTP
+
+HTTPS
+
+FTP
+
+SSH
+
+SMTP
+
+SNMP
+
+==================================================
+CLOUD COMPUTING
+===============
+
+Purpose
+
+Provide scalable infrastructure and services.
+
+Platforms
+
+AWS
+
+Azure
+
+Google Cloud
+
+Oracle Cloud
+
+Alibaba Cloud
+
+Service Categories
+
+Compute
+
+Storage
+
+Networking
+
+Database
+
+AI
+
+Security
+
+Serverless
+
+Containers
+
+==================================================
+DEVOPS
+======
+
+Purpose
+
+Automate software delivery.
+
+Technologies
+
+Git
+
+Docker
+
+Kubernetes
+
+Terraform
+
+Ansible
+
+Jenkins
+
+GitHub Actions
+
+GitLab CI
+
+ArgoCD
+
+Helm
+
+==================================================
+CONTAINERS
+==========
+
+Purpose
+
+Package applications.
+
+Examples
+
+Docker
+
+Podman
+
+containerd
+
+==================================================
+ORCHESTRATION
+=============
+
+Purpose
+
+Manage containers.
+
+Examples
+
+Kubernetes
+
+OpenShift
+
+Amazon EKS
+
+Azure AKS
+
+Google GKE
+
+==================================================
+INFRASTRUCTURE
+==============
+
+Purpose
+
+Host enterprise applications.
+
+Components
+
+Servers
+
+Virtual Machines
+
+Storage
+
+Load Balancers
+
+Firewalls
+
+Virtualization
+
+VMware
+
+Hyper-V
+
+==================================================
+CYBERSECURITY
+=============
+
+Purpose
+
+Protect enterprise systems.
+
+Areas
+
+Identity
+
+Network Security
+
+Application Security
+
+Cloud Security
+
+Endpoint Security
+
+SOC
+
+IAM
+
+PAM
+
+SIEM
+
+GRC
+
+==================================================
+DATA ENGINEERING
+================
+
+Purpose
+
+Move and transform enterprise data.
+
+Components
+
+ETL
+
+ELT
+
+Streaming
+
+Batch
+
+Warehousing
+
+Technologies
+
+Spark
+
+Kafka
+
+Snowflake
+
+Databricks
+
+Airflow
+
+Hadoop
+
+==================================================
+ARTIFICIAL INTELLIGENCE
+=======================
+
+Purpose
+
+Create intelligent systems.
+
+Categories
+
+Machine Learning
+
+Deep Learning
+
+LLMs
+
+Generative AI
+
+Computer Vision
+
+NLP
+
+RAG
+
+AI Agents
+
+==================================================
+ENTERPRISE APPLICATIONS
+=======================
+
+Purpose
+
+Support enterprise business processes.
+
+Platforms
+
+SAP
+
+Oracle ERP
+
+Salesforce
+
+ServiceNow
+
+Microsoft Dynamics
+
+Workday
+
+SuccessFactors
+
+==================================================
+MESSAGING
+=========
+
+Purpose
+
+Exchange data between systems.
+
+Examples
+
+Kafka
+
+RabbitMQ
+
+IBM MQ
+
+ActiveMQ
+
+Amazon SQS
+
+Azure Service Bus
+
+==================================================
+MONITORING
+==========
+
+Purpose
+
+Observe applications and infrastructure.
+
+Examples
+
+Grafana
+
+Prometheus
+
+Splunk
+
+ELK
+
+Datadog
+
+New Relic
+
+Dynatrace
+
+==================================================
+TESTING
+=======
+
+Purpose
+
+Verify software quality.
+
+Types
+
+Manual
+
+Automation
+
+API
+
+Performance
+
+Security
+
+Regression
+
+UAT
+
+Common Tools
+
+Selenium
+
+Playwright
+
+Cypress
+
+JUnit
+
+TestNG
+
+JMeter
+
+==================================================
+INTEGRATION
+===========
+
+Purpose
+
+Connect systems.
+
+Technologies
+
+REST
+
+SOAP
+
+GraphQL
+
+gRPC
+
+Kafka
+
+ETL
+
+API Gateway
+
+==================================================
+ARCHITECTURE PATTERNS
+=====================
+
+Monolith
+
+Microservices
+
+SOA
+
+Serverless
+
+Event Driven
+
+Cloud Native
+
+Layered Architecture
+
+==================================================
+VERSION CONTROL
+===============
+
+Purpose
+
+Manage source code.
+
+Examples
+
+Git
+
+GitHub
+
+GitLab
+
+Bitbucket
+
+Azure DevOps Repos
+
+==================================================
+PROJECT MANAGEMENT
+==================
+
+Methodologies
+
+Agile
+
+Scrum
+
+Kanban
+
+Waterfall
+
+SAFe
+
+ITIL
+
+DevSecOps
+
+==================================================
+TECHNOLOGY RELATIONSHIPS
+========================
+
+Programming Language
+
+↓
+
+Framework
+
+↓
+
+Library
+
+↓
+
+Application
+
+↓
+
+Database
+
+↓
+
+Container
+
+↓
+
+Cloud
+
+↓
+
+Monitoring
+
+Programming Language
+
+requires
+
+Framework (optional)
+
+Framework
+
+requires
+
+Programming Language
+
+Container
+
+hosts
+
+Application
+
+Cloud
+
+hosts
+
+Infrastructure
+
+Database
+
+stores
+
+Application Data
+
+Messaging
+
+connects
+
+Applications
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always identify
+
+Programming Language
+
+Framework
+
+Database
+
+Cloud
+
+DevOps
+
+Architecture
+
+before generating Boolean.
+
+Expand Boolean using technologies from the same ecosystem only.
+
+==================================================
+MATCHING_RULES
+==============
+
+Technology Category Match
+
+Critical
+
+Technology Relationship Match
+
+High
+
+Architecture Match
+
+High
+
+Cloud Match
+
+Medium
+
+Tool Match
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Never compare technologies from unrelated categories.
+
+Always identify technology dependencies.
+
+Understand ecosystem before comparing skills.
+
+Use ecosystem knowledge to discover missing but implied technologies.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Confusing frameworks with programming languages.
+
+Confusing cloud platforms with DevOps tools.
+
+Treating databases as programming languages.
+
+Treating Docker as Kubernetes.
+
+Treating React as JavaScript.
+
+Treating SAP as a programming language.
+
+Treating Git as a CI/CD tool.
+
+Treating Kafka as a database.
+
+END_OF_FILE

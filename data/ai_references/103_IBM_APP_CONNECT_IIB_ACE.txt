@@ -1,0 +1,701 @@
+FILE_NAME:
+103_IBM_APP_CONNECT_IIB_ACE.txt
+
+ID:
+103
+
+DOMAIN:
+IBM
+
+CATEGORY:
+Enterprise Integration Middleware
+
+SUBCATEGORY:
+IBM App Connect Enterprise (ACE) / IBM Integration Bus (IIB)
+
+PRIMARY_ROLE:
+IBM App Connect Enterprise Consultant
+
+RELATED_FILES:
+
+100_IBM_ENTERPRISE_PLATFORM.txt
+
+101_IBM_WEBSPHERE.txt
+
+102_IBM_MQ.txt
+
+104_IBM_DATASTAGE.txt
+
+109_IBM_CLOUD_PAK_OPENSHIFT.txt
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+IBM App Connect Enterprise (ACE)
+
+PURPOSE:
+Enable AI agents to understand IBM App Connect Enterprise (ACE), IBM Integration Bus (IIB), message flows, integration servers, API integration, event-driven architecture, enterprise service bus (ESB), consultant responsibilities, implementation methodologies, and enterprise integration modernization projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+IBM App Connect Enterprise
+ACE
+IBM Integration Bus
+IIB
+WebSphere Message Broker
+WMB
+Message Flow
+ESB
+Integration Server
+BAR File
+ESQL
+Mapping Node
+Compute Node
+Integration Node
+
+ROLE_FAMILIES:
+IBM ACE Consultant
+
+IBM Integration Consultant
+
+Middleware Consultant
+
+Integration Architect
+
+ESB Developer
+
+Technical Consultant
+
+COMMON_JOB_TITLES:
+IBM ACE Developer
+
+IBM App Connect Consultant
+
+IBM Integration Bus Developer
+
+IBM Integration Architect
+
+IBM Middleware Consultant
+
+ALTERNATIVE_TITLES:
+ESB Developer
+
+Enterprise Integration Consultant
+
+Middleware Integration Architect
+
+CORE_SKILLS:
+Message Flow Development
+
+ESQL
+
+API Integration
+
+Message Transformation
+
+REST APIs
+
+SOAP Services
+
+IBM MQ Integration
+
+Enterprise Integration
+
+SUPPORTING_SKILLS:
+Java
+
+XML
+
+JSON
+
+XSLT
+
+DevOps
+
+Linux
+
+Docker
+
+OpenShift
+
+RELATED_TECHNOLOGIES:
+IBM App Connect Enterprise
+
+IBM Integration Bus
+
+IBM MQ
+
+REST APIs
+
+SOAP
+
+Kafka
+
+JMS
+
+OpenShift
+
+Cloud Pak for Integration
+
+TECHNOLOGY_CATEGORY:
+Enterprise Integration Platform / ESB
+
+DEPENDENCIES:
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+IBM App Connect Enterprise (ACE), formerly IBM Integration Bus (IIB) and WebSphere Message Broker (WMB), is IBM's enterprise integration platform for connecting applications, APIs, messaging systems, cloud services and data sources.
+
+It provides message transformation, routing, orchestration and API integration through reusable message flows and event-driven architectures.
+
+==================================================
+PRODUCT EVOLUTION
+=================
+
+WebSphere Message Broker (WMB)
+
+↓
+
+IBM Integration Bus (IIB)
+
+↓
+
+IBM App Connect Enterprise (ACE)
+
+==================================================
+CORE COMPONENTS
+===============
+
+Integration Nodes
+
+Integration Servers
+
+Message Flows
+
+BAR Files
+
+ESQL
+
+Message Sets
+
+Policies
+
+Connectors
+
+==================================================
+MESSAGE FLOW DEVELOPMENT
+========================
+
+COMMON RESPONSIBILITIES
+
+Flow Design
+
+Routing
+
+Transformation
+
+Validation
+
+Exception Handling
+
+Transaction Management
+
+==================================================
+ESQL DEVELOPMENT
+================
+
+COMMON RESPONSIBILITIES
+
+Business Logic
+
+Message Transformation
+
+Database Access
+
+Data Validation
+
+Error Handling
+
+Reusable Modules
+
+==================================================
+API INTEGRATION
+===============
+
+COMMON RESPONSIBILITIES
+
+REST APIs
+
+SOAP Services
+
+OpenAPI
+
+JSON
+
+XML
+
+API Mediation
+
+==================================================
+MESSAGE TRANSFORMATION
+======================
+
+COMMON RESPONSIBILITIES
+
+XML Mapping
+
+JSON Mapping
+
+CSV Processing
+
+EDI
+
+Canonical Models
+
+Schema Validation
+
+==================================================
+EVENT-DRIVEN INTEGRATION
+========================
+
+COMMON RESPONSIBILITIES
+
+IBM MQ
+
+Kafka
+
+JMS
+
+Publish/Subscribe
+
+Asynchronous Processing
+
+Event Routing
+
+==================================================
+DEPLOYMENT
+==========
+
+COMMON RESPONSIBILITIES
+
+BAR Deployment
+
+Environment Configuration
+
+Version Control
+
+CI/CD
+
+Promotion
+
+Rollback
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Application Integration
+
+API Mediation
+
+Data Transformation
+
+Message Routing
+
+System Connectivity
+
+Enterprise Integration
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Integration Nodes
+
+Integration Servers
+
+Policies
+
+Security
+
+BAR Files
+
+Queues
+
+Endpoints
+
+Monitoring
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Architecture
+
+↓
+
+Flow Design
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Monitoring
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Enterprise Integration
+
+ESB Modernization
+
+API Modernization
+
+Cloud Integration
+
+Legacy Integration
+
+Hybrid Integration
+
+Messaging Modernization
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+IBM MQ
+
+Oracle
+
+SAP
+
+Salesforce
+
+REST APIs
+
+SOAP
+
+Kafka
+
+Cloud Pak
+
+OpenShift
+
+==================================================
+COMMON REPORTS
+==============
+
+Integration Health
+
+Message Throughput
+
+Flow Performance
+
+API Metrics
+
+Error Reports
+
+Middleware Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Integration Teams
+
+Middleware Teams
+
+Developers
+
+Application Teams
+
+Operations
+
+Enterprise Architects
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Integration
+
+*
+
+ESB
+
+*
+
+Development
+
+Example
+
+(ACE OR IIB OR WMB)
+
+AND
+
+("Message Flow" OR ESQL)
+
+AND
+
+(REST OR MQ)
+
+AND
+
+(Developer OR Architect)
+
+Expand IBM ACE terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+IBM ACE
+
+Critical
+
+IIB
+
+Critical
+
+Message Flows
+
+High
+
+ESQL
+
+High
+
+IBM MQ
+
+High
+
+REST APIs
+
+Medium
+
+Deployment
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+MuleSoft
+
+↓
+
+IBM ACE
+
+Medium
+
+---
+
+TIBCO BW
+
+↓
+
+IBM ACE
+
+Medium
+
+---
+
+Oracle SOA Suite
+
+↓
+
+IBM ACE
+
+Medium
+
+---
+
+Azure Integration Services
+
+↓
+
+Enterprise Integration
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Integration Scope
+
+Middleware Platform
+
+Development Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+ACE
+
+IIB
+
+WMB
+
+ESQL
+
+API Integration
+
+MQ Integration
+
+Identify whether the consultant performed
+
+Architecture
+
+Flow Development
+
+ESQL Development
+
+Testing
+
+Deployment
+
+Monitoring
+
+Modernization
+
+Recognize candidates with enterprise IBM ACE implementation, IIB migration, ESQL development, message flow design, IBM MQ integration, API modernization and hybrid integration experience as senior IBM integration consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating API development as IBM ACE development.
+
+Confusing IBM MQ with IBM ACE.
+
+Matching candidates solely because they mention middleware.
+
+Ignoring ESQL expertise.
+
+Treating REST API integration as enterprise integration architecture.
+
+Ignoring message flow development.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+IBM ACE
+
+↓
+
+IBM App Connect Enterprise
+
+ACE
+
+---
+
+IBM IIB
+
+↓
+
+IBM Integration Bus
+
+IIB
+
+---
+
+Legacy
+
+↓
+
+WebSphere Message Broker
+
+WMB
+
+---
+
+Development
+
+↓
+
+Message Flow
+
+ESQL
+
+BAR Files
+
+Integration Server
+
+---
+
+Integration
+
+↓
+
+REST
+
+SOAP
+
+MQ
+
+Kafka
+
+JMS
+
+Message Transformation
+
+END_OF_FILE

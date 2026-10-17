@@ -1,0 +1,700 @@
+FILE_NAME:
+071_DYNAMICS_365_BUSINESS_CENTRAL.txt
+
+ID:
+071
+
+DOMAIN:
+Microsoft Dynamics 365
+
+CATEGORY:
+Enterprise ERP
+
+SUBCATEGORY:
+Dynamics 365 Business Central
+
+PRIMARY_ROLE:
+Dynamics 365 Business Central Functional Consultant
+
+RELATED_FILES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+070_DYNAMICS_365_FINANCE_OPERATIONS.txt
+
+076_DYNAMICS_365_POWER_PLATFORM.txt
+
+077_DYNAMICS_365_DEVELOPMENT.txt
+
+078_DYNAMICS_365_INTEGRATION.txt
+
+079_DYNAMICS_365_DATA_AI.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Dynamics 365 Business Central
+
+PURPOSE:
+Enable AI agents to understand Microsoft Dynamics 365 Business Central (formerly Dynamics NAV), including finance, distribution, manufacturing, inventory, service management, projects, consultant responsibilities, implementation methodologies, and SME ERP transformation programs for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Dynamics 365 Business Central
+Business Central
+Microsoft Dynamics NAV
+Dynamics NAV
+BC
+Finance
+Inventory
+Distribution
+Manufacturing
+AL
+Extensions
+
+ROLE_FAMILIES:
+Business Central Functional Consultant
+
+Business Central Technical Consultant
+
+Business Central Developer
+
+Business Central Solution Architect
+
+ERP Consultant
+
+COMMON_JOB_TITLES:
+Dynamics 365 Business Central Consultant
+
+Business Central Functional Consultant
+
+Business Central Developer
+
+Dynamics NAV Consultant
+
+Business Central Solution Architect
+
+ALTERNATIVE_TITLES:
+Microsoft ERP Consultant
+
+Dynamics NAV Developer
+
+Business Central ERP Consultant
+
+CORE_SKILLS:
+Financial Management
+
+Inventory Management
+
+Sales
+
+Purchasing
+
+Manufacturing
+
+Service Management
+
+ERP Configuration
+
+Business Process Design
+
+SUPPORTING_SKILLS:
+AL Development
+
+Power Platform
+
+Power BI
+
+Azure
+
+Integration
+
+Reporting
+
+Testing
+
+RELATED_TECHNOLOGIES:
+Business Central
+
+AL Language
+
+Visual Studio Code
+
+Power Platform
+
+Power BI
+
+Microsoft 365
+
+Dataverse
+
+Azure
+
+TECHNOLOGY_CATEGORY:
+SME ERP Platform
+
+DEPENDENCIES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Dynamics 365 Business Central is Microsoft's cloud ERP solution for small and mid-sized businesses.
+
+It evolved from Microsoft Dynamics NAV and provides integrated finance, purchasing, inventory, sales, warehousing, manufacturing, service management and project management capabilities.
+
+==================================================
+CORE MODULES
+============
+
+Finance
+
+Sales
+
+Purchasing
+
+Inventory
+
+Warehouse
+
+Manufacturing
+
+Projects
+
+Jobs
+
+Service Management
+
+CRM Integration
+
+==================================================
+FINANCE
+=======
+
+COMMON RESPONSIBILITIES
+
+General Ledger
+
+Accounts Payable
+
+Accounts Receivable
+
+Cash Management
+
+Bank Reconciliation
+
+Budgets
+
+Fixed Assets
+
+VAT
+
+==================================================
+SALES
+=====
+
+COMMON RESPONSIBILITIES
+
+Sales Quotes
+
+Sales Orders
+
+Invoices
+
+Returns
+
+Customer Pricing
+
+Sales Analysis
+
+==================================================
+PURCHASING
+==========
+
+COMMON RESPONSIBILITIES
+
+Purchase Orders
+
+Vendors
+
+Approvals
+
+Receipts
+
+Invoices
+
+Supplier Management
+
+==================================================
+INVENTORY & WAREHOUSE
+=====================
+
+COMMON RESPONSIBILITIES
+
+Inventory Tracking
+
+Item Management
+
+Warehousing
+
+Bins
+
+Transfers
+
+Cycle Counts
+
+Stock Adjustments
+
+==================================================
+MANUFACTURING
+=============
+
+COMMON RESPONSIBILITIES
+
+Production Orders
+
+Bills of Materials
+
+Routing
+
+Capacity Planning
+
+MRP
+
+Production Consumption
+
+==================================================
+SERVICE MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Service Orders
+
+Contracts
+
+Warranty
+
+Maintenance
+
+Technician Scheduling
+
+==================================================
+PROJECTS (JOBS)
+===============
+
+COMMON RESPONSIBILITIES
+
+Project Planning
+
+Budgets
+
+Resources
+
+Time Sheets
+
+Job Costing
+
+Billing
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Procure-to-Pay
+
+Order-to-Cash
+
+Financial Close
+
+Inventory Management
+
+Manufacturing
+
+Project Accounting
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Companies
+
+Dimensions
+
+Posting Groups
+
+Number Series
+
+Approval Workflows
+
+Users
+
+Permissions
+
+Extensions
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Business Analysis
+
+↓
+
+Fit-Gap
+
+↓
+
+Configuration
+
+↓
+
+Extensions
+
+↓
+
+Data Migration
+
+↓
+
+Testing
+
+↓
+
+Training
+
+↓
+
+Go-Live
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Business Central Implementation
+
+NAV Upgrade
+
+ERP Migration
+
+Cloud Migration
+
+Finance Modernization
+
+SME Digital Transformation
+
+Global Rollout
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Power Platform
+
+Power BI
+
+Microsoft 365
+
+Excel
+
+Dataverse
+
+Azure
+
+REST APIs
+
+EDI
+
+==================================================
+COMMON REPORTS
+==============
+
+Financial Reports
+
+Inventory Reports
+
+Sales Reports
+
+Purchase Reports
+
+Warehouse KPIs
+
+Project Reports
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Finance Teams
+
+Operations
+
+Purchasing
+
+Warehouse Teams
+
+Manufacturing
+
+Project Managers
+
+Business Owners
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+ERP
+
+*
+
+Finance
+
+*
+
+Business Process
+
+Example
+
+("Business Central" OR "Dynamics NAV")
+
+AND
+
+(Finance OR Inventory)
+
+AND
+
+(AL OR Consultant)
+
+AND
+
+(ERP)
+
+Expand Business Central terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Business Central
+
+Critical
+
+Finance
+
+Critical
+
+Inventory
+
+High
+
+Manufacturing
+
+High
+
+ERP Configuration
+
+High
+
+AL Development
+
+Medium
+
+Power Platform
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Dynamics NAV
+
+↓
+
+Business Central
+
+Very High
+
+---
+
+SAP Business One
+
+↓
+
+Business Central
+
+Medium
+
+---
+
+Oracle NetSuite
+
+↓
+
+Business Central
+
+Medium
+
+---
+
+Sage X3
+
+↓
+
+Business Central
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+ERP Module
+
+Business Process
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Business Central
+
+Finance & Operations
+
+NAV
+
+AL Development
+
+Functional Consulting
+
+Identify whether the consultant performed
+
+Business Analysis
+
+Configuration
+
+Extension Development
+
+Testing
+
+Data Migration
+
+Training
+
+Deployment
+
+Support
+
+Recognize candidates with Business Central implementation, NAV upgrades, AL extensions, finance transformation, inventory management and SME ERP modernization experience as senior Business Central consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Business Central as Finance & Operations.
+
+Confusing NAV with AX.
+
+Matching candidates solely because they mention Microsoft ERP.
+
+Ignoring AL development experience.
+
+Treating accounting experience as Business Central implementation.
+
+Ignoring NAV upgrade experience.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Business Central
+
+↓
+
+Dynamics NAV
+
+NAV
+
+BC
+
+Microsoft ERP
+
+---
+
+Finance
+
+↓
+
+GL
+
+AP
+
+AR
+
+VAT
+
+Cash Management
+
+Bank Reconciliation
+
+---
+
+Inventory
+
+↓
+
+Warehouse
+
+Items
+
+Bins
+
+Transfers
+
+MRP
+
+Manufacturing
+
+---
+
+Development
+
+↓
+
+AL
+
+Extensions
+
+Visual Studio Code
+
+AppSource
+
+END_OF_FILE

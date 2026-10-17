@@ -1,0 +1,664 @@
+FILE_NAME:
+033_SAP_S4HANA_BROWNFIELD.txt
+
+ID:
+033
+
+DOMAIN:
+SAP
+
+CATEGORY:
+ERP
+
+SUBCATEGORY:
+SAP S/4HANA Brownfield Transformation
+
+PRIMARY_ROLE:
+SAP S/4HANA Brownfield Transformation Consultant
+
+RELATED_FILES:
+
+019_SAP_PLATFORM.txt
+
+027_SAP_BASIS.txt
+
+028_SAP_ABAP.txt
+
+029_SAP_BTP.txt
+
+030_SAP_FIORI_UI5.txt
+
+031_SAP_INTEGRATION_SUITE.txt
+
+032_SAP_SECURITY_GRC.txt
+
+034_SAP_S4HANA_GREENFIELD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP S/4HANA Brownfield Transformation
+
+PURPOSE:
+Enable AI agents to accurately identify SAP S/4HANA Brownfield transformation experience, distinguish it from Greenfield implementations, evaluate conversion expertise, technical migration responsibilities, functional conversion activities, program leadership, and implementation methodologies for accurate Boolean generation and candidate matching.
+
+KEYWORDS:
+SAP S/4HANA Brownfield
+System Conversion
+ECC to S/4HANA
+Brownfield Transformation
+Technical Conversion
+Selective Data Transition
+SUM
+DMO
+Readiness Check
+Simplification Item Check
+
+ROLE_FAMILIES:
+SAP S/4HANA Consultant
+SAP Solution Architect
+SAP Technical Architect
+SAP Program Manager
+SAP Transformation Manager
+SAP Basis Consultant
+SAP Functional Lead
+
+COMMON_JOB_TITLES:
+SAP S/4HANA Brownfield Consultant
+SAP S/4HANA Transformation Consultant
+SAP Transformation Manager
+SAP Program Manager
+SAP Technical Architect
+SAP Solution Architect
+
+ALTERNATIVE_TITLES:
+ECC Conversion
+ERP Transformation
+SAP System Conversion
+
+CORE_SKILLS:
+System Conversion
+
+Transformation
+
+Migration
+
+Landscape Assessment
+
+Cutover
+
+Testing
+
+Hypercare
+
+Program Delivery
+
+SUPPORTING_SKILLS:
+SAP Basis
+
+ABAP
+
+Data Migration
+
+Cloud
+
+Fiori
+
+Integration
+
+RELATED_TECHNOLOGIES:
+SAP ECC
+
+SAP S/4HANA
+
+SUM
+
+DMO
+
+Readiness Check
+
+ATC
+
+Simplification Item Check
+
+Fiori
+
+SAP HANA
+
+TECHNOLOGY_CATEGORY:
+SAP Transformation
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+027_SAP_BASIS.txt
+
+028_SAP_ABAP.txt
+
+==================================================
+OVERVIEW
+========
+
+A Brownfield implementation is an existing SAP ECC system converted to SAP S/4HANA while preserving most existing business processes, organizational structures, master data and transactional history.
+
+Brownfield is NOT a new implementation.
+
+It is a technical and business transformation.
+
+==================================================
+TRANSFORMATION APPROACH
+=======================
+
+Existing ECC System
+
+↓
+
+Assessment
+
+↓
+
+Readiness Check
+
+↓
+
+Simplification Analysis
+
+↓
+
+Custom Code Analysis
+
+↓
+
+Technical Conversion
+
+↓
+
+Functional Validation
+
+↓
+
+Testing
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+WHEN TO USE BROWNFIELD
+======================
+
+Existing SAP ECC Landscape
+
+Large Customizations
+
+Established Business Processes
+
+Need Historical Data
+
+Faster Time-to-Value
+
+Lower Business Disruption
+
+==================================================
+WHEN NOT TO USE
+===============
+
+Completely New ERP
+
+Major Business Redesign
+
+No Existing SAP
+
+Business Model Replacement
+
+==================================================
+COMMON PROJECT PHASES
+=====================
+
+Assessment
+
+Business Case
+
+Readiness Check
+
+Landscape Planning
+
+Technical Preparation
+
+Sandbox Conversion
+
+Development Conversion
+
+Testing
+
+Dress Rehearsal
+
+Cutover
+
+Production Go-Live
+
+Hypercare
+
+==================================================
+TECHNICAL ACTIVITIES
+====================
+
+SUM
+
+DMO
+
+Unicode Conversion
+
+Database Migration
+
+HANA Migration
+
+SPDD
+
+SPAU
+
+Kernel Upgrade
+
+Fiori Activation
+
+Transport Strategy
+
+Custom Code Remediation
+
+ATC
+
+==================================================
+FUNCTIONAL ACTIVITIES
+=====================
+
+Business Process Validation
+
+Simplification Review
+
+Configuration Validation
+
+Business Testing
+
+Regression Testing
+
+User Training
+
+Business Sign-Off
+
+==================================================
+CUSTOM CODE REMEDIATION
+=======================
+
+COMMON RESPONSIBILITIES
+
+ATC Analysis
+
+Simplification Adjustments
+
+ABAP Optimization
+
+CDS Migration
+
+Code Adaptation
+
+==================================================
+DATA ACTIVITIES
+===============
+
+Master Data Validation
+
+Transactional Data Validation
+
+Data Consistency
+
+Archiving
+
+Reconciliation
+
+==================================================
+TESTING
+=======
+
+Unit Testing
+
+Integration Testing
+
+Regression Testing
+
+Performance Testing
+
+User Acceptance Testing
+
+Cutover Testing
+
+==================================================
+CUTOVER
+=======
+
+COMMON RESPONSIBILITIES
+
+Downtime Planning
+
+Business Freeze
+
+Transport Migration
+
+Production Conversion
+
+Validation
+
+Rollback Planning
+
+==================================================
+PROJECT ROLES
+=============
+
+Program Manager
+
+Transformation Governance
+
+---
+
+Solution Architect
+
+Architecture
+
+---
+
+Basis Consultant
+
+Technical Conversion
+
+---
+
+Functional Consultant
+
+Business Validation
+
+---
+
+ABAP Consultant
+
+Code Remediation
+
+---
+
+Testing Lead
+
+Regression Strategy
+
+==================================================
+TOOLS
+=====
+
+SUM
+
+DMO
+
+Readiness Check
+
+ATC
+
+Maintenance Planner
+
+Solution Manager
+
+Cloud ALM
+
+Focused Build
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Transformation
+
+*
+
+Brownfield
+
+*
+
+Conversion Tools
+
+*
+
+Migration
+
+Example
+
+("SAP S/4HANA")
+
+AND
+
+(Brownfield OR "System Conversion")
+
+AND
+
+(SUM OR DMO)
+
+AND
+
+("Readiness Check" OR ATC)
+
+Do not substitute Migration alone for Brownfield.
+
+==================================================
+MATCHING_RULES
+==============
+
+Brownfield Conversion
+
+Critical
+
+ECC Experience
+
+Critical
+
+S/4HANA Conversion
+
+Critical
+
+SUM/DMO
+
+High
+
+Custom Code Remediation
+
+High
+
+Cutover
+
+High
+
+Testing
+
+Medium
+
+Program Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+ECC Upgrade
+
+↓
+
+Brownfield
+
+Medium
+
+---
+
+Technical Upgrade
+
+↓
+
+System Conversion
+
+Medium
+
+---
+
+S/4HANA Greenfield
+
+↓
+
+Brownfield
+
+Low
+
+---
+
+Brownfield
+
+↓
+
+Selective Data Transition
+
+High
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+ECC
+
+↓
+
+S/4HANA
+
+System Conversion
+
+Do NOT classify the following as Brownfield
+
+New SAP Implementation
+
+Rollout
+
+Support Project
+
+Upgrade Only
+
+Production Support
+
+Always validate evidence of
+
+SUM
+
+DMO
+
+Readiness Check
+
+Simplification Items
+
+ATC
+
+Technical Conversion
+
+Cutover
+
+Regression Testing
+
+Hypercare
+
+Program Governance
+
+Brownfield experience should receive the highest ranking when the JD explicitly requires
+
+ECC to S/4HANA Conversion
+
+System Conversion
+
+Brownfield Transformation
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Brownfield
+
+↓
+
+System Conversion
+
+ECC Conversion
+
+Technical Conversion
+
+Landscape Conversion
+
+SUM
+
+DMO
+
+Readiness Check
+
+Simplification Item Check
+
+ATC
+
+Custom Code Adaptation
+
+Unicode Conversion
+
+HANA Migration
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating every S/4HANA project as Brownfield.
+
+Confusing upgrades with system conversions.
+
+Confusing Greenfield implementations with Brownfield transformations.
+
+Matching candidates only because they mention SAP S/4HANA.
+
+Ignoring technical conversion responsibilities.
+
+Ignoring cutover leadership.
+
+Ignoring evidence of production conversion.
+
+Assuming certification equals Brownfield implementation experience.
+
+==================================================
+INTERVIEW VALIDATION QUESTIONS
+==============================
+
+Did the project convert ECC to S/4HANA?
+
+Which SUM version was used?
+
+Was DMO used?
+
+Did you execute Readiness Check?
+
+How was custom code remediation performed?
+
+What was your role during cutover?
+
+How much production downtime occurred?
+
+Who owned the technical conversion?
+
+END_OF_FILE

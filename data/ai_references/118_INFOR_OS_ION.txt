@@ -1,0 +1,685 @@
+FILE_NAME:
+118_INFOR_OS_ION.txt
+
+ID:
+118
+
+DOMAIN:
+Infor
+
+CATEGORY:
+Enterprise Integration & Digital Platform
+
+SUBCATEGORY:
+Infor OS / Infor ION
+
+PRIMARY_ROLE:
+Infor OS / ION Consultant
+
+RELATED_FILES:
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+111_INFOR_LN.txt
+
+112_INFOR_M3.txt
+
+113_INFOR_CLOUDSUITE.txt
+
+114_INFOR_LAWSON.txt
+
+115_INFOR_EAM.txt
+
+116_INFOR_WMS.txt
+
+117_INFOR_SCM.txt
+
+119_INFOR_BI_ANALYTICS.txt
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+VERSION:
+2.0
+
+CATEGORY:
+Infor OS / Infor ION
+
+PURPOSE:
+Enable AI agents to understand Infor OS, Infor ION, enterprise integration, workflow automation, API management, event-driven architecture, document flows, business process automation, consultant responsibilities, implementation methodologies, and enterprise digital transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Infor OS
+Infor ION
+Intelligent Open Network
+ION API
+ION Desk
+ION Workflow
+Document Flow
+Business Vault
+API Gateway
+Data Lake
+Enterprise Integration
+Event Hub
+
+ROLE_FAMILIES:
+Infor OS Consultant
+
+Infor ION Consultant
+
+Integration Consultant
+
+Middleware Consultant
+
+Technical Architect
+
+Enterprise Integration Architect
+
+COMMON_JOB_TITLES:
+Infor ION Consultant
+
+Infor OS Consultant
+
+Infor Integration Consultant
+
+Infor Technical Architect
+
+Infor Middleware Consultant
+
+ALTERNATIVE_TITLES:
+Enterprise Integration Consultant
+
+Cloud Integration Architect
+
+Digital Platform Consultant
+
+CORE_SKILLS:
+Enterprise Integration
+
+API Integration
+
+Workflow Automation
+
+Business Process Automation
+
+Document Flow
+
+Event Processing
+
+API Management
+
+Security
+
+SUPPORTING_SKILLS:
+REST APIs
+
+JSON
+
+XML
+
+SQL
+
+Cloud
+
+DevOps
+
+Monitoring
+
+OAuth
+
+RELATED_TECHNOLOGIES:
+Infor OS
+
+Infor ION
+
+ION API Gateway
+
+ION Desk
+
+Infor Ming.le
+
+Infor Document Management
+
+Enterprise Connector
+
+Infor Data Lake
+
+TECHNOLOGY_CATEGORY:
+Enterprise Integration Platform (iPaaS)
+
+DEPENDENCIES:
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Infor OS is Infor's enterprise digital platform that provides integration, workflow automation, API management, analytics, security and enterprise collaboration capabilities.
+
+Infor ION (Intelligent Open Network) is the core integration framework within Infor OS, enabling application integration, document exchange, event-driven communication and business process orchestration across Infor and third-party applications.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Infor ION
+
+ION API Gateway
+
+ION Desk
+
+Workflow
+
+Business Vault
+
+Data Lake
+
+Document Management
+
+Security
+
+==================================================
+ION INTEGRATION
+===============
+
+COMMON RESPONSIBILITIES
+
+Application Integration
+
+Document Flows
+
+Message Routing
+
+Business Events
+
+Transformation
+
+Monitoring
+
+==================================================
+ION API
+=======
+
+COMMON RESPONSIBILITIES
+
+REST APIs
+
+API Gateway
+
+Authentication
+
+API Security
+
+API Lifecycle
+
+API Publishing
+
+==================================================
+WORKFLOW AUTOMATION
+===================
+
+COMMON RESPONSIBILITIES
+
+Approval Workflows
+
+Notifications
+
+Task Management
+
+Business Rules
+
+Escalations
+
+Process Automation
+
+==================================================
+DOCUMENT FLOWS
+==============
+
+COMMON RESPONSIBILITIES
+
+BOD Processing
+
+XML Documents
+
+Business Messages
+
+Transformation
+
+Routing
+
+Validation
+
+==================================================
+BUSINESS VAULT & DATA LAKE
+==========================
+
+COMMON RESPONSIBILITIES
+
+Business Data Storage
+
+Data Consolidation
+
+Analytics
+
+Historical Data
+
+Reporting
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+Identity Management
+
+OAuth
+
+SSO
+
+Role-Based Security
+
+Audit
+
+Compliance
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Enterprise Integration
+
+Business Automation
+
+API Management
+
+Application Connectivity
+
+Workflow Automation
+
+Digital Transformation
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Connections
+
+Document Flows
+
+Workflows
+
+APIs
+
+Security
+
+Users
+
+Monitoring
+
+Business Rules
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Integration Assessment
+
+↓
+
+Architecture
+
+↓
+
+Configuration
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Monitoring
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Enterprise Integration
+
+Cloud Migration
+
+Digital Platform Modernization
+
+Workflow Automation
+
+API Modernization
+
+ERP Integration
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Infor LN
+
+Infor M3
+
+Infor Lawson
+
+Infor EAM
+
+REST APIs
+
+SOAP
+
+ERP Systems
+
+Identity Providers
+
+==================================================
+COMMON REPORTS
+==============
+
+Integration Health
+
+API Usage
+
+Workflow Status
+
+Business Events
+
+Platform Monitoring
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Integration Teams
+
+Enterprise Architects
+
+Developers
+
+Business Analysts
+
+Operations
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Integration
+
+*
+
+Workflow
+
+*
+
+APIs
+
+Example
+
+("Infor ION" OR "Infor OS")
+
+AND
+
+(API OR Workflow)
+
+AND
+
+(Integration OR Automation)
+
+AND
+
+(Consultant OR Architect)
+
+Expand Infor OS terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Infor OS
+
+Critical
+
+Infor ION
+
+Critical
+
+Integration
+
+High
+
+Workflow
+
+High
+
+API Gateway
+
+High
+
+Document Flow
+
+Medium
+
+Security
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+MuleSoft
+
+↓
+
+Infor ION
+
+Medium
+
+---
+
+Boomi
+
+↓
+
+Infor Integration
+
+Medium
+
+---
+
+Azure Integration Services
+
+↓
+
+Enterprise Integration
+
+Medium
+
+---
+
+SAP PI/PO
+
+↓
+
+Infor Middleware
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Platform Component
+
+Integration Scope
+
+Architecture
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Infor OS
+
+ION
+
+API Gateway
+
+Workflow
+
+Business Vault
+
+Document Flows
+
+Identify whether the consultant performed
+
+Architecture
+
+Configuration
+
+Development
+
+Integration
+
+Testing
+
+Deployment
+
+Monitoring
+
+Optimization
+
+Recognize candidates with enterprise Infor OS implementation, ION integration, API modernization, workflow automation, event-driven integration and enterprise digital platform transformation experience as senior Infor integration consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating API development as Infor ION implementation.
+
+Confusing ERP integration with platform architecture.
+
+Matching candidates solely because they mention REST APIs.
+
+Ignoring Business Object Documents (BODs) and document flow expertise.
+
+Treating workflow usage as workflow implementation.
+
+Ignoring API Gateway and Business Vault capabilities.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Infor OS
+
+↓
+
+Infor Operating Service
+
+Enterprise Platform
+
+---
+
+Infor ION
+
+↓
+
+Intelligent Open Network
+
+ION
+
+Middleware
+
+Enterprise Integration
+
+---
+
+Integration
+
+↓
+
+Document Flows
+
+BOD
+
+REST APIs
+
+Workflow
+
+Event Processing
+
+---
+
+Platform
+
+↓
+
+API Gateway
+
+Business Vault
+
+Data Lake
+
+Ming.le
+
+Document Management
+
+END_OF_FILE

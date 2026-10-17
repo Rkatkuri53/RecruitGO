@@ -1,0 +1,816 @@
+FILE_NAME:
+009_NETWORKING.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Computer Networking
+
+PURPOSE:
+Enable AI agents to understand networking concepts, protocols, devices, cloud networking, security, and enterprise networking responsibilities. This knowledge is required for accurate JD parsing, resume analysis, Boolean generation, candidate matching, cloud role identification, DevOps, cybersecurity, infrastructure, and solution architecture.
+
+KEYWORDS:
+Networking
+Computer Networks
+TCP/IP
+Routing
+Switching
+LAN
+WAN
+VPN
+Firewall
+DNS
+Load Balancer
+
+ROLE_FAMILIES:
+Network Engineer
+Cloud Engineer
+DevOps Engineer
+Infrastructure Engineer
+System Administrator
+Cybersecurity Engineer
+Site Reliability Engineer
+Platform Engineer
+Cloud Architect
+Solution Architect
+
+COMMON_JOB_TITLES:
+Network Engineer
+Network Administrator
+Infrastructure Engineer
+Cloud Network Engineer
+Network Architect
+Network Consultant
+Systems Engineer
+
+ALTERNATIVE_TITLES:
+Network Infrastructure
+Enterprise Networking
+Computer Networks
+
+CORE_SKILLS:
+TCP/IP
+Routing
+Switching
+Network Security
+Troubleshooting
+DNS
+VPN
+
+SUPPORTING_SKILLS:
+Cloud Networking
+Load Balancing
+Firewalls
+Monitoring
+Automation
+
+RELATED_TECHNOLOGIES:
+AWS
+Azure
+Google Cloud
+Cisco
+Juniper
+Fortinet
+Palo Alto
+Linux
+Windows
+
+TECHNOLOGY_CATEGORY:
+Networking
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+003_IT_ECOSYSTEM.txt
+
+004_SDLC.txt
+
+005_SOFTWARE_ARCHITECTURE.txt
+
+==================================================
+NETWORKING DEFINITION
+=====================
+
+Networking enables communication between computers, applications, users, and cloud services.
+
+Networking knowledge is required for cloud computing, DevOps, cybersecurity, infrastructure, distributed systems, APIs, enterprise applications and production support.
+
+==================================================
+NETWORK TYPES
+=============
+
+LAN
+
+Local Area Network
+
+---
+
+WAN
+
+Wide Area Network
+
+---
+
+MAN
+
+Metropolitan Area Network
+
+---
+
+VPN
+
+Virtual Private Network
+
+---
+
+Internet
+
+Global Public Network
+
+---
+
+Intranet
+
+Private Organizational Network
+
+==================================================
+OSI MODEL
+=========
+
+Layer 7
+
+Application
+
+Examples
+
+HTTP
+
+HTTPS
+
+FTP
+
+SMTP
+
+DNS
+
+---
+
+Layer 6
+
+Presentation
+
+Encryption
+
+Compression
+
+---
+
+Layer 5
+
+Session
+
+Session Management
+
+---
+
+Layer 4
+
+Transport
+
+TCP
+
+UDP
+
+---
+
+Layer 3
+
+Network
+
+IP
+
+Routing
+
+ICMP
+
+---
+
+Layer 2
+
+Data Link
+
+MAC Address
+
+Ethernet
+
+Switching
+
+---
+
+Layer 1
+
+Physical
+
+Cables
+
+Fiber
+
+Wireless
+
+==================================================
+TCP/IP MODEL
+============
+
+Application
+
+↓
+
+Transport
+
+↓
+
+Internet
+
+↓
+
+Network Access
+
+==================================================
+COMMON PROTOCOLS
+================
+
+HTTP
+
+Web Communication
+
+---
+
+HTTPS
+
+Secure Web Communication
+
+---
+
+TCP
+
+Reliable Communication
+
+---
+
+UDP
+
+Fast Communication
+
+---
+
+DNS
+
+Name Resolution
+
+---
+
+DHCP
+
+IP Address Allocation
+
+---
+
+SSH
+
+Secure Remote Access
+
+---
+
+FTP
+
+File Transfer
+
+---
+
+SFTP
+
+Secure File Transfer
+
+---
+
+SMTP
+
+Email Sending
+
+---
+
+POP3
+
+Email Retrieval
+
+---
+
+IMAP
+
+Email Synchronization
+
+---
+
+SNMP
+
+Network Monitoring
+
+==================================================
+IP ADDRESSING
+=============
+
+IPv4
+
+IPv6
+
+Private IP
+
+Public IP
+
+Static IP
+
+Dynamic IP
+
+Subnet
+
+CIDR
+
+Gateway
+
+==================================================
+NETWORK DEVICES
+===============
+
+Router
+
+Switch
+
+Firewall
+
+Load Balancer
+
+Proxy Server
+
+VPN Gateway
+
+Wireless Access Point
+
+==================================================
+ROUTING
+=======
+
+PURPOSE
+
+Forward network traffic.
+
+COMMON PROTOCOLS
+
+BGP
+
+OSPF
+
+RIP
+
+Static Routing
+
+==================================================
+SWITCHING
+=========
+
+PURPOSE
+
+Connect devices within a network.
+
+COMMON FEATURES
+
+VLAN
+
+Trunking
+
+Port Security
+
+==================================================
+DNS
+===
+
+PURPOSE
+
+Convert domain names into IP addresses.
+
+COMMON RESPONSIBILITIES
+
+DNS Configuration
+
+DNS Troubleshooting
+
+DNS Security
+
+==================================================
+LOAD BALANCING
+==============
+
+PURPOSE
+
+Distribute application traffic.
+
+COMMON TYPES
+
+Layer 4
+
+Layer 7
+
+COMMON PRODUCTS
+
+AWS ELB
+
+Azure Load Balancer
+
+NGINX
+
+HAProxy
+
+F5
+
+==================================================
+VPN
+===
+
+PURPOSE
+
+Secure remote communication.
+
+COMMON TYPES
+
+Site-to-Site
+
+Remote Access
+
+SSL VPN
+
+IPSec VPN
+
+==================================================
+FIREWALLS
+=========
+
+PURPOSE
+
+Protect networks.
+
+COMMON PRODUCTS
+
+Cisco ASA
+
+Fortinet
+
+Palo Alto
+
+Check Point
+
+pfSense
+
+==================================================
+NETWORK SECURITY
+================
+
+COMMON CONCEPTS
+
+Network Segmentation
+
+ACL
+
+Zero Trust
+
+IDS
+
+IPS
+
+NAT
+
+DMZ
+
+==================================================
+CLOUD NETWORKING
+================
+
+AWS
+
+VPC
+
+Subnet
+
+Route Table
+
+Security Group
+
+NACL
+
+ELB
+
+Transit Gateway
+
+---
+
+AZURE
+
+Virtual Network
+
+Subnet
+
+NSG
+
+Load Balancer
+
+Application Gateway
+
+VPN Gateway
+
+---
+
+GOOGLE CLOUD
+
+VPC
+
+Cloud Router
+
+Cloud Load Balancer
+
+Cloud VPN
+
+==================================================
+NETWORK MONITORING
+==================
+
+COMMON TOOLS
+
+Wireshark
+
+SolarWinds
+
+Nagios
+
+Zabbix
+
+PRTG
+
+Grafana
+
+Prometheus
+
+==================================================
+NETWORK AUTOMATION
+==================
+
+COMMON TOOLS
+
+Ansible
+
+Python
+
+Terraform
+
+Cisco DNA Center
+
+==================================================
+NETWORK RESPONSIBILITY MAPPING
+==============================
+
+Network Engineer
+
+↓
+
+Routing
+
+Switching
+
+Firewalls
+
+VPN
+
+DNS
+
+---
+
+Cloud Engineer
+
+↓
+
+Cloud Networking
+
+VPC
+
+Subnets
+
+Load Balancers
+
+---
+
+DevOps Engineer
+
+↓
+
+Ingress
+
+Service Networking
+
+Container Networking
+
+---
+
+Cybersecurity Engineer
+
+↓
+
+Firewalls
+
+IDS
+
+IPS
+
+Network Policies
+
+---
+
+Solution Architect
+
+↓
+
+Network Design
+
+High Availability
+
+Disaster Recovery
+
+==================================================
+NETWORK ECOSYSTEM
+=================
+
+Cloud
+
+↓
+
+VPC
+
+↓
+
+Subnet
+
+↓
+
+Load Balancer
+
+↓
+
+Application Server
+
+↓
+
+Database
+
+---
+
+Internet
+
+↓
+
+DNS
+
+↓
+
+Firewall
+
+↓
+
+Load Balancer
+
+↓
+
+Application
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Networking Skills
+
+*
+
+Protocols
+
+*
+
+Devices
+
+*
+
+Cloud Networking
+
+*
+
+Role
+
+Example
+
+(Network Engineer)
+
+AND
+
+(BGP OR OSPF OR TCP/IP)
+
+AND
+
+(Firewall OR VPN)
+
+Cloud roles should expand networking technologies.
+
+Example
+
+AWS
+
+↓
+
+VPC
+
+Subnet
+
+Security Group
+
+ELB
+
+==================================================
+MATCHING_RULES
+==============
+
+Networking Fundamentals
+
+Critical
+
+Protocols
+
+Critical
+
+Cloud Networking
+
+High
+
+Security
+
+High
+
+Troubleshooting
+
+High
+
+Automation
+
+Medium
+
+Monitoring
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Networking responsibilities are more important than product names.
+
+Cloud networking should be evaluated separately from traditional networking.
+
+Do not assume DevOps engineers have deep routing knowledge.
+
+Do not assume Cloud Engineers are Network Architects.
+
+Validate networking expertise using
+
+Projects
+
+Responsibilities
+
+Technologies
+
+Certifications
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Confusing DNS with DHCP.
+
+Treating VPN as a firewall.
+
+Treating Load Balancer as a firewall.
+
+Assuming TCP and HTTP are interchangeable.
+
+Treating AWS VPC as a VPN.
+
+Matching candidates on Cisco certifications without networking responsibilities.
+
+Ignoring cloud networking experience for cloud roles.
+
+END_OF_FILE

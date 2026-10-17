@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+
+# Environment variables & secrets (CRITICAL: NEVER COMMIT)
+.env
+.env.*
+!.env.example
+env.yaml
+*.pem
+*.key
+
+# Build and binary artifacts
+dist/
+release/
+release-builds/
+Tier1_Release_Package/
+*.exe
+*.zip
+*.tar.gz
+
+# Local runtime & sensitive user data
+data/agent_profile/
+data/debug/
+data/resumes/
+data/*.bak
+data/*.xlsx
+
+# Logs and dynamic reports
+*.log
+npm-debug.log*
+yarn-debug.log*
+reports/*.csv
+
+# Backups, temp files, and loose test dumps
+*.bak*
+*.tmp
+public/index.html.bak_ats
+public/index_cleaned.html
+scratch/
+scratch_*.*
+*.cjs
+test_*.js
+check_*.js
+script*.js
+insert-dummies*.js
+mock_jobs*.js
+generate-license*.js
+Generate_License.*
+license-records.csv
+bing.html
+ddg*.html
+yahoo.html
+*.db
+database.sqlite
+!data/database.sqlite
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

@@ -1,0 +1,652 @@
+FILE_NAME:
+023_SAP_PP.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP Production Planning (SAP PP)
+
+PURPOSE:
+Enable AI agents to understand SAP Production Planning (SAP PP), manufacturing planning, Material Requirements Planning (MRP), production execution, capacity planning, shop floor control, Bill of Materials (BOM), routings, work centers, S/4HANA enhancements, consultant responsibilities, Boolean generation, and candidate matching.
+
+KEYWORDS:
+SAP PP
+SAP Production Planning
+Manufacturing
+MRP
+MRP Live
+Production Orders
+Bill of Materials
+BOM
+Routing
+Work Center
+Capacity Planning
+
+ROLE_FAMILIES:
+SAP PP Consultant
+SAP Manufacturing Consultant
+SAP Production Planning Consultant
+SAP Supply Chain Consultant
+SAP Solution Architect
+SAP Manufacturing Lead
+
+COMMON_JOB_TITLES:
+SAP PP Consultant
+SAP Production Planning Consultant
+SAP Manufacturing Consultant
+SAP PP Functional Consultant
+SAP PP Lead Consultant
+
+ALTERNATIVE_TITLES:
+SAP Manufacturing
+SAP Production
+SAP Shop Floor
+SAP Planning
+
+CORE_SKILLS:
+Production Planning
+MRP
+Capacity Planning
+Production Execution
+Configuration
+Business Process Analysis
+Testing
+
+SUPPORTING_SKILLS:
+SAP S/4HANA
+SAP QM
+SAP MM
+SAP PM
+SAP EWM
+Manufacturing Execution
+
+RELATED_TECHNOLOGIES:
+SAP ECC
+SAP S/4HANA
+SAP HANA
+SAP Fiori
+SAP Digital Manufacturing
+
+TECHNOLOGY_CATEGORY:
+SAP Functional Module
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+==================================================
+MODULE OVERVIEW
+===============
+
+SAP Production Planning (PP) manages manufacturing planning, production scheduling, material planning, shop floor execution, and production control.
+
+It supports
+
+Production Planning
+
+Material Planning
+
+Capacity Planning
+
+Shop Floor Control
+
+Production Orders
+
+Manufacturing Execution
+
+==================================================
+BUSINESS PROCESS FLOW
+=====================
+
+Demand
+
+↓
+
+Sales Forecast
+
+↓
+
+Material Requirements Planning
+
+↓
+
+Planned Orders
+
+↓
+
+Production Orders
+
+↓
+
+Material Issue
+
+↓
+
+Production Confirmation
+
+↓
+
+Goods Receipt
+
+↓
+
+Inventory Update
+
+==================================================
+CORE SUBMODULES
+===============
+
+Production Planning
+
+Material Requirements Planning (MRP)
+
+Master Production Scheduling (MPS)
+
+Capacity Planning
+
+Production Orders
+
+Shop Floor Control
+
+Production Version
+
+Demand Management
+
+==================================================
+MATERIAL REQUIREMENTS PLANNING
+==============================
+
+COMMON RESPONSIBILITIES
+
+Material Planning
+
+Supply Planning
+
+Demand Planning
+
+Net Requirements Calculation
+
+Procurement Proposals
+
+MRP Live (S/4HANA)
+
+==================================================
+PRODUCTION ORDERS
+=================
+
+COMMON RESPONSIBILITIES
+
+Order Creation
+
+Order Release
+
+Material Staging
+
+Order Confirmation
+
+Goods Issue
+
+Goods Receipt
+
+Order Settlement
+
+==================================================
+MASTER DATA
+===========
+
+COMMON OBJECTS
+
+Material Master
+
+Bill of Materials (BOM)
+
+Routing
+
+Production Version
+
+Work Center
+
+Production Resource Tools
+
+==================================================
+CAPACITY PLANNING
+=================
+
+COMMON RESPONSIBILITIES
+
+Capacity Requirements
+
+Work Center Scheduling
+
+Finite Scheduling
+
+Capacity Leveling
+
+Resource Utilization
+
+==================================================
+SHOP FLOOR CONTROL
+==================
+
+COMMON RESPONSIBILITIES
+
+Production Confirmation
+
+Operation Confirmation
+
+Yield
+
+Scrap
+
+Rework
+
+Production Monitoring
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Make-to-Stock (MTS)
+
+Make-to-Order (MTO)
+
+Repetitive Manufacturing
+
+Discrete Manufacturing
+
+Process Manufacturing Integration
+
+Engineering Change Management
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Plant
+
+MRP Controller
+
+MRP Type
+
+Planning Strategy
+
+Lot Sizing
+
+Scheduling Parameters
+
+Work Centers
+
+Production Scheduling Profile
+
+Order Types
+
+BOM Usage
+
+==================================================
+INTEGRATION WITH OTHER MODULES
+==============================
+
+PP
+
+↓
+
+MM
+
+Material Planning
+
+Inventory
+
+---
+
+PP
+
+↓
+
+SD
+
+Sales Orders
+
+Demand Planning
+
+---
+
+PP
+
+↓
+
+QM
+
+Quality Inspection
+
+---
+
+PP
+
+↓
+
+PM
+
+Equipment Maintenance
+
+---
+
+PP
+
+↓
+
+FI/CO
+
+Costing
+
+Settlement
+
+---
+
+PP
+
+↓
+
+EWM
+
+Warehouse Execution
+
+==================================================
+SAP S/4HANA ENHANCEMENTS
+========================
+
+MRP Live
+
+Embedded Analytics
+
+Fiori Applications
+
+Simplified Planning
+
+Real-Time Manufacturing Analytics
+
+Production Scheduling Improvements
+
+==================================================
+COMMON REPORTS
+==============
+
+MRP Reports
+
+Production Orders
+
+Capacity Reports
+
+Work Center Load
+
+Material Availability
+
+Production Performance
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Business Workshops
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Configuration
+
+↓
+
+Integration Testing
+
+↓
+
+User Acceptance Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+PROJECT TYPES
+=============
+
+Greenfield Implementation
+
+Brownfield Conversion
+
+Manufacturing Rollout
+
+S/4HANA Transformation
+
+Support
+
+Enhancement
+
+Manufacturing Optimization
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Production Planning Team
+
+Manufacturing Engineers
+
+Production Supervisors
+
+Shop Floor Managers
+
+Operations Managers
+
+Supply Chain Team
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Business Process
+
+*
+
+Responsibilities
+
+*
+
+Implementation Type
+
+Example
+
+("SAP PP" OR "Production Planning")
+
+AND
+
+(MRP OR "Production Orders" OR BOM OR Routing)
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+("SAP S/4HANA" OR ECC)
+
+Expand manufacturing terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+SAP PP Experience
+
+Critical
+
+Manufacturing Knowledge
+
+Critical
+
+MRP
+
+Critical
+
+Production Orders
+
+High
+
+Configuration
+
+High
+
+Business Process Knowledge
+
+High
+
+Integration
+
+High
+
+S/4HANA Experience
+
+High
+
+Migration Experience
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP ECC PP
+
+↓
+
+SAP S/4HANA PP
+
+High
+
+---
+
+SAP PP
+
+↓
+
+SAP Digital Manufacturing
+
+Medium
+
+---
+
+SAP PP
+
+↓
+
+SAP APO / IBP
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Manufacturing Process
+
+Planning Strategy
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Support
+
+Implementation
+
+Migration
+
+Rollout
+
+Transformation
+
+Identify whether the consultant performed
+
+Configuration
+
+Business Analysis
+
+Testing
+
+Cutover
+
+Hypercare
+
+Production Support
+
+Recognize candidates with
+
+MRP Live
+
+Embedded Analytics
+
+Advanced Planning
+
+Production Optimization
+
+experience as modern SAP PP specialists.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SAP PP as Inventory Management.
+
+Confusing MRP with Procurement.
+
+Ignoring integration with MM, SD, QM, PM, FI/CO and EWM.
+
+Matching candidates solely because they mention Production Orders.
+
+Treating manufacturing business knowledge as optional.
+
+Ignoring BOM, Routing and Work Center configuration.
+
+Assuming certification equals implementation experience.
+
+END_OF_FILE

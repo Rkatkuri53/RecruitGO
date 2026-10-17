@@ -1,0 +1,682 @@
+FILE_NAME:
+074_DYNAMICS_365_FIELD_SERVICE.txt
+
+ID:
+074
+
+DOMAIN:
+Microsoft Dynamics 365
+
+CATEGORY:
+Enterprise CRM
+
+SUBCATEGORY:
+Dynamics 365 Field Service
+
+PRIMARY_ROLE:
+Dynamics 365 Field Service Consultant
+
+RELATED_FILES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+072_DYNAMICS_365_CRM_SALES.txt
+
+073_DYNAMICS_365_CUSTOMER_SERVICE.txt
+
+075_DYNAMICS_365_MARKETING.txt
+
+076_DYNAMICS_365_POWER_PLATFORM.txt
+
+077_DYNAMICS_365_DEVELOPMENT.txt
+
+078_DYNAMICS_365_INTEGRATION.txt
+
+079_DYNAMICS_365_DATA_AI.txt
+
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+062_SERVICENOW_CSM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Dynamics 365 Field Service
+
+PURPOSE:
+Enable AI agents to understand Microsoft Dynamics 365 Field Service, including work orders, scheduling, resource management, mobile workforce, asset management, IoT integration, preventive maintenance, consultant responsibilities, implementation methodologies, and field service transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Dynamics 365 Field Service
+Field Service
+Work Orders
+Scheduling
+Resource Scheduling Optimization
+RSO
+Dispatching
+Mobile Workforce
+Asset Management
+IoT
+Preventive Maintenance
+
+ROLE_FAMILIES:
+Dynamics 365 Field Service Consultant
+
+Field Service Functional Consultant
+
+Dynamics Solution Architect
+
+Business Analyst
+
+Field Operations Consultant
+
+COMMON_JOB_TITLES:
+Dynamics 365 Field Service Consultant
+
+Field Service Consultant
+
+Dynamics CRM Field Service Consultant
+
+Dynamics Solution Architect
+
+Field Operations Consultant
+
+ALTERNATIVE_TITLES:
+Mobile Workforce Consultant
+
+Service Operations Consultant
+
+Field Operations Transformation Consultant
+
+CORE_SKILLS:
+Work Order Management
+
+Scheduling
+
+Dispatching
+
+Resource Scheduling Optimization
+
+Asset Management
+
+Preventive Maintenance
+
+Configuration
+
+Workflow Automation
+
+SUPPORTING_SKILLS:
+Power Platform
+
+Power BI
+
+Azure IoT
+
+Dataverse
+
+Integration
+
+Mobile Applications
+
+Reporting
+
+RELATED_TECHNOLOGIES:
+Dynamics 365 Field Service
+
+Resource Scheduling Optimization
+
+Azure IoT
+
+Power Platform
+
+Power BI
+
+Microsoft Teams
+
+Dynamics Customer Service
+
+Dataverse
+
+TECHNOLOGY_CATEGORY:
+Enterprise Field Service Management Platform
+
+DEPENDENCIES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Dynamics 365 Field Service enables organizations to optimize field operations through intelligent scheduling, work order management, mobile workforce automation, asset management and IoT-enabled predictive maintenance.
+
+It connects dispatchers, technicians, customers and assets through an integrated cloud platform.
+
+==================================================
+CORE MODULES
+============
+
+Work Orders
+
+Scheduling
+
+Resource Scheduling Optimization (RSO)
+
+Dispatching
+
+Asset Management
+
+Preventive Maintenance
+
+Mobile App
+
+Inspections
+
+IoT Integration
+
+==================================================
+WORK ORDER MANAGEMENT
+=====================
+
+COMMON RESPONSIBILITIES
+
+Work Order Creation
+
+Assignment
+
+Scheduling
+
+Execution
+
+Completion
+
+Billing Integration
+
+==================================================
+RESOURCE SCHEDULING
+===================
+
+COMMON RESPONSIBILITIES
+
+Technician Scheduling
+
+Skill Matching
+
+Territory Management
+
+Travel Optimization
+
+Calendar Management
+
+==================================================
+RESOURCE SCHEDULING OPTIMIZATION
+================================
+
+COMMON RESPONSIBILITIES
+
+Automated Scheduling
+
+Optimization Goals
+
+Travel Time Reduction
+
+Capacity Planning
+
+Dynamic Scheduling
+
+==================================================
+ASSET MANAGEMENT
+================
+
+COMMON RESPONSIBILITIES
+
+Customer Assets
+
+Asset History
+
+Maintenance Records
+
+Warranty Tracking
+
+Service Contracts
+
+==================================================
+PREVENTIVE MAINTENANCE
+======================
+
+COMMON RESPONSIBILITIES
+
+Maintenance Plans
+
+Recurring Work Orders
+
+Inspection Scheduling
+
+Compliance
+
+Service Intervals
+
+==================================================
+MOBILE WORKFORCE
+================
+
+COMMON RESPONSIBILITIES
+
+Technician Mobile App
+
+Offline Capability
+
+Photo Capture
+
+GPS
+
+Barcode Scanning
+
+Digital Signatures
+
+==================================================
+IOT INTEGRATION
+===============
+
+COMMON RESPONSIBILITIES
+
+Connected Devices
+
+Azure IoT
+
+Predictive Maintenance
+
+Remote Monitoring
+
+Automated Work Orders
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Service Request-to-Work Order
+
+Dispatch-to-Completion
+
+Preventive Maintenance
+
+Break/Fix Support
+
+Field Inspections
+
+Asset Lifecycle
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Work Order Types
+
+Booking Status
+
+Resources
+
+Territories
+
+Assets
+
+Inspections
+
+Scheduling Policies
+
+Security Roles
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Field Operations Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+Mobile Deployment
+
+↓
+
+Training
+
+↓
+
+Go-Live
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Field Service Implementation
+
+Mobile Workforce Transformation
+
+IoT Modernization
+
+Preventive Maintenance
+
+Service Operations Modernization
+
+Global Technician Rollout
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Azure IoT
+
+Power Platform
+
+ERP
+
+Power BI
+
+Microsoft Teams
+
+REST APIs
+
+Customer Service
+
+Asset Management Systems
+
+==================================================
+COMMON REPORTS
+==============
+
+Work Orders
+
+Technician Productivity
+
+Travel Time
+
+Asset Health
+
+Maintenance KPIs
+
+Service Levels
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Dispatchers
+
+Field Technicians
+
+Service Managers
+
+Operations Managers
+
+Asset Managers
+
+Customer Service Teams
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Field Service
+
+*
+
+Scheduling
+
+*
+
+Assets
+
+Example
+
+("Dynamics 365 Field Service")
+
+AND
+
+("Work Orders" OR Scheduling)
+
+AND
+
+(RSO OR Assets)
+
+AND
+
+(Consultant)
+
+Expand Field Service terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Dynamics 365 Field Service
+
+Critical
+
+Work Orders
+
+Critical
+
+Scheduling
+
+High
+
+RSO
+
+High
+
+Asset Management
+
+High
+
+IoT
+
+Medium
+
+Power Platform
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Salesforce Field Service
+
+↓
+
+Dynamics 365 Field Service
+
+Medium
+
+---
+
+ServiceNow Field Service
+
+↓
+
+Dynamics Field Service
+
+Medium
+
+---
+
+IFS Field Service Management
+
+↓
+
+Dynamics Field Service
+
+High
+
+---
+
+ClickSoftware
+
+↓
+
+Dynamics Field Service
+
+High
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Field Service Scope
+
+Scheduling Model
+
+Asset Strategy
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Field Service
+
+Customer Service
+
+Asset Management
+
+IoT
+
+Mobile Workforce
+
+Identify whether the consultant performed
+
+Requirements Analysis
+
+Configuration
+
+Scheduling Design
+
+Workflow Automation
+
+Testing
+
+Mobile Deployment
+
+Training
+
+Go-Live
+
+Recognize candidates with enterprise Field Service implementation, Resource Scheduling Optimization, mobile workforce deployment, Azure IoT integration, preventive maintenance automation and global service operations transformation experience as senior Dynamics 365 Field Service consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Field Service as Customer Service.
+
+Confusing dispatching with scheduling optimization.
+
+Matching candidates solely because they mention Dynamics.
+
+Ignoring mobile workforce expertise.
+
+Treating technician experience as implementation experience.
+
+Ignoring RSO and IoT capabilities.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Field Service
+
+↓
+
+Work Orders
+
+Dispatch
+
+Scheduling
+
+Technicians
+
+---
+
+Scheduling
+
+↓
+
+RSO
+
+Booking
+
+Territories
+
+Travel Optimization
+
+Capacity Planning
+
+---
+
+Assets
+
+↓
+
+Maintenance
+
+Warranty
+
+Inspections
+
+Preventive Maintenance
+
+---
+
+IoT
+
+↓
+
+Azure IoT
+
+Connected Devices
+
+Predictive Maintenance
+
+Remote Monitoring
+
+END_OF_FILE

@@ -1,0 +1,657 @@
+FILE_NAME:
+113_INFOR_CLOUDSUITE.txt
+
+ID:
+113
+
+DOMAIN:
+Infor
+
+CATEGORY:
+Industry Cloud ERP
+
+SUBCATEGORY:
+Infor CloudSuite
+
+PRIMARY_ROLE:
+Infor CloudSuite Consultant
+
+RELATED_FILES:
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+111_INFOR_LN.txt
+
+112_INFOR_M3.txt
+
+114_INFOR_LAWSON.txt
+
+115_INFOR_EAM.txt
+
+116_INFOR_WMS.txt
+
+117_INFOR_SCM.txt
+
+118_INFOR_OS_ION.txt
+
+119_INFOR_BI_ANALYTICS.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+VERSION:
+2.0
+
+CATEGORY:
+Infor CloudSuite
+
+PURPOSE:
+Enable AI agents to understand Infor CloudSuite, multi-tenant cloud ERP, industry-specific CloudSuites, AWS deployment, Infor OS, ION integration, AI-driven automation, consultant responsibilities, implementation methodologies, and enterprise cloud transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Infor CloudSuite
+CloudSuite
+Infor Cloud ERP
+CloudSuite Industrial
+CloudSuite M3
+CloudSuite LN
+CloudSuite Distribution
+CloudSuite Healthcare
+CloudSuite Fashion
+CloudSuite Food & Beverage
+AWS
+Multi-Tenant ERP
+
+ROLE_FAMILIES:
+Infor CloudSuite Consultant
+
+Infor Cloud Architect
+
+Infor Functional Consultant
+
+Infor Technical Consultant
+
+Cloud ERP Consultant
+
+Solution Architect
+
+COMMON_JOB_TITLES:
+Infor CloudSuite Consultant
+
+Infor Cloud Architect
+
+Infor Cloud ERP Consultant
+
+Infor Solution Architect
+
+Infor Cloud Functional Consultant
+
+ALTERNATIVE_TITLES:
+Industry Cloud Consultant
+
+Cloud ERP Architect
+
+Enterprise Cloud Consultant
+
+CORE_SKILLS:
+Cloud ERP
+
+Implementation
+
+Industry Processes
+
+Infor OS
+
+ION
+
+Security
+
+Workflow Automation
+
+Cloud Migration
+
+SUPPORTING_SKILLS:
+AWS
+
+REST APIs
+
+DevOps
+
+Identity Management
+
+Monitoring
+
+Reporting
+
+Data Migration
+
+RELATED_TECHNOLOGIES:
+Infor CloudSuite
+
+Infor OS
+
+Infor ION
+
+Amazon Web Services (AWS)
+
+Infor Document Management
+
+Infor Ming.le
+
+Infor Coleman AI
+
+TECHNOLOGY_CATEGORY:
+Industry Cloud ERP Platform
+
+DEPENDENCIES:
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Infor CloudSuite is Infor's industry-specific cloud ERP portfolio built primarily on Amazon Web Services (AWS). It delivers multi-tenant SaaS ERP solutions with embedded analytics, AI, workflow automation, integration and industry best practices.
+
+CloudSuite offerings are tailored for manufacturing, distribution, healthcare, retail, hospitality, food & beverage, fashion and public sector organizations.
+
+==================================================
+CLOUDSUITE PORTFOLIO
+====================
+
+CloudSuite LN
+
+CloudSuite M3
+
+CloudSuite Industrial
+
+CloudSuite Distribution
+
+CloudSuite Healthcare
+
+CloudSuite Fashion
+
+CloudSuite Food & Beverage
+
+CloudSuite Public Sector
+
+==================================================
+CORE PLATFORM SERVICES
+======================
+
+Infor OS
+
+Infor ION
+
+Infor Ming.le
+
+Document Management
+
+Workflow
+
+Security
+
+API Gateway
+
+Analytics
+
+==================================================
+CLOUD OPERATIONS
+================
+
+COMMON RESPONSIBILITIES
+
+Tenant Management
+
+Environment Strategy
+
+Release Management
+
+Cloud Upgrades
+
+Monitoring
+
+Backup & Recovery
+
+==================================================
+WORKFLOW & AUTOMATION
+=====================
+
+COMMON RESPONSIBILITIES
+
+Business Workflows
+
+Approvals
+
+Notifications
+
+Task Automation
+
+Business Process Automation
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+Identity Management
+
+Single Sign-On
+
+Role-Based Access Control
+
+Audit Logging
+
+Compliance
+
+Data Protection
+
+==================================================
+DATA MANAGEMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+Data Migration
+
+Master Data
+
+Data Governance
+
+Archiving
+
+Synchronization
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Cloud ERP Transformation
+
+Business Process Standardization
+
+ERP Modernization
+
+Workflow Automation
+
+Cloud Operations
+
+Enterprise Integration
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Tenants
+
+Organizations
+
+Security
+
+Workflows
+
+Business Rules
+
+APIs
+
+Users
+
+Monitoring
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Business Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Integration
+
+↓
+
+Data Migration
+
+↓
+
+Testing
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Cloud ERP Implementation
+
+ERP Modernization
+
+Cloud Migration
+
+Industry Transformation
+
+Global ERP Rollout
+
+Cloud Consolidation
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Infor OS
+
+Infor ION
+
+AWS Services
+
+CRM
+
+PLM
+
+MES
+
+REST APIs
+
+Identity Providers
+
+==================================================
+COMMON REPORTS
+==============
+
+Tenant Health
+
+Cloud Operations
+
+Workflow Status
+
+Business KPIs
+
+Executive Dashboards
+
+Compliance Reports
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Business Process Owners
+
+IT Operations
+
+Finance
+
+Supply Chain
+
+Manufacturing
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Cloud ERP
+
+*
+
+Industry
+
+*
+
+Implementation
+
+Example
+
+("Infor CloudSuite" OR CloudSuite)
+
+AND
+
+(Infor OS OR ION)
+
+AND
+
+(AWS OR Cloud)
+
+AND
+
+(Consultant OR Architect)
+
+Expand CloudSuite terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Infor CloudSuite
+
+Critical
+
+Cloud ERP
+
+Critical
+
+Infor OS
+
+High
+
+ION
+
+High
+
+Cloud Migration
+
+High
+
+Workflow
+
+Medium
+
+Security
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP S/4HANA Cloud
+
+↓
+
+Cloud ERP
+
+Medium
+
+---
+
+Oracle Fusion Cloud ERP
+
+↓
+
+Cloud ERP
+
+Medium
+
+---
+
+Microsoft Dynamics 365
+
+↓
+
+Cloud ERP
+
+Medium
+
+---
+
+IFS Cloud
+
+↓
+
+Industry Cloud ERP
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+CloudSuite Product
+
+Industry
+
+Deployment Model
+
+Implementation Scope
+
+Project Phase
+
+Differentiate
+
+CloudSuite
+
+Infor OS
+
+ION
+
+AWS
+
+Multi-Tenant
+
+Industry Solution
+
+Identify whether the consultant performed
+
+Assessment
+
+Configuration
+
+Migration
+
+Integration
+
+Testing
+
+Go-Live
+
+Optimization
+
+Support
+
+Recognize candidates with enterprise Infor CloudSuite implementation, cloud ERP migration, AWS-hosted ERP modernization, Infor OS integration and multi-country cloud transformation experience as senior Infor CloudSuite consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating cloud hosting as CloudSuite implementation.
+
+Confusing Infor CloudSuite with individual ERP modules.
+
+Matching candidates solely because they mention AWS.
+
+Ignoring Infor OS and ION expertise.
+
+Treating SaaS usage as implementation experience.
+
+Ignoring industry-specific CloudSuite variants.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Infor CloudSuite
+
+↓
+
+CloudSuite
+
+Infor Cloud ERP
+
+Industry Cloud
+
+---
+
+Cloud
+
+↓
+
+AWS
+
+SaaS
+
+Multi-Tenant
+
+Cloud Migration
+
+---
+
+Platform
+
+↓
+
+Infor OS
+
+ION
+
+Ming.le
+
+Workflow
+
+---
+
+Industry
+
+↓
+
+Manufacturing
+
+Distribution
+
+Healthcare
+
+Fashion
+
+Food & Beverage
+
+Public Sector
+
+END_OF_FILE

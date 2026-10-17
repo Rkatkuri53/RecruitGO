@@ -1,0 +1,675 @@
+FILE_NAME:
+115_INFOR_EAM.txt
+
+ID:
+115
+
+DOMAIN:
+Infor
+
+CATEGORY:
+Enterprise Asset Management (EAM)
+
+SUBCATEGORY:
+Infor EAM
+
+PRIMARY_ROLE:
+Infor EAM Consultant
+
+RELATED_FILES:
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+113_INFOR_CLOUDSUITE.txt
+
+116_INFOR_WMS.txt
+
+117_INFOR_SCM.txt
+
+118_INFOR_OS_ION.txt
+
+119_INFOR_BI_ANALYTICS.txt
+
+107_IBM_MAXIMO.txt
+
+013_CLOUD.txt
+
+VERSION:
+2.0
+
+CATEGORY:
+Infor Enterprise Asset Management (EAM)
+
+PURPOSE:
+Enable AI agents to understand Infor EAM, enterprise asset management, maintenance management, work orders, preventive maintenance, predictive maintenance, reliability engineering, asset lifecycle management, consultant responsibilities, implementation methodologies, and enterprise asset transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Infor EAM
+Enterprise Asset Management
+EAM
+Asset Management
+CMMS
+Computerized Maintenance Management System
+Preventive Maintenance
+Predictive Maintenance
+Work Orders
+Reliability
+Asset Lifecycle
+Mobile EAM
+
+ROLE_FAMILIES:
+Infor EAM Functional Consultant
+
+Infor EAM Technical Consultant
+
+Infor EAM Developer
+
+Infor EAM Architect
+
+Enterprise Asset Management Consultant
+
+Maintenance Systems Consultant
+
+COMMON_JOB_TITLES:
+Infor EAM Consultant
+
+Infor EAM Functional Consultant
+
+Infor EAM Technical Consultant
+
+Infor EAM Architect
+
+Infor EAM Developer
+
+ALTERNATIVE_TITLES:
+Asset Management Consultant
+
+CMMS Consultant
+
+Maintenance Consultant
+
+CORE_SKILLS:
+Asset Management
+
+Work Management
+
+Preventive Maintenance
+
+Corrective Maintenance
+
+Inventory Management
+
+Reliability
+
+Procurement
+
+Mobile Workforce
+
+SUPPORTING_SKILLS:
+SQL
+
+Reporting
+
+Workflow
+
+Integration
+
+GIS
+
+IoT
+
+Security
+
+RELATED_TECHNOLOGIES:
+Infor EAM
+
+Infor OS
+
+Infor ION
+
+Infor Analytics
+
+GIS
+
+SCADA
+
+IoT Platforms
+
+Mobile Applications
+
+TECHNOLOGY_CATEGORY:
+Enterprise Asset Management Platform
+
+DEPENDENCIES:
+
+013_CLOUD.txt
+
+107_IBM_MAXIMO.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Infor EAM is Infor's Enterprise Asset Management platform used to manage the complete lifecycle of physical assets across manufacturing, healthcare, public sector, utilities, transportation, facilities management and energy industries.
+
+The platform supports preventive maintenance, predictive maintenance, inspections, inventory management, work management, reliability engineering and mobile field operations.
+
+==================================================
+CORE MODULES
+============
+
+Asset Management
+
+Work Management
+
+Preventive Maintenance
+
+Inventory
+
+Procurement
+
+Inspections
+
+Reliability
+
+Reporting
+
+==================================================
+ASSET MANAGEMENT
+================
+
+COMMON RESPONSIBILITIES
+
+Asset Register
+
+Asset Hierarchy
+
+Asset Classification
+
+Asset Lifecycle
+
+Failure Codes
+
+Asset History
+
+==================================================
+WORK MANAGEMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+Work Orders
+
+Job Plans
+
+Scheduling
+
+Labor Management
+
+Assignments
+
+Completion Tracking
+
+==================================================
+MAINTENANCE MANAGEMENT
+======================
+
+COMMON RESPONSIBILITIES
+
+Preventive Maintenance
+
+Corrective Maintenance
+
+Predictive Maintenance
+
+Condition-Based Maintenance
+
+Shutdown Planning
+
+Maintenance Strategies
+
+==================================================
+INVENTORY MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+Storerooms
+
+Spare Parts
+
+Inventory Control
+
+Cycle Counting
+
+Purchase Requests
+
+Material Reservations
+
+==================================================
+RELIABILITY ENGINEERING
+=======================
+
+COMMON RESPONSIBILITIES
+
+Root Cause Analysis
+
+Asset Reliability
+
+Failure Analysis
+
+MTBF
+
+MTTR
+
+Risk Assessment
+
+==================================================
+MOBILE OPERATIONS
+=================
+
+COMMON RESPONSIBILITIES
+
+Field Service
+
+Mobile Work Orders
+
+Inspections
+
+Offline Capability
+
+Technician Productivity
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Asset Lifecycle
+
+Maintenance Planning
+
+Inspection Management
+
+Inventory Replenishment
+
+Procurement
+
+Reliability Improvement
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Organizations
+
+Assets
+
+Locations
+
+Work Types
+
+Security
+
+Workflows
+
+Calendars
+
+Domains
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Asset Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Data Migration
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Enterprise Asset Management
+
+CMMS Implementation
+
+Maintenance Modernization
+
+Cloud Migration
+
+Asset Reliability
+
+Industrial Transformation
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Infor OS
+
+Infor ION
+
+ERP Systems
+
+SCADA
+
+GIS
+
+IoT Platforms
+
+REST APIs
+
+Analytics
+
+==================================================
+COMMON REPORTS
+==============
+
+Asset Availability
+
+Work Order Reports
+
+Maintenance KPIs
+
+MTBF
+
+MTTR
+
+Inventory Reports
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Maintenance Teams
+
+Operations
+
+Reliability Engineers
+
+Warehouse
+
+Facilities
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Asset Management
+
+*
+
+Maintenance
+
+*
+
+Implementation
+
+Example
+
+("Infor EAM")
+
+AND
+
+("Work Orders" OR Maintenance)
+
+AND
+
+(EAM OR CMMS)
+
+AND
+
+(Consultant OR Architect)
+
+Expand Infor EAM terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Infor EAM
+
+Critical
+
+Enterprise Asset Management
+
+Critical
+
+Preventive Maintenance
+
+High
+
+Work Orders
+
+High
+
+Reliability
+
+High
+
+Inventory
+
+Medium
+
+Mobile
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+IBM Maximo
+
+↓
+
+Infor EAM
+
+Medium
+
+---
+
+SAP PM
+
+↓
+
+Infor EAM
+
+Medium
+
+---
+
+IFS EAM
+
+↓
+
+Enterprise Asset Management
+
+Medium
+
+---
+
+Oracle eAM
+
+↓
+
+Infor EAM
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Industry
+
+Asset Scope
+
+Functional vs Technical
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Maintenance
+
+Reliability
+
+Inventory
+
+Mobile
+
+IoT
+
+Asset Lifecycle
+
+Identify whether the consultant performed
+
+Requirements
+
+Configuration
+
+Customization
+
+Integration
+
+Migration
+
+Testing
+
+Deployment
+
+Support
+
+Recognize candidates with enterprise Infor EAM implementation, maintenance transformation, reliability engineering, mobile workforce enablement, industrial integration and enterprise asset lifecycle management experience as senior Infor EAM consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating maintenance operations as Infor EAM implementation.
+
+Confusing CMMS usage with EAM consulting.
+
+Matching candidates solely because they mention work orders.
+
+Ignoring reliability engineering expertise.
+
+Treating asset administration as enterprise implementation.
+
+Ignoring IoT-enabled maintenance capabilities.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Infor EAM
+
+↓
+
+Enterprise Asset Management
+
+EAM
+
+CMMS
+
+---
+
+Maintenance
+
+↓
+
+Preventive Maintenance
+
+Corrective Maintenance
+
+Predictive Maintenance
+
+Inspection
+
+---
+
+Operations
+
+↓
+
+Work Orders
+
+Job Plans
+
+Inventory
+
+Reliability
+
+Asset Lifecycle
+
+---
+
+Technology
+
+↓
+
+Infor OS
+
+ION
+
+Mobile
+
+GIS
+
+SCADA
+
+IoT
+
+END_OF_FILE

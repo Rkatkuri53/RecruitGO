@@ -1,0 +1,645 @@
+FILE_NAME:
+046_SALESFORCE_PLATFORM.txt
+
+ID:
+046
+
+DOMAIN:
+Salesforce
+
+CATEGORY:
+Enterprise CRM
+
+SUBCATEGORY:
+Salesforce Platform
+
+PRIMARY_ROLE:
+Salesforce Consultant
+
+RELATED_FILES:
+
+018_ENTERPRISE_PLATFORMS.txt
+
+047_SALESFORCE_SALES_CLOUD.txt
+
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+049_SALESFORCE_MARKETING_CLOUD.txt
+
+050_SALESFORCE_EXPERIENCE_CLOUD.txt
+
+051_SALESFORCE_PLATFORM_DEVELOPMENT.txt
+
+052_SALESFORCE_INTEGRATION.txt
+
+053_SALESFORCE_DEVOPS.txt
+
+054_SALESFORCE_DATA_CLOUD.txt
+
+055_SALESFORCE_CPQ.txt
+
+056_SALESFORCE_TABLEAU_CRM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Salesforce Platform
+
+PURPOSE:
+Enable AI agents to understand the Salesforce ecosystem, cloud products, architecture, consultant roles, development models, implementation methodologies, certifications, integration patterns, and enterprise CRM transformation programs. This file serves as the master index for all Salesforce knowledge cards.
+
+KEYWORDS:
+Salesforce
+Sales Cloud
+Service Cloud
+Marketing Cloud
+Experience Cloud
+Force.com
+Lightning
+Apex
+Visualforce
+LWC
+Salesforce Platform
+CRM
+
+ROLE_FAMILIES:
+Salesforce Administrator
+Salesforce Consultant
+Salesforce Developer
+Salesforce Architect
+Salesforce Business Analyst
+Salesforce Technical Lead
+Salesforce Program Manager
+Salesforce Solution Architect
+
+COMMON_JOB_TITLES:
+Salesforce Consultant
+Salesforce Developer
+Salesforce Administrator
+Salesforce Solution Architect
+Salesforce Technical Architect
+Salesforce Business Analyst
+
+ALTERNATIVE_TITLES:
+CRM Consultant
+Salesforce Platform Consultant
+Salesforce Cloud Consultant
+
+CORE_SKILLS:
+CRM
+
+Configuration
+
+Customization
+
+Automation
+
+Integration
+
+Data Migration
+
+Reporting
+
+Security
+
+SUPPORTING_SKILLS:
+Cloud
+
+REST APIs
+
+JavaScript
+
+DevOps
+
+CI/CD
+
+Project Management
+
+RELATED_TECHNOLOGIES:
+Sales Cloud
+
+Service Cloud
+
+Marketing Cloud
+
+Experience Cloud
+
+Lightning Platform
+
+Apex
+
+Lightning Web Components
+
+MuleSoft
+
+Tableau CRM
+
+Slack
+
+TECHNOLOGY_CATEGORY:
+Enterprise CRM Platform
+
+DEPENDENCIES:
+
+018_ENTERPRISE_PLATFORMS.txt
+
+011_APIS.txt
+
+013_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Salesforce is the world's leading cloud-based Customer Relationship Management (CRM) platform.
+
+It enables organizations to manage sales, customer service, marketing, commerce, analytics, automation, integrations and application development from a unified cloud ecosystem.
+
+Salesforce follows a cloud-first, metadata-driven architecture.
+
+==================================================
+CORE SALESFORCE CLOUDS
+======================
+
+Sales Cloud
+
+Service Cloud
+
+Marketing Cloud
+
+Experience Cloud
+
+Commerce Cloud
+
+Data Cloud
+
+Revenue Cloud
+
+Field Service
+
+Industry Clouds
+
+Platform
+
+==================================================
+PLATFORM ARCHITECTURE
+=====================
+
+User
+
+↓
+
+Lightning Experience
+
+↓
+
+Salesforce Platform
+
+↓
+
+Business Logic
+
+↓
+
+Database (Multi-Tenant)
+
+↓
+
+Integrations
+
+↓
+
+External Systems
+
+==================================================
+IMPLEMENTATION TYPES
+====================
+
+Greenfield Implementation
+
+CRM Transformation
+
+Cloud Migration
+
+Salesforce Modernization
+
+Global Rollout
+
+Enhancement
+
+Support
+
+Digital Transformation
+
+==================================================
+CONSULTANT TYPES
+================
+
+Administrator
+
+↓
+
+Configuration
+
+Automation
+
+---
+
+Developer
+
+↓
+
+Apex
+
+Lightning
+
+Visualforce
+
+LWC
+
+---
+
+Business Analyst
+
+↓
+
+Requirements
+
+Business Processes
+
+---
+
+Solution Architect
+
+↓
+
+Architecture
+
+Integration
+
+Security
+
+---
+
+Technical Architect
+
+↓
+
+Enterprise Architecture
+
+Scalability
+
+Integration
+
+==================================================
+COMMON RESPONSIBILITIES
+=======================
+
+Requirements Workshops
+
+Configuration
+
+Customization
+
+Automation
+
+Security
+
+Reporting
+
+Dashboards
+
+Data Migration
+
+Testing
+
+Deployment
+
+Go-Live
+
+Hypercare
+
+Production Support
+
+==================================================
+CONFIGURATION FEATURES
+======================
+
+Objects
+
+Fields
+
+Validation Rules
+
+Record Types
+
+Page Layouts
+
+Profiles
+
+Permission Sets
+
+Flows
+
+Approval Processes
+
+Reports
+
+Dashboards
+
+==================================================
+DEVELOPMENT FEATURES
+====================
+
+Apex
+
+Lightning Web Components
+
+Aura
+
+Visualforce
+
+SOQL
+
+SOSL
+
+Triggers
+
+Batch Apex
+
+Platform Events
+
+Custom Metadata
+
+==================================================
+AUTOMATION
+==========
+
+Flows
+
+Approval Processes
+
+Process Builder (Legacy)
+
+Workflow Rules (Legacy)
+
+Platform Events
+
+Scheduled Jobs
+
+==================================================
+SECURITY
+========
+
+Profiles
+
+Permission Sets
+
+Role Hierarchy
+
+Sharing Rules
+
+Field-Level Security
+
+Object-Level Security
+
+MFA
+
+Identity
+
+==================================================
+INTEGRATION
+===========
+
+REST APIs
+
+SOAP APIs
+
+Bulk API
+
+Streaming API
+
+Platform Events
+
+MuleSoft
+
+Salesforce Connect
+
+External Objects
+
+==================================================
+COMMON PROJECTS
+===============
+
+CRM Implementation
+
+Sales Automation
+
+Customer Service Transformation
+
+Marketing Automation
+
+Field Service Implementation
+
+CPQ
+
+Experience Cloud Portal
+
+Data Migration
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Cloud
+
+*
+
+Role
+
+*
+
+Development
+
+Example
+
+(Salesforce)
+
+AND
+
+("Sales Cloud" OR "Service Cloud")
+
+AND
+
+(Consultant OR Developer OR Administrator)
+
+AND
+
+(Apex OR LWC OR Flow)
+
+Expand Salesforce Clouds only when explicitly mentioned in the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Salesforce Platform
+
+Critical
+
+Relevant Cloud
+
+Critical
+
+Configuration
+
+High
+
+Automation
+
+High
+
+Development
+
+High
+
+Integration
+
+High
+
+Security
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Dynamics CRM
+
+↓
+
+Salesforce
+
+Medium
+
+---
+
+Oracle CX
+
+↓
+
+Salesforce
+
+Medium
+
+---
+
+SAP Customer Experience
+
+↓
+
+Salesforce
+
+Medium
+
+---
+
+HubSpot
+
+↓
+
+Salesforce
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Salesforce Cloud
+
+Role Type
+
+Configuration vs Development
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Administrator
+
+Developer
+
+Consultant
+
+Architect
+
+Business Analyst
+
+Never assume all Salesforce experience is interchangeable.
+
+Sales Cloud experience is not equivalent to Marketing Cloud or CPQ.
+
+Recognize enterprise implementation experience as more valuable than maintenance-only support.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Salesforce Administration as Salesforce Development.
+
+Confusing Lightning Web Components with Visualforce.
+
+Ignoring cloud specialization.
+
+Matching candidates solely because they mention Salesforce.
+
+Ignoring Apex development responsibilities.
+
+Treating certification as equivalent to enterprise implementation experience.
+
+==================================================
+NEXT KNOWLEDGE FILES
+====================
+
+047_SALESFORCE_SALES_CLOUD.txt
+
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+049_SALESFORCE_MARKETING_CLOUD.txt
+
+050_SALESFORCE_EXPERIENCE_CLOUD.txt
+
+051_SALESFORCE_PLATFORM_DEVELOPMENT.txt
+
+052_SALESFORCE_INTEGRATION.txt
+
+053_SALESFORCE_DEVOPS.txt
+
+054_SALESFORCE_DATA_CLOUD.txt
+
+055_SALESFORCE_CPQ.txt
+
+056_SALESFORCE_TABLEAU_CRM.txt
+
+END_OF_FILE

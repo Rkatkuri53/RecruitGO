@@ -1,0 +1,673 @@
+FILE_NAME:
+028_SAP_ABAP.txt
+
+ID:
+028
+
+DOMAIN:
+SAP
+
+CATEGORY:
+ERP
+
+SUBCATEGORY:
+SAP ABAP Development
+
+PRIMARY_ROLE:
+SAP ABAP Developer
+
+RELATED_FILES:
+
+019_SAP_PLATFORM.txt
+
+020_SAP_FICO.txt
+
+021_SAP_MM.txt
+
+022_SAP_SD.txt
+
+023_SAP_PP.txt
+
+024_SAP_QM.txt
+
+025_SAP_PM.txt
+
+026_SAP_EWM.txt
+
+027_SAP_BASIS.txt
+
+029_SAP_BTP.txt
+
+030_SAP_FIORI_UI5.txt
+
+031_SAP_INTEGRATION_SUITE.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP ABAP Development
+
+PURPOSE:
+Enable AI agents to understand SAP ABAP development, object-oriented ABAP, custom development, enhancements, forms, reports, interfaces, data models, CDS Views, OData services, RAP, and S/4HANA ABAP development for accurate Boolean generation and candidate matching.
+
+KEYWORDS:
+SAP ABAP
+ABAP
+OOABAP
+ABAP Objects
+ABAP Development
+RAP
+CDS Views
+AMDP
+BAPI
+BADI
+User Exit
+Enhancement Framework
+
+ROLE_FAMILIES:
+SAP ABAP Developer
+SAP Technical Consultant
+SAP Technical Lead
+SAP Technical Architect
+SAP Integration Developer
+SAP Fiori Backend Developer
+
+COMMON_JOB_TITLES:
+SAP ABAP Developer
+Senior ABAP Developer
+SAP Technical Consultant
+SAP Technical Lead
+SAP ABAP Architect
+
+ALTERNATIVE_TITLES:
+SAP Technical Developer
+SAP Backend Developer
+SAP Custom Development
+
+CORE_SKILLS:
+ABAP Programming
+Object-Oriented ABAP
+Reports
+Interfaces
+Enhancements
+Debugging
+Performance Tuning
+
+SUPPORTING_SKILLS:
+S/4HANA
+HANA
+Fiori
+OData
+CDS Views
+RAP
+Integration
+
+RELATED_TECHNOLOGIES:
+SAP ECC
+SAP S/4HANA
+SAP HANA
+SAP Gateway
+SAP Fiori
+SAP BTP
+Eclipse ADT
+Git
+
+TECHNOLOGY_CATEGORY:
+SAP Technical Development
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+027_SAP_BASIS.txt
+
+==================================================
+MODULE OVERVIEW
+===============
+
+ABAP (Advanced Business Application Programming) is SAP's primary programming language used to extend, customize and integrate SAP applications.
+
+ABAP developers build custom business logic, reports, interfaces, forms, workflows and APIs.
+
+==================================================
+CORE DEVELOPMENT AREAS
+======================
+
+Reports
+
+Interfaces
+
+Conversions
+
+Enhancements
+
+Forms
+
+Workflows
+
+OData
+
+CDS Views
+
+RAP Applications
+
+==================================================
+ABAP PROGRAMMING
+================
+
+COMMON RESPONSIBILITIES
+
+Custom Programs
+
+Business Logic
+
+Debugging
+
+Performance Optimization
+
+Code Reviews
+
+Technical Documentation
+
+==================================================
+OBJECT-ORIENTED ABAP
+====================
+
+COMMON CONCEPTS
+
+Classes
+
+Objects
+
+Inheritance
+
+Interfaces
+
+Polymorphism
+
+Exceptions
+
+Encapsulation
+
+==================================================
+REPORT DEVELOPMENT
+==================
+
+COMMON TYPES
+
+Classical Reports
+
+Interactive Reports
+
+ALV Reports
+
+SALV Reports
+
+Background Reports
+
+==================================================
+FORMS
+=====
+
+COMMON TECHNOLOGIES
+
+SAPscript
+
+SmartForms
+
+Adobe Forms
+
+COMMON RESPONSIBILITIES
+
+Invoices
+
+Purchase Orders
+
+Delivery Notes
+
+Labels
+
+Certificates
+
+==================================================
+INTERFACES
+==========
+
+COMMON TECHNOLOGIES
+
+BAPI
+
+RFC
+
+IDoc
+
+ALE
+
+SOAP
+
+REST
+
+OData
+
+File Interfaces
+
+==================================================
+ENHANCEMENTS
+============
+
+COMMON TYPES
+
+User Exits
+
+Customer Exits
+
+BADI
+
+Enhancement Framework
+
+Implicit Enhancements
+
+Explicit Enhancements
+
+==================================================
+DATA DICTIONARY
+===============
+
+COMMON OBJECTS
+
+Tables
+
+Structures
+
+Domains
+
+Data Elements
+
+Views
+
+Lock Objects
+
+Search Helps
+
+==================================================
+PERFORMANCE OPTIMIZATION
+========================
+
+COMMON RESPONSIBILITIES
+
+SQL Optimization
+
+Buffering
+
+Indexes
+
+Parallel Processing
+
+Memory Optimization
+
+Runtime Analysis
+
+==================================================
+DEBUGGING
+=========
+
+COMMON RESPONSIBILITIES
+
+Breakpoints
+
+Runtime Analysis
+
+SQL Trace
+
+Code Inspection
+
+Error Resolution
+
+==================================================
+ABAP FOR HANA
+=============
+
+COMMON TECHNOLOGIES
+
+CDS Views
+
+AMDP
+
+Code Pushdown
+
+Open SQL
+
+SQLScript
+
+==================================================
+CDS VIEWS
+=========
+
+PURPOSE
+
+Reusable Semantic Data Models
+
+COMMON RESPONSIBILITIES
+
+Reporting
+
+Analytics
+
+Fiori
+
+Embedded Analytics
+
+==================================================
+ODATA SERVICES
+==============
+
+PURPOSE
+
+Expose SAP Data through REST APIs.
+
+COMMON RESPONSIBILITIES
+
+Gateway Services
+
+CRUD Operations
+
+Fiori Backend
+
+API Development
+
+==================================================
+RESTFUL APPLICATION PROGRAMMING MODEL (RAP)
+===========================================
+
+COMMON RESPONSIBILITIES
+
+Cloud Development
+
+Fiori Applications
+
+Business Objects
+
+Behavior Definitions
+
+Service Bindings
+
+==================================================
+WORKFLOW
+========
+
+COMMON RESPONSIBILITIES
+
+Business Approval
+
+Task Routing
+
+Notifications
+
+Business Processes
+
+==================================================
+COMMON DEVELOPMENT TOOLS
+========================
+
+ABAP Workbench
+
+Eclipse ADT
+
+SE80
+
+SE38
+
+SE37
+
+SE11
+
+SE24
+
+SAT
+
+ST05
+
+Git Integration
+
+==================================================
+S/4HANA DEVELOPMENT
+===================
+
+COMMON RESPONSIBILITIES
+
+Custom Code Adaptation
+
+Simplification Checks
+
+CDS
+
+RAP
+
+Fiori Backend
+
+Embedded Analytics
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Greenfield
+
+Brownfield
+
+Enhancements
+
+Support
+
+Migration
+
+Technical Conversion
+
+Rollout
+
+Custom Development
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Development Area
+
+*
+
+Programming Concepts
+
+*
+
+S/4HANA Technologies
+
+Example
+
+("SAP ABAP" OR ABAP)
+
+AND
+
+(BADI OR BAPI OR IDoc)
+
+AND
+
+("CDS Views" OR RAP OR OData)
+
+AND
+
+("SAP S/4HANA" OR ECC)
+
+Expand development technologies only when supported by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+ABAP Development
+
+Critical
+
+OOABAP
+
+High
+
+Enhancements
+
+High
+
+Interfaces
+
+High
+
+CDS Views
+
+High
+
+RAP
+
+Medium
+
+OData
+
+High
+
+Performance Optimization
+
+Medium
+
+S/4HANA Development
+
+High
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+ECC ABAP
+
+↓
+
+S/4HANA ABAP
+
+High
+
+---
+
+Classical ABAP
+
+↓
+
+OOABAP
+
+High
+
+---
+
+Gateway OData
+
+↓
+
+RAP
+
+Medium
+
+---
+
+SmartForms
+
+↓
+
+Adobe Forms
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+ECC
+
+or
+
+S/4HANA
+
+Development Model
+
+Programming Style
+
+Integration Technologies
+
+Project Type
+
+Differentiate
+
+Support
+
+Enhancement
+
+Migration
+
+Greenfield
+
+Brownfield
+
+Identify whether the developer performed
+
+Custom Development
+
+Enhancements
+
+Integration
+
+Performance Tuning
+
+Debugging
+
+Code Reviews
+
+Technical Design
+
+Recognize candidates with
+
+RAP
+
+CDS
+
+AMDP
+
+Embedded Analytics
+
+Fiori Backend
+
+Code Pushdown
+
+experience as modern S/4HANA ABAP developers.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating ABAP Developers as Functional Consultants.
+
+Confusing ABAP with SAP Basis.
+
+Ignoring modern S/4HANA technologies.
+
+Matching candidates solely because they know ABAP.
+
+Treating SmartForms experience as equivalent to RAP.
+
+Ignoring integration experience.
+
+Assuming certification equals enterprise development experience.
+
+END_OF_FILE

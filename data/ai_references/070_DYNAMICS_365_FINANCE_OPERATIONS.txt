@@ -1,0 +1,723 @@
+FILE_NAME:
+070_DYNAMICS_365_FINANCE_OPERATIONS.txt
+
+ID:
+070
+
+DOMAIN:
+Microsoft Dynamics 365
+
+CATEGORY:
+Enterprise ERP
+
+SUBCATEGORY:
+Dynamics 365 Finance & Supply Chain Management (Finance & Operations)
+
+PRIMARY_ROLE:
+Dynamics 365 Finance & Operations Functional Consultant
+
+RELATED_FILES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+071_DYNAMICS_365_BUSINESS_CENTRAL.txt
+
+076_DYNAMICS_365_POWER_PLATFORM.txt
+
+077_DYNAMICS_365_DEVELOPMENT.txt
+
+078_DYNAMICS_365_INTEGRATION.txt
+
+079_DYNAMICS_365_DATA_AI.txt
+
+034_SAP_ERP.txt
+
+036_ORACLE_ERP.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Dynamics 365 Finance & Operations
+
+PURPOSE:
+Enable AI agents to understand Microsoft Dynamics 365 Finance & Supply Chain Management (formerly Finance & Operations/F&O), enterprise ERP processes, financial management, procurement, inventory, manufacturing, warehouse management, project operations, consultant responsibilities, implementation methodologies, and ERP transformation programs for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Dynamics 365 Finance
+Dynamics 365 Supply Chain
+Dynamics 365 F&O
+Dynamics 365 Finance and Operations
+Finance & Operations
+Dynamics AX
+ERP
+General Ledger
+Accounts Payable
+Accounts Receivable
+Procurement
+Inventory
+Warehouse Management
+Manufacturing
+
+ROLE_FAMILIES:
+Dynamics 365 Finance Functional Consultant
+
+Dynamics 365 SCM Functional Consultant
+
+Dynamics 365 Solution Architect
+
+ERP Consultant
+
+Business Analyst
+
+Technical Consultant
+
+COMMON_JOB_TITLES:
+Dynamics 365 Finance Consultant
+
+Dynamics 365 SCM Consultant
+
+Dynamics 365 Finance & Operations Consultant
+
+Dynamics AX Consultant
+
+ERP Functional Consultant
+
+Solution Architect
+
+ALTERNATIVE_TITLES:
+Finance ERP Consultant
+
+Supply Chain Consultant
+
+Operations Consultant
+
+Enterprise ERP Consultant
+
+CORE_SKILLS:
+Financial Management
+
+Supply Chain Management
+
+Procurement
+
+Inventory Management
+
+Warehouse Management
+
+Manufacturing
+
+Configuration
+
+Business Process Design
+
+SUPPORTING_SKILLS:
+Power Platform
+
+Azure
+
+Data Migration
+
+Integration
+
+Reporting
+
+Security
+
+Testing
+
+RELATED_TECHNOLOGIES:
+Dynamics 365 Finance
+
+Dynamics 365 Supply Chain Management
+
+Dynamics AX
+
+Power BI
+
+Power Platform
+
+Dataverse
+
+Azure
+
+Lifecycle Services (LCS)
+
+Electronic Reporting
+
+TECHNOLOGY_CATEGORY:
+Enterprise ERP
+
+DEPENDENCIES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Dynamics 365 Finance & Supply Chain Management is Microsoft's enterprise ERP solution for medium and large organizations.
+
+It manages finance, accounting, procurement, inventory, warehouse operations, manufacturing, planning, logistics and enterprise operations through an integrated cloud platform.
+
+Formerly known as Dynamics AX and Dynamics 365 Finance & Operations (F&O).
+
+==================================================
+CORE MODULES
+============
+
+General Ledger
+
+Accounts Payable
+
+Accounts Receivable
+
+Cash & Bank Management
+
+Fixed Assets
+
+Budgeting
+
+Procurement
+
+Inventory Management
+
+Warehouse Management
+
+Master Planning
+
+Manufacturing
+
+Sales Order Processing
+
+Transportation Management
+
+==================================================
+FINANCE
+=======
+
+COMMON RESPONSIBILITIES
+
+General Ledger
+
+Financial Dimensions
+
+Month-End Close
+
+Intercompany Accounting
+
+Financial Reporting
+
+Consolidation
+
+==================================================
+ACCOUNTS PAYABLE
+================
+
+COMMON RESPONSIBILITIES
+
+Vendor Management
+
+Invoice Processing
+
+Payments
+
+Three-Way Matching
+
+Vendor Reconciliation
+
+==================================================
+ACCOUNTS RECEIVABLE
+===================
+
+COMMON RESPONSIBILITIES
+
+Customer Accounts
+
+Collections
+
+Credit Management
+
+Receipts
+
+Customer Invoicing
+
+==================================================
+PROCUREMENT
+===========
+
+COMMON RESPONSIBILITIES
+
+Purchase Requisitions
+
+Purchase Orders
+
+Vendor Qualification
+
+RFQs
+
+Procure-to-Pay
+
+==================================================
+INVENTORY & WAREHOUSE
+=====================
+
+COMMON RESPONSIBILITIES
+
+Inventory Control
+
+Warehouse Operations
+
+Cycle Counting
+
+Reservations
+
+Picking
+
+Packing
+
+Shipping
+
+==================================================
+MANUFACTURING
+=============
+
+COMMON RESPONSIBILITIES
+
+Bills of Material (BOM)
+
+Production Orders
+
+MRP
+
+Capacity Planning
+
+Shop Floor Control
+
+Quality Management
+
+==================================================
+SUPPLY CHAIN
+============
+
+COMMON RESPONSIBILITIES
+
+Demand Planning
+
+Master Planning
+
+Logistics
+
+Transportation
+
+Distribution
+
+Vendor Collaboration
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Record-to-Report
+
+Procure-to-Pay
+
+Order-to-Cash
+
+Plan-to-Produce
+
+Inventory-to-Delivery
+
+Financial Close
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Legal Entities
+
+Financial Dimensions
+
+Posting Profiles
+
+Workflows
+
+Security Roles
+
+Procurement Policies
+
+Inventory Parameters
+
+Warehouse Setup
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Data Migration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+User Acceptance Testing
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+ERP Implementation
+
+Finance Transformation
+
+Supply Chain Modernization
+
+Dynamics AX Migration
+
+Cloud ERP Migration
+
+Global Rollout
+
+Localization
+
+Support & Enhancements
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Power Platform
+
+Azure
+
+Power BI
+
+Dataverse
+
+SAP
+
+Oracle ERP
+
+Banks
+
+EDI
+
+REST APIs
+
+==================================================
+COMMON REPORTS
+==============
+
+Financial Statements
+
+Trial Balance
+
+Inventory Reports
+
+Warehouse KPIs
+
+Procurement Reports
+
+Vendor Reports
+
+Manufacturing KPIs
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Finance Teams
+
+Procurement Teams
+
+Supply Chain Teams
+
+Warehouse Managers
+
+Manufacturing Managers
+
+Controllers
+
+CFO Organization
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+ERP Module
+
+*
+
+Business Process
+
+*
+
+Role
+
+Example
+
+("Dynamics 365 Finance" OR "Dynamics 365 F&O" OR "Dynamics AX")
+
+AND
+
+(Finance OR Procurement OR Warehouse)
+
+AND
+
+(Consultant OR Architect)
+
+AND
+
+(ERP)
+
+Expand ERP modules only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Dynamics 365 Finance
+
+Critical
+
+Supply Chain
+
+Critical
+
+Finance Modules
+
+High
+
+Procurement
+
+High
+
+Warehouse
+
+High
+
+Manufacturing
+
+Medium
+
+Power Platform
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Dynamics AX
+
+↓
+
+Dynamics 365 Finance
+
+High
+
+---
+
+SAP S/4HANA
+
+↓
+
+Dynamics 365 ERP
+
+Medium
+
+---
+
+Oracle ERP Cloud
+
+↓
+
+Dynamics 365 ERP
+
+Medium
+
+---
+
+Infor ERP
+
+↓
+
+Dynamics 365 ERP
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Finance vs Supply Chain
+
+Functional Area
+
+Business Process
+
+Implementation Phase
+
+Role Type
+
+Differentiate
+
+Finance Consultant
+
+SCM Consultant
+
+Technical Consultant
+
+Architect
+
+Business Analyst
+
+Identify whether the consultant performed
+
+Fit-Gap Analysis
+
+Configuration
+
+Data Migration
+
+Testing
+
+Go-Live
+
+Hypercare
+
+Support
+
+Recognize candidates with enterprise Finance & Operations implementation, global ERP rollout, Dynamics AX migration, financial process transformation and supply chain modernization experience as senior Dynamics 365 F&O consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Business Central as Finance & Operations.
+
+Confusing Dynamics AX support with cloud implementation.
+
+Matching candidates solely because they mention Dynamics.
+
+Ignoring finance or supply chain specialization.
+
+Treating accounting experience as ERP implementation experience.
+
+Ignoring implementation lifecycle responsibilities.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Finance
+
+↓
+
+General Ledger
+
+Accounts Payable
+
+Accounts Receivable
+
+Fixed Assets
+
+Cash Management
+
+Budgeting
+
+---
+
+Supply Chain
+
+↓
+
+Procurement
+
+Inventory
+
+Warehouse
+
+Manufacturing
+
+MRP
+
+Logistics
+
+---
+
+ERP
+
+↓
+
+Record-to-Report
+
+Procure-to-Pay
+
+Order-to-Cash
+
+Plan-to-Produce
+
+---
+
+Dynamics
+
+↓
+
+Dynamics AX
+
+Dynamics 365 F&O
+
+Finance
+
+Supply Chain Management
+
+Lifecycle Services
+
+END_OF_FILE

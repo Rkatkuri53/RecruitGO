@@ -1,0 +1,663 @@
+FILE_NAME:
+097_ADOBE_MARKETO.txt
+
+ID:
+097
+
+DOMAIN:
+Adobe
+
+CATEGORY:
+Enterprise Marketing Automation
+
+SUBCATEGORY:
+Adobe Marketo Engage
+
+PRIMARY_ROLE:
+Adobe Marketo Consultant
+
+RELATED_FILES:
+
+090_ADOBE_EXPERIENCE_CLOUD_PLATFORM.txt
+
+091_ADOBE_EXPERIENCE_MANAGER_AEM.txt
+
+092_ADOBE_ANALYTICS.txt
+
+093_ADOBE_CAMPAIGN.txt
+
+094_ADOBE_TARGET.txt
+
+095_ADOBE_COMMERCE_MAGENTO.txt
+
+096_ADOBE_EXPERIENCE_PLATFORM_AEP.txt
+
+098_ADOBE_DEVELOPMENT.txt
+
+099_ADOBE_INTEGRATION.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Adobe Marketo Engage
+
+PURPOSE:
+Enable AI agents to understand Adobe Marketo Engage, B2B marketing automation, lead lifecycle management, lead scoring, nurturing, account-based marketing (ABM), revenue attribution, CRM integration, consultant responsibilities, implementation methodologies, and enterprise demand generation transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Adobe Marketo
+Marketo Engage
+Marketo
+Lead Scoring
+Lead Nurturing
+Demand Generation
+ABM
+Account Based Marketing
+Revenue Attribution
+Smart Campaigns
+Smart Lists
+Munchkin
+
+ROLE_FAMILIES:
+Marketo Consultant
+
+Marketo Developer
+
+Marketing Automation Consultant
+
+MarTech Consultant
+
+Demand Generation Consultant
+
+Solution Architect
+
+COMMON_JOB_TITLES:
+Adobe Marketo Consultant
+
+Marketo Consultant
+
+Marketo Developer
+
+Marketo Solution Architect
+
+Marketing Automation Consultant
+
+ALTERNATIVE_TITLES:
+Demand Generation Consultant
+
+B2B Marketing Consultant
+
+Marketing Operations Consultant
+
+CORE_SKILLS:
+Lead Management
+
+Lead Scoring
+
+Lead Nurturing
+
+Smart Campaigns
+
+Smart Lists
+
+Marketing Automation
+
+ABM
+
+Revenue Attribution
+
+SUPPORTING_SKILLS:
+CRM Integration
+
+Salesforce
+
+Dynamics 365
+
+REST APIs
+
+Email Marketing
+
+Analytics
+
+Reporting
+
+RELATED_TECHNOLOGIES:
+Adobe Marketo Engage
+
+Adobe Experience Platform
+
+Adobe Campaign
+
+Salesforce CRM
+
+Microsoft Dynamics 365
+
+Munchkin
+
+REST APIs
+
+Webhooks
+
+TECHNOLOGY_CATEGORY:
+B2B Marketing Automation Platform
+
+DEPENDENCIES:
+
+090_ADOBE_EXPERIENCE_CLOUD_PLATFORM.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Adobe Marketo Engage is Adobe's B2B marketing automation platform focused on demand generation, lead management, customer engagement and account-based marketing.
+
+It enables organizations to automate marketing campaigns, score and nurture leads, integrate with CRM platforms and measure marketing contribution to pipeline and revenue.
+
+==================================================
+CORE MODULES
+============
+
+Lead Management
+
+Lead Scoring
+
+Lead Nurturing
+
+Smart Campaigns
+
+Smart Lists
+
+Email Marketing
+
+ABM
+
+Revenue Attribution
+
+==================================================
+LEAD MANAGEMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+Lead Capture
+
+Lead Routing
+
+Lead Qualification
+
+Lead Lifecycle
+
+CRM Synchronization
+
+==================================================
+LEAD SCORING
+============
+
+COMMON RESPONSIBILITIES
+
+Behavior Scoring
+
+Demographic Scoring
+
+Score Models
+
+Qualification Rules
+
+Sales Readiness
+
+==================================================
+LEAD NURTURING
+==============
+
+COMMON RESPONSIBILITIES
+
+Nurture Programs
+
+Engagement Programs
+
+Automated Follow-up
+
+Lifecycle Marketing
+
+==================================================
+SMART CAMPAIGNS
+===============
+
+COMMON RESPONSIBILITIES
+
+Campaign Logic
+
+Triggers
+
+Filters
+
+Automation Rules
+
+Reusable Campaigns
+
+==================================================
+SMART LISTS
+===========
+
+COMMON RESPONSIBILITIES
+
+Audience Segmentation
+
+Dynamic Lists
+
+Behavior Filters
+
+Customer Selection
+
+==================================================
+ACCOUNT-BASED MARKETING
+=======================
+
+COMMON RESPONSIBILITIES
+
+Target Accounts
+
+Buying Groups
+
+Account Engagement
+
+Personalization
+
+Sales Alignment
+
+==================================================
+REVENUE ATTRIBUTION
+===================
+
+COMMON RESPONSIBILITIES
+
+Pipeline Attribution
+
+Marketing ROI
+
+Revenue Influence
+
+Campaign Effectiveness
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Lead-to-Revenue
+
+Demand Generation
+
+Campaign Automation
+
+Pipeline Management
+
+Sales Alignment
+
+Marketing Attribution
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Programs
+
+Smart Campaigns
+
+Smart Lists
+
+Lead Scoring
+
+Lifecycle Models
+
+Integrations
+
+Users
+
+Security
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Marketing Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+CRM Integration
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Marketing Automation
+
+Demand Generation
+
+Lead Lifecycle Modernization
+
+ABM Programs
+
+CRM Integration
+
+Marketing Operations Transformation
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Salesforce CRM
+
+Microsoft Dynamics 365
+
+Adobe Experience Platform
+
+REST APIs
+
+Webhooks
+
+CRM Sync
+
+Analytics
+
+==================================================
+COMMON REPORTS
+==============
+
+Lead Funnel
+
+Campaign Performance
+
+Pipeline Reports
+
+Revenue Attribution
+
+Marketing ROI
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Marketing Operations
+
+Demand Generation
+
+Sales Teams
+
+Marketing Teams
+
+Revenue Operations
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Marketing
+
+*
+
+Lead
+
+*
+
+Automation
+
+Example
+
+(Marketo OR "Adobe Marketo")
+
+AND
+
+("Lead Scoring" OR Nurturing)
+
+AND
+
+("Smart Campaigns" OR ABM)
+
+AND
+
+(Consultant)
+
+Expand Marketo terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Adobe Marketo
+
+Critical
+
+Lead Scoring
+
+Critical
+
+Smart Campaigns
+
+High
+
+Lead Nurturing
+
+High
+
+ABM
+
+High
+
+CRM Integration
+
+Medium
+
+Revenue Attribution
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+HubSpot Marketing Hub
+
+↓
+
+Marketo
+
+Medium
+
+---
+
+Oracle Eloqua
+
+↓
+
+Marketo
+
+High
+
+---
+
+Salesforce Marketing Cloud
+
+↓
+
+Marketo
+
+Medium
+
+---
+
+Adobe Campaign
+
+↓
+
+Marketo
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Marketing Scope
+
+Lead Lifecycle
+
+CRM Platform
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Marketo
+
+Adobe Campaign
+
+Journey Optimizer
+
+CRM
+
+ABM
+
+Identify whether the consultant performed
+
+Solution Design
+
+Campaign Configuration
+
+Lead Scoring
+
+CRM Integration
+
+Testing
+
+Deployment
+
+Optimization
+
+Recognize candidates with enterprise Marketo implementation, demand generation, lead lifecycle automation, Smart Campaigns, ABM implementation and CRM integration experience as senior Marketo consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Marketo as Adobe Campaign.
+
+Confusing marketing execution with Marketo implementation.
+
+Matching candidates solely because they mention email marketing.
+
+Ignoring Smart Campaign expertise.
+
+Treating Salesforce administration as Marketo experience.
+
+Ignoring lead scoring and lifecycle models.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Marketo
+
+↓
+
+Adobe Marketo
+
+Marketo Engage
+
+Marketing Automation
+
+---
+
+Lead Management
+
+↓
+
+Lead Scoring
+
+Lead Nurturing
+
+Lifecycle
+
+CRM Sync
+
+---
+
+Campaigns
+
+↓
+
+Smart Campaigns
+
+Smart Lists
+
+Programs
+
+Triggers
+
+---
+
+Revenue
+
+↓
+
+ABM
+
+Pipeline
+
+Attribution
+
+Marketing ROI
+
+Demand Generation
+
+END_OF_FILE

@@ -1,0 +1,663 @@
+FILE_NAME:
+051_SALESFORCE_PLATFORM_DEVELOPMENT.txt
+
+ID:
+051
+
+DOMAIN:
+Salesforce
+
+CATEGORY:
+Enterprise CRM
+
+SUBCATEGORY:
+Salesforce Platform Development
+
+PRIMARY_ROLE:
+Salesforce Developer
+
+RELATED_FILES:
+
+046_SALESFORCE_PLATFORM.txt
+
+047_SALESFORCE_SALES_CLOUD.txt
+
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+049_SALESFORCE_MARKETING_CLOUD.txt
+
+050_SALESFORCE_EXPERIENCE_CLOUD.txt
+
+052_SALESFORCE_INTEGRATION.txt
+
+053_SALESFORCE_DEVOPS.txt
+
+054_SALESFORCE_DATA_CLOUD.txt
+
+055_SALESFORCE_CPQ.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Salesforce Platform Development
+
+PURPOSE:
+Enable AI agents to understand Salesforce platform development, Apex, Lightning Web Components (LWC), Aura, Visualforce, SOQL, SOSL, asynchronous processing, platform events, custom development, application architecture, and Salesforce developer responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Salesforce Developer
+Apex
+Lightning Web Components
+LWC
+Aura
+Visualforce
+SOQL
+SOSL
+Batch Apex
+Queueable Apex
+Platform Events
+Salesforce DX
+
+ROLE_FAMILIES:
+Salesforce Developer
+Salesforce Technical Consultant
+Salesforce Technical Lead
+Salesforce Solution Architect
+Salesforce Platform Engineer
+
+COMMON_JOB_TITLES:
+Salesforce Developer
+Senior Salesforce Developer
+Salesforce Technical Consultant
+Salesforce Technical Lead
+Salesforce Platform Developer
+
+ALTERNATIVE_TITLES:
+Salesforce Application Developer
+Salesforce CRM Developer
+Force.com Developer
+
+CORE_SKILLS:
+Apex Development
+
+LWC
+
+SOQL
+
+Visualforce
+
+Platform Development
+
+Automation
+
+Integration
+
+Performance Optimization
+
+SUPPORTING_SKILLS:
+REST APIs
+
+JavaScript
+
+HTML
+
+CSS
+
+Git
+
+CI/CD
+
+Security
+
+RELATED_TECHNOLOGIES:
+Salesforce Platform
+
+Lightning Experience
+
+LWC
+
+Aura
+
+Visualforce
+
+Apex
+
+Platform Events
+
+Salesforce DX
+
+TECHNOLOGY_CATEGORY:
+Enterprise Application Development
+
+DEPENDENCIES:
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+014_DEVOPS.txt
+
+046_SALESFORCE_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Salesforce Platform Development focuses on extending Salesforce through custom applications, business logic, APIs, user interfaces and integrations while following Salesforce governor limits and multi-tenant architecture.
+
+Developers build enterprise applications using metadata-driven development.
+
+==================================================
+ARCHITECTURE
+============
+
+Lightning Experience
+
+↓
+
+Lightning Components
+
+↓
+
+Apex
+
+↓
+
+Business Logic
+
+↓
+
+SOQL/SOSL
+
+↓
+
+Salesforce Database
+
+↓
+
+External Systems
+
+==================================================
+CORE DEVELOPMENT TECHNOLOGIES
+=============================
+
+Apex
+
+Lightning Web Components (LWC)
+
+Aura Components
+
+Visualforce
+
+SOQL
+
+SOSL
+
+Platform Events
+
+Custom Metadata
+
+==================================================
+APEX DEVELOPMENT
+================
+
+COMMON RESPONSIBILITIES
+
+Business Logic
+
+Triggers
+
+Classes
+
+Interfaces
+
+Exception Handling
+
+Test Classes
+
+Code Coverage
+
+==================================================
+LIGHTNING WEB COMPONENTS (LWC)
+==============================
+
+COMMON RESPONSIBILITIES
+
+Reusable Components
+
+UI Development
+
+Client-Side JavaScript
+
+Data Binding
+
+Lightning Data Service
+
+Component Communication
+
+==================================================
+AURA COMPONENTS
+===============
+
+COMMON RESPONSIBILITIES
+
+Legacy UI Components
+
+Events
+
+Component Bundles
+
+Migration to LWC
+
+==================================================
+VISUALFORCE
+===========
+
+COMMON RESPONSIBILITIES
+
+Legacy UI
+
+PDF Generation
+
+Custom Pages
+
+Controller Development
+
+==================================================
+DATABASE DEVELOPMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+SOQL
+
+SOSL
+
+Relationships
+
+Bulk Processing
+
+Query Optimization
+
+Governor Limits
+
+==================================================
+ASYNCHRONOUS PROCESSING
+=======================
+
+COMMON RESPONSIBILITIES
+
+Batch Apex
+
+Queueable Apex
+
+Future Methods
+
+Scheduled Apex
+
+Platform Events
+
+==================================================
+AUTOMATION
+==========
+
+COMMON RESPONSIBILITIES
+
+Flows
+
+Invocable Apex
+
+Approval Processes
+
+Business Rules
+
+Trigger Frameworks
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+CRUD/FLS
+
+Sharing Rules
+
+With Sharing
+
+Without Sharing
+
+User Context
+
+Permission Sets
+
+==================================================
+TESTING
+=======
+
+COMMON RESPONSIBILITIES
+
+Unit Testing
+
+Integration Testing
+
+Test Classes
+
+Mock Callouts
+
+Code Coverage
+
+Deployment Validation
+
+==================================================
+DEVELOPMENT TOOLS
+=================
+
+Salesforce DX
+
+VS Code
+
+Git
+
+CLI
+
+Workbench
+
+Developer Console
+
+CI/CD
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Custom Application Development
+
+Platform Modernization
+
+Legacy Aura Migration
+
+Visualforce Migration
+
+API Development
+
+Enterprise Integration
+
+CRM Enhancement
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Technical Design
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+Code Review
+
+↓
+
+Deployment
+
+↓
+
+Monitoring
+
+↓
+
+Support
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Programming
+
+*
+
+Frontend
+
+*
+
+Backend
+
+Example
+
+(Salesforce)
+
+AND
+
+(Apex OR LWC)
+
+AND
+
+(SOQL OR Visualforce)
+
+AND
+
+(Developer)
+
+Expand development technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Apex
+
+Critical
+
+LWC
+
+Critical
+
+SOQL
+
+High
+
+REST APIs
+
+High
+
+Platform Events
+
+Medium
+
+CI/CD
+
+Medium
+
+JavaScript
+
+Medium
+
+Integration
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Aura
+
+↓
+
+LWC
+
+High
+
+---
+
+Visualforce
+
+↓
+
+Lightning
+
+Medium
+
+---
+
+Java
+
+↓
+
+Apex
+
+Medium
+
+---
+
+React
+
+↓
+
+LWC
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Development Stack
+
+Frontend Framework
+
+Backend Technologies
+
+Integration Scope
+
+Project Type
+
+Differentiate
+
+Administrator
+
+Developer
+
+Architect
+
+Consultant
+
+Technical Lead
+
+Identify whether the developer performed
+
+Custom Development
+
+API Integration
+
+Component Development
+
+Automation
+
+Testing
+
+Deployment
+
+Performance Optimization
+
+Recognize candidates with enterprise Apex development, Lightning Web Components, Platform Events, Salesforce DX, CI/CD pipelines and large-scale Salesforce customization experience as senior Salesforce developers.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Salesforce Administrators as Salesforce Developers.
+
+Confusing Aura with Lightning Web Components.
+
+Matching candidates solely because they mention Apex.
+
+Ignoring governor limits and bulkification experience.
+
+Treating Flow-only experience as enterprise development.
+
+Ignoring testing and deployment practices.
+
+Assuming certification equals enterprise development experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Apex
+
+↓
+
+Triggers
+
+Classes
+
+Batch Apex
+
+Queueable Apex
+
+Future Methods
+
+Invocable Apex
+
+---
+
+LWC
+
+↓
+
+Lightning Web Components
+
+Lightning Components
+
+JavaScript
+
+Lightning Data Service
+
+---
+
+Database
+
+↓
+
+SOQL
+
+SOSL
+
+Relationships
+
+Custom Objects
+
+---
+
+Development
+
+↓
+
+Salesforce DX
+
+Git
+
+VS Code
+
+Workbench
+
+CLI
+
+END_OF_FILE

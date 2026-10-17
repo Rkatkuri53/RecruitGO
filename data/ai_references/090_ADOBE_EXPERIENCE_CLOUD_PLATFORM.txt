@@ -1,0 +1,603 @@
+FILE_NAME:
+090_ADOBE_EXPERIENCE_CLOUD_PLATFORM.txt
+
+ID:
+090
+
+DOMAIN:
+Adobe
+
+CATEGORY:
+Enterprise Digital Experience Platform
+
+SUBCATEGORY:
+Adobe Experience Cloud Platform
+
+PRIMARY_ROLE:
+Adobe Experience Cloud Consultant
+
+RELATED_FILES:
+
+091_ADOBE_EXPERIENCE_MANAGER_AEM.txt
+
+092_ADOBE_ANALYTICS.txt
+
+093_ADOBE_CAMPAIGN.txt
+
+094_ADOBE_TARGET.txt
+
+095_ADOBE_COMMERCE_MAGENTO.txt
+
+096_ADOBE_EXPERIENCE_PLATFORM_AEP.txt
+
+097_ADOBE_MARKETO.txt
+
+098_ADOBE_DEVELOPMENT.txt
+
+099_ADOBE_INTEGRATION.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Adobe Experience Cloud Platform
+
+PURPOSE:
+Enable AI agents to understand the complete Adobe Experience Cloud ecosystem, digital experience architecture, customer experience management, personalization, analytics, content management, commerce, marketing automation, customer data platform (CDP), implementation methodologies, consultant roles, and enterprise digital transformation programs for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Adobe Experience Cloud
+AEC
+Adobe Experience Manager
+AEM
+Adobe Analytics
+Adobe Campaign
+Adobe Target
+Adobe Commerce
+Magento
+Adobe Experience Platform
+AEP
+Marketo Engage
+Real-Time CDP
+Journey Optimizer
+
+ROLE_FAMILIES:
+Adobe Experience Cloud Consultant
+
+Adobe Solution Architect
+
+Adobe Technical Consultant
+
+Adobe Functional Consultant
+
+Adobe Developer
+
+Adobe Enterprise Architect
+
+Digital Experience Consultant
+
+COMMON_JOB_TITLES:
+Adobe Experience Cloud Consultant
+
+Adobe Solution Architect
+
+Adobe Technical Architect
+
+Adobe Technical Consultant
+
+Adobe Experience Manager Consultant
+
+Adobe Developer
+
+ALTERNATIVE_TITLES:
+Digital Experience Consultant
+
+DXP Consultant
+
+MarTech Consultant
+
+Customer Experience Consultant
+
+CORE_SKILLS:
+Digital Experience
+
+Customer Experience
+
+Content Management
+
+Personalization
+
+Marketing Automation
+
+Analytics
+
+Customer Data Platform
+
+Integration
+
+SUPPORTING_SKILLS:
+Java
+
+JavaScript
+
+Cloud
+
+REST APIs
+
+GraphQL
+
+DevOps
+
+Security
+
+RELATED_TECHNOLOGIES:
+Adobe Experience Manager
+
+Adobe Analytics
+
+Adobe Campaign
+
+Adobe Target
+
+Adobe Commerce
+
+Adobe Experience Platform
+
+Journey Optimizer
+
+Marketo Engage
+
+Real-Time CDP
+
+Customer Journey Analytics
+
+TECHNOLOGY_CATEGORY:
+Digital Experience Platform (DXP)
+
+DEPENDENCIES:
+
+013_CLOUD.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+011_APIS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Adobe Experience Cloud is Adobe's enterprise Digital Experience Platform (DXP) for delivering personalized customer experiences across web, mobile, commerce, marketing and analytics.
+
+The platform combines content management, customer data, personalization, campaign management, AI-driven recommendations and commerce into an integrated digital experience ecosystem.
+
+==================================================
+CORE PRODUCT FAMILIES
+=====================
+
+Content Management
+
+Adobe Experience Manager (AEM)
+
+---
+
+Analytics
+
+Adobe Analytics
+
+Customer Journey Analytics
+
+---
+
+Marketing
+
+Adobe Campaign
+
+Journey Optimizer
+
+Marketo Engage
+
+---
+
+Personalization
+
+Adobe Target
+
+---
+
+Commerce
+
+Adobe Commerce (Magento)
+
+---
+
+Customer Data
+
+Adobe Experience Platform (AEP)
+
+Real-Time CDP
+
+---
+
+Digital Assets
+
+AEM Assets
+
+Dynamic Media
+
+==================================================
+PLATFORM ARCHITECTURE
+=====================
+
+Customer Channels
+
+↓
+
+Experience Applications
+
+↓
+
+Adobe Experience Cloud
+
+↓
+
+Experience Platform (AEP)
+
+↓
+
+Real-Time CDP
+
+↓
+
+Enterprise Integrations
+
+==================================================
+IMPLEMENTATION TYPES
+====================
+
+Digital Transformation
+
+Website Modernization
+
+DXP Implementation
+
+Marketing Transformation
+
+Commerce Modernization
+
+Customer Experience Transformation
+
+CDP Implementation
+
+Cloud Migration
+
+==================================================
+CONSULTANT TYPES
+================
+
+Functional Consultant
+
+↓
+
+Business Processes
+
+Configuration
+
+---
+
+Technical Consultant
+
+↓
+
+Development
+
+Integrations
+
+---
+
+Developer
+
+↓
+
+Java
+
+AEM
+
+APIs
+
+---
+
+Solution Architect
+
+↓
+
+Architecture
+
+Governance
+
+Security
+
+---
+
+Enterprise Architect
+
+↓
+
+Digital Strategy
+
+Platform Roadmap
+
+==================================================
+COMMON RESPONSIBILITIES
+=======================
+
+Requirements Workshops
+
+Solution Design
+
+Platform Configuration
+
+Development
+
+Integration
+
+Content Migration
+
+Testing
+
+Deployment
+
+Performance Optimization
+
+Hypercare
+
+Production Support
+
+==================================================
+PLATFORM CAPABILITIES
+=====================
+
+Content Management
+
+Digital Asset Management
+
+Personalization
+
+Customer Profiles
+
+Marketing Automation
+
+AI Recommendations
+
+Analytics
+
+Commerce
+
+==================================================
+SECURITY
+========
+
+Identity Management
+
+Role-Based Access
+
+SSO
+
+Data Governance
+
+Consent Management
+
+Privacy Controls
+
+==================================================
+COMMON PROJECTS
+===============
+
+Website Replatforming
+
+Customer Experience Modernization
+
+Marketing Automation
+
+Personalization
+
+Commerce Transformation
+
+Customer Data Platform
+
+Enterprise Content Management
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Adobe Product
+
+*
+
+Role
+
+*
+
+Technology
+
+Example
+
+("Adobe Experience Cloud" OR Adobe)
+
+AND
+
+(AEM OR Analytics OR Campaign)
+
+AND
+
+(Consultant OR Architect)
+
+AND
+
+(Implementation OR Development)
+
+Expand Adobe products only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Adobe Experience Cloud
+
+Critical
+
+Relevant Adobe Product
+
+Critical
+
+Implementation
+
+High
+
+Architecture
+
+High
+
+Integration
+
+High
+
+Development
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Sitecore
+
+↓
+
+Adobe Experience Manager
+
+Medium
+
+---
+
+Salesforce Marketing Cloud
+
+↓
+
+Adobe Campaign
+
+Medium
+
+---
+
+Google Analytics
+
+↓
+
+Adobe Analytics
+
+Medium
+
+---
+
+SAP Commerce
+
+↓
+
+Adobe Commerce
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Adobe Product
+
+Business Domain
+
+Functional vs Technical
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+AEM
+
+Analytics
+
+Campaign
+
+Target
+
+Commerce
+
+Experience Platform
+
+Marketo
+
+Never assume Adobe Experience Cloud experience covers every Adobe product.
+
+Recognize multi-product enterprise implementations as significantly stronger than single-product support experience.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating all Adobe products as interchangeable.
+
+Confusing Adobe Campaign with Marketo.
+
+Matching candidates solely because they mention Adobe.
+
+Ignoring product specialization.
+
+Treating content authoring as platform implementation.
+
+Ignoring enterprise architecture responsibilities.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+NEXT KNOWLEDGE FILES
+====================
+
+091_ADOBE_EXPERIENCE_MANAGER_AEM.txt
+
+092_ADOBE_ANALYTICS.txt
+
+093_ADOBE_CAMPAIGN.txt
+
+094_ADOBE_TARGET.txt
+
+095_ADOBE_COMMERCE_MAGENTO.txt
+
+096_ADOBE_EXPERIENCE_PLATFORM_AEP.txt
+
+097_ADOBE_MARKETO.txt
+
+098_ADOBE_DEVELOPMENT.txt
+
+099_ADOBE_INTEGRATION.txt
+
+END_OF_FILE

@@ -1,0 +1,656 @@
+FILE_NAME:
+053_SALESFORCE_DEVOPS.txt
+
+ID:
+053
+
+DOMAIN:
+Salesforce
+
+CATEGORY:
+Enterprise CRM
+
+SUBCATEGORY:
+Salesforce DevOps & CI/CD
+
+PRIMARY_ROLE:
+Salesforce DevOps Engineer
+
+RELATED_FILES:
+
+014_DEVOPS.txt
+
+046_SALESFORCE_PLATFORM.txt
+
+051_SALESFORCE_PLATFORM_DEVELOPMENT.txt
+
+052_SALESFORCE_INTEGRATION.txt
+
+054_SALESFORCE_DATA_CLOUD.txt
+
+055_SALESFORCE_CPQ.txt
+
+056_SALESFORCE_TABLEAU_CRM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Salesforce DevOps
+
+PURPOSE:
+Enable AI agents to understand Salesforce DevOps, CI/CD pipelines, Salesforce DX (SFDX), source-driven development, Git, package management, release management, environment strategy, testing automation, deployment automation, and Salesforce DevOps Engineer responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Salesforce DevOps
+Salesforce DX
+SFDX
+CI/CD
+Git
+Copado
+Gearset
+AutoRABIT
+Jenkins
+GitHub Actions
+Azure DevOps
+Unlocked Packages
+Second Generation Packaging
+Scratch Org
+
+ROLE_FAMILIES:
+Salesforce DevOps Engineer
+Salesforce Release Manager
+Salesforce Platform Engineer
+Salesforce Technical Lead
+DevOps Engineer
+Salesforce Solution Architect
+
+COMMON_JOB_TITLES:
+Salesforce DevOps Engineer
+Salesforce Release Manager
+Salesforce Platform Engineer
+Salesforce CI/CD Engineer
+Salesforce Automation Engineer
+
+ALTERNATIVE_TITLES:
+Salesforce Deployment Engineer
+Salesforce Build Engineer
+Salesforce Release Engineer
+
+CORE_SKILLS:
+CI/CD
+
+Git
+
+Release Management
+
+SFDX
+
+Automation
+
+Testing
+
+Deployment
+
+Package Management
+
+SUPPORTING_SKILLS:
+GitHub
+
+Azure DevOps
+
+Jenkins
+
+Shell Scripting
+
+Docker
+
+Monitoring
+
+Security
+
+RELATED_TECHNOLOGIES:
+Salesforce DX
+
+Git
+
+Copado
+
+Gearset
+
+AutoRABIT
+
+Jenkins
+
+GitHub Actions
+
+Azure DevOps
+
+Bitbucket
+
+VS Code
+
+TECHNOLOGY_CATEGORY:
+DevOps Platform
+
+DEPENDENCIES:
+
+014_DEVOPS.txt
+
+051_SALESFORCE_PLATFORM_DEVELOPMENT.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Salesforce DevOps focuses on automating Salesforce development, testing, deployment and release management using modern DevOps practices.
+
+Modern Salesforce DevOps is based on source-driven development with Salesforce DX, Git and automated CI/CD pipelines.
+
+==================================================
+DEVOPS PIPELINE
+===============
+
+Developer
+
+↓
+
+Git
+
+↓
+
+Build
+
+↓
+
+Validation
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Monitoring
+
+==================================================
+CORE COMPONENTS
+===============
+
+Salesforce DX
+
+Scratch Orgs
+
+Unlocked Packages
+
+Git
+
+CI/CD
+
+Testing
+
+Release Management
+
+Environment Strategy
+
+==================================================
+SALESFORCE DX
+=============
+
+COMMON RESPONSIBILITIES
+
+Source-Driven Development
+
+Scratch Orgs
+
+CLI
+
+Metadata Management
+
+Project Structure
+
+==================================================
+VERSION CONTROL
+===============
+
+COMMON RESPONSIBILITIES
+
+Git
+
+Branching
+
+Pull Requests
+
+Merge Strategies
+
+Code Reviews
+
+Release Branches
+
+==================================================
+PACKAGE MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Unlocked Packages
+
+Managed Packages
+
+Second Generation Packaging (2GP)
+
+Dependency Management
+
+Package Promotion
+
+==================================================
+CI/CD
+=====
+
+COMMON RESPONSIBILITIES
+
+Automated Builds
+
+Deployment Validation
+
+Unit Testing
+
+Static Code Analysis
+
+Deployment Automation
+
+Rollback
+
+==================================================
+TEST AUTOMATION
+===============
+
+COMMON RESPONSIBILITIES
+
+Apex Tests
+
+Code Coverage
+
+Regression Testing
+
+Quality Gates
+
+Smoke Testing
+
+==================================================
+DEPLOYMENT TOOLS
+================
+
+COMMON TOOLS
+
+Copado
+
+Gearset
+
+AutoRABIT
+
+Jenkins
+
+GitHub Actions
+
+Azure DevOps
+
+Bitbucket Pipelines
+
+==================================================
+ENVIRONMENT STRATEGY
+====================
+
+Developer Sandbox
+
+↓
+
+Integration Sandbox
+
+↓
+
+QA Sandbox
+
+↓
+
+UAT
+
+↓
+
+Production
+
+Scratch Orgs
+
+Developer Pro
+
+Partial Copy
+
+Full Copy
+
+==================================================
+RELEASE MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Release Planning
+
+Deployment Scheduling
+
+Change Tracking
+
+Rollback Strategy
+
+Production Releases
+
+==================================================
+MONITORING
+==========
+
+COMMON RESPONSIBILITIES
+
+Deployment Monitoring
+
+Pipeline Monitoring
+
+Error Tracking
+
+Deployment Metrics
+
+Release Reporting
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+CI/CD Implementation
+
+Salesforce DX Migration
+
+Release Automation
+
+DevOps Modernization
+
+Platform Engineering
+
+Large-Scale Deployment
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Pipeline Design
+
+↓
+
+Source Control
+
+↓
+
+Build Automation
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Release Management
+
+↓
+
+Operations
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+DevOps
+
+*
+
+CI/CD
+
+*
+
+Automation
+
+Example
+
+(Salesforce)
+
+AND
+
+(SFDX OR Copado OR Gearset)
+
+AND
+
+(Git OR Jenkins)
+
+AND
+
+(CI/CD OR DevOps)
+
+Expand DevOps tools only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Salesforce DevOps
+
+Critical
+
+Salesforce DX
+
+Critical
+
+Git
+
+High
+
+CI/CD
+
+High
+
+Release Management
+
+High
+
+Automation
+
+Medium
+
+Testing
+
+Medium
+
+Package Management
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+GitHub Actions
+
+↓
+
+Jenkins
+
+High
+
+---
+
+Azure DevOps
+
+↓
+
+GitHub Actions
+
+High
+
+---
+
+AutoRABIT
+
+↓
+
+Gearset
+
+Medium
+
+---
+
+General DevOps
+
+↓
+
+Salesforce DevOps
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Deployment Model
+
+Source Strategy
+
+Pipeline Technology
+
+Package Strategy
+
+Project Type
+
+Differentiate
+
+Salesforce Developer
+
+Salesforce DevOps Engineer
+
+Release Manager
+
+Platform Engineer
+
+Administrator
+
+Identify whether the engineer performed
+
+Pipeline Design
+
+Automation
+
+Testing
+
+Deployment
+
+Monitoring
+
+Release Management
+
+Environment Management
+
+Recognize candidates with Salesforce DX migration, enterprise CI/CD implementation, Copado, Gearset, AutoRABIT, GitHub Actions, Jenkins and multi-org deployment experience as senior Salesforce DevOps engineers.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Salesforce Developers as Salesforce DevOps Engineers.
+
+Confusing Salesforce DX with Lightning Development.
+
+Matching candidates solely because they mention Git.
+
+Ignoring release management responsibilities.
+
+Treating sandbox deployments as enterprise CI/CD.
+
+Ignoring package management experience.
+
+Assuming certification equals enterprise DevOps implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Salesforce DX
+
+↓
+
+SFDX
+
+CLI
+
+Scratch Org
+
+Unlocked Packages
+
+2GP
+
+---
+
+CI/CD
+
+↓
+
+Jenkins
+
+GitHub Actions
+
+Azure DevOps
+
+Copado
+
+Gearset
+
+AutoRABIT
+
+---
+
+Version Control
+
+↓
+
+Git
+
+Bitbucket
+
+GitHub
+
+GitLab
+
+---
+
+Deployment
+
+↓
+
+Validation
+
+Release
+
+Rollback
+
+Automation
+
+END_OF_FILE

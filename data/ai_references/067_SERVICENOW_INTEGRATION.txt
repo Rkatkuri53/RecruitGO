@@ -1,0 +1,681 @@
+FILE_NAME:
+067_SERVICENOW_INTEGRATION.txt
+
+ID:
+067
+
+DOMAIN:
+ServiceNow
+
+CATEGORY:
+Enterprise Platform
+
+SUBCATEGORY:
+ServiceNow Integration
+
+PRIMARY_ROLE:
+ServiceNow Integration Consultant
+
+RELATED_FILES:
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+057_SERVICENOW_PLATFORM.txt
+
+058_SERVICENOW_ITSM.txt
+
+059_SERVICENOW_ITOM.txt
+
+060_SERVICENOW_ITAM_SAM.txt
+
+061_SERVICENOW_HRSD.txt
+
+062_SERVICENOW_CSM.txt
+
+063_SERVICENOW_SPM_PPM.txt
+
+064_SERVICENOW_GRC_IRM.txt
+
+065_SERVICENOW_SECOPS.txt
+
+066_SERVICENOW_PLATFORM_DEVELOPMENT.txt
+
+068_SERVICENOW_CMDB_DISCOVERY.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+ServiceNow Integration
+
+PURPOSE:
+Enable AI agents to understand ServiceNow enterprise integrations, IntegrationHub, Flow Designer integrations, REST/SOAP APIs, MID Server, JDBC, LDAP, OAuth, event-driven integrations, enterprise middleware, and ServiceNow Integration Consultant responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+ServiceNow Integration
+IntegrationHub
+REST API
+SOAP API
+MID Server
+OAuth
+JDBC
+LDAP
+IntegrationHub ETL
+Flow Designer
+Webhooks
+JSON
+XML
+
+ROLE_FAMILIES:
+ServiceNow Integration Consultant
+Integration Architect
+Technical Consultant
+Solution Architect
+Enterprise Integration Consultant
+Platform Engineer
+
+COMMON_JOB_TITLES:
+ServiceNow Integration Consultant
+ServiceNow Solution Architect
+ServiceNow Technical Consultant
+Integration Architect
+Enterprise Integration Consultant
+
+ALTERNATIVE_TITLES:
+Now Platform Integration Consultant
+Workflow Integration Consultant
+Middleware Consultant
+
+CORE_SKILLS:
+REST APIs
+
+SOAP APIs
+
+IntegrationHub
+
+Flow Designer
+
+MID Server
+
+Authentication
+
+Enterprise Integration
+
+Workflow Automation
+
+SUPPORTING_SKILLS:
+JSON
+
+XML
+
+OAuth
+
+JDBC
+
+LDAP
+
+JavaScript
+
+Monitoring
+
+RELATED_TECHNOLOGIES:
+IntegrationHub
+
+Flow Designer
+
+MID Server
+
+REST API
+
+SOAP API
+
+JDBC
+
+LDAP
+
+OAuth
+
+Microsoft Graph
+
+MuleSoft
+
+TECHNOLOGY_CATEGORY:
+Enterprise Integration Platform
+
+DEPENDENCIES:
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+ServiceNow Integration enables enterprise workflow automation by securely connecting the Now Platform with cloud applications, on-premises systems, identity providers, monitoring tools, HR systems, ERPs and collaboration platforms.
+
+Modern ServiceNow integrations rely on APIs, IntegrationHub spokes, Flow Designer and MID Server rather than custom point-to-point scripting.
+
+==================================================
+INTEGRATION ARCHITECTURE
+========================
+
+Enterprise System
+
+↓
+
+API / Middleware
+
+↓
+
+Authentication
+
+↓
+
+IntegrationHub
+
+↓
+
+Flow Designer
+
+↓
+
+ServiceNow
+
+↓
+
+Business Workflow
+
+==================================================
+CORE INTEGRATION METHODS
+========================
+
+REST APIs
+
+SOAP APIs
+
+IntegrationHub
+
+Flow Designer
+
+MID Server
+
+Import Sets
+
+Transform Maps
+
+Webhooks
+
+==================================================
+REST API
+========
+
+COMMON RESPONSIBILITIES
+
+CRUD Operations
+
+JSON Payloads
+
+Authentication
+
+Pagination
+
+Error Handling
+
+API Security
+
+==================================================
+SOAP API
+========
+
+COMMON RESPONSIBILITIES
+
+Legacy Integrations
+
+XML Payloads
+
+WSDL
+
+Enterprise Applications
+
+Secure Communication
+
+==================================================
+INTEGRATIONHUB
+==============
+
+COMMON RESPONSIBILITIES
+
+Spokes
+
+Actions
+
+Subflows
+
+Reusable Integrations
+
+Low-Code Integrations
+
+Workflow Automation
+
+==================================================
+MID SERVER
+==========
+
+COMMON RESPONSIBILITIES
+
+On-Prem Connectivity
+
+Discovery Support
+
+Secure Tunneling
+
+JDBC Connectivity
+
+PowerShell Execution
+
+SSH Connectivity
+
+==================================================
+DATA INTEGRATION
+================
+
+COMMON RESPONSIBILITIES
+
+Import Sets
+
+Transform Maps
+
+Scheduled Imports
+
+Data Synchronization
+
+Bulk Imports
+
+Data Validation
+
+==================================================
+AUTHENTICATION
+==============
+
+COMMON RESPONSIBILITIES
+
+OAuth 2.0
+
+Basic Authentication
+
+JWT
+
+LDAP
+
+SAML
+
+Certificates
+
+==================================================
+COMMON INTEGRATION TARGETS
+==========================
+
+SAP
+
+Oracle ERP
+
+Workday
+
+Salesforce
+
+Microsoft 365
+
+Azure AD
+
+AWS
+
+ServiceNow Modules
+
+Monitoring Tools
+
+==================================================
+INTEGRATION PATTERNS
+====================
+
+Point-to-Point
+
+Hub-and-Spoke
+
+API-Led
+
+Event-Driven
+
+Request-Response
+
+Batch Integration
+
+Real-Time Integration
+
+==================================================
+MONITORING
+==========
+
+COMMON RESPONSIBILITIES
+
+Integration Monitoring
+
+Retry Logic
+
+Logging
+
+Alerts
+
+Performance Monitoring
+
+Failure Recovery
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Enterprise Integration
+
+ERP Integration
+
+HR Integration
+
+Identity Integration
+
+Cloud Integration
+
+Digital Workflow Automation
+
+Platform Modernization
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Architecture Design
+
+↓
+
+API Design
+
+↓
+
+Configuration
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Monitoring
+
+↓
+
+Support
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Integration
+
+*
+
+API
+
+*
+
+Workflow
+
+Example
+
+(ServiceNow)
+
+AND
+
+(IntegrationHub OR REST)
+
+AND
+
+(MID Server OR Flow Designer)
+
+AND
+
+(Integration)
+
+Expand integration technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+ServiceNow Integration
+
+Critical
+
+IntegrationHub
+
+Critical
+
+REST APIs
+
+High
+
+Flow Designer
+
+High
+
+MID Server
+
+High
+
+OAuth
+
+Medium
+
+JDBC
+
+Medium
+
+Architecture
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+MuleSoft
+
+↓
+
+IntegrationHub
+
+Medium
+
+---
+
+Dell Boomi
+
+↓
+
+IntegrationHub
+
+Medium
+
+---
+
+Azure Logic Apps
+
+↓
+
+Flow Designer
+
+Medium
+
+---
+
+Microsoft Power Automate
+
+↓
+
+Flow Designer
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Integration Method
+
+Authentication Method
+
+Middleware
+
+Architecture Pattern
+
+Project Type
+
+Differentiate
+
+REST
+
+SOAP
+
+IntegrationHub
+
+MID Server
+
+Import Sets
+
+Flow Designer
+
+Identify whether the consultant performed
+
+Integration Design
+
+Workflow Design
+
+Authentication
+
+API Development
+
+Testing
+
+Deployment
+
+Monitoring
+
+Support
+
+Recognize candidates with enterprise IntegrationHub implementation, MID Server configuration, secure API integrations, Flow Designer automation and multi-system enterprise integrations as senior ServiceNow Integration consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating REST API knowledge as complete ServiceNow integration expertise.
+
+Confusing MID Server with Discovery.
+
+Matching candidates solely because they mention APIs.
+
+Ignoring authentication and enterprise integration architecture.
+
+Treating scripting experience as enterprise integration expertise.
+
+Ignoring IntegrationHub spokes and Flow Designer.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+IntegrationHub
+
+↓
+
+Spokes
+
+Actions
+
+Subflows
+
+Flow Designer
+
+---
+
+REST
+
+↓
+
+JSON
+
+OAuth
+
+CRUD
+
+API
+
+Webhooks
+
+---
+
+MID Server
+
+↓
+
+JDBC
+
+PowerShell
+
+SSH
+
+Discovery
+
+Secure Connectivity
+
+---
+
+Authentication
+
+↓
+
+OAuth
+
+LDAP
+
+SAML
+
+JWT
+
+Certificates
+
+END_OF_FILE

@@ -1,0 +1,675 @@
+FILE_NAME:
+093_ADOBE_CAMPAIGN.txt
+
+ID:
+093
+
+DOMAIN:
+Adobe
+
+CATEGORY:
+Enterprise Marketing Automation
+
+SUBCATEGORY:
+Adobe Campaign
+
+PRIMARY_ROLE:
+Adobe Campaign Consultant
+
+RELATED_FILES:
+
+090_ADOBE_EXPERIENCE_CLOUD_PLATFORM.txt
+
+091_ADOBE_EXPERIENCE_MANAGER_AEM.txt
+
+092_ADOBE_ANALYTICS.txt
+
+094_ADOBE_TARGET.txt
+
+095_ADOBE_COMMERCE_MAGENTO.txt
+
+096_ADOBE_EXPERIENCE_PLATFORM_AEP.txt
+
+097_ADOBE_MARKETO.txt
+
+098_ADOBE_DEVELOPMENT.txt
+
+099_ADOBE_INTEGRATION.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Adobe Campaign
+
+PURPOSE:
+Enable AI agents to understand Adobe Campaign Classic (ACC) and Adobe Campaign Standard (ACS), campaign management, journey orchestration, audience segmentation, email marketing, SMS marketing, push notifications, personalization, workflow automation, consultant responsibilities, implementation methodologies, and enterprise marketing transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Adobe Campaign
+Adobe Campaign Classic
+Adobe Campaign Standard
+ACC
+ACS
+Campaign Management
+Journey Orchestration
+Email Marketing
+SMS Marketing
+Push Notifications
+Personalization
+Workflow Designer
+
+ROLE_FAMILIES:
+Adobe Campaign Consultant
+
+Marketing Automation Consultant
+
+Campaign Developer
+
+Adobe Solution Architect
+
+Digital Marketing Consultant
+
+MarTech Consultant
+
+COMMON_JOB_TITLES:
+Adobe Campaign Consultant
+
+Adobe Campaign Developer
+
+Adobe Campaign Architect
+
+Marketing Automation Consultant
+
+Adobe Campaign Technical Consultant
+
+ALTERNATIVE_TITLES:
+Campaign Automation Consultant
+
+Digital Campaign Consultant
+
+Customer Engagement Consultant
+
+CORE_SKILLS:
+Campaign Management
+
+Journey Orchestration
+
+Audience Segmentation
+
+Email Marketing
+
+SMS Marketing
+
+Push Notifications
+
+Workflow Automation
+
+Personalization
+
+SUPPORTING_SKILLS:
+SQL
+
+JavaScript
+
+HTML
+
+APIs
+
+Deliverability
+
+Reporting
+
+Data Management
+
+RELATED_TECHNOLOGIES:
+Adobe Campaign Classic
+
+Adobe Campaign Standard
+
+Adobe Journey Optimizer
+
+Adobe Experience Platform
+
+Adobe Analytics
+
+Adobe Target
+
+Real-Time CDP
+
+TECHNOLOGY_CATEGORY:
+Enterprise Campaign Management Platform
+
+DEPENDENCIES:
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+090_ADOBE_EXPERIENCE_CLOUD_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Adobe Campaign is Adobe's enterprise cross-channel campaign management platform used to design, automate and personalize customer communications across email, SMS, push notifications, direct mail and other digital channels.
+
+It supports both batch and real-time marketing campaigns while integrating with Adobe Experience Platform and other Adobe Experience Cloud products.
+
+==================================================
+CORE MODULES
+============
+
+Campaign Management
+
+Workflow Designer
+
+Audience Segmentation
+
+Email Marketing
+
+SMS Marketing
+
+Push Notifications
+
+Personalization
+
+Reporting
+
+==================================================
+CAMPAIGN MANAGEMENT
+===================
+
+COMMON RESPONSIBILITIES
+
+Campaign Planning
+
+Campaign Execution
+
+Campaign Scheduling
+
+Offer Management
+
+Approval Workflows
+
+Campaign Monitoring
+
+==================================================
+WORKFLOW DESIGNER
+=================
+
+COMMON RESPONSIBILITIES
+
+Automation Workflows
+
+Decision Logic
+
+Triggers
+
+Scheduling
+
+Data Processing
+
+Reusable Workflows
+
+==================================================
+AUDIENCE SEGMENTATION
+=====================
+
+COMMON RESPONSIBILITIES
+
+Target Audiences
+
+Dynamic Segments
+
+Customer Profiles
+
+Behavior Segmentation
+
+Campaign Eligibility
+
+==================================================
+EMAIL MARKETING
+===============
+
+COMMON RESPONSIBILITIES
+
+Templates
+
+Content Personalization
+
+A/B Testing
+
+Deliverability
+
+Open Rates
+
+Click Tracking
+
+==================================================
+SMS & PUSH
+==========
+
+COMMON RESPONSIBILITIES
+
+SMS Campaigns
+
+Push Notifications
+
+Mobile Engagement
+
+Opt-In Management
+
+Delivery Monitoring
+
+==================================================
+PERSONALIZATION
+===============
+
+COMMON RESPONSIBILITIES
+
+Dynamic Content
+
+Profile-Based Personalization
+
+Offers
+
+Recommendations
+
+Customer Preferences
+
+==================================================
+REPORTING
+=========
+
+COMMON RESPONSIBILITIES
+
+Campaign Reports
+
+Delivery Reports
+
+Engagement Metrics
+
+Conversion Analysis
+
+ROI Reporting
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Campaign Planning
+
+Audience Selection
+
+Campaign Execution
+
+Customer Engagement
+
+Personalization
+
+Marketing Performance
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Workflows
+
+Campaign Templates
+
+Profiles
+
+Deliveries
+
+Segments
+
+Offers
+
+Approvals
+
+Security
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Campaign Design
+
+↓
+
+Configuration
+
+↓
+
+Workflow Development
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Optimization
+
+↓
+
+Support
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Marketing Automation
+
+Campaign Modernization
+
+Customer Engagement
+
+Cross-Channel Marketing
+
+Personalization Programs
+
+Digital Marketing Transformation
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Adobe Experience Platform
+
+Adobe Analytics
+
+Adobe Target
+
+Adobe Experience Manager
+
+REST APIs
+
+CRM Systems
+
+Data Warehouses
+
+Real-Time CDP
+
+==================================================
+COMMON REPORTS
+==============
+
+Campaign Performance
+
+Email Metrics
+
+SMS Metrics
+
+Customer Engagement
+
+Conversion Reports
+
+Marketing Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Marketing Teams
+
+Campaign Managers
+
+CRM Teams
+
+Digital Marketing
+
+Customer Experience Teams
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Campaign
+
+*
+
+Marketing
+
+*
+
+Automation
+
+Example
+
+("Adobe Campaign" OR ACC OR ACS)
+
+AND
+
+(Campaign OR Workflow)
+
+AND
+
+(Email OR SMS OR Push)
+
+AND
+
+(Consultant)
+
+Expand Adobe Campaign terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Adobe Campaign
+
+Critical
+
+Campaign Management
+
+Critical
+
+Workflow Designer
+
+High
+
+Audience Segmentation
+
+High
+
+Email Marketing
+
+High
+
+Personalization
+
+Medium
+
+Reporting
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Salesforce Marketing Cloud
+
+↓
+
+Adobe Campaign
+
+Medium
+
+---
+
+Adobe Journey Optimizer
+
+↓
+
+Adobe Campaign
+
+High
+
+---
+
+Oracle Eloqua
+
+↓
+
+Adobe Campaign
+
+Medium
+
+---
+
+Marketo
+
+↓
+
+Adobe Campaign
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Campaign Platform
+
+Marketing Channels
+
+Automation Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Campaign
+
+Journey Optimizer
+
+Marketo
+
+Analytics
+
+Target
+
+Identify whether the consultant performed
+
+Campaign Design
+
+Workflow Development
+
+Segmentation
+
+Testing
+
+Deployment
+
+Optimization
+
+Support
+
+Recognize candidates with enterprise Adobe Campaign implementation, campaign automation, audience segmentation, cross-channel marketing, personalization and digital marketing transformation experience as senior Adobe Campaign consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Adobe Campaign as Marketo.
+
+Confusing campaign execution with campaign platform implementation.
+
+Matching candidates solely because they mention email marketing.
+
+Ignoring Workflow Designer expertise.
+
+Treating marketing operations as Adobe Campaign implementation.
+
+Ignoring ACC vs ACS experience.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Adobe Campaign
+
+↓
+
+Adobe Campaign Classic
+
+Adobe Campaign Standard
+
+ACC
+
+ACS
+
+---
+
+Campaign
+
+↓
+
+Campaign Management
+
+Workflow Designer
+
+Automation
+
+Journey
+
+---
+
+Channels
+
+↓
+
+Email
+
+SMS
+
+Push Notifications
+
+Direct Mail
+
+---
+
+Marketing
+
+↓
+
+Audience Segmentation
+
+Personalization
+
+Offers
+
+Customer Engagement
+
+END_OF_FILE

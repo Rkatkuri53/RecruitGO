@@ -1,0 +1,683 @@
+FILE_NAME:
+114_INFOR_LAWSON.txt
+
+ID:
+114
+
+DOMAIN:
+Infor
+
+CATEGORY:
+Enterprise Resource Planning (ERP)
+
+SUBCATEGORY:
+Infor Lawson
+
+PRIMARY_ROLE:
+Infor Lawson Consultant
+
+RELATED_FILES:
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+113_INFOR_CLOUDSUITE.txt
+
+115_INFOR_EAM.txt
+
+118_INFOR_OS_ION.txt
+
+119_INFOR_BI_ANALYTICS.txt
+
+013_CLOUD.txt
+
+VERSION:
+2.0
+
+CATEGORY:
+Infor Lawson
+
+PURPOSE:
+Enable AI agents to understand Infor Lawson ERP, healthcare ERP, public sector ERP, human capital management (HCM), financial management, supply chain management, Lawson S3, Lawson Landmark, consultant responsibilities, implementation methodologies, and enterprise ERP transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Infor Lawson
+Lawson
+Lawson S3
+Lawson Landmark
+Infor FSM
+Infor HCM
+Financial Management
+Healthcare ERP
+Public Sector ERP
+HR Payroll
+Supply Chain
+Accounts Payable
+
+ROLE_FAMILIES:
+Infor Lawson Functional Consultant
+
+Infor Lawson Technical Consultant
+
+Infor Lawson Developer
+
+Infor Lawson Solution Architect
+
+Healthcare ERP Consultant
+
+Financial Systems Consultant
+
+COMMON_JOB_TITLES:
+Infor Lawson Consultant
+
+Infor Lawson Functional Consultant
+
+Infor Lawson Technical Consultant
+
+Lawson Developer
+
+Lawson Architect
+
+Infor FSM Consultant
+
+ALTERNATIVE_TITLES:
+Healthcare ERP Consultant
+
+Financial ERP Consultant
+
+Public Sector ERP Consultant
+
+CORE_SKILLS:
+Financial Management
+
+Human Capital Management
+
+Procurement
+
+Supply Chain
+
+Payroll
+
+Accounts Payable
+
+Accounts Receivable
+
+Implementation
+
+SUPPORTING_SKILLS:
+Landmark
+
+LPL
+
+IPA
+
+SQL
+
+Reporting
+
+Integration
+
+Security
+
+RELATED_TECHNOLOGIES:
+Infor Lawson S3
+
+Infor Landmark
+
+Infor FSM
+
+Infor HCM
+
+Infor Process Automation (IPA)
+
+Infor OS
+
+Infor ION
+
+TECHNOLOGY_CATEGORY:
+Enterprise Financial & HCM ERP Platform
+
+DEPENDENCIES:
+
+013_CLOUD.txt
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Infor Lawson is Infor's enterprise ERP platform primarily serving healthcare, public sector, education and service organizations. It provides comprehensive financial management, human capital management (HCM), procurement, payroll and supply chain capabilities.
+
+Modern Lawson implementations leverage Landmark technology, Infor FSM (Financials & Supply Management) and Infor HCM as part of the broader Infor CloudSuite ecosystem.
+
+==================================================
+PRODUCT EVOLUTION
+=================
+
+Lawson S3
+
+↓
+
+Lawson Landmark
+
+↓
+
+Infor FSM
+
+Infor HCM
+
+↓
+
+Infor CloudSuite
+
+==================================================
+CORE MODULES
+============
+
+Financials
+
+Human Capital Management
+
+Payroll
+
+Procurement
+
+Supply Chain
+
+Budgeting
+
+Project Accounting
+
+Assets
+
+==================================================
+FINANCIAL MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+General Ledger
+
+Accounts Payable
+
+Accounts Receivable
+
+Cash Management
+
+Asset Accounting
+
+Financial Reporting
+
+==================================================
+HUMAN CAPITAL MANAGEMENT
+========================
+
+COMMON RESPONSIBILITIES
+
+Core HR
+
+Payroll
+
+Benefits
+
+Recruitment
+
+Performance Management
+
+Employee Self-Service
+
+==================================================
+PROCUREMENT
+===========
+
+COMMON RESPONSIBILITIES
+
+Purchase Requisitions
+
+Purchase Orders
+
+Vendor Management
+
+Strategic Sourcing
+
+Contract Management
+
+==================================================
+SUPPLY CHAIN
+============
+
+COMMON RESPONSIBILITIES
+
+Inventory
+
+Warehouse
+
+Receiving
+
+Distribution
+
+Materials Management
+
+==================================================
+LANDMARK PLATFORM
+=================
+
+COMMON RESPONSIBILITIES
+
+Business Classes
+
+Configuration
+
+Security
+
+Customizations
+
+Landmark Applications
+
+==================================================
+IPA (INFOR PROCESS AUTOMATION)
+==============================
+
+COMMON RESPONSIBILITIES
+
+Workflow Automation
+
+Approvals
+
+Notifications
+
+Business Rules
+
+Task Automation
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Record-to-Report
+
+Procure-to-Pay
+
+Hire-to-Retire
+
+Order-to-Cash
+
+Payroll Processing
+
+Budget Management
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Organizations
+
+Financial Structures
+
+Security
+
+Business Classes
+
+Workflows
+
+Users
+
+Approvals
+
+Interfaces
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Healthcare ERP
+
+Financial Transformation
+
+Payroll Modernization
+
+Cloud Migration
+
+Public Sector ERP
+
+ERP Upgrade
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Infor OS
+
+Infor ION
+
+Payroll Systems
+
+Banks
+
+Identity Providers
+
+REST APIs
+
+BI Platforms
+
+==================================================
+COMMON REPORTS
+==============
+
+Financial Statements
+
+Payroll Reports
+
+Procurement Reports
+
+HR Reports
+
+Budget Reports
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Finance
+
+Human Resources
+
+Payroll
+
+Procurement
+
+Healthcare Operations
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Financials
+
+*
+
+HCM
+
+*
+
+ERP
+
+Example
+
+("Infor Lawson" OR Lawson)
+
+AND
+
+(Financials OR HCM)
+
+AND
+
+(Landmark OR FSM)
+
+AND
+
+(Consultant OR Architect)
+
+Expand Lawson terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Infor Lawson
+
+Critical
+
+Lawson S3 / Landmark
+
+Critical
+
+Financials
+
+High
+
+HCM
+
+High
+
+Procurement
+
+High
+
+IPA
+
+Medium
+
+Security
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle E-Business Suite Financials
+
+↓
+
+Infor Lawson FSM
+
+Medium
+
+---
+
+SAP S/4HANA Finance
+
+↓
+
+Financial ERP
+
+Medium
+
+---
+
+Workday Financials
+
+↓
+
+Enterprise Financial Systems
+
+Medium
+
+---
+
+PeopleSoft HCM
+
+↓
+
+Lawson HCM
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Lawson Version
+
+Functional Area
+
+Industry
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Lawson S3
+
+Landmark
+
+FSM
+
+HCM
+
+IPA
+
+Financials
+
+Identify whether the consultant performed
+
+Requirements
+
+Configuration
+
+Customization
+
+Workflow Automation
+
+Testing
+
+Integration
+
+Migration
+
+Go-Live
+
+Support
+
+Recognize candidates with enterprise Infor Lawson implementation, Landmark development, FSM/HCM deployment, healthcare ERP modernization, financial transformation and enterprise payroll implementations as senior Infor Lawson consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating payroll processing as Lawson implementation.
+
+Confusing Lawson users with Lawson consultants.
+
+Matching candidates solely because they mention healthcare ERP.
+
+Ignoring Landmark platform expertise.
+
+Treating financial operations as ERP implementation.
+
+Ignoring IPA workflow automation.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Infor Lawson
+
+↓
+
+Lawson
+
+Lawson S3
+
+Infor FSM
+
+---
+
+Human Capital
+
+↓
+
+HCM
+
+Payroll
+
+Benefits
+
+Recruitment
+
+ESS
+
+---
+
+Financials
+
+↓
+
+GL
+
+AP
+
+AR
+
+Assets
+
+Budgeting
+
+---
+
+Technology
+
+↓
+
+Landmark
+
+IPA
+
+Business Classes
+
+Infor OS
+
+ION
+
+END_OF_FILE

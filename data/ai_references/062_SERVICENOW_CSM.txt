@@ -1,0 +1,656 @@
+FILE_NAME:
+062_SERVICENOW_CSM.txt
+
+ID:
+062
+
+DOMAIN:
+ServiceNow
+
+CATEGORY:
+Enterprise Platform
+
+SUBCATEGORY:
+ServiceNow Customer Service Management (CSM)
+
+PRIMARY_ROLE:
+ServiceNow CSM Consultant
+
+RELATED_FILES:
+
+057_SERVICENOW_PLATFORM.txt
+
+058_SERVICENOW_ITSM.txt
+
+061_SERVICENOW_HRSD.txt
+
+063_SERVICENOW_SPM_PPM.txt
+
+066_SERVICENOW_PLATFORM_DEVELOPMENT.txt
+
+067_SERVICENOW_INTEGRATION.txt
+
+068_SERVICENOW_CMDB_DISCOVERY.txt
+
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+ServiceNow Customer Service Management
+
+PURPOSE:
+Enable AI agents to understand ServiceNow Customer Service Management (CSM), customer case management, omnichannel customer support, self-service portals, knowledge management, field service integration, customer workflows, consultant responsibilities, implementation methodologies, and customer service transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+ServiceNow CSM
+Customer Service Management
+Customer Case Management
+Customer Portal
+Self-Service
+Knowledge Management
+Omnichannel
+Field Service
+Customer Workflows
+Service Portal
+
+ROLE_FAMILIES:
+ServiceNow CSM Consultant
+Customer Service Consultant
+ServiceNow Functional Consultant
+ServiceNow Solution Architect
+Customer Experience Consultant
+Customer Workflow Consultant
+
+COMMON_JOB_TITLES:
+ServiceNow CSM Consultant
+Customer Service Management Consultant
+ServiceNow Functional Consultant
+Customer Experience Consultant
+ServiceNow Solution Architect
+
+ALTERNATIVE_TITLES:
+Digital Customer Service Consultant
+Customer Operations Consultant
+Customer Workflow Consultant
+
+CORE_SKILLS:
+Customer Case Management
+
+Customer Portal
+
+Knowledge Management
+
+Workflow Automation
+
+Omnichannel Support
+
+Service Catalog
+
+Configuration
+
+Integration
+
+SUPPORTING_SKILLS:
+Flow Designer
+
+REST APIs
+
+Reporting
+
+Security
+
+Virtual Agent
+
+Field Service
+
+RELATED_TECHNOLOGIES:
+ServiceNow CSM
+
+Customer Portal
+
+Knowledge Base
+
+Service Catalog
+
+Virtual Agent
+
+Field Service Management
+
+IntegrationHub
+
+Performance Analytics
+
+TECHNOLOGY_CATEGORY:
+Customer Workflow Platform
+
+DEPENDENCIES:
+
+057_SERVICENOW_PLATFORM.txt
+
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+ServiceNow Customer Service Management (CSM) enables organizations to automate customer support operations through digital workflows, self-service portals, omnichannel support and proactive customer service.
+
+It connects customers, support agents, field service teams and back-office operations through a unified platform.
+
+==================================================
+CORE MODULES
+============
+
+Customer Case Management
+
+Customer Portal
+
+Knowledge Management
+
+Omnichannel Engagement
+
+Service Catalog
+
+Field Service Integration
+
+Virtual Agent
+
+Communities
+
+==================================================
+CUSTOMER CASE MANAGEMENT
+========================
+
+COMMON RESPONSIBILITIES
+
+Case Creation
+
+Assignment
+
+Escalation
+
+SLA Tracking
+
+Resolution
+
+Customer Communication
+
+==================================================
+CUSTOMER PORTAL
+===============
+
+COMMON RESPONSIBILITIES
+
+Self-Service
+
+Request Submission
+
+Case Tracking
+
+Knowledge Search
+
+Profile Management
+
+Announcements
+
+==================================================
+KNOWLEDGE MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+Knowledge Articles
+
+FAQs
+
+Case Deflection
+
+Knowledge Publishing
+
+Search Optimization
+
+==================================================
+OMNICHANNEL SUPPORT
+===================
+
+COMMON RESPONSIBILITIES
+
+Email
+
+Chat
+
+Portal
+
+Virtual Agent
+
+Phone Integration
+
+Case Routing
+
+==================================================
+FIELD SERVICE INTEGRATION
+=========================
+
+COMMON RESPONSIBILITIES
+
+Work Orders
+
+Technician Dispatch
+
+Appointment Scheduling
+
+Asset Management
+
+Customer Updates
+
+==================================================
+VIRTUAL AGENT
+=============
+
+COMMON RESPONSIBILITIES
+
+Conversational AI
+
+Customer Self-Service
+
+FAQ Automation
+
+Case Creation
+
+Workflow Automation
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Customer Case-to-Resolution
+
+Self-Service
+
+Knowledge Lifecycle
+
+Customer Escalation
+
+Field Service
+
+Customer Communications
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Customer Accounts
+
+Case Types
+
+Workflows
+
+SLAs
+
+Knowledge
+
+Portals
+
+Notifications
+
+Reports
+
+Dashboards
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Customer Journey Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+Training
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+CSM Implementation
+
+Customer Portal Deployment
+
+Customer Experience Transformation
+
+Digital Customer Service
+
+Field Service Integration
+
+Self-Service Modernization
+
+Global Rollout
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+CRM
+
+ERP
+
+REST APIs
+
+IntegrationHub
+
+Microsoft Teams
+
+Azure AD
+
+DocuSign
+
+Field Service Platforms
+
+==================================================
+COMMON REPORTS
+==============
+
+Customer Satisfaction
+
+Case Resolution
+
+SLA Performance
+
+Portal Usage
+
+Knowledge Usage
+
+Agent Productivity
+
+Customer Experience KPIs
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Customer Service Teams
+
+Support Engineers
+
+Customer Success Teams
+
+Service Managers
+
+Field Service Teams
+
+Customers
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Customer Service
+
+*
+
+Case Management
+
+*
+
+Portal
+
+Example
+
+(ServiceNow)
+
+AND
+
+(CSM)
+
+AND
+
+(Customer OR Case)
+
+AND
+
+(Portal OR Knowledge)
+
+Expand CSM terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+ServiceNow CSM
+
+Critical
+
+Customer Case Management
+
+Critical
+
+Customer Portal
+
+High
+
+Knowledge Management
+
+High
+
+Workflow Automation
+
+High
+
+Virtual Agent
+
+Medium
+
+Integration
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Salesforce Service Cloud
+
+↓
+
+ServiceNow CSM
+
+High
+
+---
+
+Microsoft Dynamics Customer Service
+
+↓
+
+ServiceNow CSM
+
+Medium
+
+---
+
+Oracle Service Cloud
+
+↓
+
+ServiceNow CSM
+
+Medium
+
+---
+
+Zendesk
+
+↓
+
+ServiceNow CSM
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Customer Service Module
+
+Portal Scope
+
+Workflow Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+CSM
+
+ITSM
+
+HRSD
+
+Virtual Agent
+
+Field Service
+
+Customer Portal
+
+Identify whether the consultant performed
+
+Customer Journey Design
+
+Configuration
+
+Workflow Automation
+
+Knowledge Management
+
+Integration
+
+Testing
+
+Deployment
+
+Support
+
+Recognize candidates with enterprise CSM implementation, customer portal deployment, omnichannel support, Virtual Agent implementation, knowledge management and customer experience transformation as senior ServiceNow CSM consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating CSM as ITSM.
+
+Confusing customer cases with IT incidents.
+
+Matching candidates solely because they mention ServiceNow.
+
+Ignoring customer journey design.
+
+Treating call center experience as CSM implementation experience.
+
+Ignoring customer portal and Virtual Agent expertise.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+CSM
+
+↓
+
+Customer Service Management
+
+Customer Workflows
+
+Customer Operations
+
+---
+
+Customer Portal
+
+↓
+
+Self-Service
+
+Communities
+
+Portal
+
+Knowledge
+
+---
+
+Customer Cases
+
+↓
+
+Case Management
+
+SLAs
+
+Escalation
+
+Resolution
+
+---
+
+Omnichannel
+
+↓
+
+Chat
+
+Email
+
+Phone
+
+Virtual Agent
+
+Messaging
+
+END_OF_FILE

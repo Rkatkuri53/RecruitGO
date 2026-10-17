@@ -1,0 +1,565 @@
+FILE_NAME:
+044_ORACLE_FUSION_MIDDLEWARE.txt
+
+ID:
+044
+
+DOMAIN:
+Oracle
+
+CATEGORY:
+Middleware
+
+SUBCATEGORY:
+Oracle Fusion Middleware
+
+PRIMARY_ROLE:
+Oracle Fusion Middleware Consultant
+
+RELATED_FILES:
+
+035_ORACLE_PLATFORM.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+042_ORACLE_DATABASE.txt
+
+043_ORACLE_APEX.txt
+
+045_ORACLE_OCI.txt
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Oracle Fusion Middleware
+
+PURPOSE:
+Enable AI agents to understand Oracle Fusion Middleware (OFM), Oracle WebLogic Server, SOA Suite, Oracle Service Bus (OSB), BPM Suite, Oracle HTTP Server (OHS), Identity Management, Enterprise Manager, middleware architecture, legacy modernization, and middleware consultant responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Oracle Fusion Middleware
+OFM
+WebLogic
+Oracle SOA Suite
+Oracle Service Bus
+OSB
+Oracle BPM
+Oracle HTTP Server
+Oracle Identity Management
+Oracle Enterprise Manager
+
+ROLE_FAMILIES:
+Oracle Middleware Consultant
+Oracle SOA Consultant
+Oracle WebLogic Administrator
+Oracle Middleware Architect
+Oracle Technical Consultant
+Oracle Integration Consultant
+
+COMMON_JOB_TITLES:
+Oracle Fusion Middleware Consultant
+Oracle SOA Consultant
+Oracle WebLogic Administrator
+Oracle Middleware Architect
+Oracle OSB Developer
+Oracle BPM Consultant
+
+ALTERNATIVE_TITLES:
+Oracle Middleware Engineer
+Oracle Infrastructure Consultant
+Oracle Platform Administrator
+
+CORE_SKILLS:
+Middleware Administration
+
+Application Server Administration
+
+Integration
+
+SOA
+
+High Availability
+
+Performance Tuning
+
+Security
+
+SUPPORTING_SKILLS:
+Linux
+
+Java
+
+Oracle Database
+
+Networking
+
+DevOps
+
+Cloud
+
+RELATED_TECHNOLOGIES:
+Oracle WebLogic Server
+
+Oracle SOA Suite
+
+Oracle Service Bus
+
+Oracle BPM Suite
+
+Oracle HTTP Server
+
+Oracle Identity Manager
+
+Oracle Access Manager
+
+Oracle Enterprise Manager
+
+TECHNOLOGY_CATEGORY:
+Enterprise Middleware
+
+DEPENDENCIES:
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+042_ORACLE_DATABASE.txt
+
+013_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Oracle Fusion Middleware (OFM) is Oracle's enterprise middleware platform that provides application servers, integration services, business process management, identity management and enterprise infrastructure.
+
+Although Oracle Integration Cloud is Oracle's strategic cloud integration platform, Oracle Fusion Middleware remains widely deployed in enterprise on-premises and hybrid environments.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Oracle WebLogic Server
+
+Oracle SOA Suite
+
+Oracle Service Bus (OSB)
+
+Oracle BPM Suite
+
+Oracle HTTP Server (OHS)
+
+Oracle Identity Management
+
+Oracle Enterprise Manager
+
+Coherence
+
+==================================================
+ARCHITECTURE
+============
+
+Client
+
+↓
+
+Oracle HTTP Server
+
+↓
+
+Oracle WebLogic
+
+↓
+
+SOA / OSB
+
+↓
+
+Oracle Database
+
+↓
+
+Enterprise Applications
+
+==================================================
+WEBLOGIC SERVER
+===============
+
+COMMON RESPONSIBILITIES
+
+Domain Creation
+
+Managed Servers
+
+Clusters
+
+Deployments
+
+JMS
+
+Data Sources
+
+Node Manager
+
+High Availability
+
+==================================================
+SOA SUITE
+=========
+
+COMMON RESPONSIBILITIES
+
+Composite Applications
+
+BPEL
+
+Mediators
+
+Human Workflow
+
+Business Rules
+
+Adapters
+
+Enterprise Integration
+
+==================================================
+ORACLE SERVICE BUS (OSB)
+========================
+
+COMMON RESPONSIBILITIES
+
+Message Routing
+
+Message Transformation
+
+Service Virtualization
+
+REST
+
+SOAP
+
+Protocol Mediation
+
+==================================================
+BPM SUITE
+=========
+
+COMMON RESPONSIBILITIES
+
+Business Process Automation
+
+Workflow
+
+Human Tasks
+
+Business Rules
+
+Approvals
+
+==================================================
+ORACLE HTTP SERVER
+==================
+
+COMMON RESPONSIBILITIES
+
+Reverse Proxy
+
+SSL
+
+Load Balancing
+
+Web Tier
+
+Security Configuration
+
+==================================================
+IDENTITY MANAGEMENT
+===================
+
+COMMON COMPONENTS
+
+Oracle Identity Manager (OIM)
+
+Oracle Access Manager (OAM)
+
+Oracle Unified Directory (OUD)
+
+Single Sign-On
+
+Authentication
+
+Authorization
+
+==================================================
+ENTERPRISE MANAGER
+==================
+
+COMMON RESPONSIBILITIES
+
+Middleware Monitoring
+
+Performance Monitoring
+
+Incident Management
+
+Capacity Planning
+
+Diagnostics
+
+==================================================
+HIGH AVAILABILITY
+=================
+
+COMMON RESPONSIBILITIES
+
+WebLogic Clustering
+
+Session Replication
+
+Load Balancing
+
+Disaster Recovery
+
+Failover
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Middleware Installation
+
+Application Migration
+
+SOA Modernization
+
+WebLogic Upgrade
+
+Hybrid Integration
+
+Cloud Migration
+
+Platform Consolidation
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Architecture
+
+↓
+
+Installation
+
+↓
+
+Configuration
+
+↓
+
+Deployment
+
+↓
+
+Performance Tuning
+
+↓
+
+Monitoring
+
+↓
+
+Support
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Middleware
+
+*
+
+Application Server
+
+*
+
+Integration
+
+Example
+
+("Oracle Fusion Middleware" OR WebLogic)
+
+AND
+
+("SOA Suite" OR OSB)
+
+AND
+
+(BPM OR OHS)
+
+AND
+
+(Migration OR Administration)
+
+Expand middleware technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Oracle Fusion Middleware
+
+Critical
+
+WebLogic
+
+Critical
+
+SOA Suite
+
+High
+
+OSB
+
+High
+
+Middleware Administration
+
+High
+
+Performance Tuning
+
+Medium
+
+Identity Management
+
+Medium
+
+Cloud Migration
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle SOA Suite
+
+↓
+
+Oracle Integration Cloud
+
+High
+
+---
+
+IBM WebSphere
+
+↓
+
+Oracle WebLogic
+
+Medium
+
+---
+
+Apache Tomcat
+
+↓
+
+WebLogic
+
+Medium
+
+---
+
+MuleSoft
+
+↓
+
+Oracle SOA
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Middleware Component
+
+Administration Scope
+
+Integration Technology
+
+Deployment Model
+
+Project Type
+
+Differentiate
+
+WebLogic
+
+SOA Suite
+
+OSB
+
+Oracle Integration Cloud
+
+Application Server
+
+Middleware
+
+Identify whether the consultant performed
+
+Installation
+
+Administration
+
+Integration
+
+Performance Tuning
+
+Monitoring
+
+Security
+
+Migration
+
+Support
+
+Recognize candidates with WebLogic clustering, SOA Suite implementation, OSB development, Identity Management integration and Oracle Fusion Middleware modernization experience as senior middleware consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Oracle Fusion Middleware as Oracle Fusion ERP.
+
+Confusing Oracle SOA Suite with Oracle Integration Cloud.
+
+Matching candidates solely because they mention WebLogic.
+
+Treating Java application development as middleware administration.
+
+Ignoring clustering and high availability experience.
+
+Ignoring enterprise integration architecture.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

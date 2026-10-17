@@ -1,0 +1,699 @@
+FILE_NAME:
+102_IBM_MQ.txt
+
+ID:
+102
+
+DOMAIN:
+IBM
+
+CATEGORY:
+Enterprise Messaging Middleware
+
+SUBCATEGORY:
+IBM MQ
+
+PRIMARY_ROLE:
+IBM MQ Consultant
+
+RELATED_FILES:
+
+100_IBM_ENTERPRISE_PLATFORM.txt
+
+101_IBM_WEBSPHERE.txt
+
+103_IBM_APP_CONNECT_IIB_ACE.txt
+
+109_IBM_CLOUD_PAK_OPENSHIFT.txt
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+IBM MQ
+
+PURPOSE:
+Enable AI agents to understand IBM MQ architecture, enterprise messaging, queue managers, channels, clustering, publish/subscribe, high availability, security, administration, consultant responsibilities, implementation methodologies, and enterprise messaging modernization projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+IBM MQ
+WebSphere MQ
+WMQ
+MQ
+Queue Manager
+Queues
+Channels
+MQ Cluster
+Publish Subscribe
+Pub/Sub
+Message Queue
+MQSC
+MQ Explorer
+Dead Letter Queue
+
+ROLE_FAMILIES:
+IBM MQ Administrator
+
+IBM MQ Consultant
+
+Middleware Consultant
+
+Messaging Architect
+
+Integration Consultant
+
+Infrastructure Engineer
+
+COMMON_JOB_TITLES:
+IBM MQ Administrator
+
+IBM MQ Consultant
+
+IBM MQ Architect
+
+Messaging Administrator
+
+Middleware Engineer
+
+ALTERNATIVE_TITLES:
+Enterprise Messaging Consultant
+
+Middleware Messaging Engineer
+
+Messaging Infrastructure Architect
+
+CORE_SKILLS:
+Queue Manager Administration
+
+Queue Configuration
+
+Channel Administration
+
+MQ Clustering
+
+High Availability
+
+Security
+
+Performance Tuning
+
+Messaging Architecture
+
+SUPPORTING_SKILLS:
+Linux
+
+Windows
+
+UNIX
+
+Shell Scripting
+
+TLS
+
+Monitoring
+
+Docker
+
+OpenShift
+
+RELATED_TECHNOLOGIES:
+IBM MQ
+
+MQ Explorer
+
+MQSC
+
+IBM ACE
+
+WebSphere
+
+Kafka
+
+JMS
+
+AMQP
+
+OpenShift
+
+TECHNOLOGY_CATEGORY:
+Enterprise Messaging Platform
+
+DEPENDENCIES:
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+IBM MQ is IBM's enterprise messaging middleware that enables reliable, asynchronous communication between distributed applications.
+
+It provides guaranteed message delivery, transactional messaging, high availability and secure communication across heterogeneous enterprise environments.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Queue Managers
+
+Local Queues
+
+Remote Queues
+
+Transmission Queues
+
+Channels
+
+Listeners
+
+Topics
+
+Subscriptions
+
+Dead Letter Queue
+
+==================================================
+QUEUE MANAGERS
+==============
+
+COMMON RESPONSIBILITIES
+
+Queue Manager Creation
+
+Configuration
+
+Administration
+
+Backup
+
+Recovery
+
+Monitoring
+
+==================================================
+QUEUE ADMINISTRATION
+====================
+
+COMMON RESPONSIBILITIES
+
+Local Queues
+
+Alias Queues
+
+Remote Queues
+
+Dynamic Queues
+
+Transmission Queues
+
+Queue Policies
+
+==================================================
+CHANNELS
+========
+
+COMMON RESPONSIBILITIES
+
+Sender Channels
+
+Receiver Channels
+
+Server Connection Channels
+
+Requester Channels
+
+Security Configuration
+
+Channel Authentication
+
+==================================================
+CLUSTERING
+==========
+
+COMMON RESPONSIBILITIES
+
+MQ Clusters
+
+Repository Queue Managers
+
+Workload Balancing
+
+Scalability
+
+High Availability
+
+==================================================
+PUBLISH / SUBSCRIBE
+===================
+
+COMMON RESPONSIBILITIES
+
+Topics
+
+Subscriptions
+
+Publishers
+
+Subscribers
+
+Message Distribution
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+TLS/SSL
+
+Channel Authentication
+
+LDAP
+
+Authentication
+
+Authorization
+
+Certificates
+
+==================================================
+PERFORMANCE TUNING
+==================
+
+COMMON RESPONSIBILITIES
+
+Queue Depth Monitoring
+
+Log Tuning
+
+Buffer Pools
+
+Persistent Messaging
+
+Throughput Optimization
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Application Messaging
+
+Enterprise Integration
+
+Event Distribution
+
+Transaction Processing
+
+Reliable Messaging
+
+Asynchronous Communication
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Queue Managers
+
+Queues
+
+Channels
+
+Listeners
+
+Security
+
+Logging
+
+Clustering
+
+Monitoring
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Architecture
+
+↓
+
+Installation
+
+↓
+
+Configuration
+
+↓
+
+Testing
+
+↓
+
+Performance Validation
+
+↓
+
+Production Deployment
+
+↓
+
+Monitoring
+
+↓
+
+Support
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Messaging Modernization
+
+Middleware Migration
+
+MQ Upgrade
+
+High Availability
+
+Cloud Migration
+
+Enterprise Integration
+
+Platform Consolidation
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+IBM ACE
+
+WebSphere
+
+Java
+
+JMS
+
+REST APIs
+
+Kafka
+
+Oracle
+
+SAP
+
+OpenShift
+
+==================================================
+COMMON REPORTS
+==============
+
+Queue Status
+
+Queue Depth
+
+Channel Status
+
+Queue Manager Health
+
+Performance Metrics
+
+Messaging Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Middleware Teams
+
+Integration Teams
+
+Application Support
+
+Infrastructure Teams
+
+Operations
+
+Developers
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Messaging
+
+*
+
+Administration
+
+*
+
+Middleware
+
+Example
+
+("IBM MQ" OR WMQ)
+
+AND
+
+("Queue Manager" OR Channels)
+
+AND
+
+(Cluster OR Pub/Sub)
+
+AND
+
+(Administrator OR Consultant)
+
+Expand IBM MQ terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+IBM MQ
+
+Critical
+
+Queue Managers
+
+Critical
+
+Channels
+
+High
+
+Clustering
+
+High
+
+Security
+
+High
+
+Performance Tuning
+
+Medium
+
+High Availability
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+RabbitMQ
+
+↓
+
+IBM MQ
+
+Medium
+
+---
+
+Apache ActiveMQ
+
+↓
+
+IBM MQ
+
+Medium
+
+---
+
+Apache Kafka
+
+↓
+
+Enterprise Messaging
+
+Medium
+
+---
+
+TIBCO EMS
+
+↓
+
+IBM MQ
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Messaging Scope
+
+Administration Scope
+
+Architecture
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Administration
+
+Architecture
+
+Clustering
+
+Security
+
+Pub/Sub
+
+High Availability
+
+Identify whether the consultant performed
+
+Installation
+
+Configuration
+
+Administration
+
+Performance Tuning
+
+Migration
+
+Monitoring
+
+Cloud Modernization
+
+Recognize candidates with enterprise IBM MQ implementation, queue manager administration, MQ clustering, messaging security, high availability, performance tuning and middleware modernization experience as senior IBM MQ consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating JMS development as IBM MQ administration.
+
+Confusing IBM MQ with Kafka.
+
+Matching candidates solely because they mention messaging.
+
+Ignoring queue manager and channel expertise.
+
+Treating application integration as MQ architecture.
+
+Ignoring clustering and HA configuration.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+IBM MQ
+
+↓
+
+WebSphere MQ
+
+WMQ
+
+MQ
+
+---
+
+Messaging
+
+↓
+
+Queue Manager
+
+Queues
+
+Channels
+
+Listeners
+
+---
+
+Administration
+
+↓
+
+MQSC
+
+MQ Explorer
+
+Security
+
+Monitoring
+
+Backup
+
+---
+
+Architecture
+
+↓
+
+Clustering
+
+Pub/Sub
+
+JMS
+
+High Availability
+
+Dead Letter Queue
+
+END_OF_FILE

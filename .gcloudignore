@@ -1,0 +1,14 @@
+.gcloudignore
+.git
+.gitignore
+node_modules/
+dist/
+release/
+release-builds/
+Tier1_Release_Package/
+data/resumes/
+data/agent_profile/
+data/debug/
+*.log
+.env
+env.yaml

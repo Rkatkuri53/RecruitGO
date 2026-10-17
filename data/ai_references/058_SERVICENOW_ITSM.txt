@@ -1,0 +1,631 @@
+FILE_NAME:
+058_SERVICENOW_ITSM.txt
+
+ID:
+058
+
+DOMAIN:
+ServiceNow
+
+CATEGORY:
+Enterprise Platform
+
+SUBCATEGORY:
+ServiceNow IT Service Management (ITSM)
+
+PRIMARY_ROLE:
+ServiceNow ITSM Consultant
+
+RELATED_FILES:
+
+057_SERVICENOW_PLATFORM.txt
+
+059_SERVICENOW_ITOM.txt
+
+060_SERVICENOW_ITAM_SAM.txt
+
+061_SERVICENOW_HRSD.txt
+
+062_SERVICENOW_CSM.txt
+
+066_SERVICENOW_PLATFORM_DEVELOPMENT.txt
+
+067_SERVICENOW_INTEGRATION.txt
+
+068_SERVICENOW_CMDB_DISCOVERY.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+ServiceNow ITSM
+
+PURPOSE:
+Enable AI agents to understand ServiceNow IT Service Management (ITSM), ITIL processes, Incident Management, Problem Management, Change Enablement, Request Management, Knowledge Management, Service Catalog, consultant responsibilities, implementation methodologies, and ITSM transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+ServiceNow ITSM
+ITSM
+Incident Management
+Problem Management
+Change Management
+Change Enablement
+Request Management
+Service Catalog
+Knowledge Management
+CMDB
+ITIL
+Major Incident Management
+
+ROLE_FAMILIES:
+ServiceNow ITSM Consultant
+ServiceNow Functional Consultant
+ServiceNow Business Analyst
+ServiceNow Solution Architect
+ServiceNow Administrator
+ITSM Process Consultant
+
+COMMON_JOB_TITLES:
+ServiceNow ITSM Consultant
+ServiceNow Functional Consultant
+ServiceNow Administrator
+ServiceNow Solution Architect
+ITSM Consultant
+ITIL Consultant
+
+ALTERNATIVE_TITLES:
+IT Service Management Consultant
+Digital ITSM Consultant
+Service Management Consultant
+
+CORE_SKILLS:
+Incident Management
+
+Problem Management
+
+Change Management
+
+Request Management
+
+Knowledge Management
+
+Service Catalog
+
+Workflow Automation
+
+Configuration
+
+SUPPORTING_SKILLS:
+Flow Designer
+
+CMDB
+
+Integration
+
+Reporting
+
+JavaScript
+
+ITIL
+
+REST APIs
+
+RELATED_TECHNOLOGIES:
+ServiceNow ITSM
+
+Flow Designer
+
+Service Catalog
+
+Knowledge Base
+
+CMDB
+
+Discovery
+
+Performance Analytics
+
+Virtual Agent
+
+TECHNOLOGY_CATEGORY:
+IT Service Management Platform
+
+DEPENDENCIES:
+
+057_SERVICENOW_PLATFORM.txt
+
+068_SERVICENOW_CMDB_DISCOVERY.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+ServiceNow ITSM is the most widely implemented ServiceNow application.
+
+It digitizes and automates IT service delivery based on ITIL best practices, providing standardized service management processes across the enterprise.
+
+==================================================
+CORE MODULES
+============
+
+Incident Management
+
+Problem Management
+
+Change Enablement
+
+Request Management
+
+Knowledge Management
+
+Service Catalog
+
+Major Incident Management
+
+Service Level Management
+
+==================================================
+INCIDENT MANAGEMENT
+===================
+
+COMMON RESPONSIBILITIES
+
+Incident Logging
+
+Categorization
+
+Prioritization
+
+Assignment
+
+Escalation
+
+Resolution
+
+Closure
+
+Major Incident Management
+
+==================================================
+PROBLEM MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Root Cause Analysis
+
+Known Error Database
+
+Problem Records
+
+Trend Analysis
+
+Permanent Fixes
+
+==================================================
+CHANGE ENABLEMENT
+=================
+
+COMMON RESPONSIBILITIES
+
+Standard Changes
+
+Normal Changes
+
+Emergency Changes
+
+CAB
+
+Risk Assessment
+
+Approvals
+
+Implementation
+
+Post Implementation Review
+
+==================================================
+REQUEST MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Service Requests
+
+Catalog Items
+
+Approvals
+
+Fulfillment
+
+Automation
+
+Request Lifecycle
+
+==================================================
+SERVICE CATALOG
+===============
+
+COMMON RESPONSIBILITIES
+
+Catalog Design
+
+Request Forms
+
+Variables
+
+Catalog Workflows
+
+Order Guides
+
+Record Producers
+
+==================================================
+KNOWLEDGE MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+Knowledge Articles
+
+Knowledge Base
+
+Approvals
+
+Knowledge Publishing
+
+Search Optimization
+
+==================================================
+SERVICE LEVEL MANAGEMENT
+========================
+
+COMMON RESPONSIBILITIES
+
+SLAs
+
+OLAs
+
+Response Targets
+
+Resolution Targets
+
+Breach Monitoring
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Incident-to-Resolution
+
+Request-to-Fulfillment
+
+Change Lifecycle
+
+Problem Lifecycle
+
+Knowledge Lifecycle
+
+Major Incident Process
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Assignment Groups
+
+Categories
+
+Business Rules
+
+Flows
+
+Catalog Items
+
+SLAs
+
+Notifications
+
+Approvals
+
+Reports
+
+Dashboards
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Process Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+User Training
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+ITSM Implementation
+
+ITIL Transformation
+
+Service Catalog Implementation
+
+Knowledge Management
+
+Incident Process Optimization
+
+Enterprise Service Management
+
+Global Rollout
+
+Support
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+CMDB
+
+Discovery
+
+Azure AD
+
+LDAP
+
+REST APIs
+
+Monitoring Tools
+
+Microsoft Teams
+
+Jira
+
+==================================================
+COMMON REPORTS
+==============
+
+Incident KPIs
+
+SLA Reports
+
+Problem Reports
+
+Change Success Rate
+
+Request Fulfillment
+
+Knowledge Usage
+
+Service Desk Performance
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Service Desk
+
+IT Support Teams
+
+Infrastructure Teams
+
+Application Support
+
+IT Managers
+
+Service Owners
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+ITIL Process
+
+*
+
+Module
+
+*
+
+Implementation
+
+Example
+
+(ServiceNow)
+
+AND
+
+(ITSM)
+
+AND
+
+(Incident OR Problem OR Change)
+
+AND
+
+(Service Catalog OR Knowledge)
+
+Expand ITSM processes only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+ServiceNow ITSM
+
+Critical
+
+Incident Management
+
+Critical
+
+Change Management
+
+High
+
+Problem Management
+
+High
+
+Service Catalog
+
+High
+
+Knowledge Management
+
+Medium
+
+Flow Designer
+
+Medium
+
+ITIL
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+BMC Remedy ITSM
+
+↓
+
+ServiceNow ITSM
+
+High
+
+---
+
+Ivanti Service Manager
+
+↓
+
+ServiceNow ITSM
+
+Medium
+
+---
+
+Jira Service Management
+
+↓
+
+ServiceNow ITSM
+
+Medium
+
+---
+
+ManageEngine ServiceDesk
+
+↓
+
+ServiceNow ITSM
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+ITSM Module
+
+ITIL Process
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Incident
+
+Problem
+
+Change
+
+Request
+
+Knowledge
+
+Service Catalog
+
+Identify whether the consultant performed
+
+Process Design
+
+Configuration
+
+Workflow Automation
+
+Testing
+
+Integration
+
+Deployment
+
+Production Support
+
+Recognize candidates with enterprise ITSM implementation, ITIL process transformation, Service Catalog automation, Change Enablement, Knowledge Management and SLA implementation experience as senior ServiceNow ITSM consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating ITSM as the entire ServiceNow platform.
+
+Confusing Incident Management with Problem Management.
+
+Matching candidates solely because they mention ServiceNow.
+
+Ignoring ITIL process knowledge.
+
+Treating Service Desk experience as ServiceNow implementation experience.
+
+Ignoring Service Catalog and workflow automation expertise.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

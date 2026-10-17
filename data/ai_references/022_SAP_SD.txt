@@ -1,0 +1,688 @@
+FILE_NAME:
+022_SAP_SD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP Sales & Distribution (SAP SD)
+
+VERSION:
+1.0
+
+PURPOSE:
+Enable AI agents to understand SAP Sales & Distribution (SAP SD), Order-to-Cash (O2C) business processes, sales execution, pricing, billing, shipping, customer management, credit management, transportation, S/4HANA enhancements, consultant responsibilities, Boolean generation, and candidate matching.
+
+KEYWORDS:
+SAP SD
+Sales and Distribution
+Order to Cash
+O2C
+Sales Order
+Pricing
+Billing
+Shipping
+Delivery
+Customer Master
+
+ROLE_FAMILIES:
+SAP SD Consultant
+SAP Sales Consultant
+SAP Order-to-Cash Consultant
+SAP Logistics Consultant
+SAP Solution Architect
+SAP Functional Lead
+SAP Program Manager
+
+COMMON_JOB_TITLES:
+SAP SD Consultant
+SAP Sales & Distribution Consultant
+SAP OTC Consultant
+SAP O2C Consultant
+SAP SD Functional Consultant
+SAP SD Lead Consultant
+
+ALTERNATIVE_TITLES:
+SAP Sales
+SAP Distribution
+SAP Order Management
+SAP Customer Order Processing
+
+CORE_SKILLS:
+Sales Process
+Pricing
+Order Management
+Shipping
+Billing
+Configuration
+Business Process Analysis
+
+SUPPORTING_SKILLS:
+SAP S/4HANA
+SAP TM
+SAP GTS
+SAP Fiori
+Credit Management
+Transportation
+
+RELATED_TECHNOLOGIES:
+SAP ECC
+SAP S/4HANA
+SAP HANA
+SAP Fiori
+SAP TM
+SAP GTS
+SAP BTP
+
+TECHNOLOGY_CATEGORY:
+SAP Functional Module
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+==================================================
+MODULE OVERVIEW
+===============
+
+SAP Sales & Distribution (SD) manages the complete Order-to-Cash (O2C) process.
+
+It supports
+
+Sales
+
+Customer Orders
+
+Pricing
+
+Shipping
+
+Delivery
+
+Billing
+
+Returns
+
+Credit Management
+
+Customer Master
+
+==================================================
+BUSINESS PROCESS FLOW
+=====================
+
+Customer Inquiry
+
+↓
+
+Quotation
+
+↓
+
+Sales Order
+
+↓
+
+Availability Check
+
+↓
+
+Delivery
+
+↓
+
+Picking
+
+↓
+
+Packing
+
+↓
+
+Goods Issue
+
+↓
+
+Billing
+
+↓
+
+Payment
+
+==================================================
+CORE SUBMODULES
+===============
+
+Sales
+
+Shipping
+
+Billing
+
+Pricing
+
+Credit Management
+
+Output Management
+
+Customer Master
+
+Returns Processing
+
+Transportation Integration
+
+==================================================
+SALES ORDER MANAGEMENT
+======================
+
+COMMON RESPONSIBILITIES
+
+Inquiry
+
+Quotation
+
+Sales Order
+
+Contracts
+
+Scheduling Agreements
+
+Availability Check (ATP)
+
+Backorder Processing
+
+==================================================
+PRICING
+=======
+
+COMMON RESPONSIBILITIES
+
+Condition Records
+
+Pricing Procedures
+
+Discounts
+
+Surcharges
+
+Taxes
+
+Freight
+
+Rebates
+
+==================================================
+SHIPPING
+========
+
+COMMON RESPONSIBILITIES
+
+Delivery Creation
+
+Picking
+
+Packing
+
+Transportation Planning
+
+Goods Issue
+
+Delivery Monitoring
+
+==================================================
+BILLING
+=======
+
+COMMON RESPONSIBILITIES
+
+Invoice Creation
+
+Credit Memo
+
+Debit Memo
+
+Pro Forma Invoice
+
+Billing Plans
+
+Revenue Posting
+
+==================================================
+CUSTOMER MASTER
+===============
+
+COMMON DATA
+
+Customer Number
+
+Sales Area
+
+Partner Functions
+
+Shipping Conditions
+
+Payment Terms
+
+Tax Classification
+
+Business Partner (S/4HANA)
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Order-to-Cash (O2C)
+
+Customer Returns
+
+Intercompany Sales
+
+Third-Party Sales
+
+Consignment
+
+Rush Orders
+
+Make-to-Order
+
+Drop Shipment
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Sales Organization
+
+Distribution Channel
+
+Division
+
+Sales Office
+
+Sales Group
+
+Shipping Point
+
+Route Determination
+
+Pricing Procedure
+
+Item Categories
+
+Schedule Line Categories
+
+Output Types
+
+==================================================
+INTEGRATION WITH OTHER MODULES
+==============================
+
+SD
+
+↓
+
+MM
+
+Inventory
+
+Material Availability
+
+---
+
+SD
+
+↓
+
+FI
+
+Billing
+
+Accounts Receivable
+
+Revenue Posting
+
+---
+
+SD
+
+↓
+
+PP
+
+Production Orders
+
+Make-to-Order
+
+---
+
+SD
+
+↓
+
+EWM
+
+Warehouse Execution
+
+---
+
+SD
+
+↓
+
+TM
+
+Transportation Planning
+
+---
+
+SD
+
+↓
+
+CRM
+
+Customer Relationship
+
+==================================================
+SAP S/4HANA ENHANCEMENTS
+========================
+
+Business Partner
+
+Advanced ATP
+
+Embedded Analytics
+
+Fiori Applications
+
+Simplified Output Management
+
+Real-Time Sales Reporting
+
+==================================================
+COMMON REPORTS
+==============
+
+Sales Orders
+
+Open Deliveries
+
+Billing Documents
+
+Sales Analysis
+
+Backorders
+
+Revenue Reports
+
+Customer Sales Reports
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Business Workshops
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Configuration
+
+↓
+
+Integration Testing
+
+↓
+
+User Acceptance Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+PROJECT TYPES
+=============
+
+Greenfield Implementation
+
+Brownfield Conversion
+
+Global Rollout
+
+S/4HANA Transformation
+
+Support
+
+Enhancement
+
+Sales Process Optimization
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Sales Team
+
+Customer Service
+
+Order Management
+
+Shipping Department
+
+Billing Team
+
+Finance Department
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Business Process
+
+*
+
+Responsibilities
+
+*
+
+Implementation Type
+
+Example
+
+("SAP SD" OR "Sales and Distribution")
+
+AND
+
+("Order to Cash" OR O2C OR Pricing OR Billing)
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+("SAP S/4HANA" OR ECC)
+
+Expand O2C terminology only when supported by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+SAP SD Experience
+
+Critical
+
+Order-to-Cash Knowledge
+
+Critical
+
+Pricing Configuration
+
+High
+
+Billing
+
+High
+
+Shipping
+
+High
+
+Business Process Knowledge
+
+High
+
+Integration
+
+High
+
+S/4HANA Experience
+
+High
+
+Migration Experience
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP ECC SD
+
+↓
+
+SAP S/4HANA SD
+
+High
+
+---
+
+SAP SD
+
+↓
+
+SAP TM
+
+Medium
+
+---
+
+SAP SD
+
+↓
+
+SAP CRM
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Business Process
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Integration Scope
+
+Differentiate
+
+Support
+
+Implementation
+
+Migration
+
+Rollout
+
+Transformation
+
+Identify whether the consultant performed
+
+Configuration
+
+Business Analysis
+
+Testing
+
+Cutover
+
+Hypercare
+
+Production Support
+
+Recognize candidates with
+
+Advanced ATP
+
+Business Partner
+
+Embedded Analytics
+
+S/4HANA Sales
+
+Output Management
+
+experience as modern SAP SD specialists.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SAP SD as Logistics only.
+
+Confusing Billing with Financial Accounting.
+
+Ignoring integration with MM, FI, PP, TM, CRM and EWM.
+
+Matching candidates solely because they mention Sales Orders.
+
+Treating SAP CRM experience as equivalent to SAP SD implementation.
+
+Ignoring pricing configuration responsibilities.
+
+Assuming certification equals implementation experience.
+
+END_OF_FILE

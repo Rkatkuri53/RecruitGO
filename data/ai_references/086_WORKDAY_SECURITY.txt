@@ -1,0 +1,667 @@
+FILE_NAME:
+086_WORKDAY_SECURITY.txt
+
+ID:
+086
+
+DOMAIN:
+Workday
+
+CATEGORY:
+Enterprise Cloud Security
+
+SUBCATEGORY:
+Workday Security Administration
+
+PRIMARY_ROLE:
+Workday Security Consultant
+
+RELATED_FILES:
+
+080_WORKDAY_PLATFORM.txt
+
+081_WORKDAY_HCM.txt
+
+082_WORKDAY_FINANCIALS.txt
+
+083_WORKDAY_PAYROLL.txt
+
+084_WORKDAY_RECRUITING_TALENT.txt
+
+085_WORKDAY_INTEGRATIONS.txt
+
+087_WORKDAY_REPORTING_PRISM.txt
+
+088_WORKDAY_EXTEND.txt
+
+089_WORKDAY_TESTING_DEPLOYMENT.txt
+
+015_CYBERSECURITY.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Workday Security
+
+PURPOSE:
+Enable AI agents to understand Workday security architecture, domain security, business process security, role-based security, security groups, authentication, identity integration, segregation of duties (SoD), tenant security, and enterprise Workday security implementations for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Workday Security
+Domain Security
+Business Process Security
+Security Groups
+Role-Based Security
+RBAC
+Segregation of Duties
+SoD
+Authentication
+SSO
+Identity Management
+Tenant Security
+
+ROLE_FAMILIES:
+Workday Security Consultant
+
+Workday Security Administrator
+
+Workday Security Architect
+
+Identity Consultant
+
+Technical Consultant
+
+COMMON_JOB_TITLES:
+Workday Security Consultant
+
+Senior Workday Security Consultant
+
+Workday Security Administrator
+
+Workday Security Architect
+
+Workday Identity Consultant
+
+ALTERNATIVE_TITLES:
+Cloud Security Consultant
+
+Workday IAM Consultant
+
+Enterprise Security Consultant
+
+CORE_SKILLS:
+Domain Security
+
+Business Process Security
+
+Security Groups
+
+Role-Based Security
+
+Authentication
+
+Identity Integration
+
+SoD
+
+Tenant Security
+
+SUPPORTING_SKILLS:
+Microsoft Entra ID
+
+Okta
+
+SAML
+
+OAuth
+
+SCIM
+
+Audit
+
+Compliance
+
+RELATED_TECHNOLOGIES:
+Workday Security
+
+Microsoft Entra ID
+
+Okta
+
+Ping Identity
+
+SAML
+
+OAuth
+
+SCIM
+
+LDAP
+
+Multi-Factor Authentication
+
+TECHNOLOGY_CATEGORY:
+Enterprise Identity & Access Management
+
+DEPENDENCIES:
+
+015_CYBERSECURITY.txt
+
+080_WORKDAY_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Workday Security controls user access through domain security policies, business process security policies, role-based security groups and authentication services.
+
+Security is configuration-driven and tightly integrated with organizational structures, supervisory organizations and business processes.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Domain Security
+
+Business Process Security
+
+Security Groups
+
+Role-Based Access
+
+Authentication
+
+Identity Integration
+
+Segregation of Duties
+
+Audit
+
+==================================================
+DOMAIN SECURITY
+===============
+
+COMMON RESPONSIBILITIES
+
+Domain Policies
+
+View Access
+
+Modify Access
+
+Functional Areas
+
+Permission Management
+
+==================================================
+BUSINESS PROCESS SECURITY
+=========================
+
+COMMON RESPONSIBILITIES
+
+Approval Chains
+
+Initiation Rights
+
+Review Rights
+
+Step Security
+
+Delegation
+
+Escalation
+
+==================================================
+SECURITY GROUPS
+===============
+
+COMMON RESPONSIBILITIES
+
+Role-Based Groups
+
+User-Based Groups
+
+Intersection Groups
+
+Organization-Based Groups
+
+Dynamic Membership
+
+==================================================
+AUTHENTICATION
+==============
+
+COMMON RESPONSIBILITIES
+
+Single Sign-On
+
+Multi-Factor Authentication
+
+Password Policies
+
+Identity Federation
+
+Session Management
+
+==================================================
+IDENTITY INTEGRATION
+====================
+
+COMMON RESPONSIBILITIES
+
+Microsoft Entra ID
+
+Okta
+
+Ping Identity
+
+SCIM Provisioning
+
+User Lifecycle
+
+Identity Synchronization
+
+==================================================
+SEGREGATION OF DUTIES
+=====================
+
+COMMON RESPONSIBILITIES
+
+SoD Analysis
+
+Conflict Detection
+
+Access Reviews
+
+Compliance
+
+Risk Mitigation
+
+==================================================
+AUDIT & COMPLIANCE
+==================
+
+COMMON RESPONSIBILITIES
+
+Security Audits
+
+Access Reports
+
+Compliance Reporting
+
+Policy Reviews
+
+Security Monitoring
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+User Provisioning
+
+Role Assignment
+
+Access Reviews
+
+Identity Lifecycle
+
+Authentication
+
+Compliance
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Security Groups
+
+Domains
+
+Business Processes
+
+Authentication
+
+Tenant Policies
+
+Audit Reports
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Security Assessment
+
+↓
+
+Requirements
+
+↓
+
+Role Design
+
+↓
+
+Security Configuration
+
+↓
+
+Identity Integration
+
+↓
+
+Testing
+
+↓
+
+Go-Live
+
+↓
+
+Audit & Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Security Implementation
+
+IAM Integration
+
+SSO Enablement
+
+Compliance Programs
+
+Access Governance
+
+Tenant Security Optimization
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Microsoft Entra ID
+
+Okta
+
+Ping Identity
+
+LDAP
+
+SCIM
+
+REST APIs
+
+SAML
+
+OAuth
+
+==================================================
+COMMON REPORTS
+==============
+
+Security Audit Reports
+
+Access Reviews
+
+Role Assignments
+
+Domain Security Reports
+
+SoD Reports
+
+Compliance Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Security Administrators
+
+IAM Teams
+
+HR
+
+IT Operations
+
+Compliance Teams
+
+Internal Audit
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Security
+
+*
+
+Identity
+
+*
+
+Administration
+
+Example
+
+(Workday)
+
+AND
+
+(Security)
+
+AND
+
+("Security Groups" OR Domains)
+
+AND
+
+(SSO OR Entra OR Okta)
+
+Expand security terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Workday Security
+
+Critical
+
+Domain Security
+
+Critical
+
+Business Process Security
+
+High
+
+Security Groups
+
+High
+
+Identity Integration
+
+High
+
+SoD
+
+Medium
+
+Authentication
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP GRC
+
+↓
+
+Workday Security
+
+Medium
+
+---
+
+Oracle HCM Security
+
+↓
+
+Workday Security
+
+Medium
+
+---
+
+Okta Administration
+
+↓
+
+Identity Integration
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Security Scope
+
+Identity Platform
+
+Authentication Method
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Domain Security
+
+Business Process Security
+
+Identity
+
+SSO
+
+Compliance
+
+SoD
+
+Identify whether the consultant performed
+
+Security Design
+
+Role Configuration
+
+Identity Integration
+
+Testing
+
+Audit
+
+Go-Live
+
+Support
+
+Recognize candidates with enterprise Workday security implementation, domain security configuration, identity integration, SoD governance, SSO deployment and compliance optimization experience as senior Workday Security consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Workday Security as general cybersecurity.
+
+Confusing HR security administration with Workday security implementation.
+
+Matching candidates solely because they mention IAM.
+
+Ignoring domain security expertise.
+
+Treating Okta administration as Workday security experience.
+
+Ignoring business process security.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Security
+
+↓
+
+Domain Security
+
+Business Process Security
+
+Security Groups
+
+RBAC
+
+---
+
+Identity
+
+↓
+
+Microsoft Entra ID
+
+Okta
+
+Ping Identity
+
+SCIM
+
+SSO
+
+---
+
+Authentication
+
+↓
+
+SAML
+
+OAuth
+
+MFA
+
+Federation
+
+---
+
+Governance
+
+↓
+
+SoD
+
+Access Reviews
+
+Compliance
+
+Audit
+
+Provisioning
+
+END_OF_FILE

@@ -1,0 +1,745 @@
+FILE_NAME:
+081_WORKDAY_HCM.txt
+
+ID:
+081
+
+DOMAIN:
+Workday
+
+CATEGORY:
+Enterprise Cloud HCM
+
+SUBCATEGORY:
+Workday Human Capital Management (HCM)
+
+PRIMARY_ROLE:
+Workday HCM Functional Consultant
+
+RELATED_FILES:
+
+080_WORKDAY_PLATFORM.txt
+
+082_WORKDAY_FINANCIALS.txt
+
+083_WORKDAY_PAYROLL.txt
+
+084_WORKDAY_RECRUITING_TALENT.txt
+
+085_WORKDAY_INTEGRATIONS.txt
+
+086_WORKDAY_SECURITY.txt
+
+087_WORKDAY_REPORTING_PRISM.txt
+
+088_WORKDAY_EXTEND.txt
+
+089_WORKDAY_TESTING_DEPLOYMENT.txt
+
+037_ORACLE_HCM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Workday Human Capital Management
+
+PURPOSE:
+Enable AI agents to understand Workday Human Capital Management (HCM), including Core HCM, organizations, staffing models, worker lifecycle, compensation, benefits, absence, time tracking, talent, learning, business processes, consultant responsibilities, implementation methodologies, and enterprise HCM transformation programs for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Workday HCM
+Core HCM
+Worker Lifecycle
+Organizations
+Staffing Models
+Compensation
+Benefits
+Absence
+Time Tracking
+Talent
+Performance
+Learning
+Job Profiles
+Supervisory Organizations
+
+ROLE_FAMILIES:
+Workday HCM Consultant
+
+Workday Functional Consultant
+
+Workday HCM Architect
+
+Workday Business Analyst
+
+Workday Solution Architect
+
+HCM Transformation Consultant
+
+COMMON_JOB_TITLES:
+Workday HCM Consultant
+
+Senior Workday HCM Consultant
+
+Workday Functional Consultant
+
+Workday Solution Architect
+
+Workday HCM Lead
+
+ALTERNATIVE_TITLES:
+Cloud HCM Consultant
+
+Enterprise HCM Consultant
+
+HR Transformation Consultant
+
+CORE_SKILLS:
+Core HCM
+
+Business Process Configuration
+
+Organizations
+
+Worker Lifecycle
+
+Compensation
+
+Benefits
+
+Absence Management
+
+Time Tracking
+
+SUPPORTING_SKILLS:
+Reporting
+
+Calculated Fields
+
+Security
+
+EIB
+
+Testing
+
+Data Conversion
+
+RELATED_TECHNOLOGIES:
+Core HCM
+
+Compensation
+
+Benefits
+
+Time Tracking
+
+Absence
+
+Learning
+
+Talent
+
+Performance
+
+Adaptive Planning
+
+TECHNOLOGY_CATEGORY:
+Cloud Human Capital Management
+
+DEPENDENCIES:
+
+080_WORKDAY_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Workday HCM is the foundation of the Workday ecosystem.
+
+It manages the complete employee lifecycle, organizational structures, workforce administration, compensation, benefits, time management and talent processes through configurable business processes rather than custom development.
+
+==================================================
+CORE MODULES
+============
+
+Core HCM
+
+Organizations
+
+Staffing Models
+
+Job Profiles
+
+Compensation
+
+Benefits
+
+Absence Management
+
+Time Tracking
+
+Talent
+
+Performance
+
+Learning
+
+==================================================
+CORE HCM
+========
+
+COMMON RESPONSIBILITIES
+
+Worker Administration
+
+Employment Lifecycle
+
+Personal Information
+
+Position Management
+
+Employee Changes
+
+Contingent Workers
+
+==================================================
+ORGANIZATIONS
+=============
+
+COMMON RESPONSIBILITIES
+
+Supervisory Organizations
+
+Company
+
+Cost Center
+
+Region
+
+Location
+
+Matrix Organizations
+
+Hierarchies
+
+==================================================
+STAFFING MODELS
+===============
+
+COMMON RESPONSIBILITIES
+
+Position Management
+
+Job Management
+
+Headcount Planning
+
+Vacancy Management
+
+Hiring Restrictions
+
+==================================================
+COMPENSATION
+============
+
+COMMON RESPONSIBILITIES
+
+Compensation Plans
+
+Salary
+
+Allowances
+
+Bonus Plans
+
+Merit Cycles
+
+Stock Awards
+
+==================================================
+BENEFITS
+========
+
+COMMON RESPONSIBILITIES
+
+Benefits Enrollment
+
+Eligibility Rules
+
+Medical
+
+Dental
+
+Vision
+
+Retirement Plans
+
+==================================================
+ABSENCE MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Leave Types
+
+Vacation
+
+Sick Leave
+
+Parental Leave
+
+Accrual Rules
+
+Leave Balances
+
+==================================================
+TIME TRACKING
+=============
+
+COMMON RESPONSIBILITIES
+
+Time Entry
+
+Shift Scheduling
+
+Approvals
+
+Overtime
+
+Labor Costing
+
+Timesheets
+
+==================================================
+TALENT & PERFORMANCE
+====================
+
+COMMON RESPONSIBILITIES
+
+Performance Reviews
+
+Goals
+
+Career Development
+
+Talent Reviews
+
+Succession Planning
+
+Skills
+
+==================================================
+LEARNING
+========
+
+COMMON RESPONSIBILITIES
+
+Learning Assignments
+
+Courses
+
+Certifications
+
+Compliance Training
+
+Learning Paths
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Hire-to-Retire
+
+Employee Lifecycle
+
+Compensation Reviews
+
+Benefits Enrollment
+
+Leave Management
+
+Performance Management
+
+Talent Reviews
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Organizations
+
+Business Processes
+
+Job Profiles
+
+Compensation Plans
+
+Benefits
+
+Absence Plans
+
+Security Groups
+
+Reports
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Business Process Workshops
+
+↓
+
+Configuration
+
+↓
+
+Data Conversion
+
+↓
+
+Testing
+
+↓
+
+UAT
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+HCM Implementation
+
+HR Transformation
+
+Global Rollout
+
+Tenant Optimization
+
+Shared Services
+
+Cloud Migration
+
+Support & Enhancement
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Payroll Systems
+
+Active Directory
+
+Microsoft Entra ID
+
+Benefits Providers
+
+REST APIs
+
+EIB
+
+Workday Studio
+
+==================================================
+COMMON REPORTS
+==============
+
+Headcount
+
+Turnover
+
+Compensation
+
+Organization Reports
+
+Benefits Reports
+
+Time Reports
+
+Executive Workforce Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+HR
+
+HR Operations
+
+HR Shared Services
+
+Managers
+
+Employees
+
+Compensation Teams
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Business Process
+
+*
+
+Consultant
+
+Example
+
+(Workday)
+
+AND
+
+(HCM OR "Core HCM")
+
+AND
+
+(Compensation OR Benefits OR Absence)
+
+AND
+
+(Consultant)
+
+Expand HCM modules only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Workday HCM
+
+Critical
+
+Core HCM
+
+Critical
+
+Organizations
+
+High
+
+Business Processes
+
+High
+
+Compensation
+
+High
+
+Benefits
+
+Medium
+
+Time Tracking
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP SuccessFactors Employee Central
+
+↓
+
+Workday HCM
+
+Medium
+
+---
+
+Oracle HCM Cloud
+
+↓
+
+Workday HCM
+
+Medium
+
+---
+
+PeopleSoft HCM
+
+↓
+
+Workday HCM
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+HCM Module
+
+Worker Lifecycle Scope
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Core HCM
+
+Compensation
+
+Benefits
+
+Time
+
+Talent
+
+Learning
+
+Identify whether the consultant performed
+
+Business Process Configuration
+
+Organization Design
+
+Testing
+
+Data Conversion
+
+Go-Live
+
+Hypercare
+
+Support
+
+Recognize candidates with multiple end-to-end Workday HCM implementations, global rollouts, Core HCM configuration, compensation, benefits, workforce administration and HR transformation experience as senior Workday HCM consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Workday HCM as Recruiting.
+
+Confusing HR operations with Workday implementation.
+
+Matching candidates solely because they mention Workday.
+
+Ignoring staffing model expertise.
+
+Treating payroll experience as Core HCM.
+
+Ignoring business process configuration.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Core HCM
+
+↓
+
+Worker Administration
+
+Organizations
+
+Staffing Models
+
+Job Profiles
+
+---
+
+Compensation
+
+↓
+
+Salary
+
+Bonus
+
+Merit
+
+Allowances
+
+Stock
+
+---
+
+Benefits
+
+↓
+
+Medical
+
+Dental
+
+Vision
+
+Retirement
+
+Enrollment
+
+---
+
+Absence
+
+↓
+
+Leave
+
+Vacation
+
+Sick Leave
+
+Parental Leave
+
+Accruals
+
+---
+
+Talent
+
+↓
+
+Performance
+
+Goals
+
+Succession
+
+Learning
+
+Career Development
+
+END_OF_FILE

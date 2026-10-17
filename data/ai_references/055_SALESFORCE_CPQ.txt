@@ -1,0 +1,621 @@
+FILE_NAME:
+055_SALESFORCE_CPQ.txt
+
+ID:
+055
+
+DOMAIN:
+Salesforce
+
+CATEGORY:
+Enterprise CRM
+
+SUBCATEGORY:
+Salesforce CPQ (Revenue Cloud)
+
+PRIMARY_ROLE:
+Salesforce CPQ Consultant
+
+RELATED_FILES:
+
+046_SALESFORCE_PLATFORM.txt
+
+047_SALESFORCE_SALES_CLOUD.txt
+
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+049_SALESFORCE_MARKETING_CLOUD.txt
+
+051_SALESFORCE_PLATFORM_DEVELOPMENT.txt
+
+052_SALESFORCE_INTEGRATION.txt
+
+053_SALESFORCE_DEVOPS.txt
+
+054_SALESFORCE_DATA_CLOUD.txt
+
+056_SALESFORCE_TABLEAU_CRM.txt
+
+036_ORACLE_ERP.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Salesforce CPQ (Revenue Cloud)
+
+PURPOSE:
+Enable AI agents to understand Salesforce CPQ (Revenue Cloud), product configuration, pricing, quoting, subscription management, contract lifecycle, renewals, billing, revenue operations, consultant responsibilities, implementation methodologies, and Salesforce CPQ transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Salesforce CPQ
+Revenue Cloud
+CPQ
+Configure Price Quote
+Quote-to-Cash
+Q2C
+Subscription Management
+Pricing Rules
+Product Rules
+Advanced Approvals
+Billing
+
+ROLE_FAMILIES:
+Salesforce CPQ Consultant
+Revenue Cloud Consultant
+Salesforce Functional Consultant
+Salesforce Solution Architect
+Revenue Operations Consultant
+Salesforce Business Analyst
+
+COMMON_JOB_TITLES:
+Salesforce CPQ Consultant
+Revenue Cloud Consultant
+CPQ Functional Consultant
+Salesforce Solution Architect
+Revenue Cloud Architect
+
+ALTERNATIVE_TITLES:
+Configure Price Quote Consultant
+Quote-to-Cash Consultant
+Salesforce Revenue Consultant
+
+CORE_SKILLS:
+Product Configuration
+
+Pricing Rules
+
+Quote Management
+
+Approvals
+
+Subscription Management
+
+Renewals
+
+Revenue Operations
+
+Configuration
+
+SUPPORTING_SKILLS:
+Apex
+
+Flows
+
+REST APIs
+
+Sales Cloud
+
+Billing
+
+ERP Integration
+
+RELATED_TECHNOLOGIES:
+Salesforce CPQ
+
+Revenue Cloud
+
+Sales Cloud
+
+Billing
+
+Advanced Approvals
+
+DocuSign
+
+Conga
+
+MuleSoft
+
+ERP
+
+TECHNOLOGY_CATEGORY:
+Revenue Automation Platform
+
+DEPENDENCIES:
+
+046_SALESFORCE_PLATFORM.txt
+
+047_SALESFORCE_SALES_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Salesforce CPQ (Configure, Price, Quote), now part of Revenue Cloud, automates the entire Quote-to-Cash (Q2C) lifecycle.
+
+It enables organizations to configure products, calculate pricing, generate quotes, manage approvals, subscriptions, renewals and revenue operations.
+
+==================================================
+CORE MODULES
+============
+
+Product Catalog
+
+Bundle Configuration
+
+Pricing Rules
+
+Discount Rules
+
+Product Rules
+
+Quote Management
+
+Advanced Approvals
+
+Contracts
+
+Subscriptions
+
+Renewals
+
+Billing
+
+==================================================
+PRODUCT CONFIGURATION
+=====================
+
+COMMON RESPONSIBILITIES
+
+Product Bundles
+
+Configuration Attributes
+
+Option Constraints
+
+Feature Selection
+
+Compatibility Rules
+
+Configuration Validation
+
+==================================================
+PRICING
+=======
+
+COMMON RESPONSIBILITIES
+
+List Pricing
+
+Contract Pricing
+
+Discount Schedules
+
+Block Pricing
+
+Cost Plus Pricing
+
+Dynamic Pricing
+
+==================================================
+QUOTE MANAGEMENT
+================
+
+COMMON RESPONSIBILITIES
+
+Quote Generation
+
+Versioning
+
+Approvals
+
+Proposal Generation
+
+Customer Quotes
+
+==================================================
+PRODUCT RULES
+=============
+
+COMMON RESPONSIBILITIES
+
+Validation Rules
+
+Selection Rules
+
+Alert Rules
+
+Configuration Rules
+
+Eligibility Rules
+
+==================================================
+ADVANCED APPROVALS
+==================
+
+COMMON RESPONSIBILITIES
+
+Approval Chains
+
+Approval Matrix
+
+Discount Approval
+
+Executive Approval
+
+Escalations
+
+==================================================
+SUBSCRIPTION MANAGEMENT
+=======================
+
+COMMON RESPONSIBILITIES
+
+Recurring Products
+
+Subscription Contracts
+
+Renewals
+
+Amendments
+
+Co-Termination
+
+==================================================
+BILLING
+=======
+
+COMMON RESPONSIBILITIES
+
+Invoices
+
+Usage Billing
+
+Recurring Billing
+
+Payment Schedules
+
+Revenue Recognition Integration
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Lead-to-Opportunity
+
+Opportunity-to-Quote
+
+Quote-to-Cash (Q2C)
+
+Renewal Management
+
+Subscription Lifecycle
+
+Revenue Operations
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Products
+
+Price Books
+
+Pricing Rules
+
+Product Rules
+
+Approval Rules
+
+Templates
+
+Quote Terms
+
+Renewal Policies
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Requirements Gathering
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+CPQ Implementation
+
+Revenue Cloud Transformation
+
+Quote Automation
+
+Subscription Modernization
+
+Pricing Transformation
+
+ERP Integration
+
+Global Rollout
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Sales Cloud
+
+ERP
+
+Billing Systems
+
+REST APIs
+
+MuleSoft
+
+DocuSign
+
+Conga
+
+Oracle ERP
+
+SAP ERP
+
+==================================================
+COMMON REPORTS
+==============
+
+Quote Reports
+
+Pricing Reports
+
+Approval Reports
+
+Subscription Reports
+
+Renewal Forecasts
+
+Revenue Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Sales Teams
+
+Sales Operations
+
+Revenue Operations
+
+Finance Teams
+
+Pricing Teams
+
+Deal Desk
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+CPQ
+
+*
+
+Pricing
+
+*
+
+Revenue
+
+Example
+
+("Salesforce CPQ" OR "Revenue Cloud")
+
+AND
+
+("Pricing Rules" OR "Product Rules")
+
+AND
+
+(Quote OR Subscription)
+
+AND
+
+(Salesforce)
+
+Expand Revenue Cloud terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Salesforce CPQ
+
+Critical
+
+Pricing Rules
+
+Critical
+
+Product Rules
+
+High
+
+Quote Management
+
+High
+
+Subscription Management
+
+High
+
+Billing
+
+Medium
+
+ERP Integration
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle CPQ
+
+↓
+
+Salesforce CPQ
+
+High
+
+---
+
+SAP CPQ
+
+↓
+
+Salesforce CPQ
+
+High
+
+---
+
+PROS CPQ
+
+↓
+
+Salesforce CPQ
+
+Medium
+
+---
+
+DealHub
+
+↓
+
+Salesforce CPQ
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Platform
+
+Business Process
+
+Pricing Model
+
+Implementation Scope
+
+Project Type
+
+Differentiate
+
+Sales Cloud
+
+CPQ
+
+Revenue Cloud
+
+Billing
+
+Subscription Management
+
+Identify whether the consultant performed
+
+Product Configuration
+
+Pricing Design
+
+Quote Automation
+
+Approval Design
+
+Subscription Management
+
+Integration
+
+Testing
+
+Deployment
+
+Recognize candidates with enterprise Salesforce CPQ implementation, Quote-to-Cash transformation, pricing automation, subscription lifecycle management and ERP integration experience as senior Salesforce CPQ consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Salesforce CPQ as Sales Cloud.
+
+Confusing product catalogs with pricing engines.
+
+Matching candidates solely because they mention CPQ.
+
+Ignoring Quote-to-Cash business processes.
+
+Treating sales experience as CPQ implementation experience.
+
+Ignoring subscription and renewal management.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

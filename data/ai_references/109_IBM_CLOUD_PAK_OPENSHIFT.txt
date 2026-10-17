@@ -1,0 +1,699 @@
+FILE_NAME:
+109_IBM_CLOUD_PAK_OPENSHIFT.txt
+
+ID:
+109
+
+DOMAIN:
+IBM
+
+CATEGORY:
+Hybrid Cloud Platform
+
+SUBCATEGORY:
+IBM Cloud Pak & Red Hat OpenShift
+
+PRIMARY_ROLE:
+IBM Cloud Pak Consultant
+
+RELATED_FILES:
+
+100_IBM_ENTERPRISE_PLATFORM.txt
+
+101_IBM_WEBSPHERE.txt
+
+102_IBM_MQ.txt
+
+103_IBM_APP_CONNECT_IIB_ACE.txt
+
+104_IBM_DATASTAGE.txt
+
+105_IBM_FILENET.txt
+
+106_IBM_COGNOS_ANALYTICS.txt
+
+107_IBM_MAXIMO.txt
+
+108_IBM_STERLING.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+VERSION:
+2.0
+
+CATEGORY:
+IBM Cloud Pak & OpenShift
+
+PURPOSE:
+Enable AI agents to understand IBM Cloud Pak, Red Hat OpenShift, hybrid cloud architecture, Kubernetes, containers, enterprise modernization, automation, AI platforms, cloud-native transformation, consultant responsibilities, implementation methodologies, and enterprise platform modernization projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+IBM Cloud Pak
+Cloud Pak
+Cloud Pak for Integration
+Cloud Pak for Data
+Cloud Pak for Business Automation
+Cloud Pak for Applications
+Cloud Pak for AIOps
+OpenShift
+Red Hat OpenShift
+Kubernetes
+Containers
+Hybrid Cloud
+
+ROLE_FAMILIES:
+IBM Cloud Pak Consultant
+
+OpenShift Consultant
+
+Cloud Architect
+
+Platform Engineer
+
+DevOps Engineer
+
+Infrastructure Architect
+
+COMMON_JOB_TITLES:
+IBM Cloud Pak Consultant
+
+IBM Hybrid Cloud Architect
+
+OpenShift Architect
+
+Cloud Platform Engineer
+
+IBM Platform Consultant
+
+ALTERNATIVE_TITLES:
+Cloud-Native Consultant
+
+Container Platform Consultant
+
+Hybrid Cloud Architect
+
+CORE_SKILLS:
+OpenShift
+
+Kubernetes
+
+Containers
+
+Cloud Pak
+
+Platform Engineering
+
+CI/CD
+
+DevSecOps
+
+Hybrid Cloud
+
+SUPPORTING_SKILLS:
+Docker
+
+Helm
+
+Operators
+
+Linux
+
+Ansible
+
+Terraform
+
+Monitoring
+
+Security
+
+RELATED_TECHNOLOGIES:
+Red Hat OpenShift
+
+IBM Cloud Pak for Integration
+
+IBM Cloud Pak for Data
+
+IBM Cloud Pak for Business Automation
+
+IBM Cloud Pak for Applications
+
+IBM Cloud Pak for AIOps
+
+Kubernetes
+
+Docker
+
+Istio
+
+Tekton
+
+TECHNOLOGY_CATEGORY:
+Enterprise Hybrid Cloud Platform
+
+DEPENDENCIES:
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+IBM Cloud Pak is IBM's enterprise hybrid cloud platform portfolio built on Red Hat OpenShift. It enables organizations to modernize applications, deploy cloud-native workloads, automate business processes, integrate enterprise systems, manage AI workloads and operate across public cloud, private cloud and on-premises environments.
+
+Cloud Paks provide containerized enterprise software with Kubernetes orchestration, DevSecOps pipelines, observability and lifecycle management.
+
+==================================================
+PRODUCT PORTFOLIO
+=================
+
+Cloud Pak for Integration
+
+Cloud Pak for Data
+
+Cloud Pak for Business Automation
+
+Cloud Pak for Applications
+
+Cloud Pak for AIOps
+
+Cloud Pak for Network Automation
+
+Cloud Pak for Security
+
+==================================================
+OPENSHIFT PLATFORM
+==================
+
+COMMON RESPONSIBILITIES
+
+Cluster Administration
+
+Projects
+
+Namespaces
+
+Operators
+
+Container Platform
+
+High Availability
+
+==================================================
+CONTAINERIZATION
+================
+
+COMMON RESPONSIBILITIES
+
+Docker Images
+
+Container Builds
+
+Image Registries
+
+Container Security
+
+Runtime Management
+
+==================================================
+KUBERNETES
+==========
+
+COMMON RESPONSIBILITIES
+
+Pods
+
+Deployments
+
+Services
+
+Ingress
+
+Persistent Volumes
+
+Autoscaling
+
+==================================================
+DEVSECOPS
+=========
+
+COMMON RESPONSIBILITIES
+
+CI/CD
+
+GitOps
+
+Tekton Pipelines
+
+Argo CD
+
+Image Scanning
+
+Policy Enforcement
+
+==================================================
+OBSERVABILITY
+=============
+
+COMMON RESPONSIBILITIES
+
+Monitoring
+
+Logging
+
+Alerting
+
+Tracing
+
+Performance Metrics
+
+Capacity Planning
+
+==================================================
+AUTOMATION
+==========
+
+COMMON RESPONSIBILITIES
+
+Ansible Automation
+
+Operators
+
+Infrastructure Automation
+
+Platform Provisioning
+
+Configuration Management
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+RBAC
+
+Secrets Management
+
+Network Policies
+
+TLS
+
+Compliance
+
+Identity Integration
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Application Modernization
+
+Cloud Migration
+
+Container Adoption
+
+Hybrid Cloud
+
+Platform Engineering
+
+Enterprise Automation
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Clusters
+
+Projects
+
+Namespaces
+
+Operators
+
+Storage
+
+Networking
+
+Security
+
+Monitoring
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Platform Design
+
+↓
+
+Cluster Deployment
+
+↓
+
+Application Migration
+
+↓
+
+Testing
+
+↓
+
+Automation
+
+↓
+
+Go-Live
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Hybrid Cloud Modernization
+
+Container Platform
+
+OpenShift Migration
+
+Cloud Pak Deployment
+
+Application Modernization
+
+Platform Engineering
+
+AI Platform Modernization
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+IBM MQ
+
+IBM ACE
+
+WebSphere Liberty
+
+Kafka
+
+API Gateways
+
+Terraform
+
+Ansible
+
+Public Clouds
+
+==================================================
+COMMON REPORTS
+==============
+
+Cluster Health
+
+Platform Utilization
+
+Application Availability
+
+Security Compliance
+
+Deployment Reports
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Platform Engineers
+
+Cloud Architects
+
+Infrastructure Teams
+
+DevOps Teams
+
+Security Teams
+
+Enterprise Architects
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+OpenShift
+
+*
+
+Containers
+
+*
+
+Hybrid Cloud
+
+Example
+
+("IBM Cloud Pak" OR OpenShift)
+
+AND
+
+(Kubernetes OR Containers)
+
+AND
+
+(Cloud OR Platform)
+
+AND
+
+(Architect OR Engineer)
+
+Expand Cloud Pak terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+IBM Cloud Pak
+
+Critical
+
+OpenShift
+
+Critical
+
+Kubernetes
+
+High
+
+Containers
+
+High
+
+Platform Engineering
+
+High
+
+DevSecOps
+
+Medium
+
+Automation
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Red Hat OpenShift
+
+↓
+
+IBM Cloud Pak
+
+High
+
+---
+
+VMware Tanzu
+
+↓
+
+Container Platform
+
+Medium
+
+---
+
+Amazon EKS
+
+↓
+
+Kubernetes
+
+Medium
+
+---
+
+Azure AKS
+
+↓
+
+Hybrid Cloud
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Cloud Pak Product
+
+Platform Scope
+
+Cloud Strategy
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Cloud Pak
+
+OpenShift
+
+Kubernetes
+
+Platform Engineering
+
+Automation
+
+AIOps
+
+Identify whether the consultant performed
+
+Platform Design
+
+Cluster Deployment
+
+Migration
+
+Automation
+
+CI/CD
+
+Security
+
+Operations
+
+Optimization
+
+Recognize candidates with enterprise IBM Cloud Pak implementation, Red Hat OpenShift administration, Kubernetes platform engineering, hybrid cloud modernization, DevSecOps automation and enterprise container platform experience as senior IBM Cloud Pak consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Docker administration as OpenShift architecture.
+
+Confusing Kubernetes experience with IBM Cloud Pak implementation.
+
+Matching candidates solely because they mention containers.
+
+Ignoring Cloud Pak product specialization.
+
+Treating cloud migration as hybrid cloud architecture.
+
+Ignoring operators, GitOps and enterprise platform engineering.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+IBM Cloud Pak
+
+↓
+
+Cloud Pak
+
+IBM Hybrid Cloud
+
+IBM Platform
+
+---
+
+OpenShift
+
+↓
+
+Red Hat OpenShift
+
+OCP
+
+Container Platform
+
+---
+
+Containers
+
+↓
+
+Docker
+
+Kubernetes
+
+Pods
+
+Deployments
+
+Operators
+
+---
+
+Automation
+
+↓
+
+GitOps
+
+Tekton
+
+Argo CD
+
+Ansible
+
+Terraform
+
+Platform Engineering
+
+END_OF_FILE

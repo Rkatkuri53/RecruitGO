@@ -1,0 +1,677 @@
+FILE_NAME:
+105_IBM_FILENET.txt
+
+ID:
+105
+
+DOMAIN:
+IBM
+
+CATEGORY:
+Enterprise Content Management (ECM)
+
+SUBCATEGORY:
+IBM FileNet
+
+PRIMARY_ROLE:
+IBM FileNet Consultant
+
+RELATED_FILES:
+
+100_IBM_ENTERPRISE_PLATFORM.txt
+
+103_IBM_APP_CONNECT_IIB_ACE.txt
+
+106_IBM_COGNOS_ANALYTICS.txt
+
+109_IBM_CLOUD_PAK_OPENSHIFT.txt
+
+011_APIS.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+IBM FileNet
+
+PURPOSE:
+Enable AI agents to understand IBM FileNet, enterprise content management (ECM), document management, workflow automation, records management, case management, content repositories, consultant responsibilities, implementation methodologies, and enterprise digital document transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+IBM FileNet
+FileNet
+IBM Content Navigator
+Content Engine
+Process Engine
+Case Manager
+ECM
+Enterprise Content Management
+Document Management
+Records Management
+Content Services
+Workflows
+
+ROLE_FAMILIES:
+IBM FileNet Consultant
+
+ECM Consultant
+
+FileNet Developer
+
+FileNet Administrator
+
+Content Management Architect
+
+Solution Architect
+
+COMMON_JOB_TITLES:
+IBM FileNet Consultant
+
+IBM FileNet Developer
+
+IBM FileNet Architect
+
+ECM Consultant
+
+IBM Content Manager Consultant
+
+ALTERNATIVE_TITLES:
+Enterprise Content Management Consultant
+
+Document Management Consultant
+
+Case Management Consultant
+
+CORE_SKILLS:
+IBM FileNet
+
+Content Engine
+
+Process Engine
+
+Workflow Automation
+
+Case Management
+
+Document Management
+
+Records Management
+
+Security
+
+SUPPORTING_SKILLS:
+Java
+
+JavaScript
+
+REST APIs
+
+SQL
+
+LDAP
+
+IBM Content Navigator
+
+Security
+
+RELATED_TECHNOLOGIES:
+IBM FileNet
+
+IBM Content Navigator
+
+IBM Case Manager
+
+Content Engine
+
+Process Engine
+
+IBM Datacap
+
+IBM BPM
+
+Cloud Pak for Business Automation
+
+TECHNOLOGY_CATEGORY:
+Enterprise Content Management Platform
+
+DEPENDENCIES:
+
+011_APIS.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+IBM FileNet is IBM's enterprise content management (ECM) platform used to manage digital documents, records, business content, workflows and case management across highly regulated industries.
+
+It enables organizations to securely capture, store, govern, retrieve and automate enterprise content throughout its lifecycle while supporting compliance and digital transformation initiatives.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Content Engine
+
+Process Engine
+
+IBM Content Navigator
+
+Case Manager
+
+Document Repository
+
+Records Manager
+
+Workflow Engine
+
+Security
+
+==================================================
+CONTENT ENGINE
+==============
+
+COMMON RESPONSIBILITIES
+
+Document Storage
+
+Metadata Management
+
+Version Control
+
+Object Stores
+
+Content Retrieval
+
+Content Security
+
+==================================================
+PROCESS ENGINE
+==============
+
+COMMON RESPONSIBILITIES
+
+Workflow Automation
+
+Business Process Routing
+
+Approvals
+
+Task Management
+
+Escalations
+
+Exception Handling
+
+==================================================
+IBM CONTENT NAVIGATOR
+=====================
+
+COMMON RESPONSIBILITIES
+
+Document Search
+
+Content Browsing
+
+Document Viewing
+
+User Interface
+
+Repository Integration
+
+==================================================
+CASE MANAGEMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+Case Creation
+
+Task Coordination
+
+Case Workflows
+
+Knowledge Workers
+
+Case Lifecycle
+
+==================================================
+RECORDS MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Retention Policies
+
+Legal Holds
+
+Compliance
+
+Records Classification
+
+Disposition
+
+Audit Trails
+
+==================================================
+WORKFLOW AUTOMATION
+===================
+
+COMMON RESPONSIBILITIES
+
+Approval Workflows
+
+Document Routing
+
+Business Rules
+
+Notifications
+
+Task Automation
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+Role-Based Security
+
+LDAP Integration
+
+Authentication
+
+Authorization
+
+Audit Logging
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Document Capture
+
+Content Management
+
+Case Processing
+
+Records Governance
+
+Workflow Automation
+
+Compliance
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Repositories
+
+Object Stores
+
+Classes
+
+Properties
+
+Workflows
+
+Security
+
+Retention Policies
+
+Users
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Content Assessment
+
+↓
+
+Repository Design
+
+↓
+
+Configuration
+
+↓
+
+Workflow Development
+
+↓
+
+Testing
+
+↓
+
+Migration
+
+↓
+
+Go-Live
+
+↓
+
+Support
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+ECM Modernization
+
+Document Digitization
+
+Records Management
+
+Case Management
+
+Workflow Automation
+
+Content Migration
+
+Regulatory Compliance
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+IBM BPM
+
+SAP
+
+Oracle
+
+REST APIs
+
+LDAP
+
+Microsoft Office
+
+SharePoint
+
+Cloud Pak
+
+==================================================
+COMMON REPORTS
+==============
+
+Document Activity
+
+Workflow Status
+
+Retention Reports
+
+Compliance Reports
+
+Case Metrics
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Operations Teams
+
+Compliance Teams
+
+Legal
+
+Customer Service
+
+Business Users
+
+Enterprise Architects
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+ECM
+
+*
+
+Workflow
+
+*
+
+Content
+
+Example
+
+("IBM FileNet" OR FileNet)
+
+AND
+
+("Content Engine" OR "Process Engine")
+
+AND
+
+("Content Navigator" OR Workflow)
+
+AND
+
+(Consultant OR Developer)
+
+Expand IBM FileNet terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+IBM FileNet
+
+Critical
+
+Content Engine
+
+Critical
+
+Workflow Automation
+
+High
+
+Case Management
+
+High
+
+Content Navigator
+
+High
+
+Records Management
+
+Medium
+
+Security
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+OpenText
+
+↓
+
+IBM FileNet
+
+Medium
+
+---
+
+Hyland OnBase
+
+↓
+
+Enterprise ECM
+
+Medium
+
+---
+
+Microsoft SharePoint
+
+↓
+
+Document Management
+
+Low
+
+---
+
+Alfresco
+
+↓
+
+ECM
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+ECM Scope
+
+Workflow Scope
+
+Repository Design
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Content Engine
+
+Process Engine
+
+Case Manager
+
+Content Navigator
+
+Records Management
+
+Identify whether the consultant performed
+
+Repository Design
+
+Workflow Development
+
+Migration
+
+Testing
+
+Deployment
+
+Optimization
+
+Support
+
+Recognize candidates with enterprise IBM FileNet implementation, content repository architecture, workflow automation, case management, document governance and enterprise ECM modernization experience as senior IBM FileNet consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating document management as IBM FileNet implementation.
+
+Confusing SharePoint administration with FileNet expertise.
+
+Matching candidates solely because they mention ECM.
+
+Ignoring Content Engine architecture.
+
+Treating workflow usage as workflow development.
+
+Ignoring records management and compliance.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+IBM FileNet
+
+↓
+
+FileNet
+
+IBM ECM
+
+Enterprise Content Management
+
+---
+
+Content
+
+↓
+
+Content Engine
+
+Document Repository
+
+Object Stores
+
+Metadata
+
+---
+
+Workflow
+
+↓
+
+Process Engine
+
+Approvals
+
+Routing
+
+Case Management
+
+---
+
+Governance
+
+↓
+
+Records Management
+
+Retention
+
+Compliance
+
+IBM Content Navigator
+
+END_OF_FILE

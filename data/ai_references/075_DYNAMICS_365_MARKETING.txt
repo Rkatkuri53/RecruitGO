@@ -1,0 +1,676 @@
+FILE_NAME:
+075_DYNAMICS_365_MARKETING.txt
+
+ID:
+075
+
+DOMAIN:
+Microsoft Dynamics 365
+
+CATEGORY:
+Enterprise CRM
+
+SUBCATEGORY:
+Dynamics 365 Marketing (Customer Insights - Journeys)
+
+PRIMARY_ROLE:
+Dynamics 365 Marketing Consultant
+
+RELATED_FILES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+072_DYNAMICS_365_CRM_SALES.txt
+
+073_DYNAMICS_365_CUSTOMER_SERVICE.txt
+
+074_DYNAMICS_365_FIELD_SERVICE.txt
+
+076_DYNAMICS_365_POWER_PLATFORM.txt
+
+077_DYNAMICS_365_DEVELOPMENT.txt
+
+078_DYNAMICS_365_INTEGRATION.txt
+
+079_DYNAMICS_365_DATA_AI.txt
+
+049_SALESFORCE_MARKETING_CLOUD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Dynamics 365 Marketing
+
+PURPOSE:
+Enable AI agents to understand Microsoft Dynamics 365 Marketing (now Customer Insights - Journeys), including customer journeys, campaign automation, lead nurturing, event management, segmentation, real-time marketing, email marketing, consultant responsibilities, implementation methodologies, and marketing transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Dynamics 365 Marketing
+Customer Insights Journeys
+Dynamics Marketing
+Real-Time Marketing
+Journey Orchestration
+Email Marketing
+Lead Nurturing
+Segmentation
+Event Management
+Customer Insights
+Marketing Automation
+
+ROLE_FAMILIES:
+Dynamics 365 Marketing Consultant
+
+Marketing Automation Consultant
+
+CRM Marketing Consultant
+
+Dynamics Solution Architect
+
+Business Analyst
+
+Marketing Technology Consultant
+
+COMMON_JOB_TITLES:
+Dynamics 365 Marketing Consultant
+
+Customer Insights Consultant
+
+Marketing Automation Consultant
+
+Dynamics CRM Marketing Consultant
+
+Marketing Solution Architect
+
+ALTERNATIVE_TITLES:
+Digital Marketing Consultant
+
+CRM Marketing Consultant
+
+Customer Journey Consultant
+
+CORE_SKILLS:
+Marketing Automation
+
+Customer Journeys
+
+Email Marketing
+
+Lead Nurturing
+
+Segmentation
+
+Event Management
+
+Campaign Management
+
+Customer Insights
+
+SUPPORTING_SKILLS:
+Power Platform
+
+Power BI
+
+Dataverse
+
+Azure
+
+Copilot
+
+Integration
+
+Analytics
+
+RELATED_TECHNOLOGIES:
+Customer Insights - Journeys
+
+Customer Insights - Data
+
+Power Platform
+
+Power BI
+
+Copilot
+
+Microsoft Teams
+
+Dynamics 365 Sales
+
+Azure
+
+TECHNOLOGY_CATEGORY:
+Marketing Automation Platform
+
+DEPENDENCIES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Dynamics 365 Marketing, now branded as Customer Insights - Journeys, is Microsoft's enterprise marketing automation platform.
+
+It enables organizations to orchestrate real-time customer journeys, automate campaigns, nurture leads, personalize communications and measure marketing effectiveness across multiple channels.
+
+==================================================
+CORE MODULES
+============
+
+Customer Journeys
+
+Real-Time Marketing
+
+Email Marketing
+
+Lead Nurturing
+
+Segmentation
+
+Event Management
+
+Forms
+
+Customer Insights
+
+Copilot
+
+==================================================
+CUSTOMER JOURNEYS
+=================
+
+COMMON RESPONSIBILITIES
+
+Journey Design
+
+Trigger-Based Journeys
+
+Branching Logic
+
+Automation
+
+Customer Lifecycle
+
+==================================================
+REAL-TIME MARKETING
+===================
+
+COMMON RESPONSIBILITIES
+
+Real-Time Engagement
+
+Behavior Triggers
+
+Personalization
+
+Event-Based Campaigns
+
+Consent Management
+
+==================================================
+EMAIL MARKETING
+===============
+
+COMMON RESPONSIBILITIES
+
+Templates
+
+Campaigns
+
+Personalization
+
+A/B Testing
+
+Email Analytics
+
+==================================================
+LEAD NURTURING
+==============
+
+COMMON RESPONSIBILITIES
+
+Lead Scoring
+
+Lead Qualification
+
+Automated Nurturing
+
+Sales Handover
+
+CRM Synchronization
+
+==================================================
+SEGMENTATION
+============
+
+COMMON RESPONSIBILITIES
+
+Audience Segmentation
+
+Dynamic Segments
+
+Behavioral Segments
+
+Customer Profiles
+
+==================================================
+EVENT MANAGEMENT
+================
+
+COMMON RESPONSIBILITIES
+
+Registrations
+
+Event Planning
+
+Attendance
+
+Sessions
+
+Event Communications
+
+==================================================
+CUSTOMER INSIGHTS
+=================
+
+COMMON RESPONSIBILITIES
+
+Customer Profiles
+
+Behavior Analytics
+
+Personalization
+
+Recommendations
+
+Marketing Intelligence
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Lead-to-Customer
+
+Campaign Management
+
+Customer Journey Automation
+
+Marketing Attribution
+
+Event Lifecycle
+
+Customer Engagement
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Journeys
+
+Segments
+
+Forms
+
+Emails
+
+Events
+
+Consent
+
+Customer Profiles
+
+Dashboards
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Marketing Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+Campaign Validation
+
+↓
+
+Go-Live
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Marketing Automation
+
+Customer Journey Transformation
+
+CRM Marketing Modernization
+
+Lead Nurturing
+
+Digital Marketing
+
+Customer Engagement
+
+Global Marketing Rollout
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Dynamics 365 Sales
+
+Power Platform
+
+Microsoft Teams
+
+Power BI
+
+Azure
+
+Dataverse
+
+REST APIs
+
+Customer Insights - Data
+
+==================================================
+COMMON REPORTS
+==============
+
+Campaign Performance
+
+Journey Analytics
+
+Lead Conversion
+
+Marketing ROI
+
+Email Metrics
+
+Customer Engagement
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Marketing Teams
+
+Demand Generation
+
+Campaign Managers
+
+Marketing Operations
+
+Sales Teams
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Marketing
+
+*
+
+Journeys
+
+*
+
+Automation
+
+Example
+
+("Dynamics 365 Marketing" OR "Customer Insights - Journeys")
+
+AND
+
+(Journeys OR Campaigns)
+
+AND
+
+(Segmentation OR "Lead Nurturing")
+
+AND
+
+(Consultant)
+
+Expand Marketing terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Dynamics 365 Marketing
+
+Critical
+
+Customer Journeys
+
+Critical
+
+Marketing Automation
+
+High
+
+Segmentation
+
+High
+
+Lead Nurturing
+
+High
+
+Power Platform
+
+Medium
+
+Customer Insights
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Salesforce Marketing Cloud
+
+↓
+
+Dynamics Marketing
+
+Medium
+
+---
+
+Adobe Marketo
+
+↓
+
+Dynamics Marketing
+
+Medium
+
+---
+
+HubSpot Marketing
+
+↓
+
+Dynamics Marketing
+
+Medium
+
+---
+
+Oracle Eloqua
+
+↓
+
+Dynamics Marketing
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Marketing Module
+
+Campaign Type
+
+Journey Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Marketing
+
+Customer Insights
+
+Sales
+
+Power Platform
+
+Customer Data
+
+Identify whether the consultant performed
+
+Journey Design
+
+Campaign Automation
+
+Lead Nurturing
+
+Segmentation
+
+Testing
+
+Training
+
+Deployment
+
+Optimization
+
+Recognize candidates with enterprise marketing automation implementation, customer journey orchestration, real-time marketing, Customer Insights, lead nurturing and CRM marketing transformation experience as senior Dynamics 365 Marketing consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Dynamics Marketing as Dynamics Sales.
+
+Confusing Customer Insights - Data with Customer Insights - Journeys.
+
+Matching candidates solely because they mention CRM.
+
+Ignoring customer journey expertise.
+
+Treating digital marketing experience as Dynamics implementation.
+
+Ignoring consent management and real-time marketing.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Dynamics Marketing
+
+↓
+
+Customer Insights - Journeys
+
+Marketing Automation
+
+CRM Marketing
+
+---
+
+Journeys
+
+↓
+
+Journey Orchestration
+
+Real-Time Journeys
+
+Automation
+
+Triggers
+
+---
+
+Marketing
+
+↓
+
+Campaigns
+
+Email
+
+Lead Nurturing
+
+Segmentation
+
+Events
+
+---
+
+Customer Insights
+
+↓
+
+Personalization
+
+Profiles
+
+Behavior Analytics
+
+Recommendations
+
+END_OF_FILE

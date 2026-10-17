@@ -1,0 +1,612 @@
+FILE_NAME:
+047_SALESFORCE_SALES_CLOUD.txt
+
+ID:
+047
+
+DOMAIN:
+Salesforce
+
+CATEGORY:
+Enterprise CRM
+
+SUBCATEGORY:
+Salesforce Sales Cloud
+
+PRIMARY_ROLE:
+Salesforce Sales Cloud Consultant
+
+RELATED_FILES:
+
+046_SALESFORCE_PLATFORM.txt
+
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+049_SALESFORCE_MARKETING_CLOUD.txt
+
+051_SALESFORCE_PLATFORM_DEVELOPMENT.txt
+
+052_SALESFORCE_INTEGRATION.txt
+
+053_SALESFORCE_DEVOPS.txt
+
+054_SALESFORCE_DATA_CLOUD.txt
+
+055_SALESFORCE_CPQ.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Salesforce Sales Cloud
+
+PURPOSE:
+Enable AI agents to understand Salesforce Sales Cloud, sales process automation, lead management, opportunity management, account management, forecasting, quoting, territory management, consultant responsibilities, implementation methodologies, and Sales Cloud transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Salesforce Sales Cloud
+Sales Cloud
+Lead Management
+Opportunity Management
+Account Management
+Sales Process
+Forecasting
+Territory Management
+CRM
+Pipeline Management
+
+ROLE_FAMILIES:
+Salesforce Sales Cloud Consultant
+Salesforce CRM Consultant
+Salesforce Functional Consultant
+Salesforce Solution Architect
+Salesforce Business Analyst
+Salesforce Administrator
+
+COMMON_JOB_TITLES:
+Salesforce Sales Cloud Consultant
+Salesforce Functional Consultant
+Salesforce CRM Consultant
+Salesforce Administrator
+Salesforce Solution Architect
+
+ALTERNATIVE_TITLES:
+Salesforce Sales Consultant
+CRM Consultant
+Salesforce Sales Functional Consultant
+
+CORE_SKILLS:
+Sales Process Design
+
+Lead Management
+
+Opportunity Management
+
+Sales Automation
+
+Configuration
+
+Reporting
+
+Forecasting
+
+SUPPORTING_SKILLS:
+Flow
+
+Apex
+
+LWC
+
+REST APIs
+
+Integration
+
+Analytics
+
+Security
+
+RELATED_TECHNOLOGIES:
+Salesforce Platform
+
+Sales Cloud
+
+CPQ
+
+Revenue Cloud
+
+Data Cloud
+
+MuleSoft
+
+Tableau CRM
+
+Slack
+
+TECHNOLOGY_CATEGORY:
+CRM Platform
+
+DEPENDENCIES:
+
+046_SALESFORCE_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Salesforce Sales Cloud enables organizations to manage the complete sales lifecycle, from lead generation to opportunity management, quoting, forecasting and customer relationship management.
+
+Sales Cloud is one of the most widely implemented Salesforce products.
+
+==================================================
+CORE MODULES
+============
+
+Lead Management
+
+Account Management
+
+Contact Management
+
+Opportunity Management
+
+Activities
+
+Forecasting
+
+Territory Management
+
+Quotes
+
+Products
+
+Price Books
+
+Campaign Influence
+
+==================================================
+LEAD MANAGEMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+Lead Capture
+
+Lead Qualification
+
+Lead Assignment
+
+Lead Conversion
+
+Lead Scoring
+
+Duplicate Management
+
+==================================================
+ACCOUNT MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Account Hierarchies
+
+Customer Profiles
+
+Parent-Child Accounts
+
+Business Relationships
+
+==================================================
+CONTACT MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Contact Records
+
+Communication History
+
+Relationship Management
+
+Customer Engagement
+
+==================================================
+OPPORTUNITY MANAGEMENT
+======================
+
+COMMON RESPONSIBILITIES
+
+Sales Pipeline
+
+Opportunity Stages
+
+Products
+
+Revenue Forecasting
+
+Probability
+
+Competitor Tracking
+
+==================================================
+FORECASTING
+===========
+
+COMMON RESPONSIBILITIES
+
+Sales Forecasts
+
+Pipeline Reports
+
+Quota Management
+
+Revenue Projections
+
+Manager Forecast Reviews
+
+==================================================
+TERRITORY MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+Sales Territories
+
+Assignment Rules
+
+Geographic Alignment
+
+Territory Models
+
+==================================================
+QUOTES & PRODUCTS
+=================
+
+COMMON RESPONSIBILITIES
+
+Product Catalog
+
+Price Books
+
+Quotes
+
+Discounts
+
+Approvals
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Lead-to-Opportunity
+
+Opportunity-to-Quote
+
+Quote-to-Cash
+
+Pipeline Management
+
+Forecast Management
+
+Customer Relationship Management
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Objects
+
+Fields
+
+Record Types
+
+Page Layouts
+
+Flows
+
+Validation Rules
+
+Approval Processes
+
+Sharing Rules
+
+Reports
+
+Dashboards
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Requirements Gathering
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Sales Cloud Implementation
+
+CRM Transformation
+
+Sales Process Optimization
+
+Lead Management Automation
+
+Territory Management
+
+Salesforce Migration
+
+Global Rollout
+
+Support
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+REST APIs
+
+Salesforce Connect
+
+MuleSoft
+
+ERP Integration
+
+Marketing Cloud
+
+CPQ
+
+Service Cloud
+
+==================================================
+COMMON REPORTS
+==============
+
+Pipeline Reports
+
+Opportunity Reports
+
+Forecast Reports
+
+Lead Conversion Reports
+
+Sales Performance Dashboards
+
+Territory Reports
+
+Revenue Reports
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Sales Representatives
+
+Sales Managers
+
+Account Executives
+
+Business Development Teams
+
+Regional Sales Managers
+
+Sales Operations Teams
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Cloud
+
+*
+
+Sales Process
+
+*
+
+Configuration
+
+Example
+
+("Sales Cloud")
+
+AND
+
+(Lead OR Opportunity OR Forecast)
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+(Salesforce)
+
+Expand Sales Cloud features only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Sales Cloud Experience
+
+Critical
+
+Lead Management
+
+Critical
+
+Opportunity Management
+
+High
+
+Sales Automation
+
+High
+
+Configuration
+
+High
+
+Reporting
+
+Medium
+
+Integration
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Microsoft Dynamics Sales
+
+↓
+
+Sales Cloud
+
+Medium
+
+---
+
+Oracle CX Sales
+
+↓
+
+Sales Cloud
+
+Medium
+
+---
+
+SAP Sales Cloud
+
+↓
+
+Sales Cloud
+
+Medium
+
+---
+
+HubSpot CRM
+
+↓
+
+Sales Cloud
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Cloud
+
+Business Process
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Administrator
+
+Consultant
+
+Business Analyst
+
+Developer
+
+Architect
+
+Identify whether the consultant performed
+
+Business Analysis
+
+Configuration
+
+Automation
+
+Testing
+
+Data Migration
+
+Go-Live
+
+Production Support
+
+Recognize candidates with Sales Cloud implementation, Lead-to-Opportunity transformation, Forecasting, Territory Management and enterprise CRM rollout experience as senior Sales Cloud consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Sales Cloud as Service Cloud.
+
+Confusing Lead Management with Marketing Automation.
+
+Matching candidates solely because they mention Salesforce.
+
+Ignoring sales business process expertise.
+
+Treating Apex development as Sales Cloud functional implementation.
+
+Ignoring forecasting and territory management.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

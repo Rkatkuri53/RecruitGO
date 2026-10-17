@@ -1,0 +1,663 @@
+FILE_NAME:
+094_ADOBE_TARGET.txt
+
+ID:
+094
+
+DOMAIN:
+Adobe
+
+CATEGORY:
+Digital Experience Optimization
+
+SUBCATEGORY:
+Adobe Target
+
+PRIMARY_ROLE:
+Adobe Target Consultant
+
+RELATED_FILES:
+
+090_ADOBE_EXPERIENCE_CLOUD_PLATFORM.txt
+
+091_ADOBE_EXPERIENCE_MANAGER_AEM.txt
+
+092_ADOBE_ANALYTICS.txt
+
+093_ADOBE_CAMPAIGN.txt
+
+095_ADOBE_COMMERCE_MAGENTO.txt
+
+096_ADOBE_EXPERIENCE_PLATFORM_AEP.txt
+
+097_ADOBE_MARKETO.txt
+
+098_ADOBE_DEVELOPMENT.txt
+
+099_ADOBE_INTEGRATION.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Adobe Target
+
+PURPOSE:
+Enable AI agents to understand Adobe Target, personalization, experimentation, A/B testing, multivariate testing, recommendations, AI-powered optimization, activity management, consultant responsibilities, implementation methodologies, and enterprise conversion optimization projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Adobe Target
+A/B Testing
+Multivariate Testing
+MVT
+Personalization
+Recommendations
+Experience Targeting
+Auto-Target
+Auto-Allocate
+Offer Decisioning
+Optimization
+Adobe Sensei
+
+ROLE_FAMILIES:
+Adobe Target Consultant
+
+Optimization Consultant
+
+Personalization Consultant
+
+Adobe Solution Architect
+
+Experimentation Consultant
+
+Digital Experience Consultant
+
+COMMON_JOB_TITLES:
+Adobe Target Consultant
+
+Adobe Target Developer
+
+Adobe Optimization Consultant
+
+Adobe Solution Architect
+
+Conversion Optimization Consultant
+
+ALTERNATIVE_TITLES:
+Experimentation Consultant
+
+Digital Optimization Consultant
+
+Personalization Consultant
+
+CORE_SKILLS:
+A/B Testing
+
+Multivariate Testing
+
+Personalization
+
+Recommendations
+
+Audience Targeting
+
+Experimentation
+
+Conversion Optimization
+
+Reporting
+
+SUPPORTING_SKILLS:
+JavaScript
+
+Adobe Analytics
+
+Adobe Experience Platform
+
+Adobe Launch
+
+HTML
+
+CSS
+
+APIs
+
+RELATED_TECHNOLOGIES:
+Adobe Target
+
+Adobe Analytics
+
+Adobe Experience Platform
+
+Adobe Launch
+
+Adobe Sensei
+
+Real-Time CDP
+
+Offer Decisioning
+
+TECHNOLOGY_CATEGORY:
+Enterprise Personalization & Experimentation Platform
+
+DEPENDENCIES:
+
+090_ADOBE_EXPERIENCE_CLOUD_PLATFORM.txt
+
+092_ADOBE_ANALYTICS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Adobe Target is Adobe's enterprise personalization and experimentation platform used to optimize customer experiences through A/B testing, multivariate testing, AI-driven recommendations and real-time personalization.
+
+Organizations use Adobe Target to improve digital conversion rates, customer engagement and business outcomes across websites, mobile applications and digital channels.
+
+==================================================
+CORE COMPONENTS
+===============
+
+A/B Testing
+
+Multivariate Testing
+
+Experience Targeting
+
+Recommendations
+
+Auto-Target
+
+Auto-Allocate
+
+Offer Decisioning
+
+Reporting
+
+==================================================
+A/B TESTING
+===========
+
+COMMON RESPONSIBILITIES
+
+Experiment Design
+
+Traffic Allocation
+
+Variant Management
+
+Result Analysis
+
+Statistical Validation
+
+==================================================
+MULTIVARIATE TESTING
+====================
+
+COMMON RESPONSIBILITIES
+
+Multiple Variable Testing
+
+Experience Optimization
+
+Combination Analysis
+
+Optimization Strategies
+
+==================================================
+EXPERIENCE TARGETING
+====================
+
+COMMON RESPONSIBILITIES
+
+Audience Personalization
+
+Behavior Targeting
+
+Profile-Based Experiences
+
+Geo Targeting
+
+Device Targeting
+
+==================================================
+RECOMMENDATIONS
+===============
+
+COMMON RESPONSIBILITIES
+
+Product Recommendations
+
+Content Recommendations
+
+Cross-Sell
+
+Upsell
+
+AI Recommendations
+
+==================================================
+AUTO-TARGET & AUTO-ALLOCATE
+===========================
+
+COMMON RESPONSIBILITIES
+
+Machine Learning
+
+Traffic Optimization
+
+Best Experience Selection
+
+Adaptive Optimization
+
+==================================================
+OFFER DECISIONING
+=================
+
+COMMON RESPONSIBILITIES
+
+Offer Rules
+
+Eligibility
+
+Personalized Offers
+
+Decision Logic
+
+Offer Prioritization
+
+==================================================
+REPORTING
+=========
+
+COMMON RESPONSIBILITIES
+
+Experiment Results
+
+Conversion Metrics
+
+Revenue Impact
+
+Audience Performance
+
+Optimization Reports
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Experiment Planning
+
+Experience Optimization
+
+Conversion Optimization
+
+Personalization
+
+Customer Engagement
+
+Marketing Optimization
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Activities
+
+Audiences
+
+Offers
+
+Goals
+
+Success Metrics
+
+Profiles
+
+Rules
+
+Integrations
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Measurement Strategy
+
+↓
+
+Activity Design
+
+↓
+
+Configuration
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Optimization
+
+↓
+
+Continuous Improvement
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Personalization Programs
+
+Experimentation
+
+Conversion Optimization
+
+Digital Experience Optimization
+
+AI Recommendations
+
+Website Optimization
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Adobe Analytics
+
+Adobe Experience Platform
+
+Adobe Experience Manager
+
+Adobe Campaign
+
+Adobe Launch
+
+REST APIs
+
+Real-Time CDP
+
+==================================================
+COMMON REPORTS
+==============
+
+A/B Test Results
+
+Conversion Reports
+
+Audience Reports
+
+Recommendation Performance
+
+Revenue Impact
+
+Optimization Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Marketing Teams
+
+Digital Teams
+
+Product Managers
+
+Optimization Teams
+
+Customer Experience Teams
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Testing
+
+*
+
+Personalization
+
+*
+
+Optimization
+
+Example
+
+("Adobe Target")
+
+AND
+
+("A/B Testing" OR Personalization)
+
+AND
+
+(Recommendations OR "Experience Targeting")
+
+AND
+
+(Consultant)
+
+Expand Adobe Target terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Adobe Target
+
+Critical
+
+A/B Testing
+
+Critical
+
+Personalization
+
+High
+
+Recommendations
+
+High
+
+Experience Targeting
+
+High
+
+Adobe Analytics
+
+Medium
+
+Adobe Experience Platform
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Optimizely
+
+↓
+
+Adobe Target
+
+Medium
+
+---
+
+Dynamic Yield
+
+↓
+
+Adobe Target
+
+Medium
+
+---
+
+VWO
+
+↓
+
+Adobe Target
+
+Medium
+
+---
+
+Google Optimize
+
+↓
+
+Adobe Target
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Optimization Scope
+
+Experimentation Strategy
+
+Personalization Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+A/B Testing
+
+MVT
+
+Recommendations
+
+Experience Targeting
+
+Analytics
+
+Identify whether the consultant performed
+
+Experiment Design
+
+Configuration
+
+Testing
+
+Deployment
+
+Optimization
+
+Analysis
+
+Support
+
+Recognize candidates with enterprise Adobe Target implementation, experimentation strategy, personalization, AI recommendations, conversion optimization and digital experience optimization experience as senior Adobe Target consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Adobe Target as Adobe Analytics.
+
+Confusing A/B testing execution with platform implementation.
+
+Matching candidates solely because they mention CRO.
+
+Ignoring Auto-Target and Auto-Allocate expertise.
+
+Treating marketing optimization as Adobe Target implementation.
+
+Ignoring Adobe Sensei capabilities.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Adobe Target
+
+↓
+
+Target
+
+Experience Optimization
+
+Personalization Platform
+
+---
+
+Experimentation
+
+↓
+
+A/B Testing
+
+Split Testing
+
+Multivariate Testing
+
+MVT
+
+---
+
+Personalization
+
+↓
+
+Experience Targeting
+
+Audience Targeting
+
+Offers
+
+Recommendations
+
+---
+
+Optimization
+
+↓
+
+Conversion Rate Optimization
+
+CRO
+
+Adobe Sensei
+
+Auto-Target
+
+Auto-Allocate
+
+END_OF_FILE

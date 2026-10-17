@@ -1,0 +1,944 @@
+FILE_NAME:
+001_ROLE_CLASSIFICATION.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+IT Role Classification
+
+PURPOSE:
+Provide a standardized classification system for all Information Technology roles. Every Job Description (JD) and Resume must first be classified into one or more role families before any Boolean generation or candidate matching begins.
+
+KEYWORDS:
+Role Classification
+Role Family
+Job Family
+Technical Roles
+Functional Roles
+Management Roles
+Enterprise Roles
+
+ROLE_FAMILIES:
+
+Software Engineering
+
+Quality Engineering
+
+Cloud Computing
+
+DevOps
+
+Platform Engineering
+
+Site Reliability Engineering
+
+Infrastructure
+
+Networking
+
+Cybersecurity
+
+Database
+
+Data Engineering
+
+Business Intelligence
+
+Artificial Intelligence
+
+Enterprise Applications
+
+Business Analysis
+
+Project Management
+
+Architecture
+
+IT Operations
+
+Support
+
+Consulting
+
+Product Management
+
+Digital Transformation
+
+COMMON_JOB_TITLES:
+All IT job titles
+
+ALTERNATIVE_TITLES:
+Refer to Job Title Normalization Dictionary
+
+CORE_SKILLS:
+Role Identification
+Technology Classification
+Responsibility Classification
+
+SUPPORTING_SKILLS:
+Business Domain Analysis
+Seniority Analysis
+
+RELATED_TECHNOLOGIES:
+All Technologies
+
+TECHNOLOGY_CATEGORY:
+Role Classification
+
+DEPENDENCIES:
+000_MASTER_RULES.txt
+
+==================================================
+ROLE CLASSIFICATION HIERARCHY
+=============================
+
+LEVEL 1
+
+Technology
+
+↓
+
+Role Family
+
+↓
+
+Specialization
+
+↓
+
+Seniority
+
+↓
+
+Responsibilities
+
+==================================================
+ROLE FAMILY 1
+=============
+
+SOFTWARE ENGINEERING
+
+PURPOSE
+
+Develop software applications.
+
+COMMON JOB TITLES
+
+Software Engineer
+
+Software Developer
+
+Application Developer
+
+Programmer
+
+Software Consultant
+
+SPECIALIZATIONS
+
+Backend Developer
+
+Frontend Developer
+
+Full Stack Developer
+
+Desktop Developer
+
+Mobile Developer
+
+Embedded Developer
+
+Game Developer
+
+API Developer
+
+Middleware Developer
+
+COMMON RESPONSIBILITIES
+
+Software Development
+
+Bug Fixing
+
+Code Review
+
+Feature Development
+
+API Development
+
+Application Maintenance
+
+COMMON TECHNOLOGIES
+
+Java
+
+Python
+
+C#
+
+C++
+
+Go
+
+Rust
+
+JavaScript
+
+TypeScript
+
+==================================================
+ROLE FAMILY 2
+=============
+
+QUALITY ENGINEERING
+
+PURPOSE
+
+Validate software quality.
+
+COMMON JOB TITLES
+
+QA Engineer
+
+Software Tester
+
+Automation Tester
+
+Test Engineer
+
+QA Analyst
+
+SPECIALIZATIONS
+
+Manual Testing
+
+Automation Testing
+
+Performance Testing
+
+API Testing
+
+Mobile Testing
+
+Security Testing
+
+COMMON RESPONSIBILITIES
+
+Test Planning
+
+Test Case Design
+
+Automation
+
+Regression Testing
+
+Bug Reporting
+
+COMMON TOOLS
+
+Selenium
+
+Playwright
+
+Cypress
+
+JUnit
+
+TestNG
+
+JMeter
+
+Postman
+
+==================================================
+ROLE FAMILY 3
+=============
+
+CLOUD COMPUTING
+
+PURPOSE
+
+Design and manage cloud infrastructure.
+
+COMMON JOB TITLES
+
+Cloud Engineer
+
+Cloud Consultant
+
+Cloud Architect
+
+Cloud Administrator
+
+Cloud Specialist
+
+SPECIALIZATIONS
+
+AWS
+
+Azure
+
+Google Cloud
+
+Oracle Cloud
+
+Alibaba Cloud
+
+COMMON RESPONSIBILITIES
+
+Cloud Deployment
+
+Infrastructure
+
+Networking
+
+Monitoring
+
+Cloud Security
+
+Automation
+
+==================================================
+ROLE FAMILY 4
+=============
+
+DEVOPS
+
+PURPOSE
+
+Automate software delivery.
+
+COMMON JOB TITLES
+
+DevOps Engineer
+
+CI/CD Engineer
+
+Release Engineer
+
+Build Engineer
+
+Platform Engineer
+
+SPECIALIZATIONS
+
+CI/CD
+
+Containers
+
+Infrastructure as Code
+
+Observability
+
+COMMON RESPONSIBILITIES
+
+Build Pipelines
+
+Deploy Applications
+
+Infrastructure Automation
+
+Container Management
+
+Monitoring
+
+COMMON TOOLS
+
+Git
+
+Docker
+
+Kubernetes
+
+Terraform
+
+Jenkins
+
+GitHub Actions
+
+GitLab CI
+
+==================================================
+ROLE FAMILY 5
+=============
+
+SITE RELIABILITY ENGINEERING
+
+PURPOSE
+
+Improve system reliability.
+
+COMMON JOB TITLES
+
+SRE
+
+Site Reliability Engineer
+
+Reliability Engineer
+
+Platform Reliability Engineer
+
+COMMON RESPONSIBILITIES
+
+Incident Management
+
+Monitoring
+
+Automation
+
+Performance
+
+Availability
+
+Capacity Planning
+
+==================================================
+ROLE FAMILY 6
+=============
+
+INFRASTRUCTURE
+
+PURPOSE
+
+Manage enterprise infrastructure.
+
+COMMON JOB TITLES
+
+Infrastructure Engineer
+
+Systems Engineer
+
+Windows Engineer
+
+Linux Engineer
+
+Virtualization Engineer
+
+COMMON RESPONSIBILITIES
+
+Server Management
+
+Virtualization
+
+Storage
+
+Backup
+
+Patch Management
+
+COMMON TECHNOLOGIES
+
+VMware
+
+Hyper-V
+
+Windows Server
+
+Linux
+
+Active Directory
+
+==================================================
+ROLE FAMILY 7
+=============
+
+NETWORKING
+
+PURPOSE
+
+Manage enterprise networks.
+
+COMMON JOB TITLES
+
+Network Engineer
+
+Network Administrator
+
+Network Architect
+
+SPECIALIZATIONS
+
+Routing
+
+Switching
+
+Wireless
+
+SD-WAN
+
+Data Center
+
+COMMON RESPONSIBILITIES
+
+Network Design
+
+Troubleshooting
+
+Firewall
+
+VPN
+
+Routing
+
+Switching
+
+==================================================
+ROLE FAMILY 8
+=============
+
+CYBERSECURITY
+
+PURPOSE
+
+Protect enterprise systems.
+
+COMMON JOB TITLES
+
+Security Engineer
+
+SOC Analyst
+
+Security Architect
+
+IAM Engineer
+
+Security Consultant
+
+SPECIALIZATIONS
+
+Application Security
+
+Cloud Security
+
+Network Security
+
+Identity
+
+GRC
+
+SOC
+
+COMMON RESPONSIBILITIES
+
+Threat Detection
+
+Incident Response
+
+Vulnerability Management
+
+Identity Management
+
+Compliance
+
+==================================================
+ROLE FAMILY 9
+=============
+
+DATABASE
+
+PURPOSE
+
+Manage enterprise databases.
+
+COMMON JOB TITLES
+
+Database Administrator
+
+Oracle DBA
+
+SQL DBA
+
+Database Engineer
+
+Database Architect
+
+SPECIALIZATIONS
+
+Oracle
+
+SQL Server
+
+PostgreSQL
+
+MongoDB
+
+Snowflake
+
+COMMON RESPONSIBILITIES
+
+Database Design
+
+Performance Tuning
+
+Backup
+
+Recovery
+
+Security
+
+==================================================
+ROLE FAMILY 10
+==============
+
+DATA ENGINEERING
+
+PURPOSE
+
+Build enterprise data platforms.
+
+COMMON JOB TITLES
+
+Data Engineer
+
+Big Data Engineer
+
+Analytics Engineer
+
+ETL Developer
+
+SPECIALIZATIONS
+
+Spark
+
+Databricks
+
+Snowflake
+
+Kafka
+
+Airflow
+
+COMMON RESPONSIBILITIES
+
+ETL
+
+ELT
+
+Data Pipelines
+
+Streaming
+
+Data Warehousing
+
+==================================================
+ROLE FAMILY 11
+==============
+
+ARTIFICIAL INTELLIGENCE
+
+PURPOSE
+
+Build intelligent systems.
+
+COMMON JOB TITLES
+
+AI Engineer
+
+ML Engineer
+
+Data Scientist
+
+LLM Engineer
+
+GenAI Engineer
+
+Prompt Engineer
+
+SPECIALIZATIONS
+
+Machine Learning
+
+Deep Learning
+
+LLMs
+
+RAG
+
+AI Agents
+
+COMMON RESPONSIBILITIES
+
+Model Training
+
+Inference
+
+Prompt Engineering
+
+Semantic Search
+
+AI Integration
+
+==================================================
+ROLE FAMILY 12
+==============
+
+ENTERPRISE APPLICATIONS
+
+PURPOSE
+
+Implement enterprise business systems.
+
+COMMON JOB TITLES
+
+SAP Consultant
+
+Oracle Consultant
+
+Salesforce Consultant
+
+ServiceNow Consultant
+
+Dynamics Consultant
+
+SPECIALIZATIONS
+
+Functional
+
+Technical
+
+Architect
+
+Basis
+
+Integration
+
+COMMON RESPONSIBILITIES
+
+Implementation
+
+Configuration
+
+Customization
+
+Integration
+
+Support
+
+==================================================
+ROLE FAMILY 13
+==============
+
+BUSINESS ANALYSIS
+
+PURPOSE
+
+Bridge business and technology.
+
+COMMON JOB TITLES
+
+Business Analyst
+
+System Analyst
+
+Functional Analyst
+
+Process Analyst
+
+COMMON RESPONSIBILITIES
+
+Requirement Gathering
+
+Documentation
+
+Workshops
+
+User Stories
+
+UAT
+
+==================================================
+ROLE FAMILY 14
+==============
+
+ARCHITECTURE
+
+PURPOSE
+
+Design enterprise solutions.
+
+COMMON JOB TITLES
+
+Solution Architect
+
+Enterprise Architect
+
+Application Architect
+
+Cloud Architect
+
+Technical Architect
+
+COMMON RESPONSIBILITIES
+
+Solution Design
+
+Technology Selection
+
+Integration Strategy
+
+Architecture Reviews
+
+Governance
+
+==================================================
+ROLE FAMILY 15
+==============
+
+PROJECT & PROGRAM MANAGEMENT
+
+PURPOSE
+
+Manage delivery.
+
+COMMON JOB TITLES
+
+Project Manager
+
+Program Manager
+
+Delivery Manager
+
+Scrum Master
+
+Transformation Director
+
+COMMON RESPONSIBILITIES
+
+Planning
+
+Risk Management
+
+Budget
+
+Stakeholder Management
+
+Governance
+
+==================================================
+ROLE FAMILY 16
+==============
+
+IT OPERATIONS & SUPPORT
+
+PURPOSE
+
+Maintain production systems.
+
+COMMON JOB TITLES
+
+Production Support
+
+Application Support
+
+Technical Support
+
+L2 Support
+
+L3 Support
+
+COMMON RESPONSIBILITIES
+
+Incident Resolution
+
+Monitoring
+
+Root Cause Analysis
+
+Production Support
+
+Service Requests
+
+==================================================
+ROLE CLASSIFICATION RULES
+=========================
+
+Always classify a JD into:
+
+Primary Role Family
+
+Secondary Role Family (if applicable)
+
+Specialization
+
+Technology Stack
+
+Business Domain
+
+Project Type
+
+Seniority
+
+==================================================
+MATCHING_RULES
+
+Primary Role Match
+
+Critical
+
+Secondary Role Match
+
+High
+
+Specialization Match
+
+High
+
+Technology Match
+
+Critical
+
+Business Domain
+
+Medium
+
+==================================================
+BOOLEAN_RULES
+
+Generate Boolean using:
+
+Primary Role
+
+↓
+
+Alternative Titles
+
+↓
+
+Specialization
+
+↓
+
+Core Technologies
+
+Never generate Boolean from technologies alone.
+
+==================================================
+AI_DECISION_RULES
+
+Every JD must have:
+
+Exactly one Primary Role Family.
+
+Zero or more Secondary Role Families.
+
+One or more Specializations.
+
+If multiple role families exist, classify as Hybrid Role.
+
+==================================================
+COMMON_MISTAKES
+
+Using job title instead of actual responsibilities.
+
+Confusing DevOps with Cloud.
+
+Confusing SRE with DevOps.
+
+Confusing Functional Consultants with Technical Consultants.
+
+Confusing Solution Architects with Enterprise Architects.
+
+Confusing Support roles with Development roles.
+
+END_OF_FILE

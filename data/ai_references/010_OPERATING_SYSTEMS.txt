@@ -1,0 +1,741 @@
+FILE_NAME:
+010_OPERATING_SYSTEMS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Operating Systems
+
+PURPOSE:
+Enable AI agents to understand Operating Systems (OS), their enterprise usage, administration responsibilities, cloud relevance, DevOps integration, security considerations, and role mapping. This knowledge is used for JD parsing, Boolean generation, resume parsing, candidate matching, and seniority assessment.
+
+KEYWORDS:
+Operating System
+OS
+Linux
+Windows
+Unix
+macOS
+System Administration
+Server Administration
+
+ROLE_FAMILIES:
+Linux Administrator
+Windows Administrator
+System Administrator
+Infrastructure Engineer
+Cloud Engineer
+DevOps Engineer
+Site Reliability Engineer
+Platform Engineer
+Cybersecurity Engineer
+Database Administrator
+SAP Basis Consultant
+Oracle DBA
+
+COMMON_JOB_TITLES:
+Linux Engineer
+Linux Administrator
+Windows Engineer
+Windows Administrator
+System Administrator
+Infrastructure Engineer
+Platform Engineer
+
+ALTERNATIVE_TITLES:
+Operating System Administration
+Systems Administration
+OS Engineering
+
+CORE_SKILLS:
+Operating System Administration
+User Management
+Process Management
+File Systems
+Networking
+Performance Tuning
+
+SUPPORTING_SKILLS:
+Shell Scripting
+Security
+Virtualization
+Cloud
+Automation
+Monitoring
+
+RELATED_TECHNOLOGIES:
+Docker
+Kubernetes
+VMware
+Hyper-V
+AWS
+Azure
+GCP
+Ansible
+Terraform
+
+TECHNOLOGY_CATEGORY:
+Operating Systems
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+003_IT_ECOSYSTEM.txt
+
+004_SDLC.txt
+
+005_SOFTWARE_ARCHITECTURE.txt
+
+009_NETWORKING.txt
+
+==================================================
+OPERATING SYSTEM DEFINITION
+===========================
+
+An Operating System (OS) manages computer hardware, software resources, processes, memory, storage, networking, security, and user interaction.
+
+Almost every enterprise application, cloud service, database, and container runs on an operating system.
+
+==================================================
+OPERATING SYSTEM CLASSIFICATION
+===============================
+
+Server Operating Systems
+
+Desktop Operating Systems
+
+Mobile Operating Systems
+
+Embedded Operating Systems
+
+Real-Time Operating Systems
+
+==================================================
+SERVER OPERATING SYSTEMS
+========================
+
+COMMON PLATFORMS
+
+Linux
+
+Windows Server
+
+Unix
+
+COMMON ROLES
+
+Linux Administrator
+
+Windows Administrator
+
+Cloud Engineer
+
+DevOps Engineer
+
+Infrastructure Engineer
+
+==================================================
+LINUX
+=====
+
+CATEGORY
+
+Server Operating System
+
+COMMON DISTRIBUTIONS
+
+Red Hat Enterprise Linux (RHEL)
+
+Ubuntu
+
+CentOS
+
+Rocky Linux
+
+AlmaLinux
+
+Debian
+
+SUSE Linux Enterprise
+
+Oracle Linux
+
+Amazon Linux
+
+COMMON ROLES
+
+Linux Administrator
+
+Cloud Engineer
+
+DevOps Engineer
+
+Platform Engineer
+
+SRE
+
+Database Administrator
+
+COMMON RESPONSIBILITIES
+
+User Management
+
+Package Management
+
+Process Management
+
+Service Management
+
+Networking
+
+Storage Management
+
+System Monitoring
+
+Performance Tuning
+
+Security Hardening
+
+Shell Scripting
+
+COMMON COMMANDS
+
+ls
+
+cd
+
+pwd
+
+cp
+
+mv
+
+rm
+
+cat
+
+grep
+
+find
+
+chmod
+
+chown
+
+systemctl
+
+journalctl
+
+top
+
+ps
+
+df
+
+du
+
+netstat
+
+ss
+
+curl
+
+wget
+
+BOOLEAN
+
+(Linux OR RHEL OR Ubuntu OR CentOS OR Debian OR "Red Hat")
+
+==================================================
+WINDOWS SERVER
+==============
+
+CATEGORY
+
+Server Operating System
+
+COMMON ROLES
+
+Windows Administrator
+
+Infrastructure Engineer
+
+System Administrator
+
+COMMON RESPONSIBILITIES
+
+Active Directory
+
+Group Policy
+
+DNS
+
+DHCP
+
+File Server
+
+PowerShell
+
+Windows Updates
+
+IIS Administration
+
+BOOLEAN
+
+("Windows Server" OR Windows)
+
+==================================================
+UNIX
+====
+
+CATEGORY
+
+Enterprise Operating System
+
+COMMON PLATFORMS
+
+AIX
+
+HP-UX
+
+Solaris
+
+COMMON ROLES
+
+Unix Administrator
+
+Infrastructure Engineer
+
+Oracle DBA
+
+BOOLEAN
+
+(Unix OR AIX OR Solaris OR HP-UX)
+
+==================================================
+DESKTOP OPERATING SYSTEMS
+=========================
+
+COMMON PLATFORMS
+
+Windows
+
+macOS
+
+Linux Desktop
+
+COMMON USAGE
+
+End User Computing
+
+Development
+
+Testing
+
+==================================================
+MOBILE OPERATING SYSTEMS
+========================
+
+Android
+
+iOS
+
+Used primarily for mobile application development and testing.
+
+==================================================
+FILE SYSTEMS
+============
+
+COMMON FILE SYSTEMS
+
+EXT4
+
+XFS
+
+Btrfs
+
+NTFS
+
+FAT32
+
+ZFS
+
+COMMON RESPONSIBILITIES
+
+Disk Management
+
+Mounting
+
+Permissions
+
+Capacity Planning
+
+==================================================
+PROCESS MANAGEMENT
+==================
+
+COMMON ACTIVITIES
+
+Start Services
+
+Stop Services
+
+Restart Services
+
+Background Processes
+
+Resource Monitoring
+
+Troubleshooting
+
+==================================================
+USER MANAGEMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+User Creation
+
+Group Management
+
+Permissions
+
+Authentication
+
+Authorization
+
+==================================================
+MEMORY MANAGEMENT
+=================
+
+COMMON CONCEPTS
+
+RAM
+
+Swap
+
+Virtual Memory
+
+OOM Killer
+
+Performance Monitoring
+
+==================================================
+NETWORK MANAGEMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+IP Configuration
+
+DNS Configuration
+
+Routing
+
+Firewall Rules
+
+SSH
+
+Network Troubleshooting
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+User Permissions
+
+SELinux
+
+AppArmor
+
+Windows Defender
+
+Patching
+
+Hardening
+
+Audit Logs
+
+==================================================
+VIRTUALIZATION
+==============
+
+COMMON PLATFORMS
+
+VMware
+
+Hyper-V
+
+KVM
+
+VirtualBox
+
+COMMON RESPONSIBILITIES
+
+VM Provisioning
+
+Snapshots
+
+High Availability
+
+==================================================
+SHELL SCRIPTING
+===============
+
+LINUX
+
+Bash
+
+Shell
+
+Python
+
+---
+
+WINDOWS
+
+PowerShell
+
+Batch
+
+==================================================
+OPERATING SYSTEM ECOSYSTEM
+==========================
+
+Linux
+
+↓
+
+Docker
+
+↓
+
+Kubernetes
+
+↓
+
+Cloud
+
+↓
+
+DevOps
+
+---
+
+Windows Server
+
+↓
+
+Active Directory
+
+↓
+
+IIS
+
+↓
+
+SQL Server
+
+---
+
+Unix
+
+↓
+
+Oracle Database
+
+↓
+
+Enterprise Applications
+
+==================================================
+ROLE RESPONSIBILITY MAPPING
+===========================
+
+Linux Administrator
+
+↓
+
+System Administration
+
+Shell Scripting
+
+Security
+
+Monitoring
+
+---
+
+Windows Administrator
+
+↓
+
+Active Directory
+
+DNS
+
+Group Policy
+
+PowerShell
+
+---
+
+Cloud Engineer
+
+↓
+
+Linux
+
+Networking
+
+Automation
+
+Containers
+
+---
+
+DevOps Engineer
+
+↓
+
+Linux
+
+Shell
+
+Docker
+
+Kubernetes
+
+CI/CD
+
+---
+
+SRE
+
+↓
+
+Linux
+
+Monitoring
+
+Automation
+
+Incident Response
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Operating System
+
+*
+
+Distribution
+
+*
+
+Administration Skills
+
+*
+
+Role
+
+Example
+
+(Linux OR Ubuntu OR RHEL)
+
+AND
+
+("Linux Administrator" OR "System Administrator")
+
+Expand enterprise distributions when Linux is mandatory.
+
+==================================================
+MATCHING_RULES
+==============
+
+Operating System Experience
+
+Critical
+
+Administration Responsibilities
+
+Critical
+
+Shell Scripting
+
+High
+
+Security
+
+High
+
+Automation
+
+Medium
+
+Cloud Integration
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Differentiate between
+
+Operating System User
+
+and
+
+Operating System Administrator.
+
+Do not assume application developers have administration expertise.
+
+Validate OS knowledge through
+
+Projects
+
+Responsibilities
+
+Production Support
+
+Automation
+
+Troubleshooting
+
+Recognize that Linux is dominant for
+
+Cloud
+
+Containers
+
+DevOps
+
+SRE
+
+AI/ML Infrastructure
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Linux and Unix as identical.
+
+Assuming Windows desktop experience equals Windows Server administration.
+
+Matching candidates on Linux keywords without administration responsibilities.
+
+Ignoring shell scripting for Linux administration roles.
+
+Assuming every DevOps engineer is an expert Linux administrator.
+
+Confusing VMware with an operating system.
+
+END_OF_FILE

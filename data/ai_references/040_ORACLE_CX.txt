@@ -1,0 +1,652 @@
+FILE_NAME:
+040_ORACLE_CX.txt
+
+ID:
+040
+
+DOMAIN:
+Oracle
+
+CATEGORY:
+Enterprise Applications
+
+SUBCATEGORY:
+Oracle Customer Experience (Oracle CX Cloud)
+
+PRIMARY_ROLE:
+Oracle CX Consultant
+
+RELATED_FILES:
+
+035_ORACLE_PLATFORM.txt
+
+036_ORACLE_ERP.txt
+
+037_ORACLE_HCM.txt
+
+038_ORACLE_SCM.txt
+
+039_ORACLE_EPM.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+045_ORACLE_OCI.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Oracle CX Cloud
+
+PURPOSE:
+Enable AI agents to understand Oracle CX Cloud (Oracle Customer Experience), including Sales, Marketing, Service, CPQ, Commerce, Loyalty, Field Service, implementation methodologies, consultant responsibilities, customer lifecycle management, and Oracle CX transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Oracle CX
+Oracle CX Cloud
+Oracle Sales Cloud
+Oracle Service Cloud
+Oracle Marketing
+Oracle Eloqua
+Oracle CPQ
+Oracle Commerce
+Oracle Loyalty
+Oracle Field Service
+
+ROLE_FAMILIES:
+Oracle CX Consultant
+Oracle Sales Consultant
+Oracle Service Consultant
+Oracle CPQ Consultant
+Oracle CRM Consultant
+Oracle CX Solution Architect
+Oracle CX Program Manager
+
+COMMON_JOB_TITLES:
+Oracle CX Consultant
+Oracle CRM Consultant
+Oracle Sales Cloud Consultant
+Oracle Service Cloud Consultant
+Oracle CPQ Consultant
+Oracle CX Architect
+
+ALTERNATIVE_TITLES:
+Oracle Customer Experience Consultant
+Oracle CRM Cloud Consultant
+Oracle Fusion CX Consultant
+
+CORE_SKILLS:
+Customer Relationship Management
+
+Sales Automation
+
+Customer Service
+
+Marketing Automation
+
+CPQ
+
+Commerce
+
+Configuration
+
+Implementation
+
+SUPPORTING_SKILLS:
+Integration
+
+Cloud
+
+Analytics
+
+Reporting
+
+Security
+
+Project Management
+
+RELATED_TECHNOLOGIES:
+Oracle CX Cloud
+
+Oracle Sales
+
+Oracle Service
+
+Oracle Eloqua
+
+Oracle CPQ
+
+Oracle Commerce
+
+Oracle Field Service
+
+Oracle Integration Cloud
+
+Oracle Digital Assistant
+
+TECHNOLOGY_CATEGORY:
+Oracle CRM
+
+DEPENDENCIES:
+
+035_ORACLE_PLATFORM.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Oracle CX Cloud (Customer Experience) is Oracle's cloud-based CRM platform that manages the complete customer lifecycle, from marketing and lead generation to sales, service, commerce, field service and customer retention.
+
+Oracle CX integrates with Oracle ERP, Oracle SCM, Oracle HCM and third-party applications to provide a unified customer experience.
+
+==================================================
+CORE MODULES
+============
+
+Oracle Sales
+
+Oracle Marketing
+
+Oracle Service
+
+Oracle CPQ
+
+Oracle Commerce
+
+Oracle Loyalty
+
+Oracle Field Service
+
+Oracle Subscription Management
+
+==================================================
+ORACLE SALES
+============
+
+COMMON BUSINESS FUNCTIONS
+
+Lead Management
+
+Opportunity Management
+
+Account Management
+
+Contact Management
+
+Forecasting
+
+Sales Territories
+
+Sales Performance
+
+==================================================
+ORACLE MARKETING (ELOQUA)
+=========================
+
+COMMON BUSINESS FUNCTIONS
+
+Campaign Management
+
+Lead Nurturing
+
+Marketing Automation
+
+Email Marketing
+
+Lead Scoring
+
+Customer Segmentation
+
+Digital Marketing
+
+==================================================
+ORACLE SERVICE
+==============
+
+COMMON BUSINESS FUNCTIONS
+
+Case Management
+
+Knowledge Base
+
+Omnichannel Support
+
+Customer Requests
+
+Service Contracts
+
+SLA Management
+
+Contact Center
+
+==================================================
+ORACLE CPQ
+==========
+
+COMMON BUSINESS FUNCTIONS
+
+Configure Products
+
+Pricing
+
+Quote Generation
+
+Approvals
+
+Discount Management
+
+Proposal Generation
+
+==================================================
+ORACLE COMMERCE
+===============
+
+COMMON BUSINESS FUNCTIONS
+
+B2B Commerce
+
+B2C Commerce
+
+Catalog Management
+
+Shopping Cart
+
+Checkout
+
+Order Integration
+
+==================================================
+ORACLE FIELD SERVICE
+====================
+
+COMMON BUSINESS FUNCTIONS
+
+Work Orders
+
+Technician Scheduling
+
+Route Optimization
+
+Mobile Workforce
+
+Service Dispatch
+
+Asset Tracking
+
+==================================================
+ORACLE LOYALTY
+==============
+
+COMMON BUSINESS FUNCTIONS
+
+Rewards Programs
+
+Customer Retention
+
+Points Management
+
+Partner Programs
+
+Promotions
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Lead-to-Opportunity
+
+Lead-to-Cash
+
+Quote-to-Cash (Q2C)
+
+Case-to-Resolution
+
+Campaign-to-Revenue
+
+Customer Retention
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Sales Organizations
+
+Territories
+
+Business Units
+
+Approval Rules
+
+Pricing Rules
+
+Workflow
+
+Service Categories
+
+Security Roles
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Requirements Gathering
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Configuration
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Oracle CX Cloud Implementation
+
+CRM Modernization
+
+Sales Transformation
+
+Customer Service Transformation
+
+Marketing Automation
+
+CPQ Implementation
+
+Global Rollout
+
+Support
+
+Enhancement
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Oracle Integration Cloud (OIC)
+
+REST APIs
+
+SOAP
+
+Business Events
+
+Oracle ERP
+
+Oracle SCM
+
+Oracle HCM
+
+Third-Party CRM
+
+==================================================
+COMMON REPORTS
+==============
+
+Sales Pipeline
+
+Forecast Reports
+
+Campaign Reports
+
+Service KPIs
+
+Customer Satisfaction
+
+Quote Reports
+
+Revenue Reports
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Sales Teams
+
+Marketing Teams
+
+Customer Service Teams
+
+Call Centers
+
+Field Service Teams
+
+Sales Managers
+
+Customer Success Teams
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Business Process
+
+*
+
+Implementation
+
+Example
+
+("Oracle CX" OR "Oracle Sales Cloud")
+
+AND
+
+(Sales OR Service OR Eloqua OR CPQ)
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+(Migration OR Transformation)
+
+Expand Oracle CX modules only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Oracle CX Experience
+
+Critical
+
+CRM Knowledge
+
+Critical
+
+Sales Automation
+
+High
+
+Customer Service
+
+High
+
+Marketing Automation
+
+High
+
+Configuration
+
+High
+
+Cloud Experience
+
+High
+
+Integration
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle Siebel CRM
+
+↓
+
+Oracle CX Cloud
+
+Medium
+
+---
+
+Salesforce CRM
+
+↓
+
+Oracle CX
+
+Medium
+
+---
+
+Microsoft Dynamics CRM
+
+↓
+
+Oracle CX
+
+Medium
+
+---
+
+SAP Customer Experience
+
+↓
+
+Oracle CX
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Oracle CX Version
+
+Business Module
+
+Cloud vs On-Premises
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Sales
+
+Marketing
+
+Service
+
+CPQ
+
+Commerce
+
+Field Service
+
+Support
+
+Implementation
+
+Migration
+
+Transformation
+
+Identify whether the consultant performed
+
+Business Analysis
+
+Configuration
+
+Testing
+
+Integration
+
+Data Migration
+
+Cutover
+
+Hypercare
+
+Production Support
+
+Recognize candidates with Oracle CX Cloud implementation, Oracle Siebel-to-CX migration, CPQ implementation, Field Service deployment and customer transformation experience as higher-value for modern Oracle CX programs.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Oracle CX as Oracle ERP.
+
+Confusing Oracle Eloqua with Oracle Sales Cloud.
+
+Matching candidates solely because they mention CRM.
+
+Ignoring module specialization.
+
+Treating sales business experience as Oracle CX implementation experience.
+
+Ignoring customer lifecycle management.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

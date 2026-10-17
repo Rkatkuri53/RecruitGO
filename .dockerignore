@@ -1,0 +1,13 @@
+node_modules
+dist
+release
+release-builds
+Tier1_Release_Package
+.git
+.gitignore
+.env
+data/agent_profile
+data/resumes
+data/debug
+data/lancedb
+*.log

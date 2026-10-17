@@ -1,0 +1,791 @@
+FILE_NAME:
+002_BOOLEAN_OPERATORS.txt
+
+ID:
+002
+
+DOMAIN:
+Recruitment Intelligence
+
+CATEGORY:
+AI Boolean Search Engine
+
+SUBCATEGORY:
+Boolean Operators
+
+PRIMARY_ROLE:
+Boolean Operator Reference
+
+VERSION:
+3.0
+
+PURPOSE:
+Provide the complete reference for Boolean operators used across recruitment platforms, ATS databases, resume databases, LinkedIn, Google X-Ray, GitHub, Stack Overflow, job boards, and enterprise sourcing systems.
+
+This document defines operator behavior, evaluation rules, recruiter best practices, platform compatibility, and common mistakes.
+
+==================================================
+BOOLEAN OPERATOR HIERARCHY
+==========================
+
+Highest Priority
+
+()
+
+Parentheses
+
+↓
+
+NOT
+
+↓
+
+AND
+
+↓
+
+OR
+
+Always use parentheses to remove ambiguity.
+
+==================================================
+PRIMARY OPERATORS
+=================
+
+AND
+
+OR
+
+NOT
+
+()
+
+""
+
+*
+
+Platform-specific operators
+
+==================================================
+AND
+===
+
+Purpose
+
+Require ALL connected terms to exist.
+
+Syntax
+
+Java AND Spring
+
+Meaning
+
+Candidate must contain BOTH
+
+Java
+
+AND
+
+Spring
+
+Example
+
+(Java)
+
+AND
+
+(Spring)
+
+Result
+
+Higher Precision
+
+Lower Recall
+
+Use AND for
+
+Mandatory Skills
+
+Core Technologies
+
+Required Experience
+
+Required Certifications
+
+==================================================
+OR
+==
+
+Purpose
+
+Allow ANY connected term.
+
+Syntax
+
+Java OR Kotlin
+
+Meaning
+
+Candidate may contain
+
+Java
+
+OR
+
+Kotlin
+
+OR
+
+Both
+
+Example
+
+(Java OR Kotlin)
+
+Result
+
+Higher Recall
+
+Lower Precision
+
+Use OR for
+
+Synonyms
+
+Alternative Titles
+
+Equivalent Technologies
+
+Cloud Providers
+
+Framework Variations
+
+==================================================
+NOT
+===
+
+Purpose
+
+Exclude unwanted candidates.
+
+Syntax
+
+Java NOT JavaScript
+
+Meaning
+
+Find Java
+
+Exclude JavaScript
+
+Example
+
+(Java)
+
+NOT
+
+(JavaScript)
+
+Use carefully.
+
+Too many exclusions remove qualified candidates.
+
+==================================================
+PARENTHESES ()
+==============
+
+Purpose
+
+Group logical expressions.
+
+Always group OR conditions.
+
+Correct
+
+(Java OR Kotlin)
+
+AND
+
+(Spring OR Micronaut)
+
+Wrong
+
+Java OR Kotlin AND Spring
+
+The second query may be interpreted incorrectly depending on the search engine.
+
+==================================================
+QUOTATION MARKS ""
+==================
+
+Purpose
+
+Search exact phrases.
+
+Example
+
+"Solution Architect"
+
+Matches
+
+Solution Architect
+
+Does NOT match
+
+Senior Solution Enterprise Architect
+
+Use quotations for
+
+Job Titles
+
+Product Names
+
+Exact Skills
+
+Company Names
+
+Certifications
+
+Examples
+
+"Machine Learning"
+
+"SAP SuccessFactors"
+
+"Enterprise Architect"
+
+"Project Manager"
+
+==================================================
+ASTERISK *
+==========
+
+Purpose
+
+Wildcard
+
+Behavior depends on platform.
+
+Examples
+
+Develop*
+
+Matches
+
+Developer
+
+Development
+
+Developing
+
+Development Lead
+
+Architect*
+
+Matches
+
+Architect
+
+Architecture
+
+Architectural
+
+Do NOT assume wildcard support.
+
+Many ATS systems do not support it.
+
+==================================================
+QUESTION MARK ?
+===============
+
+Purpose
+
+Single-character wildcard
+
+Supported only by some search engines.
+
+Example
+
+Organi?ation
+
+Matches
+
+Organization
+
+Organisation
+
+==================================================
+PROXIMITY OPERATORS
+===================
+
+Supported only on selected platforms.
+
+Examples
+
+NEAR
+
+NEAR/3
+
+WITHIN
+
+W/5
+
+Example
+
+Java NEAR Spring
+
+Meaning
+
+Java appears close to Spring.
+
+Useful for
+
+Research Databases
+
+Enterprise Search
+
+Patent Search
+
+Some Resume Databases
+
+==================================================
+PLUS +
+======
+
+Some platforms
+
+Require term.
+
+Example
+
++Java
+
+Platform dependent.
+
+Avoid unless documented.
+
+==================================================
+MINUS -
+=======
+
+Alternative exclusion syntax.
+
+Example
+
+Java -JavaScript
+
+Equivalent to
+
+Java NOT JavaScript
+
+Google commonly supports this.
+
+==================================================
+SITE:
+=====
+
+Google X-Ray operator.
+
+Example
+
+site:linkedin.com/in
+
+Limits search to LinkedIn profiles.
+
+Examples
+
+site:github.com
+
+site:stackoverflow.com
+
+site:medium.com
+
+site:wellfound.com
+
+==================================================
+INTITLE:
+========
+
+Google Operator
+
+Example
+
+intitle:resume
+
+Find pages containing
+
+resume
+
+in title.
+
+==================================================
+INURL:
+======
+
+Google Operator
+
+Example
+
+inurl:resume
+
+Search URL only.
+
+Useful for locating resumes.
+
+==================================================
+FILETYPE:
+=========
+
+Google Operator
+
+Examples
+
+filetype:pdf
+
+filetype:doc
+
+filetype:docx
+
+Find resumes.
+
+==================================================
+BOOLEAN GROUPING
+================
+
+Correct
+
+(Java OR Kotlin)
+
+AND
+
+(Spring OR Spring Boot)
+
+AND
+
+(AWS OR Azure)
+
+Incorrect
+
+Java
+
+OR
+
+Kotlin
+
+AND
+
+Spring
+
+Without grouping, search engines evaluate differently.
+
+==================================================
+NESTED GROUPS
+=============
+
+Example
+
+((Java OR Kotlin)
+
+AND
+
+(Spring OR Hibernate))
+
+AND
+
+(AWS OR Azure)
+
+Nested groups improve readability and accuracy.
+
+==================================================
+OPERATOR EFFECTS
+================
+
+OR
+
+↓
+
+Broadens Search
+
+AND
+
+↓
+
+Narrows Search
+
+NOT
+
+↓
+
+Excludes Results
+
+()
+
+↓
+
+Controls Logic
+
+""
+
+↓
+
+Exact Match
+
+==================================================
+WHEN TO USE OPERATORS
+=====================
+
+AND
+
+Mandatory Skills
+
+OR
+
+Synonyms
+
+NOT
+
+Remove irrelevant profiles
+
+()
+
+Every Boolean
+
+""
+
+Exact Titles
+
+==================================================
+COMMON RECRUITMENT EXAMPLES
+===========================
+
+Developer Titles
+
+(Developer
+
+OR
+
+Engineer
+
+OR
+
+Programmer)
+
+---
+
+Cloud
+
+(AWS
+
+OR
+
+Azure
+
+OR
+
+GCP)
+
+---
+
+Databases
+
+(Oracle
+
+OR
+
+SQL Server
+
+OR
+
+PostgreSQL)
+
+---
+
+Leadership
+
+(Lead
+
+OR
+
+Manager
+
+OR
+
+Architect)
+
+==================================================
+COMMON MISTAKES
+===============
+
+Using AND between synonyms.
+
+Wrong
+
+Java AND J2EE
+
+Correct
+
+(Java OR J2EE)
+
+---
+
+Using OR between mandatory skills.
+
+Wrong
+
+Java OR Spring
+
+If both are mandatory.
+
+Correct
+
+(Java)
+
+AND
+
+(Spring)
+
+---
+
+Forgetting parentheses.
+
+---
+
+Overusing NOT.
+
+---
+
+Searching exact titles without synonyms.
+
+==================================================
+PLATFORM COMPATIBILITY
+======================
+
+Google
+
+AND
+
+Yes
+
+OR
+
+Yes
+
+NOT
+
+Yes
+
+()
+
+Yes
+
+Quotes
+
+Yes
+
+Wildcard
+
+Limited
+
+Site
+
+Yes
+
+---
+
+LinkedIn
+
+AND
+
+Yes
+
+OR
+
+Yes
+
+NOT
+
+Yes
+
+Quotes
+
+Yes
+
+Wildcard
+
+No
+
+---
+
+Most ATS
+
+AND
+
+Usually
+
+OR
+
+Usually
+
+NOT
+
+Usually
+
+Quotes
+
+Varies
+
+Wildcard
+
+Varies
+
+Proximity
+
+Rare
+
+==================================================
+AI DECISION RULES
+=================
+
+Always use
+
+OR
+
+for synonyms.
+
+Always use
+
+AND
+
+for mandatory concepts.
+
+Always group OR conditions.
+
+Use NOT sparingly.
+
+Prefer exact phrases only when necessary.
+
+Do not assume wildcard support.
+
+Optimize operators for the target platform.
+
+Validate logical grouping before returning the Boolean.
+
+==================================================
+BOOLEAN OPERATOR CHECKLIST
+==========================
+
+✓ Parentheses used correctly
+
+✓ Mandatory skills connected with AND
+
+✓ Synonyms connected with OR
+
+✓ Exclusions minimized
+
+✓ Exact phrases quoted
+
+✓ No conflicting operators
+
+✓ Platform compatibility verified
+
+END_OF_FILE

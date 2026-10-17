@@ -1,0 +1,625 @@
+FILE_NAME:
+030_SAP_FIORI_UI5.txt
+
+ID:
+030
+
+DOMAIN:
+SAP
+
+CATEGORY:
+ERP
+
+SUBCATEGORY:
+SAP Fiori & SAPUI5 Development
+
+PRIMARY_ROLE:
+SAP Fiori Developer
+
+RELATED_FILES:
+
+019_SAP_PLATFORM.txt
+
+028_SAP_ABAP.txt
+
+029_SAP_BTP.txt
+
+031_SAP_INTEGRATION_SUITE.txt
+
+033_SAP_S4HANA_BROWNFIELD.txt
+
+034_SAP_S4HANA_GREENFIELD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP Fiori & SAPUI5 Development
+
+PURPOSE:
+Enable AI agents to understand SAP Fiori, SAPUI5, SAP Gateway, OData services, frontend architecture, Fiori Launchpad, SAP Build, SAP Business Application Studio (BAS), and SAP Fiori development responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+SAP Fiori
+SAPUI5
+UI5
+OpenUI5
+Fiori Launchpad
+SAP Gateway
+OData
+SAP Build
+Business Application Studio
+Frontend Development
+
+ROLE_FAMILIES:
+SAP Fiori Developer
+SAPUI5 Developer
+Frontend Developer
+SAP Technical Consultant
+SAP Full Stack Developer
+SAP Technical Architect
+
+COMMON_JOB_TITLES:
+SAP Fiori Developer
+SAPUI5 Developer
+SAP Frontend Developer
+SAP UX Developer
+SAP Full Stack Developer
+SAP Technical Consultant
+
+ALTERNATIVE_TITLES:
+SAP Frontend
+SAP Web Developer
+SAP UI Developer
+
+CORE_SKILLS:
+SAPUI5 Development
+
+Fiori Applications
+
+OData
+
+JavaScript
+
+TypeScript
+
+HTML5
+
+CSS3
+
+Frontend Architecture
+
+SUPPORTING_SKILLS:
+ABAP
+
+Gateway
+
+BTP
+
+Git
+
+REST APIs
+
+UX Design
+
+RELATED_TECHNOLOGIES:
+SAPUI5
+
+OpenUI5
+
+SAP Gateway
+
+OData
+
+SAP BAS
+
+SAP BTP
+
+SAP Build
+
+SAP Fiori Launchpad
+
+SAP HANA
+
+TECHNOLOGY_CATEGORY:
+SAP Frontend Development
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+028_SAP_ABAP.txt
+
+029_SAP_BTP.txt
+
+011_APIS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+SAP Fiori is SAP's modern user experience (UX) platform.
+
+SAPUI5 is the frontend development framework used to build Fiori applications.
+
+Fiori applications consume business data through OData services exposed by SAP Gateway.
+
+==================================================
+ARCHITECTURE
+============
+
+Browser
+
+↓
+
+Fiori Launchpad
+
+↓
+
+SAPUI5 Application
+
+↓
+
+OData Services
+
+↓
+
+SAP Gateway
+
+↓
+
+ABAP Backend
+
+↓
+
+SAP Database
+
+==================================================
+CORE COMPONENTS
+===============
+
+SAPUI5
+
+OpenUI5
+
+Fiori Launchpad
+
+SAP Gateway
+
+OData
+
+Business Application Studio
+
+Launchpad Service
+
+SAP Build
+
+==================================================
+SAPUI5
+======
+
+COMMON RESPONSIBILITIES
+
+UI Development
+
+MVC Architecture
+
+Data Binding
+
+Routing
+
+Component Development
+
+Responsive Design
+
+COMMON LANGUAGES
+
+JavaScript
+
+TypeScript
+
+HTML5
+
+CSS3
+
+XML Views
+
+==================================================
+OPENUI5
+=======
+
+DESCRIPTION
+
+Open-source version of SAPUI5.
+
+COMMON USE CASES
+
+Web Applications
+
+Enterprise UI
+
+Prototyping
+
+==================================================
+FIORI LAUNCHPAD
+===============
+
+COMMON RESPONSIBILITIES
+
+Application Catalogs
+
+Groups
+
+Spaces
+
+Pages
+
+Tiles
+
+Navigation
+
+Role-Based Access
+
+==================================================
+SAP GATEWAY
+===========
+
+COMMON RESPONSIBILITIES
+
+OData Services
+
+REST APIs
+
+CRUD Operations
+
+Metadata
+
+Backend Connectivity
+
+==================================================
+ODATA
+=====
+
+COMMON RESPONSIBILITIES
+
+Create Services
+
+Read
+
+Update
+
+Delete
+
+Batch Processing
+
+Deep Insert
+
+Filtering
+
+Pagination
+
+==================================================
+SAP BUSINESS APPLICATION STUDIO
+===============================
+
+COMMON RESPONSIBILITIES
+
+SAPUI5 Development
+
+Fiori Development
+
+Git Integration
+
+Deployment
+
+Testing
+
+==================================================
+SAP BUILD
+=========
+
+COMMON RESPONSIBILITIES
+
+Low-Code Apps
+
+Workflow
+
+Business Applications
+
+Extension Applications
+
+==================================================
+COMMON DEVELOPMENT ACTIVITIES
+=============================
+
+Application Development
+
+Extension Development
+
+Responsive Design
+
+Custom Controls
+
+Integration
+
+Testing
+
+Deployment
+
+Performance Optimization
+
+==================================================
+UI DESIGN PRINCIPLES
+====================
+
+Role-Based Design
+
+Simple User Experience
+
+Responsive Layout
+
+Accessibility
+
+Consistency
+
+Performance
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Greenfield Development
+
+S/4HANA Migration
+
+ECC Modernization
+
+Fiori Conversion
+
+Launchpad Implementation
+
+Cloud Extension
+
+UI Modernization
+
+==================================================
+COMMON TOOLS
+============
+
+Business Application Studio
+
+Visual Studio Code
+
+Git
+
+Chrome DevTools
+
+SAP Gateway Client
+
+Postman
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+UI Design
+
+↓
+
+Development
+
+↓
+
+Backend Integration
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Launchpad Configuration
+
+↓
+
+Production Support
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Frontend Framework
+
+*
+
+Gateway
+
+*
+
+Development Technologies
+
+Example
+
+("SAP Fiori" OR SAPUI5)
+
+AND
+
+(OData OR Gateway)
+
+AND
+
+(JavaScript OR TypeScript)
+
+AND
+
+("Business Application Studio" OR BAS)
+
+Expand frontend technologies only when supported by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+SAPUI5 Development
+
+Critical
+
+Fiori Experience
+
+Critical
+
+OData
+
+High
+
+Gateway
+
+High
+
+JavaScript
+
+High
+
+HTML5/CSS3
+
+Medium
+
+BTP
+
+Medium
+
+ABAP Knowledge
+
+Medium
+
+Responsive Design
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAPUI5
+
+↓
+
+OpenUI5
+
+High
+
+---
+
+Web Development
+
+↓
+
+SAPUI5
+
+Medium
+
+---
+
+Fiori Launchpad
+
+↓
+
+Launchpad Service
+
+High
+
+---
+
+SAP BAS
+
+↓
+
+Visual Studio Code
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Frontend Framework
+
+Backend Integration
+
+Development Environment
+
+Deployment Platform
+
+Project Type
+
+Differentiate
+
+Frontend Developer
+
+Full Stack Developer
+
+ABAP Developer
+
+BTP Developer
+
+Identify whether the developer performed
+
+UI Development
+
+OData Integration
+
+Gateway Development
+
+Deployment
+
+Performance Optimization
+
+Responsive Design
+
+Recognize candidates with
+
+SAPUI5
+
+Fiori Elements
+
+Launchpad
+
+Business Application Studio
+
+TypeScript
+
+SAP Build
+
+experience as modern SAP Fiori developers.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SAP Fiori as SAP BTP.
+
+Confusing SAPUI5 with ABAP.
+
+Ignoring Gateway and OData experience.
+
+Matching candidates solely because they mention Fiori.
+
+Treating HTML/CSS experience as SAPUI5 expertise.
+
+Ignoring responsive application development.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

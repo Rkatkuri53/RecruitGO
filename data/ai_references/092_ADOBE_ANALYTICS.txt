@@ -1,0 +1,677 @@
+FILE_NAME:
+092_ADOBE_ANALYTICS.txt
+
+ID:
+092
+
+DOMAIN:
+Adobe
+
+CATEGORY:
+Digital Analytics
+
+SUBCATEGORY:
+Adobe Analytics
+
+PRIMARY_ROLE:
+Adobe Analytics Consultant
+
+RELATED_FILES:
+
+090_ADOBE_EXPERIENCE_CLOUD_PLATFORM.txt
+
+091_ADOBE_EXPERIENCE_MANAGER_AEM.txt
+
+093_ADOBE_CAMPAIGN.txt
+
+094_ADOBE_TARGET.txt
+
+095_ADOBE_COMMERCE_MAGENTO.txt
+
+096_ADOBE_EXPERIENCE_PLATFORM_AEP.txt
+
+097_ADOBE_MARKETO.txt
+
+098_ADOBE_DEVELOPMENT.txt
+
+099_ADOBE_INTEGRATION.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Adobe Analytics
+
+PURPOSE:
+Enable AI agents to understand Adobe Analytics, web analytics, customer journey analytics, implementation architecture, data collection, reporting, Workspace, attribution, segmentation, consultant responsibilities, implementation methodologies, and enterprise analytics transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Adobe Analytics
+Analysis Workspace
+Customer Journey Analytics
+Adobe Launch
+Tags
+Analytics Implementation
+eVars
+Props
+Events
+Segments
+Attribution
+Report Suites
+
+ROLE_FAMILIES:
+Adobe Analytics Consultant
+
+Adobe Analytics Developer
+
+Analytics Architect
+
+Digital Analytics Consultant
+
+Implementation Consultant
+
+COMMON_JOB_TITLES:
+Adobe Analytics Consultant
+
+Adobe Analytics Developer
+
+Adobe Analytics Architect
+
+Digital Analytics Consultant
+
+Web Analytics Consultant
+
+ALTERNATIVE_TITLES:
+Customer Analytics Consultant
+
+Marketing Analytics Consultant
+
+Digital Intelligence Consultant
+
+CORE_SKILLS:
+Analytics Implementation
+
+Analysis Workspace
+
+Customer Journey Analytics
+
+Tag Management
+
+Reporting
+
+Segmentation
+
+Attribution
+
+Data Collection
+
+SUPPORTING_SKILLS:
+JavaScript
+
+Adobe Launch
+
+Web SDK
+
+SQL
+
+Power BI
+
+Visualization
+
+Data Governance
+
+RELATED_TECHNOLOGIES:
+Adobe Analytics
+
+Customer Journey Analytics
+
+Adobe Launch
+
+Web SDK
+
+Analysis Workspace
+
+Data Feeds
+
+Report Builder
+
+Real-Time CDP
+
+TECHNOLOGY_CATEGORY:
+Enterprise Digital Analytics Platform
+
+DEPENDENCIES:
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Adobe Analytics is Adobe's enterprise digital analytics platform used to measure customer behavior across web, mobile and digital channels.
+
+It provides advanced segmentation, attribution, customer journey analysis, real-time dashboards and AI-driven insights for digital experience optimization.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Analysis Workspace
+
+Customer Journey Analytics
+
+Report Suites
+
+eVars
+
+Props
+
+Events
+
+Segments
+
+Adobe Launch
+
+==================================================
+ANALYSIS WORKSPACE
+==================
+
+COMMON RESPONSIBILITIES
+
+Dashboards
+
+Visualizations
+
+Ad Hoc Analysis
+
+Executive Reporting
+
+Freeform Tables
+
+==================================================
+REPORT SUITES
+=============
+
+COMMON RESPONSIBILITIES
+
+Data Collection
+
+Environment Management
+
+Business Units
+
+Multi-Site Reporting
+
+Governance
+
+==================================================
+eVARS
+=====
+
+COMMON RESPONSIBILITIES
+
+Conversion Variables
+
+Campaign Tracking
+
+Visitor Analysis
+
+Marketing Attribution
+
+Custom Dimensions
+
+==================================================
+PROPS
+=====
+
+COMMON RESPONSIBILITIES
+
+Traffic Variables
+
+Page Tracking
+
+Navigation Analysis
+
+Content Analysis
+
+==================================================
+EVENTS
+======
+
+COMMON RESPONSIBILITIES
+
+Conversion Events
+
+Revenue Tracking
+
+Downloads
+
+Clicks
+
+Video Tracking
+
+Custom Metrics
+
+==================================================
+SEGMENTATION
+============
+
+COMMON RESPONSIBILITIES
+
+Behavior Segments
+
+Audience Analysis
+
+Customer Cohorts
+
+Marketing Segments
+
+Personalization Support
+
+==================================================
+CUSTOMER JOURNEY ANALYTICS
+==========================
+
+COMMON RESPONSIBILITIES
+
+Cross-Channel Analytics
+
+Journey Mapping
+
+Customer Paths
+
+Experience Analytics
+
+Behavior Analysis
+
+==================================================
+ADOBE LAUNCH / TAGS
+===================
+
+COMMON RESPONSIBILITIES
+
+Tag Management
+
+Rules
+
+Extensions
+
+Data Elements
+
+Web SDK
+
+Implementation Governance
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Digital Analytics
+
+Marketing Attribution
+
+Customer Journey Analysis
+
+Campaign Reporting
+
+Conversion Optimization
+
+Executive Reporting
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Report Suites
+
+Variables
+
+Processing Rules
+
+Classifications
+
+Segments
+
+Dashboards
+
+Tags
+
+Security
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Measurement Strategy
+
+↓
+
+Solution Design
+
+↓
+
+Tag Implementation
+
+↓
+
+Validation
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Analytics Implementation
+
+Web Analytics Modernization
+
+Customer Journey Analytics
+
+Marketing Measurement
+
+Tag Migration
+
+Digital Intelligence
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Adobe Experience Platform
+
+AEM
+
+Adobe Target
+
+Adobe Campaign
+
+Power BI
+
+Google BigQuery
+
+REST APIs
+
+Data Warehouses
+
+==================================================
+COMMON REPORTS
+==============
+
+Traffic Reports
+
+Conversion Reports
+
+Marketing Attribution
+
+Campaign Performance
+
+Customer Journey Reports
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Marketing Teams
+
+Digital Analysts
+
+Product Teams
+
+Executives
+
+Data Analysts
+
+Customer Experience Teams
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Analytics
+
+*
+
+Implementation
+
+*
+
+Reporting
+
+Example
+
+("Adobe Analytics")
+
+AND
+
+("Analysis Workspace" OR eVars)
+
+AND
+
+(Segments OR Attribution)
+
+AND
+
+(Consultant)
+
+Expand analytics terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Adobe Analytics
+
+Critical
+
+Analysis Workspace
+
+Critical
+
+Customer Journey Analytics
+
+High
+
+Adobe Launch
+
+High
+
+eVars
+
+High
+
+Props
+
+Medium
+
+Segmentation
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Google Analytics 360
+
+↓
+
+Adobe Analytics
+
+Medium
+
+---
+
+Mixpanel
+
+↓
+
+Customer Analytics
+
+Medium
+
+---
+
+Amplitude
+
+↓
+
+Journey Analytics
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Analytics Scope
+
+Implementation Type
+
+Tagging Strategy
+
+Reporting Scope
+
+Project Phase
+
+Differentiate
+
+Analytics
+
+Launch
+
+Journey Analytics
+
+Reporting
+
+Implementation
+
+Optimization
+
+Identify whether the consultant performed
+
+Measurement Strategy
+
+Tag Implementation
+
+Validation
+
+Testing
+
+Deployment
+
+Optimization
+
+Reporting
+
+Recognize candidates with enterprise Adobe Analytics implementations, Analysis Workspace, Adobe Launch, Customer Journey Analytics, attribution modeling and enterprise digital measurement experience as senior Adobe Analytics consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating report creation as analytics implementation.
+
+Confusing Adobe Analytics with Google Analytics.
+
+Matching candidates solely because they mention analytics.
+
+Ignoring eVars and Props expertise.
+
+Treating dashboard development as Adobe implementation.
+
+Ignoring Adobe Launch implementation.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Adobe Analytics
+
+↓
+
+Analysis Workspace
+
+Customer Journey Analytics
+
+Digital Analytics
+
+---
+
+Implementation
+
+↓
+
+Adobe Launch
+
+Tags
+
+Web SDK
+
+Data Collection
+
+---
+
+Reporting
+
+↓
+
+Dashboards
+
+Segments
+
+Attribution
+
+eVars
+
+Props
+
+---
+
+Optimization
+
+↓
+
+Conversion
+
+Funnels
+
+Journey Analysis
+
+Marketing Measurement
+
+END_OF_FILE

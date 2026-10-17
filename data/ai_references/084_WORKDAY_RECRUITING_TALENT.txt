@@ -1,0 +1,702 @@
+FILE_NAME:
+084_WORKDAY_RECRUITING_TALENT.txt
+
+ID:
+084
+
+DOMAIN:
+Workday
+
+CATEGORY:
+Enterprise Cloud HCM
+
+SUBCATEGORY:
+Workday Recruiting, Talent & Learning
+
+PRIMARY_ROLE:
+Workday Recruiting & Talent Consultant
+
+RELATED_FILES:
+
+080_WORKDAY_PLATFORM.txt
+
+081_WORKDAY_HCM.txt
+
+082_WORKDAY_FINANCIALS.txt
+
+083_WORKDAY_PAYROLL.txt
+
+085_WORKDAY_INTEGRATIONS.txt
+
+086_WORKDAY_SECURITY.txt
+
+087_WORKDAY_REPORTING_PRISM.txt
+
+088_WORKDAY_EXTEND.txt
+
+089_WORKDAY_TESTING_DEPLOYMENT.txt
+
+037_ORACLE_HCM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Workday Recruiting & Talent
+
+PURPOSE:
+Enable AI agents to understand Workday Recruiting, Talent Management, Performance, Learning, Career Development, Succession Planning, Skills Cloud, consultant responsibilities, implementation methodologies, and enterprise talent transformation programs for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Workday Recruiting
+Workday Talent
+Workday Learning
+Performance
+Succession
+Career Development
+Skills Cloud
+Recruiting
+Candidate
+Interview
+Offer
+Talent Review
+Goals
+
+ROLE_FAMILIES:
+Workday Recruiting Consultant
+
+Workday Talent Consultant
+
+Workday Learning Consultant
+
+Functional Consultant
+
+Solution Architect
+
+HR Transformation Consultant
+
+COMMON_JOB_TITLES:
+Workday Recruiting Consultant
+
+Workday Talent Consultant
+
+Workday Learning Consultant
+
+Senior Workday Functional Consultant
+
+Workday Talent Lead
+
+ALTERNATIVE_TITLES:
+Talent Transformation Consultant
+
+Cloud Recruiting Consultant
+
+Learning Consultant
+
+CORE_SKILLS:
+Recruiting
+
+Talent Management
+
+Performance
+
+Learning
+
+Succession Planning
+
+Career Development
+
+Skills Cloud
+
+Business Process Configuration
+
+SUPPORTING_SKILLS:
+Security
+
+Reporting
+
+Calculated Fields
+
+EIB
+
+Testing
+
+Data Conversion
+
+RELATED_TECHNOLOGIES:
+Recruiting
+
+Talent
+
+Learning
+
+Performance
+
+Skills Cloud
+
+Career Hub
+
+Journeys
+
+Workday HCM
+
+TECHNOLOGY_CATEGORY:
+Cloud Talent Management Platform
+
+DEPENDENCIES:
+
+080_WORKDAY_PLATFORM.txt
+
+081_WORKDAY_HCM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Workday Recruiting and Talent Management provide an integrated talent lifecycle platform from recruiting through onboarding, learning, performance, career development and succession planning.
+
+The platform uses configurable business processes and AI-driven skills intelligence to support workforce planning and employee development.
+
+==================================================
+CORE MODULES
+============
+
+Recruiting
+
+Candidate Management
+
+Interview Management
+
+Offer Management
+
+Onboarding
+
+Performance
+
+Talent Reviews
+
+Learning
+
+Career Development
+
+Succession Planning
+
+Skills Cloud
+
+==================================================
+RECRUITING
+==========
+
+COMMON RESPONSIBILITIES
+
+Job Requisitions
+
+Candidate Pipeline
+
+Applications
+
+Recruiters
+
+Hiring Managers
+
+Offer Process
+
+==================================================
+CANDIDATE MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+Candidate Profiles
+
+Screening
+
+Interview Scheduling
+
+Interview Feedback
+
+Candidate Status
+
+Talent Pools
+
+==================================================
+ONBOARDING
+==========
+
+COMMON RESPONSIBILITIES
+
+Pre-Hire Tasks
+
+Document Collection
+
+Provisioning
+
+Orientation
+
+Onboarding Journeys
+
+==================================================
+PERFORMANCE MANAGEMENT
+======================
+
+COMMON RESPONSIBILITIES
+
+Performance Reviews
+
+Goals
+
+Check-ins
+
+Feedback
+
+Development Plans
+
+==================================================
+LEARNING
+========
+
+COMMON RESPONSIBILITIES
+
+Courses
+
+Learning Paths
+
+Compliance Training
+
+Certifications
+
+Assignments
+
+==================================================
+CAREER DEVELOPMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Career Hub
+
+Internal Mobility
+
+Career Paths
+
+Skill Development
+
+Mentoring
+
+==================================================
+SUCCESSION PLANNING
+===================
+
+COMMON RESPONSIBILITIES
+
+Talent Reviews
+
+Succession Plans
+
+High Potentials
+
+Readiness
+
+Talent Matrices
+
+==================================================
+SKILLS CLOUD
+============
+
+COMMON RESPONSIBILITIES
+
+Skills Intelligence
+
+Skill Profiles
+
+AI Skill Matching
+
+Recommendations
+
+Workforce Skills
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Recruit-to-Hire
+
+Hire-to-Onboard
+
+Performance Cycle
+
+Learning Management
+
+Career Growth
+
+Succession Reviews
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Job Profiles
+
+Requisitions
+
+Interview Templates
+
+Business Processes
+
+Performance Templates
+
+Learning Catalog
+
+Security
+
+Reports
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Talent Workshops
+
+↓
+
+Requirements Analysis
+
+↓
+
+Configuration
+
+↓
+
+Data Conversion
+
+↓
+
+Testing
+
+↓
+
+UAT
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Recruiting Implementation
+
+Talent Transformation
+
+Learning Modernization
+
+Performance Modernization
+
+Global Recruiting Rollout
+
+Internal Mobility
+
+Skills Transformation
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+LinkedIn
+
+Job Boards
+
+Background Check Providers
+
+Identity Systems
+
+REST APIs
+
+EIB
+
+Workday Studio
+
+Microsoft Teams
+
+==================================================
+COMMON REPORTS
+==============
+
+Recruitment Metrics
+
+Time-to-Hire
+
+Offer Acceptance
+
+Performance Reports
+
+Learning Completion
+
+Succession Dashboards
+
+Executive Talent Reports
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Recruiters
+
+Talent Acquisition
+
+HR
+
+Learning Teams
+
+Managers
+
+Executives
+
+Employees
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Recruiting
+
+*
+
+Talent
+
+*
+
+Learning
+
+Example
+
+(Workday)
+
+AND
+
+(Recruiting OR Talent)
+
+AND
+
+(Performance OR Learning)
+
+AND
+
+(Consultant)
+
+Expand talent modules only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Workday Recruiting
+
+Critical
+
+Talent Management
+
+Critical
+
+Performance
+
+High
+
+Learning
+
+High
+
+Succession
+
+High
+
+Skills Cloud
+
+Medium
+
+Career Development
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle Recruiting Cloud
+
+↓
+
+Workday Recruiting
+
+Medium
+
+---
+
+SAP SuccessFactors Recruiting
+
+↓
+
+Workday Recruiting
+
+Medium
+
+---
+
+Cornerstone OnDemand
+
+↓
+
+Workday Learning
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Talent Module
+
+Recruitment Scope
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Recruiting
+
+Learning
+
+Performance
+
+Succession
+
+Career
+
+Skills Cloud
+
+Identify whether the consultant performed
+
+Business Process Configuration
+
+Recruiting Configuration
+
+Testing
+
+Data Conversion
+
+Go-Live
+
+Hypercare
+
+Support
+
+Recognize candidates with enterprise Workday Recruiting implementation, talent transformation, learning deployment, performance management, succession planning and Skills Cloud implementation experience as senior Workday Talent consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Recruiting as Core HCM.
+
+Confusing recruitment operations with Workday Recruiting implementation.
+
+Matching candidates solely because they mention Workday.
+
+Ignoring performance and learning expertise.
+
+Treating recruiter experience as implementation experience.
+
+Ignoring Skills Cloud and Career Hub.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Recruiting
+
+↓
+
+Talent Acquisition
+
+Job Requisitions
+
+Candidates
+
+Interviewing
+
+Offers
+
+---
+
+Talent
+
+↓
+
+Performance
+
+Learning
+
+Succession
+
+Career Development
+
+---
+
+Learning
+
+↓
+
+Courses
+
+Compliance
+
+Certifications
+
+Learning Paths
+
+---
+
+Performance
+
+↓
+
+Goals
+
+Reviews
+
+Feedback
+
+Talent Reviews
+
+Skills Cloud
+
+END_OF_FILE

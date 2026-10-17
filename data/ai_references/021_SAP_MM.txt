@@ -1,0 +1,649 @@
+FILE_NAME:
+021_SAP_MM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP Materials Management (SAP MM)
+
+PURPOSE:
+Enable AI agents to understand SAP Materials Management (MM), procurement, purchasing, inventory management, material master data, vendor management, logistics execution, warehouse integration, S/4HANA enhancements, consultant responsibilities, project lifecycle, Boolean generation, and candidate matching.
+
+KEYWORDS:
+SAP MM
+SAP Materials Management
+Procurement
+Purchasing
+Inventory Management
+Material Master
+Vendor Master
+Source Determination
+Procure-to-Pay
+P2P
+
+ROLE_FAMILIES:
+SAP MM Consultant
+SAP Procurement Consultant
+SAP Supply Chain Consultant
+SAP Solution Architect
+SAP Logistics Lead
+SAP Program Manager
+
+COMMON_JOB_TITLES:
+SAP MM Consultant
+SAP Materials Management Consultant
+SAP Procurement Consultant
+SAP Logistics Consultant
+SAP MM Functional Lead
+
+ALTERNATIVE_TITLES:
+SAP Purchasing
+SAP Procurement
+SAP Inventory Management
+SAP Logistics Execution
+
+CORE_SKILLS:
+Procurement
+Purchasing
+Inventory Management
+Configuration
+Business Process Analysis
+Testing
+Data Migration
+
+SUPPORTING_SKILLS:
+SAP S/4HANA
+SAP Ariba
+SAP EWM
+SAP WM
+SAP Fiori
+Supplier Management
+
+RELATED_TECHNOLOGIES:
+SAP ECC
+SAP S/4HANA
+SAP HANA
+SAP Ariba
+SAP EWM
+SAP Fiori
+SAP BTP
+
+TECHNOLOGY_CATEGORY:
+SAP Functional Module
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+==================================================
+MODULE OVERVIEW
+===============
+
+SAP Materials Management (MM) manages the complete procurement and inventory lifecycle.
+
+It supports
+
+Purchasing
+
+Inventory Management
+
+Vendor Management
+
+Material Planning
+
+Goods Receipt
+
+Invoice Verification
+
+Stock Management
+
+==================================================
+BUSINESS PROCESS FLOW
+=====================
+
+Requirement
+
+↓
+
+Purchase Requisition
+
+↓
+
+Source Determination
+
+↓
+
+Request for Quotation
+
+↓
+
+Quotation Evaluation
+
+↓
+
+Purchase Order
+
+↓
+
+Goods Receipt
+
+↓
+
+Invoice Verification
+
+↓
+
+Payment
+
+==================================================
+CORE SUBMODULES
+===============
+
+Purchasing
+
+Inventory Management
+
+Material Master
+
+Vendor Master
+
+Invoice Verification
+
+Consumption-Based Planning
+
+External Services Management
+
+Material Requirements Planning Integration
+
+==================================================
+PURCHASING
+==========
+
+COMMON RESPONSIBILITIES
+
+Purchase Requisitions
+
+Purchase Orders
+
+Contracts
+
+Scheduling Agreements
+
+RFQ
+
+Vendor Selection
+
+Release Strategy
+
+==================================================
+INVENTORY MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+Goods Receipt
+
+Goods Issue
+
+Transfer Posting
+
+Physical Inventory
+
+Stock Transfers
+
+Batch Management
+
+Serial Numbers
+
+==================================================
+MATERIAL MASTER
+===============
+
+COMMON DATA
+
+Material Number
+
+Material Type
+
+Plant
+
+Storage Location
+
+Valuation Class
+
+Unit of Measure
+
+Material Group
+
+==================================================
+VENDOR MANAGEMENT
+=================
+
+COMMON RESPONSIBILITIES
+
+Vendor Master
+
+Vendor Evaluation
+
+Source Lists
+
+Vendor Qualification
+
+Business Partner (S/4HANA)
+
+==================================================
+INVOICE VERIFICATION
+====================
+
+COMMON RESPONSIBILITIES
+
+Invoice Posting
+
+Three-Way Matching
+
+Blocked Invoices
+
+Credit Memo
+
+Subsequent Debit
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Procure-to-Pay (P2P)
+
+Inventory Replenishment
+
+Vendor Procurement
+
+Stock Transfer
+
+Subcontracting
+
+Consignment
+
+Third-Party Procurement
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Purchasing Organization
+
+Purchasing Group
+
+Plant
+
+Storage Location
+
+Document Types
+
+Release Strategy
+
+Account Assignment
+
+Movement Types
+
+Valuation Area
+
+Material Types
+
+==================================================
+INTEGRATION WITH OTHER MODULES
+==============================
+
+MM
+
+↓
+
+FI
+
+Invoice Verification
+
+Vendor Payments
+
+---
+
+MM
+
+↓
+
+SD
+
+Stock Availability
+
+Delivery
+
+---
+
+MM
+
+↓
+
+PP
+
+Material Planning
+
+Production Orders
+
+---
+
+MM
+
+↓
+
+EWM
+
+Warehouse Operations
+
+---
+
+MM
+
+↓
+
+QM
+
+Inspection Lots
+
+Quality Checks
+
+==================================================
+SAP S/4HANA ENHANCEMENTS
+========================
+
+Business Partner
+
+Fiori Applications
+
+Embedded Analytics
+
+Simplified Procurement
+
+MRP Live
+
+Improved Material Master
+
+Real-Time Reporting
+
+==================================================
+COMMON REPORTS
+==============
+
+Purchase Order Reports
+
+Vendor Reports
+
+Stock Reports
+
+Inventory Valuation
+
+Material Consumption
+
+Open Purchase Orders
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Business Workshops
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Configuration
+
+↓
+
+Integration Testing
+
+↓
+
+User Acceptance Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+PROJECT TYPES
+=============
+
+Greenfield Implementation
+
+Brownfield Conversion
+
+S/4HANA Transformation
+
+Rollout
+
+Support
+
+Enhancement
+
+Global Procurement Programs
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Purchasing Department
+
+Procurement Team
+
+Warehouse Team
+
+Inventory Controllers
+
+Supply Chain Managers
+
+Logistics Managers
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Business Process
+
+*
+
+Responsibilities
+
+*
+
+Implementation Type
+
+Example
+
+("SAP MM" OR "Materials Management")
+
+AND
+
+(Procurement OR Purchasing OR Inventory)
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+("SAP S/4HANA" OR ECC)
+
+Expand procurement-related terms only when explicitly mentioned in the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+SAP MM Experience
+
+Critical
+
+Procurement Experience
+
+Critical
+
+Inventory Management
+
+Critical
+
+Configuration
+
+High
+
+Business Process Knowledge
+
+High
+
+Integration
+
+High
+
+S/4HANA Experience
+
+High
+
+Migration Experience
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP ECC MM
+
+↓
+
+SAP S/4HANA MM
+
+High
+
+---
+
+SAP MM
+
+↓
+
+SAP Ariba
+
+Medium
+
+---
+
+SAP MM
+
+↓
+
+SAP EWM
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Business Process
+
+Implementation Type
+
+Configuration Scope
+
+Module Integration
+
+Project Phase
+
+Differentiate
+
+Support
+
+Implementation
+
+Rollout
+
+Migration
+
+Transformation
+
+Identify whether the consultant performed
+
+Configuration
+
+Business Analysis
+
+Testing
+
+Cutover
+
+Hypercare
+
+Production Support
+
+Recognize candidates with
+
+MRP Live
+
+Business Partner
+
+S/4HANA Procurement
+
+Embedded Analytics
+
+as modern SAP MM specialists.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SAP MM as Warehouse Management.
+
+Confusing Procurement with Inventory Management.
+
+Ignoring integration with FI, PP, SD, QM, and EWM.
+
+Matching candidates solely because they mention Purchase Orders.
+
+Treating SAP Ariba experience as equivalent to SAP MM implementation.
+
+Ignoring business process ownership.
+
+Assuming certification equals implementation experience.
+
+END_OF_FILE

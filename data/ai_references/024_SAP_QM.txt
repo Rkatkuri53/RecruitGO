@@ -1,0 +1,660 @@
+FILE_NAME:
+024_SAP_QM.txt
+
+ID:
+024
+
+DOMAIN:
+SAP
+
+CATEGORY:
+ERP
+
+SUBCATEGORY:
+Quality Management
+
+PRIMARY_ROLE:
+SAP QM Consultant
+
+RELATED_FILES:
+
+019_SAP_PLATFORM.txt
+
+021_SAP_MM.txt
+
+023_SAP_PP.txt
+
+025_SAP_PM.txt
+
+026_SAP_EWM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP Quality Management (SAP QM)
+
+PURPOSE:
+Enable AI agents to understand SAP Quality Management (SAP QM), quality planning, quality inspection, quality assurance, quality control, compliance, inspection lots, certificates, notifications, S/4HANA enhancements, consultant responsibilities, Boolean generation, and candidate matching.
+
+KEYWORDS:
+SAP QM
+SAP Quality Management
+Quality Assurance
+Quality Control
+Inspection Lot
+Quality Inspection
+Certificates
+Audit
+Compliance
+Defect Management
+
+ROLE_FAMILIES:
+SAP QM Consultant
+SAP Quality Consultant
+SAP Manufacturing Consultant
+SAP Supply Chain Consultant
+SAP Solution Architect
+SAP Quality Lead
+
+COMMON_JOB_TITLES:
+SAP QM Consultant
+SAP Quality Management Consultant
+SAP QM Functional Consultant
+SAP Quality Lead
+SAP Manufacturing Quality Consultant
+
+ALTERNATIVE_TITLES:
+SAP QA
+SAP QC
+SAP Manufacturing Quality
+SAP Inspection Management
+
+CORE_SKILLS:
+Quality Planning
+Quality Inspection
+Quality Notifications
+Audit Management
+Compliance
+Configuration
+Testing
+
+SUPPORTING_SKILLS:
+Manufacturing
+Procurement
+Warehouse
+Maintenance
+S/4HANA
+Analytics
+
+RELATED_TECHNOLOGIES:
+SAP ECC
+
+SAP S/4HANA
+
+SAP HANA
+
+SAP Fiori
+
+SAP Digital Manufacturing
+
+TECHNOLOGY_CATEGORY:
+SAP Functional Module
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+==================================================
+MODULE OVERVIEW
+===============
+
+SAP Quality Management (QM) supports quality planning, quality inspections, defect management, regulatory compliance, supplier quality, production quality, and customer quality.
+
+It enables organizations to ensure products meet defined quality standards throughout procurement, manufacturing, warehousing, and delivery.
+
+==================================================
+BUSINESS PROCESS FLOW
+=====================
+
+Quality Planning
+
+↓
+
+Inspection Planning
+
+↓
+
+Goods Receipt Inspection
+
+↓
+
+Production Inspection
+
+↓
+
+Final Inspection
+
+↓
+
+Usage Decision
+
+↓
+
+Quality Notification
+
+↓
+
+Corrective Action
+
+↓
+
+Continuous Improvement
+
+==================================================
+CORE SUBMODULES
+===============
+
+Quality Planning
+
+Quality Inspection
+
+Inspection Lots
+
+Quality Notifications
+
+Quality Certificates
+
+Audit Management
+
+Supplier Quality
+
+Customer Quality
+
+Calibration Management
+
+==================================================
+QUALITY PLANNING
+================
+
+COMMON RESPONSIBILITIES
+
+Inspection Plans
+
+Sampling Procedures
+
+Master Inspection Characteristics
+
+Inspection Methods
+
+Quality Specifications
+
+==================================================
+QUALITY INSPECTION
+==================
+
+COMMON RESPONSIBILITIES
+
+Goods Receipt Inspection
+
+In-Process Inspection
+
+Final Inspection
+
+Physical Inspection
+
+Sampling
+
+Usage Decision
+
+==================================================
+QUALITY NOTIFICATIONS
+=====================
+
+COMMON RESPONSIBILITIES
+
+Defect Recording
+
+Customer Complaints
+
+Vendor Complaints
+
+Root Cause Analysis
+
+Corrective Actions
+
+Preventive Actions
+
+==================================================
+QUALITY CERTIFICATES
+====================
+
+COMMON RESPONSIBILITIES
+
+Certificate Profiles
+
+Inspection Results
+
+Customer Certificates
+
+Vendor Certificates
+
+Compliance Documentation
+
+==================================================
+MASTER DATA
+===========
+
+Material Master
+
+Inspection Plan
+
+Inspection Type
+
+Sampling Procedure
+
+Master Inspection Characteristics (MIC)
+
+Catalog Codes
+
+Quality Info Record
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Incoming Quality Inspection
+
+Production Quality
+
+Outgoing Quality Inspection
+
+Supplier Quality
+
+Customer Complaint Management
+
+Regulatory Compliance
+
+Calibration
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Inspection Types
+
+Inspection Plans
+
+Sampling Procedures
+
+Catalog Profiles
+
+Notification Types
+
+Certificate Profiles
+
+Quality Levels
+
+Inspection Characteristics
+
+==================================================
+INTEGRATION WITH OTHER MODULES
+==============================
+
+QM
+
+↓
+
+MM
+
+Goods Receipt Inspection
+
+Supplier Quality
+
+---
+
+QM
+
+↓
+
+PP
+
+Production Inspection
+
+Shop Floor Quality
+
+---
+
+QM
+
+↓
+
+PM
+
+Equipment Calibration
+
+Maintenance Notifications
+
+---
+
+QM
+
+↓
+
+SD
+
+Customer Complaints
+
+Quality Certificates
+
+---
+
+QM
+
+↓
+
+EWM
+
+Warehouse Inspection
+
+Stock Quality Status
+
+==================================================
+SAP S/4HANA ENHANCEMENTS
+========================
+
+Fiori Applications
+
+Embedded Analytics
+
+Business Partner Integration
+
+Real-Time Inspection Reporting
+
+Improved Quality Notifications
+
+Simplified Master Data
+
+==================================================
+COMMON REPORTS
+==============
+
+Inspection Lots
+
+Quality Notifications
+
+Inspection Results
+
+Defect Reports
+
+Supplier Performance
+
+Quality KPIs
+
+Audit Reports
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Business Workshops
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Configuration
+
+↓
+
+Integration Testing
+
+↓
+
+User Acceptance Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+PROJECT TYPES
+=============
+
+Greenfield Implementation
+
+Brownfield Conversion
+
+S/4HANA Transformation
+
+Support
+
+Enhancement
+
+Manufacturing Quality Optimization
+
+Global Rollout
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Quality Engineers
+
+Quality Inspectors
+
+Production Supervisors
+
+Warehouse Teams
+
+Procurement Teams
+
+Compliance Teams
+
+Manufacturing Managers
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Business Process
+
+*
+
+Responsibilities
+
+*
+
+Implementation Type
+
+Example
+
+("SAP QM" OR "Quality Management")
+
+AND
+
+("Inspection Lot" OR "Quality Inspection" OR "Quality Notification")
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+("SAP S/4HANA" OR ECC)
+
+Expand inspection terminology only when supported by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+SAP QM Experience
+
+Critical
+
+Quality Process Knowledge
+
+Critical
+
+Inspection Management
+
+Critical
+
+Configuration
+
+High
+
+Manufacturing Integration
+
+High
+
+Compliance Experience
+
+High
+
+S/4HANA Experience
+
+High
+
+Migration Experience
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP ECC QM
+
+↓
+
+SAP S/4HANA QM
+
+High
+
+---
+
+SAP QM
+
+↓
+
+SAP EWM Quality
+
+Medium
+
+---
+
+SAP QM
+
+↓
+
+SAP Digital Manufacturing
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Quality Process
+
+Inspection Scope
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Support
+
+Implementation
+
+Migration
+
+Rollout
+
+Transformation
+
+Identify whether the consultant performed
+
+Configuration
+
+Business Analysis
+
+Testing
+
+Cutover
+
+Hypercare
+
+Production Support
+
+Recognize candidates with
+
+Embedded Analytics
+
+Quality Notifications
+
+Supplier Quality
+
+S/4HANA Quality
+
+experience as modern SAP QM specialists.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SAP QM as Testing or QA Automation.
+
+Confusing software QA with manufacturing Quality Management.
+
+Ignoring integration with MM, PP, PM, SD and EWM.
+
+Matching candidates solely because they mention inspections.
+
+Treating ISO quality knowledge as SAP QM implementation experience.
+
+Ignoring regulatory and compliance responsibilities.
+
+Assuming certification equals implementation experience.
+
+END_OF_FILE

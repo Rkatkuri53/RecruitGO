@@ -1,0 +1,679 @@
+FILE_NAME:
+112_INFOR_M3.txt
+
+ID:
+112
+
+DOMAIN:
+Infor
+
+CATEGORY:
+Enterprise Resource Planning (ERP)
+
+SUBCATEGORY:
+Infor M3
+
+PRIMARY_ROLE:
+Infor M3 Consultant
+
+RELATED_FILES:
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+111_INFOR_LN.txt
+
+113_INFOR_CLOUDSUITE.txt
+
+117_INFOR_SCM.txt
+
+118_INFOR_OS_ION.txt
+
+119_INFOR_BI_ANALYTICS.txt
+
+013_CLOUD.txt
+
+VERSION:
+2.0
+
+CATEGORY:
+Infor M3
+
+PURPOSE:
+Enable AI agents to understand Infor M3 ERP, process manufacturing, distribution, fashion, food & beverage, equipment, chemicals, supply chain, finance, production planning, consultant responsibilities, implementation methodologies, and enterprise ERP transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Infor M3
+M3 ERP
+Movex
+Lawson M3
+Process Manufacturing
+Distribution ERP
+Food & Beverage ERP
+Fashion ERP
+Chemical ERP
+Equipment ERP
+Manufacturing ERP
+CloudSuite M3
+
+ROLE_FAMILIES:
+Infor M3 Functional Consultant
+
+Infor M3 Technical Consultant
+
+Infor M3 Developer
+
+Infor M3 Solution Architect
+
+Manufacturing ERP Consultant
+
+Distribution ERP Consultant
+
+COMMON_JOB_TITLES:
+Infor M3 Consultant
+
+Infor M3 Functional Consultant
+
+Infor M3 Technical Consultant
+
+Infor M3 Developer
+
+Infor M3 Architect
+
+ALTERNATIVE_TITLES:
+Process Manufacturing Consultant
+
+Distribution ERP Consultant
+
+Industry ERP Consultant
+
+CORE_SKILLS:
+Manufacturing
+
+Distribution
+
+Supply Chain
+
+Procurement
+
+Finance
+
+Inventory
+
+Sales
+
+Production Planning
+
+SUPPORTING_SKILLS:
+SQL
+
+M3 H5 Scripts
+
+M3 APIs
+
+Integration
+
+Reporting
+
+Migration
+
+Testing
+
+RELATED_TECHNOLOGIES:
+Infor M3
+
+CloudSuite M3
+
+Infor OS
+
+Infor ION
+
+M3 H5
+
+M3 APIs
+
+Factory Track
+
+Infor BI
+
+TECHNOLOGY_CATEGORY:
+Process Manufacturing ERP Platform
+
+DEPENDENCIES:
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Infor M3 is Infor's enterprise ERP platform designed primarily for process manufacturing, distribution and equipment-intensive industries.
+
+Originally known as Movex, Infor M3 supports manufacturing, finance, procurement, supply chain, sales, warehouse management and industry-specific business processes for food & beverage, fashion, chemicals, distribution and equipment manufacturing.
+
+==================================================
+PRODUCT EVOLUTION
+=================
+
+Movex
+
+↓
+
+Lawson M3
+
+↓
+
+Infor M3
+
+↓
+
+CloudSuite M3
+
+==================================================
+CORE MODULES
+============
+
+Manufacturing
+
+Supply Chain
+
+Procurement
+
+Inventory
+
+Sales
+
+Finance
+
+Warehouse
+
+Service
+
+==================================================
+MANUFACTURING
+=============
+
+COMMON RESPONSIBILITIES
+
+Production Planning
+
+Bills of Material (BOM)
+
+Recipes
+
+Batch Production
+
+Shop Floor
+
+Capacity Planning
+
+==================================================
+SUPPLY CHAIN
+============
+
+COMMON RESPONSIBILITIES
+
+Demand Planning
+
+Distribution
+
+Procurement
+
+Supplier Management
+
+Material Planning
+
+==================================================
+WAREHOUSE
+=========
+
+COMMON RESPONSIBILITIES
+
+Inventory Control
+
+Receiving
+
+Shipping
+
+Warehouse Transfers
+
+Cycle Counting
+
+==================================================
+SALES
+=====
+
+COMMON RESPONSIBILITIES
+
+Sales Orders
+
+Pricing
+
+Customer Management
+
+Order Fulfillment
+
+Returns
+
+==================================================
+FINANCE
+=======
+
+COMMON RESPONSIBILITIES
+
+General Ledger
+
+Accounts Payable
+
+Accounts Receivable
+
+Fixed Assets
+
+Cost Accounting
+
+Financial Reporting
+
+==================================================
+SERVICE
+=======
+
+COMMON RESPONSIBILITIES
+
+Equipment Service
+
+Maintenance
+
+Warranty
+
+Service Contracts
+
+Field Service
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Procure-to-Pay
+
+Order-to-Cash
+
+Plan-to-Produce
+
+Warehouse Operations
+
+Financial Close
+
+Customer Service
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Companies
+
+Divisions
+
+Facilities
+
+Warehouses
+
+Financial Setup
+
+Security
+
+Workflows
+
+APIs
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+ERP Implementation
+
+CloudSuite Migration
+
+Manufacturing Transformation
+
+Distribution Modernization
+
+Warehouse Optimization
+
+ERP Upgrade
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Infor OS
+
+Infor ION
+
+MES
+
+CRM
+
+EDI
+
+REST APIs
+
+PLM
+
+BI Platforms
+
+==================================================
+COMMON REPORTS
+==============
+
+Production Reports
+
+Inventory Reports
+
+Financial Reports
+
+Sales Reports
+
+Procurement Reports
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Manufacturing
+
+Supply Chain
+
+Finance
+
+Warehouse
+
+Sales
+
+Operations
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Industry
+
+*
+
+Manufacturing
+
+*
+
+ERP
+
+Example
+
+("Infor M3" OR Movex)
+
+AND
+
+(Manufacturing OR Distribution)
+
+AND
+
+(Finance OR Warehouse)
+
+AND
+
+(Consultant OR Architect)
+
+Expand Infor M3 terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Infor M3
+
+Critical
+
+Manufacturing
+
+Critical
+
+Distribution
+
+High
+
+Supply Chain
+
+High
+
+Finance
+
+High
+
+Warehouse
+
+Medium
+
+Service
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP S/4HANA Manufacturing
+
+↓
+
+Infor M3
+
+Medium
+
+---
+
+Oracle Manufacturing Cloud
+
+↓
+
+Infor M3
+
+Medium
+
+---
+
+Microsoft Dynamics 365 SCM
+
+↓
+
+Infor M3
+
+Medium
+
+---
+
+Epicor ERP
+
+↓
+
+Process Manufacturing ERP
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+M3 Version
+
+Industry
+
+Manufacturing Type
+
+Functional vs Technical
+
+Implementation Phase
+
+Differentiate
+
+Manufacturing
+
+Distribution
+
+Finance
+
+Warehouse
+
+Service
+
+Supply Chain
+
+Identify whether the consultant performed
+
+Requirements
+
+Configuration
+
+Customization
+
+Integration
+
+Migration
+
+Testing
+
+Deployment
+
+Support
+
+Recognize candidates with enterprise Infor M3 implementation, Movex migration, process manufacturing transformation, distribution optimization, supply chain modernization and enterprise ERP delivery experience as senior Infor M3 consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating ERP user experience as Infor M3 implementation.
+
+Confusing Movex support with M3 consulting.
+
+Matching candidates solely because they mention manufacturing.
+
+Ignoring process manufacturing specialization.
+
+Treating warehouse operations as ERP implementation.
+
+Ignoring CloudSuite M3 modernization.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Infor M3
+
+↓
+
+CloudSuite M3
+
+Movex
+
+Lawson M3
+
+---
+
+Manufacturing
+
+↓
+
+Process Manufacturing
+
+Batch Production
+
+Recipes
+
+Production Planning
+
+---
+
+Distribution
+
+↓
+
+Supply Chain
+
+Warehouse
+
+Inventory
+
+Procurement
+
+---
+
+Technology
+
+↓
+
+M3 H5
+
+M3 APIs
+
+Infor OS
+
+Infor ION
+
+Factory Track
+
+END_OF_FILE

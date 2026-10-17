@@ -1,0 +1,108 @@
+{
+  "name": "myrecruiter-tier2",
+  "version": "1.0.6",
+  "type": "module",
+  "main": "dist/desktop/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "post": "node dist/index.js post",
+    "scrape": "node dist/index.js scrape",
+    "sync": "node dist/index.js sync",
+    "dashboard": "node dist/server/index.js",
+    "app": "npm run build && node scripts/run-app.js",
+    "dist": "npm run build && npx electron-builder --win",
+    "package": "npm run build && npx electron-packager . MyRecruiter-Tier2 --platform=win32 --arch=x64 --out=release-builds --overwrite --ignore=\"(^/Tier1_Release_Package|^/release|^/release-builds|^/data/agent_profile|^/data/resumes|^/data/debug)\"",
+    "make-installer": "npm run package && node build-installer.js",
+    "test-360": "ts-node src/test_360.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "MyRecruiter Team",
+  "license": "ISC",
+  "description": "MyRecruiter Standalone Application",
+  "build": {
+    "appId": "com.myrecruiter.tier2.app",
+    "productName": "MyRecruiter-Tier2",
+    "publish": {
+      "provider": "github",
+      "owner": "Rkatkuri53",
+      "repo": "MyRecruiter-Releases"
+    },
+    "directories": {
+      "output": "release"
+    },
+    "asar": false,
+    "win": {
+      "target": "nsis",
+      "icon": "public/icon.png",
+      "forceCodeSigning": false,
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": "always",
+      "createStartMenuShortcut": true,
+      "shortcutName": "MyRecruiter-Tier2",
+      "runAfterFinish": true
+    },
+    "files": [
+      "dist/**/*",
+      "public/**/*",
+      "node_modules/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": ".env",
+        "to": ".env"
+      }
+    ]
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@lancedb/lancedb": "^0.31.0",
+    "@supabase/supabase-js": "^2.112.4",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/imap-simple": "^4.2.10",
+    "@types/mailparser": "^3.4.6",
+    "apache-arrow": "^21.1.0",
+    "cheerio": "^1.2.0",
+    "chrome-paths": "^1.0.1",
+    "cors": "^2.8.6",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.7",
+    "electron-is-dev": "^3.0.1",
+    "electron-updater": "^6.8.9",
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "ghost-cursor-playwright": "^2.1.0",
+    "google-it": "^1.6.4",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.9.8",
+    "mammoth": "^1.12.0",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^9.0.6",
+    "pdf-parse": "^1.1.1",
+    "pg": "^8.23.0",
+    "playwright": "^1.43.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@types/node-schedule": "^2.1.8",
+    "@types/nodemailer": "^8.0.1",
+    "@types/pdf-parse": "^1.1.5",
+    "@types/pg": "^8.23.1",
+    "@types/sqlite3": "^3.1.11",
+    "electron": "^41.7.0",
+    "electron-builder": "^26.8.1",
+    "electron-packager": "^17.1.2",
+    "electron-winstaller": "^5.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}

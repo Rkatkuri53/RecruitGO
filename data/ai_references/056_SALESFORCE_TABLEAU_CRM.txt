@@ -1,0 +1,656 @@
+FILE_NAME:
+056_SALESFORCE_TABLEAU_CRM.txt
+
+ID:
+056
+
+DOMAIN:
+Salesforce
+
+CATEGORY:
+Enterprise Analytics
+
+SUBCATEGORY:
+Salesforce Tableau CRM (CRM Analytics)
+
+PRIMARY_ROLE:
+Salesforce CRM Analytics Consultant
+
+RELATED_FILES:
+
+046_SALESFORCE_PLATFORM.txt
+
+047_SALESFORCE_SALES_CLOUD.txt
+
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+049_SALESFORCE_MARKETING_CLOUD.txt
+
+051_SALESFORCE_PLATFORM_DEVELOPMENT.txt
+
+052_SALESFORCE_INTEGRATION.txt
+
+053_SALESFORCE_DEVOPS.txt
+
+054_SALESFORCE_DATA_CLOUD.txt
+
+055_SALESFORCE_CPQ.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+009_DATABASES.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Salesforce CRM Analytics (Tableau CRM)
+
+PURPOSE:
+Enable AI agents to understand Salesforce CRM Analytics (formerly Tableau CRM and Einstein Analytics), enterprise BI, dashboards, datasets, recipes, dataflows, predictive analytics, AI insights, KPI reporting, executive dashboards, consultant responsibilities, and analytics implementation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+CRM Analytics
+Tableau CRM
+Einstein Analytics
+Salesforce Analytics
+Dashboard
+Recipe
+Dataflow
+SAQL
+Dataset
+Wave Analytics
+Predictive Analytics
+Business Intelligence
+
+ROLE_FAMILIES:
+CRM Analytics Consultant
+Salesforce Analytics Consultant
+BI Consultant
+Analytics Architect
+Salesforce Data Analyst
+Salesforce Solution Architect
+
+COMMON_JOB_TITLES:
+Salesforce CRM Analytics Consultant
+Tableau CRM Consultant
+Einstein Analytics Consultant
+Salesforce BI Consultant
+Analytics Architect
+
+ALTERNATIVE_TITLES:
+Salesforce Reporting Consultant
+Salesforce Dashboard Consultant
+Business Intelligence Consultant
+
+CORE_SKILLS:
+Dashboard Development
+
+Dataset Modeling
+
+Recipes
+
+Dataflows
+
+SAQL
+
+Reporting
+
+Business Intelligence
+
+Analytics
+
+SUPPORTING_SKILLS:
+SQL
+
+Data Cloud
+
+Tableau
+
+Python
+
+Data Visualization
+
+REST APIs
+
+Integration
+
+RELATED_TECHNOLOGIES:
+CRM Analytics
+
+Tableau
+
+Data Cloud
+
+Sales Cloud
+
+Service Cloud
+
+Marketing Cloud
+
+Einstein AI
+
+Snowflake
+
+TECHNOLOGY_CATEGORY:
+Business Intelligence Platform
+
+DEPENDENCIES:
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+054_SALESFORCE_DATA_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Salesforce CRM Analytics (formerly Tableau CRM and Einstein Analytics) is Salesforce's embedded business intelligence platform.
+
+It enables organizations to build interactive dashboards, predictive analytics, executive reports and AI-driven business insights using Salesforce and external data.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Dashboards
+
+Datasets
+
+Recipes
+
+Dataflows
+
+Lenses
+
+SAQL
+
+Bindings
+
+Einstein Discovery
+
+==================================================
+DASHBOARDS
+==========
+
+COMMON RESPONSIBILITIES
+
+Executive Dashboards
+
+Operational Dashboards
+
+KPI Reporting
+
+Interactive Filters
+
+Drill-Down Analytics
+
+==================================================
+DATASETS
+========
+
+COMMON RESPONSIBILITIES
+
+Data Preparation
+
+Dataset Modeling
+
+Relationships
+
+Data Refresh
+
+Optimization
+
+==================================================
+RECIPES
+=======
+
+COMMON RESPONSIBILITIES
+
+Low-Code ETL
+
+Data Cleansing
+
+Joins
+
+Transformations
+
+Calculated Fields
+
+==================================================
+DATAFLOWS
+=========
+
+COMMON RESPONSIBILITIES
+
+ETL Pipelines
+
+Aggregation
+
+Scheduling
+
+Data Transformation
+
+Incremental Loads
+
+==================================================
+SAQL
+====
+
+COMMON RESPONSIBILITIES
+
+Advanced Queries
+
+Filtering
+
+Aggregation
+
+Calculations
+
+Custom Analytics
+
+==================================================
+EINSTEIN DISCOVERY
+==================
+
+COMMON RESPONSIBILITIES
+
+Predictive Analytics
+
+Recommendations
+
+Business Insights
+
+Forecasting
+
+Root Cause Analysis
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Executive Reporting
+
+Sales Analytics
+
+Service Analytics
+
+Marketing Analytics
+
+Revenue Analytics
+
+Operational Reporting
+
+Customer Analytics
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Datasets
+
+Security
+
+Data Refresh
+
+Recipes
+
+Dashboards
+
+Permissions
+
+Bindings
+
+Apps
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Requirements Gathering
+
+↓
+
+Data Assessment
+
+↓
+
+Data Modeling
+
+↓
+
+Dashboard Design
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Executive Dashboard Development
+
+Sales Analytics
+
+Customer Analytics
+
+Marketing Analytics
+
+KPI Modernization
+
+Analytics Transformation
+
+Business Intelligence Programs
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Sales Cloud
+
+Service Cloud
+
+Marketing Cloud
+
+Data Cloud
+
+Snowflake
+
+REST APIs
+
+MuleSoft
+
+ERP Systems
+
+==================================================
+COMMON REPORTS
+==============
+
+Sales KPIs
+
+Customer KPIs
+
+Revenue Dashboards
+
+Pipeline Reports
+
+Forecast Reports
+
+Service Metrics
+
+Marketing Performance
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Executives
+
+Sales Leaders
+
+Marketing Teams
+
+Service Managers
+
+Business Analysts
+
+Operations Teams
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Analytics
+
+*
+
+Reporting
+
+*
+
+Visualization
+
+Example
+
+("CRM Analytics" OR "Tableau CRM" OR "Einstein Analytics")
+
+AND
+
+(Dashboard OR SAQL)
+
+AND
+
+(Recipes OR Dataflows)
+
+AND
+
+(Salesforce)
+
+Expand CRM Analytics terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+CRM Analytics
+
+Critical
+
+Dashboard Development
+
+Critical
+
+Datasets
+
+High
+
+Recipes
+
+High
+
+Dataflows
+
+High
+
+SAQL
+
+Medium
+
+Data Cloud
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Tableau Desktop
+
+↓
+
+CRM Analytics
+
+Medium
+
+---
+
+Microsoft Power BI
+
+↓
+
+CRM Analytics
+
+Medium
+
+---
+
+Qlik Sense
+
+↓
+
+CRM Analytics
+
+Medium
+
+---
+
+Looker
+
+↓
+
+CRM Analytics
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Analytics Platform
+
+Business Domain
+
+Reporting Scope
+
+Data Sources
+
+Project Type
+
+Differentiate
+
+CRM Analytics
+
+Tableau
+
+Power BI
+
+Data Cloud
+
+Einstein Discovery
+
+Identify whether the consultant performed
+
+Data Modeling
+
+Dashboard Development
+
+Recipe Development
+
+Dataflows
+
+SAQL
+
+Analytics
+
+Deployment
+
+Optimization
+
+Recognize candidates with enterprise CRM Analytics implementation, executive dashboard development, Einstein Discovery, SAQL, data modeling and Salesforce Data Cloud integration experience as senior Salesforce Analytics consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Tableau CRM as Tableau Desktop.
+
+Confusing CRM Analytics with Salesforce Reports.
+
+Matching candidates solely because they mention dashboards.
+
+Ignoring SAQL and data modeling expertise.
+
+Treating Power BI experience as Salesforce CRM Analytics experience.
+
+Ignoring Einstein Discovery and predictive analytics.
+
+Assuming certification equals enterprise analytics implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+CRM Analytics
+
+↓
+
+Tableau CRM
+
+Einstein Analytics
+
+Salesforce Analytics
+
+---
+
+Analytics
+
+↓
+
+Dashboards
+
+Datasets
+
+Recipes
+
+Dataflows
+
+SAQL
+
+Einstein Discovery
+
+---
+
+Reporting
+
+↓
+
+KPIs
+
+Executive Dashboards
+
+Forecasting
+
+Business Intelligence
+
+---
+
+Data
+
+↓
+
+Data Cloud
+
+Snowflake
+
+SQL
+
+ETL
+
+END_OF_FILE

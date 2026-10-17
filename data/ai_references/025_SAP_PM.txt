@@ -1,0 +1,717 @@
+FILE_NAME:
+025_SAP_PM.txt
+
+ID:
+025
+
+DOMAIN:
+SAP
+
+CATEGORY:
+ERP
+
+SUBCATEGORY:
+Plant Maintenance
+
+PRIMARY_ROLE:
+SAP PM Consultant
+
+RELATED_FILES:
+
+019_SAP_PLATFORM.txt
+
+021_SAP_MM.txt
+
+023_SAP_PP.txt
+
+024_SAP_QM.txt
+
+026_SAP_EWM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP Plant Maintenance (SAP PM)
+
+PURPOSE:
+Enable AI agents to understand SAP Plant Maintenance (PM), Enterprise Asset Management (EAM), preventive maintenance, corrective maintenance, predictive maintenance, work orders, equipment management, maintenance planning, S/4HANA enhancements, consultant responsibilities, Boolean generation, and candidate matching.
+
+KEYWORDS:
+SAP PM
+SAP Plant Maintenance
+Enterprise Asset Management
+EAM
+Maintenance Planning
+Preventive Maintenance
+Corrective Maintenance
+Maintenance Order
+Equipment
+Functional Location
+
+ROLE_FAMILIES:
+SAP PM Consultant
+SAP EAM Consultant
+SAP Maintenance Consultant
+SAP Asset Management Consultant
+SAP Solution Architect
+SAP Manufacturing Consultant
+
+COMMON_JOB_TITLES:
+SAP PM Consultant
+SAP Plant Maintenance Consultant
+SAP EAM Consultant
+SAP Maintenance Functional Consultant
+SAP PM Lead Consultant
+
+ALTERNATIVE_TITLES:
+SAP Asset Management
+SAP Equipment Maintenance
+SAP Maintenance Management
+
+CORE_SKILLS:
+Maintenance Planning
+Asset Management
+Equipment Management
+Preventive Maintenance
+Configuration
+Business Process Analysis
+Testing
+
+SUPPORTING_SKILLS:
+Manufacturing
+Utilities
+Oil & Gas
+Mining
+Transportation
+S/4HANA
+
+RELATED_TECHNOLOGIES:
+SAP ECC
+
+SAP S/4HANA
+
+SAP HANA
+
+SAP Fiori
+
+SAP Asset Manager
+
+SAP Digital Manufacturing
+
+TECHNOLOGY_CATEGORY:
+SAP Functional Module
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+==================================================
+MODULE OVERVIEW
+===============
+
+SAP Plant Maintenance (PM) manages the complete lifecycle of enterprise assets, equipment, maintenance operations, and maintenance planning.
+
+It enables organizations to maximize equipment availability, reduce downtime, improve maintenance efficiency, and optimize asset lifecycle costs.
+
+==================================================
+BUSINESS PROCESS FLOW
+=====================
+
+Equipment Installation
+
+↓
+
+Maintenance Planning
+
+↓
+
+Maintenance Notification
+
+↓
+
+Maintenance Order
+
+↓
+
+Scheduling
+
+↓
+
+Material Reservation
+
+↓
+
+Maintenance Execution
+
+↓
+
+Confirmation
+
+↓
+
+Technical Completion
+
+↓
+
+Settlement
+
+==================================================
+CORE SUBMODULES
+===============
+
+Technical Objects
+
+Maintenance Planning
+
+Maintenance Notifications
+
+Maintenance Orders
+
+Preventive Maintenance
+
+Corrective Maintenance
+
+Refurbishment
+
+Calibration
+
+Linear Asset Management
+
+==================================================
+TECHNICAL OBJECTS
+=================
+
+COMMON OBJECTS
+
+Equipment
+
+Functional Location
+
+Bills of Material (BOM)
+
+Measuring Points
+
+Measuring Documents
+
+Classification
+
+==================================================
+MAINTENANCE NOTIFICATIONS
+=========================
+
+COMMON RESPONSIBILITIES
+
+Equipment Breakdown
+
+Service Requests
+
+Malfunction Reporting
+
+Inspection Requests
+
+Maintenance Planning Requests
+
+==================================================
+MAINTENANCE ORDERS
+==================
+
+COMMON RESPONSIBILITIES
+
+Order Creation
+
+Task Planning
+
+Labor Planning
+
+Material Reservation
+
+Execution
+
+Confirmation
+
+Settlement
+
+==================================================
+PREVENTIVE MAINTENANCE
+======================
+
+COMMON RESPONSIBILITIES
+
+Maintenance Plans
+
+Scheduling
+
+Cycles
+
+Task Lists
+
+Routine Maintenance
+
+==================================================
+CORRECTIVE MAINTENANCE
+======================
+
+COMMON RESPONSIBILITIES
+
+Breakdown Maintenance
+
+Repair Orders
+
+Emergency Maintenance
+
+Root Cause Analysis
+
+Failure Analysis
+
+==================================================
+PREDICTIVE MAINTENANCE
+======================
+
+COMMON RESPONSIBILITIES
+
+Condition Monitoring
+
+IoT Integration
+
+Sensor Data
+
+Predictive Analytics
+
+Failure Prediction
+
+==================================================
+MASTER DATA
+===========
+
+Equipment
+
+Functional Location
+
+Task Lists
+
+Maintenance Plans
+
+Work Centers
+
+Measuring Points
+
+Catalog Codes
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Asset Lifecycle Management
+
+Equipment Maintenance
+
+Shutdown Planning
+
+Calibration
+
+Breakdown Maintenance
+
+Inspection Management
+
+Field Maintenance
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Order Types
+
+Notification Types
+
+Planner Groups
+
+Maintenance Plants
+
+Maintenance Activity Types
+
+Task Lists
+
+Control Keys
+
+Scheduling Parameters
+
+==================================================
+INTEGRATION WITH OTHER MODULES
+==============================
+
+PM
+
+↓
+
+MM
+
+Material Reservation
+
+Spare Parts
+
+Procurement
+
+---
+
+PM
+
+↓
+
+PP
+
+Production Downtime
+
+Maintenance Windows
+
+---
+
+PM
+
+↓
+
+QM
+
+Calibration
+
+Equipment Inspection
+
+---
+
+PM
+
+↓
+
+FI/CO
+
+Maintenance Costing
+
+Settlement
+
+Asset Accounting
+
+---
+
+PM
+
+↓
+
+EWM
+
+Warehouse
+
+Spare Parts
+
+Inventory
+
+==================================================
+SAP S/4HANA ENHANCEMENTS
+========================
+
+Fiori Applications
+
+Embedded Analytics
+
+Asset Manager
+
+Predictive Maintenance
+
+Business Partner Integration
+
+Real-Time Dashboards
+
+==================================================
+COMMON REPORTS
+==============
+
+Maintenance Orders
+
+Equipment History
+
+Breakdown Analysis
+
+Maintenance Costs
+
+Equipment Availability
+
+Preventive Maintenance Compliance
+
+Work Order Status
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Business Workshops
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Configuration
+
+↓
+
+Integration Testing
+
+↓
+
+User Acceptance Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+PROJECT TYPES
+=============
+
+Greenfield Implementation
+
+Brownfield Conversion
+
+S/4HANA Transformation
+
+Support
+
+Enhancement
+
+Asset Management Optimization
+
+Global Rollout
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Maintenance Engineers
+
+Maintenance Planners
+
+Plant Managers
+
+Operations Managers
+
+Reliability Engineers
+
+Field Service Teams
+
+Asset Managers
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Business Process
+
+*
+
+Responsibilities
+
+*
+
+Implementation Type
+
+Example
+
+("SAP PM" OR "Plant Maintenance" OR EAM)
+
+AND
+
+(Equipment OR "Maintenance Orders" OR "Preventive Maintenance")
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+("SAP S/4HANA" OR ECC)
+
+Expand EAM terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+SAP PM Experience
+
+Critical
+
+Maintenance Process Knowledge
+
+Critical
+
+Equipment Management
+
+Critical
+
+Configuration
+
+High
+
+Asset Management
+
+High
+
+Integration
+
+High
+
+S/4HANA Experience
+
+High
+
+Migration Experience
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP ECC PM
+
+↓
+
+SAP S/4HANA PM
+
+High
+
+---
+
+SAP PM
+
+↓
+
+SAP Asset Manager
+
+Medium
+
+---
+
+SAP PM
+
+↓
+
+IBM Maximo
+
+Medium
+
+---
+
+SAP PM
+
+↓
+
+IFS EAM
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Maintenance Process
+
+Asset Type
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Support
+
+Implementation
+
+Migration
+
+Rollout
+
+Transformation
+
+Identify whether the consultant performed
+
+Configuration
+
+Business Analysis
+
+Testing
+
+Cutover
+
+Hypercare
+
+Production Support
+
+Recognize candidates with
+
+Predictive Maintenance
+
+Asset Manager
+
+Embedded Analytics
+
+IoT Integration
+
+S/4HANA PM
+
+experience as modern SAP PM specialists.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SAP PM as Project Management.
+
+Confusing Plant Maintenance with Production Planning.
+
+Ignoring integration with MM, PP, QM, FI/CO and EWM.
+
+Matching candidates solely because they mention maintenance.
+
+Treating maintenance engineering experience as SAP PM implementation experience.
+
+Ignoring asset lifecycle management.
+
+Assuming certification equals implementation experience.
+
+END_OF_FILE

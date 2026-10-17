@@ -1,0 +1,660 @@
+FILE_NAME:
+037_ORACLE_HCM.txt
+
+ID:
+037
+
+DOMAIN:
+Oracle
+
+CATEGORY:
+Enterprise Applications
+
+SUBCATEGORY:
+Oracle Human Capital Management (Oracle HCM Cloud)
+
+PRIMARY_ROLE:
+Oracle HCM Consultant
+
+RELATED_FILES:
+
+035_ORACLE_PLATFORM.txt
+
+036_ORACLE_ERP.txt
+
+038_ORACLE_SCM.txt
+
+039_ORACLE_EPM.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+045_ORACLE_OCI.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Oracle HCM Cloud
+
+PURPOSE:
+Enable AI agents to understand Oracle HCM Cloud (Oracle Fusion HCM), including Core HR, Global HR, Talent Management, Payroll, Workforce Management, Recruiting, Learning, Compensation, implementation methodologies, consultant responsibilities, cloud migration, and Oracle HCM project delivery for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Oracle HCM
+Oracle HCM Cloud
+Oracle Fusion HCM
+Oracle HRMS
+Core HR
+Global HR
+Payroll
+Talent Management
+Oracle Recruiting
+Workforce Management
+
+ROLE_FAMILIES:
+Oracle HCM Consultant
+Oracle HR Consultant
+Oracle Payroll Consultant
+Oracle Talent Management Consultant
+Oracle HCM Solution Architect
+Oracle HCM Program Manager
+
+COMMON_JOB_TITLES:
+Oracle HCM Consultant
+Oracle Fusion HCM Consultant
+Oracle HRMS Consultant
+Oracle Payroll Consultant
+Oracle Talent Consultant
+Oracle HCM Functional Consultant
+Oracle HCM Architect
+
+ALTERNATIVE_TITLES:
+Oracle Cloud HCM
+Oracle Human Resources Consultant
+Oracle Human Capital Management Consultant
+
+CORE_SKILLS:
+Core HR
+
+Payroll
+
+Talent Management
+
+Recruiting
+
+Compensation
+
+Learning
+
+Configuration
+
+Implementation
+
+SUPPORTING_SKILLS:
+Reporting
+
+Integration
+
+Security
+
+Analytics
+
+Cloud
+
+Project Management
+
+RELATED_TECHNOLOGIES:
+Oracle HCM Cloud
+
+Oracle Recruiting Cloud
+
+Oracle Learning
+
+Oracle Payroll
+
+Oracle Integration Cloud
+
+Oracle Analytics Cloud
+
+Oracle Digital Assistant
+
+TECHNOLOGY_CATEGORY:
+Oracle HCM
+
+DEPENDENCIES:
+
+035_ORACLE_PLATFORM.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Oracle HCM Cloud (Oracle Fusion HCM) is Oracle's cloud-based Human Capital Management platform.
+
+It manages the complete employee lifecycle including recruitment, onboarding, workforce management, payroll, talent management, compensation, learning, succession planning and HR analytics.
+
+==================================================
+CORE MODULES
+============
+
+Core HR
+
+Global HR
+
+Payroll
+
+Recruiting
+
+Talent Management
+
+Performance Management
+
+Compensation
+
+Benefits
+
+Workforce Management
+
+Learning
+
+Succession Planning
+
+Help Desk
+
+==================================================
+CORE HR
+=======
+
+COMMON BUSINESS FUNCTIONS
+
+Employee Records
+
+Organizational Structure
+
+Job Management
+
+Position Management
+
+Locations
+
+Business Units
+
+Work Relationships
+
+==================================================
+GLOBAL HR
+=========
+
+COMMON BUSINESS FUNCTIONS
+
+Global Workforce
+
+International Assignments
+
+Country-Specific Localizations
+
+Employment Lifecycle
+
+Organization Management
+
+==================================================
+PAYROLL
+=======
+
+COMMON BUSINESS FUNCTIONS
+
+Payroll Processing
+
+Payroll Calculations
+
+Payroll Balancing
+
+Tax Processing
+
+Direct Deposit
+
+Payroll Reporting
+
+Statutory Compliance
+
+==================================================
+RECRUITING
+==========
+
+COMMON BUSINESS FUNCTIONS
+
+Job Requisitions
+
+Candidate Management
+
+Interview Scheduling
+
+Offer Management
+
+Hiring
+
+Onboarding
+
+==================================================
+TALENT MANAGEMENT
+=================
+
+COMMON BUSINESS FUNCTIONS
+
+Goal Management
+
+Performance Reviews
+
+Career Development
+
+Talent Review
+
+Succession Planning
+
+Development Plans
+
+==================================================
+COMPENSATION
+============
+
+COMMON BUSINESS FUNCTIONS
+
+Salary Planning
+
+Bonus Planning
+
+Merit Planning
+
+Equity Awards
+
+Compensation Cycles
+
+==================================================
+LEARNING
+========
+
+COMMON BUSINESS FUNCTIONS
+
+Learning Catalog
+
+Training
+
+Certifications
+
+Learning Assignments
+
+Compliance Training
+
+==================================================
+WORKFORCE MANAGEMENT
+====================
+
+COMMON BUSINESS FUNCTIONS
+
+Time & Labor
+
+Absence Management
+
+Scheduling
+
+Shift Planning
+
+Workforce Compliance
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Hire-to-Retire (H2R)
+
+Recruit-to-Hire (R2H)
+
+Payroll Processing
+
+Performance Management
+
+Compensation Review
+
+Learning Management
+
+Employee Lifecycle
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Business Units
+
+Legal Employers
+
+Departments
+
+Jobs
+
+Positions
+
+Grades
+
+Payroll Definitions
+
+Security Profiles
+
+Approval Rules
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Requirements Gathering
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Configuration
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Oracle HCM Cloud Implementation
+
+Oracle EBS HR Migration
+
+Payroll Transformation
+
+Cloud Migration
+
+Global Rollout
+
+Support
+
+Enhancement
+
+HR Digital Transformation
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Oracle Integration Cloud (OIC)
+
+REST APIs
+
+SOAP
+
+HCM Extracts
+
+HDL (HCM Data Loader)
+
+Spreadsheet Loader
+
+Business Events
+
+==================================================
+COMMON REPORTS
+==============
+
+Headcount Reports
+
+Payroll Reports
+
+Compensation Reports
+
+Learning Reports
+
+Recruitment Reports
+
+Performance Reports
+
+Absence Reports
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+HR Teams
+
+Payroll Teams
+
+Recruiters
+
+HR Business Partners
+
+Managers
+
+Employees
+
+Shared Services
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Business Process
+
+*
+
+Implementation
+
+Example
+
+("Oracle HCM" OR "Oracle Fusion HCM")
+
+AND
+
+(Payroll OR Recruiting OR "Core HR")
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+(Migration OR Transformation)
+
+Expand Oracle HCM modules only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Oracle HCM Experience
+
+Critical
+
+Core HR
+
+Critical
+
+Payroll
+
+High
+
+Talent Management
+
+High
+
+Recruiting
+
+High
+
+Configuration
+
+High
+
+Cloud Experience
+
+High
+
+Integration
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle EBS HR
+
+↓
+
+Oracle HCM Cloud
+
+High
+
+---
+
+PeopleSoft HCM
+
+↓
+
+Oracle HCM
+
+Medium
+
+---
+
+SAP SuccessFactors
+
+↓
+
+Oracle HCM
+
+Medium
+
+---
+
+Workday HCM
+
+↓
+
+Oracle HCM
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Oracle HCM Version
+
+Business Module
+
+Cloud vs On-Premises
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Core HR
+
+Payroll
+
+Recruiting
+
+Talent
+
+Learning
+
+Support
+
+Implementation
+
+Migration
+
+Transformation
+
+Identify whether the consultant performed
+
+Business Analysis
+
+Configuration
+
+Testing
+
+Data Migration
+
+Cutover
+
+Hypercare
+
+Production Support
+
+Recognize candidates with Oracle HCM Cloud implementation, Oracle EBS HR-to-HCM Cloud migration, HDL, HCM Extracts and global HR implementation experience as higher-value for modern Oracle HCM transformation programs.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Oracle HCM as Oracle ERP.
+
+Confusing Oracle HCM Cloud with Oracle EBS HRMS.
+
+Matching candidates solely because they mention HR.
+
+Ignoring module specialization.
+
+Treating payroll business knowledge as Oracle Payroll implementation experience.
+
+Ignoring implementation methodology.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

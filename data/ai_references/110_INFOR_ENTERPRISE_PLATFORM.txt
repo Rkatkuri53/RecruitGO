@@ -1,0 +1,599 @@
+FILE_NAME:
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+ID:
+110
+
+DOMAIN:
+Infor
+
+CATEGORY:
+Enterprise Business Applications
+
+SUBCATEGORY:
+Infor Enterprise Platform
+
+PRIMARY_ROLE:
+Infor ERP Consultant
+
+RELATED_FILES:
+
+111_INFOR_LN.txt
+
+112_INFOR_M3.txt
+
+113_INFOR_CLOUDSUITE.txt
+
+114_INFOR_LAWSON.txt
+
+115_INFOR_EAM.txt
+
+116_INFOR_WMS.txt
+
+117_INFOR_SCM.txt
+
+118_INFOR_OS_ION.txt
+
+119_INFOR_BI_ANALYTICS.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+VERSION:
+2.0
+
+CATEGORY:
+Infor Enterprise Platform
+
+PURPOSE:
+Enable AI agents to understand the Infor enterprise software ecosystem, ERP portfolio, CloudSuite solutions, industry-specific applications, middleware, analytics, asset management, supply chain, consultant roles, implementation methodologies, and enterprise digital transformation programs for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Infor
+Infor ERP
+Infor CloudSuite
+Infor LN
+Infor M3
+Infor Lawson
+Infor EAM
+Infor WMS
+Infor SCM
+Infor ION
+Infor OS
+Infor Birst
+Infor Analytics
+Infor Coleman AI
+
+ROLE_FAMILIES:
+Infor ERP Consultant
+
+Infor Functional Consultant
+
+Infor Technical Consultant
+
+Infor Solution Architect
+
+Infor Enterprise Architect
+
+Infor Cloud Consultant
+
+COMMON_JOB_TITLES:
+Infor ERP Consultant
+
+Infor Functional Consultant
+
+Infor Technical Consultant
+
+Infor Solution Architect
+
+Infor ERP Architect
+
+Infor CloudSuite Consultant
+
+ALTERNATIVE_TITLES:
+Enterprise ERP Consultant
+
+Manufacturing ERP Consultant
+
+Industry ERP Consultant
+
+CORE_SKILLS:
+ERP Implementation
+
+Business Process Analysis
+
+Financials
+
+Manufacturing
+
+Supply Chain
+
+Asset Management
+
+Integration
+
+Cloud ERP
+
+SUPPORTING_SKILLS:
+SQL
+
+APIs
+
+Cloud
+
+Workflow Automation
+
+Reporting
+
+Security
+
+DevOps
+
+Data Migration
+
+RELATED_TECHNOLOGIES:
+Infor CloudSuite
+
+Infor LN
+
+Infor M3
+
+Infor Lawson
+
+Infor EAM
+
+Infor WMS
+
+Infor SCM
+
+Infor OS
+
+Infor ION
+
+Infor Birst
+
+Infor Coleman AI
+
+TECHNOLOGY_CATEGORY:
+Enterprise ERP & Industry Cloud Platform
+
+DEPENDENCIES:
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Infor provides enterprise ERP and industry cloud applications for manufacturing, distribution, healthcare, retail, public sector, hospitality and asset-intensive industries.
+
+Infor solutions combine ERP, supply chain, enterprise asset management, workforce management, analytics, AI and cloud-native technologies into industry-specific CloudSuite offerings.
+
+==================================================
+CORE PRODUCT FAMILIES
+=====================
+
+Enterprise ERP
+
+Infor LN
+
+Infor M3
+
+Infor Lawson
+
+---
+
+Industry Cloud
+
+Infor CloudSuite
+
+---
+
+Enterprise Asset Management
+
+Infor EAM
+
+---
+
+Warehouse Management
+
+Infor WMS
+
+---
+
+Supply Chain
+
+Infor SCM
+
+---
+
+Integration Platform
+
+Infor OS
+
+Infor ION
+
+---
+
+Analytics
+
+Infor Birst
+
+Infor Analytics
+
+---
+
+Artificial Intelligence
+
+Infor Coleman AI
+
+==================================================
+INDUSTRY SOLUTIONS
+==================
+
+Manufacturing
+
+Automotive
+
+Aerospace & Defense
+
+Industrial Equipment
+
+Healthcare
+
+Retail
+
+Fashion
+
+Food & Beverage
+
+Hospitality
+
+Distribution
+
+Public Sector
+
+==================================================
+IMPLEMENTATION TYPES
+====================
+
+ERP Implementation
+
+ERP Modernization
+
+Cloud Migration
+
+Digital Transformation
+
+Manufacturing Transformation
+
+Supply Chain Optimization
+
+Asset Management Modernization
+
+==================================================
+CONSULTANT TYPES
+================
+
+Functional Consultant
+
+↓
+
+Business Processes
+
+Configuration
+
+---
+
+Technical Consultant
+
+↓
+
+Development
+
+Customization
+
+---
+
+Integration Consultant
+
+↓
+
+ION
+
+APIs
+
+Interfaces
+
+---
+
+Solution Architect
+
+↓
+
+Architecture
+
+Governance
+
+---
+
+Enterprise Architect
+
+↓
+
+Transformation
+
+Cloud Strategy
+
+==================================================
+COMMON RESPONSIBILITIES
+=======================
+
+Requirements Workshops
+
+Fit-Gap Analysis
+
+Solution Design
+
+Configuration
+
+Customization
+
+Integration
+
+Testing
+
+Data Migration
+
+Go-Live
+
+Hypercare
+
+Support
+
+==================================================
+PLATFORM CAPABILITIES
+=====================
+
+Financial Management
+
+Manufacturing
+
+Supply Chain
+
+Warehouse
+
+Procurement
+
+Enterprise Asset Management
+
+Analytics
+
+Artificial Intelligence
+
+==================================================
+SECURITY
+========
+
+Role-Based Access
+
+Identity Management
+
+Audit
+
+Compliance
+
+Data Governance
+
+SSO
+
+==================================================
+COMMON PROJECTS
+===============
+
+ERP Replacement
+
+Cloud ERP
+
+Manufacturing Modernization
+
+Warehouse Modernization
+
+Supply Chain Transformation
+
+Enterprise Integration
+
+Industry Cloud Migration
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Infor Product
+
+*
+
+Role
+
+*
+
+Implementation
+
+Example
+
+(Infor)
+
+AND
+
+(LN OR M3 OR CloudSuite)
+
+AND
+
+(Consultant OR Architect)
+
+AND
+
+(Implementation)
+
+Expand Infor product names only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Infor Platform
+
+Critical
+
+Relevant Product
+
+Critical
+
+Implementation
+
+High
+
+Architecture
+
+High
+
+Integration
+
+Medium
+
+Industry Expertise
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP ERP
+
+↓
+
+Infor ERP
+
+Medium
+
+---
+
+Oracle ERP Cloud
+
+↓
+
+Infor ERP
+
+Medium
+
+---
+
+Microsoft Dynamics 365
+
+↓
+
+Infor ERP
+
+Medium
+
+---
+
+IFS ERP
+
+↓
+
+Infor Manufacturing ERP
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Infor Product
+
+Industry
+
+Functional vs Technical
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+LN
+
+M3
+
+Lawson
+
+CloudSuite
+
+EAM
+
+ION
+
+OS
+
+Never assume one Infor product implies experience with another.
+
+Recognize enterprise CloudSuite implementations spanning multiple modules as stronger than isolated product support.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating all Infor products as one ERP.
+
+Confusing ERP user experience with implementation expertise.
+
+Matching candidates solely because they mention Infor.
+
+Ignoring industry specialization.
+
+Treating production support as implementation.
+
+Ignoring cloud migration experience.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+NEXT KNOWLEDGE FILES
+====================
+
+111_INFOR_LN.txt
+
+112_INFOR_M3.txt
+
+113_INFOR_CLOUDSUITE.txt
+
+114_INFOR_LAWSON.txt
+
+115_INFOR_EAM.txt
+
+116_INFOR_WMS.txt
+
+117_INFOR_SCM.txt
+
+118_INFOR_OS_ION.txt
+
+119_INFOR_BI_ANALYTICS.txt
+
+END_OF_FILE

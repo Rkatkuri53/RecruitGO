@@ -1,0 +1,661 @@
+FILE_NAME:
+117_INFOR_SCM.txt
+
+ID:
+117
+
+DOMAIN:
+Infor
+
+CATEGORY:
+Supply Chain Management (SCM)
+
+SUBCATEGORY:
+Infor Supply Chain Management
+
+PRIMARY_ROLE:
+Infor SCM Consultant
+
+RELATED_FILES:
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+111_INFOR_LN.txt
+
+112_INFOR_M3.txt
+
+113_INFOR_CLOUDSUITE.txt
+
+115_INFOR_EAM.txt
+
+116_INFOR_WMS.txt
+
+118_INFOR_OS_ION.txt
+
+119_INFOR_BI_ANALYTICS.txt
+
+013_CLOUD.txt
+
+VERSION:
+2.0
+
+CATEGORY:
+Infor Supply Chain Management
+
+PURPOSE:
+Enable AI agents to understand Infor Supply Chain Management (SCM), demand planning, supply planning, procurement, transportation, inventory optimization, sales & operations planning (S&OP), logistics, consultant responsibilities, implementation methodologies, and enterprise supply chain transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Infor SCM
+Infor Supply Chain
+Supply Chain Management
+Demand Planning
+Supply Planning
+Inventory Optimization
+Transportation Management
+Logistics
+Procurement
+S&OP
+APS
+Supplier Collaboration
+
+ROLE_FAMILIES:
+Infor SCM Functional Consultant
+
+Infor SCM Technical Consultant
+
+Supply Chain Consultant
+
+Planning Consultant
+
+Logistics Consultant
+
+Solution Architect
+
+COMMON_JOB_TITLES:
+Infor SCM Consultant
+
+Supply Chain Consultant
+
+Demand Planning Consultant
+
+Transportation Consultant
+
+Infor SCM Solution Architect
+
+ALTERNATIVE_TITLES:
+Supply Planning Consultant
+
+Logistics Systems Consultant
+
+Distribution Consultant
+
+CORE_SKILLS:
+Demand Planning
+
+Supply Planning
+
+Procurement
+
+Inventory Optimization
+
+Transportation
+
+Logistics
+
+Supplier Collaboration
+
+S&OP
+
+SUPPORTING_SKILLS:
+Forecasting
+
+Analytics
+
+SQL
+
+Integration
+
+APIs
+
+Reporting
+
+Security
+
+RELATED_TECHNOLOGIES:
+Infor SCM
+
+Infor OS
+
+Infor ION
+
+Infor WMS
+
+Infor M3
+
+Infor LN
+
+Transportation Management
+
+APS
+
+TECHNOLOGY_CATEGORY:
+Enterprise Supply Chain Platform
+
+DEPENDENCIES:
+
+013_CLOUD.txt
+
+110_INFOR_ENTERPRISE_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Infor Supply Chain Management (SCM) is Infor's suite of supply chain applications supporting demand planning, supply planning, inventory optimization, procurement, transportation, logistics and end-to-end supply chain collaboration.
+
+The platform enables organizations to optimize inventory levels, improve forecast accuracy, streamline logistics and increase supply chain visibility across manufacturing and distribution networks.
+
+==================================================
+CORE MODULES
+============
+
+Demand Planning
+
+Supply Planning
+
+Inventory Optimization
+
+Procurement
+
+Transportation
+
+Supplier Collaboration
+
+Logistics
+
+Analytics
+
+==================================================
+DEMAND PLANNING
+===============
+
+COMMON RESPONSIBILITIES
+
+Forecasting
+
+Demand Planning
+
+Statistical Forecasts
+
+Promotion Planning
+
+Demand Review
+
+==================================================
+SUPPLY PLANNING
+===============
+
+COMMON RESPONSIBILITIES
+
+Supply Plans
+
+Capacity Planning
+
+Production Planning
+
+Material Planning
+
+Scenario Planning
+
+==================================================
+PROCUREMENT
+===========
+
+COMMON RESPONSIBILITIES
+
+Strategic Sourcing
+
+Supplier Management
+
+Purchase Planning
+
+Contract Management
+
+Vendor Collaboration
+
+==================================================
+INVENTORY OPTIMIZATION
+======================
+
+COMMON RESPONSIBILITIES
+
+Safety Stock
+
+Replenishment
+
+Inventory Balancing
+
+ABC Classification
+
+Multi-Echelon Planning
+
+==================================================
+TRANSPORTATION & LOGISTICS
+==========================
+
+COMMON RESPONSIBILITIES
+
+Shipment Planning
+
+Carrier Selection
+
+Freight Optimization
+
+Route Planning
+
+Delivery Scheduling
+
+==================================================
+SUPPLIER COLLABORATION
+======================
+
+COMMON RESPONSIBILITIES
+
+Supplier Portals
+
+Purchase Commitments
+
+ASN Management
+
+Collaboration
+
+Performance Monitoring
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Plan-to-Produce
+
+Source-to-Pay
+
+Order Fulfillment
+
+Inventory Planning
+
+Transportation Execution
+
+Sales & Operations Planning
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Planning Parameters
+
+Calendars
+
+Organizations
+
+Suppliers
+
+Inventory Policies
+
+Security
+
+Workflows
+
+Users
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Supply Chain Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Migration
+
+↓
+
+Go-Live
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Supply Chain Transformation
+
+Planning Modernization
+
+Inventory Optimization
+
+Transportation Modernization
+
+Demand Planning
+
+Cloud Migration
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Infor LN
+
+Infor M3
+
+Infor WMS
+
+Infor OS
+
+Infor ION
+
+ERP Systems
+
+REST APIs
+
+EDI
+
+==================================================
+COMMON REPORTS
+==============
+
+Demand Forecast
+
+Inventory KPIs
+
+Transportation Reports
+
+Supplier Performance
+
+Planning Accuracy
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Supply Chain
+
+Planning Teams
+
+Procurement
+
+Logistics
+
+Manufacturing
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Planning
+
+*
+
+Supply Chain
+
+*
+
+Implementation
+
+Example
+
+("Infor SCM")
+
+AND
+
+(Demand OR Supply)
+
+AND
+
+(Planning OR Logistics)
+
+AND
+
+(Consultant OR Architect)
+
+Expand SCM terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Infor SCM
+
+Critical
+
+Demand Planning
+
+Critical
+
+Supply Planning
+
+High
+
+Inventory Optimization
+
+High
+
+Transportation
+
+High
+
+Procurement
+
+Medium
+
+Analytics
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP IBP
+
+↓
+
+Infor SCM
+
+Medium
+
+---
+
+Oracle SCM Cloud
+
+↓
+
+Infor SCM
+
+Medium
+
+---
+
+Blue Yonder
+
+↓
+
+Planning Platform
+
+Medium
+
+---
+
+Kinaxis RapidResponse
+
+↓
+
+Supply Planning
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Supply Chain Scope
+
+Planning Area
+
+Industry
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Demand Planning
+
+Supply Planning
+
+Transportation
+
+Inventory
+
+Supplier Collaboration
+
+S&OP
+
+Identify whether the consultant performed
+
+Assessment
+
+Configuration
+
+Planning Design
+
+Integration
+
+Testing
+
+Migration
+
+Deployment
+
+Support
+
+Recognize candidates with enterprise Infor SCM implementation, supply chain modernization, demand planning, transportation optimization, inventory optimization and enterprise planning transformation experience as senior Infor SCM consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating supply chain operations as Infor SCM implementation.
+
+Confusing procurement users with SCM consultants.
+
+Matching candidates solely because they mention logistics.
+
+Ignoring planning expertise.
+
+Treating inventory management as supply chain architecture.
+
+Ignoring transportation and S&OP capabilities.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Infor SCM
+
+↓
+
+Supply Chain Management
+
+Supply Chain
+
+---
+
+Planning
+
+↓
+
+Demand Planning
+
+Supply Planning
+
+Forecasting
+
+APS
+
+S&OP
+
+---
+
+Logistics
+
+↓
+
+Transportation
+
+Distribution
+
+Inventory
+
+Procurement
+
+Supplier Collaboration
+
+---
+
+Technology
+
+↓
+
+Infor OS
+
+ION
+
+Planning Analytics
+
+ERP Integration
+
+END_OF_FILE

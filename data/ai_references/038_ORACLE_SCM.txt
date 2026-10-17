@@ -1,0 +1,667 @@
+FILE_NAME:
+038_ORACLE_SCM.txt
+
+ID:
+038
+
+DOMAIN:
+Oracle
+
+CATEGORY:
+Enterprise Applications
+
+SUBCATEGORY:
+Oracle Supply Chain Management (Oracle SCM Cloud)
+
+PRIMARY_ROLE:
+Oracle SCM Consultant
+
+RELATED_FILES:
+
+035_ORACLE_PLATFORM.txt
+
+036_ORACLE_ERP.txt
+
+037_ORACLE_HCM.txt
+
+039_ORACLE_EPM.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+045_ORACLE_OCI.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Oracle SCM Cloud
+
+PURPOSE:
+Enable AI agents to understand Oracle SCM Cloud (Oracle Fusion SCM), including Procurement, Inventory Management, Order Management, Manufacturing, Logistics, Planning, Product Lifecycle Management (PLM), Warehouse Management, consultant responsibilities, implementation methodologies, and Oracle SCM transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Oracle SCM
+Oracle SCM Cloud
+Oracle Fusion SCM
+Oracle Supply Chain
+Oracle Procurement
+Oracle Inventory
+Oracle Manufacturing
+Oracle Logistics
+Oracle Order Management
+Oracle Warehouse Management
+Oracle PLM
+
+ROLE_FAMILIES:
+Oracle SCM Consultant
+Oracle Procurement Consultant
+Oracle Manufacturing Consultant
+Oracle Logistics Consultant
+Oracle Supply Chain Architect
+Oracle SCM Program Manager
+
+COMMON_JOB_TITLES:
+Oracle SCM Consultant
+Oracle Fusion SCM Consultant
+Oracle Procurement Consultant
+Oracle Inventory Consultant
+Oracle Manufacturing Consultant
+Oracle Logistics Consultant
+Oracle SCM Architect
+
+ALTERNATIVE_TITLES:
+Oracle Supply Chain Consultant
+Oracle Cloud SCM Consultant
+Oracle Operations Consultant
+
+CORE_SKILLS:
+Supply Chain Management
+
+Procurement
+
+Inventory
+
+Manufacturing
+
+Order Management
+
+Planning
+
+Warehouse Management
+
+Configuration
+
+SUPPORTING_SKILLS:
+Cloud
+
+Integration
+
+Reporting
+
+Analytics
+
+Security
+
+Project Management
+
+RELATED_TECHNOLOGIES:
+Oracle SCM Cloud
+
+Oracle Procurement Cloud
+
+Oracle Inventory Management
+
+Oracle Manufacturing
+
+Oracle Order Management
+
+Oracle Logistics
+
+Oracle Planning Central
+
+Oracle WMS
+
+Oracle Integration Cloud
+
+TECHNOLOGY_CATEGORY:
+Oracle SCM
+
+DEPENDENCIES:
+
+035_ORACLE_PLATFORM.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Oracle SCM Cloud (Oracle Fusion SCM) manages end-to-end supply chain operations from sourcing and procurement to manufacturing, inventory, logistics, warehousing, fulfillment and planning.
+
+It provides integrated supply chain visibility and supports digital transformation across procurement, production and logistics operations.
+
+==================================================
+CORE MODULES
+============
+
+Procurement
+
+Inventory Management
+
+Order Management
+
+Manufacturing
+
+Planning Central
+
+Supply Planning
+
+Demand Planning
+
+Product Lifecycle Management (PLM)
+
+Warehouse Management
+
+Logistics
+
+Maintenance
+
+Cost Management
+
+==================================================
+PROCUREMENT
+===========
+
+COMMON BUSINESS FUNCTIONS
+
+Supplier Management
+
+Purchase Requisitions
+
+Purchase Orders
+
+Supplier Qualification
+
+Strategic Sourcing
+
+Supplier Contracts
+
+Invoice Matching
+
+==================================================
+INVENTORY MANAGEMENT
+====================
+
+COMMON BUSINESS FUNCTIONS
+
+Inventory Organization
+
+Stock Management
+
+Cycle Counting
+
+Reservations
+
+Transfers
+
+Lot Control
+
+Serial Tracking
+
+==================================================
+ORDER MANAGEMENT
+================
+
+COMMON BUSINESS FUNCTIONS
+
+Sales Orders
+
+Order Fulfillment
+
+Returns
+
+Pricing
+
+Shipping
+
+Order Promising
+
+==================================================
+MANUFACTURING
+=============
+
+COMMON BUSINESS FUNCTIONS
+
+Work Orders
+
+Production Scheduling
+
+Shop Floor Execution
+
+Resource Management
+
+Material Consumption
+
+Production Reporting
+
+==================================================
+PLANNING CENTRAL
+================
+
+COMMON BUSINESS FUNCTIONS
+
+Demand Planning
+
+Supply Planning
+
+Inventory Planning
+
+Forecasting
+
+Planning Collections
+
+MRP
+
+==================================================
+WAREHOUSE MANAGEMENT
+====================
+
+COMMON BUSINESS FUNCTIONS
+
+Receiving
+
+Putaway
+
+Picking
+
+Packing
+
+Shipping
+
+Warehouse Tasks
+
+Cycle Counting
+
+==================================================
+LOGISTICS
+=========
+
+COMMON BUSINESS FUNCTIONS
+
+Transportation Planning
+
+Freight Management
+
+Carrier Management
+
+Shipment Tracking
+
+Delivery Scheduling
+
+==================================================
+PRODUCT LIFECYCLE MANAGEMENT
+============================
+
+COMMON BUSINESS FUNCTIONS
+
+Item Management
+
+Engineering Change Orders
+
+Product Structures
+
+Product Development
+
+Compliance
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Procure-to-Pay (P2P)
+
+Order-to-Cash (O2C)
+
+Plan-to-Produce (P2P)
+
+Demand-to-Supply
+
+Inventory Replenishment
+
+Warehouse Operations
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Inventory Organizations
+
+Business Units
+
+Cost Organizations
+
+Procurement Organizations
+
+Shipping Networks
+
+Approval Rules
+
+Warehouse Parameters
+
+Planning Parameters
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Requirements Gathering
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Configuration
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Oracle SCM Cloud Implementation
+
+Oracle EBS SCM Migration
+
+Supply Chain Transformation
+
+Manufacturing Modernization
+
+Warehouse Transformation
+
+Global Rollout
+
+Support
+
+Enhancement
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Oracle Integration Cloud (OIC)
+
+REST APIs
+
+SOAP
+
+File-Based Data Import (FBDI)
+
+Business Events
+
+Oracle Visual Builder
+
+==================================================
+COMMON REPORTS
+==============
+
+Inventory Reports
+
+Purchase Reports
+
+Supplier Reports
+
+Manufacturing Reports
+
+Warehouse Reports
+
+Planning Reports
+
+Order Fulfillment Reports
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Procurement Teams
+
+Supply Chain Teams
+
+Warehouse Teams
+
+Manufacturing Teams
+
+Operations Managers
+
+Inventory Controllers
+
+Logistics Teams
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Business Process
+
+*
+
+Implementation
+
+Example
+
+("Oracle SCM" OR "Oracle Fusion SCM")
+
+AND
+
+(Procurement OR Inventory OR Manufacturing)
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+(Migration OR Transformation)
+
+Expand Oracle SCM modules only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Oracle SCM Experience
+
+Critical
+
+Supply Chain Processes
+
+Critical
+
+Procurement
+
+High
+
+Inventory Management
+
+High
+
+Manufacturing
+
+High
+
+Configuration
+
+High
+
+Cloud Experience
+
+High
+
+Integration
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle EBS SCM
+
+↓
+
+Oracle SCM Cloud
+
+High
+
+---
+
+SAP MM
+
+↓
+
+Oracle Procurement
+
+Low
+
+---
+
+SAP PP
+
+↓
+
+Oracle Manufacturing
+
+Low
+
+---
+
+SAP EWM
+
+↓
+
+Oracle Warehouse Management
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Oracle SCM Version
+
+Business Module
+
+Cloud vs On-Premises
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Procurement
+
+Inventory
+
+Manufacturing
+
+Warehouse
+
+Planning
+
+Logistics
+
+Support
+
+Implementation
+
+Migration
+
+Transformation
+
+Identify whether the consultant performed
+
+Business Analysis
+
+Configuration
+
+Testing
+
+Data Migration
+
+Cutover
+
+Hypercare
+
+Production Support
+
+Recognize candidates with Oracle SCM Cloud implementation, Oracle EBS-to-SCM Cloud migration, planning, manufacturing and warehouse transformation experience as higher-value for modern Oracle SCM transformation programs.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Oracle SCM as Oracle ERP Financials.
+
+Confusing Procurement with Inventory Management.
+
+Matching candidates solely because they mention Oracle SCM.
+
+Ignoring module specialization.
+
+Treating supply chain business experience as Oracle SCM implementation experience.
+
+Ignoring implementation methodology.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

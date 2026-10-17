@@ -1,0 +1,652 @@
+FILE_NAME:
+064_SERVICENOW_GRC_IRM.txt
+
+ID:
+064
+
+DOMAIN:
+ServiceNow
+
+CATEGORY:
+Enterprise Platform
+
+SUBCATEGORY:
+ServiceNow Integrated Risk Management (IRM) / Governance, Risk & Compliance (GRC)
+
+PRIMARY_ROLE:
+ServiceNow IRM Consultant
+
+RELATED_FILES:
+
+057_SERVICENOW_PLATFORM.txt
+
+058_SERVICENOW_ITSM.txt
+
+059_SERVICENOW_ITOM.txt
+
+063_SERVICENOW_SPM_PPM.txt
+
+065_SERVICENOW_SECOPS.txt
+
+066_SERVICENOW_PLATFORM_DEVELOPMENT.txt
+
+067_SERVICENOW_INTEGRATION.txt
+
+015_CYBERSECURITY.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+ServiceNow Integrated Risk Management (IRM)
+
+PURPOSE:
+Enable AI agents to understand ServiceNow Integrated Risk Management (IRM), formerly Governance, Risk & Compliance (GRC), including policy management, enterprise risk management, audit management, compliance management, vendor risk, business continuity, consultant responsibilities, implementation methodologies, and IRM transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+ServiceNow IRM
+ServiceNow GRC
+Governance Risk Compliance
+Enterprise Risk Management
+Policy Management
+Compliance Management
+Audit Management
+Vendor Risk
+Business Continuity
+Operational Resilience
+
+ROLE_FAMILIES:
+ServiceNow IRM Consultant
+ServiceNow GRC Consultant
+Risk Consultant
+Compliance Consultant
+ServiceNow Solution Architect
+Cyber Risk Consultant
+
+COMMON_JOB_TITLES:
+ServiceNow IRM Consultant
+ServiceNow GRC Consultant
+Risk Management Consultant
+Compliance Consultant
+IRM Solution Architect
+
+ALTERNATIVE_TITLES:
+Governance Consultant
+Enterprise Risk Consultant
+Operational Risk Consultant
+
+CORE_SKILLS:
+Enterprise Risk Management
+
+Policy Management
+
+Compliance
+
+Audit Management
+
+Vendor Risk
+
+Business Continuity
+
+Workflow Automation
+
+Configuration
+
+SUPPORTING_SKILLS:
+Reporting
+
+REST APIs
+
+Integration
+
+Security
+
+Regulatory Compliance
+
+Analytics
+
+RELATED_TECHNOLOGIES:
+ServiceNow IRM
+
+Policy & Compliance
+
+Risk Management
+
+Audit Management
+
+Vendor Risk
+
+Business Continuity
+
+Performance Analytics
+
+IntegrationHub
+
+TECHNOLOGY_CATEGORY:
+Governance & Risk Platform
+
+DEPENDENCIES:
+
+015_CYBERSECURITY.txt
+
+057_SERVICENOW_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+ServiceNow Integrated Risk Management (IRM), formerly Governance, Risk & Compliance (GRC), enables organizations to identify, assess, monitor and mitigate enterprise risks while ensuring regulatory compliance and operational resilience.
+
+It provides integrated workflows for policy management, audit, compliance, operational risk and third-party risk.
+
+==================================================
+CORE MODULES
+============
+
+Policy & Compliance
+
+Risk Management
+
+Audit Management
+
+Vendor Risk Management
+
+Business Continuity Management
+
+Operational Resilience
+
+==================================================
+POLICY & COMPLIANCE
+===================
+
+COMMON RESPONSIBILITIES
+
+Policy Creation
+
+Policy Lifecycle
+
+Control Mapping
+
+Compliance Assessments
+
+Evidence Collection
+
+Attestations
+
+==================================================
+RISK MANAGEMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+Risk Register
+
+Risk Assessments
+
+Risk Scoring
+
+Risk Treatment
+
+Risk Monitoring
+
+Key Risk Indicators
+
+==================================================
+AUDIT MANAGEMENT
+================
+
+COMMON RESPONSIBILITIES
+
+Audit Planning
+
+Audit Execution
+
+Findings
+
+Remediation
+
+Audit Evidence
+
+Audit Reporting
+
+==================================================
+VENDOR RISK MANAGEMENT
+======================
+
+COMMON RESPONSIBILITIES
+
+Vendor Assessments
+
+Third-Party Risk
+
+Questionnaires
+
+Risk Scoring
+
+Continuous Monitoring
+
+==================================================
+BUSINESS CONTINUITY
+===================
+
+COMMON RESPONSIBILITIES
+
+Business Impact Analysis
+
+Recovery Planning
+
+Disaster Recovery Planning
+
+Continuity Testing
+
+Resilience Planning
+
+==================================================
+OPERATIONAL RESILIENCE
+======================
+
+COMMON RESPONSIBILITIES
+
+Critical Business Services
+
+Impact Tolerance
+
+Scenario Testing
+
+Resilience Reporting
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Risk Assessment
+
+Compliance Monitoring
+
+Audit Lifecycle
+
+Policy Management
+
+Third-Party Risk
+
+Business Continuity Planning
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Risk Taxonomy
+
+Policies
+
+Controls
+
+Assessments
+
+Questionnaires
+
+Dashboards
+
+Notifications
+
+Approval Workflows
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Risk Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+Training
+
+↓
+
+Go-Live
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+IRM Implementation
+
+GRC Modernization
+
+Risk Transformation
+
+Compliance Automation
+
+Vendor Risk Management
+
+Operational Resilience
+
+Global Governance Programs
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+ServiceNow SecOps
+
+SIEM Platforms
+
+Identity Platforms
+
+CMDB
+
+REST APIs
+
+Microsoft Teams
+
+Power BI
+
+RSA Archer
+
+==================================================
+COMMON REPORTS
+==============
+
+Risk Dashboards
+
+Compliance Status
+
+Audit Findings
+
+Vendor Risk
+
+Control Effectiveness
+
+Executive Risk Reports
+
+Operational Resilience KPIs
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Risk Managers
+
+Compliance Teams
+
+Internal Audit
+
+Security Teams
+
+Executives
+
+Business Owners
+
+Governance Teams
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Risk
+
+*
+
+Compliance
+
+*
+
+Audit
+
+Example
+
+(ServiceNow)
+
+AND
+
+(IRM OR GRC)
+
+AND
+
+(Risk OR Compliance)
+
+AND
+
+(Audit OR Policy)
+
+Expand IRM terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+ServiceNow IRM
+
+Critical
+
+Risk Management
+
+Critical
+
+Compliance
+
+High
+
+Audit Management
+
+High
+
+Vendor Risk
+
+High
+
+Business Continuity
+
+Medium
+
+Integration
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+RSA Archer
+
+↓
+
+ServiceNow IRM
+
+High
+
+---
+
+MetricStream
+
+↓
+
+ServiceNow IRM
+
+High
+
+---
+
+OneTrust
+
+↓
+
+ServiceNow IRM
+
+Medium
+
+---
+
+SAP GRC
+
+↓
+
+ServiceNow IRM
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+IRM Module
+
+Risk Domain
+
+Compliance Framework
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+IRM
+
+GRC
+
+Audit
+
+Vendor Risk
+
+Operational Resilience
+
+Business Continuity
+
+Identify whether the consultant performed
+
+Risk Framework Design
+
+Policy Configuration
+
+Assessment Configuration
+
+Workflow Automation
+
+Reporting
+
+Integration
+
+Testing
+
+Deployment
+
+Recognize candidates with enterprise IRM implementation, GRC modernization, policy management, audit automation, vendor risk management and operational resilience experience as senior ServiceNow IRM consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating IRM as SecOps.
+
+Confusing governance with cybersecurity operations.
+
+Matching candidates solely because they mention GRC.
+
+Ignoring enterprise risk management expertise.
+
+Treating ISO audit experience as ServiceNow IRM implementation.
+
+Ignoring policy lifecycle and control management.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+IRM
+
+↓
+
+Integrated Risk Management
+
+GRC
+
+Governance Risk Compliance
+
+---
+
+Risk
+
+↓
+
+Risk Register
+
+Risk Assessment
+
+KRIs
+
+Risk Treatment
+
+---
+
+Compliance
+
+↓
+
+Policies
+
+Controls
+
+Assessments
+
+Evidence
+
+Attestations
+
+---
+
+Audit
+
+↓
+
+Findings
+
+Remediation
+
+Internal Audit
+
+External Audit
+
+Vendor Risk
+
+END_OF_FILE

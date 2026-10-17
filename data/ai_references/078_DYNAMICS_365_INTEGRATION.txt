@@ -1,0 +1,644 @@
+FILE_NAME:
+078_DYNAMICS_365_INTEGRATION.txt
+
+ID:
+078
+
+DOMAIN:
+Microsoft Dynamics 365
+
+CATEGORY:
+Enterprise Integration
+
+SUBCATEGORY:
+Dynamics 365 Integration
+
+PRIMARY_ROLE:
+Dynamics 365 Integration Consultant
+
+RELATED_FILES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+070_DYNAMICS_365_FINANCE_OPERATIONS.txt
+
+071_DYNAMICS_365_BUSINESS_CENTRAL.txt
+
+072_DYNAMICS_365_CRM_SALES.txt
+
+073_DYNAMICS_365_CUSTOMER_SERVICE.txt
+
+074_DYNAMICS_365_FIELD_SERVICE.txt
+
+075_DYNAMICS_365_MARKETING.txt
+
+076_DYNAMICS_365_POWER_PLATFORM.txt
+
+077_DYNAMICS_365_DEVELOPMENT.txt
+
+079_DYNAMICS_365_DATA_AI.txt
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Dynamics 365 Integration
+
+PURPOSE:
+Enable AI agents to understand Microsoft Dynamics 365 enterprise integrations, Dataverse integration, Azure Integration Services, Microsoft Graph, Power Platform connectors, event-driven architecture, APIs, middleware, enterprise application integration, and integration consultant responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Dynamics 365 Integration
+Dataverse
+Azure Integration Services
+Logic Apps
+Service Bus
+Event Grid
+API Management
+Microsoft Graph
+REST API
+OData
+Dual Write
+Virtual Tables
+Power Automate
+
+ROLE_FAMILIES:
+Dynamics Integration Consultant
+
+Integration Architect
+
+Technical Consultant
+
+Solution Architect
+
+Azure Integration Consultant
+
+Enterprise Integration Consultant
+
+COMMON_JOB_TITLES:
+Dynamics 365 Integration Consultant
+
+Dynamics Technical Architect
+
+Integration Architect
+
+Azure Integration Consultant
+
+Enterprise Integration Consultant
+
+ALTERNATIVE_TITLES:
+Microsoft Business Applications Integration Consultant
+
+API Integration Consultant
+
+Cloud Integration Architect
+
+CORE_SKILLS:
+REST APIs
+
+OData
+
+Dataverse
+
+Azure Integration
+
+Logic Apps
+
+Service Bus
+
+Power Automate
+
+Enterprise Integration
+
+SUPPORTING_SKILLS:
+Microsoft Graph
+
+JSON
+
+OAuth
+
+Azure Functions
+
+Event Grid
+
+DevOps
+
+Security
+
+RELATED_TECHNOLOGIES:
+Azure Logic Apps
+
+Azure Service Bus
+
+Azure Functions
+
+API Management
+
+Microsoft Graph
+
+Power Platform
+
+Dataverse
+
+Dual Write
+
+Virtual Tables
+
+TECHNOLOGY_CATEGORY:
+Enterprise Integration Platform
+
+DEPENDENCIES:
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Dynamics 365 Integration connects Microsoft business applications with enterprise systems, cloud services, on-premises platforms, and third-party applications using Azure Integration Services, Dataverse, APIs and event-driven architecture.
+
+Modern Dynamics integrations prioritize scalable, loosely coupled and cloud-native integration patterns.
+
+==================================================
+INTEGRATION ARCHITECTURE
+========================
+
+Enterprise Systems
+
+↓
+
+Azure Integration Services
+
+↓
+
+API Management
+
+↓
+
+Dataverse
+
+↓
+
+Dynamics 365
+
+↓
+
+Power Platform
+
+==================================================
+CORE INTEGRATION COMPONENTS
+===========================
+
+REST APIs
+
+OData
+
+Dataverse
+
+Azure Logic Apps
+
+Azure Service Bus
+
+Azure Functions
+
+API Management
+
+Microsoft Graph
+
+Power Automate
+
+==================================================
+AZURE INTEGRATION SERVICES
+==========================
+
+COMMON RESPONSIBILITIES
+
+Logic Apps
+
+Service Bus
+
+Event Grid
+
+API Management
+
+Integration Workflows
+
+Hybrid Connectivity
+
+==================================================
+DATAVERSE INTEGRATION
+=====================
+
+COMMON RESPONSIBILITIES
+
+Dual Write
+
+Virtual Tables
+
+Business Events
+
+Data Synchronization
+
+Environment Strategy
+
+==================================================
+API INTEGRATION
+===============
+
+COMMON RESPONSIBILITIES
+
+REST APIs
+
+OData
+
+Authentication
+
+OAuth
+
+CRUD Operations
+
+Webhooks
+
+==================================================
+MICROSOFT GRAPH
+===============
+
+COMMON RESPONSIBILITIES
+
+Microsoft 365 Integration
+
+Teams
+
+Outlook
+
+Users
+
+Calendars
+
+Files
+
+==================================================
+POWER PLATFORM CONNECTIVITY
+===========================
+
+COMMON RESPONSIBILITIES
+
+Power Automate
+
+Connectors
+
+Custom Connectors
+
+Dataverse Triggers
+
+Business Automation
+
+==================================================
+DATA INTEGRATION
+================
+
+COMMON RESPONSIBILITIES
+
+Data Migration
+
+Data Import
+
+Data Export
+
+ETL
+
+Bulk Operations
+
+Master Data Synchronization
+
+==================================================
+COMMON INTEGRATION TARGETS
+==========================
+
+SAP
+
+Oracle ERP
+
+Salesforce
+
+ServiceNow
+
+Workday
+
+Microsoft 365
+
+SharePoint
+
+Azure
+
+SQL Server
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Architecture Design
+
+↓
+
+API Design
+
+↓
+
+Development
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Monitoring
+
+↓
+
+Support
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+ERP Integration
+
+CRM Integration
+
+Cloud Integration
+
+Digital Transformation
+
+Enterprise API Modernization
+
+Hybrid Integration
+
+Data Synchronization
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Integration
+
+*
+
+Azure
+
+*
+
+API
+
+Example
+
+("Dynamics 365")
+
+AND
+
+(Azure OR Dataverse)
+
+AND
+
+("Logic Apps" OR "Service Bus")
+
+AND
+
+(Integration)
+
+Expand Azure integration technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Dynamics Integration
+
+Critical
+
+Azure Integration Services
+
+Critical
+
+Dataverse
+
+High
+
+REST APIs
+
+High
+
+Logic Apps
+
+High
+
+Service Bus
+
+Medium
+
+Microsoft Graph
+
+Medium
+
+Architecture
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+MuleSoft
+
+↓
+
+Azure Integration
+
+Medium
+
+---
+
+Dell Boomi
+
+↓
+
+Logic Apps
+
+Medium
+
+---
+
+Informatica
+
+↓
+
+Data Integration
+
+Medium
+
+---
+
+SAP PI/PO
+
+↓
+
+Azure Integration
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Integration Pattern
+
+Azure Service
+
+Authentication Method
+
+Architecture Style
+
+Project Type
+
+Differentiate
+
+Logic Apps
+
+Service Bus
+
+API Management
+
+Dataverse
+
+Dual Write
+
+Microsoft Graph
+
+Identify whether the consultant performed
+
+Architecture Design
+
+API Development
+
+Azure Integration
+
+Data Synchronization
+
+Testing
+
+Deployment
+
+Monitoring
+
+Support
+
+Recognize candidates with enterprise Azure Integration Services implementation, Dataverse integration, Dual Write, API Management, Logic Apps, Microsoft Graph and hybrid cloud integration experience as senior Dynamics Integration consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating REST API experience as complete Dynamics integration expertise.
+
+Confusing Dataverse with SQL Server.
+
+Matching candidates solely because they mention Azure.
+
+Ignoring Azure Integration Services architecture.
+
+Treating Power Automate experience as enterprise integration expertise.
+
+Ignoring Dual Write and Virtual Tables.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Azure Integration
+
+↓
+
+Logic Apps
+
+Service Bus
+
+Event Grid
+
+API Management
+
+Azure Functions
+
+---
+
+Dataverse
+
+↓
+
+Dual Write
+
+Virtual Tables
+
+Business Events
+
+Data Synchronization
+
+---
+
+API
+
+↓
+
+REST
+
+OData
+
+OAuth
+
+JSON
+
+Webhooks
+
+---
+
+Microsoft 365
+
+↓
+
+Microsoft Graph
+
+Teams
+
+Outlook
+
+SharePoint
+
+Users
+
+END_OF_FILE

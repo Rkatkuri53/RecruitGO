@@ -1,0 +1,691 @@
+FILE_NAME:
+035_ORACLE_PLATFORM.txt
+
+ID:
+035
+
+DOMAIN:
+Oracle
+
+CATEGORY:
+Enterprise Applications
+
+SUBCATEGORY:
+Oracle Enterprise Platform
+
+PRIMARY_ROLE:
+Oracle ERP Consultant
+
+RELATED_FILES:
+
+018_ENTERPRISE_PLATFORMS.txt
+
+036_ORACLE_ERP.txt
+
+037_ORACLE_HCM.txt
+
+038_ORACLE_SCM.txt
+
+039_ORACLE_EPM.txt
+
+040_ORACLE_CX.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+042_ORACLE_DATABASE.txt
+
+043_ORACLE_APEX.txt
+
+044_ORACLE_FUSION_MIDDLEWARE.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Oracle Enterprise Platform
+
+PURPOSE:
+Enable AI agents to understand the Oracle Enterprise Applications ecosystem, Oracle Cloud Applications, Oracle ERP, Oracle HCM, Oracle SCM, Oracle CX, Oracle EPM, Oracle Integration Cloud (OIC), Oracle Fusion Middleware, implementation methodologies, consultant roles, cloud deployment models, and enterprise transformation programs. This file serves as the master index for all Oracle platform-related knowledge cards.
+
+KEYWORDS:
+Oracle
+Oracle Fusion
+Oracle Cloud Applications
+Oracle ERP
+Oracle HCM
+Oracle SCM
+Oracle CX
+Oracle EPM
+Oracle Fusion Applications
+Oracle Cloud ERP
+
+ROLE_FAMILIES:
+Oracle Functional Consultant
+Oracle Technical Consultant
+Oracle Cloud Consultant
+Oracle Solution Architect
+Oracle Enterprise Architect
+Oracle Program Manager
+Oracle Integration Consultant
+Oracle Database Consultant
+
+COMMON_JOB_TITLES:
+Oracle ERP Consultant
+Oracle Fusion Consultant
+Oracle Cloud Consultant
+Oracle Functional Consultant
+Oracle Technical Consultant
+Oracle Solution Architect
+
+ALTERNATIVE_TITLES:
+Oracle Applications Consultant
+Oracle Enterprise Applications Consultant
+Oracle Fusion Applications Consultant
+
+CORE_SKILLS:
+Business Process Analysis
+
+Configuration
+
+Customization
+
+Integration
+
+Implementation
+
+Testing
+
+Data Migration
+
+Cloud Transformation
+
+SUPPORTING_SKILLS:
+Project Management
+
+Cloud
+
+Security
+
+Reporting
+
+APIs
+
+Change Management
+
+RELATED_TECHNOLOGIES:
+Oracle ERP Cloud
+
+Oracle HCM Cloud
+
+Oracle SCM Cloud
+
+Oracle CX Cloud
+
+Oracle EPM Cloud
+
+Oracle Integration Cloud
+
+Oracle Fusion Middleware
+
+Oracle Database
+
+Oracle OCI
+
+TECHNOLOGY_CATEGORY:
+Enterprise Applications
+
+DEPENDENCIES:
+
+018_ENTERPRISE_PLATFORMS.txt
+
+013_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Oracle Enterprise Applications is Oracle's integrated suite of cloud and enterprise business applications used to manage finance, procurement, supply chain, human resources, customer experience, projects, manufacturing and enterprise performance.
+
+Oracle provides both legacy on-premises enterprise applications and modern Oracle Fusion Cloud Applications.
+
+==================================================
+MAJOR ORACLE PLATFORMS
+======================
+
+Oracle ERP Cloud
+
+Oracle HCM Cloud
+
+Oracle SCM Cloud
+
+Oracle CX Cloud
+
+Oracle EPM Cloud
+
+Oracle Procurement Cloud
+
+Oracle Project Management Cloud
+
+Oracle Field Service
+
+Oracle NetSuite
+
+Oracle Fusion Middleware
+
+Oracle Database
+
+Oracle Cloud Infrastructure (OCI)
+
+==================================================
+PLATFORM CATEGORIES
+===================
+
+ERP
+
+Finance
+
+Procurement
+
+Projects
+
+---
+
+HCM
+
+Human Resources
+
+Payroll
+
+Recruitment
+
+Learning
+
+Talent Management
+
+---
+
+SCM
+
+Supply Chain
+
+Inventory
+
+Manufacturing
+
+Logistics
+
+Order Management
+
+---
+
+CX
+
+Sales
+
+Marketing
+
+Service
+
+Customer Experience
+
+---
+
+EPM
+
+Planning
+
+Budgeting
+
+Forecasting
+
+Financial Consolidation
+
+==================================================
+DEPLOYMENT MODELS
+=================
+
+Oracle Cloud (Fusion)
+
+Hybrid
+
+On-Premises
+
+Oracle Cloud Infrastructure (OCI)
+
+Multi-Cloud
+
+==================================================
+COMMON IMPLEMENTATION LIFECYCLE
+===============================
+
+Discovery
+
+↓
+
+Requirements Gathering
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+↓
+
+Support
+
+==================================================
+CONSULTANT TYPES
+================
+
+Functional Consultant
+
+↓
+
+Business Processes
+
+Configuration
+
+---
+
+Technical Consultant
+
+↓
+
+Development
+
+Integration
+
+Reports
+
+---
+
+Integration Consultant
+
+↓
+
+OIC
+
+REST APIs
+
+SOAP
+
+Middleware
+
+---
+
+Cloud Consultant
+
+↓
+
+OCI
+
+Cloud Architecture
+
+Automation
+
+---
+
+Solution Architect
+
+↓
+
+End-to-End Solution Design
+
+---
+
+Program Manager
+
+↓
+
+Governance
+
+Delivery
+
+Budget
+
+Risk Management
+
+==================================================
+COMMON RESPONSIBILITIES
+=======================
+
+Business Workshops
+
+Requirements Analysis
+
+Configuration
+
+Customization
+
+Integration
+
+Testing
+
+Reporting
+
+Data Migration
+
+Cutover
+
+Go-Live Support
+
+Production Support
+
+==================================================
+COMMON BUSINESS DOMAINS
+=======================
+
+Finance
+
+Procurement
+
+Supply Chain
+
+Manufacturing
+
+Projects
+
+Human Resources
+
+Payroll
+
+Sales
+
+Customer Service
+
+Asset Management
+
+==================================================
+INTEGRATION METHODS
+===================
+
+REST APIs
+
+SOAP
+
+Oracle Integration Cloud (OIC)
+
+File-Based Data Import (FBDI)
+
+Business Events
+
+Oracle Visual Builder
+
+BPEL
+
+EDI
+
+==================================================
+CLOUD SERVICES
+==============
+
+Oracle Cloud Infrastructure (OCI)
+
+Oracle Autonomous Database
+
+Oracle Integration Cloud
+
+Oracle Identity Cloud Service
+
+Oracle Analytics Cloud
+
+Oracle AI Services
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Greenfield Implementation
+
+Cloud Migration
+
+Legacy Modernization
+
+Global Rollout
+
+Upgrade
+
+Enhancement
+
+Support
+
+Business Transformation
+
+Digital Transformation
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Role
+
+*
+
+Implementation Type
+
+Example
+
+("Oracle ERP" OR "Oracle Fusion")
+
+AND
+
+(Consultant OR Architect)
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+(Migration OR Transformation)
+
+Expand Oracle product names only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Oracle Platform Experience
+
+Critical
+
+Module Experience
+
+Critical
+
+Implementation Experience
+
+Critical
+
+Business Process Knowledge
+
+High
+
+Integration
+
+High
+
+Cloud Experience
+
+High
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle EBS
+
+↓
+
+Oracle Fusion Cloud
+
+Medium
+
+---
+
+On-Premises Oracle
+
+↓
+
+Oracle Cloud
+
+Medium
+
+---
+
+SAP ERP
+
+↓
+
+Oracle ERP
+
+Low
+
+---
+
+Workday HCM
+
+↓
+
+Oracle HCM
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Platform
+
+Module
+
+Deployment Model
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Oracle EBS
+
+Oracle Fusion Cloud
+
+Oracle NetSuite
+
+Oracle Cloud Applications
+
+Never assume Oracle Database experience equals Oracle ERP experience.
+
+Differentiate
+
+Functional
+
+Technical
+
+Integration
+
+Architecture
+
+Program Management
+
+Recognize Oracle Fusion Cloud implementation experience as more valuable than legacy Oracle EBS when the JD targets modern cloud transformations.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Oracle Database and Oracle ERP as the same skill.
+
+Confusing Oracle Fusion with Oracle Fusion Middleware.
+
+Matching candidates solely because they mention Oracle.
+
+Ignoring cloud implementation experience.
+
+Treating Oracle EBS and Oracle Fusion Cloud as identical.
+
+Ignoring business process ownership.
+
+Assuming certification equals implementation experience.
+
+==================================================
+NEXT KNOWLEDGE FILES
+====================
+
+036_ORACLE_ERP.txt
+
+037_ORACLE_HCM.txt
+
+038_ORACLE_SCM.txt
+
+039_ORACLE_EPM.txt
+
+040_ORACLE_CX.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+042_ORACLE_DATABASE.txt
+
+043_ORACLE_APEX.txt
+
+044_ORACLE_FUSION_MIDDLEWARE.txt
+
+045_ORACLE_OCI.txt
+
+END_OF_FILE

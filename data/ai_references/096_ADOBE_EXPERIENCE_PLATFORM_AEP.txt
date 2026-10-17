@@ -1,0 +1,696 @@
+FILE_NAME:
+096_ADOBE_EXPERIENCE_PLATFORM_AEP.txt
+
+ID:
+096
+
+DOMAIN:
+Adobe
+
+CATEGORY:
+Customer Data Platform (CDP)
+
+SUBCATEGORY:
+Adobe Experience Platform (AEP)
+
+PRIMARY_ROLE:
+Adobe Experience Platform Consultant
+
+RELATED_FILES:
+
+090_ADOBE_EXPERIENCE_CLOUD_PLATFORM.txt
+
+091_ADOBE_EXPERIENCE_MANAGER_AEM.txt
+
+092_ADOBE_ANALYTICS.txt
+
+093_ADOBE_CAMPAIGN.txt
+
+094_ADOBE_TARGET.txt
+
+095_ADOBE_COMMERCE_MAGENTO.txt
+
+097_ADOBE_MARKETO.txt
+
+098_ADOBE_DEVELOPMENT.txt
+
+099_ADOBE_INTEGRATION.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+013_CLOUD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Adobe Experience Platform (AEP)
+
+PURPOSE:
+Enable AI agents to understand Adobe Experience Platform (AEP), Real-Time Customer Data Platform (RT-CDP), Journey Optimizer, Customer Journey Analytics, identity resolution, profile management, segmentation, data ingestion, governance, AI services, consultant responsibilities, implementation methodologies, and enterprise customer data transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Adobe Experience Platform
+AEP
+Real-Time CDP
+RTCDP
+Journey Optimizer
+Customer Journey Analytics
+Identity Service
+Profile Service
+XDM
+Experience Data Model
+Data Lake
+Streaming Ingestion
+Batch Ingestion
+
+ROLE_FAMILIES:
+Adobe Experience Platform Consultant
+
+CDP Consultant
+
+Data Platform Consultant
+
+Adobe Solution Architect
+
+Customer Data Architect
+
+Data Integration Consultant
+
+COMMON_JOB_TITLES:
+Adobe Experience Platform Consultant
+
+Adobe CDP Consultant
+
+AEP Solution Architect
+
+Adobe Data Architect
+
+Adobe RT-CDP Consultant
+
+ALTERNATIVE_TITLES:
+Customer Data Platform Consultant
+
+Customer Data Architect
+
+Digital Data Consultant
+
+CORE_SKILLS:
+Adobe Experience Platform
+
+Real-Time CDP
+
+Identity Resolution
+
+Customer Profiles
+
+Journey Optimizer
+
+Segmentation
+
+XDM
+
+Data Governance
+
+SUPPORTING_SKILLS:
+Streaming Data
+
+Batch Ingestion
+
+APIs
+
+Cloud
+
+SQL
+
+Python
+
+AI
+
+RELATED_TECHNOLOGIES:
+Adobe Experience Platform
+
+Real-Time CDP
+
+Journey Optimizer
+
+Customer Journey Analytics
+
+Identity Service
+
+Profile Service
+
+Query Service
+
+Data Distiller
+
+AI Assistant
+
+TECHNOLOGY_CATEGORY:
+Enterprise Customer Data Platform
+
+DEPENDENCIES:
+
+013_CLOUD.txt
+
+016_DATA_ENGINEERING_AI_ML.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Adobe Experience Platform (AEP) is Adobe's enterprise customer data platform that unifies customer data from multiple sources into real-time customer profiles for analytics, personalization and customer journey orchestration.
+
+AEP serves as the data foundation for multiple Adobe Experience Cloud products including Adobe Target, Adobe Campaign, Customer Journey Analytics and Journey Optimizer.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Real-Time CDP
+
+Identity Service
+
+Profile Service
+
+Journey Optimizer
+
+Customer Journey Analytics
+
+Query Service
+
+Data Lake
+
+AI Services
+
+==================================================
+REAL-TIME CDP
+=============
+
+COMMON RESPONSIBILITIES
+
+Unified Customer Profiles
+
+Audience Activation
+
+Customer Segmentation
+
+Profile Stitching
+
+Activation Destinations
+
+==================================================
+IDENTITY SERVICE
+================
+
+COMMON RESPONSIBILITIES
+
+Identity Resolution
+
+Identity Graph
+
+Cross-Device Identity
+
+Customer Identity
+
+Profile Unification
+
+==================================================
+PROFILE SERVICE
+===============
+
+COMMON RESPONSIBILITIES
+
+Real-Time Profiles
+
+Profile Merge
+
+Behavior History
+
+Customer Attributes
+
+Profile APIs
+
+==================================================
+JOURNEY OPTIMIZER
+=================
+
+COMMON RESPONSIBILITIES
+
+Customer Journeys
+
+Real-Time Triggers
+
+Journey Orchestration
+
+Personalized Engagement
+
+Cross-Channel Messaging
+
+==================================================
+CUSTOMER JOURNEY ANALYTICS
+==========================
+
+COMMON RESPONSIBILITIES
+
+Cross-Channel Analytics
+
+Journey Reporting
+
+Customer Path Analysis
+
+Behavior Analytics
+
+Experience Metrics
+
+==================================================
+DATA INGESTION
+==============
+
+COMMON RESPONSIBILITIES
+
+Batch Ingestion
+
+Streaming Ingestion
+
+Connectors
+
+APIs
+
+Source Systems
+
+Validation
+
+==================================================
+XDM (EXPERIENCE DATA MODEL)
+===========================
+
+COMMON RESPONSIBILITIES
+
+Schema Design
+
+Data Modeling
+
+Standardization
+
+Governance
+
+Schema Evolution
+
+==================================================
+DATA GOVERNANCE
+===============
+
+COMMON RESPONSIBILITIES
+
+Data Usage Policies
+
+Consent
+
+Privacy
+
+Labels
+
+Compliance
+
+Access Controls
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Customer Data Collection
+
+Identity Resolution
+
+Audience Segmentation
+
+Journey Orchestration
+
+Personalization
+
+Customer Analytics
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Schemas
+
+Datasets
+
+Identities
+
+Profiles
+
+Segments
+
+Destinations
+
+Policies
+
+Security
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Data Assessment
+
+↓
+
+XDM Design
+
+↓
+
+Data Ingestion
+
+↓
+
+Identity Configuration
+
+↓
+
+Testing
+
+↓
+
+Activation
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Customer Data Platform
+
+Customer 360
+
+Identity Resolution
+
+Journey Modernization
+
+Marketing Transformation
+
+Enterprise Personalization
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Adobe Analytics
+
+Adobe Target
+
+Adobe Campaign
+
+Adobe Commerce
+
+CRM
+
+ERP
+
+REST APIs
+
+Streaming Platforms
+
+==================================================
+COMMON_REPORTS
+==============
+
+Audience Reports
+
+Customer Profile Reports
+
+Journey Analytics
+
+Segmentation Reports
+
+Identity Reports
+
+Executive Customer Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Marketing Teams
+
+Data Engineers
+
+Data Architects
+
+Customer Experience Teams
+
+Digital Teams
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Customer Data
+
+*
+
+Profiles
+
+*
+
+Journey
+
+Example
+
+("Adobe Experience Platform" OR AEP)
+
+AND
+
+("Real-Time CDP" OR XDM)
+
+AND
+
+("Journey Optimizer" OR Identity)
+
+AND
+
+(Consultant OR Architect)
+
+Expand AEP terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Adobe Experience Platform
+
+Critical
+
+Real-Time CDP
+
+Critical
+
+XDM
+
+High
+
+Journey Optimizer
+
+High
+
+Identity Service
+
+High
+
+Customer Journey Analytics
+
+Medium
+
+Data Governance
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Salesforce Data Cloud
+
+↓
+
+Adobe RT-CDP
+
+Medium
+
+---
+
+Treasure Data CDP
+
+↓
+
+Adobe Experience Platform
+
+Medium
+
+---
+
+Segment CDP
+
+↓
+
+Enterprise CDP
+
+Medium
+
+---
+
+Microsoft Customer Insights
+
+↓
+
+Customer Data Platform
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Platform Scope
+
+Customer Data Scope
+
+Identity Strategy
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+RT-CDP
+
+Journey Optimizer
+
+Customer Journey Analytics
+
+Identity Service
+
+XDM
+
+Identify whether the consultant performed
+
+Data Modeling
+
+Schema Design
+
+Identity Resolution
+
+Segmentation
+
+Testing
+
+Deployment
+
+Optimization
+
+Recognize candidates with enterprise Adobe Experience Platform implementation, RT-CDP deployment, XDM schema design, identity resolution, Journey Optimizer implementation and enterprise customer data transformation experience as senior AEP consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating AEP as Adobe Analytics.
+
+Confusing RT-CDP with Customer Journey Analytics.
+
+Matching candidates solely because they mention Adobe.
+
+Ignoring XDM expertise.
+
+Treating ETL experience as AEP implementation.
+
+Ignoring identity resolution and profile services.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Adobe Experience Platform
+
+↓
+
+AEP
+
+Adobe RT-CDP
+
+Customer Data Platform
+
+---
+
+Customer Data
+
+↓
+
+Real-Time CDP
+
+Profiles
+
+Identity
+
+Segmentation
+
+---
+
+Journey
+
+↓
+
+Journey Optimizer
+
+Customer Journey Analytics
+
+Cross-Channel
+
+Personalization
+
+---
+
+Data Model
+
+↓
+
+XDM
+
+Schemas
+
+Datasets
+
+Identity Graph
+
+Data Governance
+
+END_OF_FILE

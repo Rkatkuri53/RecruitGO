@@ -1,0 +1,625 @@
+FILE_NAME:
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+ID:
+048
+
+DOMAIN:
+Salesforce
+
+CATEGORY:
+Enterprise CRM
+
+SUBCATEGORY:
+Salesforce Service Cloud
+
+PRIMARY_ROLE:
+Salesforce Service Cloud Consultant
+
+RELATED_FILES:
+
+046_SALESFORCE_PLATFORM.txt
+
+047_SALESFORCE_SALES_CLOUD.txt
+
+049_SALESFORCE_MARKETING_CLOUD.txt
+
+050_SALESFORCE_EXPERIENCE_CLOUD.txt
+
+051_SALESFORCE_PLATFORM_DEVELOPMENT.txt
+
+052_SALESFORCE_INTEGRATION.txt
+
+053_SALESFORCE_DEVOPS.txt
+
+054_SALESFORCE_DATA_CLOUD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Salesforce Service Cloud
+
+PURPOSE:
+Enable AI agents to understand Salesforce Service Cloud, customer service operations, case management, omnichannel support, knowledge management, CTI integration, field service integration, service automation, consultant responsibilities, implementation methodologies, and Service Cloud transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Salesforce Service Cloud
+Service Cloud
+Case Management
+Customer Support
+Omni-Channel
+Knowledge Base
+CTI
+Customer Service
+Live Chat
+Service Console
+Entitlements
+Milestones
+
+ROLE_FAMILIES:
+Salesforce Service Cloud Consultant
+Salesforce Functional Consultant
+Salesforce CRM Consultant
+Salesforce Solution Architect
+Salesforce Business Analyst
+Salesforce Administrator
+
+COMMON_JOB_TITLES:
+Salesforce Service Cloud Consultant
+Salesforce Functional Consultant
+Salesforce CRM Consultant
+Salesforce Administrator
+Salesforce Solution Architect
+Customer Service Consultant
+
+ALTERNATIVE_TITLES:
+Salesforce Customer Service Consultant
+CRM Service Consultant
+Service Transformation Consultant
+
+CORE_SKILLS:
+Case Management
+
+Service Console
+
+Knowledge Management
+
+Omni-Channel Routing
+
+Entitlements
+
+Service Automation
+
+Configuration
+
+Reporting
+
+SUPPORTING_SKILLS:
+Flow
+
+Apex
+
+LWC
+
+CTI
+
+REST APIs
+
+Integration
+
+Security
+
+RELATED_TECHNOLOGIES:
+Salesforce Platform
+
+Service Cloud
+
+Experience Cloud
+
+Field Service
+
+Data Cloud
+
+MuleSoft
+
+Slack
+
+Einstein AI
+
+TECHNOLOGY_CATEGORY:
+CRM Platform
+
+DEPENDENCIES:
+
+046_SALESFORCE_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Salesforce Service Cloud enables organizations to manage customer support, service requests, omnichannel communications, field service, knowledge management and customer success from a unified CRM platform.
+
+Service Cloud improves agent productivity and customer satisfaction through automation and intelligent routing.
+
+==================================================
+CORE MODULES
+============
+
+Case Management
+
+Service Console
+
+Knowledge
+
+Omni-Channel
+
+Entitlements
+
+Milestones
+
+Live Chat
+
+Messaging
+
+Email-to-Case
+
+Web-to-Case
+
+Macros
+
+Quick Text
+
+==================================================
+CASE MANAGEMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+Case Creation
+
+Case Assignment
+
+Case Routing
+
+Case Escalation
+
+Priority Management
+
+Case Closure
+
+==================================================
+SERVICE CONSOLE
+===============
+
+COMMON RESPONSIBILITIES
+
+Agent Workspace
+
+Customer History
+
+Related Records
+
+Productivity Tools
+
+Console Navigation
+
+==================================================
+KNOWLEDGE MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+Knowledge Articles
+
+Article Publishing
+
+Knowledge Search
+
+Case Deflection
+
+Knowledge Lifecycle
+
+==================================================
+OMNI-CHANNEL
+============
+
+COMMON RESPONSIBILITIES
+
+Work Routing
+
+Agent Capacity
+
+Skill-Based Routing
+
+Queues
+
+Channel Prioritization
+
+==================================================
+ENTITLEMENTS & MILESTONES
+=========================
+
+COMMON RESPONSIBILITIES
+
+Service Contracts
+
+SLAs
+
+Response Times
+
+Resolution Targets
+
+Milestone Tracking
+
+==================================================
+DIGITAL CHANNELS
+================
+
+COMMON RESPONSIBILITIES
+
+Email-to-Case
+
+Web-to-Case
+
+Live Chat
+
+Messaging
+
+Social Channels
+
+Voice Integration
+
+==================================================
+FIELD SERVICE INTEGRATION
+=========================
+
+COMMON RESPONSIBILITIES
+
+Work Orders
+
+Appointments
+
+Dispatcher Console
+
+Technician Scheduling
+
+Asset Management
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Case-to-Resolution
+
+Incident Management
+
+Problem Management
+
+Customer Support
+
+Knowledge Management
+
+Service Request Management
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Objects
+
+Queues
+
+Assignment Rules
+
+Escalation Rules
+
+Flows
+
+Approval Processes
+
+Validation Rules
+
+Reports
+
+Dashboards
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Requirements Gathering
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Service Cloud Implementation
+
+Customer Service Transformation
+
+Contact Center Modernization
+
+Omni-Channel Implementation
+
+Knowledge Management
+
+Field Service Integration
+
+Global Rollout
+
+Support
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+CTI
+
+REST APIs
+
+MuleSoft
+
+ERP Integration
+
+Telephony
+
+Experience Cloud
+
+Marketing Cloud
+
+Slack
+
+==================================================
+COMMON REPORTS
+==============
+
+Case Reports
+
+SLA Reports
+
+Agent Performance
+
+Customer Satisfaction (CSAT)
+
+First Call Resolution
+
+Knowledge Usage
+
+Queue Performance
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Customer Service Agents
+
+Support Engineers
+
+Contact Center Managers
+
+Service Managers
+
+Help Desk Teams
+
+Customer Success Teams
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Cloud
+
+*
+
+Service Process
+
+*
+
+Configuration
+
+Example
+
+("Service Cloud")
+
+AND
+
+(Case OR Knowledge OR Omni-Channel)
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+(Salesforce)
+
+Expand Service Cloud features only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Service Cloud Experience
+
+Critical
+
+Case Management
+
+Critical
+
+Knowledge Management
+
+High
+
+Omni-Channel
+
+High
+
+Configuration
+
+High
+
+Reporting
+
+Medium
+
+Integration
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Microsoft Dynamics Customer Service
+
+↓
+
+Service Cloud
+
+Medium
+
+---
+
+Oracle Service Cloud
+
+↓
+
+Service Cloud
+
+Medium
+
+---
+
+ServiceNow CSM
+
+↓
+
+Service Cloud
+
+Medium
+
+---
+
+Zendesk
+
+↓
+
+Service Cloud
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Cloud
+
+Business Process
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Administrator
+
+Consultant
+
+Business Analyst
+
+Developer
+
+Architect
+
+Identify whether the consultant performed
+
+Business Analysis
+
+Configuration
+
+Automation
+
+Testing
+
+Data Migration
+
+Go-Live
+
+Production Support
+
+Recognize candidates with Service Cloud implementation, Case Management, Omni-Channel Routing, Knowledge Management, SLA implementation and Contact Center transformation experience as senior Service Cloud consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Service Cloud as Sales Cloud.
+
+Confusing Case Management with Incident Management tools.
+
+Matching candidates solely because they mention Salesforce.
+
+Ignoring customer support business processes.
+
+Treating Apex development as Service Cloud functional implementation.
+
+Ignoring SLA, Entitlement and Knowledge Management experience.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

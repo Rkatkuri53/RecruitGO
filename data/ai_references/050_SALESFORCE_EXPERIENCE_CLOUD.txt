@@ -1,0 +1,618 @@
+FILE_NAME:
+050_SALESFORCE_EXPERIENCE_CLOUD.txt
+
+ID:
+050
+
+DOMAIN:
+Salesforce
+
+CATEGORY:
+Enterprise CRM
+
+SUBCATEGORY:
+Salesforce Experience Cloud
+
+PRIMARY_ROLE:
+Salesforce Experience Cloud Consultant
+
+RELATED_FILES:
+
+046_SALESFORCE_PLATFORM.txt
+
+047_SALESFORCE_SALES_CLOUD.txt
+
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+049_SALESFORCE_MARKETING_CLOUD.txt
+
+051_SALESFORCE_PLATFORM_DEVELOPMENT.txt
+
+052_SALESFORCE_INTEGRATION.txt
+
+054_SALESFORCE_DATA_CLOUD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Salesforce Experience Cloud
+
+PURPOSE:
+Enable AI agents to understand Salesforce Experience Cloud (formerly Community Cloud), customer portals, partner portals, employee portals, self-service, digital experiences, authentication, authorization, sharing models, consultant responsibilities, implementation methodologies, and Experience Cloud transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Salesforce Experience Cloud
+Community Cloud
+Customer Portal
+Partner Portal
+Employee Portal
+Self-Service Portal
+Digital Experience
+Experience Builder
+Communities
+External Users
+
+ROLE_FAMILIES:
+Salesforce Experience Cloud Consultant
+Salesforce Functional Consultant
+Salesforce Developer
+Salesforce Solution Architect
+Salesforce Administrator
+Digital Experience Consultant
+
+COMMON_JOB_TITLES:
+Salesforce Experience Cloud Consultant
+Community Cloud Consultant
+Salesforce Portal Developer
+Salesforce Solution Architect
+Salesforce Functional Consultant
+
+ALTERNATIVE_TITLES:
+Salesforce Community Consultant
+Salesforce Portal Consultant
+Digital Experience Consultant
+
+CORE_SKILLS:
+Portal Development
+
+Experience Builder
+
+Customer Self-Service
+
+Partner Management
+
+Sharing Model
+
+Security
+
+Configuration
+
+Integration
+
+SUPPORTING_SKILLS:
+LWC
+
+Apex
+
+Flows
+
+REST APIs
+
+Identity
+
+SSO
+
+HTML
+
+RELATED_TECHNOLOGIES:
+Experience Cloud
+
+Sales Cloud
+
+Service Cloud
+
+LWC
+
+Apex
+
+MuleSoft
+
+Data Cloud
+
+Salesforce Identity
+
+TECHNOLOGY_CATEGORY:
+CRM Digital Experience Platform
+
+DEPENDENCIES:
+
+046_SALESFORCE_PLATFORM.txt
+
+051_SALESFORCE_PLATFORM_DEVELOPMENT.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Salesforce Experience Cloud enables organizations to build branded digital experiences for customers, partners and employees.
+
+It supports self-service portals, partner collaboration, knowledge sharing, case management, customer communities and secure external user access.
+
+==================================================
+CORE MODULES
+============
+
+Customer Portals
+
+Partner Portals
+
+Employee Portals
+
+Knowledge
+
+Case Management
+
+Experience Builder
+
+CMS
+
+Identity
+
+Self-Service
+
+==================================================
+CUSTOMER PORTALS
+================
+
+COMMON RESPONSIBILITIES
+
+Self-Service
+
+Case Submission
+
+Knowledge Search
+
+Account Management
+
+Order Tracking
+
+Profile Management
+
+==================================================
+PARTNER PORTALS
+===============
+
+COMMON RESPONSIBILITIES
+
+Lead Registration
+
+Opportunity Sharing
+
+Deal Registration
+
+Partner Collaboration
+
+Partner Support
+
+Sales Enablement
+
+==================================================
+EMPLOYEE PORTALS
+================
+
+COMMON RESPONSIBILITIES
+
+Internal Knowledge
+
+HR Services
+
+Employee Requests
+
+Document Sharing
+
+Internal Collaboration
+
+==================================================
+EXPERIENCE BUILDER
+==================
+
+COMMON RESPONSIBILITIES
+
+Portal Design
+
+Themes
+
+Templates
+
+Branding
+
+Page Configuration
+
+Component Configuration
+
+==================================================
+KNOWLEDGE MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+Knowledge Articles
+
+FAQs
+
+Search
+
+Case Deflection
+
+Knowledge Categories
+
+==================================================
+IDENTITY & SECURITY
+===================
+
+COMMON RESPONSIBILITIES
+
+External Users
+
+Authentication
+
+SSO
+
+MFA
+
+Profiles
+
+Permission Sets
+
+Sharing Rules
+
+Role Hierarchy
+
+==================================================
+SHARING MODEL
+=============
+
+COMMON RESPONSIBILITIES
+
+Organization-Wide Defaults
+
+Sharing Rules
+
+Role Hierarchy
+
+Account Relationships
+
+Partner Access
+
+Customer Access
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Customer Self-Service
+
+Partner Collaboration
+
+Knowledge Management
+
+Case-to-Resolution
+
+Digital Customer Engagement
+
+Partner Enablement
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Experience Builder
+
+Pages
+
+Navigation
+
+Branding
+
+Profiles
+
+Permission Sets
+
+Flows
+
+Objects
+
+Reports
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Requirements Gathering
+
+↓
+
+Portal Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+Security Validation
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Customer Portal
+
+Partner Portal
+
+Employee Portal
+
+Community Modernization
+
+Digital Experience Transformation
+
+Knowledge Portal
+
+Self-Service Implementation
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+REST APIs
+
+Sales Cloud
+
+Service Cloud
+
+Marketing Cloud
+
+MuleSoft
+
+Identity Providers
+
+ERP Integration
+
+==================================================
+COMMON REPORTS
+==============
+
+Portal Usage
+
+User Adoption
+
+Case Deflection
+
+Partner Performance
+
+Knowledge Usage
+
+Community Engagement
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Customers
+
+Partners
+
+Employees
+
+Support Teams
+
+Sales Teams
+
+Community Managers
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Portal
+
+*
+
+Security
+
+*
+
+Implementation
+
+Example
+
+("Experience Cloud" OR "Community Cloud")
+
+AND
+
+(Portal OR Community)
+
+AND
+
+("Experience Builder" OR Knowledge)
+
+AND
+
+(Salesforce)
+
+Expand Experience Cloud terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Experience Cloud
+
+Critical
+
+Portal Implementation
+
+Critical
+
+Experience Builder
+
+High
+
+Knowledge
+
+High
+
+Sharing Model
+
+High
+
+Security
+
+High
+
+LWC
+
+Medium
+
+Integration
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Microsoft Power Pages
+
+↓
+
+Experience Cloud
+
+Medium
+
+---
+
+Oracle Digital Experience
+
+↓
+
+Experience Cloud
+
+Medium
+
+---
+
+SharePoint Portal
+
+↓
+
+Experience Cloud
+
+Low
+
+---
+
+Drupal Portal
+
+↓
+
+Experience Cloud
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Portal Type
+
+Business Users
+
+Security Model
+
+Implementation Scope
+
+Project Type
+
+Differentiate
+
+Experience Cloud
+
+Service Cloud
+
+Sales Cloud
+
+LWC Development
+
+Portal Administration
+
+Identify whether the consultant performed
+
+Portal Design
+
+Configuration
+
+Security Design
+
+Sharing Model
+
+Integration
+
+Testing
+
+Deployment
+
+Support
+
+Recognize candidates with customer portal implementation, partner portal deployment, Experience Builder, external identity integration and enterprise self-service transformation experience as senior Experience Cloud consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Experience Cloud as Service Cloud.
+
+Confusing Community Cloud with Knowledge.
+
+Matching candidates solely because they mention Salesforce.
+
+Ignoring external user security.
+
+Treating LWC development alone as Experience Cloud expertise.
+
+Ignoring sharing model experience.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

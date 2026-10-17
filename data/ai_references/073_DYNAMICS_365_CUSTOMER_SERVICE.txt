@@ -1,0 +1,666 @@
+FILE_NAME:
+073_DYNAMICS_365_CUSTOMER_SERVICE.txt
+
+ID:
+073
+
+DOMAIN:
+Microsoft Dynamics 365
+
+CATEGORY:
+Enterprise CRM
+
+SUBCATEGORY:
+Dynamics 365 Customer Service
+
+PRIMARY_ROLE:
+Dynamics 365 Customer Service Consultant
+
+RELATED_FILES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+072_DYNAMICS_365_CRM_SALES.txt
+
+074_DYNAMICS_365_FIELD_SERVICE.txt
+
+075_DYNAMICS_365_MARKETING.txt
+
+076_DYNAMICS_365_POWER_PLATFORM.txt
+
+077_DYNAMICS_365_DEVELOPMENT.txt
+
+078_DYNAMICS_365_INTEGRATION.txt
+
+079_DYNAMICS_365_DATA_AI.txt
+
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+062_SERVICENOW_CSM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Dynamics 365 Customer Service
+
+PURPOSE:
+Enable AI agents to understand Microsoft Dynamics 365 Customer Service, including case management, omnichannel engagement, customer support, SLA management, knowledge management, customer insights, Copilot, consultant responsibilities, implementation methodologies, and customer service transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Dynamics 365 Customer Service
+Customer Service
+Case Management
+Omnichannel
+Knowledge Base
+Customer Support
+Customer Care
+Customer Insights
+SLA
+Copilot
+Unified Routing
+
+ROLE_FAMILIES:
+Dynamics 365 Customer Service Consultant
+
+CRM Functional Consultant
+
+Customer Experience Consultant
+
+Dynamics Solution Architect
+
+Business Analyst
+
+Customer Service Administrator
+
+COMMON_JOB_TITLES:
+Dynamics 365 Customer Service Consultant
+
+Dynamics CRM Consultant
+
+Customer Service Functional Consultant
+
+Dynamics Solution Architect
+
+Customer Experience Consultant
+
+ALTERNATIVE_TITLES:
+Microsoft Customer Service Consultant
+
+CRM Customer Service Consultant
+
+Digital Customer Experience Consultant
+
+CORE_SKILLS:
+Case Management
+
+Knowledge Management
+
+SLA Management
+
+Omnichannel Support
+
+Customer Service Automation
+
+Workflow Automation
+
+Configuration
+
+Reporting
+
+SUPPORTING_SKILLS:
+Power Platform
+
+Power BI
+
+Dataverse
+
+Azure
+
+Copilot
+
+Integration
+
+Security
+
+RELATED_TECHNOLOGIES:
+Dynamics 365 Customer Service
+
+Customer Insights
+
+Omnichannel
+
+Power Platform
+
+Power BI
+
+Copilot Studio
+
+Microsoft Teams
+
+Azure
+
+TECHNOLOGY_CATEGORY:
+Enterprise Customer Service Platform
+
+DEPENDENCIES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Dynamics 365 Customer Service enables organizations to provide omnichannel customer support through case management, knowledge management, AI-powered assistance, service automation and customer engagement.
+
+It integrates seamlessly with Microsoft Teams, Power Platform and Copilot to improve agent productivity and customer satisfaction.
+
+==================================================
+CORE MODULES
+============
+
+Case Management
+
+Knowledge Management
+
+Omnichannel for Customer Service
+
+Unified Routing
+
+SLA Management
+
+Queues
+
+Customer Voice
+
+Copilot
+
+==================================================
+CASE MANAGEMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+Case Creation
+
+Case Assignment
+
+Prioritization
+
+Escalation
+
+Resolution
+
+Customer Communication
+
+==================================================
+KNOWLEDGE MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+Knowledge Articles
+
+FAQs
+
+Knowledge Search
+
+Knowledge Publishing
+
+Case Deflection
+
+==================================================
+OMNICHANNEL
+===========
+
+COMMON RESPONSIBILITIES
+
+Live Chat
+
+Voice
+
+Email
+
+SMS
+
+Social Channels
+
+Channel Routing
+
+==================================================
+UNIFIED ROUTING
+===============
+
+COMMON RESPONSIBILITIES
+
+Skill-Based Routing
+
+Queue Assignment
+
+Priority Routing
+
+Capacity Management
+
+Work Distribution
+
+==================================================
+SLA MANAGEMENT
+==============
+
+COMMON RESPONSIBILITIES
+
+Response Targets
+
+Resolution Targets
+
+Escalation Rules
+
+Compliance Monitoring
+
+==================================================
+COPILOT
+=======
+
+COMMON RESPONSIBILITIES
+
+AI Assistance
+
+Suggested Responses
+
+Case Summaries
+
+Knowledge Recommendations
+
+Conversation Summaries
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Case-to-Resolution
+
+Customer Support
+
+Knowledge Lifecycle
+
+Customer Escalation
+
+SLA Management
+
+Customer Communications
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Cases
+
+Queues
+
+Forms
+
+Knowledge
+
+Workflows
+
+Business Rules
+
+Dashboards
+
+Security Roles
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Service Process Assessment
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Customization
+
+↓
+
+Testing
+
+↓
+
+Training
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Customer Service Implementation
+
+CRM Transformation
+
+Customer Experience Modernization
+
+Omnichannel Deployment
+
+Support Center Modernization
+
+Digital Customer Service
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Power Platform
+
+Microsoft Teams
+
+Azure
+
+ERP
+
+Power BI
+
+REST APIs
+
+Customer Insights
+
+Outlook
+
+==================================================
+COMMON REPORTS
+==============
+
+Case Metrics
+
+Customer Satisfaction (CSAT)
+
+SLA Compliance
+
+Knowledge Usage
+
+Agent Productivity
+
+Omnichannel Analytics
+
+Executive Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Customer Support
+
+Help Desk
+
+Customer Success
+
+Service Managers
+
+Contact Centers
+
+Executives
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Customer Service
+
+*
+
+Cases
+
+*
+
+Knowledge
+
+Example
+
+("Dynamics 365 Customer Service")
+
+AND
+
+(Case OR Omnichannel)
+
+AND
+
+(Knowledge OR SLA)
+
+AND
+
+(Consultant)
+
+Expand Customer Service terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Dynamics 365 Customer Service
+
+Critical
+
+Case Management
+
+Critical
+
+Knowledge Management
+
+High
+
+Omnichannel
+
+High
+
+Workflow Automation
+
+High
+
+Power Platform
+
+Medium
+
+Copilot
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Microsoft Dynamics CRM
+
+↓
+
+Dynamics 365 Customer Service
+
+Very High
+
+---
+
+Salesforce Service Cloud
+
+↓
+
+Dynamics 365 Customer Service
+
+Medium
+
+---
+
+ServiceNow CSM
+
+↓
+
+Dynamics Customer Service
+
+Medium
+
+---
+
+Zendesk
+
+↓
+
+Dynamics Customer Service
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+CRM Module
+
+Customer Service Process
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Customer Service
+
+Sales
+
+Field Service
+
+Power Platform
+
+Customer Insights
+
+Identify whether the consultant performed
+
+Business Analysis
+
+Configuration
+
+Case Management Design
+
+Workflow Automation
+
+Testing
+
+Training
+
+Deployment
+
+Support
+
+Recognize candidates with enterprise Customer Service implementation, omnichannel deployment, SLA automation, knowledge management, AI-powered support and customer experience transformation experience as senior Dynamics 365 Customer Service consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Customer Service as Dynamics Sales.
+
+Confusing customer support experience with CRM implementation.
+
+Matching candidates solely because they mention Dynamics.
+
+Ignoring omnichannel and unified routing expertise.
+
+Treating call center experience as implementation experience.
+
+Ignoring Copilot, Customer Voice and AI capabilities.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Customer Service
+
+↓
+
+Case Management
+
+Support Center
+
+Customer Care
+
+Customer Support
+
+---
+
+Omnichannel
+
+↓
+
+Live Chat
+
+Voice
+
+Email
+
+SMS
+
+Social Channels
+
+---
+
+Knowledge
+
+↓
+
+Knowledge Articles
+
+FAQs
+
+Knowledge Base
+
+Case Deflection
+
+---
+
+Automation
+
+↓
+
+Business Rules
+
+Power Automate
+
+Queues
+
+Unified Routing
+
+Copilot
+
+END_OF_FILE

@@ -1,0 +1,757 @@
+FILE_NAME:
+016_DATA_ENGINEERING.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Data Engineering
+
+PURPOSE:
+Enable AI agents to understand Data Engineering, Big Data, Data Warehousing, ETL/ELT, Streaming, Lakehouse Architecture, Modern Data Platforms, Data Pipelines, Data Governance, and Analytics Engineering. This knowledge supports accurate JD parsing, Boolean generation, resume parsing, candidate matching, and identification of Data Engineering roles.
+
+KEYWORDS:
+Data Engineering
+Big Data
+ETL
+ELT
+Data Pipeline
+Data Warehouse
+Lakehouse
+Streaming
+Analytics Engineering
+Data Platform
+
+ROLE_FAMILIES:
+Data Engineer
+Big Data Engineer
+Analytics Engineer
+Data Platform Engineer
+Cloud Data Engineer
+Data Architect
+Machine Learning Engineer
+Data Scientist
+BI Developer
+Database Engineer
+
+COMMON_JOB_TITLES:
+Data Engineer
+Big Data Engineer
+Data Platform Engineer
+ETL Developer
+Analytics Engineer
+Cloud Data Engineer
+Data Architect
+
+ALTERNATIVE_TITLES:
+Data Platform
+Data Pipeline Engineer
+Data Integration Engineer
+Big Data Developer
+
+CORE_SKILLS:
+ETL
+ELT
+SQL
+Python
+Data Modeling
+Data Pipelines
+Streaming
+Data Warehousing
+
+SUPPORTING_SKILLS:
+Cloud
+DevOps
+Linux
+APIs
+Microservices
+Containers
+
+RELATED_TECHNOLOGIES:
+Spark
+Kafka
+Snowflake
+Databricks
+Airflow
+dbt
+Python
+Scala
+SQL
+AWS
+Azure
+Google Cloud
+
+TECHNOLOGY_CATEGORY:
+Data Engineering
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+006_PROGRAMMING_LANGUAGES.txt
+
+007_FRAMEWORKS.txt
+
+008_DATABASES.txt
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+==================================================
+DATA ENGINEERING DEFINITION
+===========================
+
+Data Engineering focuses on collecting, transforming, storing, processing and delivering reliable data for analytics, reporting, machine learning and business applications.
+
+Data Engineers build data platforms rather than reports.
+
+==================================================
+DATA ENGINEERING ECOSYSTEM
+==========================
+
+Data Sources
+
+↓
+
+Ingestion
+
+↓
+
+ETL / ELT
+
+↓
+
+Data Lake
+
+↓
+
+Data Warehouse
+
+↓
+
+Transformation
+
+↓
+
+Analytics
+
+↓
+
+Machine Learning
+
+↓
+
+Business Intelligence
+
+==================================================
+DATA SOURCES
+============
+
+Relational Databases
+
+NoSQL Databases
+
+APIs
+
+Files
+
+IoT
+
+Streaming Events
+
+ERP Systems
+
+CRM Systems
+
+Cloud Applications
+
+==================================================
+DATA INGESTION
+==============
+
+PURPOSE
+
+Collect data from multiple systems.
+
+COMMON TOOLS
+
+Kafka
+
+NiFi
+
+AWS Glue
+
+Azure Data Factory
+
+Informatica
+
+Talend
+
+Fivetran
+
+Matillion
+
+==================================================
+ETL
+===
+
+Extract
+
+Transform
+
+Load
+
+Traditional approach
+
+Transformation occurs before loading.
+
+==================================================
+ELT
+===
+
+Extract
+
+Load
+
+Transform
+
+Modern cloud approach.
+
+Transformation occurs after loading.
+
+==================================================
+DATA PIPELINES
+==============
+
+PURPOSE
+
+Move data between systems.
+
+COMMON RESPONSIBILITIES
+
+Data Ingestion
+
+Transformation
+
+Scheduling
+
+Validation
+
+Monitoring
+
+Recovery
+
+==================================================
+BATCH PROCESSING
+================
+
+PURPOSE
+
+Process large datasets periodically.
+
+COMMON TOOLS
+
+Spark
+
+Hadoop
+
+Airflow
+
+Databricks
+
+==================================================
+STREAM PROCESSING
+=================
+
+PURPOSE
+
+Process real-time events.
+
+COMMON TOOLS
+
+Kafka
+
+Spark Streaming
+
+Flink
+
+Kinesis
+
+Azure Event Hub
+
+Google Pub/Sub
+
+==================================================
+DATA LAKE
+=========
+
+PURPOSE
+
+Store raw structured and unstructured data.
+
+COMMON PLATFORMS
+
+Amazon S3
+
+Azure Data Lake
+
+Google Cloud Storage
+
+==================================================
+DATA WAREHOUSE
+==============
+
+PURPOSE
+
+Store curated analytical data.
+
+COMMON PLATFORMS
+
+Snowflake
+
+BigQuery
+
+Amazon Redshift
+
+Azure Synapse
+
+Teradata
+
+==================================================
+LAKEHOUSE
+=========
+
+PURPOSE
+
+Combine Data Lake and Data Warehouse.
+
+COMMON PLATFORMS
+
+Databricks
+
+Delta Lake
+
+Apache Iceberg
+
+Apache Hudi
+
+==================================================
+COMMON DATA ENGINEERING TOOLS
+=============================
+
+Apache Spark
+
+Databricks
+
+Apache Kafka
+
+Apache Airflow
+
+dbt
+
+Snowflake
+
+Informatica
+
+Talend
+
+Azure Data Factory
+
+AWS Glue
+
+==================================================
+DATA MODELING
+=============
+
+COMMON CONCEPTS
+
+Star Schema
+
+Snowflake Schema
+
+Normalization
+
+Denormalization
+
+Fact Tables
+
+Dimension Tables
+
+Slowly Changing Dimensions
+
+==================================================
+DATA QUALITY
+============
+
+COMMON RESPONSIBILITIES
+
+Validation
+
+Deduplication
+
+Completeness
+
+Accuracy
+
+Consistency
+
+==================================================
+DATA GOVERNANCE
+===============
+
+COMMON RESPONSIBILITIES
+
+Metadata
+
+Lineage
+
+Catalog
+
+Security
+
+Compliance
+
+Retention
+
+COMMON TOOLS
+
+Collibra
+
+Alation
+
+Microsoft Purview
+
+AWS Glue Catalog
+
+==================================================
+BIG DATA
+========
+
+COMMON TECHNOLOGIES
+
+Hadoop
+
+Spark
+
+Hive
+
+HBase
+
+YARN
+
+Kafka
+
+==================================================
+CLOUD DATA PLATFORMS
+====================
+
+AWS
+
+Glue
+
+EMR
+
+Athena
+
+Redshift
+
+Kinesis
+
+Lake Formation
+
+---
+
+AZURE
+
+Azure Data Factory
+
+Synapse
+
+Databricks
+
+Event Hub
+
+Azure Data Lake
+
+---
+
+GOOGLE CLOUD
+
+BigQuery
+
+Dataflow
+
+Dataproc
+
+Pub/Sub
+
+Cloud Storage
+
+==================================================
+ROLE RESPONSIBILITY MAPPING
+===========================
+
+Data Engineer
+
+↓
+
+Pipelines
+
+ETL
+
+SQL
+
+Python
+
+Streaming
+
+---
+
+Analytics Engineer
+
+↓
+
+dbt
+
+SQL
+
+Transformation
+
+Business Models
+
+---
+
+Data Architect
+
+↓
+
+Architecture
+
+Governance
+
+Modeling
+
+Platform Design
+
+---
+
+Machine Learning Engineer
+
+↓
+
+Feature Pipelines
+
+Training Data
+
+Inference Pipelines
+
+---
+
+Cloud Data Engineer
+
+↓
+
+Cloud Platform
+
+Automation
+
+Scalable Pipelines
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Role
+
+*
+
+Pipeline Technologies
+
+*
+
+Programming Languages
+
+*
+
+Cloud Platform
+
+*
+
+Warehouse
+
+Example
+
+("Data Engineer" OR "Big Data Engineer")
+
+AND
+
+(SQL AND Python)
+
+AND
+
+(Spark OR Databricks)
+
+AND
+
+(Kafka OR Airflow)
+
+AND
+
+(Snowflake OR Redshift OR BigQuery)
+
+Expand cloud-specific services only if the JD specifies the cloud provider.
+
+==================================================
+MATCHING_RULES
+==============
+
+Data Engineering Experience
+
+Critical
+
+SQL
+
+Critical
+
+Python or Scala
+
+Critical
+
+Pipeline Development
+
+Critical
+
+Cloud Platform
+
+High
+
+Streaming
+
+High
+
+Warehouse
+
+High
+
+Data Modeling
+
+Medium
+
+Governance
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Snowflake
+
+↔
+
+BigQuery
+
+Medium
+
+---
+
+Databricks
+
+↔
+
+EMR
+
+Medium
+
+---
+
+Kafka
+
+↔
+
+Kinesis
+
+Medium
+
+---
+
+Azure Data Factory
+
+↔
+
+AWS Glue
+
+Medium
+
+---
+
+Airflow
+
+↔
+
+Azure Data Factory Pipelines
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Differentiate between
+
+Data Engineer
+
+Analytics Engineer
+
+Data Scientist
+
+Database Administrator
+
+ETL Developer
+
+Data Architect
+
+Validate using
+
+Pipelines
+
+Transformation
+
+Streaming
+
+Warehousing
+
+Cloud
+
+Automation
+
+Do not classify reporting developers as Data Engineers unless they build production data pipelines.
+
+Recognize that SQL alone is insufficient to identify a Data Engineer.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SQL Developers as Data Engineers.
+
+Treating Data Scientists as Data Engineers.
+
+Confusing Data Warehouse with Data Lake.
+
+Confusing ETL with ELT.
+
+Assuming Hadoop experience automatically means Spark expertise.
+
+Ignoring cloud platform experience.
+
+Matching candidates solely because they know SQL.
+
+END_OF_FILE

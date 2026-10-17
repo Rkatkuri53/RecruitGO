@@ -1,0 +1,634 @@
+FILE_NAME:
+042_ORACLE_DATABASE.txt
+
+ID:
+042
+
+DOMAIN:
+Oracle
+
+CATEGORY:
+Database
+
+SUBCATEGORY:
+Oracle Database Administration & Development
+
+PRIMARY_ROLE:
+Oracle Database Administrator (Oracle DBA)
+
+RELATED_FILES:
+
+003_IT_ECOSYSTEM.txt
+
+009_DATABASES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+035_ORACLE_PLATFORM.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+044_ORACLE_FUSION_MIDDLEWARE.txt
+
+045_ORACLE_OCI.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Oracle Database
+
+PURPOSE:
+Enable AI agents to understand Oracle Database administration, Oracle RAC, ASM, Data Guard, RMAN, Exadata, GoldenGate, Performance Tuning, PL/SQL, High Availability, Disaster Recovery, Oracle Cloud databases, and Oracle DBA responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Oracle Database
+Oracle DBA
+Oracle RAC
+ASM
+RMAN
+Data Guard
+GoldenGate
+Exadata
+PL/SQL
+OEM
+Oracle 19c
+Oracle 21c
+Oracle 23ai
+
+ROLE_FAMILIES:
+Oracle DBA
+Senior Oracle DBA
+Oracle Database Engineer
+Oracle Database Architect
+Oracle Infrastructure Consultant
+Oracle Database Administrator
+
+COMMON_JOB_TITLES:
+Oracle DBA
+Senior Oracle DBA
+Oracle Database Administrator
+Oracle Database Engineer
+Oracle RAC Administrator
+Oracle Exadata DBA
+
+ALTERNATIVE_TITLES:
+Oracle Database Consultant
+Oracle Infrastructure DBA
+Oracle Database Specialist
+
+CORE_SKILLS:
+Database Administration
+
+Performance Tuning
+
+Backup & Recovery
+
+High Availability
+
+Disaster Recovery
+
+PL/SQL
+
+Database Security
+
+SUPPORTING_SKILLS:
+Linux
+
+Shell Scripting
+
+Cloud
+
+Automation
+
+Monitoring
+
+Networking
+
+RELATED_TECHNOLOGIES:
+Oracle RAC
+
+Oracle ASM
+
+Oracle Data Guard
+
+Oracle RMAN
+
+Oracle Exadata
+
+GoldenGate
+
+Oracle Enterprise Manager
+
+Oracle Autonomous Database
+
+Oracle OCI
+
+TECHNOLOGY_CATEGORY:
+Relational Database
+
+DEPENDENCIES:
+
+009_DATABASES.txt
+
+013_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Oracle Database is an enterprise-grade relational database management system used for high-performance OLTP, analytics, mission-critical applications and enterprise workloads.
+
+Oracle DBAs are responsible for installation, configuration, security, performance, backup, recovery, replication, upgrades and database lifecycle management.
+
+==================================================
+DATABASE ARCHITECTURE
+=====================
+
+Client
+
+↓
+
+Listener
+
+↓
+
+Oracle Instance
+
+↓
+
+Memory (SGA/PGA)
+
+↓
+
+Background Processes
+
+↓
+
+ASM / File System
+
+↓
+
+Database Files
+
+==================================================
+CORE COMPONENTS
+===============
+
+Oracle Instance
+
+Oracle Listener
+
+Oracle Net
+
+Oracle ASM
+
+Redo Logs
+
+Undo Tablespaces
+
+Control Files
+
+Data Files
+
+Archived Logs
+
+==================================================
+DATABASE ADMINISTRATION
+=======================
+
+COMMON RESPONSIBILITIES
+
+Installation
+
+Database Creation
+
+Configuration
+
+Patching
+
+Upgrades
+
+Cloning
+
+Database Refresh
+
+Capacity Planning
+
+==================================================
+ORACLE RAC
+==========
+
+PURPOSE
+
+High Availability
+
+Load Balancing
+
+Clustered Database
+
+COMMON RESPONSIBILITIES
+
+Cluster Installation
+
+Node Management
+
+Failover
+
+Cluster Monitoring
+
+Service Management
+
+==================================================
+ORACLE ASM
+==========
+
+PURPOSE
+
+Storage Management
+
+Disk Groups
+
+Storage Performance
+
+Redundancy
+
+==================================================
+DATA GUARD
+==========
+
+PURPOSE
+
+Disaster Recovery
+
+Standby Databases
+
+Failover
+
+Switchover
+
+Data Protection
+
+==================================================
+RMAN
+====
+
+COMMON RESPONSIBILITIES
+
+Full Backup
+
+Incremental Backup
+
+Recovery
+
+Point-in-Time Recovery
+
+Database Duplication
+
+==================================================
+GOLDENGATE
+==========
+
+PURPOSE
+
+Real-Time Replication
+
+Database Synchronization
+
+Migration
+
+Zero-Downtime Upgrade
+
+==================================================
+EXADATA
+=======
+
+COMMON RESPONSIBILITIES
+
+Performance Optimization
+
+Smart Scan
+
+Storage Servers
+
+High Availability
+
+Capacity Management
+
+==================================================
+PL/SQL
+======
+
+COMMON RESPONSIBILITIES
+
+Stored Procedures
+
+Functions
+
+Packages
+
+Triggers
+
+Exception Handling
+
+Performance Optimization
+
+==================================================
+PERFORMANCE TUNING
+==================
+
+COMMON RESPONSIBILITIES
+
+SQL Tuning
+
+AWR
+
+ASH
+
+ADDM
+
+Execution Plans
+
+Index Optimization
+
+Wait Events
+
+Memory Tuning
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+User Management
+
+Roles
+
+Privileges
+
+Transparent Data Encryption
+
+Database Auditing
+
+Oracle Wallet
+
+==================================================
+MONITORING
+==========
+
+COMMON TOOLS
+
+Oracle Enterprise Manager
+
+AWR Reports
+
+ASH Reports
+
+SQL Trace
+
+Statspack
+
+==================================================
+CLOUD DATABASES
+===============
+
+Oracle Autonomous Database
+
+Oracle Database Cloud Service
+
+Exadata Cloud Service
+
+OCI Database
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Database Installation
+
+Database Migration
+
+Version Upgrade
+
+Cloud Migration
+
+Performance Optimization
+
+Exadata Migration
+
+DR Implementation
+
+Database Consolidation
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Installation
+
+↓
+
+Configuration
+
+↓
+
+Backup Strategy
+
+↓
+
+Performance Tuning
+
+↓
+
+Testing
+
+↓
+
+Migration
+
+↓
+
+Production Support
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Database Platform
+
+*
+
+HA Technology
+
+*
+
+Administration
+
+*
+
+Performance
+
+Example
+
+("Oracle DBA" OR "Oracle Database")
+
+AND
+
+(RAC OR ASM OR "Data Guard")
+
+AND
+
+(RMAN OR Exadata)
+
+AND
+
+(Performance OR Migration)
+
+Expand Oracle database technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Oracle Database
+
+Critical
+
+Oracle RAC
+
+Critical
+
+RMAN
+
+High
+
+Data Guard
+
+High
+
+Performance Tuning
+
+High
+
+PL/SQL
+
+Medium
+
+Cloud Database
+
+Medium
+
+Linux
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle 11g
+
+↓
+
+Oracle 19c
+
+High
+
+---
+
+Oracle 19c
+
+↓
+
+Oracle 23ai
+
+High
+
+---
+
+On-Premises Oracle
+
+↓
+
+OCI Database
+
+Medium
+
+---
+
+SQL Server DBA
+
+↓
+
+Oracle DBA
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Database Version
+
+Administration Scope
+
+HA Architecture
+
+Cloud vs On-Premises
+
+Project Type
+
+Differentiate
+
+Oracle DBA
+
+Oracle Developer
+
+Oracle ERP Consultant
+
+Oracle Cloud Consultant
+
+Identify whether the consultant performed
+
+Installation
+
+Administration
+
+Backup & Recovery
+
+Performance Tuning
+
+Migration
+
+Security
+
+Production Support
+
+Recognize candidates with RAC, ASM, Data Guard, Exadata, GoldenGate, Autonomous Database and OCI migration experience as senior Oracle DBAs.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Oracle Database experience as Oracle ERP experience.
+
+Confusing PL/SQL Developers with Oracle DBAs.
+
+Matching candidates solely because they mention Oracle.
+
+Ignoring HA technologies such as RAC and Data Guard.
+
+Treating SQL knowledge as DBA expertise.
+
+Ignoring production support responsibilities.
+
+Assuming certification equals enterprise database administration experience.
+
+END_OF_FILE

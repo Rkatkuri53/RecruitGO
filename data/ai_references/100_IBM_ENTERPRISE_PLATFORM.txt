@@ -1,0 +1,603 @@
+FILE_NAME:
+100_IBM_ENTERPRISE_PLATFORM.txt
+
+ID:
+100
+
+DOMAIN:
+IBM
+
+CATEGORY:
+Enterprise Technology Platform
+
+SUBCATEGORY:
+IBM Enterprise Ecosystem
+
+PRIMARY_ROLE:
+IBM Enterprise Consultant
+
+RELATED_FILES:
+
+101_IBM_WEBSPHERE.txt
+
+102_IBM_MQ.txt
+
+103_IBM_APP_CONNECT_IIB_ACE.txt
+
+104_IBM_DATASTAGE.txt
+
+105_IBM_FILENET.txt
+
+106_IBM_COGNOS_ANALYTICS.txt
+
+107_IBM_MAXIMO.txt
+
+108_IBM_STERLING.txt
+
+109_IBM_CLOUD_PAK_OPENSHIFT.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+IBM Enterprise Platform
+
+PURPOSE:
+Enable AI agents to understand the IBM enterprise software ecosystem, middleware, integration, automation, data management, enterprise asset management, analytics, hybrid cloud, AI platforms, consultant roles, implementation methodologies, and enterprise transformation programs for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+IBM
+IBM Middleware
+IBM WebSphere
+IBM MQ
+IBM App Connect
+IBM ACE
+IBM DataStage
+IBM FileNet
+IBM Cognos
+IBM Maximo
+IBM Sterling
+IBM Cloud Pak
+OpenShift
+IBM Watson
+
+ROLE_FAMILIES:
+IBM Consultant
+
+IBM Solution Architect
+
+IBM Middleware Consultant
+
+IBM Technical Consultant
+
+IBM Enterprise Architect
+
+IBM Integration Consultant
+
+IBM Infrastructure Consultant
+
+COMMON_JOB_TITLES:
+IBM Consultant
+
+IBM Solution Architect
+
+IBM Technical Consultant
+
+IBM Middleware Architect
+
+IBM Enterprise Architect
+
+IBM Technology Consultant
+
+ALTERNATIVE_TITLES:
+Enterprise Middleware Consultant
+
+Enterprise Integration Consultant
+
+IBM Platform Consultant
+
+Hybrid Cloud Consultant
+
+CORE_SKILLS:
+Middleware
+
+Enterprise Integration
+
+Application Server
+
+Messaging
+
+Data Integration
+
+Enterprise Asset Management
+
+Analytics
+
+Hybrid Cloud
+
+SUPPORTING_SKILLS:
+Java
+
+Linux
+
+Containers
+
+Kubernetes
+
+OpenShift
+
+REST APIs
+
+DevOps
+
+Security
+
+RELATED_TECHNOLOGIES:
+IBM WebSphere
+
+IBM MQ
+
+IBM App Connect Enterprise
+
+IBM DataStage
+
+IBM FileNet
+
+IBM Cognos Analytics
+
+IBM Maximo
+
+IBM Sterling
+
+IBM Cloud Pak
+
+Red Hat OpenShift
+
+IBM watsonx
+
+TECHNOLOGY_CATEGORY:
+Enterprise Middleware & Hybrid Cloud Platform
+
+DEPENDENCIES:
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+IBM provides a broad enterprise technology ecosystem covering middleware, integration, hybrid cloud, AI, automation, enterprise asset management, analytics, security and business process management.
+
+IBM platforms are widely adopted across banking, insurance, telecommunications, manufacturing, retail, healthcare and government sectors for mission-critical enterprise workloads.
+
+==================================================
+CORE PRODUCT FAMILIES
+=====================
+
+Application Platform
+
+IBM WebSphere
+
+---
+
+Messaging
+
+IBM MQ
+
+---
+
+Integration
+
+IBM App Connect Enterprise (ACE)
+
+IBM App Connect
+
+---
+
+Data Integration
+
+IBM DataStage
+
+---
+
+Enterprise Content Management
+
+IBM FileNet
+
+---
+
+Business Intelligence
+
+IBM Cognos Analytics
+
+---
+
+Enterprise Asset Management
+
+IBM Maximo
+
+---
+
+Supply Chain
+
+IBM Sterling
+
+---
+
+Hybrid Cloud
+
+IBM Cloud Pak
+
+Red Hat OpenShift
+
+---
+
+Artificial Intelligence
+
+IBM watsonx
+
+Watson Assistant
+
+==================================================
+PLATFORM ARCHITECTURE
+=====================
+
+Business Applications
+
+↓
+
+IBM Middleware
+
+↓
+
+Integration & Messaging
+
+↓
+
+Data Platform
+
+↓
+
+Hybrid Cloud
+
+↓
+
+Infrastructure
+
+==================================================
+IMPLEMENTATION TYPES
+====================
+
+Enterprise Modernization
+
+Middleware Migration
+
+Hybrid Cloud Adoption
+
+Integration Modernization
+
+Application Modernization
+
+Infrastructure Consolidation
+
+Cloud Transformation
+
+AI Modernization
+
+==================================================
+CONSULTANT TYPES
+================
+
+Functional Consultant
+
+↓
+
+Business Solutions
+
+---
+
+Technical Consultant
+
+↓
+
+Implementation
+
+Administration
+
+---
+
+Developer
+
+↓
+
+Java
+
+Middleware
+
+Integration
+
+---
+
+Solution Architect
+
+↓
+
+Enterprise Architecture
+
+Integration Design
+
+---
+
+Infrastructure Architect
+
+↓
+
+Cloud
+
+OpenShift
+
+Containers
+
+==================================================
+COMMON RESPONSIBILITIES
+=======================
+
+Requirements Analysis
+
+Architecture Design
+
+Platform Installation
+
+Configuration
+
+Development
+
+Integration
+
+Testing
+
+Performance Tuning
+
+Deployment
+
+Migration
+
+Production Support
+
+==================================================
+PLATFORM CAPABILITIES
+=====================
+
+Enterprise Middleware
+
+Application Hosting
+
+Messaging
+
+API Integration
+
+ETL
+
+Analytics
+
+Automation
+
+Hybrid Cloud
+
+==================================================
+COMMON PROJECTS
+===============
+
+Legacy Modernization
+
+Middleware Upgrade
+
+Cloud Migration
+
+Application Migration
+
+Enterprise Integration
+
+Digital Transformation
+
+Platform Consolidation
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+IBM Product
+
+*
+
+Role
+
+*
+
+Technology
+
+Example
+
+(IBM)
+
+AND
+
+(WebSphere OR MQ OR ACE)
+
+AND
+
+(Consultant OR Architect)
+
+AND
+
+(Implementation OR Administration)
+
+Expand IBM products only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+IBM Platform
+
+Critical
+
+Relevant IBM Product
+
+Critical
+
+Implementation
+
+High
+
+Architecture
+
+High
+
+Administration
+
+Medium
+
+Development
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle Middleware
+
+↓
+
+IBM Middleware
+
+Medium
+
+---
+
+Red Hat Middleware
+
+↓
+
+IBM Middleware
+
+Medium
+
+---
+
+TIBCO
+
+↓
+
+IBM Integration
+
+Medium
+
+---
+
+MuleSoft
+
+↓
+
+IBM App Connect
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+IBM Product
+
+Functional vs Technical
+
+Architecture Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+WebSphere
+
+MQ
+
+ACE
+
+DataStage
+
+FileNet
+
+Cognos
+
+Maximo
+
+Sterling
+
+Cloud Pak
+
+Do not assume experience with one IBM product implies expertise across the IBM ecosystem.
+
+Recognize multi-product IBM enterprise implementations as significantly stronger than isolated administration or support experience.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating IBM as a single technology.
+
+Confusing MQ administration with integration architecture.
+
+Matching candidates solely because they mention IBM.
+
+Ignoring product specialization.
+
+Treating production support as implementation experience.
+
+Ignoring hybrid cloud modernization.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+NEXT KNOWLEDGE FILES
+====================
+
+101_IBM_WEBSPHERE.txt
+
+102_IBM_MQ.txt
+
+103_IBM_APP_CONNECT_IIB_ACE.txt
+
+104_IBM_DATASTAGE.txt
+
+105_IBM_FILENET.txt
+
+106_IBM_COGNOS_ANALYTICS.txt
+
+107_IBM_MAXIMO.txt
+
+108_IBM_STERLING.txt
+
+109_IBM_CLOUD_PAK_OPENSHIFT.txt
+
+END_OF_FILE

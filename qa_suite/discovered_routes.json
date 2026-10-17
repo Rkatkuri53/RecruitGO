@@ -1,0 +1,530 @@
+[
+  {
+    "method": "GET",
+    "path": "/api/team"
+  },
+  {
+    "method": "POST",
+    "path": "/api/chat/groups"
+  },
+  {
+    "method": "GET",
+    "path": "/api/chat/groups"
+  },
+  {
+    "method": "GET",
+    "path": "/api/config"
+  },
+  {
+    "method": "POST",
+    "path": "/api/auth/login"
+  },
+  {
+    "method": "POST",
+    "path": "/api/auth/change-password"
+  },
+  {
+    "method": "GET",
+    "path": "/api/events"
+  },
+  {
+    "method": "GET",
+    "path": "/api/system/check-models"
+  },
+  {
+    "method": "POST",
+    "path": "/api/system/pull-models"
+  },
+  {
+    "method": "GET",
+    "path": "/api/stats"
+  },
+  {
+    "method": "GET",
+    "path": "/api/browser/status"
+  },
+  {
+    "method": "GET",
+    "path": "/api/settings/email"
+  },
+  {
+    "method": "POST",
+    "path": "/api/settings/email"
+  },
+  {
+    "method": "POST",
+    "path": "/api/settings/email/test"
+  },
+  {
+    "method": "POST",
+    "path": "/api/sync/emails"
+  },
+  {
+    "method": "POST",
+    "path": "/api/settings/local"
+  },
+  {
+    "method": "GET",
+    "path": "/api/license/status"
+  },
+  {
+    "method": "POST",
+    "path": "/api/license/verify"
+  },
+  {
+    "method": "GET",
+    "path": "/api/groups"
+  },
+  {
+    "method": "GET",
+    "path": "/api/am/dashboard"
+  },
+  {
+    "method": "GET",
+    "path": "/api/am/clients-spokes"
+  },
+  {
+    "method": "GET",
+    "path": "/api/clients"
+  },
+  {
+    "method": "GET",
+    "path": "/api/recruiters"
+  },
+  {
+    "method": "POST",
+    "path": "/api/recruiters"
+  },
+  {
+    "method": "POST",
+    "path": "/api/clients/:id/recruiters"
+  },
+  {
+    "method": "GET",
+    "path": "/api/clients/:id/recruiters"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/jobs/:id/status"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/jobs/:id/assign"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/notes"
+  },
+  {
+    "method": "POST",
+    "path": "/api/jobs/:id/notes"
+  },
+  {
+    "method": "POST",
+    "path": "/api/jobs"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/post-content"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/req-analysis"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/approach-note"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/inmail-message"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/pre-screening"
+  },
+  {
+    "method": "POST",
+    "path": "/api/match-center"
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/jobs/:id"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/jobs/:id"
+  },
+  {
+    "method": "POST",
+    "path": "/api/open-file"
+  },
+  {
+    "method": "GET",
+    "path": "/api/groups"
+  },
+  {
+    "method": "GET",
+    "path": "/api/am/dashboard"
+  },
+  {
+    "method": "GET",
+    "path": "/api/clients"
+  },
+  {
+    "method": "POST",
+    "path": "/api/recruiters"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs"
+  },
+  {
+    "method": "GET",
+    "path": "/api/am/pending-jobs"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/am/jobs/:id/approve"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/jobs/:id/status"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/jobs/:id/assign"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/notes"
+  },
+  {
+    "method": "POST",
+    "path": "/api/jobs/:id/notes"
+  },
+  {
+    "method": "POST",
+    "path": "/api/jobs"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/post-content"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/req-analysis"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/approach-note"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/inmail-message"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/pre-screening"
+  },
+  {
+    "method": "POST",
+    "path": "/api/match-center"
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/jobs/:id"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/jobs/:id"
+  },
+  {
+    "method": "POST",
+    "path": "/api/open-file"
+  },
+  {
+    "method": "POST",
+    "path": "/api/parse-cv-base64"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/candidates/:id/status"
+  },
+  {
+    "method": "POST",
+    "path": "/api/candidates"
+  },
+  {
+    "method": "GET",
+    "path": "/api/candidates/:id"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/candidates/:id"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/candidates/:id/stage"
+  },
+  {
+    "method": "POST",
+    "path": "/api/candidates/:id/submit-am"
+  },
+  {
+    "method": "POST",
+    "path": "/api/candidates/:id/submit-client"
+  },
+  {
+    "method": "GET",
+    "path": "/api/candidates/search"
+  },
+  {
+    "method": "GET",
+    "path": "/api/candidates"
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/candidates"
+  },
+  {
+    "method": "GET",
+    "path": "/api/conversations"
+  },
+  {
+    "method": "POST",
+    "path": "/api/run/:mode"
+  },
+  {
+    "method": "GET",
+    "path": "/api/candidates/:id/remarks"
+  },
+  {
+    "method": "POST",
+    "path": "/api/candidates/:id/remarks"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/booleans"
+  },
+  {
+    "method": "POST",
+    "path": "/api/search/execute"
+  },
+  {
+    "method": "GET",
+    "path": "/api/analytics/ai-insights"
+  },
+  {
+    "method": "GET",
+    "path": "[/api/analytics/management, /api/ats/analytics/management]"
+  },
+  {
+    "method": "GET",
+    "path": "/api/interviews"
+  },
+  {
+    "method": "POST",
+    "path": "/api/interviews"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/interviews/:id/status"
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/interviews/:id"
+  },
+  {
+    "method": "GET",
+    "path": "/api/spokespersons"
+  },
+  {
+    "method": "GET",
+    "path": "/api/jobs/:id/notes"
+  },
+  {
+    "method": "POST",
+    "path": "/api/jobs/:id/notes"
+  },
+  {
+    "method": "POST",
+    "path": "/api/users/add"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/candidates/:id/submit-for-review"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/candidates/:id/tl-review"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/candidates/:id/am-review"
+  },
+  {
+    "method": "GET",
+    "path": "/api/funnel"
+  },
+  {
+    "method": "GET",
+    "path": "/api/users"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/users/:id/promote"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/users/:id/manager"
+  },
+  {
+    "method": "POST",
+    "path": "/api/clients"
+  },
+  {
+    "method": "POST",
+    "path": "/api/spoke_persons"
+  },
+  {
+    "method": "POST",
+    "path": "/api/team"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/team/:id"
+  },
+  {
+    "method": "DELETE",
+    "path": "/api/team/:id"
+  },
+  {
+    "method": "GET",
+    "path": "/api/team/:id/stats"
+  },
+  {
+    "method": "GET",
+    "path": "/api/management/pipeline"
+  },
+  {
+    "method": "GET",
+    "path": "/api/candidates/:id/profile"
+  },
+  {
+    "method": "POST",
+    "path": "/api/candidates/:id/remarks"
+  },
+  {
+    "method": "POST",
+    "path": "/api/ats/candidates/check-duplicate"
+  },
+  {
+    "method": "POST",
+    "path": "/api/ats/candidates"
+  },
+  {
+    "method": "GET",
+    "path": "/api/ats/candidates"
+  },
+  {
+    "method": "GET",
+    "path": "/api/ats/my-roles"
+  },
+  {
+    "method": "GET",
+    "path": "/api/ats/submission-template"
+  },
+  {
+    "method": "POST",
+    "path": "/api/ats/submissions"
+  },
+  {
+    "method": "GET",
+    "path": "/api/ats/submissions"
+  },
+  {
+    "method": "GET",
+    "path": "/api/ats/tl/dashboard"
+  },
+  {
+    "method": "GET",
+    "path": "/api/ats/tl/inbox"
+  },
+  {
+    "method": "POST",
+    "path": "/api/ats/tl/review"
+  },
+  {
+    "method": "GET",
+    "path": "/api/ats/am/inbox"
+  },
+  {
+    "method": "POST",
+    "path": "/api/ats/am/submit-client"
+  },
+  {
+    "method": "POST",
+    "path": "/api/ats/am/reject"
+  },
+  {
+    "method": "GET",
+    "path": "[/portal/review, /portal/review.html]"
+  },
+  {
+    "method": "GET",
+    "path": "/api/portal/submission/:token"
+  },
+  {
+    "method": "POST",
+    "path": "/api/portal/feedback/:token"
+  },
+  {
+    "method": "POST",
+    "path": "/api/ats/submissions/:id/stage"
+  },
+  {
+    "method": "GET",
+    "path": "/api/ats/jobs/detailed"
+  },
+  {
+    "method": "POST",
+    "path": "/api/ats/jobs"
+  },
+  {
+    "method": "GET",
+    "path": "/api/ats/jobs/:id/submissions"
+  },
+  {
+    "method": "GET",
+    "path": "/api/ats/clients/detailed"
+  },
+  {
+    "method": "POST",
+    "path": "/api/ats/clients"
+  },
+  {
+    "method": "POST",
+    "path": "/api/ats/clients/:id/spokes"
+  },
+  {
+    "method": "GET",
+    "path": "/api/ats/candidates/:id/history"
+  },
+  {
+    "method": "GET",
+    "path": "/api/ats/local-resumes/folder"
+  },
+  {
+    "method": "POST",
+    "path": "/api/ats/local-resumes/save-folder"
+  },
+  {
+    "method": "POST",
+    "path": "/api/ats/local-resumes/scan"
+  },
+  {
+    "method": "POST",
+    "path": "/api/ats/local-resumes/ingest"
+  }
+]

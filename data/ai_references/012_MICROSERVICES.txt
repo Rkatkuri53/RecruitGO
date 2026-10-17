@@ -1,0 +1,656 @@
+FILE_NAME:
+012_MICROSERVICES.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Microservices & Distributed Systems
+
+PURPOSE:
+Enable AI agents to understand Microservices Architecture, Distributed Systems, Service Communication, Containerization, Service Discovery, Event-Driven Systems, and Enterprise Integration. This knowledge is essential for JD parsing, resume matching, Boolean generation, seniority identification, and Solution Architecture evaluation.
+
+KEYWORDS:
+Microservices
+Distributed Systems
+Service-Oriented Architecture
+SOA
+Cloud Native
+Containerization
+Service Discovery
+API
+Event Driven
+Scalability
+
+ROLE_FAMILIES:
+Backend Developer
+Java Developer
+.NET Developer
+Cloud Engineer
+DevOps Engineer
+Platform Engineer
+Site Reliability Engineer
+Solution Architect
+Enterprise Architect
+Integration Engineer
+
+COMMON_JOB_TITLES:
+Backend Developer
+Microservices Developer
+Software Engineer
+Cloud Engineer
+Solution Architect
+Technical Architect
+Platform Engineer
+
+ALTERNATIVE_TITLES:
+Cloud Native Development
+Distributed Systems
+Service Architecture
+
+CORE_SKILLS:
+Microservices Design
+API Development
+Distributed Systems
+Inter-Service Communication
+Scalability
+Resilience
+
+SUPPORTING_SKILLS:
+Docker
+Kubernetes
+Cloud
+DevOps
+Messaging
+Monitoring
+Networking
+
+RELATED_TECHNOLOGIES:
+Spring Boot
+.NET
+Node.js
+Docker
+Kubernetes
+Kafka
+RabbitMQ
+Redis
+REST
+gRPC
+AWS
+Azure
+Google Cloud
+
+TECHNOLOGY_CATEGORY:
+Software Architecture
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+003_IT_ECOSYSTEM.txt
+
+005_SOFTWARE_ARCHITECTURE.txt
+
+007_FRAMEWORKS.txt
+
+009_NETWORKING.txt
+
+011_APIS.txt
+
+==================================================
+MICROSERVICES DEFINITION
+========================
+
+Microservices Architecture is an architectural style where an application is divided into multiple independent services.
+
+Each service is responsible for one business capability.
+
+Each service can be developed, deployed, scaled and maintained independently.
+
+==================================================
+MICROSERVICES CHARACTERISTICS
+=============================
+
+Independent Deployment
+
+Independent Scaling
+
+Business Capability Driven
+
+API Communication
+
+Loose Coupling
+
+High Cohesion
+
+Fault Isolation
+
+Technology Flexibility
+
+Automation Friendly
+
+Cloud Native
+
+==================================================
+MICROSERVICES COMPONENTS
+========================
+
+API
+
+Business Service
+
+Database
+
+Message Broker
+
+Cache
+
+Configuration
+
+Monitoring
+
+Logging
+
+Security
+
+==================================================
+SERVICE COMMUNICATION
+=====================
+
+Synchronous
+
+REST
+
+SOAP
+
+gRPC
+
+---
+
+Asynchronous
+
+Kafka
+
+RabbitMQ
+
+ActiveMQ
+
+Amazon SQS
+
+Azure Service Bus
+
+==================================================
+SERVICE DISCOVERY
+=================
+
+PURPOSE
+
+Locate running services dynamically.
+
+COMMON TOOLS
+
+Eureka
+
+Consul
+
+Kubernetes DNS
+
+ZooKeeper
+
+==================================================
+API GATEWAY
+===========
+
+PURPOSE
+
+Single entry point for client requests.
+
+COMMON PRODUCTS
+
+Spring Cloud Gateway
+
+Kong
+
+NGINX
+
+AWS API Gateway
+
+Azure API Management
+
+Apigee
+
+==================================================
+CONFIGURATION MANAGEMENT
+========================
+
+COMMON TOOLS
+
+Spring Cloud Config
+
+Consul
+
+Kubernetes ConfigMaps
+
+Secrets Manager
+
+Azure Key Vault
+
+HashiCorp Vault
+
+==================================================
+CONTAINERIZATION
+================
+
+PURPOSE
+
+Package applications consistently.
+
+COMMON TOOLS
+
+Docker
+
+Podman
+
+containerd
+
+==================================================
+CONTAINER ORCHESTRATION
+=======================
+
+COMMON PLATFORMS
+
+Kubernetes
+
+OpenShift
+
+Amazon EKS
+
+Azure AKS
+
+Google GKE
+
+==================================================
+MESSAGE BROKERS
+===============
+
+Kafka
+
+RabbitMQ
+
+IBM MQ
+
+ActiveMQ
+
+Amazon SQS
+
+Azure Service Bus
+
+==================================================
+DATA MANAGEMENT
+===============
+
+Database per Service
+
+Event Sourcing
+
+CQRS
+
+Saga Pattern
+
+Distributed Transactions
+
+Eventual Consistency
+
+==================================================
+RESILIENCE PATTERNS
+===================
+
+Circuit Breaker
+
+Retry
+
+Timeout
+
+Bulkhead
+
+Fallback
+
+Rate Limiting
+
+==================================================
+SCALABILITY
+===========
+
+Horizontal Scaling
+
+Auto Scaling
+
+Load Balancing
+
+Elastic Scaling
+
+Stateless Services
+
+==================================================
+OBSERVABILITY
+=============
+
+Logging
+
+Metrics
+
+Tracing
+
+Monitoring
+
+Alerting
+
+COMMON TOOLS
+
+Prometheus
+
+Grafana
+
+Jaeger
+
+Zipkin
+
+ELK
+
+Splunk
+
+==================================================
+SECURITY
+========
+
+Authentication
+
+Authorization
+
+OAuth2
+
+JWT
+
+mTLS
+
+Secrets Management
+
+API Security
+
+==================================================
+COMMON FRAMEWORKS
+=================
+
+Spring Boot
+
+Spring Cloud
+
+.NET
+
+ASP.NET Core
+
+Node.js
+
+NestJS
+
+Express
+
+FastAPI
+
+Micronaut
+
+Quarkus
+
+==================================================
+MICROSERVICES ECOSYSTEM
+=======================
+
+Client
+
+↓
+
+API Gateway
+
+↓
+
+Authentication
+
+↓
+
+Microservice
+
+↓
+
+Database
+
+↓
+
+Kafka
+
+↓
+
+Another Microservice
+
+↓
+
+Monitoring
+
+↓
+
+Logging
+
+==================================================
+ROLE RESPONSIBILITY MAPPING
+===========================
+
+Backend Developer
+
+↓
+
+Develop Services
+
+REST APIs
+
+Database Integration
+
+---
+
+Senior Backend Developer
+
+↓
+
+Microservice Design
+
+Performance
+
+Code Reviews
+
+---
+
+Cloud Engineer
+
+↓
+
+Deployment
+
+Containers
+
+Networking
+
+---
+
+DevOps Engineer
+
+↓
+
+CI/CD
+
+Docker
+
+Kubernetes
+
+Automation
+
+---
+
+Solution Architect
+
+↓
+
+Service Design
+
+Integration
+
+Technology Selection
+
+Scalability
+
+---
+
+Enterprise Architect
+
+↓
+
+Architecture Standards
+
+Governance
+
+Platform Strategy
+
+==================================================
+MICROSERVICES VS MONOLITH
+=========================
+
+MONOLITH
+
+Single Application
+
+Single Deployment
+
+Shared Database
+
+Simple Development
+
+Limited Scaling
+
+---
+
+MICROSERVICES
+
+Independent Services
+
+Independent Deployment
+
+Independent Databases
+
+Independent Scaling
+
+Higher Operational Complexity
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always expand
+
+Microservices
+
+↓
+
+REST
+
+Spring Boot
+
+Docker
+
+Kubernetes
+
+API
+
+Cloud
+
+Expand only if supported by the JD.
+
+Do not automatically include Kafka or Docker unless responsibilities indicate distributed systems.
+
+==================================================
+MATCHING_RULES
+==============
+
+Microservices Architecture
+
+Critical
+
+REST APIs
+
+Critical
+
+Distributed Systems
+
+High
+
+Containers
+
+High
+
+Cloud
+
+High
+
+Messaging
+
+Medium
+
+Monitoring
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Do not assume every Backend Developer has Microservices experience.
+
+Validate using
+
+Responsibilities
+
+Projects
+
+Architecture
+
+Deployment
+
+Production Experience
+
+Differentiate between
+
+Implemented Microservices
+
+Designed Microservices
+
+Architected Microservices
+
+Architecture ownership indicates higher seniority.
+
+Cloud-native architecture experience increases confidence for senior backend, cloud and architect roles.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Docker as Microservices.
+
+Treating Kubernetes as Microservices.
+
+Assuming REST automatically means Microservices.
+
+Treating SOA and Microservices as identical.
+
+Assuming every Spring Boot application is a Microservice.
+
+Ignoring distributed system challenges such as resilience, observability and eventual consistency.
+
+Matching candidates solely on Docker and Kubernetes keywords without architecture evidence.
+
+END_OF_FILE

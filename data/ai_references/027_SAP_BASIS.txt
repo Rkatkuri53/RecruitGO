@@ -1,0 +1,724 @@
+FILE_NAME:
+027_SAP_BASIS.txt
+
+ID:
+027
+
+DOMAIN:
+SAP
+
+CATEGORY:
+ERP
+
+SUBCATEGORY:
+SAP Basis Administration
+
+PRIMARY_ROLE:
+SAP Basis Consultant
+
+RELATED_FILES:
+
+019_SAP_PLATFORM.txt
+
+028_SAP_ABAP.txt
+
+029_SAP_BTP.txt
+
+030_SAP_FIORI_UI5.txt
+
+031_SAP_INTEGRATION_SUITE.txt
+
+032_SAP_SECURITY_GRC.txt
+
+033_SAP_S4HANA_BROWNFIELD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP Basis Administration
+
+PURPOSE:
+Enable AI agents to understand SAP Basis Administration, SAP system architecture, installations, upgrades, migrations, transport management, performance tuning, system monitoring, high availability, disaster recovery, cloud deployments, S/4HANA administration, and Basis consultant responsibilities for accurate Boolean generation and candidate matching.
+
+KEYWORDS:
+SAP Basis
+SAP Administration
+NetWeaver
+Transport Management
+SAP Kernel
+SAP HANA Administration
+S/4HANA Basis
+SAP Landscape
+SAP System Copy
+SAP Upgrade
+
+ROLE_FAMILIES:
+SAP Basis Consultant
+SAP Basis Administrator
+SAP Technical Consultant
+SAP Infrastructure Consultant
+SAP Technical Architect
+SAP System Administrator
+
+COMMON_JOB_TITLES:
+SAP Basis Consultant
+SAP Basis Administrator
+SAP Technical Consultant
+SAP Basis Lead
+SAP Technical Architect
+
+ALTERNATIVE_TITLES:
+SAP Technical Administration
+SAP Platform Administration
+SAP Infrastructure Administration
+
+CORE_SKILLS:
+SAP Installation
+System Administration
+Transport Management
+Performance Tuning
+Monitoring
+Upgrade
+Migration
+High Availability
+
+SUPPORTING_SKILLS:
+Linux
+Windows
+HANA
+Cloud
+Networking
+Automation
+Security
+
+RELATED_TECHNOLOGIES:
+SAP NetWeaver
+SAP HANA
+SAP S/4HANA
+SAP Solution Manager
+SAP Cloud ALM
+Linux
+Oracle Database
+SQL Server
+Azure
+AWS
+
+TECHNOLOGY_CATEGORY:
+SAP Technical Platform
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+010_OPERATING_SYSTEMS.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+==================================================
+MODULE OVERVIEW
+===============
+
+SAP Basis is the technical foundation that installs, operates, monitors, secures and maintains SAP systems.
+
+Basis consultants are responsible for system availability, performance, upgrades, transport management, patching, backup, recovery and technical administration.
+
+They normally do NOT perform business process configuration.
+
+==================================================
+SAP SYSTEM ARCHITECTURE
+=======================
+
+Presentation Layer
+
+↓
+
+Application Server
+
+↓
+
+Message Server
+
+↓
+
+Enqueue Server
+
+↓
+
+Database
+
+↓
+
+Operating System
+
+↓
+
+Hardware / Cloud Infrastructure
+
+==================================================
+COMMON SAP LANDSCAPES
+=====================
+
+Sandbox
+
+↓
+
+Development (DEV)
+
+↓
+
+Quality Assurance (QAS)
+
+↓
+
+Pre-Production
+
+↓
+
+Production (PRD)
+
+==================================================
+CORE RESPONSIBILITIES
+=====================
+
+SAP Installation
+
+SAP Upgrade
+
+SAP Patch Management
+
+Kernel Upgrade
+
+Transport Management
+
+Client Administration
+
+Performance Monitoring
+
+System Monitoring
+
+User Administration
+
+Background Jobs
+
+System Copies
+
+Refreshes
+
+Backup
+
+Recovery
+
+High Availability
+
+Disaster Recovery
+
+==================================================
+SAP INSTALLATION
+================
+
+COMMON ACTIVITIES
+
+Install SAP Systems
+
+Install SAP HANA
+
+Configure Application Servers
+
+Install Central Services
+
+Post Installation Configuration
+
+==================================================
+SYSTEM MONITORING
+=================
+
+COMMON RESPONSIBILITIES
+
+CPU Monitoring
+
+Memory Monitoring
+
+Work Processes
+
+System Logs
+
+Short Dumps (ST22)
+
+Locks
+
+Performance Bottlenecks
+
+Availability
+
+==================================================
+TRANSPORT MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+Transport Requests
+
+Import Queue
+
+Transport Routes
+
+Release Management
+
+Landscape Synchronization
+
+COMMON TOOLS
+
+STMS
+
+CTS
+
+CTS+
+
+==================================================
+SYSTEM ADMINISTRATION
+=====================
+
+COMMON ACTIVITIES
+
+Client Administration
+
+Profile Management
+
+Operation Modes
+
+RFC Configuration
+
+Spool Administration
+
+Job Scheduling
+
+Batch Jobs
+
+==================================================
+PERFORMANCE TUNING
+==================
+
+COMMON RESPONSIBILITIES
+
+Buffer Optimization
+
+Memory Parameters
+
+Database Performance
+
+Work Process Optimization
+
+Response Time Analysis
+
+==================================================
+SYSTEM COPIES
+=============
+
+COMMON TYPES
+
+Client Copy
+
+Homogeneous System Copy
+
+Heterogeneous System Copy
+
+System Refresh
+
+Tenant Copy
+
+==================================================
+BACKUP & RECOVERY
+=================
+
+COMMON RESPONSIBILITIES
+
+Online Backup
+
+Offline Backup
+
+Recovery
+
+Disaster Recovery
+
+Log Backup
+
+Point-in-Time Recovery
+
+==================================================
+HIGH AVAILABILITY
+=================
+
+COMMON CONCEPTS
+
+Failover
+
+Clustering
+
+Load Balancing
+
+Replication
+
+Disaster Recovery
+
+Business Continuity
+
+==================================================
+SAP HANA ADMINISTRATION
+=======================
+
+COMMON RESPONSIBILITIES
+
+Database Monitoring
+
+Backup
+
+Recovery
+
+Replication
+
+Performance
+
+Memory Management
+
+Tenant Administration
+
+==================================================
+S/4HANA BASIS
+=============
+
+COMMON RESPONSIBILITIES
+
+SUM
+
+DMO
+
+Software Update Manager
+
+Fiori Administration
+
+Embedded Gateway
+
+HANA Migration
+
+Technical Conversion
+
+==================================================
+SAP CLOUD ADMINISTRATION
+========================
+
+COMMON PLATFORMS
+
+RISE with SAP
+
+SAP Private Cloud
+
+SAP Public Cloud
+
+Azure
+
+AWS
+
+Google Cloud
+
+COMMON RESPONSIBILITIES
+
+Cloud Provisioning
+
+System Monitoring
+
+Connectivity
+
+Identity Integration
+
+==================================================
+COMMON TRANSACTIONS
+===================
+
+STMS
+
+SM37
+
+SM21
+
+ST22
+
+SM50
+
+SM51
+
+RZ10
+
+RZ11
+
+DBACOCKPIT
+
+SM59
+
+SU01
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Landscape Design
+
+↓
+
+Installation
+
+↓
+
+Configuration
+
+↓
+
+Migration
+
+↓
+
+Upgrade
+
+↓
+
+Testing
+
+↓
+
+Cutover
+
+↓
+
+Go-Live Support
+
+↓
+
+Operations
+
+==================================================
+PROJECT TYPES
+=============
+
+New Installation
+
+System Upgrade
+
+Unicode Conversion
+
+OS Migration
+
+Database Migration
+
+ECC to S/4HANA Conversion
+
+Cloud Migration
+
+Landscape Consolidation
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Technical Responsibilities
+
+*
+
+Administration
+
+*
+
+Migration
+
+*
+
+Operating System
+
+Example
+
+("SAP Basis" OR "SAP Technical Consultant")
+
+AND
+
+(STMS OR ST22 OR SM37)
+
+AND
+
+(Migration OR Upgrade OR Installation)
+
+AND
+
+(HANA OR NetWeaver)
+
+Expand technical transactions only when supported by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+SAP Basis Experience
+
+Critical
+
+Installation & Upgrade
+
+Critical
+
+Transport Management
+
+Critical
+
+HANA Administration
+
+High
+
+Performance Tuning
+
+High
+
+Migration Experience
+
+High
+
+Cloud Administration
+
+Medium
+
+Linux Administration
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+ECC Basis
+
+↓
+
+S/4HANA Basis
+
+High
+
+---
+
+Oracle Database
+
+↓
+
+SAP HANA
+
+Medium
+
+---
+
+On-Premise Basis
+
+↓
+
+RISE with SAP
+
+Medium
+
+---
+
+NetWeaver
+
+↓
+
+S/4HANA Foundation
+
+High
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Landscape Type
+
+Database
+
+Operating System
+
+Cloud Platform
+
+Migration Type
+
+Project Phase
+
+Differentiate
+
+Administration
+
+Implementation
+
+Upgrade
+
+Migration
+
+Operations
+
+Identify whether the consultant performed
+
+Installation
+
+Monitoring
+
+Transport Management
+
+Performance Tuning
+
+Backup & Recovery
+
+System Copy
+
+Technical Cutover
+
+Recognize candidates with
+
+SUM
+
+DMO
+
+HANA Migration
+
+RISE with SAP
+
+Cloud ALM
+
+Technical Conversion
+
+experience as senior SAP Basis consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SAP Basis as an SAP Functional role.
+
+Confusing SAP Basis with ABAP Development.
+
+Ignoring operating system and database administration.
+
+Matching candidates solely because they list SAP.
+
+Treating SAP HANA DBA experience as complete SAP Basis expertise.
+
+Ignoring technical migration experience.
+
+Assuming certification equals production administration experience.
+
+END_OF_FILE

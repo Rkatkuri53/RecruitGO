@@ -1,0 +1,609 @@
+FILE_NAME:
+099_ADOBE_INTEGRATION.txt
+
+ID:
+099
+
+DOMAIN:
+Adobe
+
+CATEGORY:
+Enterprise Integration
+
+SUBCATEGORY:
+Adobe Experience Cloud Integration
+
+PRIMARY_ROLE:
+Adobe Integration Consultant
+
+RELATED_FILES:
+
+090_ADOBE_EXPERIENCE_CLOUD_PLATFORM.txt
+
+091_ADOBE_EXPERIENCE_MANAGER_AEM.txt
+
+092_ADOBE_ANALYTICS.txt
+
+093_ADOBE_CAMPAIGN.txt
+
+094_ADOBE_TARGET.txt
+
+095_ADOBE_COMMERCE_MAGENTO.txt
+
+096_ADOBE_EXPERIENCE_PLATFORM_AEP.txt
+
+097_ADOBE_MARKETO.txt
+
+098_ADOBE_DEVELOPMENT.txt
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Adobe Experience Cloud Integration
+
+PURPOSE:
+Enable AI agents to understand Adobe Experience Cloud integration architecture, Adobe I/O, APIs, Event-Driven Architecture, Experience Platform integration, enterprise middleware, CRM/ERP connectivity, identity federation, customer data synchronization, and enterprise integration projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Adobe Integration
+Adobe I/O
+Adobe APIs
+Adobe Events
+REST API
+GraphQL
+Webhooks
+Adobe Experience Platform
+Real-Time CDP
+Middleware
+Event-Driven Architecture
+Customer Data Integration
+
+ROLE_FAMILIES:
+Adobe Integration Consultant
+
+Integration Architect
+
+Adobe Solution Architect
+
+Technical Consultant
+
+Enterprise Integration Consultant
+
+Cloud Integration Architect
+
+COMMON_JOB_TITLES:
+Adobe Integration Consultant
+
+Adobe Solution Architect
+
+Adobe Technical Architect
+
+Adobe Integration Developer
+
+Enterprise Integration Architect
+
+ALTERNATIVE_TITLES:
+Adobe Cloud Integration Consultant
+
+Digital Experience Integration Architect
+
+Enterprise API Consultant
+
+CORE_SKILLS:
+Adobe I/O
+
+REST APIs
+
+GraphQL
+
+Adobe Experience Platform
+
+Event-Driven Architecture
+
+Webhooks
+
+Middleware
+
+Identity Integration
+
+SUPPORTING_SKILLS:
+OAuth
+
+JSON
+
+Java
+
+Node.js
+
+Kafka
+
+MuleSoft
+
+Boomi
+
+Security
+
+RELATED_TECHNOLOGIES:
+Adobe I/O
+
+Adobe Runtime
+
+Adobe Experience Platform
+
+Adobe Analytics
+
+Adobe Target
+
+Adobe Campaign
+
+Adobe Commerce
+
+Adobe IMS
+
+Kafka
+
+MuleSoft
+
+TECHNOLOGY_CATEGORY:
+Enterprise Integration Platform
+
+DEPENDENCIES:
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Adobe Experience Cloud integration connects Adobe products with enterprise applications, customer data platforms, cloud services and third-party ecosystems through APIs, Adobe I/O, events and cloud-native integration patterns.
+
+Modern Adobe integrations emphasize API-first architecture, event-driven communication, real-time customer data synchronization and composable digital experience platforms.
+
+==================================================
+CORE INTEGRATION COMPONENTS
+===========================
+
+Adobe I/O
+
+REST APIs
+
+GraphQL
+
+Webhooks
+
+Events
+
+Adobe Runtime
+
+Middleware
+
+Identity Services
+
+==================================================
+ADOBE I/O
+=========
+
+COMMON RESPONSIBILITIES
+
+API Gateway
+
+Authentication
+
+Developer Console
+
+Project Configuration
+
+Events
+
+SDK Management
+
+==================================================
+API INTEGRATION
+===============
+
+COMMON RESPONSIBILITIES
+
+REST APIs
+
+GraphQL APIs
+
+CRUD Operations
+
+OAuth
+
+JSON
+
+API Versioning
+
+==================================================
+EVENT-DRIVEN ARCHITECTURE
+=========================
+
+COMMON RESPONSIBILITIES
+
+Adobe Events
+
+Webhooks
+
+Asynchronous Processing
+
+Message Routing
+
+Event Consumers
+
+==================================================
+EXPERIENCE PLATFORM INTEGRATION
+===============================
+
+COMMON RESPONSIBILITIES
+
+Profile Synchronization
+
+Identity Resolution
+
+Real-Time CDP
+
+Audience Activation
+
+Journey Integration
+
+==================================================
+IDENTITY INTEGRATION
+====================
+
+COMMON RESPONSIBILITIES
+
+Adobe IMS
+
+Single Sign-On
+
+OAuth
+
+SAML
+
+Identity Federation
+
+Access Management
+
+==================================================
+MIDDLEWARE INTEGRATION
+======================
+
+COMMON RESPONSIBILITIES
+
+MuleSoft
+
+Boomi
+
+Kafka
+
+Azure Integration
+
+AWS Integration
+
+Enterprise Service Bus
+
+==================================================
+COMMON INTEGRATION TARGETS
+==========================
+
+CRM
+
+ERP
+
+Marketing Platforms
+
+Payment Systems
+
+Identity Providers
+
+Data Lakes
+
+Analytics Platforms
+
+Cloud Services
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Architecture Design
+
+↓
+
+Integration Design
+
+↓
+
+API Development
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Monitoring
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Customer Data Platform Integration
+
+Digital Experience Integration
+
+CRM Integration
+
+Commerce Integration
+
+Marketing Integration
+
+Enterprise API Modernization
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Integration
+
+*
+
+APIs
+
+*
+
+Architecture
+
+Example
+
+(Adobe)
+
+AND
+
+("Adobe I/O" OR APIs)
+
+AND
+
+(GraphQL OR Webhooks)
+
+AND
+
+(Integration OR Architect)
+
+Expand Adobe integration technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Adobe Integration
+
+Critical
+
+Adobe I/O
+
+Critical
+
+REST APIs
+
+High
+
+GraphQL
+
+High
+
+Adobe Experience Platform
+
+High
+
+Event Architecture
+
+Medium
+
+Middleware
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+MuleSoft
+
+↓
+
+Adobe Integration
+
+Medium
+
+---
+
+Boomi
+
+↓
+
+Adobe Integration
+
+Medium
+
+---
+
+Kafka
+
+↓
+
+Adobe Events
+
+Medium
+
+---
+
+Azure Integration Services
+
+↓
+
+Enterprise Integration
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Integration Scope
+
+Architecture Pattern
+
+Adobe Product
+
+Middleware Usage
+
+Implementation Type
+
+Differentiate
+
+Adobe I/O
+
+Experience Platform
+
+Analytics
+
+Campaign
+
+Commerce
+
+Identity
+
+Identify whether the consultant performed
+
+Architecture
+
+API Design
+
+Integration Development
+
+Testing
+
+Deployment
+
+Monitoring
+
+Optimization
+
+Recognize candidates with enterprise Adobe integration, Adobe I/O implementation, API-first architecture, Experience Platform integration, event-driven architecture and enterprise middleware experience as senior Adobe integration consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating API development as Adobe integration expertise.
+
+Confusing Adobe I/O with Adobe Experience Platform.
+
+Matching candidates solely because they mention REST APIs.
+
+Ignoring event-driven architecture.
+
+Treating middleware experience as Adobe implementation.
+
+Ignoring identity federation.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+Adobe Integration
+
+↓
+
+Adobe Experience Cloud
+
+Adobe I/O
+
+Enterprise Integration
+
+---
+
+APIs
+
+↓
+
+REST
+
+GraphQL
+
+Webhooks
+
+OAuth
+
+JSON
+
+---
+
+Experience Platform
+
+↓
+
+Real-Time CDP
+
+Identity Resolution
+
+Profiles
+
+Audience Activation
+
+---
+
+Architecture
+
+↓
+
+Event-Driven
+
+Kafka
+
+MuleSoft
+
+Boomi
+
+Adobe Runtime
+
+END_OF_FILE

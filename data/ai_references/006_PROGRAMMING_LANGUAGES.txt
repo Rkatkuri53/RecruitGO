@@ -1,0 +1,891 @@
+FILE_NAME:
+006_PROGRAMMING_LANGUAGES.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Programming Languages
+
+PURPOSE:
+Enable AI agents to identify, classify, relate, and evaluate programming languages used in Job Descriptions and resumes. This file defines language ecosystems, common responsibilities, transferable skills, role mappings, Boolean expansion rules, and candidate matching logic.
+
+KEYWORDS:
+Programming Language
+Coding
+Software Development
+Backend
+Frontend
+Scripting
+Object Oriented
+Functional Programming
+
+ROLE_FAMILIES:
+Backend Developer
+Frontend Developer
+Full Stack Developer
+Mobile Developer
+Data Engineer
+AI Engineer
+ML Engineer
+DevOps Engineer
+Automation Engineer
+QA Automation
+Embedded Engineer
+Game Developer
+ERP Developer
+
+COMMON_JOB_TITLES:
+Software Engineer
+Software Developer
+Application Developer
+Programmer
+Developer
+Engineer
+
+ALTERNATIVE_TITLES:
+Coding Language
+Development Language
+
+CORE_SKILLS:
+Programming
+Algorithms
+Data Structures
+Problem Solving
+Software Design
+
+SUPPORTING_SKILLS:
+Frameworks
+Libraries
+Testing
+Version Control
+Debugging
+
+RELATED_TECHNOLOGIES:
+Frameworks
+Databases
+Cloud
+DevOps
+Operating Systems
+APIs
+
+TECHNOLOGY_CATEGORY:
+Programming Languages
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+001_ROLE_CLASSIFICATION.txt
+
+003_IT_ECOSYSTEM.txt
+
+004_SDLC.txt
+
+005_SOFTWARE_ARCHITECTURE.txt
+
+==================================================
+PROGRAMMING LANGUAGE DEFINITION
+===============================
+
+A programming language is used to create software, automate tasks, process data, and build applications.
+
+Programming languages belong to different ecosystems.
+
+A language alone does not define a role.
+
+The ecosystem, frameworks, responsibilities and projects determine the actual role.
+
+==================================================
+LANGUAGE CLASSIFICATION
+=======================
+
+Object-Oriented Languages
+
+Java
+
+C#
+
+C++
+
+Kotlin
+
+Swift
+
+---
+
+Procedural Languages
+
+C
+
+Pascal
+
+---
+
+Functional Languages
+
+Scala
+
+F#
+
+Haskell
+
+Elixir
+
+---
+
+Scripting Languages
+
+Python
+
+JavaScript
+
+PHP
+
+Ruby
+
+Perl
+
+Bash
+
+PowerShell
+
+---
+
+Data Languages
+
+SQL
+
+PL/SQL
+
+T-SQL
+
+==================================================
+JAVA
+====
+
+CATEGORY
+
+Object-Oriented
+
+COMMON ROLES
+
+Java Developer
+
+Backend Developer
+
+Full Stack Developer
+
+Software Engineer
+
+Microservices Developer
+
+COMMON FRAMEWORKS
+
+Spring
+
+Spring Boot
+
+Hibernate
+
+Jakarta EE
+
+Micronaut
+
+Quarkus
+
+COMMON BUILD TOOLS
+
+Maven
+
+Gradle
+
+COMMON TESTING
+
+JUnit
+
+Mockito
+
+COMMON DATABASES
+
+Oracle
+
+PostgreSQL
+
+MySQL
+
+SQL Server
+
+COMMON RESPONSIBILITIES
+
+Develop REST APIs
+
+Microservices
+
+Enterprise Applications
+
+Backend Services
+
+Performance Optimization
+
+BOOLEAN
+
+(Java OR J2EE OR "Java SE" OR "Java EE")
+
+TRANSFERABLE
+
+Kotlin
+
+Medium Confidence
+
+==================================================
+PYTHON
+======
+
+CATEGORY
+
+General Purpose
+
+COMMON ROLES
+
+Python Developer
+
+Data Engineer
+
+AI Engineer
+
+ML Engineer
+
+Automation Engineer
+
+Backend Developer
+
+COMMON FRAMEWORKS
+
+FastAPI
+
+Flask
+
+Django
+
+COMMON LIBRARIES
+
+NumPy
+
+Pandas
+
+TensorFlow
+
+PyTorch
+
+Scikit-learn
+
+COMMON RESPONSIBILITIES
+
+Automation
+
+Backend APIs
+
+Data Processing
+
+Machine Learning
+
+Scripting
+
+BOOLEAN
+
+(Python)
+
+TRANSFERABLE
+
+FastAPI
+
+Flask
+
+Django
+
+==================================================
+JAVASCRIPT
+==========
+
+CATEGORY
+
+Frontend / Backend
+
+COMMON ROLES
+
+Frontend Developer
+
+Full Stack Developer
+
+Node.js Developer
+
+COMMON FRAMEWORKS
+
+React
+
+Angular
+
+Vue
+
+Express
+
+NestJS
+
+Next.js
+
+COMMON RESPONSIBILITIES
+
+UI Development
+
+Frontend Logic
+
+API Development
+
+Single Page Applications
+
+BOOLEAN
+
+(JavaScript OR JS)
+
+==================================================
+TYPESCRIPT
+==========
+
+CATEGORY
+
+Programming Language
+
+COMMON ROLES
+
+Frontend Developer
+
+Backend Developer
+
+Full Stack Developer
+
+COMMON FRAMEWORKS
+
+Angular
+
+React
+
+Next.js
+
+NestJS
+
+COMMON RESPONSIBILITIES
+
+Enterprise Frontend
+
+Backend APIs
+
+BOOLEAN
+
+(TypeScript OR TS)
+
+==================================================
+C#
+==
+
+CATEGORY
+
+Object-Oriented
+
+COMMON ROLES
+
+.NET Developer
+
+Backend Developer
+
+Software Engineer
+
+COMMON FRAMEWORKS
+
+.NET
+
+ASP.NET
+
+Entity Framework
+
+Blazor
+
+COMMON RESPONSIBILITIES
+
+Enterprise Applications
+
+APIs
+
+Desktop Applications
+
+BOOLEAN
+
+("C#" OR DotNet OR ".NET")
+
+==================================================
+GO
+==
+
+CATEGORY
+
+Programming Language
+
+COMMON ROLES
+
+Backend Developer
+
+Platform Engineer
+
+Cloud Engineer
+
+COMMON RESPONSIBILITIES
+
+Microservices
+
+Cloud Services
+
+Networking
+
+Distributed Systems
+
+BOOLEAN
+
+(Golang OR Go)
+
+==================================================
+RUST
+====
+
+CATEGORY
+
+Systems Programming
+
+COMMON ROLES
+
+Systems Engineer
+
+Backend Engineer
+
+Security Engineer
+
+COMMON RESPONSIBILITIES
+
+Performance
+
+Low-Level Systems
+
+Security
+
+BOOLEAN
+
+(Rust)
+
+==================================================
+KOTLIN
+======
+
+CATEGORY
+
+Programming Language
+
+COMMON ROLES
+
+Android Developer
+
+Backend Developer
+
+COMMON RESPONSIBILITIES
+
+Android
+
+Backend APIs
+
+BOOLEAN
+
+(Kotlin)
+
+==================================================
+SWIFT
+=====
+
+CATEGORY
+
+Programming Language
+
+COMMON ROLES
+
+iOS Developer
+
+Mobile Developer
+
+BOOLEAN
+
+(Swift)
+
+==================================================
+PHP
+===
+
+CATEGORY
+
+Programming Language
+
+COMMON ROLES
+
+PHP Developer
+
+Backend Developer
+
+Full Stack Developer
+
+COMMON FRAMEWORKS
+
+Laravel
+
+Symfony
+
+CodeIgniter
+
+BOOLEAN
+
+(PHP)
+
+==================================================
+RUBY
+====
+
+CATEGORY
+
+Programming Language
+
+COMMON ROLES
+
+Ruby Developer
+
+Backend Developer
+
+COMMON FRAMEWORKS
+
+Ruby on Rails
+
+BOOLEAN
+
+(Ruby OR Rails)
+
+==================================================
+SCALA
+=====
+
+CATEGORY
+
+Programming Language
+
+COMMON ROLES
+
+Data Engineer
+
+Backend Developer
+
+Big Data Engineer
+
+COMMON TECHNOLOGIES
+
+Spark
+
+Akka
+
+BOOLEAN
+
+(Scala)
+
+==================================================
+SQL
+===
+
+CATEGORY
+
+Database Query Language
+
+COMMON ROLES
+
+Almost Every Technical Role
+
+COMMON RESPONSIBILITIES
+
+Querying
+
+Reporting
+
+Data Analysis
+
+Database Development
+
+BOOLEAN
+
+(SQL)
+
+==================================================
+LANGUAGE ECOSYSTEM MAPPING
+==========================
+
+Java
+
+↓
+
+Spring
+
+↓
+
+Hibernate
+
+↓
+
+Maven
+
+↓
+
+REST
+
+↓
+
+Docker
+
+↓
+
+Kubernetes
+
+---
+
+Python
+
+↓
+
+FastAPI
+
+↓
+
+Pandas
+
+↓
+
+NumPy
+
+↓
+
+TensorFlow
+
+↓
+
+AWS
+
+---
+
+JavaScript
+
+↓
+
+React
+
+↓
+
+Node.js
+
+↓
+
+Express
+
+↓
+
+MongoDB
+
+---
+
+C#
+
+↓
+
+.NET
+
+↓
+
+ASP.NET
+
+↓
+
+Azure
+
+---
+
+Go
+
+↓
+
+Docker
+
+↓
+
+Kubernetes
+
+↓
+
+Cloud
+
+==================================================
+ROLE TO LANGUAGE MAPPING
+========================
+
+Backend Developer
+
+Java
+
+Python
+
+C#
+
+Go
+
+Node.js
+
+PHP
+
+---
+
+Frontend Developer
+
+JavaScript
+
+TypeScript
+
+---
+
+Full Stack Developer
+
+Java
+
+JavaScript
+
+TypeScript
+
+Python
+
+C#
+
+---
+
+Data Engineer
+
+Python
+
+Scala
+
+SQL
+
+---
+
+AI Engineer
+
+Python
+
+---
+
+Mobile Developer
+
+Kotlin
+
+Swift
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Canonical Language
+
+*
+
+Alternative Names
+
+*
+
+Primary Frameworks
+
+*
+
+Role Titles
+
+Do not expand unrelated languages.
+
+Example
+
+Java
+
+Do NOT include
+
+JavaScript
+
+==================================================
+MATCHING_RULES
+==============
+
+Programming Language
+
+Critical
+
+Framework Experience
+
+Critical
+
+Responsibilities
+
+Critical
+
+Projects
+
+High
+
+Recent Usage
+
+High
+
+Transferable Languages
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Never confuse
+
+Java
+
+with
+
+JavaScript.
+
+Framework knowledge without language knowledge is incomplete.
+
+A programming language alone does not determine expertise.
+
+Use frameworks, responsibilities, projects and architecture to validate proficiency.
+
+Prefer candidates with demonstrated production experience over candidates who only list the language.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Java and JavaScript as related.
+
+Assuming Python always means AI.
+
+Assuming SQL means Database Administrator.
+
+Treating C# and .NET as separate ecosystems.
+
+Ignoring framework experience.
+
+Matching candidates only because they listed a language.
+
+END_OF_FILE

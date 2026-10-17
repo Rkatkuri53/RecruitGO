@@ -1,0 +1,870 @@
+FILE_NAME:
+017_AI_ML.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Artificial Intelligence, Machine Learning & Generative AI
+
+PURPOSE:
+Enable AI agents to understand Artificial Intelligence (AI), Machine Learning (ML), Deep Learning (DL), Natural Language Processing (NLP), Computer Vision (CV), Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), AI Agents, MLOps, Vector Databases, Prompt Engineering, and modern AI application architecture. This knowledge supports accurate JD parsing, Boolean generation, resume parsing, candidate matching, interview generation, and AI role classification.
+
+KEYWORDS:
+Artificial Intelligence
+Machine Learning
+Deep Learning
+Generative AI
+LLM
+GPT
+RAG
+Embeddings
+Vector Database
+Prompt Engineering
+MLOps
+AI Agents
+
+ROLE_FAMILIES:
+AI Engineer
+Machine Learning Engineer
+LLM Engineer
+GenAI Engineer
+Data Scientist
+Applied AI Engineer
+Research Engineer
+MLOps Engineer
+AI Solutions Architect
+Data Engineer
+
+COMMON_JOB_TITLES:
+AI Engineer
+ML Engineer
+Machine Learning Engineer
+GenAI Engineer
+LLM Engineer
+Prompt Engineer
+Applied Scientist
+AI Architect
+AI Consultant
+
+ALTERNATIVE_TITLES:
+Artificial Intelligence Engineer
+Generative AI Engineer
+Applied AI Developer
+Intelligent Systems Engineer
+
+CORE_SKILLS:
+Machine Learning
+Deep Learning
+Python
+Prompt Engineering
+LLMs
+Model Deployment
+MLOps
+
+SUPPORTING_SKILLS:
+Data Engineering
+Cloud
+APIs
+Containers
+Microservices
+Vector Databases
+
+RELATED_TECHNOLOGIES:
+Python
+PyTorch
+TensorFlow
+Scikit-learn
+LangChain
+LlamaIndex
+OpenAI API
+Anthropic API
+Gemini API
+Hugging Face
+MLflow
+Kubeflow
+Docker
+Kubernetes
+
+TECHNOLOGY_CATEGORY:
+Artificial Intelligence
+
+DEPENDENCIES:
+
+000_MASTER_RULES.txt
+
+006_PROGRAMMING_LANGUAGES.txt
+
+007_FRAMEWORKS.txt
+
+008_DATABASES.txt
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+016_DATA_ENGINEERING.txt
+
+==================================================
+ARTIFICIAL INTELLIGENCE DEFINITION
+==================================
+
+Artificial Intelligence enables computer systems to perform tasks that normally require human intelligence.
+
+AI systems learn from data, reason over information, generate content, make predictions, automate decisions and assist users.
+
+==================================================
+AI DISCIPLINES
+==============
+
+Artificial Intelligence
+
+↓
+
+Machine Learning
+
+↓
+
+Deep Learning
+
+↓
+
+Generative AI
+
+↓
+
+Large Language Models
+
+↓
+
+AI Agents
+
+==================================================
+MACHINE LEARNING
+================
+
+PURPOSE
+
+Train models using historical data.
+
+COMMON TASKS
+
+Classification
+
+Regression
+
+Clustering
+
+Recommendation
+
+Forecasting
+
+COMMON LIBRARIES
+
+Scikit-learn
+
+XGBoost
+
+LightGBM
+
+CatBoost
+
+==================================================
+DEEP LEARNING
+=============
+
+PURPOSE
+
+Train neural networks.
+
+COMMON FRAMEWORKS
+
+TensorFlow
+
+PyTorch
+
+Keras
+
+COMMON USE CASES
+
+Vision
+
+Speech
+
+Natural Language
+
+Recommendation
+
+==================================================
+NATURAL LANGUAGE PROCESSING
+===========================
+
+COMMON TASKS
+
+Text Classification
+
+NER
+
+Summarization
+
+Translation
+
+Question Answering
+
+Sentiment Analysis
+
+==================================================
+COMPUTER VISION
+===============
+
+COMMON TASKS
+
+Image Classification
+
+Object Detection
+
+OCR
+
+Segmentation
+
+Facial Recognition
+
+COMMON LIBRARIES
+
+OpenCV
+
+YOLO
+
+Detectron2
+
+==================================================
+GENERATIVE AI
+=============
+
+PURPOSE
+
+Generate
+
+Text
+
+Code
+
+Images
+
+Audio
+
+Video
+
+COMMON MODELS
+
+GPT
+
+Claude
+
+Gemini
+
+Llama
+
+Mistral
+
+Qwen
+
+==================================================
+LARGE LANGUAGE MODELS (LLMs)
+============================
+
+COMMON RESPONSIBILITIES
+
+Prompt Engineering
+
+Model Evaluation
+
+Inference
+
+Fine-Tuning
+
+Context Management
+
+Tool Calling
+
+==================================================
+PROMPT ENGINEERING
+==================
+
+COMMON RESPONSIBILITIES
+
+Instruction Design
+
+Role Definition
+
+Few-shot Prompting
+
+Chain of Thought
+
+Output Formatting
+
+Guardrails
+
+==================================================
+RETRIEVAL AUGMENTED GENERATION (RAG)
+====================================
+
+PURPOSE
+
+Improve LLM responses using external knowledge.
+
+ARCHITECTURE
+
+Documents
+
+↓
+
+Chunking
+
+↓
+
+Embeddings
+
+↓
+
+Vector Database
+
+↓
+
+Retriever
+
+↓
+
+LLM
+
+↓
+
+Answer
+
+COMMON TOOLS
+
+LangChain
+
+LlamaIndex
+
+Haystack
+
+==================================================
+EMBEDDINGS
+==========
+
+PURPOSE
+
+Convert text into vectors for semantic search.
+
+COMMON USE CASES
+
+Similarity Search
+
+Knowledge Retrieval
+
+Recommendation
+
+Semantic Search
+
+==================================================
+VECTOR DATABASES
+================
+
+COMMON PRODUCTS
+
+Pinecone
+
+Milvus
+
+Weaviate
+
+Qdrant
+
+Chroma
+
+FAISS
+
+COMMON RESPONSIBILITIES
+
+Embedding Storage
+
+Similarity Search
+
+RAG
+
+==================================================
+AI AGENTS
+=========
+
+PURPOSE
+
+Autonomously perform tasks using reasoning, planning and tool usage.
+
+COMMON RESPONSIBILITIES
+
+Planning
+
+Reasoning
+
+Tool Calling
+
+Memory
+
+Workflow Automation
+
+Decision Making
+
+COMMON FRAMEWORKS
+
+LangGraph
+
+CrewAI
+
+AutoGen
+
+OpenAI Agents SDK
+
+==================================================
+MLOPS
+=====
+
+PURPOSE
+
+Manage the ML lifecycle.
+
+COMMON RESPONSIBILITIES
+
+Model Training
+
+Versioning
+
+Deployment
+
+Monitoring
+
+Retraining
+
+COMMON TOOLS
+
+MLflow
+
+Kubeflow
+
+Weights & Biases
+
+SageMaker
+
+Vertex AI
+
+Azure ML
+
+==================================================
+MODEL DEPLOYMENT
+================
+
+COMMON PLATFORMS
+
+Docker
+
+Kubernetes
+
+FastAPI
+
+Flask
+
+Cloud Run
+
+AWS SageMaker
+
+Azure ML
+
+Vertex AI
+
+==================================================
+COMMON AI FRAMEWORKS
+====================
+
+TensorFlow
+
+PyTorch
+
+Scikit-learn
+
+LangChain
+
+LlamaIndex
+
+Haystack
+
+Hugging Face Transformers
+
+==================================================
+COMMON PROGRAMMING LANGUAGES
+============================
+
+Python
+
+Critical
+
+---
+
+SQL
+
+High
+
+---
+
+Scala
+
+Medium
+
+---
+
+Java
+
+Medium
+
+==================================================
+AI CLOUD SERVICES
+=================
+
+AWS
+
+Bedrock
+
+SageMaker
+
+Comprehend
+
+Rekognition
+
+Textract
+
+---
+
+AZURE
+
+Azure OpenAI
+
+Azure AI Studio
+
+Azure ML
+
+Document Intelligence
+
+---
+
+GOOGLE CLOUD
+
+Vertex AI
+
+Gemini
+
+Document AI
+
+Vision AI
+
+==================================================
+AI RESPONSIBILITY MAPPING
+=========================
+
+Machine Learning Engineer
+
+↓
+
+Model Training
+
+Feature Engineering
+
+Evaluation
+
+---
+
+AI Engineer
+
+↓
+
+LLMs
+
+RAG
+
+APIs
+
+Prompt Engineering
+
+Deployment
+
+---
+
+MLOps Engineer
+
+↓
+
+Training Pipelines
+
+Deployment
+
+Monitoring
+
+Automation
+
+---
+
+Data Scientist
+
+↓
+
+Data Analysis
+
+Model Building
+
+Experimentation
+
+---
+
+AI Solutions Architect
+
+↓
+
+Architecture
+
+AI Platform
+
+Technology Selection
+
+Governance
+
+==================================================
+AI ECOSYSTEM
+============
+
+Data
+
+↓
+
+Feature Engineering
+
+↓
+
+Model Training
+
+↓
+
+Evaluation
+
+↓
+
+Deployment
+
+↓
+
+Inference
+
+↓
+
+Monitoring
+
+↓
+
+Retraining
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Role
+
+*
+
+AI Technology
+
+*
+
+Programming Language
+
+*
+
+Framework
+
+*
+
+Cloud Platform
+
+Example
+
+("AI Engineer" OR "Machine Learning Engineer" OR "LLM Engineer")
+
+AND
+
+(Python)
+
+AND
+
+(TensorFlow OR PyTorch OR Scikit-learn)
+
+AND
+
+(LangChain OR LlamaIndex OR RAG)
+
+AND
+
+(OpenAI OR Claude OR Gemini OR Llama)
+
+Expand AI technologies only when supported by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+AI Engineering Experience
+
+Critical
+
+Python
+
+Critical
+
+Framework Experience
+
+Critical
+
+LLM Experience
+
+High
+
+RAG
+
+High
+
+Prompt Engineering
+
+High
+
+Model Deployment
+
+Medium
+
+Cloud AI Services
+
+Medium
+
+MLOps
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+TensorFlow
+
+↔
+
+PyTorch
+
+Medium
+
+---
+
+LangChain
+
+↔
+
+LlamaIndex
+
+High
+
+---
+
+OpenAI API
+
+↔
+
+Anthropic API
+
+Medium
+
+---
+
+SageMaker
+
+↔
+
+Vertex AI
+
+Medium
+
+---
+
+MLflow
+
+↔
+
+Kubeflow
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Differentiate between
+
+AI Engineer
+
+Machine Learning Engineer
+
+Data Scientist
+
+Prompt Engineer
+
+MLOps Engineer
+
+LLM Engineer
+
+Validate expertise using
+
+Projects
+
+Production Deployments
+
+Model Training
+
+Inference
+
+Prompt Engineering
+
+RAG
+
+AI Agents
+
+Do not classify every Python developer as an AI Engineer.
+
+Recognize production AI experience as more valuable than experimentation alone.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating ChatGPT usage as AI Engineering experience.
+
+Treating Python experience as Machine Learning experience.
+
+Confusing Data Science with Data Engineering.
+
+Treating Prompt Engineering as the only GenAI skill.
+
+Ignoring deployment and MLOps responsibilities.
+
+Matching candidates solely because they list TensorFlow or OpenAI.
+
+Confusing Vector Databases with traditional databases.
+
+END_OF_FILE

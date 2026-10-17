@@ -1,0 +1,681 @@
+FILE_NAME:
+101_IBM_WEBSPHERE.txt
+
+ID:
+101
+
+DOMAIN:
+IBM
+
+CATEGORY:
+Enterprise Middleware
+
+SUBCATEGORY:
+IBM WebSphere Application Server (WAS)
+
+PRIMARY_ROLE:
+IBM WebSphere Consultant
+
+RELATED_FILES:
+
+100_IBM_ENTERPRISE_PLATFORM.txt
+
+102_IBM_MQ.txt
+
+103_IBM_APP_CONNECT_IIB_ACE.txt
+
+109_IBM_CLOUD_PAK_OPENSHIFT.txt
+
+010_PROGRAMMING_LANGUAGES.txt
+
+011_APIS.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+IBM WebSphere Application Server
+
+PURPOSE:
+Enable AI agents to understand IBM WebSphere Application Server (WAS), Liberty, ND, clustering, enterprise Java hosting, administration, deployment, performance tuning, security, consultant responsibilities, implementation methodologies, and enterprise middleware modernization projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+IBM WebSphere
+WebSphere Application Server
+WAS
+WebSphere ND
+Network Deployment
+WebSphere Liberty
+Liberty
+Application Server
+J2EE
+Jakarta EE
+JVM
+Cell
+Node
+Cluster
+Deployment Manager
+DMGR
+
+ROLE_FAMILIES:
+WebSphere Administrator
+
+WebSphere Consultant
+
+Middleware Consultant
+
+WebSphere Architect
+
+Java Middleware Engineer
+
+Infrastructure Consultant
+
+COMMON_JOB_TITLES:
+IBM WebSphere Administrator
+
+IBM WebSphere Consultant
+
+WebSphere Middleware Engineer
+
+WebSphere Architect
+
+Senior Middleware Administrator
+
+ALTERNATIVE_TITLES:
+Application Server Administrator
+
+Enterprise Java Middleware Engineer
+
+Java Platform Administrator
+
+CORE_SKILLS:
+WebSphere Administration
+
+Application Deployment
+
+Clustering
+
+JVM Tuning
+
+Performance Tuning
+
+Security
+
+Liberty
+
+Network Deployment
+
+SUPPORTING_SKILLS:
+Linux
+
+Windows
+
+Java
+
+Shell Scripting
+
+OpenShift
+
+Docker
+
+Monitoring
+
+DevOps
+
+RELATED_TECHNOLOGIES:
+WebSphere ND
+
+WebSphere Liberty
+
+IBM HTTP Server
+
+Java EE
+
+Jakarta EE
+
+IBM MQ
+
+IBM ACE
+
+OpenShift
+
+TECHNOLOGY_CATEGORY:
+Enterprise Java Application Server
+
+DEPENDENCIES:
+
+010_PROGRAMMING_LANGUAGES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+IBM WebSphere Application Server (WAS) is IBM's enterprise Java application server used to deploy, host and manage mission-critical enterprise applications.
+
+Modern deployments increasingly use WebSphere Liberty due to its lightweight architecture, cloud-native capabilities and support for containers and Kubernetes.
+
+==================================================
+CORE COMPONENTS
+===============
+
+Application Server
+
+Deployment Manager (DMGR)
+
+Node Agents
+
+Application Clusters
+
+Cells
+
+Profiles
+
+Administrative Console
+
+Liberty
+
+==================================================
+NETWORK DEPLOYMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+Cell Administration
+
+Deployment Manager
+
+Node Federation
+
+Cluster Management
+
+Application Distribution
+
+High Availability
+
+==================================================
+WEBSPHERE LIBERTY
+=================
+
+COMMON RESPONSIBILITIES
+
+Lightweight Runtime
+
+Container Deployments
+
+Microservices
+
+Cloud-Native Java
+
+Fast Startup
+
+Jakarta EE Support
+
+==================================================
+APPLICATION DEPLOYMENT
+======================
+
+COMMON RESPONSIBILITIES
+
+EAR Deployment
+
+WAR Deployment
+
+Application Updates
+
+Version Management
+
+Rollback
+
+Deployment Automation
+
+==================================================
+PERFORMANCE TUNING
+==================
+
+COMMON RESPONSIBILITIES
+
+JVM Tuning
+
+Heap Management
+
+Garbage Collection
+
+Connection Pools
+
+Thread Pools
+
+Caching
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+Authentication
+
+Authorization
+
+SSL/TLS
+
+LDAP Integration
+
+Role-Based Access
+
+Certificates
+
+==================================================
+ADMINISTRATION
+==============
+
+COMMON RESPONSIBILITIES
+
+Server Start/Stop
+
+Health Monitoring
+
+Log Analysis
+
+Backup
+
+Disaster Recovery
+
+Capacity Planning
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Application Hosting
+
+Application Deployment
+
+Middleware Administration
+
+Platform Monitoring
+
+Performance Optimization
+
+High Availability
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Cells
+
+Nodes
+
+Clusters
+
+JVMs
+
+Datasources
+
+Security
+
+Applications
+
+Certificates
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Requirements
+
+↓
+
+Architecture
+
+↓
+
+Installation
+
+↓
+
+Configuration
+
+↓
+
+Application Deployment
+
+↓
+
+Testing
+
+↓
+
+Performance Validation
+
+↓
+
+Production Rollout
+
+↓
+
+Support
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Middleware Migration
+
+Application Modernization
+
+Cloud Migration
+
+Liberty Migration
+
+Java Platform Upgrade
+
+Container Modernization
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+IBM MQ
+
+IBM ACE
+
+Oracle
+
+SQL Server
+
+LDAP
+
+REST APIs
+
+OpenShift
+
+Kubernetes
+
+==================================================
+COMMON REPORTS
+==============
+
+Server Health
+
+Application Availability
+
+Performance Reports
+
+JVM Reports
+
+Capacity Reports
+
+Incident Dashboards
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Middleware Teams
+
+Infrastructure Teams
+
+Application Support
+
+Developers
+
+Operations
+
+Platform Engineering
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Application Server
+
+*
+
+Administration
+
+*
+
+Java
+
+Example
+
+(WebSphere OR WAS)
+
+AND
+
+(Liberty OR ND)
+
+AND
+
+(Cluster OR JVM)
+
+AND
+
+(Administrator OR Consultant)
+
+Expand WebSphere technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+WebSphere
+
+Critical
+
+Network Deployment
+
+Critical
+
+Liberty
+
+High
+
+Clustering
+
+High
+
+JVM Tuning
+
+High
+
+Application Deployment
+
+Medium
+
+Security
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+JBoss EAP
+
+↓
+
+WebSphere
+
+Medium
+
+---
+
+Oracle WebLogic
+
+↓
+
+WebSphere
+
+Medium
+
+---
+
+Apache Tomcat
+
+↓
+
+Enterprise Java Middleware
+
+Low
+
+---
+
+Red Hat OpenShift
+
+↓
+
+Liberty Containers
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+WebSphere Version
+
+Deployment Model
+
+Administration Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Traditional WAS
+
+WebSphere Liberty
+
+Administration
+
+Architecture
+
+Migration
+
+Performance
+
+Identify whether the consultant performed
+
+Installation
+
+Configuration
+
+Deployment
+
+Performance Tuning
+
+Migration
+
+Production Support
+
+Cloud Modernization
+
+Recognize candidates with enterprise WebSphere ND administration, Liberty migration, JVM tuning, clustering, high availability, containerization and middleware modernization experience as senior WebSphere consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Java development as WebSphere administration.
+
+Confusing Liberty with traditional WAS.
+
+Matching candidates solely because they mention WebSphere.
+
+Ignoring clustering and Deployment Manager expertise.
+
+Treating application deployment as architecture experience.
+
+Ignoring cloud-native modernization.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+BOOLEAN_EXPANSION_RULES
+=======================
+
+WebSphere
+
+↓
+
+IBM WebSphere
+
+WAS
+
+WebSphere Application Server
+
+---
+
+Administration
+
+↓
+
+Deployment Manager
+
+DMGR
+
+Cells
+
+Nodes
+
+Clusters
+
+---
+
+Performance
+
+↓
+
+JVM
+
+Heap
+
+GC
+
+Thread Pools
+
+Connection Pools
+
+---
+
+Cloud
+
+↓
+
+Liberty
+
+Containers
+
+OpenShift
+
+Kubernetes
+
+Jakarta EE
+
+END_OF_FILE

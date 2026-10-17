@@ -1,0 +1,758 @@
+FILE_NAME:
+026_SAP_EWM.txt
+
+ID:
+026
+
+DOMAIN:
+SAP
+
+CATEGORY:
+ERP
+
+SUBCATEGORY:
+Extended Warehouse Management
+
+PRIMARY_ROLE:
+SAP EWM Consultant
+
+RELATED_FILES:
+
+019_SAP_PLATFORM.txt
+
+021_SAP_MM.txt
+
+022_SAP_SD.txt
+
+023_SAP_PP.txt
+
+024_SAP_QM.txt
+
+025_SAP_PM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP Extended Warehouse Management (SAP EWM)
+
+PURPOSE:
+Enable AI agents to understand SAP Extended Warehouse Management (SAP EWM), warehouse operations, inbound logistics, outbound logistics, inventory management, labor management, warehouse automation, RF processes, S/4HANA EWM, consultant responsibilities, Boolean generation, and candidate matching.
+
+KEYWORDS:
+SAP EWM
+Extended Warehouse Management
+Warehouse Management
+Inbound Logistics
+Outbound Logistics
+Inventory Management
+RF
+Warehouse Automation
+Yard Management
+Labor Management
+
+ROLE_FAMILIES:
+SAP EWM Consultant
+SAP Warehouse Consultant
+SAP Logistics Consultant
+SAP Supply Chain Consultant
+SAP Solution Architect
+SAP Warehouse Lead
+
+COMMON_JOB_TITLES:
+SAP EWM Consultant
+SAP Warehouse Management Consultant
+SAP EWM Functional Consultant
+SAP Logistics Consultant
+SAP EWM Lead Consultant
+
+ALTERNATIVE_TITLES:
+SAP Warehouse
+Warehouse Operations
+Warehouse Execution
+Logistics Execution
+
+CORE_SKILLS:
+Warehouse Management
+Inventory Management
+Inbound Processing
+Outbound Processing
+Configuration
+Business Process Analysis
+Testing
+
+SUPPORTING_SKILLS:
+Supply Chain
+Transportation
+RF Devices
+Automation
+SAP S/4HANA
+Analytics
+
+RELATED_TECHNOLOGIES:
+SAP ECC
+
+SAP S/4HANA
+
+SAP HANA
+
+SAP Fiori
+
+SAP TM
+
+SAP MFS
+
+SAP Digital Manufacturing
+
+TECHNOLOGY_CATEGORY:
+SAP Functional Module
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+==================================================
+MODULE OVERVIEW
+===============
+
+SAP Extended Warehouse Management (EWM) manages complex warehouse operations from goods receipt to goods issue.
+
+It supports inventory accuracy, warehouse automation, labor optimization, warehouse visibility, and high-volume logistics operations.
+
+==================================================
+BUSINESS PROCESS FLOW
+=====================
+
+Inbound Delivery
+
+↓
+
+Goods Receipt
+
+↓
+
+Putaway
+
+↓
+
+Storage
+
+↓
+
+Inventory Management
+
+↓
+
+Picking
+
+↓
+
+Packing
+
+↓
+
+Staging
+
+↓
+
+Loading
+
+↓
+
+Goods Issue
+
+==================================================
+CORE SUBMODULES
+===============
+
+Inbound Processing
+
+Outbound Processing
+
+Warehouse Internal Processes
+
+Physical Inventory
+
+Slotting
+
+Rearrangement
+
+Labor Management
+
+Yard Management
+
+Cross Docking
+
+Value Added Services
+
+Material Flow System (MFS)
+
+==================================================
+INBOUND PROCESSING
+==================
+
+COMMON RESPONSIBILITIES
+
+Inbound Deliveries
+
+Goods Receipt
+
+Putaway
+
+Inspection Integration
+
+Storage Assignment
+
+Dock Appointment
+
+==================================================
+OUTBOUND PROCESSING
+===================
+
+COMMON RESPONSIBILITIES
+
+Picking
+
+Packing
+
+Wave Management
+
+Loading
+
+Shipping
+
+Goods Issue
+
+==================================================
+INVENTORY MANAGEMENT
+====================
+
+COMMON RESPONSIBILITIES
+
+Stock Visibility
+
+Bin Management
+
+Cycle Counting
+
+Physical Inventory
+
+Inventory Adjustments
+
+Batch Management
+
+==================================================
+WAREHOUSE STRUCTURE
+===================
+
+Warehouse Number
+
+Storage Type
+
+Storage Section
+
+Storage Bin
+
+Activity Area
+
+Work Center
+
+Resource
+
+==================================================
+LABOR MANAGEMENT
+================
+
+COMMON RESPONSIBILITIES
+
+Labor Planning
+
+Resource Assignment
+
+Performance Monitoring
+
+Task Optimization
+
+Workload Balancing
+
+==================================================
+YARD MANAGEMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+Vehicle Check-In
+
+Dock Scheduling
+
+Vehicle Movement
+
+Gate Management
+
+Trailer Tracking
+
+==================================================
+WAREHOUSE AUTOMATION
+====================
+
+COMMON RESPONSIBILITIES
+
+Conveyor Integration
+
+AS/RS
+
+Robotics
+
+Barcode
+
+RF Devices
+
+Voice Picking
+
+IoT Integration
+
+==================================================
+MATERIAL FLOW SYSTEM (MFS)
+==========================
+
+COMMON RESPONSIBILITIES
+
+PLC Integration
+
+Automated Conveyor Systems
+
+Warehouse Automation
+
+Equipment Communication
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Inbound Logistics
+
+Outbound Logistics
+
+Cross Docking
+
+Stock Transfers
+
+Returns
+
+Warehouse Replenishment
+
+Wave Processing
+
+Physical Inventory
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Warehouse Number
+
+Storage Types
+
+Storage Sections
+
+Activity Areas
+
+Process Types
+
+Warehouse Order Creation Rules
+
+RF Configuration
+
+Wave Templates
+
+Picking Strategies
+
+Putaway Strategies
+
+==================================================
+INTEGRATION WITH OTHER MODULES
+==============================
+
+EWM
+
+↓
+
+MM
+
+Inventory
+
+Goods Receipt
+
+---
+
+EWM
+
+↓
+
+SD
+
+Outbound Delivery
+
+Shipping
+
+---
+
+EWM
+
+↓
+
+PP
+
+Production Supply
+
+Warehouse Staging
+
+---
+
+EWM
+
+↓
+
+QM
+
+Inspection Stock
+
+Quality Inspection
+
+---
+
+EWM
+
+↓
+
+TM
+
+Transportation Planning
+
+Freight Execution
+
+---
+
+EWM
+
+↓
+
+PM
+
+Warehouse Equipment Maintenance
+
+==================================================
+SAP S/4HANA ENHANCEMENTS
+========================
+
+Embedded EWM
+
+Fiori Applications
+
+Embedded Analytics
+
+Warehouse KPIs
+
+Real-Time Inventory
+
+Warehouse Automation
+
+==================================================
+COMMON REPORTS
+==============
+
+Warehouse Monitor
+
+Inventory Reports
+
+Inbound Deliveries
+
+Outbound Deliveries
+
+Warehouse Orders
+
+Labor Utilization
+
+Warehouse KPIs
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Business Workshops
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Configuration
+
+↓
+
+Integration Testing
+
+↓
+
+User Acceptance Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+PROJECT TYPES
+=============
+
+Greenfield Implementation
+
+Brownfield Conversion
+
+Embedded EWM Migration
+
+Decentralized EWM
+
+S/4HANA Transformation
+
+Warehouse Optimization
+
+Support
+
+Enhancement
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Warehouse Managers
+
+Warehouse Supervisors
+
+Inventory Controllers
+
+Shipping Teams
+
+Receiving Teams
+
+Logistics Managers
+
+Supply Chain Managers
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Business Process
+
+*
+
+Responsibilities
+
+*
+
+Implementation Type
+
+Example
+
+("SAP EWM" OR "Extended Warehouse Management")
+
+AND
+
+(Inbound OR Outbound OR Picking OR Putaway)
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+("SAP S/4HANA" OR ECC)
+
+Expand warehouse terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+SAP EWM Experience
+
+Critical
+
+Warehouse Operations
+
+Critical
+
+Inventory Management
+
+Critical
+
+Configuration
+
+High
+
+Automation
+
+High
+
+Integration
+
+High
+
+S/4HANA Experience
+
+High
+
+Migration Experience
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+SAP ECC WM
+
+↓
+
+SAP EWM
+
+Medium
+
+---
+
+SAP EWM
+
+↓
+
+Blue Yonder WMS
+
+Medium
+
+---
+
+SAP EWM
+
+↓
+
+Manhattan WMS
+
+Medium
+
+---
+
+SAP EWM
+
+↓
+
+Oracle WMS
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Warehouse Process
+
+Configuration Scope
+
+Implementation Type
+
+Project Phase
+
+Automation Scope
+
+Differentiate
+
+Support
+
+Implementation
+
+Migration
+
+Rollout
+
+Transformation
+
+Identify whether the consultant performed
+
+Configuration
+
+Business Analysis
+
+Testing
+
+Cutover
+
+Hypercare
+
+Production Support
+
+Recognize candidates with
+
+Embedded EWM
+
+Warehouse Automation
+
+MFS
+
+Labor Management
+
+Yard Management
+
+S/4HANA EWM
+
+experience as modern SAP EWM specialists.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating SAP EWM as SAP MM.
+
+Confusing Inventory Management with Warehouse Management.
+
+Ignoring integration with MM, SD, PP, QM, PM and TM.
+
+Matching candidates solely because they mention warehouse operations.
+
+Treating SAP WM and SAP EWM as identical.
+
+Ignoring warehouse automation experience.
+
+Assuming certification equals implementation experience.
+
+END_OF_FILE

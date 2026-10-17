@@ -1,0 +1,609 @@
+FILE_NAME:
+036_ORACLE_ERP.txt
+
+ID:
+036
+
+DOMAIN:
+Oracle
+
+CATEGORY:
+Enterprise Applications
+
+SUBCATEGORY:
+Oracle ERP Cloud
+
+PRIMARY_ROLE:
+Oracle ERP Consultant
+
+RELATED_FILES:
+
+035_ORACLE_PLATFORM.txt
+
+037_ORACLE_HCM.txt
+
+038_ORACLE_SCM.txt
+
+039_ORACLE_EPM.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+042_ORACLE_DATABASE.txt
+
+045_ORACLE_OCI.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Oracle ERP Cloud
+
+PURPOSE:
+Enable AI agents to understand Oracle ERP Cloud (Oracle Fusion ERP), including Finance, Procurement, Project Management, Risk Management, Enterprise Performance, implementation methodologies, business processes, consultant responsibilities, cloud migration, and Oracle ERP project delivery for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Oracle ERP
+Oracle ERP Cloud
+Oracle Fusion ERP
+Oracle Financials
+Oracle Procurement
+Oracle Project Financial Management
+Oracle Risk Management
+Oracle Fusion Applications
+
+ROLE_FAMILIES:
+Oracle ERP Consultant
+Oracle Financial Consultant
+Oracle Procurement Consultant
+Oracle ERP Solution Architect
+Oracle ERP Program Manager
+Oracle ERP Functional Lead
+
+COMMON_JOB_TITLES:
+Oracle ERP Consultant
+Oracle Fusion ERP Consultant
+Oracle Financials Consultant
+Oracle Procurement Consultant
+Oracle ERP Functional Consultant
+Oracle ERP Architect
+
+ALTERNATIVE_TITLES:
+Oracle Cloud ERP
+Oracle Fusion Financials
+Oracle Enterprise Resource Planning
+
+CORE_SKILLS:
+Business Process Analysis
+
+Configuration
+
+Financial Management
+
+Procurement
+
+Projects
+
+Implementation
+
+Testing
+
+Data Migration
+
+SUPPORTING_SKILLS:
+Reporting
+
+Cloud
+
+Integration
+
+Security
+
+Analytics
+
+Project Management
+
+RELATED_TECHNOLOGIES:
+Oracle ERP Cloud
+
+Oracle Fusion
+
+Oracle Integration Cloud
+
+Oracle Financials
+
+Oracle Procurement
+
+Oracle Projects
+
+Oracle Risk Management
+
+Oracle Analytics Cloud
+
+TECHNOLOGY_CATEGORY:
+Oracle ERP
+
+DEPENDENCIES:
+
+035_ORACLE_PLATFORM.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Oracle ERP Cloud (Oracle Fusion ERP) is Oracle's cloud-based Enterprise Resource Planning platform.
+
+It integrates financial management, procurement, project management, risk management, expenses, and enterprise operations into a unified cloud solution.
+
+==================================================
+CORE MODULES
+============
+
+Financials
+
+Procurement
+
+Project Financial Management
+
+Risk Management
+
+Enterprise Performance Reporting
+
+Expenses
+
+Enterprise Contracts
+
+Asset Management
+
+==================================================
+FINANCIALS
+==========
+
+COMMON BUSINESS FUNCTIONS
+
+General Ledger
+
+Accounts Payable
+
+Accounts Receivable
+
+Cash Management
+
+Fixed Assets
+
+Tax
+
+Financial Close
+
+Financial Reporting
+
+==================================================
+PROCUREMENT
+===========
+
+COMMON BUSINESS FUNCTIONS
+
+Supplier Management
+
+Purchase Requisitions
+
+Purchase Orders
+
+Strategic Sourcing
+
+Supplier Qualification
+
+Receiving
+
+Invoice Matching
+
+==================================================
+PROJECT FINANCIAL MANAGEMENT
+============================
+
+COMMON BUSINESS FUNCTIONS
+
+Project Costing
+
+Project Billing
+
+Resource Management
+
+Capital Projects
+
+Project Budgeting
+
+Project Contracts
+
+==================================================
+RISK MANAGEMENT
+===============
+
+COMMON BUSINESS FUNCTIONS
+
+Financial Controls
+
+Access Controls
+
+Segregation of Duties
+
+Transaction Controls
+
+Audit Management
+
+==================================================
+EXPENSE MANAGEMENT
+==================
+
+COMMON BUSINESS FUNCTIONS
+
+Expense Reports
+
+Travel Expenses
+
+Corporate Cards
+
+Policy Compliance
+
+Expense Approvals
+
+==================================================
+ENTERPRISE ASSET MANAGEMENT
+===========================
+
+COMMON BUSINESS FUNCTIONS
+
+Asset Lifecycle
+
+Maintenance Planning
+
+Depreciation
+
+Asset Tracking
+
+Asset Reporting
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Record-to-Report (R2R)
+
+Procure-to-Pay (P2P)
+
+Order-to-Cash (O2C)
+
+Project-to-Profit (P2P)
+
+Asset Lifecycle
+
+Financial Close
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Business Units
+
+Ledgers
+
+Chart of Accounts
+
+Legal Entities
+
+Procurement Organizations
+
+Approval Workflows
+
+Financial Calendars
+
+Currencies
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Requirements Gathering
+
+↓
+
+Fit-Gap Analysis
+
+↓
+
+Configuration
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Oracle Cloud ERP Implementation
+
+Oracle EBS Migration
+
+Finance Transformation
+
+Cloud Migration
+
+Global Rollout
+
+Support
+
+Enhancement
+
+Business Transformation
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Oracle Integration Cloud (OIC)
+
+REST APIs
+
+SOAP
+
+FBDI
+
+Business Events
+
+Oracle Visual Builder
+
+==================================================
+COMMON REPORTS
+==============
+
+Financial Statements
+
+Trial Balance
+
+Balance Sheet
+
+Profit & Loss
+
+Supplier Reports
+
+Project Reports
+
+Asset Reports
+
+Compliance Reports
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Finance Teams
+
+Procurement Teams
+
+Project Managers
+
+Controllers
+
+Auditors
+
+CFO
+
+Shared Services
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Business Process
+
+*
+
+Implementation
+
+Example
+
+("Oracle ERP" OR "Oracle Fusion ERP")
+
+AND
+
+(Financials OR Procurement)
+
+AND
+
+(Configuration OR Implementation)
+
+AND
+
+(Migration OR Transformation)
+
+Expand Oracle ERP modules only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Oracle ERP Experience
+
+Critical
+
+Financial Processes
+
+Critical
+
+Configuration
+
+High
+
+Procurement
+
+High
+
+Projects
+
+Medium
+
+Cloud Experience
+
+High
+
+Integration
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle EBS Financials
+
+↓
+
+Oracle ERP Cloud Financials
+
+High
+
+---
+
+Oracle Procurement
+
+↓
+
+Oracle Procurement Cloud
+
+High
+
+---
+
+SAP FICO
+
+↓
+
+Oracle Financials
+
+Low
+
+---
+
+SAP MM
+
+↓
+
+Oracle Procurement
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Oracle ERP Version
+
+Cloud vs On-Premises
+
+Business Module
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Oracle ERP Cloud
+
+Oracle EBS
+
+Support
+
+Implementation
+
+Migration
+
+Rollout
+
+Transformation
+
+Identify whether the consultant performed
+
+Business Analysis
+
+Configuration
+
+Testing
+
+Data Migration
+
+Cutover
+
+Hypercare
+
+Production Support
+
+Recognize candidates with Oracle Cloud ERP implementation and Oracle EBS-to-Cloud migration experience as higher-value for modern Oracle transformation programs.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Oracle ERP as Oracle Database.
+
+Confusing Oracle ERP Cloud with Oracle EBS.
+
+Matching candidates solely because they mention Oracle Financials.
+
+Ignoring implementation methodology.
+
+Treating support experience as implementation experience.
+
+Ignoring business process ownership.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

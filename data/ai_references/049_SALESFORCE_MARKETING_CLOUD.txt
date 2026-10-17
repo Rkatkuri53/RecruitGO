@@ -1,0 +1,617 @@
+FILE_NAME:
+049_SALESFORCE_MARKETING_CLOUD.txt
+
+ID:
+049
+
+DOMAIN:
+Salesforce
+
+CATEGORY:
+Enterprise CRM
+
+SUBCATEGORY:
+Salesforce Marketing Cloud
+
+PRIMARY_ROLE:
+Salesforce Marketing Cloud Consultant
+
+RELATED_FILES:
+
+046_SALESFORCE_PLATFORM.txt
+
+047_SALESFORCE_SALES_CLOUD.txt
+
+048_SALESFORCE_SERVICE_CLOUD.txt
+
+050_SALESFORCE_EXPERIENCE_CLOUD.txt
+
+051_SALESFORCE_PLATFORM_DEVELOPMENT.txt
+
+052_SALESFORCE_INTEGRATION.txt
+
+054_SALESFORCE_DATA_CLOUD.txt
+
+056_SALESFORCE_TABLEAU_CRM.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Salesforce Marketing Cloud
+
+PURPOSE:
+Enable AI agents to understand Salesforce Marketing Cloud (SFMC), digital marketing automation, customer journeys, email marketing, SMS, personalization, segmentation, analytics, consultant responsibilities, implementation methodologies, and Marketing Cloud transformation projects for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Salesforce Marketing Cloud
+SFMC
+Journey Builder
+Email Studio
+Automation Studio
+Contact Builder
+Mobile Studio
+Marketing Cloud Intelligence
+Personalization
+Pardot
+Account Engagement
+
+ROLE_FAMILIES:
+Salesforce Marketing Cloud Consultant
+Marketing Automation Consultant
+CRM Marketing Consultant
+Salesforce Solution Architect
+Marketing Cloud Developer
+Marketing Cloud Administrator
+
+COMMON_JOB_TITLES:
+Salesforce Marketing Cloud Consultant
+SFMC Consultant
+Marketing Cloud Developer
+Marketing Automation Consultant
+Salesforce Marketing Architect
+
+ALTERNATIVE_TITLES:
+Digital Marketing Consultant
+Salesforce Marketing Automation Consultant
+CRM Marketing Consultant
+
+CORE_SKILLS:
+Marketing Automation
+
+Journey Builder
+
+Email Campaigns
+
+Customer Segmentation
+
+Automation Studio
+
+Personalization
+
+Analytics
+
+Campaign Management
+
+SUPPORTING_SKILLS:
+SQL
+
+AMPscript
+
+SSJS
+
+REST APIs
+
+Integration
+
+HTML
+
+JavaScript
+
+RELATED_TECHNOLOGIES:
+Journey Builder
+
+Email Studio
+
+Automation Studio
+
+Contact Builder
+
+Mobile Studio
+
+Advertising Studio
+
+Data Cloud
+
+Marketing Cloud Intelligence
+
+Account Engagement (Pardot)
+
+TECHNOLOGY_CATEGORY:
+Marketing Automation Platform
+
+DEPENDENCIES:
+
+046_SALESFORCE_PLATFORM.txt
+
+054_SALESFORCE_DATA_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Salesforce Marketing Cloud is Salesforce's enterprise digital marketing platform used to automate customer engagement across email, SMS, mobile, social media, advertising and personalized customer journeys.
+
+It enables organizations to deliver omnichannel marketing campaigns driven by customer behavior and real-time data.
+
+==================================================
+CORE MODULES
+============
+
+Journey Builder
+
+Email Studio
+
+Automation Studio
+
+Contact Builder
+
+Mobile Studio
+
+Advertising Studio
+
+Content Builder
+
+Interaction Studio
+
+Marketing Cloud Intelligence
+
+Account Engagement (Pardot)
+
+==================================================
+JOURNEY BUILDER
+===============
+
+COMMON RESPONSIBILITIES
+
+Customer Journeys
+
+Behavior-Based Automation
+
+Decision Splits
+
+Event Triggers
+
+Campaign Orchestration
+
+==================================================
+EMAIL STUDIO
+============
+
+COMMON RESPONSIBILITIES
+
+Email Campaigns
+
+Templates
+
+Personalization
+
+Subscriber Lists
+
+A/B Testing
+
+Email Tracking
+
+==================================================
+AUTOMATION STUDIO
+=================
+
+COMMON RESPONSIBILITIES
+
+Automated Campaigns
+
+SQL Activities
+
+Import Activities
+
+File Transfers
+
+Scheduled Automations
+
+==================================================
+CONTACT BUILDER
+===============
+
+COMMON RESPONSIBILITIES
+
+Contact Model
+
+Data Relationships
+
+Attribute Groups
+
+Data Extensions
+
+Audience Segmentation
+
+==================================================
+MOBILE STUDIO
+=============
+
+COMMON RESPONSIBILITIES
+
+SMS Campaigns
+
+Push Notifications
+
+Mobile Messaging
+
+Mobile Engagement
+
+==================================================
+CONTENT BUILDER
+===============
+
+COMMON RESPONSIBILITIES
+
+Email Content
+
+Reusable Assets
+
+Images
+
+Templates
+
+Content Blocks
+
+==================================================
+ACCOUNT ENGAGEMENT (PARDOT)
+===========================
+
+COMMON RESPONSIBILITIES
+
+B2B Marketing
+
+Lead Nurturing
+
+Lead Scoring
+
+Landing Pages
+
+Forms
+
+Campaign Tracking
+
+==================================================
+COMMON BUSINESS PROCESSES
+=========================
+
+Lead Nurturing
+
+Campaign Management
+
+Customer Journey Automation
+
+Email Marketing
+
+Audience Segmentation
+
+Personalization
+
+Marketing Analytics
+
+==================================================
+CONFIGURATION AREAS
+===================
+
+Business Units
+
+Data Extensions
+
+Subscriber Lists
+
+Journey Configuration
+
+Email Templates
+
+Automation Studio
+
+Content Builder
+
+Roles
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Discovery
+
+↓
+
+Marketing Requirements
+
+↓
+
+Journey Design
+
+↓
+
+Configuration
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Campaign Validation
+
+↓
+
+Go-Live
+
+↓
+
+Optimization
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Marketing Cloud Implementation
+
+Marketing Automation
+
+Customer Journey Transformation
+
+Email Platform Migration
+
+Digital Marketing Modernization
+
+Customer Personalization
+
+Global Campaign Rollout
+
+==================================================
+INTEGRATION
+===========
+
+COMMON TECHNOLOGIES
+
+Sales Cloud
+
+Service Cloud
+
+Data Cloud
+
+REST APIs
+
+SOAP APIs
+
+MuleSoft
+
+Google Analytics
+
+Adobe Analytics
+
+==================================================
+COMMON REPORTS
+==============
+
+Campaign Performance
+
+Email Open Rates
+
+Click-Through Rates
+
+Conversion Reports
+
+Journey Analytics
+
+Subscriber Growth
+
+Marketing ROI
+
+==================================================
+COMMON BUSINESS USERS
+=====================
+
+Marketing Teams
+
+Digital Marketing Managers
+
+Campaign Managers
+
+Marketing Analysts
+
+CRM Teams
+
+Demand Generation Teams
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Marketing Module
+
+*
+
+Automation
+
+*
+
+Campaigns
+
+Example
+
+("Salesforce Marketing Cloud" OR SFMC)
+
+AND
+
+("Journey Builder" OR "Automation Studio")
+
+AND
+
+("Email Studio" OR Pardot)
+
+AND
+
+(Implementation OR Consultant)
+
+Expand Marketing Cloud modules only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Marketing Cloud Experience
+
+Critical
+
+Journey Builder
+
+Critical
+
+Automation Studio
+
+High
+
+Email Studio
+
+High
+
+Contact Builder
+
+High
+
+AMPscript
+
+Medium
+
+SQL
+
+Medium
+
+Integration
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Adobe Campaign
+
+↓
+
+Marketing Cloud
+
+Medium
+
+---
+
+Oracle Eloqua
+
+↓
+
+Marketing Cloud
+
+Medium
+
+---
+
+HubSpot Marketing
+
+↓
+
+Marketing Cloud
+
+Medium
+
+---
+
+Marketo
+
+↓
+
+Marketing Cloud
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Marketing Platform
+
+Business Process
+
+Configuration Scope
+
+Campaign Type
+
+Project Type
+
+Differentiate
+
+Marketing Cloud
+
+Sales Cloud
+
+Service Cloud
+
+Pardot
+
+Data Cloud
+
+Identify whether the consultant performed
+
+Campaign Design
+
+Journey Development
+
+Marketing Automation
+
+Audience Segmentation
+
+Integration
+
+Testing
+
+Go-Live
+
+Optimization
+
+Recognize candidates with Journey Builder, Automation Studio, Contact Builder, AMPscript, enterprise campaign automation and omnichannel customer engagement experience as senior Marketing Cloud consultants.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Marketing Cloud as Sales Cloud.
+
+Confusing Pardot (Account Engagement) with Marketing Cloud.
+
+Matching candidates solely because they mention Salesforce.
+
+Ignoring marketing automation expertise.
+
+Treating email marketing experience as Marketing Cloud implementation experience.
+
+Ignoring Journey Builder and Automation Studio experience.
+
+Assuming certification equals enterprise implementation experience.
+
+END_OF_FILE

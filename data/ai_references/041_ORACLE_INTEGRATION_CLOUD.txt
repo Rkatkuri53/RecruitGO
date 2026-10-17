@@ -1,0 +1,606 @@
+FILE_NAME:
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+ID:
+041
+
+DOMAIN:
+Oracle
+
+CATEGORY:
+Enterprise Applications
+
+SUBCATEGORY:
+Oracle Integration Cloud (OIC)
+
+PRIMARY_ROLE:
+Oracle Integration Consultant
+
+RELATED_FILES:
+
+035_ORACLE_PLATFORM.txt
+
+036_ORACLE_ERP.txt
+
+037_ORACLE_HCM.txt
+
+038_ORACLE_SCM.txt
+
+039_ORACLE_EPM.txt
+
+040_ORACLE_CX.txt
+
+042_ORACLE_DATABASE.txt
+
+044_ORACLE_FUSION_MIDDLEWARE.txt
+
+045_ORACLE_OCI.txt
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Oracle Integration Cloud (OIC)
+
+PURPOSE:
+Enable AI agents to understand Oracle Integration Cloud (OIC), enterprise integration architecture, SaaS integration, Oracle-to-Oracle integration, Oracle-to-third-party integration, APIs, event-driven integration, process automation, B2B integration, migration from SOA Suite, and Oracle Integration Consultant responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Oracle Integration Cloud
+OIC
+Oracle SOA
+Oracle SOA Suite
+Oracle Integration
+Oracle Middleware
+REST API
+SOAP
+Oracle Process Automation
+Oracle B2B
+Visual Builder
+
+ROLE_FAMILIES:
+Oracle Integration Consultant
+Oracle OIC Consultant
+Oracle SOA Consultant
+Oracle Middleware Consultant
+Oracle Integration Architect
+Oracle Technical Consultant
+
+COMMON_JOB_TITLES:
+Oracle OIC Consultant
+Oracle Integration Consultant
+Oracle SOA Consultant
+Oracle Middleware Consultant
+Oracle Integration Architect
+Oracle Technical Lead
+
+ALTERNATIVE_TITLES:
+Oracle Cloud Integration Consultant
+Oracle Enterprise Integration Consultant
+Oracle Fusion Integration Consultant
+
+CORE_SKILLS:
+Enterprise Integration
+
+REST APIs
+
+SOAP
+
+Message Transformation
+
+Business Process Automation
+
+Cloud Integration
+
+Security
+
+SUPPORTING_SKILLS:
+Oracle ERP
+
+Oracle HCM
+
+Oracle SCM
+
+Cloud
+
+Java
+
+XML
+
+JSON
+
+RELATED_TECHNOLOGIES:
+Oracle Integration Cloud
+
+Oracle SOA Suite
+
+Oracle API Gateway
+
+Oracle Visual Builder
+
+Oracle Process Automation
+
+Oracle B2B
+
+Oracle Event Hub
+
+Oracle Streaming
+
+TECHNOLOGY_CATEGORY:
+Oracle Integration Platform
+
+DEPENDENCIES:
+
+011_APIS.txt
+
+012_MICROSERVICES.txt
+
+013_CLOUD.txt
+
+035_ORACLE_PLATFORM.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Oracle Integration Cloud (OIC) is Oracle's cloud-native integration platform for connecting Oracle Cloud applications, on-premises applications, databases, APIs, SaaS platforms and third-party enterprise systems.
+
+It provides application integration, process automation, API management and B2B integration from a unified cloud platform.
+
+==================================================
+CORE CAPABILITIES
+=================
+
+Application Integration
+
+Process Automation
+
+API Management
+
+B2B Integration
+
+Event Integration
+
+File Integration
+
+Data Mapping
+
+Workflow
+
+==================================================
+ARCHITECTURE
+============
+
+Source System
+
+↓
+
+Connectivity Agent
+
+↓
+
+Oracle Integration Cloud
+
+↓
+
+Transformation
+
+↓
+
+Routing
+
+↓
+
+Security
+
+↓
+
+Target System
+
+==================================================
+APPLICATION INTEGRATION
+=======================
+
+COMMON RESPONSIBILITIES
+
+Integration Flows
+
+Orchestration
+
+Message Routing
+
+Transformation
+
+Scheduling
+
+Error Handling
+
+Monitoring
+
+==================================================
+API MANAGEMENT
+==============
+
+COMMON RESPONSIBILITIES
+
+REST APIs
+
+SOAP Services
+
+API Publishing
+
+Authentication
+
+Authorization
+
+Rate Limiting
+
+Developer Portal
+
+==================================================
+PROCESS AUTOMATION
+==================
+
+COMMON RESPONSIBILITIES
+
+Workflow Automation
+
+Business Processes
+
+Approvals
+
+Notifications
+
+Human Tasks
+
+Decision Models
+
+==================================================
+B2B INTEGRATION
+===============
+
+COMMON RESPONSIBILITIES
+
+EDI
+
+AS2
+
+Trading Partners
+
+Purchase Orders
+
+Invoices
+
+Shipping Notices
+
+Partner Onboarding
+
+==================================================
+VISUAL BUILDER
+==============
+
+COMMON RESPONSIBILITIES
+
+Low-Code Development
+
+Web Applications
+
+Business Applications
+
+Oracle SaaS Extensions
+
+==================================================
+DATA TRANSFORMATION
+===================
+
+COMMON RESPONSIBILITIES
+
+XML Mapping
+
+JSON Mapping
+
+CSV Processing
+
+XSLT
+
+Data Validation
+
+Message Enrichment
+
+==================================================
+CONNECTIVITY
+============
+
+COMMON CONNECTORS
+
+Oracle ERP Cloud
+
+Oracle HCM Cloud
+
+Oracle SCM Cloud
+
+Oracle CX Cloud
+
+Oracle EPM Cloud
+
+Oracle Database
+
+Salesforce
+
+ServiceNow
+
+SAP
+
+Workday
+
+Microsoft 365
+
+==================================================
+SECURITY
+========
+
+COMMON RESPONSIBILITIES
+
+OAuth 2.0
+
+JWT
+
+SAML
+
+SSL/TLS
+
+Certificates
+
+Identity Federation
+
+==================================================
+MONITORING
+==========
+
+COMMON RESPONSIBILITIES
+
+Instance Monitoring
+
+Error Handling
+
+Retry Mechanisms
+
+Business Tracking
+
+Audit Logs
+
+Performance Monitoring
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Cloud Migration
+
+SOA Suite Migration
+
+ERP Integration
+
+HCM Integration
+
+Hybrid Integration
+
+Digital Transformation
+
+Application Modernization
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Architecture Design
+
+↓
+
+Integration Development
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Monitoring
+
+↓
+
+Support
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Integration Technology
+
+*
+
+Protocols
+
+*
+
+Cloud Applications
+
+Example
+
+("Oracle Integration Cloud" OR OIC)
+
+AND
+
+(REST OR SOAP)
+
+AND
+
+("Oracle ERP" OR "Oracle HCM")
+
+AND
+
+(API OR Integration)
+
+Expand Oracle integration technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Oracle Integration Cloud
+
+Critical
+
+Application Integration
+
+Critical
+
+REST APIs
+
+High
+
+SOAP
+
+High
+
+Process Automation
+
+Medium
+
+B2B Integration
+
+Medium
+
+Cloud Integration
+
+High
+
+Security
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+Oracle SOA Suite
+
+↓
+
+Oracle Integration Cloud
+
+High
+
+---
+
+MuleSoft
+
+↓
+
+Oracle OIC
+
+Medium
+
+---
+
+Dell Boomi
+
+↓
+
+Oracle OIC
+
+Medium
+
+---
+
+SAP CPI
+
+↓
+
+Oracle OIC
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Integration Platform
+
+Architecture Pattern
+
+Cloud vs Hybrid
+
+Protocols
+
+Project Type
+
+Differentiate
+
+Oracle OIC
+
+Oracle SOA Suite
+
+Oracle Middleware
+
+API Integration
+
+B2B Integration
+
+Identify whether the consultant performed
+
+Architecture
+
+Integration Design
+
+Development
+
+Testing
+
+Deployment
+
+Monitoring
+
+Support
+
+Recognize candidates with Oracle Integration Cloud implementation, SOA-to-OIC migration, Oracle SaaS integration, API development and hybrid cloud integration experience as higher-value for modern Oracle integration programs.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Oracle Integration Cloud as Oracle ERP.
+
+Confusing Oracle SOA Suite with Oracle Integration Cloud.
+
+Matching candidates solely because they mention REST APIs.
+
+Ignoring integration architecture responsibilities.
+
+Treating Java development as Oracle OIC implementation experience.
+
+Ignoring cloud integration expertise.
+
+Assuming certification equals enterprise integration implementation experience.
+
+END_OF_FILE

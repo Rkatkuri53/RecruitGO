@@ -1,0 +1,687 @@
+FILE_NAME:
+034_SAP_S4HANA_GREENFIELD.txt
+
+ID:
+034
+
+DOMAIN:
+SAP
+
+CATEGORY:
+ERP
+
+SUBCATEGORY:
+SAP S/4HANA Greenfield Implementation
+
+PRIMARY_ROLE:
+SAP S/4HANA Greenfield Consultant
+
+RELATED_FILES:
+
+019_SAP_PLATFORM.txt
+
+020_SAP_FICO.txt
+
+021_SAP_MM.txt
+
+022_SAP_SD.txt
+
+023_SAP_PP.txt
+
+024_SAP_QM.txt
+
+025_SAP_PM.txt
+
+026_SAP_EWM.txt
+
+027_SAP_BASIS.txt
+
+028_SAP_ABAP.txt
+
+029_SAP_BTP.txt
+
+030_SAP_FIORI_UI5.txt
+
+031_SAP_INTEGRATION_SUITE.txt
+
+032_SAP_SECURITY_GRC.txt
+
+033_SAP_S4HANA_BROWNFIELD.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+SAP S/4HANA Greenfield Implementation
+
+PURPOSE:
+Enable AI agents to accurately identify SAP S/4HANA Greenfield implementation experience, distinguish it from Brownfield and Rollout projects, evaluate implementation methodology, fit-to-standard workshops, business process redesign, clean-core adoption, cloud deployment models, and consultant responsibilities for accurate Boolean generation and candidate matching.
+
+KEYWORDS:
+SAP S/4HANA Greenfield
+Greenfield Implementation
+New Implementation
+Fit-to-Standard
+Business Process Redesign
+SAP Activate
+Clean Core
+SAP Best Practices
+SAP Public Cloud
+SAP Private Cloud
+
+ROLE_FAMILIES:
+SAP Functional Consultant
+SAP Solution Architect
+SAP Technical Architect
+SAP Program Manager
+SAP Transformation Manager
+SAP Basis Consultant
+SAP ABAP Developer
+SAP BTP Consultant
+
+COMMON_JOB_TITLES:
+SAP S/4HANA Consultant
+SAP Greenfield Consultant
+SAP S/4HANA Implementation Consultant
+SAP Solution Architect
+SAP Program Manager
+SAP Transformation Lead
+
+ALTERNATIVE_TITLES:
+New SAP Implementation
+SAP Digital Transformation
+SAP ERP Modernization
+
+CORE_SKILLS:
+SAP Activate
+
+Business Process Design
+
+Configuration
+
+Fit-to-Standard
+
+Implementation
+
+Testing
+
+Cutover
+
+Go-Live
+
+SUPPORTING_SKILLS:
+SAP BTP
+
+Fiori
+
+Integration
+
+Data Migration
+
+Cloud
+
+Change Management
+
+RELATED_TECHNOLOGIES:
+SAP S/4HANA
+
+SAP Activate
+
+SAP Best Practices
+
+SAP Fiori
+
+SAP BTP
+
+SAP Signavio
+
+SAP Cloud ALM
+
+SAP HANA
+
+TECHNOLOGY_CATEGORY:
+SAP Transformation
+
+DEPENDENCIES:
+
+019_SAP_PLATFORM.txt
+
+020_SAP_FICO.txt
+
+021_SAP_MM.txt
+
+022_SAP_SD.txt
+
+023_SAP_PP.txt
+
+027_SAP_BASIS.txt
+
+029_SAP_BTP.txt
+
+==================================================
+OVERVIEW
+========
+
+A Greenfield implementation is a completely new SAP S/4HANA implementation.
+
+Business processes are designed from the beginning using SAP Best Practices and Fit-to-Standard methodology.
+
+Greenfield projects emphasize process standardization, Clean Core, business transformation and cloud readiness.
+
+==================================================
+WHEN TO USE GREENFIELD
+======================
+
+No Existing SAP
+
+Legacy ERP Replacement
+
+Business Transformation
+
+Business Process Redesign
+
+Cloud First Strategy
+
+Clean Core Adoption
+
+Digital Transformation
+
+==================================================
+WHEN NOT TO USE
+===============
+
+ECC System Conversion
+
+Existing Process Preservation
+
+Technical Conversion
+
+Historical System Retention
+
+==================================================
+IMPLEMENTATION METHODOLOGY
+==========================
+
+Project Preparation
+
+↓
+
+Fit-to-Standard Workshops
+
+↓
+
+Solution Design
+
+↓
+
+Configuration
+
+↓
+
+Development
+
+↓
+
+Integration
+
+↓
+
+Testing
+
+↓
+
+Data Migration
+
+↓
+
+Cutover
+
+↓
+
+Go-Live
+
+↓
+
+Hypercare
+
+==================================================
+SAP ACTIVATE
+============
+
+COMMON PHASES
+
+Discover
+
+Prepare
+
+Explore
+
+Realize
+
+Deploy
+
+Run
+
+==================================================
+FIT-TO-STANDARD
+===============
+
+COMMON RESPONSIBILITIES
+
+Business Workshops
+
+SAP Best Practices
+
+Gap Identification
+
+Configuration Decisions
+
+Business Process Validation
+
+==================================================
+BUSINESS PROCESS DESIGN
+=======================
+
+COMMON RESPONSIBILITIES
+
+Business Process Mapping
+
+Process Harmonization
+
+Organizational Design
+
+Business Rules
+
+Future-State Design
+
+==================================================
+CONFIGURATION
+=============
+
+COMMON RESPONSIBILITIES
+
+Enterprise Structure
+
+Master Data
+
+Organizational Units
+
+Business Rules
+
+Business Roles
+
+Localization
+
+==================================================
+DATA MIGRATION
+==============
+
+COMMON RESPONSIBILITIES
+
+Master Data Migration
+
+Open Transactions
+
+Historical Data Strategy
+
+Migration Cockpit
+
+Data Validation
+
+Reconciliation
+
+==================================================
+TESTING
+=======
+
+Unit Testing
+
+System Integration Testing
+
+User Acceptance Testing
+
+Performance Testing
+
+Regression Testing
+
+==================================================
+CUTOVER
+=======
+
+COMMON RESPONSIBILITIES
+
+Go-Live Planning
+
+Business Readiness
+
+Migration Execution
+
+Production Validation
+
+Business Sign-Off
+
+==================================================
+CLEAN CORE
+==========
+
+PRINCIPLES
+
+Use Standard SAP
+
+Minimize Custom Code
+
+Use Side-by-Side Extensions
+
+Use SAP BTP
+
+Adopt Upgrade-Safe Design
+
+==================================================
+DEPLOYMENT MODELS
+=================
+
+On-Premise
+
+Private Cloud
+
+Public Cloud
+
+RISE with SAP
+
+==================================================
+COMMON PROJECT ROLES
+====================
+
+Program Manager
+
+Program Governance
+
+---
+
+Solution Architect
+
+Solution Design
+
+---
+
+Functional Consultant
+
+Configuration
+
+---
+
+Technical Consultant
+
+Development
+
+---
+
+BTP Consultant
+
+Extensions
+
+---
+
+Basis Consultant
+
+Landscape Setup
+
+==================================================
+COMMON TOOLS
+============
+
+SAP Activate
+
+SAP Signavio
+
+Migration Cockpit
+
+Cloud ALM
+
+Focused Build
+
+Solution Manager
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Greenfield
+
+*
+
+SAP Activate
+
+*
+
+Fit-to-Standard
+
+*
+
+Implementation
+
+Example
+
+("SAP S/4HANA")
+
+AND
+
+(Greenfield OR "New Implementation")
+
+AND
+
+("SAP Activate" OR "Fit-to-Standard")
+
+AND
+
+(Configuration OR Implementation)
+
+Expand implementation terminology only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Greenfield Experience
+
+Critical
+
+SAP Activate
+
+Critical
+
+Fit-to-Standard
+
+High
+
+Configuration
+
+High
+
+Business Process Design
+
+High
+
+Data Migration
+
+Medium
+
+Testing
+
+Medium
+
+Leadership
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+ECC Functional
+
+↓
+
+Greenfield
+
+Medium
+
+---
+
+Brownfield
+
+↓
+
+Greenfield
+
+Low
+
+---
+
+Public Cloud
+
+↓
+
+Private Cloud
+
+High
+
+---
+
+SAP Best Practices
+
+↓
+
+Fit-to-Standard
+
+High
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Implementation Type
+
+Deployment Model
+
+Methodology
+
+Project Phase
+
+Configuration Scope
+
+Differentiate
+
+Greenfield
+
+Brownfield
+
+Rollout
+
+Support
+
+Upgrade
+
+Validate evidence of
+
+SAP Activate
+
+Fit-to-Standard
+
+Business Process Redesign
+
+SAP Best Practices
+
+Configuration
+
+Testing
+
+Cutover
+
+Go-Live
+
+Hypercare
+
+Clean Core
+
+Business Transformation
+
+Greenfield experience should receive the highest ranking when the JD explicitly requires
+
+New Implementation
+
+Business Transformation
+
+Fit-to-Standard
+
+SAP Activate
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Greenfield
+
+↓
+
+New Implementation
+
+SAP Activate
+
+Fit-to-Standard
+
+SAP Best Practices
+
+Business Transformation
+
+Clean Core
+
+Migration Cockpit
+
+Public Cloud
+
+Private Cloud
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Greenfield and Brownfield as interchangeable.
+
+Matching candidates solely because they mention SAP S/4HANA.
+
+Confusing Rollout projects with Greenfield implementations.
+
+Ignoring Fit-to-Standard workshop experience.
+
+Ignoring SAP Activate methodology.
+
+Treating support projects as implementation projects.
+
+Assuming certification equals Greenfield implementation experience.
+
+==================================================
+INTERVIEW VALIDATION QUESTIONS
+==============================
+
+Was this a new SAP implementation or an ECC conversion?
+
+Which SAP Activate phases did you lead?
+
+Did you conduct Fit-to-Standard workshops?
+
+Which SAP Best Practices were adopted?
+
+How much business process redesign was performed?
+
+Did the project follow Clean Core principles?
+
+What was your responsibility during cutover and go-live?
+
+Was the deployment On-Premise, Private Cloud or Public Cloud?
+
+END_OF_FILE

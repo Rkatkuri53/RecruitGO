@@ -1,0 +1,757 @@
+FILE_NAME:
+003_OPERATOR_PRECEDENCE.txt
+
+ID:
+003
+
+DOMAIN:
+Recruitment Intelligence
+
+CATEGORY:
+AI Boolean Search Engine
+
+SUBCATEGORY:
+Operator Precedence & Boolean Logic Engine
+
+PRIMARY_ROLE:
+Boolean Evaluation Engine
+
+VERSION:
+3.0
+
+PURPOSE:
+Define exactly how Boolean expressions are evaluated, how parentheses alter execution order, how AI should construct nested Boolean expressions, and how to avoid logical errors across ATS platforms, Google X-Ray, LinkedIn, GitHub, Stack Overflow, resume databases, and enterprise search systems.
+
+This document governs Boolean evaluation order and expression construction.
+
+==================================================
+WHAT IS OPERATOR PRECEDENCE
+===========================
+
+Operator precedence determines
+
+WHICH Boolean operation executes FIRST.
+
+Incorrect precedence
+
+↓
+
+Wrong candidates
+
+Correct precedence
+
+↓
+
+Correct candidates
+
+AI MUST understand precedence before generating any Boolean.
+
+==================================================
+UNIVERSAL PRECEDENCE
+====================
+
+Highest
+
+()
+
+Parentheses
+
+↓
+
+NOT
+
+↓
+
+AND
+
+↓
+
+OR
+
+Lowest
+
+Whenever possible,
+
+DO NOT rely on default precedence.
+
+Always use parentheses.
+
+==================================================
+RULE 1
+======
+
+Always evaluate
+
+Parentheses
+
+FIRST
+
+Example
+
+(Java OR Kotlin)
+
+AND
+
+Spring
+
+Evaluation
+
+1
+
+(Java OR Kotlin)
+
+↓
+
+2
+
+AND Spring
+
+==================================================
+RULE 2
+======
+
+NOT executes before AND.
+
+Example
+
+Java
+
+AND
+
+NOT JavaScript
+
+Evaluation
+
+1
+
+NOT JavaScript
+
+↓
+
+2
+
+Java AND Result
+
+==================================================
+RULE 3
+======
+
+AND executes before OR.
+
+Example
+
+Java
+
+OR
+
+Python
+
+AND
+
+AWS
+
+Actual Evaluation
+
+Java
+
+OR
+
+(Python AND AWS)
+
+NOT
+
+(Java OR Python)
+
+AND
+
+AWS
+
+Always use parentheses.
+
+==================================================
+RULE 4
+======
+
+Never assume recruiters understand precedence.
+
+Generate readable Boolean.
+
+==================================================
+CORRECT GROUPING
+================
+
+GOOD
+
+(Java OR Kotlin)
+
+AND
+
+(Spring OR Hibernate)
+
+AND
+
+(AWS OR Azure)
+
+==================================================
+INCORRECT GROUPING
+==================
+
+Java
+
+OR
+
+Kotlin
+
+AND
+
+Spring
+
+OR
+
+Hibernate
+
+AND
+
+AWS
+
+Impossible to read.
+
+Platform interpretation may differ.
+
+==================================================
+NESTED PRECEDENCE
+=================
+
+Example
+
+((Java OR Kotlin)
+
+AND
+
+(Spring OR Hibernate))
+
+AND
+
+(AWS OR Azure)
+
+Evaluation
+
+1
+
+(Java OR Kotlin)
+
+2
+
+(Spring OR Hibernate)
+
+3
+
+Outer Group
+
+4
+
+(AWS OR Azure)
+
+5
+
+Final AND
+
+==================================================
+BOOLEAN TREE
+============
+
+Example
+
+(Java OR Kotlin)
+
+AND
+
+(Spring OR Hibernate)
+
+AND
+
+AWS
+
+Boolean Tree
+
+```
+            AND
+
+    /          |          \
+```
+
+OR           OR         AWS
+
+/ \           / \
+
+Java Kotlin Spring Hibernate
+
+AI should internally build this logical tree before generating the final string.
+
+==================================================
+MULTI-LEVEL GROUPING
+====================
+
+Example
+
+((Java OR Kotlin)
+
+AND
+
+(Spring OR Hibernate))
+
+AND
+
+((AWS OR Azure)
+
+OR
+
+GCP)
+
+Every logical concept
+
+↓
+
+Own group
+
+==================================================
+GROUPING STRATEGY
+=================
+
+Group
+
+Titles
+
+Group
+
+Technologies
+
+Group
+
+Frameworks
+
+Group
+
+Cloud
+
+Group
+
+Databases
+
+Group
+
+Leadership
+
+Group
+
+Industries
+
+Then combine groups.
+
+==================================================
+RECOMMENDED BOOLEAN STRUCTURE
+=============================
+
+(Role Group)
+
+AND
+
+(Core Skills)
+
+AND
+
+(Frameworks)
+
+AND
+
+(Cloud)
+
+AND
+
+(Domain)
+
+AND
+
+(Location)
+
+Optional
+
+NOT
+
+(Excluded Technologies)
+
+==================================================
+ROLE GROUP EXAMPLE
+==================
+
+(Developer
+
+OR
+
+Software Engineer
+
+OR
+
+Programmer
+
+OR
+
+Application Engineer)
+
+==================================================
+TECHNOLOGY GROUP
+================
+
+(Java
+
+OR
+
+J2EE
+
+OR
+
+Jakarta)
+
+==================================================
+FRAMEWORK GROUP
+===============
+
+(Spring
+
+OR
+
+Spring Boot
+
+OR
+
+Hibernate)
+
+==================================================
+DATABASE GROUP
+==============
+
+(PostgreSQL
+
+OR
+
+Oracle
+
+OR
+
+SQL Server)
+
+==================================================
+CLOUD GROUP
+===========
+
+(AWS
+
+OR
+
+Azure
+
+OR
+
+Google Cloud
+
+OR
+
+GCP)
+
+==================================================
+LEADERSHIP GROUP
+================
+
+(Lead
+
+OR
+
+Architect
+
+OR
+
+Manager
+
+OR
+
+Principal)
+
+==================================================
+INDUSTRY GROUP
+==============
+
+(Banking
+
+OR
+
+Insurance
+
+OR
+
+Healthcare
+
+OR
+
+Telecommunications)
+
+==================================================
+BOOLEAN LAYERING
+================
+
+Layer 1
+
+Role
+
+↓
+
+Layer 2
+
+Core Technology
+
+↓
+
+Layer 3
+
+Supporting Technology
+
+↓
+
+Layer 4
+
+Domain
+
+↓
+
+Layer 5
+
+Leadership
+
+↓
+
+Layer 6
+
+Location
+
+↓
+
+Layer 7
+
+Exclusions
+
+==================================================
+BOOLEAN DEPTH
+=============
+
+Maximum nesting
+
+Three to five logical levels.
+
+Too many nested groups
+
+↓
+
+Hard to maintain
+
+↓
+
+Poor ATS compatibility
+
+==================================================
+WHEN TO CREATE A NEW GROUP
+==========================
+
+Different Concept
+
+↓
+
+New Group
+
+Examples
+
+Programming Languages
+
+↓
+
+One Group
+
+Cloud
+
+↓
+
+One Group
+
+Frameworks
+
+↓
+
+One Group
+
+Industries
+
+↓
+
+One Group
+
+Titles
+
+↓
+
+One Group
+
+==================================================
+WHEN NOT TO CREATE A GROUP
+==========================
+
+Do NOT group
+
+Single mandatory skills
+
+Example
+
+Java
+
+Spring
+
+AWS
+
+These are already mandatory.
+
+==================================================
+BOOLEAN SIMPLIFICATION
+======================
+
+Before
+
+((Java))
+
+After
+
+Java
+
+---
+
+Before
+
+(Java)
+
+AND
+
+(Spring)
+
+After
+
+Java
+
+AND
+
+Spring
+
+Remove unnecessary nesting.
+
+==================================================
+COMMON PRECEDENCE ERRORS
+========================
+
+Error
+
+Java
+
+OR
+
+Python
+
+AND
+
+AWS
+
+Problem
+
+Python AND AWS
+
+evaluates together.
+
+---
+
+Correct
+
+(Java OR Python)
+
+AND
+
+AWS
+
+==================================================
+ANOTHER ERROR
+=============
+
+Developer
+
+OR
+
+Engineer
+
+AND
+
+Java
+
+Wrong
+
+Correct
+
+(Developer OR Engineer)
+
+AND
+
+Java
+
+==================================================
+AI DECISION RULES
+=================
+
+Always build a Boolean tree first.
+
+Always group synonyms.
+
+Always isolate concepts.
+
+Never mix unrelated OR and AND statements.
+
+Never depend on platform-specific precedence.
+
+Generate readable Boolean before optimized Boolean.
+
+Simplify without changing logic.
+
+==================================================
+BOOLEAN VALIDATION
+==================
+
+Before returning a Boolean,
+
+verify
+
+✓ Every OR has a logical group.
+
+✓ Every AND joins separate concepts.
+
+✓ NOT excludes only irrelevant concepts.
+
+✓ Parentheses are balanced.
+
+✓ No unnecessary nesting.
+
+✓ Expression is human readable.
+
+✓ Expression is platform compatible.
+
+==================================================
+BOOLEAN GOLDEN RULE
+===================
+
+If removing all parentheses changes the meaning,
+
+the Boolean is unsafe.
+
+Always preserve intended logic using explicit grouping.
+
+END_OF_FILE

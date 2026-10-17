@@ -1,0 +1,621 @@
+FILE_NAME:
+057_SERVICENOW_PLATFORM.txt
+
+ID:
+057
+
+DOMAIN:
+ServiceNow
+
+CATEGORY:
+Enterprise Platform
+
+SUBCATEGORY:
+ServiceNow Platform
+
+PRIMARY_ROLE:
+ServiceNow Consultant
+
+RELATED_FILES:
+
+018_ENTERPRISE_PLATFORMS.txt
+
+058_SERVICENOW_ITSM.txt
+
+059_SERVICENOW_ITOM.txt
+
+060_SERVICENOW_ITAM_SAM.txt
+
+061_SERVICENOW_HRSD.txt
+
+062_SERVICENOW_CSM.txt
+
+063_SERVICENOW_SPM_PPM.txt
+
+064_SERVICENOW_GRC_IRM.txt
+
+065_SERVICENOW_SECOPS.txt
+
+066_SERVICENOW_PLATFORM_DEVELOPMENT.txt
+
+067_SERVICENOW_INTEGRATION.txt
+
+068_SERVICENOW_CMDB_DISCOVERY.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+ServiceNow Platform
+
+PURPOSE:
+Enable AI agents to understand the complete ServiceNow ecosystem, platform architecture, modules, implementation methodology, consultant roles, licensing model, development framework, and enterprise digital workflow transformation programs for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+ServiceNow
+Now Platform
+ITSM
+ITOM
+ITAM
+SAM
+HAM
+CMDB
+Discovery
+Service Portal
+Employee Center
+Flow Designer
+IntegrationHub
+Service Catalog
+
+ROLE_FAMILIES:
+ServiceNow Administrator
+ServiceNow Developer
+ServiceNow Consultant
+ServiceNow Architect
+ServiceNow Business Analyst
+ServiceNow Technical Lead
+ServiceNow Platform Owner
+ServiceNow Program Manager
+
+COMMON_JOB_TITLES:
+ServiceNow Consultant
+Senior ServiceNow Developer
+ServiceNow Architect
+ServiceNow Administrator
+ServiceNow Solution Architect
+ServiceNow Platform Engineer
+
+ALTERNATIVE_TITLES:
+Now Platform Consultant
+Digital Workflow Consultant
+Enterprise Workflow Consultant
+
+CORE_SKILLS:
+Platform Configuration
+
+Workflow Automation
+
+IT Service Management
+
+Development
+
+Integration
+
+CMDB
+
+Security
+
+Administration
+
+SUPPORTING_SKILLS:
+JavaScript
+
+REST APIs
+
+Cloud
+
+DevOps
+
+Agile
+
+ITIL
+
+Project Management
+
+RELATED_TECHNOLOGIES:
+Now Platform
+
+ITSM
+
+ITOM
+
+HRSD
+
+CSM
+
+IRM
+
+SecOps
+
+IntegrationHub
+
+Flow Designer
+
+Service Portal
+
+TECHNOLOGY_CATEGORY:
+Enterprise Workflow Platform
+
+DEPENDENCIES:
+
+018_ENTERPRISE_PLATFORMS.txt
+
+011_APIS.txt
+
+013_CLOUD.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+ServiceNow is a cloud-based enterprise workflow platform that digitizes and automates business processes across IT, HR, Customer Service, Security, Risk, Asset Management and Operations.
+
+Originally focused on IT Service Management (ITSM), ServiceNow has evolved into a comprehensive enterprise workflow platform used by organizations worldwide.
+
+==================================================
+CORE PRODUCT FAMILIES
+=====================
+
+IT Service Management (ITSM)
+
+IT Operations Management (ITOM)
+
+IT Asset Management (ITAM)
+
+Strategic Portfolio Management (SPM)
+
+Customer Service Management (CSM)
+
+HR Service Delivery (HRSD)
+
+Integrated Risk Management (IRM/GRC)
+
+Security Operations (SecOps)
+
+App Engine
+
+Creator Workflows
+
+==================================================
+PLATFORM ARCHITECTURE
+=====================
+
+Users
+
+↓
+
+Now Platform
+
+↓
+
+Applications
+
+↓
+
+Workflow Engine
+
+↓
+
+Business Rules
+
+↓
+
+CMDB
+
+↓
+
+Database
+
+↓
+
+Integrations
+
+==================================================
+IMPLEMENTATION TYPES
+====================
+
+Greenfield Implementation
+
+Platform Modernization
+
+Digital Transformation
+
+Enterprise Workflow Automation
+
+Cloud Migration
+
+Global Rollout
+
+Platform Consolidation
+
+Support & Enhancement
+
+==================================================
+CONSULTANT TYPES
+================
+
+Administrator
+
+↓
+
+Configuration
+
+User Administration
+
+---
+
+Developer
+
+↓
+
+JavaScript
+
+Script Includes
+
+Business Rules
+
+Flows
+
+---
+
+Business Analyst
+
+↓
+
+Requirements
+
+Process Design
+
+---
+
+Solution Architect
+
+↓
+
+Enterprise Design
+
+Governance
+
+Integration
+
+---
+
+Platform Architect
+
+↓
+
+Platform Strategy
+
+Scalability
+
+Security
+
+==================================================
+COMMON RESPONSIBILITIES
+=======================
+
+Requirements Gathering
+
+Platform Configuration
+
+Workflow Automation
+
+Catalog Development
+
+Form Design
+
+Security Configuration
+
+Reporting
+
+Dashboard Development
+
+Integration
+
+Testing
+
+Deployment
+
+Hypercare
+
+Production Support
+
+==================================================
+PLATFORM CAPABILITIES
+=====================
+
+Flow Designer
+
+Workflow Engine
+
+Business Rules
+
+Script Includes
+
+UI Policies
+
+Client Scripts
+
+Service Catalog
+
+Knowledge Base
+
+Notifications
+
+Approvals
+
+Virtual Agent
+
+Mobile
+
+==================================================
+SECURITY
+========
+
+Users
+
+Groups
+
+Roles
+
+ACLs
+
+Domain Separation
+
+SSO
+
+Multi-Factor Authentication
+
+Delegated Administration
+
+==================================================
+DEVELOPMENT
+===========
+
+JavaScript
+
+Glide API
+
+Script Includes
+
+Business Rules
+
+Client Scripts
+
+UI Actions
+
+Flow Designer
+
+App Engine Studio
+
+==================================================
+COMMON PROJECTS
+===============
+
+ITSM Implementation
+
+Service Portal Development
+
+HR Transformation
+
+CMDB Implementation
+
+Workflow Automation
+
+Service Catalog
+
+Digital Workplace
+
+Enterprise Platform Modernization
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Module
+
+*
+
+Role
+
+*
+
+Development
+
+Example
+
+(ServiceNow)
+
+AND
+
+(ITSM OR ITOM OR HRSD)
+
+AND
+
+(Developer OR Consultant OR Architect)
+
+AND
+
+("Flow Designer" OR JavaScript)
+
+Expand ServiceNow modules only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+ServiceNow Platform
+
+Critical
+
+Relevant Module
+
+Critical
+
+Configuration
+
+High
+
+Development
+
+High
+
+Workflow Automation
+
+High
+
+Integration
+
+High
+
+Security
+
+Medium
+
+Leadership
+
+Medium
+
+Certification
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+BMC Remedy
+
+↓
+
+ServiceNow
+
+Medium
+
+---
+
+Ivanti
+
+↓
+
+ServiceNow
+
+Medium
+
+---
+
+ManageEngine
+
+↓
+
+ServiceNow
+
+Low
+
+---
+
+Jira Service Management
+
+↓
+
+ServiceNow
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+ServiceNow Module
+
+Role Type
+
+Configuration vs Development
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+Administrator
+
+Developer
+
+Architect
+
+Business Analyst
+
+Consultant
+
+Platform Owner
+
+Never assume all ServiceNow experience is interchangeable.
+
+ITSM experience is not equivalent to ITOM, HRSD, CSM or SecOps.
+
+Recognize enterprise implementation projects as more valuable than ticket-based production support alone.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating all ServiceNow consultants as developers.
+
+Confusing ITSM with ITOM.
+
+Matching candidates solely because they mention ServiceNow.
+
+Ignoring module specialization.
+
+Treating JavaScript knowledge as complete ServiceNow expertise.
+
+Ignoring CMDB, Discovery and Integration experience.
+
+Assuming certification equals enterprise implementation experience.
+
+==================================================
+NEXT KNOWLEDGE FILES
+====================
+
+058_SERVICENOW_ITSM.txt
+
+059_SERVICENOW_ITOM.txt
+
+060_SERVICENOW_ITAM_SAM.txt
+
+061_SERVICENOW_HRSD.txt
+
+062_SERVICENOW_CSM.txt
+
+063_SERVICENOW_SPM_PPM.txt
+
+064_SERVICENOW_GRC_IRM.txt
+
+065_SERVICENOW_SECOPS.txt
+
+066_SERVICENOW_PLATFORM_DEVELOPMENT.txt
+
+067_SERVICENOW_INTEGRATION.txt
+
+068_SERVICENOW_CMDB_DISCOVERY.txt
+
+END_OF_FILE

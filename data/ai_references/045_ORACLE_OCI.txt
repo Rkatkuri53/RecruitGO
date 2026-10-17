@@ -1,0 +1,667 @@
+FILE_NAME:
+045_ORACLE_OCI.txt
+
+ID:
+045
+
+DOMAIN:
+Oracle
+
+CATEGORY:
+Cloud Computing
+
+SUBCATEGORY:
+Oracle Cloud Infrastructure (OCI)
+
+PRIMARY_ROLE:
+Oracle Cloud Engineer
+
+RELATED_FILES:
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+035_ORACLE_PLATFORM.txt
+
+036_ORACLE_ERP.txt
+
+037_ORACLE_HCM.txt
+
+038_ORACLE_SCM.txt
+
+039_ORACLE_EPM.txt
+
+041_ORACLE_INTEGRATION_CLOUD.txt
+
+042_ORACLE_DATABASE.txt
+
+044_ORACLE_FUSION_MIDDLEWARE.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Oracle Cloud Infrastructure (OCI)
+
+PURPOSE:
+Enable AI agents to understand Oracle Cloud Infrastructure (OCI), cloud architecture, compute, networking, storage, databases, Kubernetes, security, DevOps, migration, disaster recovery, and Oracle Cloud Engineer responsibilities for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Oracle Cloud Infrastructure
+OCI
+Oracle Cloud
+Oracle Compute
+Oracle Networking
+Oracle Storage
+Oracle Kubernetes
+OKE
+Oracle Load Balancer
+Oracle IAM
+Oracle DevOps
+Oracle Autonomous Database
+
+ROLE_FAMILIES:
+Oracle Cloud Engineer
+Oracle Cloud Architect
+OCI Administrator
+Cloud Infrastructure Engineer
+DevOps Engineer
+Oracle Cloud Consultant
+
+COMMON_JOB_TITLES:
+Oracle Cloud Engineer
+Oracle Cloud Architect
+OCI Consultant
+OCI Administrator
+Oracle Infrastructure Architect
+Oracle DevOps Engineer
+
+ALTERNATIVE_TITLES:
+Oracle Infrastructure Engineer
+Oracle Cloud Platform Engineer
+Oracle OCI Specialist
+
+CORE_SKILLS:
+Cloud Architecture
+
+Networking
+
+Security
+
+Compute
+
+Storage
+
+Containers
+
+Automation
+
+Infrastructure as Code
+
+SUPPORTING_SKILLS:
+Linux
+
+Terraform
+
+Kubernetes
+
+Docker
+
+CI/CD
+
+Python
+
+Monitoring
+
+RELATED_TECHNOLOGIES:
+Oracle Cloud Infrastructure
+
+OKE
+
+Oracle DevOps
+
+Terraform
+
+Ansible
+
+Docker
+
+Kubernetes
+
+Oracle Linux
+
+Oracle Autonomous Database
+
+Oracle GoldenGate
+
+TECHNOLOGY_CATEGORY:
+Cloud Platform
+
+DEPENDENCIES:
+
+013_CLOUD.txt
+
+014_DEVOPS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Oracle Cloud Infrastructure (OCI) is Oracle's public cloud platform that provides Infrastructure-as-a-Service (IaaS), Platform-as-a-Service (PaaS), containers, databases, networking, AI services, analytics and enterprise cloud capabilities.
+
+OCI supports Oracle enterprise applications as well as cloud-native workloads.
+
+==================================================
+CORE SERVICES
+=============
+
+Compute
+
+Networking
+
+Storage
+
+Database
+
+Containers
+
+Identity
+
+Security
+
+Monitoring
+
+DevOps
+
+AI Services
+
+Analytics
+
+==================================================
+COMPUTE
+=======
+
+COMMON SERVICES
+
+Virtual Machines
+
+Bare Metal
+
+Dedicated Hosts
+
+Autoscaling
+
+Instance Pools
+
+Custom Images
+
+==================================================
+NETWORKING
+==========
+
+COMMON SERVICES
+
+VCN
+
+Subnets
+
+Route Tables
+
+Internet Gateway
+
+NAT Gateway
+
+Service Gateway
+
+Dynamic Routing Gateway
+
+Load Balancer
+
+Network Security Groups
+
+==================================================
+STORAGE
+=======
+
+COMMON SERVICES
+
+Block Storage
+
+Object Storage
+
+File Storage
+
+Archive Storage
+
+Backup
+
+Snapshots
+
+==================================================
+DATABASE
+========
+
+COMMON SERVICES
+
+Oracle Database
+
+Autonomous Database
+
+MySQL Database Service
+
+Exadata Cloud Service
+
+Base Database Service
+
+GoldenGate
+
+==================================================
+CONTAINERS
+==========
+
+COMMON SERVICES
+
+Oracle Kubernetes Engine (OKE)
+
+Docker
+
+Container Registry
+
+Helm
+
+Ingress
+
+Service Mesh
+
+==================================================
+IDENTITY & SECURITY
+===================
+
+COMMON SERVICES
+
+IAM
+
+Compartments
+
+Policies
+
+Dynamic Groups
+
+Vault
+
+Key Management
+
+Cloud Guard
+
+Security Zones
+
+==================================================
+OBSERVABILITY
+=============
+
+COMMON SERVICES
+
+Monitoring
+
+Logging
+
+Logging Analytics
+
+Alarms
+
+Events
+
+Application Performance Monitoring
+
+==================================================
+DEVOPS
+======
+
+COMMON SERVICES
+
+Build Pipelines
+
+Deployment Pipelines
+
+Artifact Registry
+
+Source Code Repository
+
+Terraform
+
+Resource Manager
+
+==================================================
+DISASTER RECOVERY
+=================
+
+COMMON RESPONSIBILITIES
+
+Cross-Region Replication
+
+Backup Strategy
+
+Recovery Planning
+
+Business Continuity
+
+Failover
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+Cloud Migration
+
+Infrastructure Modernization
+
+Application Migration
+
+OCI Landing Zone
+
+Kubernetes Deployment
+
+Database Migration
+
+Disaster Recovery
+
+Cloud Optimization
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Architecture
+
+↓
+
+Provisioning
+
+↓
+
+Configuration
+
+↓
+
+Automation
+
+↓
+
+Migration
+
+↓
+
+Testing
+
+↓
+
+Production Deployment
+
+↓
+
+Operations
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Cloud Services
+
+*
+
+Infrastructure
+
+*
+
+Automation
+
+Example
+
+("Oracle Cloud Infrastructure" OR OCI)
+
+AND
+
+(Compute OR Networking)
+
+AND
+
+(Terraform OR Kubernetes)
+
+AND
+
+(IAM OR Security)
+
+Expand OCI services only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+OCI Experience
+
+Critical
+
+Cloud Architecture
+
+Critical
+
+Networking
+
+High
+
+Compute
+
+High
+
+IAM
+
+High
+
+Terraform
+
+High
+
+Kubernetes
+
+Medium
+
+DevOps
+
+Medium
+
+Security
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+AWS
+
+↓
+
+OCI
+
+Medium
+
+---
+
+Azure
+
+↓
+
+OCI
+
+Medium
+
+---
+
+Google Cloud
+
+↓
+
+OCI
+
+Medium
+
+---
+
+Oracle On-Premises
+
+↓
+
+OCI
+
+Medium
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Cloud Platform
+
+Infrastructure Scope
+
+Deployment Model
+
+Automation Tools
+
+Project Type
+
+Differentiate
+
+OCI
+
+AWS
+
+Azure
+
+Google Cloud
+
+Hybrid Cloud
+
+Cloud Migration
+
+Identify whether the engineer performed
+
+Architecture
+
+Provisioning
+
+Automation
+
+Security
+
+Networking
+
+Migration
+
+Monitoring
+
+Operations
+
+Recognize candidates with OCI Landing Zone implementation, Oracle Kubernetes Engine (OKE), Terraform automation, Autonomous Database deployment, IAM design and multi-region disaster recovery experience as senior Oracle Cloud engineers.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating OCI as Oracle ERP Cloud.
+
+Confusing Oracle Cloud Infrastructure with Oracle Integration Cloud.
+
+Matching candidates solely because they mention Oracle Cloud.
+
+Treating Linux administration alone as OCI expertise.
+
+Ignoring networking and IAM responsibilities.
+
+Ignoring Infrastructure as Code experience.
+
+Assuming certification equals enterprise cloud implementation experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+Oracle Cloud Infrastructure
+
+↓
+
+OCI
+
+Oracle Cloud
+
+Oracle IaaS
+
+---
+
+Containers
+
+↓
+
+OKE
+
+Kubernetes
+
+Docker
+
+Helm
+
+---
+
+Infrastructure as Code
+
+↓
+
+Terraform
+
+Resource Manager
+
+Ansible
+
+---
+
+Observability
+
+↓
+
+Monitoring
+
+Logging
+
+APM
+
+Logging Analytics
+
+==================================================
+INTERVIEW VALIDATION QUESTIONS
+==============================
+
+Which OCI services did you implement?
+
+Did you design the OCI network (VCNs, Subnets, Gateways)?
+
+Have you deployed Oracle Kubernetes Engine (OKE)?
+
+Did you automate infrastructure using Terraform?
+
+Have you migrated workloads from AWS, Azure, GCP or On-Premises to OCI?
+
+How did you implement IAM policies and compartments?
+
+What monitoring and logging services did you configure?
+
+Describe your disaster recovery architecture in OCI.
+
+END_OF_FILE

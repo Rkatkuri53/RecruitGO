@@ -1,0 +1,769 @@
+FILE_NAME:
+004_SEARCH_PARSING_ENGINE.txt
+
+ID:
+004
+
+DOMAIN:
+Recruitment Intelligence
+
+CATEGORY:
+AI Boolean Search Engine
+
+SUBCATEGORY:
+Search Parsing Engine
+
+PRIMARY_ROLE:
+AI Requirement Analysis & Search Parsing Engine
+
+VERSION:
+3.0
+
+PURPOSE:
+Define how an AI Recruiter parses a Job Description (JD) before generating Boolean search strings. This engine transforms unstructured hiring requirements into structured search intent. No Boolean should be generated until this parsing process is complete.
+
+==================================================
+SEARCH PARSING PHILOSOPHY
+=========================
+
+The AI MUST NOT generate a Boolean immediately after reading a Job Description.
+
+Instead, it must first understand:
+
+WHO is required?
+
+WHY are they required?
+
+WHAT will they do?
+
+HOW will they do it?
+
+WHERE will they work?
+
+WHEN (experience level)?
+
+Only after answering these questions may the AI generate Boolean.
+
+==================================================
+PARSING PIPELINE
+================
+
+Job Description
+
+↓
+
+Clean Text
+
+↓
+
+Sentence Segmentation
+
+↓
+
+Requirement Extraction
+
+↓
+
+Role Classification
+
+↓
+
+Skill Classification
+
+↓
+
+Technology Classification
+
+↓
+
+Business Domain Detection
+
+↓
+
+Industry Detection
+
+↓
+
+Experience Analysis
+
+↓
+
+Leadership Detection
+
+↓
+
+Mandatory Skill Detection
+
+↓
+
+Preferred Skill Detection
+
+↓
+
+Search Intent Generation
+
+↓
+
+Boolean Generation
+
+==================================================
+STEP 1
+DOCUMENT NORMALIZATION
+======================
+
+Remove
+
+Headers
+
+Footers
+
+Company Legal Text
+
+Privacy Notices
+
+Duplicate Sentences
+
+Formatting Noise
+
+Convert
+
+PDF
+
+DOCX
+
+HTML
+
+Email
+
+Plain Text
+
+==================================================
+STEP 2
+ROLE IDENTIFICATION
+===================
+
+Identify
+
+Primary Role
+
+Secondary Role
+
+Alternative Titles
+
+Examples
+
+Senior Java Developer
+
+↓
+
+Primary
+
+Java Developer
+
+Secondary
+
+Backend Engineer
+
+Alternative
+
+Software Engineer
+
+==================================================
+STEP 3
+ROLE TYPE CLASSIFICATION
+========================
+
+Technical
+
+Functional
+
+Techno-Functional
+
+Business
+
+Management
+
+Architecture
+
+Support
+
+Operations
+
+Infrastructure
+
+Security
+
+Consulting
+
+Sales
+
+Pre-Sales
+
+Customer Success
+
+Training
+
+==================================================
+STEP 4
+INDUSTRY DETECTION
+==================
+
+Determine
+
+Banking
+
+Insurance
+
+Healthcare
+
+Telecom
+
+Manufacturing
+
+Retail
+
+Pharma
+
+Energy
+
+Automotive
+
+Government
+
+Education
+
+Logistics
+
+Media
+
+Hospitality
+
+Travel
+
+Utilities
+
+If multiple industries exist,
+
+identify
+
+Primary
+
+Secondary
+
+==================================================
+STEP 5
+BUSINESS DOMAIN DETECTION
+=========================
+
+Examples
+
+Payments
+
+Risk
+
+Fraud
+
+Claims
+
+Core Banking
+
+AML
+
+KYC
+
+Supply Chain
+
+Warehouse
+
+Procurement
+
+HR
+
+Payroll
+
+CRM
+
+ERP
+
+Finance
+
+E-Commerce
+
+Clinical
+
+Manufacturing
+
+IoT
+
+==================================================
+STEP 6
+TECHNOLOGY EXTRACTION
+=====================
+
+Extract
+
+Platforms
+
+Programming Languages
+
+Frameworks
+
+Databases
+
+Cloud
+
+Middleware
+
+Operating Systems
+
+Libraries
+
+DevOps Tools
+
+Monitoring
+
+Messaging
+
+Analytics
+
+AI Tools
+
+==================================================
+STEP 7
+SKILL CLASSIFICATION
+====================
+
+Separate into
+
+Core Skills
+
+Mandatory Skills
+
+Supporting Skills
+
+Preferred Skills
+
+Nice-to-Have Skills
+
+Transferable Skills
+
+Future Skills
+
+==================================================
+STEP 8
+BUSINESS RESPONSIBILITY ANALYSIS
+================================
+
+Identify
+
+Daily Responsibilities
+
+Project Scope
+
+Business Ownership
+
+Decision Making
+
+Architecture
+
+Coding
+
+Configuration
+
+Support
+
+Migration
+
+Implementation
+
+Testing
+
+Operations
+
+Leadership
+
+==================================================
+STEP 9
+IMPLEMENTATION TYPE
+===================
+
+Determine
+
+Greenfield
+
+Brownfield
+
+Rollout
+
+Migration
+
+Upgrade
+
+Support
+
+AMS
+
+Production Support
+
+Hypercare
+
+Maintenance
+
+Transformation
+
+==================================================
+STEP 10
+EXPERIENCE ANALYSIS
+===================
+
+Extract
+
+Minimum Years
+
+Maximum Years
+
+Relevant Experience
+
+Leadership Experience
+
+Architecture Experience
+
+Domain Experience
+
+Cloud Experience
+
+Industry Experience
+
+==================================================
+STEP 11
+SENIORITY DETECTION
+===================
+
+Determine
+
+Intern
+
+Graduate
+
+Junior
+
+Mid-Level
+
+Senior
+
+Lead
+
+Principal
+
+Architect
+
+Manager
+
+Director
+
+VP
+
+Head
+
+Chief
+
+==================================================
+STEP 12
+LEADERSHIP DETECTION
+====================
+
+Look for
+
+Lead
+
+Managed
+
+Mentored
+
+Coached
+
+Owned
+
+Directed
+
+Architected
+
+Designed
+
+Governed
+
+Decision Maker
+
+Team Management
+
+Budget Ownership
+
+Stakeholder Management
+
+==================================================
+STEP 13
+CERTIFICATION ANALYSIS
+======================
+
+Extract
+
+Mandatory Certifications
+
+Preferred Certifications
+
+Vendor Certifications
+
+Cloud Certifications
+
+Security Certifications
+
+Ignore certifications unless explicitly required.
+
+==================================================
+STEP 14
+LOCATION ANALYSIS
+=================
+
+Identify
+
+Country
+
+Region
+
+City
+
+Remote
+
+Hybrid
+
+Onsite
+
+Travel %
+
+Visa
+
+Language Requirements
+
+Timezone
+
+==================================================
+STEP 15
+EXCLUSION DETECTION
+===================
+
+Identify
+
+Must NOT Have
+
+Competing Technologies
+
+Unsupported Platforms
+
+Expired Technologies
+
+Junior-only Profiles
+
+Industry Restrictions
+
+Location Restrictions
+
+==================================================
+STEP 16
+SEARCH INTENT CREATION
+======================
+
+Convert parsed information into
+
+Search Target
+
+Example
+
+Need
+
+Senior Java Developer
+
+Spring Boot
+
+AWS
+
+Microservices
+
+Banking
+
+10+ Years
+
+Architecture
+
+Implementation
+
+NOT
+
+Just
+
+Java
+
+Spring
+
+AWS
+
+==================================================
+SEARCH ENTITY PRIORITY
+======================
+
+Priority 1
+
+Role
+
+↓
+
+Priority 2
+
+Core Technology
+
+↓
+
+Priority 3
+
+Mandatory Skills
+
+↓
+
+Priority 4
+
+Architecture / Implementation
+
+↓
+
+Priority 5
+
+Industry
+
+↓
+
+Priority 6
+
+Leadership
+
+↓
+
+Priority 7
+
+Location
+
+↓
+
+Priority 8
+
+Certifications
+
+==================================================
+SEARCH PARSING OUTPUT
+=====================
+
+Every parsed JD should produce
+
+Primary Role
+
+Alternative Roles
+
+Core Skills
+
+Mandatory Skills
+
+Preferred Skills
+
+Programming Languages
+
+Frameworks
+
+Databases
+
+Cloud Platforms
+
+Industry
+
+Business Domain
+
+Leadership
+
+Implementation Type
+
+Experience
+
+Location
+
+Search Intent
+
+==================================================
+COMMON PARSING MISTAKES
+=======================
+
+Searching before understanding the JD.
+
+Treating every mentioned skill as mandatory.
+
+Ignoring industry context.
+
+Ignoring implementation type.
+
+Ignoring architecture responsibilities.
+
+Ignoring leadership indicators.
+
+Treating certifications as core skills.
+
+Failing to distinguish core technologies from supporting tools.
+
+==================================================
+AI DECISION RULES
+=================
+
+Read the entire JD before extracting information.
+
+Never infer mandatory skills without evidence.
+
+Classify every extracted item into the correct category.
+
+Identify business intent, not just keywords.
+
+Generate structured search entities before Boolean.
+
+If ambiguity exists, prefer evidence from responsibilities over job title.
+
+Support hybrid roles (e.g., SAP + Finance, Java + DevOps).
+
+==================================================
+SEARCH PARSING CHECKLIST
+========================
+
+✓ Primary role identified
+
+✓ Secondary roles identified
+
+✓ Industry detected
+
+✓ Business domain detected
+
+✓ Core technologies extracted
+
+✓ Mandatory skills separated
+
+✓ Preferred skills separated
+
+✓ Experience classified
+
+✓ Seniority determined
+
+✓ Leadership detected
+
+✓ Implementation type identified
+
+✓ Location parsed
+
+✓ Exclusions captured
+
+✓ Search intent generated
+
+Only after completing this checklist should the AI proceed to Boolean generation.
+
+END_OF_FILE

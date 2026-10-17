@@ -1,0 +1,666 @@
+FILE_NAME:
+077_DYNAMICS_365_DEVELOPMENT.txt
+
+ID:
+077
+
+DOMAIN:
+Microsoft Dynamics 365
+
+CATEGORY:
+Enterprise Application Development
+
+SUBCATEGORY:
+Dynamics 365 Development
+
+PRIMARY_ROLE:
+Dynamics 365 Developer
+
+RELATED_FILES:
+
+069_MICROSOFT_DYNAMICS_365_PLATFORM.txt
+
+070_DYNAMICS_365_FINANCE_OPERATIONS.txt
+
+071_DYNAMICS_365_BUSINESS_CENTRAL.txt
+
+072_DYNAMICS_365_CRM_SALES.txt
+
+073_DYNAMICS_365_CUSTOMER_SERVICE.txt
+
+074_DYNAMICS_365_FIELD_SERVICE.txt
+
+075_DYNAMICS_365_MARKETING.txt
+
+076_DYNAMICS_365_POWER_PLATFORM.txt
+
+078_DYNAMICS_365_INTEGRATION.txt
+
+079_DYNAMICS_365_DATA_AI.txt
+
+010_PROGRAMMING_LANGUAGES.txt
+
+011_APIS.txt
+
+014_DEVOPS.txt
+
+VERSION:
+1.0
+
+CATEGORY:
+Dynamics 365 Development
+
+PURPOSE:
+Enable AI agents to understand Microsoft Dynamics 365 technical development across CRM and ERP, including plugins, custom workflows, JavaScript, C#, .NET, X++, AL, Dataverse, client-side scripting, server-side development, ALM, DevOps, and enterprise application development for accurate JD parsing, Boolean generation, and candidate matching.
+
+KEYWORDS:
+Dynamics 365 Developer
+Dynamics CRM Developer
+X++
+AL
+Plugins
+Custom Workflow
+Dataverse
+JavaScript
+C#
+.NET
+PCF Controls
+Power Platform
+Azure DevOps
+
+ROLE_FAMILIES:
+Dynamics 365 Developer
+
+Dynamics CRM Developer
+
+Dynamics ERP Developer
+
+Technical Consultant
+
+Technical Architect
+
+Power Platform Developer
+
+COMMON_JOB_TITLES:
+Dynamics 365 Developer
+
+Dynamics CRM Developer
+
+Dynamics 365 Technical Consultant
+
+Dynamics ERP Developer
+
+Dynamics Technical Architect
+
+Power Platform Developer
+
+ALTERNATIVE_TITLES:
+Microsoft Dynamics Technical Consultant
+
+Business Applications Developer
+
+CRM Developer
+
+ERP Developer
+
+CORE_SKILLS:
+C#
+
+.NET
+
+JavaScript
+
+Plugins
+
+Custom Workflow Activities
+
+Power Platform
+
+Dataverse
+
+Customization
+
+SUPPORTING_SKILLS:
+PCF Controls
+
+Azure DevOps
+
+REST APIs
+
+Git
+
+SQL Server
+
+Testing
+
+Security
+
+RELATED_TECHNOLOGIES:
+Dataverse
+
+Power Platform
+
+C#
+
+.NET
+
+JavaScript
+
+PCF
+
+Azure DevOps
+
+Visual Studio
+
+X++
+
+AL
+
+TECHNOLOGY_CATEGORY:
+Enterprise Business Application Development
+
+DEPENDENCIES:
+
+010_PROGRAMMING_LANGUAGES.txt
+
+011_APIS.txt
+
+014_DEVOPS.txt
+
+==================================================
+PLATFORM OVERVIEW
+=================
+
+Dynamics 365 development extends Microsoft business applications using Microsoft's development stack.
+
+Developers customize CRM and ERP applications through plugins, extensions, client scripting, APIs, Power Platform, X++ (Finance & Operations), AL (Business Central), and Azure services while following Microsoft's Application Lifecycle Management (ALM) practices.
+
+==================================================
+DEVELOPMENT STACK
+=================
+
+CRM
+
+↓
+
+C#
+
+.NET
+
+Plugins
+
+JavaScript
+
+PCF
+
+Dataverse
+
+---
+
+Finance & Operations
+
+↓
+
+X++
+
+Visual Studio
+
+Extensions
+
+Lifecycle Services
+
+---
+
+Business Central
+
+↓
+
+AL
+
+Visual Studio Code
+
+Extensions
+
+AppSource
+
+==================================================
+CRM DEVELOPMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+Plugin Development
+
+Custom Workflow Activities
+
+Business Process Extensions
+
+Ribbon Customization
+
+JavaScript
+
+Form Customization
+
+PCF Controls
+
+==================================================
+ERP DEVELOPMENT
+===============
+
+COMMON RESPONSIBILITIES
+
+X++ Development
+
+Extensions
+
+Reports
+
+Batch Jobs
+
+Data Entities
+
+Business Logic
+
+==================================================
+BUSINESS CENTRAL DEVELOPMENT
+============================
+
+COMMON RESPONSIBILITIES
+
+AL Development
+
+Extensions
+
+Pages
+
+Reports
+
+Codeunits
+
+Tables
+
+AppSource Packages
+
+==================================================
+DATAVERSE DEVELOPMENT
+=====================
+
+COMMON RESPONSIBILITIES
+
+Tables
+
+Relationships
+
+Business Rules
+
+Security
+
+Solutions
+
+Data Modeling
+
+==================================================
+CLIENT DEVELOPMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+JavaScript
+
+TypeScript
+
+HTML
+
+CSS
+
+PCF Controls
+
+Custom UI
+
+==================================================
+SERVER DEVELOPMENT
+==================
+
+COMMON RESPONSIBILITIES
+
+C#
+
+.NET
+
+Plugins
+
+Azure Functions
+
+REST APIs
+
+Background Processing
+
+==================================================
+ALM & DEVOPS
+============
+
+COMMON RESPONSIBILITIES
+
+Azure DevOps
+
+Git
+
+CI/CD
+
+Managed Solutions
+
+Release Pipelines
+
+Version Control
+
+==================================================
+TESTING
+=======
+
+COMMON RESPONSIBILITIES
+
+Unit Testing
+
+Integration Testing
+
+Regression Testing
+
+Performance Testing
+
+UAT Support
+
+==================================================
+COMMON PROJECT TYPES
+====================
+
+CRM Customization
+
+ERP Extension Development
+
+Enterprise Automation
+
+Custom Business Applications
+
+Platform Modernization
+
+Cloud Migration
+
+==================================================
+IMPLEMENTATION ACTIVITIES
+=========================
+
+Technical Design
+
+↓
+
+Development
+
+↓
+
+Code Review
+
+↓
+
+Testing
+
+↓
+
+Deployment
+
+↓
+
+Support
+
+↓
+
+Optimization
+
+==================================================
+BOOLEAN_RULES
+=============
+
+Always search
+
+Platform
+
+*
+
+Language
+
+*
+
+Development
+
+*
+
+Customization
+
+Example
+
+("Dynamics 365")
+
+AND
+
+(C# OR JavaScript OR X++ OR AL)
+
+AND
+
+(Plugin OR Extension)
+
+AND
+
+(Developer)
+
+Expand development technologies only when explicitly required by the JD.
+
+==================================================
+MATCHING_RULES
+==============
+
+Dynamics Development
+
+Critical
+
+C#
+
+Critical
+
+Plugins
+
+High
+
+JavaScript
+
+High
+
+Power Platform
+
+High
+
+X++
+
+Medium
+
+AL
+
+Medium
+
+Azure DevOps
+
+Medium
+
+==================================================
+TRANSFERABLE_SKILLS
+===================
+
+.NET Development
+
+↓
+
+Dynamics Development
+
+High
+
+---
+
+Power Platform
+
+↓
+
+Dynamics Development
+
+High
+
+---
+
+Salesforce Development
+
+↓
+
+Dynamics CRM Development
+
+Medium
+
+---
+
+SAP ABAP
+
+↓
+
+Dynamics ERP Development
+
+Low
+
+==================================================
+AI_DECISION_RULES
+=================
+
+Always determine
+
+Development Platform
+
+Programming Language
+
+Customization Scope
+
+Implementation Type
+
+Project Phase
+
+Differentiate
+
+CRM Development
+
+ERP Development
+
+Business Central
+
+Power Platform
+
+Azure Development
+
+Identify whether the developer performed
+
+Plugin Development
+
+Extension Development
+
+Customization
+
+Integration
+
+Testing
+
+CI/CD
+
+Deployment
+
+Support
+
+Recognize candidates with enterprise Dynamics development, C# plugins, Dataverse customization, Power Platform integration, X++ development, AL extensions and Azure DevOps experience as senior Dynamics developers.
+
+==================================================
+COMMON_MISTAKES
+===============
+
+Treating Power Platform developers as complete Dynamics developers.
+
+Confusing X++ with AL.
+
+Matching candidates solely because they mention C#.
+
+Ignoring CRM vs ERP development differences.
+
+Treating JavaScript customization as enterprise Dynamics development.
+
+Ignoring ALM and Azure DevOps.
+
+Assuming certification equals enterprise development experience.
+
+==================================================
+BOOLEAN EXPANSION RULES
+=======================
+
+CRM Development
+
+↓
+
+Plugins
+
+Workflow Activities
+
+JavaScript
+
+PCF
+
+Ribbon
+
+---
+
+ERP Development
+
+↓
+
+X++
+
+Extensions
+
+Data Entities
+
+Batch Jobs
+
+---
+
+Business Central
+
+↓
+
+AL
+
+Codeunits
+
+Pages
+
+Reports
+
+AppSource
+
+---
+
+Development
+
+↓
+
+C#
+
+.NET
+
+Visual Studio
+
+Azure DevOps
+
+Git
+
+Dataverse
+
+END_OF_FILE
