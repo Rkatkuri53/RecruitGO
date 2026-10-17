@@ -206,6 +206,15 @@ export async function initDb() {
         await addCol('spoke_persons', 'role_title', 'TEXT');
         await addCol('spoke_persons', 'phone', 'TEXT');
 
+        const userCols = [
+            ['manager_id', 'TEXT'],
+            ['phone', 'TEXT'],
+            ['personal_email', 'TEXT']
+        ];
+        for (const [col, def] of userCols) {
+            await addCol('users', col, def);
+        }
+
         // Seed default users if empty
         try {
             const countRes = await sqliteDb.get('SELECT COUNT(*) as count FROM users');
