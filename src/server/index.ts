@@ -1845,7 +1845,7 @@ app.get(['/api/analytics/management', '/api/ats/analytics/management'], async (r
             db.all('SELECT id, name, email, role, manager_id FROM users'),
             db.all('SELECT id, company_name, account_manager_id FROM clients ORDER BY company_name ASC'),
             db.all('SELECT id, client_id, name, email FROM spoke_persons ORDER BY name ASC'),
-            db.all('SELECT id, title, company, client_id, spoke_person_id, assigned_tl_id, created_by_user_id FROM jobs'),
+            db.all('SELECT id, title, company, client_id, spoke_person_id, assigned_tl_id, created_by_user_id, created_at FROM jobs'),
             db.all(`
                 SELECT s.*, 
                        c.status as cand_status,
@@ -1858,14 +1858,51 @@ app.get(['/api/analytics/management', '/api/ats/analytics/management'], async (r
                 LEFT JOIN clients cl ON (j.client_id = cl.id OR j.company = cl.company_name)
                 LEFT JOIN spoke_persons sp ON COALESCE(s.spoke_person_id, j.spoke_person_id) = sp.id
             `),
-            db.all('SELECT id, recruiter_id, job_id, status FROM candidates')
+            db.all('SELECT id, recruiter_id, job_id, status, timestamp FROM candidates')
         ]);
+
+        // Timeframe filtering support: daily, weekly, monthly, all
+        const timeframe = (req.query.timeframe as string || 'all').toLowerCase();
+        const now = Date.now();
+        let cutoffTime: number | null = null;
+        let timeframeLabel = 'All Time Executive Report';
+        let rangeDisplay = 'All Historical Records';
+
+        const todayStart = new Date();
+        todayStart.setHours(0, 0, 0, 0);
+
+        if (timeframe === 'daily' || timeframe === 'today') {
+            cutoffTime = todayStart.getTime();
+            timeframeLabel = 'Daily Report (Today)';
+            rangeDisplay = todayStart.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+        } else if (timeframe === 'weekly') {
+            cutoffTime = now - (7 * 24 * 60 * 60 * 1000);
+            timeframeLabel = 'Weekly Report (Last 7 Days)';
+            const weekAgo = new Date(cutoffTime);
+            rangeDisplay = `${weekAgo.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} – ${new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
+        } else if (timeframe === 'monthly') {
+            cutoffTime = now - (30 * 24 * 60 * 60 * 1000);
+            timeframeLabel = 'Monthly Report (Last 30 Days)';
+            const monthAgo = new Date(cutoffTime);
+            rangeDisplay = `${monthAgo.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })} – ${new Date().toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}`;
+        }
+
+        const isWithinTimeframe = (dateVal: any) => {
+            if (!cutoffTime) return true;
+            if (!dateVal) return false;
+            const t = new Date(dateVal).getTime();
+            return !isNaN(t) && t >= cutoffTime;
+        };
+
+        const activeSubs = cutoffTime ? allSubs.filter(s => isWithinTimeframe(s.created_at)) : allSubs;
+        const activeCands = cutoffTime ? allCands.filter(c => isWithinTimeframe(c.timestamp)) : allCands;
+        const activeJobs = cutoffTime ? allJobs.filter(j => isWithinTimeframe(j.created_at)) : allJobs;
 
         const totalClients = clientsCount?.c || 0;
         const totalSpokes = spokesCount?.c || 0;
-        const totalLiveRoles = liveRolesCount?.c || 0;
-        const totalCandidates = candidatesCount?.c || 0;
-        const totalSubmissions = submissionsCount?.c || 0;
+        const totalLiveRoles = cutoffTime ? activeJobs.length : (liveRolesCount?.c || 0);
+        const totalCandidates = cutoffTime ? activeCands.length : (candidatesCount?.c || 0);
+        const totalSubmissions = cutoffTime ? activeSubs.length : (submissionsCount?.c || 0);
 
         // Stage classification helpers
         const isInterview = (st: string) => Boolean(st && (st.includes('Interview') || st.includes('Screened')));
@@ -1881,7 +1918,7 @@ app.get(['/api/analytics/management', '/api/ats/analytics/management'], async (r
         let totalJoined = 0;
         let totalBackouts = 0;
 
-        allCands.forEach(c => {
+        activeCands.forEach(c => {
             const st = c.status || '';
             if (isInterview(st)) interviewsDone++;
             else if (isSelection(st)) selectionsDone++;
@@ -1895,7 +1932,6 @@ app.get(['/api/analytics/management', '/api/ats/analytics/management'], async (r
             : 0;
 
         // 2. TEAM LEAD PERFORMANCE
-        // Columns: Team Lead, Team Members, Submissions, Interviews, Selections, Offers, Joinings, Backouts
         const tls = allUsers.filter(u => u.role === 'TeamLead');
         const recruiters = allUsers.filter(u => u.role === 'Recruiter');
 
@@ -1903,12 +1939,12 @@ app.get(['/api/analytics/management', '/api/ats/analytics/management'], async (r
             const teamRecruiters = recruiters.filter(r => r.manager_id === tl.id);
             const teamRecruiterIds = new Set(teamRecruiters.map(r => r.id));
 
-            const relevantSubs = allSubs.filter(s => 
+            const relevantSubs = activeSubs.filter(s => 
                 s.tl_id === tl.id || 
                 teamRecruiterIds.has(s.recruiter_id) || 
                 s.assigned_tl_id === tl.id
             );
-            const relevantCands = allCands.filter(c => teamRecruiterIds.has(c.recruiter_id));
+            const relevantCands = activeCands.filter(c => teamRecruiterIds.has(c.recruiter_id));
 
             const candMap = new Map<string, string>();
             relevantSubs.forEach(s => {
@@ -1947,7 +1983,6 @@ app.get(['/api/analytics/management', '/api/ats/analytics/management'], async (r
         });
 
         // 3. ACCOUNT MANAGER PERFORMANCE
-        // Columns: Account Manager, Spoke, Client, Roles Received, Submissions, Interviews, Selections, Offers, Joinings, Backouts
         const ams = allUsers.filter(u => u.role === 'AccountManager');
         const defaultAm = ams[0] || { id: 'u_am', name: 'Account Manager', email: 'am@myrecruiter.com' };
 
@@ -1980,7 +2015,6 @@ app.get(['/api/analytics/management', '/api/ats/analytics/management'], async (r
         uniqueClientsMap.forEach(({ primaryClient: cl, allClientIds, allCompanyNames }) => {
             const clientAm = ams.find(a => a.id === cl.account_manager_id) || defaultAm;
 
-            // Collect all spokes for these client IDs and deduplicate by normalized spoke name
             const rawSpokes = allSpokes.filter(s => allClientIds.has(s.client_id));
             const uniqueSpokesMap = new Map<string, any>();
             rawSpokes.forEach(sp => {
@@ -1991,17 +2025,17 @@ app.get(['/api/analytics/management', '/api/ats/analytics/management'], async (r
             });
             const clientSpokes = Array.from(uniqueSpokesMap.values());
 
-            const clientJobs = allJobs.filter(j => 
+            const clientJobs = activeJobs.filter(j => 
                 (j.client_id && allClientIds.has(j.client_id)) || 
                 (j.company && allCompanyNames.has(j.company))
             );
 
             if (clientSpokes.length === 0) {
-                const subsForClient = allSubs.filter(s => 
+                const subsForClient = activeSubs.filter(s => 
                     (s.job_client_id && allClientIds.has(s.job_client_id)) || 
                     (s.company && allCompanyNames.has(s.company))
                 );
-                const candsForClient = allCands.filter(c => clientJobs.some(j => j.id === c.job_id));
+                const candsForClient = activeCands.filter(c => clientJobs.some(j => j.id === c.job_id));
 
                 const candMap = new Map<string, string>();
                 subsForClient.forEach(s => candMap.set(s.candidate_id, s.status || s.cand_status || 'Submitted'));
@@ -2039,11 +2073,11 @@ app.get(['/api/analytics/management', '/api/ats/analytics/management'], async (r
             } else {
                 clientSpokes.forEach(sp => {
                     const jobsForSpoke = clientJobs.filter(j => j.spoke_person_id === sp.id || !j.spoke_person_id);
-                    const subsForSpoke = allSubs.filter(s => 
+                    const subsForSpoke = activeSubs.filter(s => 
                         (s.spoke_person_id === sp.id || s.job_spoke_id === sp.id) ||
                         (((s.job_client_id && allClientIds.has(s.job_client_id)) || (s.company && allCompanyNames.has(s.company))) && !s.spoke_person_id)
                     );
-                    const candsForSpoke = allCands.filter(c => jobsForSpoke.some(j => j.id === c.job_id));
+                    const candsForSpoke = activeCands.filter(c => jobsForSpoke.some(j => j.id === c.job_id));
 
                     const candMap = new Map<string, string>();
                     subsForSpoke.forEach(s => candMap.set(s.candidate_id, s.status || s.cand_status || 'Submitted'));
@@ -2086,8 +2120,8 @@ app.get(['/api/analytics/management', '/api/ats/analytics/management'], async (r
         // 4. RECRUITER PERFORMANCE
         const recruiterPerformance = recruiters.map(rec => {
             const tl = tls.find(t => t.id === rec.manager_id);
-            const subsForRec = allSubs.filter(s => s.recruiter_id === rec.id);
-            const candsForRec = allCands.filter(c => c.recruiter_id === rec.id);
+            const subsForRec = activeSubs.filter(s => s.recruiter_id === rec.id);
+            const candsForRec = activeCands.filter(c => c.recruiter_id === rec.id);
 
             const candMap = new Map<string, string>();
             subsForRec.forEach(s => candMap.set(s.candidate_id, s.status || s.cand_status || 'Submitted'));
@@ -2118,6 +2152,9 @@ app.get(['/api/analytics/management', '/api/ats/analytics/management'], async (r
 
         res.json({
             success: true,
+            timeframe,
+            timeframeLabel,
+            rangeDisplay,
             totalClients,
             totalSpokes,
             totalLiveRoles,

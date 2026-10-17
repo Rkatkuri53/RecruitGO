@@ -85,6 +85,11 @@ export async function initDb() {
                 if (tlRes.rows.length === 0) {
                     await pool.query(`INSERT INTO users (id, role, name, email, password) VALUES ('u_teamlead', 'TeamLead', 'Team Lead', 'teamlead@myrecruiter.com', 'teamlead123')`);
                 }
+                try {
+                    await pool.query('ALTER TABLE candidates ADD COLUMN IF NOT EXISTS last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP');
+                } catch (colErr) {
+                    // Ignored if column already exists
+                }
             } catch (e) {
                 console.error('[DB] Postgres seeding notice:', e);
             }

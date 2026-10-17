@@ -3904,9 +3904,49 @@ async function saveLocalSettings() {
 
         <!-- Management Analytics View -->
         <div id="management-view" style="display:none; padding: 20px;">
-    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px;">
-        <h2 style="margin:0; color:var(--primary);">📊 Executive Analytics Hub</h2>
-        <button class="btn-primary" onclick="loadManagementAnalytics()">🔄 Refresh Analytics</button>
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 20px; flex-wrap:wrap; gap:15px;">
+        <div>
+            <h2 style="margin:0; color:var(--primary); font-size:1.6rem; font-weight:800; display:flex; align-items:center; gap:8px;">
+                <span>📊</span> Executive Analytics & Performance Hub
+            </h2>
+            <div style="font-size:0.85rem; color:var(--text-muted); margin-top:4px;">
+                Cross-tier Daily, Weekly & Monthly performance tracking for Recruiters, Team Leads, and Account Managers
+            </div>
+        </div>
+        <div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+            <div class="report-btn-group" style="display:inline-flex; background:rgba(255,255,255,0.06); padding:4px; border-radius:10px; border:1px solid rgba(255,255,255,0.12);">
+                <button id="btn-report-daily" class="btn-report-tab" onclick="switchMgmtReport('daily')" style="padding:7px 16px; border-radius:7px; border:none; cursor:pointer; font-weight:700; font-size:0.85rem; background:transparent; color:#94a3b8; transition:all 0.2s;">📅 Daily Report</button>
+                <button id="btn-report-weekly" class="btn-report-tab" onclick="switchMgmtReport('weekly')" style="padding:7px 16px; border-radius:7px; border:none; cursor:pointer; font-weight:700; font-size:0.85rem; background:transparent; color:#94a3b8; transition:all 0.2s;">📆 Weekly Report</button>
+                <button id="btn-report-monthly" class="btn-report-tab" onclick="switchMgmtReport('monthly')" style="padding:7px 16px; border-radius:7px; border:none; cursor:pointer; font-weight:700; font-size:0.85rem; background:transparent; color:#94a3b8; transition:all 0.2s;">🗓️ Monthly Report</button>
+                <button id="btn-report-all" class="btn-report-tab active" onclick="switchMgmtReport('all')" style="padding:7px 16px; border-radius:7px; border:none; cursor:pointer; font-weight:700; font-size:0.85rem; background:#3b82f6; color:#ffffff; transition:all 0.2s;">🌐 All Time</button>
+            </div>
+            <button class="btn-secondary" onclick="exportManagementReport()" style="display:inline-flex; align-items:center; gap:6px; padding:7px 14px; font-size:0.85rem; font-weight:700;">
+                <span>📥</span> Export CSV
+            </button>
+            <button class="btn-secondary" onclick="window.print()" style="display:inline-flex; align-items:center; gap:6px; padding:7px 14px; font-size:0.85rem; font-weight:700;">
+                <span>🖨️</span> Print PDF
+            </button>
+            <button class="btn-primary" onclick="loadManagementAnalytics(currentMgmtTimeframe)" style="padding:7px 14px; font-size:0.85rem; font-weight:700;">
+                🔄 Refresh
+            </button>
+        </div>
+    </div>
+
+    <!-- ACTIVE REPORT INFO BANNER -->
+    <div id="mgmt-report-banner" style="display:flex; justify-content:space-between; align-items:center; background:linear-gradient(90deg, rgba(59,130,246,0.12), rgba(139,92,246,0.12)); border:1px solid rgba(59,130,246,0.25); border-radius:10px; padding:12px 18px; margin-bottom:22px; flex-wrap:wrap; gap:10px;">
+        <div style="display:flex; align-items:center; gap:12px;">
+            <span id="mgmt-banner-icon" style="font-size:1.5rem;">🌐</span>
+            <div>
+                <div id="mgmt-banner-title" style="font-weight:700; color:#f8fafc; font-size:0.95rem;">All Time Executive Report</div>
+                <div id="mgmt-banner-subtitle" style="font-size:0.78rem; color:#94a3b8;">Full historical recruitment pipeline performance across Recruiters, Team Leads, and Account Managers</div>
+            </div>
+        </div>
+        <div style="display:flex; align-items:center; gap:10px;">
+            <span style="font-size:0.78rem; color:#94a3b8;">Reporting Period:</span>
+            <div id="mgmt-banner-range" style="font-size:0.85rem; font-weight:700; color:#60a5fa; background:rgba(59,130,246,0.18); padding:5px 14px; border-radius:20px; border:1px solid rgba(59,130,246,0.3);">
+                All Historical Records
+            </div>
+        </div>
     </div>
     
     <div class="stat-grid" id="mgmt-kpi-grid" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; margin-bottom: 25px;">
@@ -3925,7 +3965,10 @@ async function saveLocalSettings() {
     <!-- TEAM LEAD PERFORMANCE -->
     <div class="card" style="margin-bottom: 25px; overflow-x: auto;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 15px;">
-            <h3 style="margin:0; color:#3b82f6;">👥 Team Lead Performance</h3>
+            <div style="display:flex; align-items:center; gap:8px;">
+                <h3 style="margin:0; color:#3b82f6;">👥 Team Lead Performance</h3>
+                <span id="mgmt-tl-timeframe-tag" style="background:rgba(59,130,246,0.15); color:#60a5fa; border:1px solid rgba(59,130,246,0.3); font-size:0.75rem; padding:2px 8px; border-radius:6px; font-weight:700;">All Time</span>
+            </div>
             <span style="font-size:0.85rem; color:var(--text-muted);">Real-time aggregated TL team performance</span>
         </div>
         <table class="data-table" id="mgmt-tl-table" style="width: 100%;">
@@ -3950,7 +3993,10 @@ async function saveLocalSettings() {
     <!-- ACCOUNT MANAGER PERFORMANCE -->
     <div class="card" style="margin-bottom: 25px; overflow-x: auto;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 15px;">
-            <h3 style="margin:0; color:#ec4899;">💼 Account Manager Performance</h3>
+            <div style="display:flex; align-items:center; gap:8px;">
+                <h3 style="margin:0; color:#ec4899;">💼 Account Manager Performance</h3>
+                <span id="mgmt-am-timeframe-tag" style="background:rgba(236,72,153,0.15); color:#f472b6; border:1px solid rgba(236,72,153,0.3); font-size:0.75rem; padding:2px 8px; border-radius:6px; font-weight:700;">All Time</span>
+            </div>
             <span style="font-size:0.85rem; color:var(--text-muted);">Client & Spoke Person yield analysis</span>
         </div>
         <table class="data-table" id="mgmt-am-table" style="width: 100%;">
@@ -3977,7 +4023,10 @@ async function saveLocalSettings() {
     <!-- RECRUITER PERFORMANCE -->
     <div class="card" style="margin-bottom: 25px; overflow-x: auto;">
         <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 15px;">
-            <h3 style="margin:0; color:#10b981;">🎯 Recruiter Performance</h3>
+            <div style="display:flex; align-items:center; gap:8px;">
+                <h3 style="margin:0; color:#10b981;">🎯 Recruiter Performance</h3>
+                <span id="mgmt-rec-timeframe-tag" style="background:rgba(16,185,129,0.15); color:#34d399; border:1px solid rgba(16,185,129,0.3); font-size:0.75rem; padding:2px 8px; border-radius:6px; font-weight:700;">All Time</span>
+            </div>
             <span style="font-size:0.85rem; color:var(--text-muted);">Recruiter breakdown mapped to assigned Team Lead</span>
         </div>
         <table class="data-table" id="mgmt-recruiter-table" style="width: 100%;">
@@ -5982,12 +6031,212 @@ async function viewRemarks(candidateId, candidateName) {
     }
 }
 
-async function loadManagementAnalytics() {
+let currentMgmtTimeframe = 'all';
+let currentMgmtData = null;
+
+function switchMgmtReport(timeframe) {
+    currentMgmtTimeframe = timeframe;
+    
+    // Update active button styles
+    const buttons = {
+        'daily': document.getElementById('btn-report-daily'),
+        'weekly': document.getElementById('btn-report-weekly'),
+        'monthly': document.getElementById('btn-report-monthly'),
+        'all': document.getElementById('btn-report-all')
+    };
+    
+    Object.keys(buttons).forEach(key => {
+        const btn = buttons[key];
+        if (!btn) return;
+        if (key === timeframe) {
+            btn.classList.add('active');
+            btn.style.background = '#3b82f6';
+            btn.style.color = '#ffffff';
+        } else {
+            btn.classList.remove('active');
+            btn.style.background = 'transparent';
+            btn.style.color = '#94a3b8';
+        }
+    });
+
+    const meta = {
+        daily: {
+            icon: '📅',
+            title: 'Daily Executive Report (Today)',
+            subtitle: 'Real-time performance snapshot for Today across Recruiters, Team Leads, and Account Managers',
+            tag: 'Daily (Today)'
+        },
+        weekly: {
+            icon: '📆',
+            title: 'Weekly Executive Report (Past 7 Days)',
+            subtitle: 'Rolling 7-day performance metrics across Recruiters, Team Leads, and Account Managers',
+            tag: 'Weekly (Past 7 Days)'
+        },
+        monthly: {
+            icon: '🗓️',
+            title: 'Monthly Executive Report (Past 30 Days)',
+            subtitle: '30-day cumulative recruitment and placement analysis across all tiers',
+            tag: 'Monthly (Past 30 Days)'
+        },
+        all: {
+            icon: '🌐',
+            title: 'All Time Executive Report',
+            subtitle: 'Full historical recruitment pipeline performance across Recruiters, Team Leads, and Account Managers',
+            tag: 'All Time'
+        }
+    }[timeframe] || {
+        icon: '📊',
+        title: 'Executive Report',
+        subtitle: 'Recruitment performance across tiers',
+        tag: timeframe
+    };
+
+    const iconEl = document.getElementById('mgmt-banner-icon');
+    const titleEl = document.getElementById('mgmt-banner-title');
+    const subtitleEl = document.getElementById('mgmt-banner-subtitle');
+    const tlTag = document.getElementById('mgmt-tl-timeframe-tag');
+    const amTag = document.getElementById('mgmt-am-timeframe-tag');
+    const recTag = document.getElementById('mgmt-rec-timeframe-tag');
+
+    if (iconEl) iconEl.innerText = meta.icon;
+    if (titleEl) titleEl.innerText = meta.title;
+    if (subtitleEl) subtitleEl.innerText = meta.subtitle;
+    if (tlTag) tlTag.innerText = meta.tag;
+    if (amTag) amTag.innerText = meta.tag;
+    if (recTag) recTag.innerText = meta.tag;
+
+    loadManagementAnalytics(timeframe);
+}
+
+function exportManagementReport() {
+    if (!currentMgmtData) {
+        showToast('error', 'Report data is not yet loaded.');
+        return;
+    }
+    const d = currentMgmtData;
+    const tf = (currentMgmtTimeframe || 'all').toUpperCase();
+    const range = d.rangeDisplay || 'All Time';
+    const lines = [];
+
+    const csvCell = (val) => {
+        if (val === null || val === undefined) return '""';
+        const str = String(val).replace(/"/g, '""');
+        return `"${str}"`;
+    };
+
+    lines.push(`RECRUITGO MANAGEMENT EXECUTIVE REPORT - ${tf}`);
+    lines.push(`Reporting Period: ${csvCell(range)}`);
+    lines.push(`Generated On: ${csvCell(new Date().toLocaleString())}`);
+    lines.push('');
+
+    // SECTION 1: EXECUTIVE SUMMARY
+    lines.push('--- EXECUTIVE SUMMARY METRICS ---');
+    lines.push(['Total Clients', 'Total Spokes', 'Live Roles', 'Submissions', 'Interviews Done', 'Selections Done', 'Offers Released', 'Total Joined', 'Total Backouts', 'Backout Ratio %'].map(csvCell).join(','));
+    lines.push([
+        d.totalClients ?? 0,
+        d.totalSpokes ?? 0,
+        d.totalLiveRoles ?? 0,
+        d.totalSubmissions ?? 0,
+        d.interviewsDone ?? 0,
+        d.selectionsDone ?? 0,
+        d.offersReleased ?? 0,
+        d.totalJoined ?? 0,
+        d.totalBackouts ?? 0,
+        (d.backoutRatio ?? 0) + '%'
+    ].map(csvCell).join(','));
+    lines.push('');
+
+    // SECTION 2: TEAM LEAD PERFORMANCE
+    lines.push('--- TEAM LEAD PERFORMANCE ---');
+    lines.push(['Team Lead Name', 'Email', 'Team Members Managed', 'Submissions', 'Interviews', 'Selections', 'Offers', 'Joinings', 'Backouts'].map(csvCell).join(','));
+    if (Array.isArray(d.teamLeadPerformance) && d.teamLeadPerformance.length > 0) {
+        d.teamLeadPerformance.forEach(tl => {
+            const memberCount = tl.team_members_count != null ? tl.team_members_count : (tl.team_members ? tl.team_members.length : 0);
+            lines.push([
+                tl.tl_name || 'N/A',
+                tl.tl_email || '',
+                memberCount,
+                tl.submissions ?? 0,
+                tl.interviews ?? 0,
+                tl.selections ?? 0,
+                tl.offers ?? 0,
+                tl.joinings ?? 0,
+                tl.backouts ?? 0
+            ].map(csvCell).join(','));
+        });
+    } else {
+        lines.push('No Team Lead records found');
+    }
+    lines.push('');
+
+    // SECTION 3: ACCOUNT MANAGER PERFORMANCE
+    lines.push('--- ACCOUNT MANAGER PERFORMANCE ---');
+    lines.push(['Account Manager', 'Client Name', 'Spoke Name', 'Roles Received', 'Submissions', 'Interviews', 'Selections', 'Offers', 'Joinings', 'Backouts'].map(csvCell).join(','));
+    if (Array.isArray(d.amPerformance) && d.amPerformance.length > 0) {
+        d.amPerformance.forEach(am => {
+            lines.push([
+                am.am_name || 'N/A',
+                am.client_name || '',
+                am.spoke_name || 'General Spoke',
+                am.roles_received ?? 0,
+                am.submissions ?? 0,
+                am.interviews ?? 0,
+                am.selections ?? 0,
+                am.offers ?? 0,
+                am.joinings ?? 0,
+                am.backouts ?? 0
+            ].map(csvCell).join(','));
+        });
+    } else {
+        lines.push('No Account Manager records found');
+    }
+    lines.push('');
+
+    // SECTION 4: RECRUITER PERFORMANCE
+    lines.push('--- RECRUITER PERFORMANCE ---');
+    lines.push(['Recruiter Name', 'Email', 'Assigned Team Lead', 'Submissions', 'Interviews', 'Selections', 'Offers', 'Joinings', 'Backouts'].map(csvCell).join(','));
+    if (Array.isArray(d.recruiterPerformance) && d.recruiterPerformance.length > 0) {
+        d.recruiterPerformance.forEach(r => {
+            lines.push([
+                r.recruiter_name || 'N/A',
+                r.recruiter_email || '',
+                r.tl_name || 'Unassigned',
+                r.submissions ?? 0,
+                r.interviews ?? 0,
+                r.selections ?? 0,
+                r.offers ?? 0,
+                r.joinings ?? 0,
+                r.backouts ?? 0
+            ].map(csvCell).join(','));
+        });
+    } else {
+        lines.push('No Recruiter records found');
+    }
+
+    const csvContent = '\uFEFF' + lines.join('\r\n');
+    const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `RecruitGO_${tf}_Executive_Report_${new Date().toISOString().slice(0, 10)}.csv`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+    showToast('success', `Exported ${tf} Executive Report to CSV successfully!`);
+}
+
+async function loadManagementAnalytics(timeframe = currentMgmtTimeframe) {
     try {
-        const res = await fetch('/api/analytics/management');
+        const res = await fetch('/api/analytics/management?timeframe=' + encodeURIComponent(timeframe));
         const data = await res.json();
         
         if (data && !data.error) {
+            currentMgmtData = data;
+            const rangeEl = document.getElementById('mgmt-banner-range');
+            if (rangeEl && data.rangeDisplay) {
+                rangeEl.innerText = data.rangeDisplay;
+            }
             const totalClients = data.totalClients ?? 0;
             const totalSpokes = data.totalSpokes ?? 0;
             const totalLiveRoles = data.totalLiveRoles ?? 0;
@@ -6333,12 +6582,12 @@ function selectLocalRole(role) {
         if (mv) mv.style.display = 'block'; 
         if (typeof loadManagementAnalytics === 'function') loadManagementAnalytics();
         
-        // Remove Job roles, Candidates, Clients, Submissions, Calendar, Scan Resumes from Management Admin navbar
-        ['nav-team-info', 'nav-ai-insights', 'nav-scan-resumes', 'nav-settings'].forEach(id => {
+        // Management Admin navbar: Team Info, AI Insights, Settings only (Scan Resumes removed)
+        ['nav-team-info', 'nav-ai-insights', 'nav-settings'].forEach(id => {
             const el = document.getElementById(id);
             if (el) el.style.display = 'flex';
         });
-        ['nav-jobs', 'nav-candidates', 'nav-clients', 'nav-submissions', 'nav-calendar', 'nav-tl-qc'].forEach(id => {
+        ['nav-jobs', 'nav-candidates', 'nav-clients', 'nav-submissions', 'nav-calendar', 'nav-tl-qc', 'nav-scan-resumes'].forEach(id => {
             const el = document.getElementById(id);
             if (el) el.style.display = 'none';
         });
