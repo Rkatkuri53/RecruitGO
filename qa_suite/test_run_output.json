@@ -8,280 +8,280 @@
       "category": "AUTH",
       "status": "PASS",
       "details": "Role: Recruiter",
-      "latencyMs": 256
+      "latencyMs": 112
     },
     {
       "name": "Team Lead Login",
       "category": "AUTH",
       "status": "PASS",
       "details": "Role: TeamLead",
-      "latencyMs": 415
+      "latencyMs": 80
     },
     {
       "name": "Account Manager Login",
       "category": "AUTH",
       "status": "PASS",
       "details": "Role: AccountManager",
-      "latencyMs": 105
+      "latencyMs": 89
     },
     {
       "name": "Management Admin Login",
       "category": "AUTH",
       "status": "PASS",
       "details": "Role: Management",
-      "latencyMs": 187
+      "latencyMs": 91
     },
     {
       "name": "Reject Invalid Credentials",
       "category": "AUTH",
       "status": "PASS",
       "details": "Expected 401, got 401",
-      "latencyMs": 108
+      "latencyMs": 100
     },
     {
       "name": "Team Members Directory",
       "category": "USERS",
       "status": "PASS",
       "details": "Count: 12",
-      "latencyMs": 176
+      "latencyMs": 80
     },
     {
       "name": "Fetch Active Clients",
       "category": "CLIENTS",
       "status": "PASS",
-      "details": "Clients: 6",
-      "latencyMs": 136
+      "details": "Clients: 7",
+      "latencyMs": 94
     },
     {
       "name": "Create Corporate Client (ATS Provenance)",
       "category": "CLIENTS",
       "status": "PASS",
-      "details": "Client: QA_AcmeCorp_1792145413303",
-      "latencyMs": 382
+      "details": "Client: QA_AcmeCorp_1792239117906",
+      "latencyMs": 215
     },
     {
       "name": "Add Spoke Person to Client",
       "category": "SPOKES",
       "status": "PASS",
       "details": "Spoke: John Spoke QA",
-      "latencyMs": 179
+      "latencyMs": 172
     },
     {
       "name": "Create ATS Job Requisition",
       "category": "JOBS",
       "status": "PASS",
-      "details": "Job ID: job_1792145413864liar",
-      "latencyMs": 513
+      "details": "Job ID: job_1792239118296v59x",
+      "latencyMs": 258
     },
     {
       "name": "Fetch Active Jobs List",
       "category": "JOBS",
       "status": "PASS",
       "details": "Total: 8",
-      "latencyMs": 176
+      "latencyMs": 189
     },
     {
       "name": "Filter Jobs by Client",
       "category": "JOBS",
       "status": "PASS",
       "details": "Matches: 8",
-      "latencyMs": 212
+      "latencyMs": 113
     },
     {
       "name": "Create Candidate in Talent Vault",
       "category": "CANDIDATES",
       "status": "PASS",
-      "details": "Candidate ID: cand_1792145415023kfpq",
-      "latencyMs": 756
+      "details": "Candidate ID: cand_1792239119088n9hg",
+      "latencyMs": 539
     },
     {
       "name": "Ingest Local Scanned Resume to Talent DB",
       "category": "CANDIDATES",
       "status": "PASS",
-      "details": "Candidate Code: CAND-1032",
-      "latencyMs": 440
+      "details": "Candidate Code: CAND-1072",
+      "latencyMs": 599
     },
     {
       "name": "Search Candidates by Name/Skill",
       "category": "CANDIDATES",
       "status": "PASS",
-      "details": "Results: 37",
-      "latencyMs": 313
+      "details": "Results: 50",
+      "latencyMs": 178
     },
     {
       "name": "Recruiter Submit Candidate to Team Lead QC",
       "category": "ATS_SUBMISSION",
       "status": "PASS",
-      "details": "Submission ID: SUB-3010",
-      "latencyMs": 1325
+      "details": "Submission ID: SUB-3015",
+      "latencyMs": 958
     },
     {
       "name": "Team Lead QC Inbox Populated",
       "category": "TL_QC",
       "status": "PASS",
-      "details": "Pending QC Items: 1",
-      "latencyMs": 205
+      "details": "Pending QC Items: 3",
+      "latencyMs": 173
     },
     {
       "name": "TL QC Rejection with Mandatory Reason Code",
       "category": "TL_QC",
       "status": "PASS",
       "details": "Status: Rejected by TL",
-      "latencyMs": 1672
+      "latencyMs": 798
     },
     {
       "name": "TL QC Approval forwards to AM Queue",
       "category": "TL_QC",
       "status": "PASS",
       "details": "Status: Submitted to AM",
-      "latencyMs": 1012
+      "latencyMs": 877
     },
     {
       "name": "AM Inbox Populated with TL-Cleared Submissions",
       "category": "AM_DESK",
       "status": "PASS",
-      "details": "AM Queue: 8",
-      "latencyMs": 315
+      "details": "AM Queue: 10",
+      "latencyMs": 234
     },
     {
       "name": "AM Dispatches to Client Spoke (Generates Token)",
       "category": "AM_DESK",
       "status": "PASS",
-      "details": "Token: 8b20425def...",
-      "latencyMs": 978
+      "details": "Token: 767ede2126...",
+      "latencyMs": 520
     },
     {
       "name": "Client Spoke Web Page Route Available (/portal/review)",
       "category": "PORTAL",
       "status": "PASS",
       "details": "Served standalone HTML",
-      "latencyMs": 21
+      "latencyMs": 5
     },
     {
       "name": "Client Spoke API Loads Candidate Dossier",
       "category": "PORTAL",
       "status": "PASS",
       "details": "Candidate: Alex Mercer QA",
-      "latencyMs": 276
+      "latencyMs": 158
     },
     {
       "name": "Client Spoke 1-Click Shortlist & Auto-Schedule",
       "category": "PORTAL",
       "status": "PASS",
       "details": "Status: Interview Scheduled",
-      "latencyMs": 1056
+      "latencyMs": 567
     },
     {
       "name": "Interview Event Auto-Inserted in ATS Calendar",
       "category": "CALENDAR",
       "status": "PASS",
-      "details": "Total Scheduled: 8",
-      "latencyMs": 188
+      "details": "Total Scheduled: 12",
+      "latencyMs": 111
     },
     {
       "name": "Advance Pipeline: Selected -> Offered",
       "category": "FUNNEL",
       "status": "PASS",
       "details": "New Status: Offered",
-      "latencyMs": 1193
+      "latencyMs": 734
     },
     {
       "name": "Advance Pipeline: Offered -> Joined",
       "category": "FUNNEL",
       "status": "PASS",
       "details": "New Status: Joined",
-      "latencyMs": 671
+      "latencyMs": 2213
     },
     {
       "name": "Recruiter Performance Funnel Table",
       "category": "MANAGEMENT",
       "status": "PASS",
       "details": "Recruiters: 5",
-      "latencyMs": 938
+      "latencyMs": 2555
     },
     {
       "name": "Team Lead Performance Funnel Table",
       "category": "MANAGEMENT",
       "status": "PASS",
       "details": "Team Leads: 3",
-      "latencyMs": 938
+      "latencyMs": 2555
     },
     {
       "name": "Account Manager Performance Funnel Table",
       "category": "MANAGEMENT",
       "status": "PASS",
-      "details": "Account Managers: 9",
-      "latencyMs": 938
+      "details": "Account Managers: 8",
+      "latencyMs": 2555
     },
     {
       "name": "Client & Spoke Breakdown Tables",
       "category": "MANAGEMENT",
       "status": "PASS",
-      "details": "Clients: 7, Spokes: 6",
-      "latencyMs": 938
+      "details": "Clients: 8, Spokes: 5",
+      "latencyMs": 2555
     },
     {
       "name": "SQL Injection Resistance on Candidate Search",
       "category": "SECURITY",
       "status": "PASS",
       "details": "Parameterized query handled safely",
-      "latencyMs": 154
+      "latencyMs": 417
     },
     {
       "name": "SQL Injection Resistance on Filter Queries",
       "category": "SECURITY",
       "status": "PASS",
       "details": "Safe parameterized execution",
-      "latencyMs": 111
+      "latencyMs": 224
     },
     {
       "name": "Tampered Review Token Rejection",
       "category": "SECURITY",
       "status": "PASS",
       "details": "Status: 404",
-      "latencyMs": 105
+      "latencyMs": 218
     },
     {
       "name": "Duplicate Candidate Submission Prevention",
       "category": "INTEGRITY",
       "status": "PASS",
       "details": "Response: Candidate is already active for this job (Status: Joined)",
-      "latencyMs": 101
+      "latencyMs": 261
     },
     {
       "name": "Endpoint Latency: GET /api/jobs",
       "category": "PERF",
       "status": "PASS",
-      "details": "216ms (Threshold < 500ms)",
-      "latencyMs": 216
+      "details": "189ms (Threshold < 500ms)",
+      "latencyMs": 189
     },
     {
       "name": "Endpoint Latency: GET /api/candidates",
       "category": "PERF",
       "status": "PASS",
-      "details": "200ms (Threshold < 500ms)",
-      "latencyMs": 200
+      "details": "154ms (Threshold < 500ms)",
+      "latencyMs": 154
     },
     {
       "name": "Endpoint Latency: GET /api/ats/analytics/management",
       "category": "PERF",
       "status": "PASS",
-      "details": "328ms (Threshold < 500ms)",
-      "latencyMs": 328
+      "details": "248ms (Threshold < 500ms)",
+      "latencyMs": 248
     },
     {
       "name": "Endpoint Latency: GET /api/team",
       "category": "PERF",
       "status": "PASS",
-      "details": "143ms (Threshold < 500ms)",
-      "latencyMs": 143
+      "details": "126ms (Threshold < 500ms)",
+      "latencyMs": 126
     },
     {
       "name": "Endpoint Latency: GET /api/clients",
       "category": "PERF",
       "status": "PASS",
-      "details": "140ms (Threshold < 500ms)",
-      "latencyMs": 140
+      "details": "120ms (Threshold < 500ms)",
+      "latencyMs": 120
     }
   ],
   "timings": {}

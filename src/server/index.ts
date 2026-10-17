@@ -32,6 +32,13 @@ const ai = new AIService();
 const booleanAgent = new BooleanAgent(ai);
 
 app.use(cors());
+app.use((req, res, next) => {
+    res.setHeader('X-Content-Type-Options', 'nosniff');
+    res.setHeader('X-Frame-Options', 'SAMEORIGIN');
+    res.setHeader('X-XSS-Protection', '1; mode=block');
+    res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
+    next();
+});
 app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use(express.static(path.join(__dirname, '../../public'), {
@@ -1047,20 +1054,27 @@ app.post('/api/open-file', async (req, res) => {
         }
 
         const resolvedPath = path.resolve(filePath);
+        const allowedBase = path.resolve(__dirname, '../../');
+        if (!resolvedPath.startsWith(allowedBase) && !resolvedPath.startsWith(process.cwd())) {
+            return res.status(403).json({ error: 'Access denied: Invalid file path.' });
+        }
 
         if (!fs.existsSync(resolvedPath)) {
             return res.status(404).json({ error: 'File not found on disk.' });
         }
 
-        // Security: Use execFile instead of exec to prevent command injection
-        const { execFile } = await import('child_process');
-        execFile('cmd', ['/c', 'start', '""', resolvedPath], (err) => {
-            if (err) {
-                emitLog('error', `[SYSTEM] Failed to open file: ${err.message}`);
-                return res.status(500).json({ error: 'Failed to open file' });
-            }
-            res.json({ success: true });
-        });
+        if (process.platform === 'win32') {
+            const { execFile } = await import('child_process');
+            execFile('cmd', ['/c', 'start', '""', resolvedPath], (err) => {
+                if (err) {
+                    emitLog('error', `[SYSTEM] Failed to open file: ${err.message}`);
+                    return res.status(500).json({ error: 'Failed to open file' });
+                }
+                res.json({ success: true });
+            });
+        } else {
+            res.json({ success: true, message: 'File verified on server' });
+        }
     } catch (e: any) {
         res.status(500).json({ error: 'Failed to open file: ' + e.message });
     }
@@ -2412,7 +2426,7 @@ app.post(['/api/spoke_persons', '/api/spokes'], async (req, res) => {
 
         const db = await initDb();
         const existing = await db.get(
-            'SELECT id FROM spoke_persons WHERE client_id = ? AND (LOWER(name) = LOWER(?) OR (email != "" AND LOWER(email) = LOWER(?)))',
+            'SELECT id FROM spoke_persons WHERE client_id = ? AND (LOWER(name) = LOWER(?) OR (email != \'\' AND LOWER(email) = LOWER(?)))',
             [client_id, name.trim(), (email || '').trim()]
         );
         if (existing) {
@@ -2425,7 +2439,7 @@ app.post(['/api/spoke_persons', '/api/spokes'], async (req, res) => {
             [id, client_id, name.trim(), email || '', contact_info || '']
         );
         agentEvents.emit('db_update', { action: 'refresh_am_dashboard' });
-        res.json({ success: true, spokePerson: { id, client_id, name, email, contact_info } });
+        res.json({ success: true, id, spokePerson: { id, client_id, name, email, contact_info } });
     } catch (e: any) {
         res.status(500).json({ error: e.message });
     }
@@ -2669,7 +2683,8 @@ app.post('/api/ats/candidates/check-duplicate', async (req, res) => {
             match = await db.get('SELECT * FROM candidates WHERE LOWER(email) = ?', [cleanEmail]);
         }
         if (!match && cleanPhone && cleanPhone.length >= 7) {
-            match = await db.get("SELECT * FROM candidates WHERE regexp_replace(phone, '[^0-9+]', '', 'g') = ?", [cleanPhone]);
+            const phoneDigits = cleanPhone.slice(-8);
+            match = await db.get("SELECT * FROM candidates WHERE phone LIKE ? OR phone = ?", [`%${phoneDigits}%`, cleanPhone]);
         }
         
         if (match) {
@@ -2714,7 +2729,8 @@ app.post('/api/ats/candidates', async (req, res) => {
             existing = await db.get('SELECT * FROM candidates WHERE LOWER(email) = ?', [cleanEmail]);
         }
         if (!existing && cleanPhone && cleanPhone.length >= 7) {
-            existing = await db.get("SELECT * FROM candidates WHERE regexp_replace(phone, '[^0-9+]', '', 'g') = ?", [cleanPhone]);
+            const phoneDigits = cleanPhone.slice(-8);
+            existing = await db.get("SELECT * FROM candidates WHERE phone LIKE ? OR phone = ?", [`%${phoneDigits}%`, cleanPhone]);
         }
         
         if (existing) {
@@ -2872,7 +2888,7 @@ app.get('/api/ats/my-roles', async (req, res) => {
             query += ` AND (
                 j.assigned_recruiter = ? 
                 OR j.id IN (SELECT job_id FROM job_assignments WHERE recruiter_id = ?)
-                OR (j.assigned_recruiters IS NOT NULL AND j.assigned_recruiters::text LIKE ?)
+                OR (j.assigned_recruiters IS NOT NULL AND CAST(j.assigned_recruiters AS TEXT) LIKE ?)
                 OR j.assigned_recruiter IS NULL OR j.assigned_recruiter = ''
             )`;
             params.push(userId, userId, `%"${userId}"%`);
@@ -3504,7 +3520,7 @@ app.get('/api/ats/jobs/detailed', async (req, res) => {
             params.push(status);
         }
         if (recruiter_id) {
-            query += ` AND (j.assigned_recruiter = ? OR j.assigned_recruiters::text LIKE ?)`;
+            query += ` AND (j.assigned_recruiter = ? OR CAST(j.assigned_recruiters AS TEXT) LIKE ?)`;
             params.push(recruiter_id, `%"${recruiter_id}"%`);
         }
         if (tl_id) {
@@ -3685,7 +3701,7 @@ app.post('/api/ats/clients', async (req, res) => {
         
         emitLog('success', `[ATS] New client onboarded: ${company_name.trim()}`);
         agentEvents.emit('db_update', { action: 'refresh_clients' });
-        res.json({ success: true, client: { id, company_name: company_name.trim() } });
+        res.json({ success: true, id, client: { id, company_name: company_name.trim() } });
     } catch (e: any) {
         console.error('Create client error:', e);
         res.status(500).json({ error: e.message });
@@ -3959,7 +3975,8 @@ app.post(['/api/ats/local-resumes/ingest', '/api/ats/ingest-local'], async (req,
             existing = await db.get('SELECT * FROM candidates WHERE LOWER(email) = ?', [cleanEmail]);
         }
         if (!existing && cleanPhone && cleanPhone.length >= 7) {
-            existing = await db.get("SELECT * FROM candidates WHERE regexp_replace(phone, '[^0-9+]', '', 'g') = ?", [cleanPhone]);
+            const phoneDigits = cleanPhone.slice(-8);
+            existing = await db.get("SELECT * FROM candidates WHERE phone LIKE ? OR phone = ?", [`%${phoneDigits}%`, cleanPhone]);
         }
 
         if (existing) {
