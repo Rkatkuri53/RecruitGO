@@ -380,12 +380,24 @@ window.handleCvUpload = async function(event) {
 };
 
 window.submitNewCandidate = async function() {
+    const saveBtn = document.getElementById('btn-save-candidate');
     const name = document.getElementById('add-cand-name')?.value.trim();
     const email = document.getElementById('add-cand-email')?.value.trim();
     const phone = document.getElementById('add-cand-phone')?.value.trim();
 
-    if (!name || !email || !phone) {
-        if (typeof window.showToast === 'function') window.showToast('error', 'Name, Email, and Phone are required fields.');
+    const notify = (type, msg) => {
+        if (typeof window.showToast === 'function') window.showToast(type, msg);
+        else if (typeof showToast === 'function') showToast(type, msg);
+        else alert(msg);
+    };
+
+    if (!name) {
+        notify('error', 'Candidate Full Name is required.');
+        return;
+    }
+
+    if (!email && !phone) {
+        notify('error', 'Please provide either an Email address or Phone number for deduplication.');
         return;
     }
 
@@ -410,8 +422,16 @@ window.submitNewCandidate = async function() {
         resume_path: document.getElementById('add-cand-cv-path')?.value.trim(),
         rtr_path: document.getElementById('add-cand-rtr-path')?.value.trim(),
         rtr_confirmed: document.getElementById('add-cand-rtr-confirmed')?.checked,
-        recruiter_id: currentUser ? currentUser.id : null
+        recruiter_id: currentUser ? currentUser.id : null,
+        created_by_user_id: currentUser ? currentUser.id : null,
+        created_by_name: currentUser ? currentUser.name : null,
+        created_by_role: currentUser ? currentUser.role : null
     };
+
+    if (saveBtn) {
+        saveBtn.disabled = true;
+        saveBtn.innerText = '⏳ Saving Candidate...';
+    }
 
     try {
         const res = await fetch('/api/ats/candidates', {
@@ -428,16 +448,23 @@ window.submitNewCandidate = async function() {
 
         if (data.success) {
             closeAddCandidateModal();
-            if (typeof window.showToast === 'function') {
-                window.showToast('success', `Candidate ${data.candidate_code || ''} saved to ATS database!`);
-            }
-            loadAtsCandidates();
+            const candCode = data.candidate_code || (data.candidate && data.candidate.candidate_code) || '';
+            notify('success', `Candidate ${candCode ? `(${candCode}) ` : ''}saved to ATS database!`);
+            if (typeof loadAtsCandidates === 'function') loadAtsCandidates();
+            if (typeof window.loadAtsCandidates === 'function' && window.loadAtsCandidates !== loadAtsCandidates) window.loadAtsCandidates();
+            const candJobId = document.getElementById('cand-job-id')?.value;
+            if (candJobId && typeof loadCandidates === 'function') loadCandidates(candJobId);
         } else {
-            if (typeof window.showToast === 'function') window.showToast('error', 'Error creating candidate: ' + (data.error || 'Server error'));
+            notify('error', 'Error creating candidate: ' + (data.error || 'Server error'));
         }
     } catch (e) {
         console.error('Save candidate error:', e);
-        if (typeof window.showToast === 'function') window.showToast('error', 'Network error communicating with ATS backend.');
+        notify('error', 'Network error communicating with ATS backend: ' + e.message);
+    } finally {
+        if (saveBtn) {
+            saveBtn.disabled = false;
+            saveBtn.innerText = '💾 Save Candidate to ATS Database';
+        }
     }
 };
 

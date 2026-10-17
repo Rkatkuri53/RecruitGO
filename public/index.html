@@ -710,10 +710,28 @@ function openAddCandidateModal() {
     if (modal) modal.style.display = 'flex';
 }
 
-function showAddCandStep2() {
-    if (typeof switchIngestionTab === 'function') {
-        switchIngestionTab('manual');
+function switchIngestionTab(tab) {
+    const cvTab = document.getElementById('ingest-tab-cv');
+    const manualTab = document.getElementById('ingest-tab-manual');
+    const btnCv = document.getElementById('tab-btn-cv');
+    const btnManual = document.getElementById('tab-btn-manual');
+
+    if (tab === 'cv') {
+        if (cvTab) cvTab.style.display = 'block';
+        if (manualTab) manualTab.style.display = 'none';
+        if (btnCv) btnCv.classList.add('active');
+        if (btnManual) btnManual.classList.remove('active');
+    } else {
+        if (cvTab) cvTab.style.display = 'none';
+        if (manualTab) manualTab.style.display = 'block';
+        if (btnCv) btnCv.classList.remove('active');
+        if (btnManual) btnManual.classList.add('active');
     }
+}
+window.switchIngestionTab = switchIngestionTab;
+
+function showAddCandStep2() {
+    switchIngestionTab('manual');
     const s1 = document.getElementById('add-cand-step1');
     const s2 = document.getElementById('add-cand-step2');
     if (s1) s1.style.display = 'none';
@@ -728,6 +746,47 @@ function closeAddCandidateModal() {
     const modal = document.getElementById('add-candidate-modal');
     if (modal) modal.style.display = 'none';
 }
+
+async function checkCandidateDuplicate(field, val) {
+    if (window.checkCandidateDuplicate && window.checkCandidateDuplicate !== checkCandidateDuplicate) {
+        return window.checkCandidateDuplicate(field, val);
+    }
+    const v = (val || '').trim();
+    if (!v) return;
+    try {
+        const payload = field === 'email' ? { email: v } : { phone: v };
+        const res = await fetch('/api/ats/candidates/check-duplicate', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        const banner = document.getElementById('cand-dup-banner');
+        const saveBtn = document.getElementById('btn-save-candidate');
+        if (data.exists && data.candidate) {
+            if (banner) {
+                banner.style.display = 'block';
+                const title = document.getElementById('dup-banner-title');
+                const text = document.getElementById('dup-banner-text');
+                if (title) title.innerText = '⚠️ Duplicate Candidate Detected In Database!';
+                if (text) text.innerHTML = `<strong>${data.candidate.name || 'Candidate'}</strong> (${data.candidate.candidate_code || 'ID'}) already registered with this ${field}.`;
+            }
+            if (saveBtn) {
+                saveBtn.disabled = true;
+                saveBtn.style.opacity = '0.5';
+            }
+        } else {
+            if (banner) banner.style.display = 'none';
+            if (saveBtn) {
+                saveBtn.disabled = false;
+                saveBtn.style.opacity = '1';
+            }
+        }
+    } catch (e) {
+        console.error('Duplicate check error:', e);
+    }
+}
+window.checkCandidateDuplicate = checkCandidateDuplicate;
 
 async function handleCvUpload(event) {
     if (window.handleCvUpload && window.handleCvUpload !== handleCvUpload) {
@@ -769,21 +828,19 @@ async function handleCvUpload(event) {
                 setVal('add-cand-skills', Array.isArray(d.skills) ? d.skills.join(', ') : d.skills);
                 setVal('add-cand-cv-path', d.cv_path || ('resumes/' + file.name));
                 
-                if (typeof switchIngestionTab === 'function') {
-                    switchIngestionTab('manual');
-                }
-                if (d.email && typeof checkCandidateDuplicate === 'function') checkCandidateDuplicate('email', d.email);
-                else if (d.phone && typeof checkCandidateDuplicate === 'function') checkCandidateDuplicate('phone', d.phone);
+                switchIngestionTab('manual');
+                if (d.email) checkCandidateDuplicate('email', d.email);
+                else if (d.phone) checkCandidateDuplicate('phone', d.phone);
 
-                showToast('success', 'CV Parsed & Auto-Filled Successfully!');
+                if (typeof showToast === 'function') showToast('success', 'CV Parsed & Auto-Filled Successfully!');
             } else {
-                showToast('error', result.error || 'Failed to parse CV');
-                if (typeof switchIngestionTab === 'function') switchIngestionTab('manual');
+                if (typeof showToast === 'function') showToast('error', result.error || 'Failed to parse CV');
+                switchIngestionTab('manual');
             }
         } catch (err) {
             console.error('CV upload error:', err);
-            showToast('error', 'Network error during CV parsing');
-            if (typeof switchIngestionTab === 'function') switchIngestionTab('manual');
+            if (typeof showToast === 'function') showToast('error', 'Network error during CV parsing');
+            switchIngestionTab('manual');
         } finally {
             if (loading) loading.style.display = 'none';
             if (dropZone) dropZone.style.display = 'block';
@@ -796,49 +853,92 @@ async function submitNewCandidate() {
     if (window.submitNewCandidate && window.submitNewCandidate !== submitNewCandidate) {
         return window.submitNewCandidate();
     }
-    const name = document.getElementById('add-cand-name').value.trim();
-    const email = document.getElementById('add-cand-email').value.trim();
-    const phone = document.getElementById('add-cand-phone').value.trim();
-    const headline = document.getElementById('add-cand-headline').value.trim();
+    const saveBtn = document.getElementById('btn-save-candidate');
+    const name = document.getElementById('add-cand-name')?.value.trim();
+    const email = document.getElementById('add-cand-email')?.value.trim();
+    const phone = document.getElementById('add-cand-phone')?.value.trim();
+
+    const notify = (type, msg) => {
+        if (typeof showToast === 'function') showToast(type, msg);
+        else alert(msg);
+    };
     
     if (!name) {
-        alert('Name is required');
+        notify('error', 'Full Name is required');
+        return;
+    }
+    if (!email && !phone) {
+        notify('error', 'Please provide either an Email address or Phone number for deduplication');
         return;
     }
     
-    // Get active user for recruiter_id
     const userStr = localStorage.getItem('currentUser');
     const user = userStr ? JSON.parse(userStr) : null;
+
+    const payload = {
+        name,
+        email,
+        phone,
+        headline: document.getElementById('add-cand-headline')?.value.trim(),
+        current_company: document.getElementById('add-cand-company')?.value.trim(),
+        location: document.getElementById('add-cand-location')?.value.trim(),
+        relocation_preferred: document.getElementById('add-cand-relocation')?.value,
+        experience_years: document.getElementById('add-cand-exp')?.value.trim(),
+        current_salary: document.getElementById('add-cand-current-salary')?.value.trim(),
+        expected_salary: document.getElementById('add-cand-expected-salary')?.value.trim(),
+        notice_period: document.getElementById('add-cand-notice')?.value,
+        visa_status: document.getElementById('add-cand-visa')?.value,
+        source: document.getElementById('add-cand-source')?.value,
+        skills: document.getElementById('add-cand-skills')?.value.trim(),
+        resume_path: document.getElementById('add-cand-cv-path')?.value.trim(),
+        rtr_path: document.getElementById('add-cand-rtr-path')?.value.trim(),
+        rtr_confirmed: document.getElementById('add-cand-rtr-confirmed')?.checked,
+        recruiter_id: user ? user.id : null,
+        created_by_user_id: user ? user.id : null,
+        created_by_name: user ? user.name : null,
+        created_by_role: user ? user.role : null
+    };
+
+    if (saveBtn) {
+        saveBtn.disabled = true;
+        saveBtn.innerText = '⏳ Saving Candidate...';
+    }
     
     try {
-        const res = await fetch('/api/candidates', {
+        const res = await fetch('/api/ats/candidates', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                name,
-                email,
-                phone,
-                headline,
-                recruiter_id: user ? user.id : null,
-                job_id: null // Manually added to the general hub
-            })
+            body: JSON.stringify(payload)
         });
         
         const data = await res.json();
+        if (res.status === 409) {
+            notify('warn', data.error || 'Duplicate candidate detected');
+            return;
+        }
+
         if (data.success) {
             closeAddCandidateModal();
-            // Refresh Candidate Hub if we are on it
+            const candCode = data.candidate_code || (data.candidate && data.candidate.candidate_code) || '';
+            notify('success', `Candidate ${candCode ? `(${candCode}) ` : ''}saved to ATS database!`);
             if (typeof loadAtsCandidates === 'function') {
                 loadAtsCandidates();
             }
         } else {
-            alert('Error adding candidate: ' + data.error);
+            notify('error', 'Error adding candidate: ' + (data.error || 'Server error'));
         }
     } catch(e) {
         console.error(e);
-        alert('Failed to connect to server');
+        notify('error', 'Failed to connect to server: ' + e.message);
+    } finally {
+        if (saveBtn) {
+            saveBtn.disabled = false;
+            saveBtn.innerText = '💾 Save Candidate to ATS Database';
+        }
     }
 }
+window.submitNewCandidate = submitNewCandidate;
+
 
 </script>
     <meta charset="UTF-8">
@@ -3056,6 +3156,7 @@ function showToast(level, msg) {
         setTimeout(() => toast.remove(), 300); // Wait for transition
     }, 4000);
 }
+window.showToast = showToast;
 
 function addLocalLog(level, msg) {
     const time = new Date().toLocaleTimeString();

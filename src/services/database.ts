@@ -87,6 +87,9 @@ export async function initDb() {
                 }
                 try {
                     await pool.query('ALTER TABLE candidates ADD COLUMN IF NOT EXISTS last_updated TIMESTAMP DEFAULT CURRENT_TIMESTAMP');
+                    await pool.query('ALTER TABLE candidates ADD COLUMN IF NOT EXISTS skills TEXT');
+                    await pool.query('ALTER TABLE candidates ADD COLUMN IF NOT EXISTS title TEXT');
+                    await pool.query('ALTER TABLE candidates ADD COLUMN IF NOT EXISTS company TEXT');
                 } catch (colErr) {
                     // Ignored if column already exists
                 }
@@ -153,6 +156,10 @@ export async function initDb() {
         }
 
         const candidateCols = [
+            ['skills', 'TEXT'],
+            ['title', 'TEXT'],
+            ['company', 'TEXT'],
+            ['search_vector', 'TEXT'],
             ['experience_details', 'TEXT'],
             ['created_by_user_id', 'TEXT'],
             ['created_by_name', 'TEXT'],

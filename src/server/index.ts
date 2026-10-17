@@ -2828,9 +2828,10 @@ app.post('/api/ats/candidates', async (req, res) => {
         const countRow: any = await db.get("SELECT COUNT(*) as c FROM candidates");
         const nextCode = `CAND-${1000 + parseInt(countRow.c || 0) + 1}`;
         
-        const created_by_user_id = req.body.created_by_user_id || req.body.created_by || null;
+        const created_by_user_id = req.body.created_by_user_id || req.body.created_by || req.body.recruiter_id || null;
         const created_by_name = req.body.created_by_name || null;
         const created_by_role = req.body.created_by_role || null;
+        const candLocation = current_location || req.body.location || '';
 
         await db.run(`
             INSERT INTO candidates (
@@ -2842,7 +2843,7 @@ app.post('/api/ats/candidates', async (req, res) => {
             ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Available', ?, ?, ?, ?)
         `, [
             id, nextCode, name, cleanEmail, phone || '', headline || (skills || ''), skills || '',
-            experience_years || '', current_company || '', current_location || '', relocation_preferred || 'Yes',
+            experience_years || '', current_company || '', candLocation, relocation_preferred || 'Yes',
             current_salary || '', expected_salary || '', notice_period || '', visa_status || '',
             source || 'LinkedIn', resume_path || '', rtr_path || '', rtr_confirmed ? true : false,
             created_by_user_id,
@@ -2854,7 +2855,12 @@ app.post('/api/ats/candidates', async (req, res) => {
             ['pipe_' + Date.now(), id, 'Added to ATS Talent Pool']);
             
         emitLog('success', `[ATS] Candidate ${name} (${nextCode}) added to Talent Pool.`);
-        res.json({ success: true, candidate: { id, candidate_code: nextCode, name, email: cleanEmail, phone } });
+        agentEvents.emit('db_update', { table: 'candidates', action: 'insert' });
+        res.json({ 
+            success: true, 
+            candidate_code: nextCode, 
+            candidate: { id, candidate_code: nextCode, name, email: cleanEmail, phone } 
+        });
     } catch (e: any) {
         console.error('Add candidate error:', e);
         res.status(500).json({ error: e.message });
